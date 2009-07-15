@@ -2,8 +2,8 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 580
-	Sdefs: 70
+	Entries: 603
+	Sdefs: 72
 
 -->
 <dictionary>
@@ -12,8 +12,9 @@
     <sdef n="acr" /> 
     <sdef n="predet" /> 
     <sdef n="detnt" /> 
-    <sdef n="top" /> 
+    <sdef n="loc" /> 
     <sdef n="ant" /> 
+    <sdef n="cog" /> 
     <sdef n="al" /> 
     <sdef n="atn" /> 
     <sdef n="enc" /> 
@@ -76,6 +77,7 @@
     <sdef n="lpar" /> 
     <sdef n="rpar" /> 
     <sdef n="lquest" /> 
+    <sdef n="auxser" /> 
     <sdef n="web" /> 
     <sdef n="apos" /> 
     <sdef n="guio" /> 
@@ -90,15 +92,15 @@
 
     <e>
       <p>
-        <l>millardo<s n="num"/></l> 
-        <r>miliardo<s n="num"/></r> 
+        <l>decenas<b/>de<s n="num"/></l> 
+        <r>decine<b/>di<s n="num"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>decenas<b/>de<s n="num"/></l> 
-        <r>decine<b/>di<s n="num"/></r> 
+        <l>millardo<s n="num"/></l> 
+        <r>miliardo<s n="num"/></r> 
       </p>
     </e>
 
@@ -300,6 +302,13 @@
 
     <e>
       <p>
+        <l>denominado<s n="adj"/></l> 
+        <r>denominato<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>deprimido<s n="adj"/></l> 
         <r>depresso<s n="adj"/></r> 
       </p>
@@ -406,7 +415,7 @@
     <e>
       <p>
         <l>gutural<s n="adj"/></l> 
-        <r>guttural<s n="adj"/></r> 
+        <r>gutturale<s n="adj"/></r> 
       </p>
     </e>
 
@@ -456,27 +465,6 @@
       <p>
         <l>ilustrado<s n="adj"/></l> 
         <r>illustrato<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>indígeno<s n="adj"/><s n="mf"/></l> 
-        <r>indigeno<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>indígeno<s n="adj"/><s n="mf"/></l> 
-        <r>indigeno<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>indígeno<s n="adj"/><s n="mf"/></l> 
-        <r>indigeno<s n="adj"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -567,7 +555,7 @@
     <e>
       <p>
         <l>maníaco<s n="adj"/></l> 
-        <r>maniacale<s n="adj"/></r> 
+        <r>maniaco<s n="adj"/></r> 
       </p>
     </e>
 
@@ -739,10 +727,24 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>suburbial<s n="adj"/></l> 
-        <r>suburbial<s n="adj"/></r> 
+        <l>suburbial<s n="adj"/><s n="mf"/></l> 
+        <r>suburbano<s n="adj"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>suburbial<s n="adj"/><s n="mf"/></l> 
+        <r>suburbano<s n="adj"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>suburbial<s n="adj"/><s n="mf"/></l> 
+        <r>suburbano<s n="adj"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -979,6 +981,13 @@
 
     <e>
       <p>
+        <l>por<b/>ello<s n="cnjadv"/></l> 
+        <r>per<b/>questo<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>teniendo<b/>en<b/>cuenta<s n="cnjadv"/></l> 
         <r>tenendo<b/>in<b/>conto<s n="cnjadv"/></r> 
       </p>
@@ -1021,13 +1030,6 @@
 
     <e>
       <p>
-        <l>a<b/>la<b/>rumana<s n="adv"/></l> 
-        <r>alla<b/>rumena<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>a<b/>la<b/>semana<s n="adv"/></l> 
         <r>alla<b/>settimana<s n="adv"/></r> 
       </p>
@@ -1037,6 +1039,13 @@
       <p>
         <l>a<b/>mi<b/>turno<s n="adv"/></l> 
         <r>al<b/>mio<b/>turno<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a<b/>miles<s n="cnjadv"/></l> 
+        <r>a<b/>migliaia<s n="cnjadv"/></r> 
       </p>
     </e>
 
@@ -1106,18 +1115,11 @@
     <e>
       <p>
         <l>ahora<b/>mismo<s n="adv"/></l> 
-        <r>immediatamente<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>ahora<b/>mismo<s n="adv"/></l> 
         <r>proprio adesso<s n="adv"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>ahora<b/>mismo<s n="adv"/></l> 
         <r>proprio ora<s n="adv"/></r> 
@@ -1163,6 +1165,13 @@
       <p>
         <l>alguna<b/>vez<s n="adv"/></l> 
         <r>a<b/>volte<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>precedentemente<s n="adv"/></l> 
+        <r>precedentemente<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1245,13 +1254,6 @@
 
     <e>
       <p>
-        <l>casi-<s n="adv"/></l> 
-        <r>quasi<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>como<b/>consecuencia<s n="adv"/></l> 
         <r>come<b/>conseguenza<s n="adv"/></r> 
       </p>
@@ -1294,13 +1296,6 @@
 
     <e>
       <p>
-        <l>como<b/>tamaño<s n="adv"/></l> 
-        <r>come<b/>il<b/>formato<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>con<b/>hombría<s n="adv"/></l> 
         <r>con<b/>virilità<s n="adv"/></r> 
       </p>
@@ -1313,7 +1308,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>con<b/>mucho<b/>cuidado<s n="adv"/></l> 
         <r>con<b/>molta<b/>cura<s n="adv"/></r> 
@@ -1462,6 +1457,13 @@
 
     <e>
       <p>
+        <l>en<b/>breve<s n="adv"/></l> 
+        <r>a<b/>breve<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>desde<b/>el<b/>extranjero<s n="adv"/></l> 
         <r>dall'estero<s n="adv"/></r> 
       </p>
@@ -1530,17 +1532,10 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>en<b/>absoluto<s n="adv"/></l> 
         <r>in<b/>assoluto<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>en<b/>algunos<b/>casos<s n="adv"/></l> 
-        <r>in<b/>alcuni<b/>casi<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1560,22 +1555,8 @@
 
     <e>
       <p>
-        <l>en<b/>cierta<b/>medida<s n="adv"/></l> 
-        <r>fino<b/>a<b/>un<b/>certo<b/>punto<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>en<b/>ciertas<b/>condiciones<s n="adv"/></l> 
         <r>a<b/>determinate<b/>condizioni<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>en<b/>consecuencia<s n="adv"/></l> 
-        <r>di<b/>conseguenza<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1597,6 +1578,13 @@
       <p>
         <l>en<b/>segundo<b/>lugar<s n="adv"/></l> 
         <r>in<b/>secondo<b/>luogo<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en<b/>su<b/>lugar<s n="adv"/></l> 
+        <r>al<b/>suo<b/>posto<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1649,7 +1637,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>en<b/>internet<s n="adv"/></l> 
         <r>su<b/>Internet<s n="adv"/></r> 
@@ -1667,13 +1655,6 @@
       <p>
         <l>en<b/>la<b/>escala<b/>de<b/>la<b/>evolución<s n="adv"/></l> 
         <r>nella<b/>scala<b/>evolutiva<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>en<b/>la<b/>recta<b/>final<s n="adv"/></l> 
-        <r>nella<b/>parte<b/>finale<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1714,6 +1695,13 @@
 
     <e>
       <p>
+        <l>en<b/>paz<s n="adv"/></l> 
+        <r>in<b/>pace<s n="adv"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>en<b/>último<b/>lugar<s n="adv"/></l> 
         <r>in<b/>ultimo<b/>luogo<s n="adv"/></r> 
       </p>
@@ -1733,7 +1721,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>esta<b/>mañana<s n="adv"/></l> 
         <r>stamattina<s n="adv"/></r> 
@@ -1768,17 +1756,10 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>hasta<b/>la<b/>fecha<s n="adv"/></l> 
         <r>finora<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>igual<b/>de<s n="adv"/></l> 
-        <r>uguale<b/>di<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1812,8 +1793,8 @@
 
     <e>
       <p>
-        <l>meteo<s n="adv"/></l> 
-        <r>meteo<s n="adv"/></r> 
+        <l>momento<b/>en<b/>que<s n="adv"/></l> 
+        <r>momento<b/>in<b/>cui<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1826,8 +1807,8 @@
 
     <e>
       <p>
-        <l>muchas<b/>veces<s n="adv"/></l> 
-        <r>spesso<s n="adv"/></r> 
+        <l>reciprocamente<s n="adv"/></l> 
+        <r>reciprocamente<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1918,7 +1899,7 @@
     <e>
       <p>
         <l>por<b/>descontado<s n="adv"/></l> 
-        <r>per<b/>scontato<b/>da<s n="adv"/></r> 
+        <r>per<b/>scontato<s n="adv"/></r> 
       </p>
     </e>
 
@@ -1957,7 +1938,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>puede<b/>ser<s n="adv"/></l> 
         <r>può<b/>darsi<s n="adv"/></r> 
@@ -1982,20 +1963,6 @@
       <p>
         <l>raras<b/>veces<s n="adv"/></l> 
         <r>rare<b/>volte<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>seriosamente<s n="adv"/></l> 
-        <r>seriamente<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>seriosamente<s n="adv"/></l> 
-        <r>seriosamente<s n="adv"/></r> 
       </p>
     </e>
 
@@ -2043,13 +2010,6 @@
 
     <e>
       <p>
-        <l>una<b/>vez<s n="adv"/></l> 
-        <r>una<b/>volta<b/>che<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>una<b/>vez<b/>más<s n="adv"/></l> 
         <r>ancora<b/>una<b/>volta<s n="adv"/></r> 
       </p>
@@ -2064,20 +2024,6 @@
 
     <e>
       <p>
-        <l>y<b/>así<s n="adv"/></l> 
-        <r>e<b/>così<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>y<b/>hasta<s n="adv"/></l> 
-        <r>e<b/>perfino<s n="adv"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>'ndrangheta<s n="n"/><s n="f"/></l> 
         <r>'ndrangheta<s n="n"/><s n="f"/></r> 
       </p>
@@ -2085,14 +2031,14 @@
 
     <e>
       <p>
-        <l>NATO<s n="n"/><s n="m"/></l> 
-        <r>NATO<s n="n"/><s n="f"/></r> 
+        <l>SSCN<s n="n"/></l> 
+        <r>SSCN<s n="n"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>SSCN<s n="n"/></l> 
+        <l>Società<b/>Sportiva<b/>Calcio<b/>Napoli<s n="n"/></l> 
         <r>Società<b/>Sportiva<b/>Calcio<b/>Napoli<s n="n"/></r> 
       </p>
     </e>
@@ -2176,6 +2122,13 @@
 
     <e>
       <p>
+        <l>nevasca<s n="n"/><s n="f"/></l> 
+        <r>nevischio<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>aguardiente<s n="n"/></l> 
         <r>acquavite<s n="n"/></r> 
       </p>
@@ -2185,13 +2138,6 @@
       <p>
         <l>ahogamiento<s n="n"/></l> 
         <r>annegamento<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>alarido<s n="n"/></l> 
-        <r>grido<s n="n"/></r> 
       </p>
     </e>
 
@@ -2771,6 +2717,13 @@
 
     <e>
       <p>
+        <l>carátula<s n="n"/></l> 
+        <r>copertina<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>cv<s n="n"/></l> 
         <r>cv<s n="n"/></r> 
       </p>
@@ -2818,10 +2771,10 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>dalia<s n="n"/></l> 
-        <r>dahlia<s n="n"/></r> 
+        <l>data<s n="n"/></l> 
+        <r>data<s n="n"/></r> 
       </p>
     </e>
 
@@ -2876,6 +2829,13 @@
 
     <e>
       <p>
+        <l>resta<s n="n"/></l> 
+        <r>sottrazione<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>dvd<s n="n"/></l> 
         <r>dvd<s n="n"/></r> 
       </p>
@@ -2885,13 +2845,6 @@
       <p>
         <l>dátil<s n="n"/></l> 
         <r>dattero<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>e<s n="n"/></l> 
-        <r>e<s n="n"/></r> 
       </p>
     </e>
 
@@ -3128,20 +3081,6 @@
 
     <e>
       <p>
-        <l>hija<s n="n"/></l> 
-        <r>figlio<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hija<s n="n"/></l> 
-        <r>figlia<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>himen<s n="n"/></l> 
         <r>imene<s n="n"/></r> 
       </p>
@@ -3315,13 +3254,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>kilovatio-hora<s n="n"/></l> 
-        <r>kilowattora<s n="n"/></r> 
-      </p>
-    </e>
-
     <e r="LR">
       <p>
         <l>kilovoltio<s n="n"/><s n="m"/><s n="sg"/></l> 
@@ -3387,15 +3319,8 @@
 
     <e>
       <p>
-        <l>leu<s n="n"/></l> 
-        <r>leu<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>levita<s n="n"/></l> 
-        <r>leviti<s n="n"/></r> 
+        <r>levita<s n="n"/></r> 
       </p>
     </e>
 
@@ -3416,7 +3341,7 @@
     <e>
       <p>
         <l>macarrón<s n="n"/></l> 
-        <r>maccheroni<s n="n"/></r> 
+        <r>maccherone<s n="n"/></r> 
       </p>
     </e>
 
@@ -3436,29 +3361,8 @@
 
     <e>
       <p>
-        <l>manuale<s n="n"/></l> 
-        <r>manuale<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>maña<s n="n"/></l> 
-        <r>aragona<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>mb<s n="n"/></l> 
         <r>mb<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>meado<s n="n"/></l> 
-        <r>urina<s n="n"/></r> 
       </p>
     </e>
 
@@ -3546,24 +3450,31 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>necrosis<s n="n"/></l> 
-        <r>necrosi<s n="n"/></r> 
+        <l>necrosis<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>necrosi<s n="n"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>necrosis<s n="n"/><s n="f"/><s n="pl"/></l> 
+        <r>necrosi<s n="n"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>necrosis<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <r>necrosi<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>nenúfar<s n="n"/></l> 
-        <r>nymphaea<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>nenúfar<s n="n"/></l> 
-        <r>ninfea<s n="n"/></r> 
+        <l>nenúfar<s n="n"/><s n="m"/></l> 
+        <r>ninfea<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3577,7 +3488,7 @@
     <e>
       <p>
         <l>nevada<s n="n"/></l> 
-        <r>nevada<s n="n"/></r> 
+        <r>nevata<s n="n"/></r> 
       </p>
     </e>
 
@@ -3611,8 +3522,8 @@
 
     <e>
       <p>
-        <l>oligarca<s n="n"/></l> 
-        <r>oligarca<s n="n"/></r> 
+        <l>oligarca<s n="n"/><s n="m"/></l> 
+        <r>oligarca<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -3634,6 +3545,13 @@
       <p>
         <l>osseo<s n="n"/></l> 
         <r>osseo<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>paloma<s n="n"/></l> 
+        <r>colomba<s n="n"/></r> 
       </p>
     </e>
 
@@ -3674,15 +3592,8 @@
 
     <e>
       <p>
-        <l>picardía<s n="n"/></l> 
-        <r>piccardia<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>picha<s n="n"/></l> 
-        <r>pene<s n="n"/></r> 
+        <l>picha<s n="n"/><s n="f"/></l> 
+        <r>pene<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3702,36 +3613,43 @@
 
     <e>
       <p>
-        <l>pimentón<s n="n"/></l> 
-        <r>paprika<s n="n"/></r> 
+        <l>pimentón<s n="n"/><s n="m"/></l> 
+        <r>paprica<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>piolet<s n="n"/></l> 
-        <r>piccozza<s n="n"/></r> 
+        <l>piolet<s n="n"/><s n="m"/></l> 
+        <r>piccozza<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>piragua<s n="n"/></l> 
+        <r>piroga<s n="n"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>plebe<s n="n"/></l> 
-        <r>plebei<s n="n"/></r> 
+        <r>plebe<s n="n"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>pocilga<s n="n"/></l> 
-        <r>porcile<s n="n"/></r> 
+        <l>pocilga<s n="n"/><s n="f"/></l> 
+        <r>porcile<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>pompis<s n="n"/></l> 
-        <r>natiche<s n="n"/></r> 
+        <r>culo<s n="n"/></r> 
       </p>
     </e>
 
@@ -3744,22 +3662,29 @@
 
     <e>
       <p>
-        <l>princesa<s n="n"/></l> 
-        <r>principe<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>proletario<s n="n"/></l> 
         <r>proletario<s n="n"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>pudín<s n="n"/></l> 
-        <r>pudding<s n="n"/></r> 
+        <l>pudín<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>pudding<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>pudín<s n="n"/><s n="m"/><s n="pl"/></l> 
+        <r>pudding<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>pudín<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>pudding<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
 
@@ -3777,14 +3702,7 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>radiofaro<s n="n"/></l> 
-        <r>radiofaro<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e r="LR">
       <p>
         <l>referimiento<s n="n"/></l> 
         <r>riferimento<s n="n"/></r> 
@@ -3808,7 +3726,7 @@
     <e>
       <p>
         <l>sauce<s n="n"/></l> 
-        <r>salix<s n="n"/></r> 
+        <r>salice<s n="n"/></r> 
       </p>
     </e>
 
@@ -3821,8 +3739,8 @@
 
     <e>
       <p>
-        <l>serrallo<s n="n"/></l> 
-        <r>harem<s n="n"/></r> 
+        <l>single<s n="n"/></l> 
+        <r>single<s n="n"/></r> 
       </p>
     </e>
 
@@ -3854,10 +3772,24 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>stop<s n="n"/></l> 
-        <r>stop<s n="n"/></r> 
+        <l>stop<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>stop<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>stop<s n="n"/><s n="m"/><s n="pl"/></l> 
+        <r>stop<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>stop<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>stop<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
 
@@ -3882,24 +3814,31 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>sándwich<s n="n"/></l> 
-        <r>sandwich<s n="n"/></r> 
+        <l>sándwich<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>sandwich<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>sándwich<s n="n"/><s n="m"/><s n="pl"/></l> 
+        <r>sandwich<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>sándwich<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>sandwich<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>síncope<s n="n"/></l> 
-        <r>sincope<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>tallarines<s n="n"/></l> 
-        <r>tagliatelle<s n="n"/></r> 
+        <l>síncope<s n="n"/><s n="m"/></l> 
+        <r>sincope<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3921,20 +3860,6 @@
       <p>
         <l>teta<s n="n"/></l> 
         <r>mammella<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>transportes<s n="n"/></l> 
-        <r>trasporti<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>témpano<s n="n"/></l> 
-        <r>iceberg<s n="n"/></r> 
       </p>
     </e>
 
@@ -3983,14 +3908,28 @@
     <e>
       <p>
         <l>velada<s n="n"/></l> 
-        <r>velada<s n="n"/></r> 
+        <r>veglia<s n="n"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>égida<s n="n"/></l> 
-        <r>egida<s n="n"/></r> 
+        <l>video<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>video<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>video<s n="n"/><s n="m"/><s n="pl"/></l> 
+        <r>video<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>video<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>video<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
 
@@ -4003,6 +3942,41 @@
 
     <e>
       <p>
+        <l>Wikipedia<s n="np"/><s n="ant"/></l> 
+        <r>Wikipedia<s n="np"/><s n="ant"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Agostino<s n="np"/></l> 
+        <r>Agostino<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Alessandro<s n="np"/></l> 
+        <r>Alessandro<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Bartolomeo<s n="np"/></l> 
+        <r>Bartolomeo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Carlo<s n="np"/></l> 
+        <r>Carlo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>Dacia<s n="np"/></l> 
         <r>Dacia<s n="np"/></r> 
       </p>
@@ -4010,22 +3984,169 @@
 
     <e>
       <p>
-        <l>Hamsik<s n="np"/></l> 
-        <r>Marechiaro<b/>Hamsik<s n="np"/></r> 
+        <l>Daniele<s n="np"/></l> 
+        <r>Daniele<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Davide<s n="np"/></l> 
+        <r>Davide<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Enrico<s n="np"/></l> 
+        <r>Enrico<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Filippo<s n="np"/></l> 
+        <r>Filippo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Ferdinando<s n="np"/></l> 
+        <r>Ferdinando<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Felix<s n="np"/></l> 
+        <r>Felix<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Gabriele<s n="np"/></l> 
+        <r>Gabriele<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Ferdinando<s n="np"/></l> 
+        <r>Ferdinando<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Ugo<s n="np"/></l> 
+        <r>Ugo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Ettore<s n="np"/></l> 
+        <r>Ettore<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Ignazio<s n="np"/></l> 
+        <r>Ignazio<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Immacolata<s n="np"/></l> 
+        <r>Immacolata<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Agnese<s n="np"/></l> 
+        <r>Agnese<s n="np"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>Ion<s n="np"/></l> 
-        <r>Ione<s n="np"/></r> 
+        <r>Ion<s n="np"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>Lavezzi<s n="np"/></l> 
-        <r>El<b/>Pocho<b/>Lavezzi<s n="np"/></r> 
+        <l>Giacinto<s n="np"/></l> 
+        <r>Giacinto<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Giacomo<s n="np"/></l> 
+        <r>Giacomo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Saverio<s n="np"/></l> 
+        <r>Saverio<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Geronimo<s n="np"/></l> 
+        <r>Geronimo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Gioacchino<s n="np"/></l> 
+        <r>Gioacchino<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Marcello<s n="np"/></l> 
+        <r>Marcello<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Matteo<s n="np"/></l> 
+        <r>Matteo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Michele<s n="np"/></l> 
+        <r>Michele<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Nicola<s n="np"/></l> 
+        <r>Nicola<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Orël<s n="np"/></l> 
+        <r>Orël<s n="np"/></r> 
       </p>
     </e>
 
@@ -4033,6 +4154,34 @@
       <p>
         <l>Policía<s n="np"/></l> 
         <r>Polizia<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Rachele<s n="np"/></l> 
+        <r>Rachele<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Riccardo<s n="np"/></l> 
+        <r>Riccardo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Roderico<s n="np"/></l> 
+        <r>Roderico<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>Samuele<s n="np"/></l> 
+        <r>Samuele<s n="np"/></r> 
       </p>
     </e>
 
@@ -4059,8 +4208,22 @@
 
     <e>
       <p>
+        <l>Vincenzo<s n="np"/></l> 
+        <r>Vincenzo<s n="np"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>buenas<s n="ij"/></l> 
         <r>salve<s n="ij"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a<b/>la<b/>vista<b/>de<s n="pr"/></l> 
+        <r>alla<b/>vista<b/>di<s n="pr"/></r> 
       </p>
     </e>
 
