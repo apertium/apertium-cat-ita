@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- -*- nxml -*- -->
+<transfer default="lu">
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="det">          
+      <cat-item tags="det.*"/>
+      <cat-item tags="predet.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_det">          
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.pos"/>
+      <attr-item tags="predet"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="genero"/>
+    <def-var n="numero"/>
+  </section-def-vars>
+
+<!--
+  <section-def-macros>
+    <def-macro>
+    </def-macro>
+  </section-def-macros>
+-->
+
+  <section-rules>
+
+    <rule> <!-- REGLA: DETERMINANT NOM -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+<!--
+        <call-macro n="f_enviaa">
+	  <with-param pos="2"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+-->
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/> 
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>  
+	</out>
+      </action>
+    </rule>
+  </section-rules>
+</transfer>
