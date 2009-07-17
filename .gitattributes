@@ -9,13 +9,16 @@
 /README -text
 /alt.xsl -text
 /apertium-ca-it.ca-it.dix -text
+/apertium-ca-it.ca-it.t1x -text
 /apertium-ca-it.ca-it.t2x -text
 /apertium-ca-it.ca-it.t3x -text
 /apertium-ca-it.ca.dix -text
 /apertium-ca-it.it-ca.t1x -text
+/apertium-ca-it.it-ca.t2x -text
 /apertium-ca-it.it-ca.t3x -text
 /apertium-ca-it.it.dix -text
 /apertium-ca-it.post-ca.dix -text
+/apertium-ca-it.post-it.dix -text
 /autogen.sh -text
 /ca-it.prob -text svneol=unset#unset
 dev/cross-model-ca-es-it.xml -text
