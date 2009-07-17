@@ -9,23 +9,17 @@
 /README -text
 /alt.xsl -text
 /apertium-ca-it.ca-it.dix -text
-/apertium-ca-it.ca-it.t1x -text
 /apertium-ca-it.ca-it.t2x -text
 /apertium-ca-it.ca-it.t3x -text
 /apertium-ca-it.ca.dix -text
 /apertium-ca-it.it-ca.t1x -text
-/apertium-ca-it.it-ca.t2x -text
 /apertium-ca-it.it-ca.t3x -text
 /apertium-ca-it.it.dix -text
 /apertium-ca-it.post-ca.dix -text
-/apertium-ca-it.post-it.dix -text
 /ca-it.prob -text svneol=unset#unset
-/configure.ac -text
 dev/cross-model-ca-es-it.xml -text
 dev/cross.xml -text
 dev/not-common-apertium-es-it.es-it.dix -text
 dev/patterns-not-detected.xml -text
-/install-sh -text
 /it-ca.prob -text svneol=unset#unset
-/missing -text
 /modes.xml -text
