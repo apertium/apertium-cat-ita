@@ -15004,7 +15004,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>anarquista<s n="adj"/></l> 
         <r>anarchico<s n="adj"/><s n="GD"/></r> 
@@ -15015,7 +15015,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>anarquista<s n="adj"/></l> 
         <r>anarchico<s n="adj"/><s n="f"/></r> 
@@ -15026,7 +15026,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>anarquista<s n="adj"/></l> 
         <r>anarchico<s n="adj"/><s n="m"/></r> 
