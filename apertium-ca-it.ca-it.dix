@@ -9373,7 +9373,7 @@
     -->
     <e>
       <p>
-        <l>abadia<s n="n"/></l> 
+        <l>abadia<s n="n"/><s n="f"/></l> 
         <r>abbazia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -9382,7 +9382,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>abaixar<s n="vblex"/></l> 
         <r>scendere<s n="vblex"/></r> 
@@ -9527,7 +9527,7 @@
     -->
     <e>
       <p>
-        <l>abat<s n="n"/></l> 
+        <l>abat<s n="n"/><s n="m"/></l> 
         <r>abate<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -9538,7 +9538,7 @@
     -->
     <e>
       <p>
-        <l>abatiment<s n="n"/></l> 
+        <l>abatiment<s n="n"/><s n="m"/></l> 
         <r>abbattimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -10363,7 +10363,7 @@
     -->
     <e>
       <p>
-        <l>accionista<s n="n"/></l> 
+        <l>accionista<s n="n"/><s n="GD"/></l> 
         <r>azionista<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -10647,12 +10647,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>acordar<s n="vblex"/></l> 
         <r>ricordare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -10781,7 +10781,7 @@
     -->
     <e>
       <p>
-        <l>actitud<s n="n"/></l> 
+        <l>actitud<s n="n"/><s n="f"/></l> 
         <r>atteggiamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -10858,7 +10858,7 @@
     -->
     <e>
       <p>
-        <l>activista<s n="n"/></l> 
+        <l>activista<s n="n"/><s n="GD"/></l> 
         <r>attivista<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -10980,7 +10980,7 @@
     -->
     <e>
       <p>
-        <l>actualització<s n="n"/></l> 
+        <l>actualització<s n="n"/><s n="f"/></l> 
         <r>aggiornamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11013,7 +11013,7 @@
     -->
     <e>
       <p>
-        <l>acudit<s n="n"/></l> 
+        <l>acudit<s n="n"/><s n="m"/></l> 
         <r>barzelletta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -11211,7 +11211,7 @@
     -->
     <e>
       <p>
-        <l>adaptació<s n="n"/></l> 
+        <l>adaptació<s n="n"/><s n="f"/></l> 
         <r>adeguamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11616,7 +11616,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>adormir<s n="vblex"/></l> 
         <r>dormire<s n="vblex"/></r> 
@@ -11913,7 +11913,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>aeronau<s n="n"/></l> 
         <r>velivolo<s n="n"/></r> 
@@ -12124,7 +12124,7 @@
     -->
     <e>
       <p>
-        <l>afirmació<s n="n"/></l> 
+        <l>afirmació<s n="n"/><s n="f"/></l> 
         <r>affermazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -12355,7 +12355,7 @@
     -->
     <e>
       <p>
-        <l>agressió<s n="n"/></l> 
+        <l>agressió<s n="n"/><s n="f"/></l> 
         <r>aggressione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -12551,12 +12551,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>aixecar<s n="vblex"/></l> 
         <r>alzare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -12815,7 +12815,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>al<b/>matí<s n="adv"/></l> 
         <r>di<b/>mattina<s n="adv"/></r> 
@@ -14500,8 +14500,8 @@
     -->
     <e>
       <p>
-        <l>ambigüitat<s n="n"/></l> 
-        <r>equivoco<s n="n"/></r> 
+        <l>ambigüitat<s n="n"/><s n="f"/></l> 
+        <r>equivoco<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -16082,7 +16082,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>aplegar<s n="vblex"/></l> 
         <r>riunire<s n="vblex"/></r> 
@@ -17930,7 +17930,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>asseure<s n="vblex"/></l> 
         <r>sedere<s n="vblex"/></r> 
@@ -18095,7 +18095,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>assotar<s n="vblex"/></l> 
         <r>frustrare<s n="vblex"/></r> 
@@ -18141,7 +18141,7 @@
     -->
     <e>
       <p>
-        <l>astronauta<s n="n"/></l> 
+        <l>astronauta<s n="n"/><s n="GD"/></l> 
         <r>astronauta<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -18249,7 +18249,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>atallar<s n="vblex"/></l> 
         <r>tagliare<s n="vblex"/></r> 
@@ -18350,7 +18350,7 @@
     -->
     <e>
       <p>
-        <l>atleta<s n="n"/></l> 
+        <l>atleta<s n="n"/><s n="GD"/></l> 
         <r>atleta<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -19857,7 +19857,7 @@
     -->
     <e>
       <p>
-        <l>banc<s n="n"/></l> 
+        <l>banc<s n="n"/><s n="m"/></l> 
         <r>banca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -20143,8 +20143,8 @@
     -->
     <e>
       <p>
-        <l>barra<s n="n"/></l> 
-        <r>bancone<s n="n"/></r> 
+        <l>barra<s n="n"/><s n="f"/></l> 
+        <r>bancone<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -20383,7 +20383,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>bastir<s n="vblex"/></l> 
         <r>costruire<s n="vblex"/></r> 
@@ -20968,7 +20968,7 @@
     -->
     <e>
       <p>
-        <l>bitllet<s n="n"/></l> 
+        <l>bitllet<s n="n"/><s n="m"/></l> 
         <r>banconota<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -21780,12 +21780,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>boçar<s n="vblex"/></l> 
         <r>vomitare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -22297,7 +22297,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>buscar<s n="vblex"/></l> 
         <r>cercare<s n="vblex"/></r> 
@@ -22308,12 +22308,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>buscar<s n="vblex"/></l> 
         <r>buscare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -23067,7 +23067,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>calfar<s n="vblex"/></l> 
         <r>riscaldare<s n="vblex"/></r> 
@@ -23696,7 +23696,7 @@
     -->
     <e>
       <p>
-        <l>cantonada<s n="n"/></l> 
+        <l>cantonada<s n="n"/><s n="f"/></l> 
         <r>angolo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -24068,7 +24068,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>capgirar<s n="vblex"/></l> 
         <r>cambiare<s n="vblex"/></r> 
@@ -24345,8 +24345,8 @@
     -->
     <e>
       <p>
-        <l>caragol<s n="n"/></l> 
-        <r>chiocciola<s n="n"/></r> 
+        <l>caragol<s n="n"/><s n="m"/></l> 
+        <r>chiocciola<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -24367,7 +24367,7 @@
     -->
     <e>
       <p>
-        <l>caramel<s n="n"/></l> 
+        <l>caramel<s n="n"/><s n="m"/></l> 
         <r>caramella<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -24730,7 +24730,7 @@
     -->
     <e>
       <p>
-        <l>carxofa<s n="n"/></l> 
+        <l>carxofa<s n="n"/><s n="f"/></l> 
         <r>carciofo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -25806,7 +25806,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>cercar<s n="vblex"/></l> 
         <r>buscare<s n="vblex"/></r> 
@@ -26028,7 +26028,7 @@
     -->
     <e>
       <p>
-        <l>ciclista<s n="n"/></l> 
+        <l>ciclista<s n="n"/><s n="GD"/></l> 
         <r>ciclista<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -26105,7 +26105,7 @@
     -->
     <e>
       <p>
-        <l>cigarret<s n="n"/></l> 
+        <l>cigarret<s n="n"/><s n="m"/></l> 
         <r>sigaretta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -26270,7 +26270,7 @@
     -->
     <e>
       <p>
-        <l>cinturó<s n="n"/></l> 
+        <l>cinturó<s n="n"/><s n="m"/></l> 
         <r>cintura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -27073,8 +27073,8 @@
     -->
     <e>
       <p>
-        <l>col<s n="n"/></l> 
-        <r>cavolo<s n="n"/></r> 
+        <l>col<s n="n"/><s n="f"/></l> 
+        <r>cavolo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -27126,7 +27126,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>colgar<s n="vblex"/></l> 
         <r>coprire<s n="vblex"/></r> 
@@ -27139,8 +27139,8 @@
     -->
     <e>
       <p>
-        <l>coliflor<s n="n"/></l> 
-        <r>cavolfiore<s n="n"/></r> 
+        <l>coliflor<s n="n"/><s n="f"/></l> 
+        <r>cavolfiore<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -27183,7 +27183,7 @@
     -->
     <e>
       <p>
-        <l>collaret<s n="n"/></l> 
+        <l>collaret<s n="n"/><s n="m"/></l> 
         <r>collana<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -27324,7 +27324,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>colpejar<s n="vblex"/></l> 
         <r>colpire<s n="vblex"/></r> 
@@ -27393,7 +27393,7 @@
     <e>
       <p>
         <l>col·leccionista<s n="n"/></l> 
-        <r>collezionista<s n="n"/><s n="m"/></r> 
+        <r>collezionista<s n="n"/></r> 
       </p>
     </e>
 
@@ -29414,7 +29414,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>conquistar<s n="vblex"/></l> 
         <r>conquistare<s n="vblex"/></r> 
@@ -30195,7 +30195,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>contestar<s n="vblex"/></l> 
         <r>contestare<s n="vblex"/></r> 
@@ -30206,7 +30206,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>contestar<s n="vblex"/></l> 
         <r>rispondere<s n="vblex"/></r> 
@@ -31814,7 +31814,7 @@
     -->
     <e>
       <p>
-        <l>criança<s n="n"/></l> 
+        <l>criança<s n="n"/><s n="f"/></l> 
         <r>allevamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -32439,7 +32439,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>cultivar<s n="vblex"/></l> 
         <r>coltivare<s n="vblex"/></r> 
@@ -32527,7 +32527,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>curosament<s n="adv"/></l> 
         <r>con<b/>attenzione<s n="adv"/></r> 
@@ -32978,7 +32978,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>d'acord<b/>a<s n="pr"/></l> 
         <r>secondo<s n="pr"/></r> 
@@ -33341,7 +33341,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>davallar<s n="vblex"/></l> 
         <r>scendere<s n="vblex"/></r> 
@@ -33946,7 +33946,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>defendre<s n="vblex"/></l> 
         <r>difendere<s n="vblex"/></r> 
@@ -34397,7 +34397,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>demolir<s n="vblex"/></l> 
         <r>demolire<s n="vblex"/></r> 
@@ -34727,9 +34727,16 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>derrocar<s n="vblex"/></l> 
+        <r>demolire<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>enderrocar<s n="vblex"/></l> 
         <r>demolire<s n="vblex"/></r> 
       </p>
     </e>
@@ -34774,7 +34781,7 @@
     -->
     <e>
       <p>
-        <l>desafiament<s n="n"/></l> 
+        <l>desafiament<s n="n"/><s n="m"/></l> 
         <r>sfida<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -35058,9 +35065,16 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>desencoratjar<s n="vblex"/></l> 
+        <r>scoraggiare<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>descoratjar<s n="vblex"/></l> 
         <r>scoraggiare<s n="vblex"/></r> 
       </p>
     </e>
@@ -36623,7 +36637,7 @@
     <e>
       <p>
         <l>dinar<s n="vblex"/></l> 
-        <r>mangiare<s n="vblex"/></r> 
+        <r>pranzare<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -37590,7 +37604,7 @@
     -->
     <e>
       <p>
-        <l>diumenge<s n="n"/></l> 
+        <l>diumenge<s n="n"/><s n="m"/></l> 
         <r>domenica<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -38765,7 +38779,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dur<s n="vblex"/></l> 
         <r>portare<s n="vblex"/></r> 
@@ -38888,7 +38902,7 @@
     -->
     <e>
       <p>
-        <l>dígit<s n="n"/></l> 
+        <l>dígit<s n="n"/><s n="m"/></l> 
         <r>cifra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -39425,7 +39439,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>eixir<s n="vblex"/></l> 
         <r>uscire<s n="vblex"/></r> 
@@ -40026,7 +40040,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>elegir<s n="vblex"/></l> 
         <r>scegliere<s n="vblex"/></r> 
@@ -40587,7 +40601,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>emportar<s n="vblex"/></l> 
         <r>portare<s n="vblex"/></r> 
@@ -40928,7 +40942,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>encerclar<s n="vblex"/></l> 
         <r>circondare<s n="vblex"/></r> 
@@ -40939,7 +40953,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>encetar<s n="vblex"/></l> 
         <r>cominciare<s n="vblex"/></r> 
@@ -41093,7 +41107,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>endur<s n="vblex"/></l> 
         <r>portare<s n="vblex"/></r> 
@@ -41291,7 +41305,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enlairar<s n="vblex"/></l> 
         <r>elevare<s n="vblex"/></r> 
@@ -41412,7 +41426,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enraonar<s n="vblex"/></l> 
         <r>conversare<s n="vblex"/></r> 
@@ -41423,7 +41437,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enredar<s n="vblex"/></l> 
         <r>ingannare<s n="vblex"/></r> 
@@ -41643,7 +41657,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>entrada<s n="n"/></l> 
         <r>entrata<s n="n"/></r> 
@@ -41698,7 +41712,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>entregar<s n="vblex"/></l> 
         <r>consegnare<s n="vblex"/></r> 
@@ -41995,9 +42009,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
-        <l>equipament<s n="n"/></l> 
+        <l>equipament<s n="n"/><s n="m"/></l> 
         <r>apparecchiatura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -42008,7 +42022,7 @@
     -->
     <e>
       <p>
-        <l>equipament<s n="n"/></l> 
+        <l>equipament<s n="n"/><s n="f"/></l> 
         <r>attrezzatura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -42534,7 +42548,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>escollir<s n="vblex"/></l> 
         <r>scegliere<s n="vblex"/></r> 
@@ -42611,7 +42625,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>escopinyar<s n="vblex"/></l> 
         <r>sputare<s n="vblex"/></r> 
@@ -42690,7 +42704,7 @@
     -->
     <e>
       <p>
-        <l>escriptori<s n="n"/></l> 
+        <l>escriptori<s n="n"/><s n="m"/></l> 
         <r>scrivania<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -43018,7 +43032,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>esmerçar<s n="vblex"/></l> 
         <r>investire<s n="vblex"/></r> 
@@ -46186,7 +46200,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fallar<s n="vblex"/></l> 
         <r>fallire<s n="vblex"/></r> 
@@ -46464,7 +46478,7 @@
     <e>
       <p>
         <l>farcir<s n="vblex"/></l> 
-        <r>riempire<s n="vblex"/></r> 
+        <r>farcire<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -47055,7 +47069,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fer<g><b/>avinent</g><s n="vblex"/></l> 
         <r>ricordare<s n="vblex"/></r> 
@@ -47066,7 +47080,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fer<g><b/>el<b/>pes</g><s n="vblex"/></l> 
         <r>convincere<s n="vblex"/></r> 
@@ -47077,7 +47091,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fer<g><b/>servir</g><s n="vblex"/></l> 
         <r>usare<s n="vblex"/></r> 
@@ -47825,7 +47839,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>firmar<s n="vblex"/></l> 
         <r>firmare<s n="vblex"/></r> 
@@ -48507,7 +48521,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fornir<s n="vblex"/></l> 
         <r>fornire<s n="vblex"/></r> 
@@ -50192,7 +50206,7 @@
     -->
     <e>
       <p>
-        <l>galeta<s n="n"/></l> 
+        <l>galeta<s n="n"/><s n="f"/></l> 
         <r>biscotto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -51413,7 +51427,7 @@
     -->
     <e>
       <p>
-        <l>gorra<s n="n"/></l> 
+        <l>gorra<s n="n"/><s n="f"/></l> 
         <r>berretto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -52049,12 +52063,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>guanyar<s n="vblex"/></l> 
         <r>vincere<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -52302,23 +52316,27 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e>
       <p>
         <l>habilitat<s n="n"/></l> 
         <r>abilità<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
-    </e>
+    </e>-->
+
+<e r="RL"><p><l>habilitat<s n="n"/><s n="f"/><s n="ND"/></l><r>abilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>habilitat<s n="n"/><s n="f"/><s n="sg"/></l><r>abilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>habilitat<s n="n"/><s n="f"/><s n="pl"/></l><r>abilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e>
       <p>
         <l>habilitat<s n="n"/></l> 
         <r>capacità<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -52667,7 +52685,7 @@
     -->
     <e>
       <p>
-        <l>hemorroide<s n="n"/></l> 
+        <l>hemorroide<s n="n"/><s n="f"/></l> 
         <r>emorroide<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -55513,7 +55531,7 @@
     -->
     <e>
       <p>
-        <l>indumentària<s n="n"/></l> 
+        <l>indumentària<s n="n"/><s n="f"/></l> 
         <r>abbigliamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -56019,7 +56037,7 @@
     -->
     <e>
       <p>
-        <l>ingrés<s n="n"/></l> 
+        <l>ingrés<s n="n"/><s n="m"/></l> 
         <r>entrata<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -60362,7 +60380,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>llavors<s n="adv"/></l> 
         <r>allora<s n="adv"/></r> 
@@ -60373,7 +60391,7 @@
 	forced 'null' restriction
       cnjadv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>llavors<s n="cnjadv"/></l> 
         <r>allora<s n="cnjadv"/></r> 
@@ -60604,10 +60622,10 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>llençar<s n="vblex"/></l> 
-        <r>tirare<s n="vblex"/></r> 
+        <r>lanciare<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -62309,7 +62327,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>malbaratar<s n="vblex"/></l> 
         <r>sprecare<s n="vblex"/></r> 
@@ -63400,7 +63418,7 @@
     -->
     <e>
       <p>
-        <l>mascota<s n="n"/></l> 
+        <l>mascota<s n="n"/><s n="f"/></l> 
         <r>animale<g><b/>da<b/>compagnia</g><s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -63785,7 +63803,7 @@
     -->
     <e>
       <p>
-        <l>matís<s n="n"/></l> 
+        <l>matís<s n="n"/><s n="m"/></l> 
         <r>sfumatura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -64542,7 +64560,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mesclar<s n="vblex"/></l> 
         <r>mischiare<s n="vblex"/></r> 
@@ -65312,7 +65330,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>minvar<s n="vblex"/></l> 
         <r>diminuire<s n="vblex"/></r> 
@@ -66557,7 +66575,7 @@
     -->
     <e>
       <p>
-        <l>mosquit<s n="n"/></l> 
+        <l>mosquit<s n="n"/><s n="m"/></l> 
         <r>zanzara<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -67633,7 +67651,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nadar<s n="vblex"/></l> 
         <r>nuotare<s n="vblex"/></r> 
@@ -72728,8 +72746,8 @@
     -->
     <e>
       <p>
-        <l>patent<s n="n"/></l> 
-        <r>brevetto<s n="n"/></r> 
+        <l>patent<s n="n"/><s n="f"/></l> 
+        <r>brevetto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -72792,7 +72810,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>patir<s n="vblex"/></l> 
         <r>soffrire<s n="vblex"/></r> 
@@ -74497,7 +74515,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>pertocar<s n="vblex"/></l> 
         <r>corrispondere<s n="vblex"/></r> 
@@ -74739,7 +74757,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>petar<s n="vblex"/></l> 
         <r>esplodere<s n="vblex"/></r> 
@@ -75742,8 +75760,8 @@
     -->
     <e>
       <p>
-        <l>plàtan<s n="n"/></l> 
-        <r>banana<s n="n"/></r> 
+        <l>plàtan<s n="n"/><s n="m"/></l> 
+        <r>banana<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -77137,12 +77155,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>preguntar<s n="vblex"/></l> 
         <r>chiedere<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -80406,7 +80424,7 @@
     -->
     <e>
       <p>
-        <l>quist<s n="n"/></l> 
+        <l>quist<s n="n"/><s n="m"/></l> 
         <r>ciste<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -81845,7 +81863,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>regressar<s n="vblex"/></l> 
         <r>ritornare<s n="vblex"/></r> 
@@ -82153,7 +82171,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>remenar<s n="vblex"/></l> 
         <r>rimuovere<s n="vblex"/></r> 
@@ -82540,7 +82558,7 @@
     -->
     <e>
       <p>
-        <l>repte<s n="n"/></l> 
+        <l>repte<s n="n"/><s n="m"/></l> 
         <r>sfida<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -82648,7 +82666,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>resar<s n="vblex"/></l> 
         <r>pregare<s n="vblex"/></r> 
@@ -83187,12 +83205,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>revelar<s n="vblex"/></l> 
         <r>sviluppare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -83616,7 +83634,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>rodejar<s n="vblex"/></l> 
         <r>circondare<s n="vblex"/></r> 
@@ -83880,7 +83898,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>roí<s n="adj"/></l> 
         <r>cattivo<s n="adj"/></r> 
@@ -84278,7 +84296,7 @@
     -->
     <e>
       <p>
-        <l>safata<s n="n"/></l> 
+        <l>safata<s n="n"/><s n="f"/></l> 
         <r>vassoio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -85626,7 +85644,7 @@
     -->
     <e>
       <p>
-        <l>serp<s n="n"/></l> 
+        <l>serp<s n="n"/><s n="f"/></l> 
         <r>serpente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -86493,12 +86511,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>situar<s n="vblex"/></l> 
         <r>ubicare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -86757,7 +86775,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>sofisticar<s n="vblex"/></l> 
         <r>falsificare<s n="vblex"/></r> 
@@ -86977,7 +86995,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>solucionar<s n="vblex"/></l> 
         <r>risolvere<s n="vblex"/></r> 
@@ -87065,7 +87083,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>somniar<s n="vblex"/></l> 
         <r>sognare<s n="vblex"/></r> 
@@ -89859,7 +89877,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>testimoniar<s n="vblex"/></l> 
         <r>testimoniare<s n="vblex"/></r> 
@@ -90211,12 +90229,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>tornar<s n="vblex"/></l> 
         <r>ritornare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -90620,7 +90638,7 @@
     -->
     <e>
       <p>
-        <l>tragèdia<s n="n"/></l> 
+        <l>tragèdia<s n="n"/><s n="f"/></l> 
         <r>dramma<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -90662,7 +90680,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>trametre<s n="vblex"/></l> 
         <r>inviare<s n="vblex"/></r> 
@@ -90992,12 +91010,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>travar<s n="vblex"/></l> 
         <r>sviluppare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -91665,7 +91683,7 @@
     -->
     <e>
       <p>
-        <l>turmell<s n="n"/></l> 
+        <l>turmell<s n="n"/><s n="m"/></l> 
         <r>caviglia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -91872,7 +91890,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tòrcer<s n="vblex"/></l> 
         <r>torcere<s n="vblex"/></r> 
@@ -94497,12 +94515,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <!--<e>
       <p>
         <l>voler<s n="vblex"/></l> 
         <r>amare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -95489,7 +95507,7 @@
     -->
     <e>
       <p>
-        <l>àmfora<s n="n"/></l> 
+        <l>àmfora<s n="n"/><s n="f"/></l> 
         <r>anfora<s n="n"/><s n="f"/></r> 
       </p>
     </e>
