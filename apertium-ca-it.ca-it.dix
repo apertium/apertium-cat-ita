@@ -10954,13 +10954,14 @@
     <!-- 
 	forced 'null' restriction
       adj-simple
-    -->
+
     <e alt="eco">
       <p>
         <l>actual<s n="adj"/></l> 
         <r>corrente<s n="adj"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -31195,7 +31196,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e alt="std">
+    <e>
       <p>
         <l>corrent<s n="adj"/></l> 
         <r>corrente<s n="adj"/></r> 
@@ -42799,13 +42800,13 @@
     <!-- 
 	forced 'null' restriction
       default
-    -->
     <e alt="eco">
       <p>
         <l>escrit<s n="n"/><s n="m"/></l> 
         <r>presente<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -48608,7 +48609,7 @@
 	forced 'null' restriction
       default
     -->
-    <e alt="std">
+    <e>
       <p>
         <l>forquilla<s n="n"/><s n="f"/></l> 
         <r>forchetta<s n="n"/><s n="f"/></r> 
@@ -89406,13 +89407,13 @@
     <!-- 
 	forced 'null' restriction
       default
-    -->
     <e alt="eco">
       <p>
         <l>tenidor<s n="n"/></l> 
         <r>forchetta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction

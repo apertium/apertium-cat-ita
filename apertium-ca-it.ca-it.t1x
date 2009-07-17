@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> <!-- -*- nxml -*- -->
-<transfer default="lu">
+<transfer default="chunk">
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -35,32 +35,51 @@
 
   <section-rules>
 
-    <rule> <!-- REGLA: DETERMINANT NOM -->
+    <rule comment="REGLA: DET NOM">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
       </pattern>
       <action>
 <!--
-        <call-macro n="f_enviaa">
-	  <with-param pos="2"/>
-	</call-macro>     
-	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
 	<call-macro n="f_concord2">
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>
 -->
-	<out>     
-	  <lu>
-	    <clip pos="1" side="tl" part="whole"/>
-	  </lu>
-	  <b pos="1"/> 
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>  
+	<out>
+	  <chunk name="det_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="genero"/></tag>
+	      <tag><var n="numero"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>	 
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>	 
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>	 
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
 	</out>
       </action>
     </rule>
+
+
   </section-rules>
 </transfer>

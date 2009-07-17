@@ -114301,10 +114301,12 @@
         <par n="accessibilitat__n" /> 
     </e>
 
+<!--
     <e r="RL" lm="escrit" a="prompsit" alt="eco">
         <i>escrit</i> 
         <par n="atletisme__n" /> 
     </e>
+-->
 
     <e lm="d'ara endavant" a="prompsit">
         <i>d'ara<b/>endavant</i> 

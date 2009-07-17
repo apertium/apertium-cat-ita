@@ -6,10 +6,6 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-VAR1=std
-VAR2=val-
-PREFVAR1=#dejar en blanco
-PREFVAR2=val-
 TARGETS_COMMON = \
      $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
@@ -18,59 +14,37 @@ TARGETS_COMMON = \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX1).mode $(PREFIX2).mode
 
-
-
-.deps/$(PREFVAR1)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side left filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-.deps/$(PREFVAR2)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side left filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-.deps/$(PREFVAR1)$(LANG2).dix: $(BASENAME).$(LANG2).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side left filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-.deps/$(PREFVAR2)$(LANG2).dix: $(BASENAME).$(LANG2).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side left filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-.deps/$(PREFVAR1)$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side right filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-.deps/$(PREFVAR2)$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side right filter.xsl - | xsltproc --stringparam alt std alt.xsl - >$@
-
-
-$(PREFVAR1)$(PREFIX1).automorf.bin: .deps/$(PREFVAR1)$(LANG1).dix
-	apertium-validate-dictionary $<
+$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	lt-comp lr $(BASENAME).$(LANG1).dix $@
 
-$(PREFVAR1)$(PREFIX1).autobil.bin: .deps/$(PREFVAR1)$(PREFIX1).dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+$(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFVAR1)$(PREFIX1).autogen.bin: .deps/$(PREFVAR1)$(LANG2).dix
-	apertium-validate-dictionary $<
-	lt-comp rl $< $@
+$(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
+	lt-comp rl $(BASENAME).$(LANG2).dix $@
 
 $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
+	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
 
-$(PREFVAR1)$(PREFIX2).automorf.bin: .deps/$(PREFVAR1)$(LANG2).dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
+	lt-comp lr $(BASENAME).$(LANG2).dix $@
 
-$(PREFVAR1)$(PREFIX2).autobil.bin: .deps/$(PREFVAR1)$(PREFIX1).dix
-	apertium-validate-dictionary $<
-	lt-comp rl $< $@
+$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFVAR1)$(PREFIX2).autogen.bin: .deps/$(PREFVAR1)$(LANG1).dix
-	apertium-validate-dictionary $<
-	lt-comp rl $< $@
+$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	lt-comp rl $(BASENAME).$(LANG1).dix $@
 
-$(PREFVAR1)$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
-
+$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
 
 $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).t1x
