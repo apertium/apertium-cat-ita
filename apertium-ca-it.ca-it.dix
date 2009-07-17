@@ -39448,96 +39448,15 @@
     -->
     <e>
       <p>
-        <l>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></l> 
+        <l>el<s n="det"/><s n="def"/></l> 
+        <r>il<s n="det"/><s n="def"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<s n="det"/><s n="def"/><s n="GD"/></l> 
         <r>il<s n="det"/><s n="def"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></l> 
-        <r>il<s n="det"/><s n="def"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l> 
-        <r>il<s n="det"/><s n="def"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l> 
-        <r>il<s n="det"/><s n="def"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></l> 
-        <r>il<s n="det"/><s n="def"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></l> 
-        <r>il<s n="det"/><s n="def"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l> 
-        <r>il<s n="det"/><s n="def"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l> 
-        <r>il<s n="det"/><s n="def"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>el<s n="det"/><s n="def"/><s n="mf"/></l> 
-        <r>il<s n="det"/><s n="def"/></r> 
       </p>
     </e>
 
@@ -53690,13 +53609,13 @@
     <!-- 
 	forced 'null' restriction
       adv-simple
-    -->
     <e>
       <p>
         <l>hui<s n="adv"/></l> 
         <r>oggi<s n="adv"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -85661,6 +85580,12 @@
       <p>
         <l>ser<s n="vbser"/></l> 
         <r>essere<s n="vbser"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estar<s n="vblex"/></l> 
+        <r>essere<s n="vblex"/></r> 
       </p>
     </e>
 

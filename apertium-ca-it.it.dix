@@ -108235,6 +108235,185 @@
     </e>
 
   </section>
+  <section id="apostrophes" type="postblank">
+
+
+        <!-- 
+      ******************************
+      (prn) group
+      ******************************
+    -->
+    <e r="LR" lm="cos'">
+      <p>
+        <l>cos'</l> 
+        <r>cosa</r> 
+      </p>
+        <par n="che__prn" /> 
+    </e>
+
+
+        <!-- 
+      ******************************
+      (none) group
+      ******************************
+    -->
+    <e r="LR" lm="all'">
+      <p>
+        <l>all'</l> 
+        <r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="coll'">
+      <p>
+        <l>coll'</l> 
+        <r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="d'">
+      <p>
+        <l>d'</l> 
+        <r>di<s n="pr"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="d'">
+      <p>
+        <l>d'</l> 
+        <r>da<s n="pr"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="dall'">
+      <p>
+        <l>dall'</l> 
+        <r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="dell'">
+      <p>
+        <l>dell'</l> 
+        <r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+	 
+        <e r="LR" lm="l'">
+      <p>
+        <l>l'</l> 
+        <r>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="n'">
+      <p>
+        <l>n'</l> 
+        <r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="nell'">
+      <p>
+        <l>nell'</l> 
+        <r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="quell'">
+      <p>
+        <l>quell'</l> 
+        <r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="quest'">
+      <p>
+        <l>quest'</l> 
+        <r>questo<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="senz'">
+      <p>
+        <l>senz'</l> 
+        <r>senza<s n="pr"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="sott'">
+      <p>
+        <l>sott'</l> 
+        <r>sotto<s n="pr"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="sull'">
+      <p>
+        <l>sull'</l> 
+        <r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+
+        <e r="LR" lm="un'">
+      <p>
+        <l>un'</l> 
+        <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>cent'</l> 
+        <r>cento<s n="num"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+        <!-- 
+      ******************************
+      (adv) group
+      ******************************
+    -->
+    <e r="LR" lm="un poco">
+      <p>
+        <l>un<b/>po'</l> 
+        <r>un<b/>pò</r> 
+      </p>
+        <par n="ieri__adv" /> 
+    </e>
+    <e r="LR" lm="come">
+      <p>
+        <l>com'</l>
+        <r>come</r> 
+      </p>
+        <par n="ieri__adv" /> 
+    </e>
+    <e r="LR" lm="dove">
+      <p>
+        <l>dov'</l> 
+        <r>dove</r> 
+      </p>
+      <par n="ieri__adv" /> 
+    </e>
+
+  </section>
+
+
   <section id="final" type="inconditional">
     <e>
         <par n="pardret" />
