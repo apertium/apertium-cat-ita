@@ -21,6 +21,7 @@
 /apertium-ca-it.post-it.dix -text
 /autogen.sh -text
 /ca-it.prob -text svneol=unset#unset
+/configure.ac -text
 dev/cross-model-ca-es-it.xml -text
 dev/cross.xml -text
 dev/not-common-apertium-es-it.es-it.dix -text
