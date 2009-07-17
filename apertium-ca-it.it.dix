@@ -108235,4 +108235,29 @@
     </e>
 
   </section>
+  <section id="final" type="inconditional">
+    <e>
+        <par n="pardret" />
+    </e>
+    <e>
+        <par n="numeros" />
+    </e>
+    <e>
+        <par n="separ" />
+    </e>
+    <e>
+        <par n="paresq" />
+    </e>
+    <e>
+        <par n="coma" />
+    </e>
+    <e>
+        <par n="separa" />
+    </e>
+    <e>
+        <par n="cometa" />
+    </e>
+
+  </section>
+
 </dictionary>

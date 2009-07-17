@@ -12616,13 +12616,13 @@
     <!-- 
 	forced 'null' restriction
       default
-    -->
     <e>
       <p>
         <l>això<s n="prn"/></l> 
         <r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -12630,8 +12630,8 @@
     -->
     <e>
       <p>
-        <l>això<s n="prn"/></l> 
-        <r>questo<s n="prn"/><s n="tn"/><s n="nt"/></r> 
+        <l>això<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+        <r>questo<s n="prn"/><s n="tn"/><s n="nt"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -85645,13 +85645,13 @@
     <!-- 
 	forced 'null' restriction
       default
-    -->
     <e>
       <p>
         <l>ser<s n="vbser"/></l> 
         <r>essere<s n="vbser"/><s n="auxser"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -92055,36 +92055,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
     <e>
       <p>
-        <l>un<s n="det"/></l> 
-        <r>un<s n="det"/><s n="ind"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>un<s n="det"/></l> 
-        <r>un<s n="det"/><s n="ind"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>un<s n="det"/></l> 
-        <r>un<s n="det"/><s n="ind"/><s n="mf"/></r> 
+        <l>un<s n="det"/><s n="ind"/></l> 
+        <r>un<s n="det"/><s n="ind"/></r> 
       </p>
     </e>
 
@@ -96058,6 +96032,18 @@
         <r>utile<s n="adj"/></r> 
       </p>
     </e>
+
+
+    <!-- Punctuation -->
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+
 
   </section>
 </dictionary>
