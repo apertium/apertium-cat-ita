@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?> <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+
     <def-cat n="pretind">
       <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vbser.ifi.*"/>
@@ -13,11 +17,6 @@
 
     <def-cat n="top">
       <cat-item tags="np.loc.*"/>
-    </def-cat>
-
-
-    <def-cat n="nom">
-      <cat-item tags="n.*"/>
     </def-cat>
 
     <def-cat n="det">          
@@ -117,8 +116,10 @@
     <def-var n="caseFirstWord"/>
     <def-var n="concPrimero"/>
     <def-var n="EOS"/>
-    <def-var n="genero"/>
-    <def-var n="numero"/>
+
+    <def-var n="numero" v="&lt;sg&gt;"/>
+    <def-var n="genero" v="&lt;m&gt;"/>
+
   </section-def-vars>
 
   <section-def-macros>
@@ -986,6 +987,38 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: NOM">
+      <pattern>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="genero"/></tag>
+	      <tag><var n="numero"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>	 
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: DET NOM">

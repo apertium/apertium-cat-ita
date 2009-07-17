@@ -33087,13 +33087,13 @@
     <!-- 
 	forced 'null' restriction
       pr-simple
-    -->
     <e>
       <p>
         <l>d'ençà<b/>de<s n="pr"/></l> 
         <r>da<s n="pr"/></r> 
       </p>
     </e>
+    -->
 
     <!-- 
 	forced 'null' restriction
@@ -34759,13 +34759,14 @@
     <!-- 
 	forced 'null' restriction
       pr-simple
-    -->
     <e>
       <p>
         <l>des<b/>de<s n="pr"/></l> 
         <r>da<s n="pr"/></r> 
       </p>
     </e>
+    -->
+
 
     <!-- 
 	forced 'null' restriction
@@ -53584,13 +53585,21 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
+    <e r="LR">
       <p>
-        <l>hotel<s n="n"/></l> 
+        <l>hotel<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>hotel<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>hotel<s n="n"/><s n="m"/><s n="pl"/></l> 
+        <r>hotel<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>hotel<s n="n"/><s n="m"/><s n="GD"/></l> 
         <r>hotel<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
