@@ -78730,7 +78730,7 @@
 
     <e lm="astronauta">
         <i>astronaut</i> 
-        <par n="abortist/a__n" /> 
+        <par n="alchimist/a__n" /> 
     </e>
 
     <e lm="astronomo">
@@ -78915,7 +78915,7 @@
 
     <e lm="attivista">
         <i>attivist</i> 
-        <par n="ambientalist/a__n" /> 
+        <par n="alchimist/a__n" /> 
     </e>
 
     <e lm="attività">
@@ -79379,12 +79379,12 @@
 
     <e lm="azione">
         <i>azion</i> 
-        <par n="abitant/e__n" /> 
+        <par n="abbreviazion/e__n" /> 
     </e>
 
     <e lm="azionista">
         <i>azionist</i> 
-        <par n="ambientalist/a__n" /> 
+        <par n="alchimist/a__n" /> 
     </e>
 
     <e lm="baccalà">
