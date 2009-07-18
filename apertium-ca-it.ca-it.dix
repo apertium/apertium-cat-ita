@@ -9589,17 +9589,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e c="Ángel">
-      <p>
-        <l>abdomen<s n="n"/></l> 
-        <r>pancia<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       adj-simple
     -->
     <e>
@@ -9956,8 +9945,8 @@
     -->
     <e>
       <p>
-        <l>absorció<s n="n"/></l> 
-        <r>assorbimento<s n="n"/></r> 
+        <l>absorció<s n="n"/><s n="f"/></l> 
+        <r>assorbimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -10143,7 +10132,7 @@
     -->
     <e>
       <p>
-        <l>acabament<s n="n"/></l> 
+        <l>acabament<s n="n"/><s n="m"/></l> 
         <r>rifinitura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -10660,7 +10649,7 @@
     -->
     <e>
       <p>
-        <l>acordió<s n="n"/></l> 
+        <l>acordió<s n="n"/><s n="f"/></l> 
         <r>fisarmonica<s n="n"/></r> 
       </p>
     </e>
@@ -10682,7 +10671,7 @@
     -->
     <e>
       <p>
-        <l>acreditació<s n="n"/></l> 
+        <l>acreditació<s n="n"/><s n="f"/></l> 
         <r>accreditamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11035,7 +11024,7 @@
     -->
     <e>
       <p>
-        <l>acumulació<s n="n"/></l> 
+        <l>acumulació<s n="n"/><s n="f"/></l> 
         <r>cumulo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11088,7 +11077,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>acurat<s n="adj"/></l> 
         <r>attento<s n="adj"/></r> 
@@ -11200,8 +11189,8 @@
     -->
     <e>
       <p>
-        <l>adaptació<s n="n"/></l> 
-        <r>adattamento<s n="n"/></r> 
+        <l>adaptació<s n="n"/><s n="f"/></l> 
+        <r>adattamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -11374,7 +11363,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>adient<s n="adj"/><s n="mf"/></l> 
         <r>adeguato<s n="adj"/></r> 
@@ -11385,7 +11374,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>adientment<s n="adv"/></l> 
         <r>adeguatamente<s n="adv"/></r> 
@@ -11673,7 +11662,7 @@
     -->
     <e>
       <p>
-        <l>adquisició<s n="n"/></l> 
+        <l>adquisició<s n="n"/><s n="f"/></l> 
         <r>acquisto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11695,7 +11684,7 @@
     -->
     <e>
       <p>
-        <l>adreça<s n="n"/></l> 
+        <l>adreça<s n="n"/><s n="f"/></l> 
         <r>indirizzo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -11904,8 +11893,8 @@
     -->
     <e>
       <p>
-        <l>aeronau<s n="n"/></l> 
-        <r>aeromobile<s n="n"/></r> 
+        <l>aeronau<s n="n"/><s n="f"/></l> 
+        <r>aeromobile<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -11915,8 +11904,8 @@
     -->
     <e r="RL">
       <p>
-        <l>aeronau<s n="n"/></l> 
-        <r>velivolo<s n="n"/></r> 
+        <l>aeronau<s n="n"/><s n="f"/></l> 
+        <r>velivolo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -12100,7 +12089,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>afinar<s n="vblex"/></l> 
         <r>accordare<s n="vblex"/></r> 
@@ -12289,7 +12278,7 @@
     -->
     <e>
       <p>
-        <l>agost<s n="n"/></l> 
+        <l>agost<s n="n"/><s n="m"/></l> 
         <r>agosto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -12531,8 +12520,8 @@
     -->
     <e>
       <p>
-        <l>aire<s n="n"/></l> 
-        <r>aria<s n="n"/></r> 
+        <l>aire<s n="n"/><s n="m"/></l> 
+        <r>aria<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -12927,7 +12916,7 @@
     -->
     <e>
       <p>
-        <l>alarma<s n="n"/></l> 
+        <l>alarma<s n="n"/><s n="f"/></l> 
         <r>allarme<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -12960,8 +12949,8 @@
     -->
     <e>
       <p>
-        <l>albercoc<s n="n"/></l> 
-        <r>albicocca<s n="n"/></r> 
+        <l>albercoc<s n="n"/><s n="m"/></l> 
+        <r>albicocca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -13202,7 +13191,7 @@
     -->
     <e>
       <p>
-        <l>alfàbega<s n="n"/></l> 
+        <l>alfàbega<s n="n"/><s n="f"/></l> 
         <r>basilico<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -14060,7 +14049,7 @@
     -->
     <e>
       <p>
-        <l>al·luvió<s n="n"/></l> 
+        <l>al·luvió<s n="n"/><s n="m"/></l> 
         <r>alluvione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -14212,7 +14201,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>amatent<s n="adj"/><s n="mf"/></l> 
         <r>attento<s n="adj"/></r> 
@@ -14797,7 +14786,7 @@
     -->
     <e>
       <p>
-        <l>ampliació<s n="n"/></l> 
+        <l>ampliació<s n="n"/><s n="f"/></l> 
         <r>ampliamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -15644,7 +15633,7 @@
     -->
     <e>
       <p>
-        <l>antípoda<s n="n"/></l> 
+        <l>antípoda<s n="n"/><s n="f"/></l> 
         <r>antipode<s n="n"/></r> 
       </p>
     </e>
@@ -15875,7 +15864,7 @@
     -->
     <e>
       <p>
-        <l>anècdota<s n="n"/></l> 
+        <l>anècdota<s n="n"/><s n="f"/></l> 
         <r>aneddoto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -16018,7 +16007,7 @@
     -->
     <e>
       <p>
-        <l>apel·lació<s n="n"/></l> 
+        <l>apel·lació<s n="n"/><s n="f"/></l> 
         <r>appello<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -16348,7 +16337,7 @@
     -->
     <e>
       <p>
-        <l>apèndix<s n="n"/></l> 
+        <l>apèndix<s n="n"/><s n="m"/></l> 
         <r>appendice<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -16370,7 +16359,7 @@
     -->
     <e>
       <p>
-        <l>aquarel·la<s n="n"/></l> 
+        <l>aquarel·la<s n="n"/><s n="f"/></l> 
         <r>acquerello<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -16722,7 +16711,7 @@
     -->
     <e>
       <p>
-        <l>aranya<s n="n"/></l> 
+        <l>aranya<s n="n"/><s n="f"/></l> 
         <r>ragno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -17151,7 +17140,7 @@
     -->
     <e>
       <p>
-        <l>arrelament<s n="n"/></l> 
+        <l>arrelament<s n="n"/><s n="m"/></l> 
         <r>base<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -17182,7 +17171,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>arrenglerar<s n="vblex"/></l> 
         <r>alienare<s n="vblex"/></r> 
@@ -17239,7 +17228,7 @@
     -->
     <e>
       <p>
-        <l>arribada<s n="n"/></l> 
+        <l>arribada<s n="n"/><s n="f"/></l> 
         <r>arrivo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -17327,8 +17316,8 @@
     -->
     <e>
       <p>
-        <l>art<s n="n"/></l> 
-        <r>arte<s n="n"/></r> 
+        <l>art<s n="n"/><s n="m"/></l> 
+        <r>arte<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -17360,7 +17349,7 @@
     -->
     <e>
       <p>
-        <l>artesania<s n="n"/></l> 
+        <l>artesania<s n="n"/><s n="f"/></l> 
         <r>artigianato<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -17745,7 +17734,7 @@
     -->
     <e>
       <p>
-        <l>aspiradora<s n="n"/></l> 
+        <l>aspiradora<s n="n"/><s n="f"/></l> 
         <r>aspirapolvere<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -17921,7 +17910,7 @@
     -->
     <e>
       <p>
-        <l>assessorament<s n="n"/></l> 
+        <l>assessorament<s n="n"/><s n="m"/></l> 
         <r>consulenza<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -18416,7 +18405,7 @@
     -->
     <e>
       <p>
-        <l>atracament<s n="n"/></l> 
+        <l>atracament<s n="n"/><s n="m"/></l> 
         <r>rapina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -18691,7 +18680,7 @@
     -->
     <e>
       <p>
-        <l>auditoria<s n="n"/></l> 
+        <l>auditoria<s n="n"/><s n="f"/></l> 
         <r>controllo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -18931,10 +18920,10 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
-        <l>automòbil<s n="n"/></l> 
-        <r>autovettura<s n="n"/></r> 
+        <l>automòbil<s n="n"/><s n="m"/></l> 
+        <r>autovettura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -18944,7 +18933,7 @@
     -->
     <e>
       <p>
-        <l>automòbil<s n="n"/></l> 
+        <l>automòbil<s n="n"/><s n="m"/></l> 
         <r>automobile<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -18953,7 +18942,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>automòbil<s n="n"/></l> 
         <r>autoveicolo<s n="n"/></r> 
@@ -20077,7 +20066,7 @@
     -->
     <e>
       <p>
-        <l>barbeta<s n="n"/></l> 
+        <l>barbeta<s n="n"/><s n="f"/></l> 
         <r>mento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -20341,7 +20330,7 @@
     -->
     <e>
       <p>
-        <l>bassal<s n="n"/></l> 
+        <l>bassal<s n="n"/><s n="m"/></l> 
         <r>pozzanghera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -21567,6 +21556,13 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>borratxo<s n="adj"/></l> 
+        <r>ubriaco<s n="adj"/></r> 
+      </p>
+    </e>
+
     <!-- 
 	forced 'null' restriction
       default
@@ -21694,8 +21690,8 @@
     -->
     <e>
       <p>
-        <l>botiga<s n="n"/></l> 
-        <r>negozio<s n="n"/><s n="m"/></r> 
+        <l>botiga<s n="n"/><s n="f"/></l> 
+        <r>bottega<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -22893,8 +22889,8 @@
     -->
     <e>
       <p>
-        <l>calavera<s n="n"/></l> 
-        <r>teschio<s n="n"/></r> 
+        <l>calavera<s n="n"/><s n="f"/></l> 
+        <r>teschio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -22981,7 +22977,7 @@
     -->
     <e>
       <p>
-        <l>caldera<s n="n"/></l> 
+        <l>caldera<s n="n"/><s n="f"/></l> 
         <r>impianto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -24356,7 +24352,7 @@
     -->
     <e>
       <p>
-        <l>caragol<s n="n"/></l> 
+        <l>caragol<s n="n"/><s n="m"/></l> 
         <r>lumaca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -24664,7 +24660,7 @@
     -->
     <e>
       <p>
-        <l>cartera<s n="n"/></l> 
+        <l>cartera<s n="n"/><s n="f"/></l> 
         <r>portafoglio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -24686,8 +24682,8 @@
     -->
     <e>
       <p>
-        <l>cartutx<s n="n"/></l> 
-        <r>cartuccia<s n="n"/></r> 
+        <l>cartutx<s n="n"/><s n="m"/></l> 
+        <r>cartuccia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -27194,7 +27190,7 @@
     -->
     <e>
       <p>
-        <l>collita<s n="n"/></l> 
+        <l>collita<s n="n"/><s n="f"/></l> 
         <r>raccolto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -27414,7 +27410,7 @@
     -->
     <e>
       <p>
-        <l>col·legi<s n="n"/></l> 
+        <l>col·legi<s n="n"/><s n="m"/></l> 
         <r>scuola<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -27810,7 +27806,7 @@
     -->
     <e>
       <p>
-        <l>commutador<s n="n"/></l> 
+        <l>commutador<s n="n"/><s n="m"/></l> 
         <r>centralina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -27876,7 +27872,7 @@
     -->
     <e>
       <p>
-        <l>comparació<s n="n"/></l> 
+        <l>comparació<s n="n"/><s n="f"/></l> 
         <r>confronto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -28382,7 +28378,7 @@
     -->
     <e>
       <p>
-        <l>comtat<s n="n"/></l> 
+        <l>comtat<s n="n"/><s n="m"/></l> 
         <r>contea<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -29438,7 +29434,7 @@
     -->
     <e>
       <p>
-        <l>conreu<s n="n"/></l> 
+        <l>conreu<s n="n"/><s n="m"/></l> 
         <r>coltivazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -29735,7 +29731,7 @@
     -->
     <e>
       <p>
-        <l>consolidació<s n="n"/></l> 
+        <l>consolidació<s n="n"/><s n="f"/></l> 
         <r>consolidamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -30076,7 +30072,7 @@
     -->
     <e>
       <p>
-        <l>contaminació<s n="n"/></l> 
+        <l>contaminació<s n="n"/><s n="f"/></l> 
         <r>inquinamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -30263,7 +30259,7 @@
     -->
     <e>
       <p>
-        <l>continuació<s n="n"/></l> 
+        <l>continuació<s n="n"/><s n="f"/></l> 
         <r>proseguimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -30472,7 +30468,7 @@
     -->
     <e>
       <p>
-        <l>contribució<s n="n"/></l> 
+        <l>contribució<s n="n"/><s n="f"/></l> 
         <r>contributo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -30571,8 +30567,8 @@
     -->
     <e>
       <p>
-        <l>conveni<s n="n"/></l> 
-        <r>convenzione<s n="n"/></r> 
+        <l>conveni<s n="n"/><s n="m"/></l> 
+        <r>convenzione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -30714,7 +30710,7 @@
     -->
     <e>
       <p>
-        <l>cony<s n="n"/></l> 
+        <l>cony<s n="n"/><s n="m"/></l> 
         <r>vulva<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -30791,7 +30787,7 @@
     -->
     <e>
       <p>
-        <l>coordinació<s n="n"/></l> 
+        <l>coordinació<s n="n"/><s n="f"/></l> 
         <r>coordinamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -30901,7 +30897,7 @@
     -->
     <e>
       <p>
-        <l>coral<s n="n"/><s n="f"/></l> 
+        <l>coral<s n="n"/><s n="m"/></l> 
         <r>corallo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -31231,7 +31227,7 @@
     -->
     <e>
       <p>
-        <l>corretja<s n="n"/></l> 
+        <l>corretja<s n="n"/><s n="f"/></l> 
         <r>guinzaglio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -31242,7 +31238,7 @@
     -->
     <e>
       <p>
-        <l>correu<s n="n"/></l> 
+        <l>correu<s n="n"/><s n="m"/></l> 
         <r>posta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -31484,7 +31480,7 @@
     -->
     <e>
       <p>
-        <l>cotxe<s n="n"/></l> 
+        <l>cotxe<s n="n"/><s n="m"/></l> 
         <r>macchina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -31572,8 +31568,8 @@
     -->
     <e>
       <p>
-        <l>crani<s n="n"/></l> 
-        <r>calotta<s n="n"/></r> 
+        <l>crani<s n="n"/><s n="m"/></l> 
+        <r>calotta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -31627,7 +31623,7 @@
     -->
     <e>
       <p>
-        <l>creació<s n="n"/></l> 
+        <l>creació<s n="n"/><s n="f"/></l> 
         <r>avviamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -31671,7 +31667,7 @@
     -->
     <e>
       <p>
-        <l>creixement<s n="n"/></l> 
+        <l>creixement<s n="n"/><s n="m"/></l> 
         <r>crescita<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -32331,8 +32327,8 @@
     -->
     <e>
       <p>
-        <l>cullera<s n="n"/></l> 
-        <r>cucchiaio<s n="n"/></r> 
+        <l>cullera<s n="n"/><s n="f"/></l> 
+        <r>cucchiaio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -32582,7 +32578,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>curós<s n="adj"/></l> 
         <r>attento<s n="adj"/></r> 
@@ -34465,7 +34461,7 @@
     -->
     <e>
       <p>
-        <l>denegació<s n="n"/></l> 
+        <l>denegació<s n="n"/><s n="f"/></l> 
         <r>rifiuto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -35034,7 +35030,7 @@
     -->
     <e>
       <p>
-        <l>desdejuni<s n="n"/></l> 
+        <l>desdejuni<s n="n"/><s n="m"/></l> 
         <r>colazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -35045,7 +35041,7 @@
     -->
     <e>
       <p>
-        <l>desembocadura<s n="n"/></l> 
+        <l>desembocadura<s n="n"/><s n="f"/></l> 
         <r>sbocco<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -35393,7 +35389,7 @@
     -->
     <e>
       <p>
-        <l>despertador<s n="n"/></l> 
+        <l>despertador<s n="n"/><s n="m"/></l> 
         <r>sveglia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -35470,7 +35466,7 @@
     -->
     <e>
       <p>
-        <l>desqualificació<s n="n"/></l> 
+        <l>desqualificació<s n="n"/><s n="f"/></l> 
         <r>declassamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -36196,7 +36192,7 @@
     -->
     <e>
       <p>
-        <l>dic<s n="n"/></l> 
+        <l>dic<s n="n"/><s n="m"/></l> 
         <r>diga<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -37164,7 +37160,7 @@
     -->
     <e>
       <p>
-        <l>discurs<s n="n"/></l> 
+        <l>discurs<s n="n"/><s n="m"/></l> 
         <r>allocuzione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -37659,7 +37655,7 @@
     -->
     <e>
       <p>
-        <l>diversió<s n="n"/></l> 
+        <l>diversió<s n="n"/><s n="f"/></l> 
         <r>divertimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -38660,7 +38656,7 @@
     -->
     <e>
       <p>
-        <l>dualitat<s n="n"/></l> 
+        <l>dualitat<s n="n"/><s n="f"/></l> 
         <r>dualismo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -38878,9 +38874,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>dècada<s n="n"/></l> 
+        <l>dècada<s n="n"/><s n="f"/></l> 
         <r>decennio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -38892,7 +38888,7 @@
     <e>
       <p>
         <l>déu<s n="n"/></l> 
-        <r>dio<s n="n"/><s n="m"/></r> 
+        <r>dio<s n="n"/></r> 
       </p>
     </e>
 
@@ -40262,7 +40258,7 @@
     -->
     <e>
       <p>
-        <l>embaràs<s n="n"/></l> 
+        <l>embaràs<s n="n"/><s n="m"/></l> 
         <r>gravidanza<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -41261,7 +41257,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>engrescar<s n="vblex"/></l> 
         <r>animare<s n="vblex"/></r> 
@@ -41613,7 +41609,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enter<s n="adj"/></l> 
         <r>intero<s n="adj"/></r> 
@@ -42000,7 +41996,7 @@
     -->
     <e>
       <p>
-        <l>equip<s n="n"/></l> 
+        <l>equip<s n="n"/><s n="m"/></l> 
         <r>squadra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -42440,7 +42436,7 @@
     -->
     <e>
       <p>
-        <l>esclavitud<s n="n"/></l> 
+        <l>esclavitud<s n="n"/><s n="f"/></l> 
         <r>schiavismo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -43012,7 +43008,7 @@
     -->
     <e>
       <p>
-        <l>esmena<s n="n"/></l> 
+        <l>esmena<s n="n"/><s n="f"/></l> 
         <r>emendamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -43749,7 +43745,7 @@
     -->
     <e>
       <p>
-        <l>estable<s n="n"/></l> 
+        <l>estable<s n="n"/><s n="m"/></l> 
         <r>stalla<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -43780,9 +43776,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>estaca<s n="n"/></l> 
+        <l>estaca<s n="n"/><s n="f"/></l> 
         <r>palo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -44145,7 +44141,7 @@
     -->
     <e>
       <p>
-        <l>estiu<s n="n"/></l> 
+        <l>estiu<s n="n"/><s n="m"/></l> 
         <r>estate<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -44585,7 +44581,7 @@
     -->
     <e>
       <p>
-        <l>estímul<s n="n"/></l> 
+        <l>estímul<s n="n"/><s n="m"/></l> 
         <r>incentivazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -46488,7 +46484,7 @@
     -->
     <e>
       <p>
-        <l>fardell<s n="n"/></l> 
+        <l>fardell<s n="n"/><s n="m"/></l> 
         <r>balla<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -47203,8 +47199,8 @@
     -->
     <e>
       <p>
-        <l>ferrocarril<s n="n"/></l> 
-        <r>ferrovia<s n="n"/></r> 
+        <l>ferrocarril<s n="n"/><s n="m"/></l> 
+        <r>ferrovia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -47709,7 +47705,7 @@
     -->
     <e>
       <p>
-        <l>finca<s n="n"/></l> 
+        <l>finca<s n="n"/><s n="f"/></l> 
         <r>podere<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -47731,7 +47727,7 @@
     -->
     <e>
       <p>
-        <l>finestreta<s n="n"/></l> 
+        <l>finestreta<s n="n"/><s n="f"/></l> 
         <r>finestrino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -48017,7 +48013,7 @@
     -->
     <e>
       <p>
-        <l>flor<s n="n"/></l> 
+        <l>flor<s n="n"/><s n="f"/></l> 
         <r>fiore<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -48215,7 +48211,7 @@
     -->
     <e>
       <p>
-        <l>fonament<s n="n"/></l> 
+        <l>fonament<s n="n"/><s n="m"/></l> 
         <r>fondazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -49106,7 +49102,7 @@
     -->
     <e>
       <p>
-        <l>frau<s n="n"/></l> 
+        <l>frau<s n="n"/><s n="m"/></l> 
         <r>frode<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -49744,7 +49740,7 @@
     -->
     <e>
       <p>
-        <l>furgó<s n="n"/></l> 
+        <l>furgó<s n="n"/><s n="m"/></l> 
         <r>carrozza<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -49777,7 +49773,7 @@
     -->
     <e>
       <p>
-        <l>fuselatge<s n="n"/></l> 
+        <l>fuselatge<s n="n"/><s n="m"/></l> 
         <r>fusoliera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -49810,8 +49806,8 @@
     -->
     <e>
       <p>
-        <l>fusta<s n="n"/></l> 
-        <r>legno<s n="n"/></r> 
+        <l>fusta<s n="n"/><s n="f"/></l> 
+        <r>legno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -49865,7 +49861,7 @@
     -->
     <e>
       <p>
-        <l>futbolista<s n="n"/></l> 
+        <l>futbolista<s n="n"/><s n="mf"/></l> 
         <r>calciatore<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -50294,7 +50290,7 @@
     -->
     <e>
       <p>
-        <l>gamba<s n="n"/></l> 
+        <l>gamba<s n="n"/><s n="f"/></l> 
         <r>gambero<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -50536,7 +50532,7 @@
     -->
     <e>
       <p>
-        <l>gasolinera<s n="n"/></l> 
+        <l>gasolinera<s n="n"/><s n="f"/></l> 
         <r>distributore<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -51306,7 +51302,7 @@
     -->
     <e>
       <p>
-        <l>glucosa<s n="n"/></l> 
+        <l>glucosa<s n="n"/><s n="f"/></l> 
         <r>glucosio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -51603,7 +51599,7 @@
     -->
     <e>
       <p>
-        <l>graella<s n="n"/></l> 
+        <l>graella<s n="n"/><s n="f"/></l> 
         <r>palinsesto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -52098,7 +52094,7 @@
     -->
     <e>
       <p>
-        <l>guarderia<s n="n"/></l> 
+        <l>guarderia<s n="n"/><s n="f"/></l> 
         <r>asilo<g><b/>nido</g><s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -52132,7 +52128,7 @@
     <e>
       <p>
         <l>guarir<s n="vblex"/></l> 
-        <r>curare<s n="vblex"/></r> 
+        <r>guarire<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -52166,6 +52162,13 @@
       <p>
         <l>guerrer<s n="adj"/></l> 
         <r>guerriero<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>guerrer<s n="n"/></l> 
+        <r>guerriero<s n="n"/></r> 
       </p>
     </e>
 
@@ -52597,8 +52600,8 @@
     -->
     <e>
       <p>
-        <l>hectàrea<s n="n"/></l> 
-        <r>ettaro<s n="n"/></r> 
+        <l>hectàrea<s n="n"/><s n="f"/></l> 
+        <r>ettaro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -53169,7 +53172,7 @@
     -->
     <e>
       <p>
-        <l>hivernacle<s n="n"/></l> 
+        <l>hivernacle<s n="n"/><s n="m"/></l> 
         <r>serra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -53411,7 +53414,7 @@
     -->
     <e>
       <p>
-        <l>honra<s n="n"/></l> 
+        <l>honra<s n="n"/><s n="f"/></l> 
         <r>onore<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -53510,8 +53513,8 @@
     -->
     <e>
       <p>
-        <l>hormona<s n="n"/></l> 
-        <r>ormone<s n="n"/></r> 
+        <l>hormona<s n="n"/><s n="f"/></l> 
+        <r>ormone<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -53552,9 +53555,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>horta<s n="n"/></l> 
+        <l>horta<s n="n"/><s n="f"/></l> 
         <r>orto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -53565,8 +53568,8 @@
     -->
     <e>
       <p>
-        <l>hortalissa<s n="n"/></l> 
-        <r>verdura<s n="n"/></r> 
+        <l>hortalissa<s n="n"/><s n="f"/></l> 
+        <r>ortaggio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -54717,7 +54720,7 @@
     -->
     <e>
       <p>
-        <l>impost<s n="n"/></l> 
+        <l>impost<s n="n"/><s n="m"/></l> 
         <r>imposta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -55003,7 +55006,7 @@
     -->
     <e>
       <p>
-        <l>incineració<s n="n"/></l> 
+        <l>incineració<s n="n"/><s n="f"/></l> 
         <r>incenerimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -55025,7 +55028,7 @@
     -->
     <e>
       <p>
-        <l>incitació<s n="n"/></l> 
+        <l>incitació<s n="n"/><s n="f"/></l> 
         <r>incitamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -56004,7 +56007,7 @@
     -->
     <e>
       <p>
-        <l>infusió<s n="n"/></l> 
+        <l>infusió<s n="n"/><s n="f"/></l> 
         <r>infuso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -56046,9 +56049,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>inhabilitació<s n="n"/></l> 
+        <l>inhabilitació<s n="n"/><s n="f"/></l> 
         <r>divieto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -56312,7 +56315,7 @@
     -->
     <e>
       <p>
-        <l>inserció<s n="n"/></l> 
+        <l>inserció<s n="n"/><s n="f"/></l> 
         <r>inserimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -56378,7 +56381,7 @@
     -->
     <e>
       <p>
-        <l>insomni<s n="n"/></l> 
+        <l>insomni<s n="n"/><s n="m"/></l> 
         <r>insonnia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -57247,7 +57250,7 @@
     -->
     <e>
       <p>
-        <l>intervenció<s n="n"/></l> 
+        <l>intervenció<s n="n"/><s n="f"/></l> 
         <r>intervento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -57522,8 +57525,8 @@
     -->
     <e>
       <p>
-        <l>inversió<s n="n"/></l> 
-        <r>investimento<s n="n"/></r> 
+        <l>inversió<s n="n"/><s n="f"/></l> 
+        <r>investimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -57632,7 +57635,7 @@
     -->
     <e>
       <p>
-        <l>invitació<s n="n"/></l> 
+        <l>invitació<s n="n"/><s n="f"/></l> 
         <r>invito<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -58347,7 +58350,7 @@
     -->
     <e>
       <p>
-        <l>jardineria<s n="n"/></l> 
+        <l>jardineria<s n="n"/><s n="f"/></l> 
         <r>giardinaggio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -58457,7 +58460,7 @@
     -->
     <e>
       <p>
-        <l>joia<s n="n"/></l> 
+        <l>joia<s n="n"/><s n="f"/></l> 
         <r>gioiello<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -58710,7 +58713,7 @@
     -->
     <e>
       <p>
-        <l>junta<s n="n"/></l> 
+        <l>junta<s n="n"/><s n="f"/></l> 
         <r>consiglio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -60657,7 +60660,7 @@
     -->
     <e>
       <p>
-        <l>llet<s n="n"/></l> 
+        <l>llet<s n="n"/><s n="f"/></l> 
         <r>latte<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -60943,7 +60946,7 @@
     -->
     <e>
       <p>
-        <l>llindar<s n="n"/></l> 
+        <l>llindar<s n="n"/><s n="m"/></l> 
         <r>soglia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -60965,7 +60968,7 @@
     -->
     <e>
       <p>
-        <l>llista<s n="n"/></l> 
+        <l>llista<s n="n"/><s n="f"/></l> 
         <r>elenco<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -61911,7 +61914,7 @@
     -->
     <e>
       <p>
-        <l>magrana<s n="n"/></l> 
+        <l>magrana<s n="n"/><s n="f"/></l> 
         <r>melograno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -62615,21 +62618,11 @@
     -->
     <e>
       <p>
-        <l>mandarina<s n="n"/></l> 
-        <r>mandarino<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>mandarina<s n="n"/></l> 
+        <l>mandarina<s n="n"/><s n="f"/></l> 
         <r>mandarino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -62758,7 +62751,7 @@
     -->
     <e>
       <p>
-        <l>manteniment<s n="n"/></l> 
+        <l>manteniment<s n="n"/><s n="m"/></l> 
         <r>manutenzione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -62879,7 +62872,7 @@
     -->
     <e>
       <p>
-        <l>maquinària<s n="n"/></l> 
+        <l>maquinària<s n="n"/><s n="f"/></l> 
         <r>macchinario<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -62967,7 +62960,7 @@
     -->
     <e>
       <p>
-        <l>marca<s n="n"/></l> 
+        <l>marca<s n="n"/><s n="f"/></l> 
         <r>marchio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -63449,12 +63442,12 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e r="LR">
       <p>
-        <l>massa<s n="n"/></l> 
+        <l>massa<s n="n"/><s n="f"/></l> 
         <r>corpo<s n="n"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -63484,7 +63477,7 @@
     -->
     <e>
       <p>
-        <l>massacre<s n="n"/></l> 
+        <l>massacre<s n="n"/><s n="f"/></l> 
         <r>massacro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -63790,12 +63783,6 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>matí<s n="n"/><s n="m"/></l> 
-        <r>domani<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
 
     <!-- 
 	forced 'null' restriction
@@ -63878,7 +63865,7 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mediambiental<s n="adj"/></l> 
         <r>ambientale<s n="adj"/></r> 
@@ -63957,7 +63944,7 @@
     -->
     <e>
       <p>
-        <l>medul·la<s n="n"/></l> 
+        <l>medul·la<s n="n"/><s n="f"/></l> 
         <r>midollo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -64012,7 +63999,7 @@
     -->
     <e>
       <p>
-        <l>mel<s n="n"/></l> 
+        <l>mel<s n="n"/><s n="f"/></l> 
         <r>miele<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -66190,7 +66177,7 @@
     -->
     <e>
       <p>
-        <l>molèstia<s n="n"/></l> 
+        <l>molèstia<s n="n"/><s n="f"/></l> 
         <r>disturbo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -67686,7 +67673,7 @@
     -->
     <e>
       <p>
-        <l>naixement<s n="n"/></l> 
+        <l>naixement<s n="n"/><s n="m"/></l> 
         <r>nascita<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -67785,7 +67772,7 @@
     -->
     <e>
       <p>
-        <l>natació<s n="n"/></l> 
+        <l>natació<s n="n"/><s n="f"/></l> 
         <r>nuoto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -67895,7 +67882,7 @@
     -->
     <e>
       <p>
-        <l>nau<s n="n"/></l> 
+        <l>nau<s n="n"/><s n="f"/></l> 
         <r>capannone<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -68060,7 +68047,7 @@
     -->
     <e>
       <p>
-        <l>necessitat<s n="n"/></l> 
+        <l>necessitat<s n="n"/><s n="f"/></l> 
         <r>fabbisogno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -68357,7 +68344,7 @@
     -->
     <e>
       <p>
-        <l>neurona<s n="n"/></l> 
+        <l>neurona<s n="n"/><s n="f"/></l> 
         <r>neurone<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -68368,18 +68355,7 @@
     -->
     <e>
       <p>
-        <l>nevera<s n="n"/></l> 
-        <r>frigorifero<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nevera<s n="n"/></l> 
+        <l>nevera<s n="n"/><s n="f"/></l> 
         <r>frigorifero<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -68742,7 +68718,7 @@
     -->
     <e>
       <p>
-        <l>nomenament<s n="n"/></l> 
+        <l>nomenament<s n="n"/><s n="m"/></l> 
         <r>nomina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -69204,7 +69180,7 @@
     -->
     <e>
       <p>
-        <l>novel·la<s n="n"/></l> 
+        <l>novel·la<s n="n"/><s n="f"/></l> 
         <r>romanzo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -69589,7 +69565,7 @@
     -->
     <e>
       <p>
-        <l>obligació<s n="n"/></l> 
+        <l>obligació<s n="n"/><s n="f"/></l> 
         <r>obbligo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -69776,7 +69752,7 @@
     -->
     <e>
       <p>
-        <l>obtenció<s n="n"/></l> 
+        <l>obtenció<s n="n"/><s n="f"/></l> 
         <r>ottenimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -70029,7 +70005,7 @@
     -->
     <e>
       <p>
-        <l>ocultació<s n="n"/></l> 
+        <l>ocultació<s n="n"/><s n="f"/></l> 
         <r>occultamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -70997,7 +70973,7 @@
     -->
     <e>
       <p>
-        <l>origen<s n="n"/></l> 
+        <l>origen<s n="n"/><s n="f"/></l> 
         <r>origine<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -71800,7 +71776,7 @@
     -->
     <e>
       <p>
-        <l>pantalla<s n="n"/></l> 
+        <l>pantalla<s n="n"/><s n="f"/></l> 
         <r>schermo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -71899,18 +71875,7 @@
     -->
     <e>
       <p>
-        <l>paper<s n="n"/></l> 
-        <r>carta<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>paper<s n="n"/></l> 
+        <l>paper<s n="n"/><s n="m"/></l> 
         <r>carta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -71976,7 +71941,7 @@
     -->
     <e>
       <p>
-        <l>paradoxa<s n="n"/></l> 
+        <l>paradoxa<s n="n"/><s n="f"/></l> 
         <r>paradosso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -72031,7 +71996,7 @@
     -->
     <e>
       <p>
-        <l>paralització<s n="n"/></l> 
+        <l>paralització<s n="n"/><s n="f"/></l> 
         <r>arresto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -73613,7 +73578,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>per<b/>descomptat<s n="adv"/></l> 
         <r>ovviamente<s n="adv"/></r> 
@@ -73800,7 +73765,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>per<b/>ventura<s n="adv"/></l> 
         <r>forse<s n="adv"/></r> 
@@ -73813,7 +73778,7 @@
     -->
     <e>
       <p>
-        <l>percentatge<s n="n"/></l> 
+        <l>percentatge<s n="n"/><s n="m"/></l> 
         <r>percentuale<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -75573,7 +75538,7 @@
     -->
     <e>
       <p>
-        <l>plec<s n="n"/></l> 
+        <l>plec<s n="n"/><s n="m"/></l> 
         <r>piega<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -75738,8 +75703,8 @@
     -->
     <e>
       <p>
-        <l>plàstic<s n="n"/></l> 
-        <r>plastica<s n="n"/></r> 
+        <l>plàstic<s n="n"/><s n="m"/></l> 
+        <r>plastica<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -76156,7 +76121,7 @@
     -->
     <e>
       <p>
-        <l>polsera<s n="n"/></l> 
+        <l>polsera<s n="n"/><s n="f"/></l> 
         <r>braccialetto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -76640,7 +76605,7 @@
     -->
     <e>
       <p>
-        <l>possessió<s n="n"/></l> 
+        <l>possessió<s n="n"/><s n="f"/></l> 
         <r>possesso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -77091,7 +77056,7 @@
     -->
     <e>
       <p>
-        <l>prefaci<s n="n"/></l> 
+        <l>prefaci<s n="n"/><s n="m"/></l> 
         <r>prefazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -77542,7 +77507,7 @@
     -->
     <e>
       <p>
-        <l>prestigi<s n="n"/></l> 
+        <l>reputació<s n="n"/></l> 
         <r>reputazione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -78235,7 +78200,7 @@
     -->
     <e>
       <p>
-        <l>prohibició<s n="n"/></l> 
+        <l>prohibició<s n="n"/><s n="f"/></l> 
         <r>divieto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -79093,7 +79058,7 @@
     -->
     <e>
       <p>
-        <l>préssec<s n="n"/></l> 
+        <l>préssec<s n="n"/><s n="m"/></l> 
         <r>pesca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -79542,9 +79507,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>puntada<s n="n"/></l> 
+        <l>puntada<s n="n"/><s n="f"/></l> 
         <r>calcio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -80699,7 +80664,7 @@
     -->
     <e>
       <p>
-        <l>rail<s n="n"/></l> 
+        <l>rail<s n="n"/><s n="m"/></l> 
         <r>rotaia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -80842,7 +80807,7 @@
     -->
     <e>
       <p>
-        <l>raspall<s n="n"/></l> 
+        <l>raspall<s n="n"/><s n="m"/></l> 
         <r>spazzola<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -81291,12 +81256,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e c="Acordar algo = acordar alguna cosa; acordarse de algo = recordar-se!!">
+    <!--<e c="Acordar algo = acordar alguna cosa; acordarse de algo = recordar-se!!">
       <p>
         <l>recordar<s n="vblex"/></l> 
         <r>accordare<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -81348,7 +81313,7 @@
     -->
     <e>
       <p>
-        <l>recuperació<s n="n"/></l> 
+        <l>recuperació<s n="n"/><s n="f"/></l> 
         <r>recupero<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -81381,7 +81346,7 @@
     -->
     <e>
       <p>
-        <l>recurs<s n="n"/></l> 
+        <l>recurs<s n="n"/><s n="m"/></l> 
         <r>risorsa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -81557,7 +81522,7 @@
     -->
     <e>
       <p>
-        <l>referència<s n="n"/></l> 
+        <l>referència<s n="n"/><s n="f"/></l> 
         <r>riferimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -81964,7 +81929,7 @@
     -->
     <e>
       <p>
-        <l>reinserció<s n="n"/></l> 
+        <l>reinserció<s n="n"/><s n="f"/></l> 
         <r>reinserimento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -82272,7 +82237,7 @@
     -->
     <e>
       <p>
-        <l>renovació<s n="n"/></l> 
+        <l>renovació<s n="n"/><s n="f"/></l> 
         <r>rinnovo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -83878,7 +83843,7 @@
     -->
     <e>
       <p>
-        <l>roure<s n="n"/></l> 
+        <l>roure<s n="n"/><s n="m"/></l> 
         <r>quercia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -84351,7 +84316,7 @@
     -->
     <e>
       <p>
-        <l>sal<s n="n"/></l> 
+        <l>sal<s n="n"/><s n="f"/></l> 
         <r>sale<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -87899,7 +87864,7 @@
     -->
     <e>
       <p>
-        <l>superació<s n="n"/></l> 
+        <l>superació<s n="n"/><s n="f"/></l> 
         <r>superamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -88447,7 +88412,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tal<b/>vegada<s n="adv"/></l> 
         <r>forse<s n="adv"/></r> 
@@ -88647,7 +88612,7 @@
     -->
     <e>
       <p>
-        <l>tapadora<s n="n"/></l> 
+        <l>tapadora<s n="n"/><s n="f"/></l> 
         <r>coperchio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -88711,9 +88676,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>tarda<s n="n"/></l> 
+        <l>tarda<s n="n"/><s n="f"/></l> 
         <r>pomeriggio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -88856,7 +88821,7 @@
     -->
     <e>
       <p>
-        <l>taula<s n="n"/></l> 
+        <l>taula<s n="n"/><s n="f"/></l> 
         <r>tavolo<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
@@ -89318,7 +89283,7 @@
     -->
     <e>
       <p>
-        <l>tenda<s n="n"/></l> 
+        <l>tenda<s n="n"/><s n="f"/></l> 
         <r>negozio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -90748,7 +90713,7 @@
     -->
     <e>
       <p>
-        <l>transferència<s n="n"/></l> 
+        <l>transferència<s n="n"/><s n="f"/></l> 
         <r>bonifico<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -91639,7 +91604,7 @@
     -->
     <e>
       <p>
-        <l>turisme<s n="n"/></l> 
+        <l>turisme<s n="n"/><s n="m"/></l> 
         <r>autovettura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -92493,8 +92458,8 @@
     -->
     <e>
       <p>
-        <l>vacuna<s n="n"/></l> 
-        <r>vaccino<s n="n"/></r> 
+        <l>vacuna<s n="n"/><s n="f"/></l> 
+        <r>vaccino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -92526,8 +92491,8 @@
     -->
     <e>
       <p>
-        <l>vaga<s n="n"/></l> 
-        <r>sciopero<s n="n"/></r> 
+        <l>vaga<s n="n"/><s n="f"/></l> 
+        <r>sciopero<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -92788,7 +92753,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>vas<s n="n"/></l> 
         <r>bicchiere<s n="n"/></r> 
@@ -93127,17 +93092,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>verdura<s n="n"/></l> 
-        <r>ortaggio<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       adj-simple
     -->
     <e>
@@ -93164,7 +93118,7 @@
     -->
     <e>
       <p>
-        <l>vergonya<s n="n"/></l> 
+        <l>vergonya<s n="n"/><s n="f"/></l> 
         <r>imbarazzo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -93373,7 +93327,7 @@
     -->
     <e>
       <p>
-        <l>vesprada<s n="n"/></l> 
+        <l>vesprada<s n="n"/><s n="f"/></l> 
         <r>pomeriggio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -93956,7 +93910,7 @@
     -->
     <e>
       <p>
-        <l>violació<s n="n"/></l> 
+        <l>violació<s n="n"/><s n="f"/></l> 
         <r>stupro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -94638,7 +94592,7 @@
     -->
     <e>
       <p>
-        <l>voravia<s n="n"/></l> 
+        <l>voravia<s n="n"/><s n="f"/></l> 
         <r>marciapiede<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -95122,7 +95076,7 @@
     -->
     <e>
       <p>
-        <l>ximenera<s n="n"/></l> 
+        <l>ximenera<s n="n"/><s n="f"/></l> 
         <r>camino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -95428,7 +95382,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>àdhuc<s n="adv"/></l> 
         <r>ancora<s n="adv"/></r> 
@@ -95529,7 +95483,7 @@
     -->
     <e>
       <p>
-        <l>ànec<s n="n"/></l> 
+        <l>ànec<s n="n"/><s n="m"/></l> 
         <r>anatra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
