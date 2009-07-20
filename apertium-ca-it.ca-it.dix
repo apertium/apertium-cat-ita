@@ -9730,38 +9730,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>aborigen<s n="n"/></l> 
-        <r>aborigeno<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>aborigen<s n="n"/></l> 
-        <r>aborigeno<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>aborigen<s n="n"/></l> 
-        <r>aborigeno<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>aborigen<s n="n"/><s n="mf"/></l><r>aborigeno<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>aborigen<s n="n"/><s n="mf"/></l><r>aborigeno<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>aborigen<s n="n"/><s n="mf"/></l><r>aborigeno<s n="n"/><s n="GD"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -10668,38 +10639,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>acròbata<s n="n"/></l> 
-        <r>acrobata<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>acròbata<s n="n"/></l> 
-        <r>acrobata<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>acròbata<s n="n"/></l> 
-        <r>acrobata<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>acròbata<s n="n"/><s n="mf"/></l><r>acrobata<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>acròbata<s n="n"/><s n="mf"/></l><r>acrobata<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>acròbata<s n="n"/><s n="mf"/></l><r>acrobata<s n="n"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -12204,7 +12147,7 @@
     <e>
       <p>
         <l>agonia<s n="n"/></l> 
-        <r>agonia<s n="n"/><s n="f"/></r> 
+        <r>agonia<s n="n"/></r> 
       </p>
     </e>
 
@@ -14620,7 +14563,7 @@
     -->
     <e>
       <p>
-        <l>amortització<s n="n"/></l> 
+        <l>amortització<s n="n"/><s n="f"/></l> 
         <r>ammortamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -14845,38 +14788,11 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e r="RL">
-      <p>
-        <l>anarquista<s n="adj"/></l> 
-        <r>anarchico<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>anarquista<s n="adj"/><s n="mf"/></l><r>anarchico<s n="adj"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>anarquista<s n="adj"/><s n="mf"/></l><r>anarchico<s n="adj"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>anarquista<s n="adj"/><s n="mf"/></l><r>anarchico<s n="adj"/><s n="m"/></r></p></e> <!--check all anarquista-->
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e r="LR">
-      <p>
-        <l>anarquista<s n="adj"/></l> 
-        <r>anarchico<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e r="LR">
-      <p>
-        <l>anarquista<s n="adj"/></l> 
-        <r>anarchico<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e><p><l>anarquista<s n="n"/><s n="mf"/></l><r>anarchico<s n="n"/><s n="m"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -14884,19 +14800,8 @@
     -->
     <e>
       <p>
-        <l>anarquista<s n="n"/></l> 
-        <r>anarchico<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>anatema<s n="n"/></l> 
-        <r>anatema<s n="n"/></r> 
+        <l>anatema<s n="n"/><s n="f"/></l> 
+        <r>anatema<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -21533,7 +21438,7 @@
     -->
     <e>
       <p>
-        <l>bronzejat<s n="n"/></l> 
+        <l>bronzejat<s n="n"/><s n="m"/></l> 
         <r>abbronzatura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -27415,7 +27320,7 @@
     -->
     <e>
       <p>
-        <l>compra<s n="n"/></l> 
+        <l>compra<s n="n"/><s n="f"/></l> 
         <r>acquisto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -27442,16 +27347,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>comprador<s n="n"/></l> 
-        <r>acquirente<s n="n"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>comprador<s n="adj"/><s n="m"/></l><r>acquirente<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>comprador<s n="adj"/><s n="f"/></l><r>acquirente<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>comprador<s n="adj"/><s n="GD"/></l><r>acquirente<s n="adj"/><s n="mf"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -27461,17 +27360,6 @@
       <p>
         <l>comprador<s n="n"/></l> 
         <r>compratore<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>comprador<s n="n"/></l> 
-        <r>acquirente<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -40371,7 +40259,7 @@
 	forced 'null' restriction
       norestrictions-4
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ensorrada<s n="n"/><s n="f"/></l> 
         <r>affondamento<s n="n"/><s n="m"/></r> 
@@ -50806,27 +50694,8 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>habitant<s n="n"/></l> 
-        <r>abitatore<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>habitant<s n="n"/></l> 
-        <r>abitatore<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>habitante<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>habitante<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -63863,7 +63732,7 @@
     -->
     <e>
       <p>
-        <l>modernització<s n="n"/></l> 
+        <l>modernització<s n="n"/><s n="f"/></l> 
         <r>ammodernamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -83808,9 +83677,9 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>sida<s n="n"/><s n="m"/><s n="sg"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>sida<s n="n"/><s n="m"/><s n="pl"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>sida<s n="n"/><s n="m"/><s n="ND"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>sida<s n="n"/><s n="f"/><s n="sg"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>sida<s n="n"/><s n="f"/><s n="pl"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>sida<s n="n"/><s n="f"/><s n="ND"/></l><r>aids<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
 
     <!-- 
@@ -93155,7 +93024,7 @@
     -->
     <e>
       <p>
-        <l>ànec<s n="n"/><s n="m"/></l> 
+        <l>ànec<s n="n"/><s n="mf"/></l> 
         <r>anatra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -93166,7 +93035,7 @@
     -->
     <e>
       <p>
-        <l>àngel<s n="n"/></l> 
+        <l>àngel<s n="n"/><s n="mf"/></l> 
         <r>angelo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
