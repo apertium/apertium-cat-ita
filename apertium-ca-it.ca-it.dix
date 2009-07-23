@@ -14645,49 +14645,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>analista<s n="n"/></l> 
-        <r>analista<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>analista<s n="n"/></l> 
-        <r>analista<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>analista<s n="n"/></l> 
-        <r>analista<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>analista<s n="n"/></l> 
-        <r>analista<s n="n"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>analista<s n="n"/><s n="mf"/></l><r>analista<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>analista<s n="n"/><s n="mf"/></l><r>analista<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>analista<s n="n"/><s n="mf"/></l><r>analista<s n="n"/><s n="GD"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -23240,38 +23200,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>capitalista<s n="n"/></l> 
-        <r>capitalista<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>capitalista<s n="n"/></l> 
-        <r>capitalista<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>capitalista<s n="n"/></l> 
-        <r>capitalista<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>capitalista<s n="n"/><s n="mf"/></l><r>capitalista<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>capitalista<s n="n"/><s n="mf"/></l><r>capitalista<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>capitalista<s n="n"/><s n="mf"/></l><r>capitalista<s n="n"/><s n="f"/></r></p></e>
 
     <e r="LR"><p><l>capità<s n="n"/><s n="m"/></l><r>capitano<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>capità<s n="n"/><s n="f"/></l><r>capitano<s n="n"/><s n="m"/></r></p></e>
@@ -26329,16 +26260,7 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>col·leccionista<s n="n"/></l> 
-        <r>collezionista<s n="n"/></r> 
-      </p>
-    </e>
+<e><p><l>col·leccionista<s n="n"/><s n="mf"/></l><r>collezionista<s n="n"/><s n="m"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -26692,9 +26614,9 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>comisari<s n="n"/><s n="f"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>comisari<s n="n"/><s n="m"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>comisari<s n="n"/><s n="GD"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>comissari<s n="n"/><s n="f"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>comissari<s n="n"/><s n="m"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>comissari<s n="n"/><s n="GD"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- 
@@ -27380,38 +27302,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>comú<s n="adj"/><s n="f"/></l> 
-        <r>comune<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>comú<s n="adj"/><s n="GD"/></l> 
-        <r>comune<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>comú<s n="adj"/><s n="m"/></l> 
-        <r>comune<s n="adj"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>comú<s n="adj"/><s n="m"/></l><r>comune<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>comú<s n="adj"/><s n="f"/></l><r>comune<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>comú<s n="adj"/><s n="GD"/></l><r>comune<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -27957,16 +27850,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>conflictiu<s n="adj"/></l> 
-        <r>conflittuale<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>conflictiu<s n="adj"/><s n="GD"/></l><r>conflittuale<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>conflictiu<s n="adj"/><s n="m"/></l><r>conflittuale<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>conflictiu<s n="adj"/><s n="f"/></l><r>conflittuale<s n="adj"/><s n="mf"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -28098,9 +27985,9 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>conejo<s n="n"/><s n="m"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>conejo<s n="n"/><s n="f"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>conejo<s n="n"/><s n="GD"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>conill<s n="n"/><s n="m"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>conill<s n="n"/><s n="f"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>conill<s n="n"/><s n="GD"/></l><r>coniglio<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- 
@@ -28345,16 +28232,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>conseller<s n="n"/></l> 
-        <r>consigliere<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>conseller<s n="n"/><s n="m"/></l><r>consigliere<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>conseller<s n="n"/><s n="f"/></l><r>consigliere<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>conseller<s n="n"/><s n="GD"/></l><r>consigliere<s n="n"/><s n="m"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -28790,16 +28671,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>consultor<s n="n"/></l> 
-        <r>consulente<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>consultor<s n="n"/><s n="m"/></l><r>consulente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>consultor<s n="n"/><s n="f"/></l><r>consulente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>consultor<s n="n"/><s n="GD"/></l><r>consulente<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -28966,16 +28840,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>contenidor<s n="n"/></l> 
-        <r>contenitore<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>contenidor<s n="n"/><s n="m"/></l><r>contenitore<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>contenidor<s n="n"/><s n="f"/></l><r>contenitore<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>contenidor<s n="n"/><s n="GD"/></l><r>contenitore<s n="n"/><s n="m"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -29049,7 +28917,7 @@
     -->
     <e>
       <p>
-        <l>contingent<s n="n"/></l> 
+        <l>contingent<s n="n"/><s n="m"/></l> 
         <r>contingente<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
@@ -29864,16 +29732,7 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>coronel<s n="n"/></l> 
-        <r>colonnello<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e><p><l>coronel<s n="n"/><s n="mf"/></l><r>colonnello<s n="n"/><s n="m"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -30802,16 +30661,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>crueltat<s n="n"/></l> 
-        <r>crudeltà<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>crueltat<s n="n"/><s n="f"/><s n="ND"/></l><r>crudeltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>crueltat<s n="n"/><s n="f"/><s n="sg"/></l><r>crudeltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>crueltat<s n="n"/><s n="f"/><s n="pl"/></l><r>crudeltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -31050,7 +30903,7 @@
     -->
     <e>
       <p>
-        <l>culpable<s n="adj"/><s n="mf"/></l> 
+        <l>culpable<s n="adj"/></l> 
         <r>colpevole<s n="adj"/></r> 
       </p>
     </e>
@@ -31495,8 +31348,8 @@
     -->
     <e>
       <p>
-        <l>còlera<s n="n"/></l> 
-        <r>collera<s n="n"/></r> 
+        <l>còlera<s n="n"/><s n="mf"/></l> 
+        <r>collera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -34856,7 +34709,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diferent<s n="adj"/><s n="mf"/></l> 
         <r>distinto<s n="adj"/></r> 
@@ -35867,16 +35720,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>disseny<s n="n"/></l> 
-        <r>design<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>disseny<s n="n"/><s n="m"/><s n="ND"/></l><r>design<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>disseny<s n="n"/><s n="m"/><s n="sg"/></l><r>design<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>disseny<s n="n"/><s n="m"/><s n="pl"/></l><r>design<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -36769,38 +36616,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>donant<s n="n"/></l> 
-        <r>donatore<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>donant<s n="n"/></l> 
-        <r>donatore<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>donant<s n="n"/></l> 
-        <r>donatore<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>donant<s n="n"/><s n="mf"/></l><r>donatore<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>donant<s n="n"/><s n="mf"/></l><r>donatore<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>donant<s n="n"/><s n="mf"/></l><r>donatore<s n="n"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -39319,7 +39137,7 @@
     -->
     <e>
       <p>
-        <l>enclavament<s n="n"/></l> 
+        <l>enclavament<s n="n"/><s n="m"/></l> 
         <r>enclave<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -41827,9 +41645,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
-        <l>esquinç<s n="n"/></l> 
+        <l>esquinç<s n="n"/><s n="f"/></l> 
         <r>distorsione<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -43244,7 +43062,7 @@
     -->
     <e>
       <p>
-        <l>excedència<s n="n"/></l> 
+        <l>excedència<s n="n"/><s n="f"/></l> 
         <r>congedo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -71383,9 +71201,9 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>pesimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>pesimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>pesimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>pessimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>pessimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>pessimista<s n="n"/><s n="mf"/></l><r>pessimista<s n="n"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
