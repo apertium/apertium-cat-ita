@@ -40,6 +40,11 @@
       <attr-item tags="vbmod"/>
     </def-attr>
 
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="adj.qnt"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
