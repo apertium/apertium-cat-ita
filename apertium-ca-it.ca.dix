@@ -135,17 +135,17 @@
       <re>[a-z.]+@[a-z.]+</re>
       <p>
         <l></l> 
-        <r><s n="num"/></r> 
+        <r><s n="web"/></r> 
       </p>
     </e>
 
     </pardef>
     <pardef n="urls">
     <e>
-      <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
+      <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüyñça-z]+)*)</re>
       <p>
         <l></l> 
-        <r><s n="num"/></r> 
+        <r><s n="web"/></r> 
       </p>
     </e>
 
@@ -93493,7 +93493,7 @@
 <e lm="mundialista" a="prompsit2adn"><i>mundialist</i><par n="accionist/a__n"/></e>
 <e lm="legionel·la" a="prompsit2adn"><i>legionel·l</i><par n="abell/a__n"/></e>
 <e lm="legionel·la" r="LR"><p><l>legioneŀl</l><r>legionel·l</r></p><par n="abell/a__n"/></e>
-<e lm="hematoma" a="prompsit2adn"><i>hematom</i><par n="abell/a__n"/></e>
+<e lm="hematoma" a="prompsit2adn"><i>hematom</i><par n="carism/a__n"/></e>
 <e lm="helvètic" a="prompsit2adn"><i>helvèti</i><par n="asiàti/c__n"/></e>
 <e lm="helvètic" a="prompsit2adn"><i>helvèti</i><par n="acadèmi/c__adj"/></e>
 <e lm="ullet" a="prompsit2adn"><i>ullet</i><par n="abric__n"/></e>
@@ -97219,9 +97219,7 @@
 <e lm="plus" a="prompsit"><i>plus</i><par n="as__n"/></e>
 <e lm="prestatari" a="prompsit"><i>prestat</i><par n="adjudicat/ari__n"/></e>
 <e lm="prestatari" a="prompsit"><i>prestat</i><par n="adjudicat/ari__adj"/></e>
-<!--
 <e lm="prima" a="prompsit" alt="eco"><i>prim</i><par n="abell/a__n"/></e>
--->
 <e lm="protest" a="prompsit"><i>protest</i><par n="abric__n"/></e>
 <e lm="rèdit" a="prompsit"><i>rèdit</i><par n="abric__n"/></e>
 <e lm="comandita" a="prompsit"><i>comandit</i><par n="abell/a__n"/></e>
@@ -97274,11 +97272,9 @@
 <e lm="deu" a="prompsit"><i>deu</i><par n="atletisme__n"/></e>
 <e lm="deu"><i>deu</i><par n="accessibilitat__n"/></e>
 <e lm="assabentat i conforme" a="prompsit"><i>assabenta</i><par n="triparti/t__adj"/><p><l><b/>i<b/>conforme</l><r><g><b/>i<b/>conforme</g></r></p></e>
-<!--
 <e r="RL" lm="escrit" a="prompsit" alt="eco"><i>escrit</i><par n="atletisme__n"/></e>
 <e r="RL" lm="amb aquest escrit" a="prompsit" alt="eco"><i>amb<b/>aquest<b/>escrit</i><par n="ahir__adv"/></e>
 <e lm="resta Estat" alt="eco"><i>resta<b/>Estat</i><par n="q__n"/></e>
--->
 <e lm="ROE"><i>ROE</i><par n="BBC__n"/></e>
 <e lm="ROA"><i>ROA</i><par n="BBC__n"/></e>
 <e lm="UNE-EN"><i>UNE-EN</i><par n="BBC__n"/></e>
@@ -97324,10 +97320,8 @@
 <e lm="donar la conformitat" a="prompsit"><i>don</i><par n="don/ar__vblex"/><p><l><b/>la<b/>conformitat</l><r><g><b/>la<b/>conformitat</g></r></p></e>
 <e lm="donar la conformitat" a="prompsit"><p><l>dón</l><r>don</r></p><par n="dón/ar__vblex"/><p><l><b/>la<b/>conformitat</l><r><g><b/>la<b/>conformitat</g></r></p></e>
 <e lm="carregar en compte" a="prompsit"><i>carreg</i><par n="afalag/ar__vblex"/><p><l><b/>en<b/>compte</l><r><g><b/>en<b/>compte</g></r></p></e>
-<!--
 <e lm="fer fallida" a="prompsit" alt="eco"><i>f</i><par n="f/er__vblex"/><p><l><b/>fallida</l><r><g><b/>fallida</g></r></p></e>
 <e lm="fer fallida" a="prompsit" alt="std"><i>f</i><par n="f/er__vblex"/><p><l><b/>fallida</l><r><g><b/>fallida</g></r></p></e>
--->
 <e lm="ser conforme" a="prompsit"><par n="/ser__vbser"/><p><l><b/>conforme</l><r><g><b/>conforme</g></r></p></e>
 <e lm="ser a punt" a="prompsit"><par n="/ser__vbser"/><p><l><b/>a<b/>punt</l><r><g><b/>a<b/>punt</g></r></p></e>
 <e lm="tenir els efectes oportuns" a="prompsit"><par n="abs/tenir__vblex"/><p><l><b/>els<b/>efectes<b/>oportuns</l><r><g><b/>els<b/>efectes<b/>oportuns</g></r></p></e>
