@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="ca-it" install="yes">
+  <mode name="ca-it" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -31,7 +31,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-anmor" install="yes">
+  <mode name="ca-it-anmor" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -39,7 +39,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-tagger" install="yes">
+  <mode name="ca-it-tagger" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -50,7 +50,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-pretransfer" install="yes">
+  <mode name="ca-it-pretransfer" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -62,7 +62,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-chunker" install="yes">
+  <mode name="ca-it-chunker" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -79,7 +79,7 @@
     </pipeline>
   </mode>
   
-  <mode name="ca-it-interchunk" install="yes">
+  <mode name="ca-it-interchunk" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -100,7 +100,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-postchunk" install="yes">
+  <mode name="ca-it-postchunk" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -125,7 +125,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-it-generador" install="yes">
+  <mode name="ca-it-generador" >
     <pipeline>
       <program name="lt-proc">
         <file name="ca-it.automorf.bin"/>
@@ -186,7 +186,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-anmor" install="yes">
+  <mode name="it-ca-anmor" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -194,7 +194,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-tagger" install="yes">
+  <mode name="it-ca-tagger" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -205,7 +205,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-pretransfer" install="yes">
+  <mode name="it-ca-pretransfer" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -217,7 +217,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-chunker" install="yes">
+  <mode name="it-ca-chunker" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -234,7 +234,7 @@
     </pipeline>
   </mode>                
                                           
-  <mode name="it-ca-interchunk" install="yes">
+  <mode name="it-ca-interchunk" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -255,7 +255,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-postchunk" install="yes">
+  <mode name="it-ca-postchunk" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
@@ -280,7 +280,7 @@
     </pipeline>
   </mode>
 
-  <mode name="it-ca-generador" install="yes">
+  <mode name="it-ca-generador" >
     <pipeline>
       <program name="lt-proc">
         <file name="it-ca.automorf.bin"/>
