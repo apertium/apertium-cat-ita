@@ -10804,7 +10804,7 @@
     -->
     <e>
       <p>
-        <l>actuació<s n="n"/></l> 
+        <l>actuació<s n="n"/><s n="f"/></l> 
         <r>spettacolo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -12779,16 +12779,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>alcalde<s n="n"/></l> 
-        <r>sindaco<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>alcalde<s n="n"/><s n="m"/></l><r>sindaco<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>alcalde<s n="n"/><s n="f"/></l><r>sindaco<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>alcalde<s n="n"/><s n="GD"/></l><r>sindaco<s n="n"/><s n="m"/></r></p></e>
 
     <e r="RL"><p><l>alcalinitat<s n="n"/><s n="f"/><s n="ND"/></l><r>alcalinità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>alcalinitat<s n="n"/><s n="f"/><s n="sg"/></l><r>alcalinità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -18766,7 +18759,7 @@
     -->
     <e>
       <p>
-        <l>aïna<s n="n"/></l> 
+        <l>aïna<s n="n"/><s n="f"/></l>
         <r>utensile<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -20515,16 +20508,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>bomber<s n="n"/></l> 
-        <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>bomber<s n="n"/><s n="m"/></l><r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>bomber<s n="n"/><s n="f"/></l><r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>bomber<s n="n"/><s n="GD"/></l><r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -23340,18 +23326,7 @@
     -->
     <e>
       <p>
-        <l>cargol<s n="n"/></l> 
-        <r>vite<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>cargol<s n="n"/></l> 
+        <l>cargol<s n="n"/><s n="m"/></l> 
         <r>vite<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -23952,7 +23927,7 @@
     -->
     <e>
       <p>
-        <l>catifa<s n="n"/></l> 
+        <l>catifa<s n="n"/><s n="f"/></l> 
         <r>tappeto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -24807,18 +24782,7 @@
     -->
     <e>
       <p>
-        <l>cimera<s n="n"/></l> 
-        <r>vertice<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>cimera<s n="n"/></l> 
+        <l>cimera<s n="n"/><s n="f"/></l> 
         <r>vertice<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -31427,7 +31391,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>darrerament<s n="adv"/></l> 
         <r>ultimamente<s n="adv"/></r> 
@@ -31790,7 +31754,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>de<b/>pressa<s n="adv"/></l> 
         <r>rapidamente<s n="adv"/></r> 
@@ -40130,38 +40094,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>escolar<s n="adj"/></l> 
-        <r>scolastico<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>escolar<s n="adj"/></l> 
-        <r>scolastico<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>escolar<s n="adj"/></l> 
-        <r>scolastico<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>escolar<s n="adj"/><s n="mf"/></l><r>scolastico<s n="adj"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>escolar<s n="adj"/><s n="mf"/></l><r>scolastico<s n="adj"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>escolar<s n="adj"/><s n="mf"/></l><r>scolastico<s n="adj"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -40599,7 +40534,7 @@
     -->
     <e>
       <p>
-        <l>esmaragda<s n="n"/></l> 
+        <l>esmaragda<s n="n"/><s n="f"/></l> 
         <r>smeraldo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -41944,38 +41879,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>estudiantil<s n="adj"/></l> 
-        <r>studentesco<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>estudiantil<s n="adj"/></l> 
-        <r>studentesco<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>estudiantil<s n="adj"/></l> 
-        <r>studentesco<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>estudiantil<s n="adj"/><s n="mf"/></l><r>studentesco<s n="adj"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>estudiantil<s n="adj"/><s n="mf"/></l><r>studentesco<s n="adj"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>estudiantil<s n="adj"/><s n="mf"/></l><r>studentesco<s n="adj"/><s n="GD"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -60281,7 +60187,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>merament<s n="adv"/></l> 
         <r>semplicemente<s n="adv"/></r> 
@@ -61085,7 +60991,7 @@
     -->
     <e>
       <p>
-        <l>minuta<s n="n"/></l> 
+        <l>minuta<s n="n"/><s n="f"/></l> 
         <r>verbale<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -66650,16 +66556,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>ou<s n="n"/></l> 
-        <r>uovo<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>ou<s n="n"/><s n="m"/><s n="sg"/></l><r>uovo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>ou<s n="n"/><s n="m"/><s n="pl"/></l><r>uovo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>ou<s n="n"/><s n="m"/><s n="sg"/></l><r>uovo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>ou<s n="n"/><s n="m"/><s n="pl"/></l><r>uovo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>    
 
     <!-- 
 	forced 'null' restriction
@@ -68300,87 +68200,10 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>pediatra<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="GD"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>pediatra<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>pediatra<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>pediatra<s n="n"/><s n="mf"/><s n="sg"/></l><r>pediatre<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="GD"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="GD"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="m"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="f"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>pediatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>pediatra<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>pediatre<s n="n"/><s n="sg"/></l><r>pediatra<s n="n"/><s n="sg"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -70014,16 +69837,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pietat<s n="n"/></l> 
-        <r>pietà<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>pietat<s n="n"/><s n="f"/><s n="sg"/></l><r>pietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>pietat<s n="n"/><s n="f"/><s n="pl"/></l><r>pietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>pietat<s n="n"/><s n="f"/><s n="ND"/></l><r>pietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -71155,11 +70971,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>pol·lució<s n="n"/><s n="f"/></l> 
-        <r>smog<s n="n"/><s n="m"/></r> 
-      </p>
+    <!--<e r="LR"><p><l>pol·lució<s n="n"/><s n="f"/><s n="sg"/></l><r>smog<s n="n"/><s n="m"/><s n="sp"/></r></p>
+    <e r="LR"><p><l>pol·lució<s n="n"/><s n="f"/><s n="pl"/></l><r>smog<s n="n"/><s n="m"/><s n="sp"/></r></p>-->
+    <e r="RL"><p><l>pol·lució<s n="n"/><s n="f"/><s n="ND"/></l><r>smog<s n="n"/><s n="m"/><s n="sp"/></r></p>
     </e>
 
     <!-- 
@@ -73988,86 +73802,10 @@
       </p>
     </e>
 
-    <e r="LR"><p><l>psiquiatra<s n="n"/><s n="mf"/></l><r>psichiatra<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>psiquiatra<s n="n"/><s n="mf"/></l><r>psichiatra<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>psiquiatra<s n="n"/><s n="mf"/></l><r>psichiatra<s n="n"/><s n="f"/></r></p></e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="GD"/><s n="sg"/></l> 
-        <r>psichiatra<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="GD"/><s n="sg"/></l> 
-        <r>psichiatra<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>psichiatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>psichiatra<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l> 
-        <r>psichiatra<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="m"/><s n="sg"/></l> 
-        <r>psichiatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>psiquiatre<s n="n"/><s n="f"/><s n="sg"/></l> 
-        <r>psichiatra<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>psichiatra<s n="n"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>psichiatra<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>psiquiatre<s n="n"/><s n="mf"/><s n="pl"/></l><r>psichiatra<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>psiquiatre<s n="n"/><s n="sg"/></l><r>psichiatra<s n="n"/><s n="sg"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -75184,12 +74922,12 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e>
       <p>
-        <l>qüestió<s n="n"/></l> 
+        <l>qüestió<s n="n"/><s n="f"/></l> 
         <r>problema<s n="n"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -75605,16 +75343,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>realitat<s n="n"/></l> 
-        <r>realtà<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>realitat<s n="n"/><s n="f"/><s n="ND"/></l><r>realtà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>realitat<s n="n"/><s n="f"/><s n="sg"/></l><r>realtà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>realitat<s n="n"/><s n="f"/><s n="pl"/></l><r>realtà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -75875,7 +75606,7 @@
     -->
     <e>
       <p>
-        <l>reconeixement<s n="n"/></l> 
+        <l>reconeixement<s n="n"/><s n="m"/></l> 
         <r>visita<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -76018,7 +75749,7 @@
     -->
     <e>
       <p>
-        <l>recàrrec<s n="n"/></l> 
+        <l>recàrrec<s n="n"/><s n="m"/></l> 
         <r>soprattassa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -76428,12 +76159,12 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e>
       <p>
-        <l>regla<s n="n"/></l> 
+        <l>regla<s n="n"/><s n="f"/></l> 
         <r>principio<s n="n"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -78220,12 +77951,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>rodamón<s n="n"/><s n="mf"/></l> 
-        <r>vagabondo<s n="n"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>rodamón<s n="n"/><s n="mf"/></l><r>vagabondo<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>rodamón<s n="n"/><s n="mf"/></l><r>vagabondo<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>rodamón<s n="n"/><s n="mf"/></l><r>vagabondo<s n="n"/><s n="GD"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -78311,7 +78039,7 @@
     <e>
       <p>
         <l>romaní<s n="n"/></l> 
-        <r>rosmarino<s n="n"/><s n="m"/></r> 
+        <r>rosmarino<s n="n"/></r> 
       </p>
     </e>
 
@@ -78551,7 +78279,7 @@
     -->
     <e>
       <p>
-        <l>rumb<s n="n"/></l> 
+        <l>rumb<s n="n"/><s n="m"/></l> 
         <r>rotta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -79161,7 +78889,7 @@
     -->
     <e>
       <p>
-        <l>sang<s n="n"/></l> 
+        <l>sang<s n="n"/><s n="f"/></l> 
         <r>sangue<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -79858,9 +79586,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="RL">
       <p>
-        <l>sensació<s n="n"/></l> 
+        <l>sensació<s n="n"/><s n="f"/></l> 
         <r>stimolo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -80063,22 +79791,15 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>senzill<s n="adj"/></l> 
-        <r>semplice<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>senzill<s n="adj"/><s n="m"/></l><r>semplice<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>senzill<s n="adj"/><s n="f"/></l><r>semplice<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>senzill<s n="adj"/><s n="GD"/></l><r>semplice<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>senzillament<s n="adv"/></l> 
         <r>semplicemente<s n="adv"/></r> 
@@ -81208,16 +80929,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>societat<s n="n"/></l> 
-        <r>società<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>societat<s n="n"/><s n="f"/><s n="ND"/></l><r>società<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>societat<s n="n"/><s n="f"/><s n="sg"/></l><r>società<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>societat<s n="n"/><s n="f"/><s n="pl"/></l><r>società<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -81303,16 +81017,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>sofà<s n="n"/></l> 
-        <r>sofà<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>sofà<s n="n"/><s n="m"/><s n="sg"/></l><r>sofà<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>sofà<s n="n"/><s n="m"/><s n="pl"/></l><r>sofà<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>sofà<s n="n"/><s n="m"/><s n="ND"/></l><r>sofà<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -82298,7 +82005,7 @@
     <e>
       <p>
         <l>sufragi<s n="n"/></l> 
-        <r>suffragio<s n="n"/><s n="m"/></r> 
+        <r>suffragio<s n="n"/></r> 
       </p>
     </e>
 
@@ -83375,18 +83082,7 @@
     -->
     <e>
       <p>
-        <l>teclat<s n="n"/></l> 
-        <r>tastiera<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>teclat<s n="n"/></l> 
+        <l>teclat<s n="n"/><s n="m"/></l> 
         <r>tastiera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -83649,7 +83345,7 @@
     -->
     <e>
       <p>
-        <l>temptativa<s n="n"/></l> 
+        <l>temptativa<s n="n"/><s n="f"/></l> 
         <r>tentativo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -84213,16 +83909,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>tigre<s n="n"/></l> 
-        <r>tigre<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>tigre<s n="n"/><s n="m"/></l><r>tigre<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>tigre<s n="n"/><s n="f"/></l><r>tigre<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>tigre<s n="n"/><s n="GD"/></l><r>tigre<s n="n"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -84331,7 +84020,7 @@
     -->
     <e>
       <p>
-        <l>titlla<s n="n"/></l> 
+        <l>titlla<s n="n"/><s n="f"/></l> 
         <r>tilde<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
@@ -84496,7 +84185,7 @@
     -->
     <e>
       <p>
-        <l>tornada<s n="n"/></l> 
+        <l>tornada<s n="n"/><s n="f"/></l> 
         <r>ritorno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -86478,7 +86167,7 @@
     <e>
       <p>
         <l>unió<s n="n"/></l> 
-        <r>unione<s n="n"/><s n="f"/></r> 
+        <r>unione<s n="n"/></r>
       </p>
     </e>
 
@@ -86581,16 +86270,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>usuari<s n="n"/></l> 
-        <r>utente<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>usuari<s n="n"/><s n="m"/></l><r>utente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>usuari<s n="n"/><s n="f"/></l><r>utente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>usuari<s n="n"/><s n="GD"/></l><r>utente<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -86942,16 +86624,10 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>varietat<s n="n"/></l> 
-        <r>varietà<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>varietat<s n="n"/><s n="f"/><s n="sg"/></l><r>varietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>varietat<s n="n"/><s n="f"/><s n="pl"/></l><r>varietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>varietat<s n="n"/><s n="f"/><s n="ND"/></l><r>varietà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -87942,7 +87618,7 @@
     -->
     <e>
       <p>
-        <l>vigilant<s n="n"/></l> 
+        <l>vigilant<s n="n"/><s n="mf"/></l> 
         <r>sorvegliante<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -88194,16 +87870,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>virtut<s n="n"/></l> 
-        <r>virtù<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>virtut<s n="n"/><s n="f"/><s n="sg"/></l><r>virtù<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>virtut<s n="n"/><s n="f"/><s n="pl"/></l><r>virtù<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>virtut<s n="n"/><s n="f"/><s n="ND"/></l><r>virtù<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -88302,7 +87971,7 @@
     <e>
       <p>
         <l>visitant<s n="n"/></l> 
-        <r>visitatore<s n="n"/><s n="mf"/></r> 
+        <r>visitatore<s n="n"/></r> 
       </p>
     </e>
 
@@ -88598,7 +88267,7 @@
     -->
     <e>
       <p>
-        <l>voleibol<s n="n"/></l> 
+        <l>voleibol<s n="n"/><s n="m"/></l> 
         <r>pallavolo<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -88640,12 +88309,12 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <!--<e>
       <p>
-        <l>volta<s n="n"/></l> 
+        <l>volta<s n="n"/><s n="f"/></l> 
         <r>ritorno<s n="n"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <!-- 
 	forced 'null' restriction
@@ -89329,7 +88998,7 @@
     <e>
       <p>
         <l>zona<s n="n"/></l> 
-        <r>zona<s n="n"/><s n="f"/></r> 
+        <r>zona<s n="n"/></r> 
       </p>
     </e>
 
