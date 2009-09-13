@@ -51720,15 +51720,6 @@
     </e>
 
     </pardef>
-    <pardef n="re__n">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="n"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    </pardef>
     <pardef n="alcool__n">
     <e>
       <p>
@@ -93953,12 +93944,7 @@
 
     <e lm="magia">
         <i>magi</i> 
-        <par n="anomali/a__n" /> 
-    </e>
-
-    <e lm="magia">
-        <i>magia</i> 
-        <par n="abitabilità__n" /> 
+        <par n="cas/a__n" /> 
     </e>
 
     <e lm="magico">
@@ -94898,12 +94884,7 @@
 
     <e lm="meta">
         <i>met</i> 
-        <par n="anomali/a__n" /> 
-    </e>
-
-    <e lm="meta">
-        <i>meta</i> 
-        <par n="abitabilità__n" /> 
+        <par n="cas/a__n" /> 
     </e>
 
     <e lm="metabolismo">
@@ -96279,11 +96260,6 @@
     <e lm="nocciolo">
         <i>nocciol</i> 
         <par n="abbain/o__n" /> 
-    </e>
-
-    <e lm="nocciola">
-        <i>nocciola</i> 
-        <par n="advisor__n" /> 
     </e>
 
     <e lm="nodo">
