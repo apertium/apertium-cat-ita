@@ -9969,12 +9969,11 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>abstracte<s n="adj"/><s n="m"/><s n="sg"/></l> 
-        <r>astratto<s n="adj"/></r> 
-      </p>
-    </e>
+    <e><p><l>abstracte<s n="adj"/><s n="m"/><s n="sg"/></l><r>astratto<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>abstracte<s n="adj"/><s n="f"/><s n="sg"/></l><r>astratto<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>abstracte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>astratto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>abstracte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>astratto<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>abstracte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>astratto<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -27016,17 +27015,6 @@
       <p>
         <l>concert<s n="n"/></l> 
         <r>concerto<s n="n"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>TODOconcert<s n="n"/></l> 
-        <r>trattativa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -48769,19 +48757,9 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>habitant<s n="n"/></l> 
-        <r>abitante<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="RL"><p><l>habitante<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>habitante<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>habitant<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>habitant<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>habitant<s n="n"/><s n="mf"/></l><r>abitatore<s n="n"/><s n="GD"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -63229,6 +63207,17 @@
       <p>
         <l>negoci<s n="n"/></l> 
         <r>affare<s n="n"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>negociació<s n="n"/></l> 
+        <r>trattativa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -82250,34 +82239,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>tardorenc<s n="adj"/><s n="GD"/></l> 
-        <r>autunnale<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>tardorenc<s n="adj"/><s n="f"/></l> 
-        <r>autunnale<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>tardorenc<s n="adj"/><s n="m"/></l> 
-        <r>autunnale<s n="adj"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>tardorenc<s n="adj"/><s n="m"/></l><r>autunnale<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>tardorenc<s n="adj"/><s n="f"/></l><r>autunnale<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>tardorenc<s n="adj"/><s n="GD"/></l><r>autunnale<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
