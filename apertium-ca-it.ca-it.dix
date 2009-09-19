@@ -8931,7 +8931,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>a<b/>la<b/>nit<s n="adv"/></l> 
         <r>di<b/>notte<s n="adv"/></r> 
@@ -12415,7 +12415,7 @@
 	forced 'null' restriction
       cnjadv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>així<b/>i<b/>tot<s n="cnjadv"/></l> 
         <r>ciò<b/>nonostante<s n="cnjadv"/></r> 
@@ -12580,7 +12580,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>al<b/>davant<s n="adv"/></l> 
         <r>davanti<s n="adv"/></r> 
@@ -12624,7 +12624,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>al<b/>matí<s n="adv"/></l> 
         <r>di<b/>mattina<s n="adv"/></r> 
@@ -13997,7 +13997,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>amb<b/>prou<b/>faenes<s n="adv"/></l> 
         <r>appena<s n="adv"/></r> 
@@ -14114,27 +14114,12 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>ambdós<s n="prn"/></l> 
-        <r>tutti<b/>e<b/>due<s n="prn"/></r> 
-      </p>
-    </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>ambdós<s n="prn"/></l> 
-        <r>entrambi<s n="prn"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>entrambi<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+
+    <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -17345,7 +17330,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>asseure<s n="vblex"/></l> 
         <r>sedere<s n="vblex"/></r> 
@@ -25195,7 +25180,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>clericat<s n="n"/></l> 
         <r>clero<s n="n"/></r> 
@@ -25206,7 +25191,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>clero<s n="n"/></l> 
         <r>clero<s n="n"/></r> 
@@ -25805,7 +25790,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>colp<s n="n"/></l> 
         <r>colpo<s n="n"/></r> 
@@ -27684,7 +27669,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>conquerir<s n="vblex"/></l> 
         <r>conquistare<s n="vblex"/></r> 
@@ -27717,7 +27702,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>conquistar<s n="vblex"/></l> 
         <r>conquistare<s n="vblex"/></r> 
@@ -30458,12 +30443,12 @@
 	forced 'null' restriction
       adj-simple
     -->
-    <e>
-      <p>
-        <l>culte<s n="adj"/></l> 
-        <r>colto<s n="adj"/></r> 
-      </p>
-    </e>
+    <e><p><l>culte<s n="adj"/><s n="m"/><s n="sg"/></l><r>colto<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>culte<s n="adj"/><s n="f"/><s n="sg"/></l><r>colto<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>culte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>colto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>culte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>colto<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>culte<s n="adj"/><s n="mf"/><s n="pl"/></l><r>colto<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+
 
     <!-- 
 	forced 'null' restriction
@@ -30546,9 +30531,16 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>curar<s n="vblex"/></l> 
+        <r>curare<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>guarir<s n="vblex"/></l> 
         <r>curare<s n="vblex"/></r> 
       </p>
     </e>
@@ -31423,7 +31415,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>davant<b/>de<s n="pr"/></l> 
         <r>davanti<s n="pr"/></r> 
@@ -31566,7 +31558,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>de<b/>matí<s n="adv"/></l> 
         <r>di<b/>mattina<s n="adv"/></r> 
@@ -31599,7 +31591,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>de<b/>nit<s n="adv"/></l> 
         <r>di<b/>notte<s n="adv"/></r> 
@@ -32640,7 +32632,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>depòsit<s n="n"/></l> 
         <r>deposito<s n="n"/></r> 
@@ -34450,21 +34442,6 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dinar<s n="n"/><s n="m"/></l> 
-        <r>cibo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
     <e>
       <p>
         <l>dinar<s n="n"/><s n="m"/></l> 
@@ -34729,7 +34706,7 @@
 	forced 'null' restriction
       default
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>dipòsit<s n="n"/></l> 
         <r>deposito<s n="n"/></r> 
@@ -38480,7 +38457,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>endavant<s n="adv"/></l> 
         <r>avanti<s n="adv"/></r> 
@@ -43249,7 +43226,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>faltar<s n="vblex"/></l> 
         <r>mancare<s n="vblex"/></r> 
@@ -54539,7 +54516,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>just<s n="adv"/></l> 
         <r>appena<s n="adv"/></r> 
@@ -57497,7 +57474,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mai<b/>no<s n="adv"/></l> 
         <r>mai<s n="adv"/></r> 
@@ -59455,17 +59432,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>menjar<s n="n"/><s n="m"/></l> 
-        <r>pranzo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -60848,7 +60814,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mm<s n="n"/></l> 
         <r>millimetro<s n="n"/></r> 
@@ -61575,7 +61541,7 @@
     <e>
       <p>
         <l>moro<s n="adj"/></l> 
-        <r>moro<s n="adj"/></r> 
+        <r>moro<s n="adj"/><s n="ind"/></r> 
       </p>
     </e>
 
@@ -63216,7 +63182,7 @@
     -->
     <e>
       <p>
-        <l>negociació<s n="n"/></l> 
+        <l>negociació<s n="n"/><s n="f"/></l> 
         <r>trattativa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -63633,7 +63599,7 @@
 	forced 'null' restriction
       cnjadv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nogensmenys<s n="cnjadv"/></l> 
         <r>ciò<b/>nonostante<s n="cnjadv"/></r> 
@@ -79534,7 +79500,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>seure<s n="vblex"/></l> 
         <r>sedere<s n="vblex"/></r> 
@@ -80148,12 +80114,12 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <!--<e>
+    <e r="RL">
       <p>
         <l>situar<s n="vblex"/></l> 
         <r>ubicare<s n="vblex"/></r> 
       </p>
-    </e>-->
+    </e>
 
     <!-- 
 	forced 'null' restriction
@@ -82118,7 +82084,7 @@
 	forced 'null' restriction
       cnjadv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tanmateix<s n="cnjadv"/></l> 
         <r>ciò<b/>nonostante<s n="cnjadv"/></r> 
@@ -82217,7 +82183,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tardar<s n="vblex"/></l> 
         <r>tardare<s n="vblex"/></r> 
@@ -82261,7 +82227,7 @@
     <e>
       <p>
         <l>tardà<s n="adj"/></l> 
-        <r>tardio<s n="adj"/></r> 
+        <r>tardio<s n="adj"/><s n="ind"/></r> 
       </p>
     </e>
 
@@ -83706,7 +83672,7 @@
 	forced 'null' restriction
       cnjadv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tot<b/>amb<b/>tot<s n="cnjadv"/></l> 
         <r>ciò<b/>nonostante<s n="cnjadv"/></r> 
@@ -83728,7 +83694,7 @@
 	forced 'null' restriction
       adv-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>tot<b/>just<s n="adv"/></l> 
         <r>appena<s n="adv"/></r> 
@@ -84553,7 +84519,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e r="LR">
+    <e>
       <p>
         <l>trigar<s n="vblex"/></l> 
         <r>tardare<s n="vblex"/></r> 
@@ -84692,16 +84658,7 @@
       </p>
     </e>
 
-    <!-- 
-	forced 'null' restriction
-      norestrictions-2
-    -->
-    <e>
-      <p>
-        <l>trobar<g><b/>a<b/>faltar</g><s n="vblex"/></l> 
-        <r>mancare<s n="vblex"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p><l>trobar<g><b/>a<b/>faltar</g><s n="vblex"/></l><r>mancare<s n="vblex"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -85168,7 +85125,7 @@
 	forced 'null' restriction
       norestrictions-2
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ubicar<s n="vblex"/></l> 
         <r>ubicare<s n="vblex"/></r> 
@@ -87954,7 +87911,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>xarrada<s n="n"/></l> 
         <r>ciarla<s n="n"/></r> 
@@ -88520,8 +88477,8 @@
     -->
     <e>
       <p>
-        <l>àngel<s n="n"/><s n="mf"/></l> 
-        <r>angelo<s n="n"/><s n="m"/></r> 
+        <l>àngel<s n="n"/></l> 
+        <r>angelo<s n="n"/></r> 
       </p>
     </e>
 
@@ -88551,7 +88508,7 @@
 	forced 'null' restriction
       default
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>àpat<s n="n"/><s n="m"/></l> 
         <r>cibo<s n="n"/><s n="m"/></r> 
