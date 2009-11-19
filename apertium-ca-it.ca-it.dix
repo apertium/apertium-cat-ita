@@ -22694,7 +22694,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>cap<b/>a<s n="pr"/></l> 
         <r>per<s n="pr"/></r> 
@@ -39208,7 +39208,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>envers<s n="pr"/></l> 
         <r>per<s n="pr"/></r> 
@@ -68029,7 +68029,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>per<b/>a<s n="pr"/></l> 
         <r>per<s n="pr"/></r> 
@@ -68227,7 +68227,7 @@
 	forced 'null' restriction
       pr-simple
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>per<b/>tal<b/>de<s n="pr"/></l> 
         <r>per<s n="pr"/></r> 
@@ -83667,6 +83667,14 @@
         <r>tutto<s n="prn"/></r> 
       </p>
     </e>
+
+    <e>
+      <p>
+        <l>tot<s n="predet"/></l> 
+        <r>tutto<s n="det"/><s n="ind"/></r> 
+      </p>
+    </e>
+
 
     <!-- 
 	forced 'null' restriction
