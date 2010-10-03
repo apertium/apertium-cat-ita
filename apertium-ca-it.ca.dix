@@ -78773,6 +78773,7 @@
 <e lm="vespertí"><i>vespert</i><par n="alacant/í__adj"/></e>
 <e lm="vessant"><i>vessant</i><par n="abdominal__adj"/></e>
 <e lm="veterinari"><i>veterin</i><par n="adjudicat/ari__adj"/></e>
+<e lm="veterinari"><i>veterin</i><par n="adjudicat/ari__n"/></e>
 <e lm="veterà"><i>veter</i><par n="afric/à__adj"/></e>
 <e lm="vexatori"><i>vexat</i><par n="access/ori__adj"/></e>
 <e lm="veí"><i>ve</i><par n="genu/í__adj"/></e>
@@ -80007,6 +80008,7 @@
 <e lm="automobilisme"><i>automobilisme</i><par n="atletisme__n"/></e>
 <e lm="automobilista"><i>automobilist</i><par n="accionist/a__n"/></e>
 <e lm="automòbil"><i>automòbil</i><par n="abric__n"/></e>
+<e lm="automòbil"><i>automòbil</i><par n="abdominal__adj"/></e>
 <e lm="autonomia"><i>autonomi</i><par n="abell/a__n"/></e>
 <e lm="autopista"><i>autopist</i><par n="abell/a__n"/></e>
 <e lm="autor"><i>autor</i><par n="senyor__n"/></e>
@@ -82890,6 +82892,7 @@
 <e lm="mentalitat"><i>mentalitat</i><par n="accessibilitat__n"/></e>
 <e lm="mentida"><i>mentid</i><par n="abell/a__n"/></e>
 <e lm="mentider"><i>mentider</i><par n="senyor__n"/></e>
+<!--<e lm="mentider"><i>mentider</i><par n="__adj"/></e>-->
 <e lm="menyspreu"><i>menyspreu</i><par n="abric__n"/></e>
 <e lm="menú"><i>menú</i><par n="abric__n"/></e>
 <e lm="meravella"><i>meravell</i><par n="abell/a__n"/></e>

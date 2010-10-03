@@ -82858,7 +82858,7 @@
     </e>
 
     <e lm="compositore">
-        <i>compositor</i> 
+        <i>composit</i> 
         <par n="accentrat/ore__adj" /> 
     </e>
 
@@ -90496,10 +90496,10 @@
         <par n="autom/a__n" /> 
     </e>
 
-    <e lm="idioma">
+    <!--<e lm="idioma">
         <i>idiom</i> 
         <par n="eremit/a__n" /> 
-    </e>
+    </e>-->
 
     <e lm="idiosincrasia">
         <i>idiosincrasi</i> 
@@ -104356,11 +104356,6 @@
     <e lm="spia">
         <i>spi</i> 
         <par n="cas/a__n" /> 
-    </e>
-
-    <e lm="spia">
-        <i>spia</i> 
-        <par n="chat__n" /> 
     </e>
 
     <e lm="spiaggia">
