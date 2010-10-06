@@ -13916,6 +13916,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>amant<s n="adj"/></l> 
+        <r>amante<s n="adj"/></r> 
+      </p>
+    </e>
     <!-- 
 	forced 'null' restriction
       default
@@ -14154,6 +14160,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>ambient<s n="adj"/></l> 
+        <r>ambiente<s n="adj"/></r> 
+      </p>
+    </e>
     <!-- 
 	forced 'null' restriction
       adj-simple
@@ -19435,6 +19447,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>barroc<s n="n"/></l> 
+        <r>barocco<s n="n"/></r> 
+      </p>
+    </e>
     <!-- 
 	forced 'null' restriction
       default
@@ -42969,6 +42987,7 @@
     <e r="LR"><p><l>fabricador<s n="adj"/><s n="m"/></l><r>fabbricante<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>fabricador<s n="adj"/><s n="f"/></l><r>fabbricante<s n="adj"/><s n="mf"/></r></p></e>
 
+    <e><p><l>fabricant<s n="n"/><s n="mf"/></l><r>fabbricante<s n="n"/><s n="m"/></r></p></e>
     <!-- 
 	forced 'null' restriction
       norestrictions-2
@@ -43663,9 +43682,9 @@
       </p>
     </e>
 
-    <e r="RL"><p><l>febrer<s n="n"/><s n="m"/><s n="ND"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="pl"/></l><r>febbraio<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="sg"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="sg"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="pl"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>febrer<s n="n"/><s n="m"/><s n="ND"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -43801,12 +43820,9 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>femení<s n="adj"/></l> 
-        <r>femminile<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e r="RL"><p><l>femení<s n="adj"/><s n="GD"/></l><r>femminile<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>femení<s n="adj"/><s n="m"/></l><r>femminile<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>femení<s n="adj"/><s n="f"/></l><r>femminile<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction
@@ -47223,9 +47239,9 @@
       </p>
     </e>
 
-    <e r="RL"><p><l>gener<s n="n"/><s n="m"/><s n="ND"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e><p><l>gener<s n="n"/><s n="m"/><s n="pl"/></l><r>gennaio<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>gener<s n="n"/><s n="m"/><s n="sg"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>gener<s n="n"/><s n="m"/><s n="sg"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>gener<s n="n"/><s n="m"/><s n="pl"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>gener<s n="n"/><s n="m"/><s n="ND"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- 
 	forced 'null' restriction

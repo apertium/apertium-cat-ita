@@ -48574,22 +48574,15 @@
         <r>are<s n="vblex"/><s n="inf"/></r> 
       </p>
     </e>
-
     </pardef>
-    <pardef n="febbrai/o__n">
-    <e>
-      <p>
-        <l>o</l> 
-        <r>o<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
 
-    <e>
-      <p>
-        <l></l> 
-        <r>o<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
+    <pardef n="febbrai/o__n">
+      <e>
+	<p>
+	  <l>o</l>
+	  <r>o<s n="n"/><s n="m"/><s n="sg"/></r>
+	</p>
+      </e>
 
     </pardef>
     <pardef n="form/a-partito__n">

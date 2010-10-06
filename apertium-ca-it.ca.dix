@@ -76947,6 +76947,7 @@
 <e lm="barat"><i>barat</i><par n="alt__adj"/></e>
 <e lm="barceloní"><i>barcelon</i><par n="alacant/í__adj"/></e>
 <e lm="barroc"><i>barro</i><par n="acadèmi/c__adj"/></e>
+<e lm="barroc"><i>barroc</i><par n="atletisme__n"/></e>
 <e lm="basc"><i>bas</i><par n="bas/c__adj"/></e>
 <e lm="basculant"><i>basculant</i><par n="abdominal__adj"/></e>
 <e lm="bastant"><i>bastant</i><par n="abdominal__adj"/></e>
@@ -79753,6 +79754,7 @@
 <e lm="vicerectorat"><i>vicerectorat</i><par n="abric__n"/></e>
 <e r="LR" lm="vicerrectorat"><i>vicerrectorat</i><par n="abric__n"/></e>
 <e lm="amant"><i>amant</i><par n="acompanyant__n"/></e>
+<e lm="amant"><i>amant</i><par n="important__adj"/></e>
 <e lm="wiki"><i>wiki</i><par n="acompanyant__n"/></e>
 <e lm="amargor"><i>amargor</i><par n="accessibilitat__n"/></e>
 <e lm="ambaixada"><i>ambaixad</i><par n="abell/a__n"/></e>
@@ -79760,6 +79762,7 @@
 <e lm="ambició"><i>ambici</i><par n="acci/ó__n"/></e>
 <e lm="interrelació"><i>interrelaci</i><par n="acci/ó__n"/></e>
 <e lm="ambient"><i>ambient</i><par n="abric__n"/></e>
+<e lm="ambient"><i>ambient</i><par n="important__adj"/></e>
 <e lm="ambientació"><i>ambientaci</i><par n="acci/ó__n"/></e>
 <e lm="ambulatori"><i>ambulatori</i><par n="abric__n"/></e>
 <e lm="ambulància"><i>ambulànci</i><par n="abell/a__n"/></e>
