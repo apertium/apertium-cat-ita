@@ -8972,7 +8972,7 @@
     <e r="LR"><p><l>franquista<s n="adj"/><s n="mf"/></l><r>franchista<s n="adj"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>franquista<s n="adj"/><s n="mf"/></l><r>franchista<s n="adj"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>franquista<s n="adj"/><s n="mf"/></l><r>franchista<s n="adj"/><s n="f"/></r></p></e>
-: <!-- forced 'null' restriction: default -->
+ <!-- forced 'null' restriction: default -->
     <e><p><l>franquista<s n="n"/></l><r>franchista<s n="n"/></r></p></e>
     <e r="LR"><p><l>franquícia<s n="n"/><s n="f"/><s n="sg"/></l><r>franchising<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>franquícia<s n="n"/><s n="f"/><s n="pl"/></l><r>franchising<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -9539,7 +9539,7 @@
     <e r="LR"><p><l>guardià<s n="n"/><s n="m"/></l><r>custode<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>guardià<s n="n"/><s n="f"/></l><r>custode<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>guardià<s n="n"/><s n="GD"/></l><r>custode<s n="n"/><s n="mf"/></r></p></e>
-: <!-- forced 'null' restriction: norestrictions-2 -->
+ <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>guarir<s n="vblex"/></l><r>guarire<s n="vblex"/></r></p></e>
 
     <e><p><l>guarnició<s n="n"/></l><r>guarnigione<s n="n"/></r></p></e>
@@ -9885,7 +9885,7 @@
     <e r="LR"><p><l>iceberg<s n="n"/><s n="m"/><s n="sg"/></l><r>iceberg<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>iceberg<s n="n"/><s n="m"/><s n="pl"/></l><r>iceberg<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>iceberg<s n="n"/><s n="m"/><s n="ND"/></l><r>iceberg<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-: <!-- forced 'null' restriction: default -->
+ <!-- forced 'null' restriction: default -->
     <e><p><l>icona<s n="n"/><s n="f"/></l><r>icona<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>idea<s n="n"/></l><r>idea<s n="n"/></r></p></e>
@@ -10826,7 +10826,7 @@
     <e r="LR"><p><l>laborista<s n="adj"/><s n="mf"/></l><r>laburista<s n="adj"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>laborista<s n="adj"/><s n="mf"/></l><r>laburista<s n="adj"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>laborista<s n="adj"/><s n="mf"/></l><r>laburista<s n="adj"/><s n="f"/></r></p></e>
-: <!-- forced 'null' restriction: adj-simple -->
+ <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>lacti<s n="adj"/></l><r>latteo<s n="adj"/></r></p></e>
 
     <e><p><l>lactosa<s n="n"/><s n="f"/></l><r>lattosio<s n="n"/><s n="m"/></r></p></e>
@@ -11376,7 +11376,7 @@
     <e r="LR"><p><l>majorista<s n="adj"/><s n="mf"/></l><r>grossista<s n="adj"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>majorista<s n="adj"/><s n="mf"/></l><r>grossista<s n="adj"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>majorista<s n="adj"/><s n="mf"/></l><r>grossista<s n="adj"/><s n="f"/></r></p></e>
-: <e><p><l>majorista<s n="n"/><s n="mf"/></l><r>grossista<s n="n"/><s n="m"/></r></p></e>
+ <e><p><l>majorista<s n="n"/><s n="mf"/></l><r>grossista<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>majoritari<s n="adj"/></l><r>maggioritario<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -13018,7 +13018,7 @@
     <e r="LR"><p><l>ou<s n="n"/><s n="m"/><s n="pl"/></l><r>uovo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>ou<s n="n"/><s n="m"/><s n="sg"/></l><r>uovo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>ou<s n="n"/><s n="m"/><s n="pl"/></l><r>uovo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-: <!-- forced 'null' restriction: default -->
+ <!-- forced 'null' restriction: default -->
     <e><p><l>ou<s n="n"/></l><r>uovo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>oval<s n="adj"/></l><r>ovale<s n="adj"/></r></p></e>
@@ -17540,6 +17540,7 @@
     <e><p><l>úter<s n="n"/></l><r>utero<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>útil<s n="adj"/></l><r>utile<s n="adj"/></r></p></e>
+
     <!-- Punctuation -->
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
@@ -17549,6 +17550,7 @@
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+
   </section>
 </dictionary>
 
