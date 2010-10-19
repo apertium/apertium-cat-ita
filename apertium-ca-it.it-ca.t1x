@@ -21,8 +21,10 @@
       <cat-item tags="prn.*"/>
     </def-cat>
 
-    <def-cat n="top">
+    <def-cat n="top_ant">
       <cat-item tags="np.top.*"/>
+      <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.al.*"/>
     </def-cat>
 
     <def-cat n="det">          
@@ -975,7 +977,7 @@
 
     <rule comment="REGLA: TOP">
       <pattern>
-	<pattern-item n="top"/>
+	<pattern-item n="top_ant"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
@@ -991,8 +993,6 @@
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_nom"/>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
