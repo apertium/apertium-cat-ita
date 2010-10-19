@@ -12,10 +12,12 @@
 /apertium-ca-it.ca-it.t1x -text
 /apertium-ca-it.ca-it.t2x -text
 /apertium-ca-it.ca-it.t3x -text
+/apertium-ca-it.ca.acx -text
 /apertium-ca-it.ca.dix -text
 /apertium-ca-it.it-ca.t1x -text
 /apertium-ca-it.it-ca.t2x -text
 /apertium-ca-it.it-ca.t3x -text
+/apertium-ca-it.it.acx -text
 /apertium-ca-it.it.dix -text
 /apertium-ca-it.post-ca.dix -text
 /apertium-ca-it.post-it.dix -text
