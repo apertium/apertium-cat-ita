@@ -49,7 +49,7 @@
     <sdef n="sp" /> 
     <sdef n="ger" /> 
     <sdef n="inf" /> 
-    <sdef n="loc" /> 
+    <sdef n="top" /> 
     <sdef n="rpar" /> 
     <sdef n="sg" /> 
     <sdef n="cnjsub" /> 
@@ -551,7 +551,7 @@
     -->
     <e>
       <p>
-        <l>Algèria<s n="np"/><s n="loc"/></l> 
+        <l>Algèria<s n="np"/><s n="top"/></l> 
         <r>Algeria<s n="np"/></r> 
       </p>
     </e>
@@ -870,7 +870,7 @@
     -->
     <e>
       <p>
-        <l>Aràbia<s n="np"/><s n="loc"/></l> 
+        <l>Aràbia<s n="np"/><s n="top"/></l> 
         <r>Arabia<s n="np"/></r> 
       </p>
     </e>
@@ -1068,7 +1068,7 @@
     -->
     <e>
       <p>
-        <l>Baiona<s n="np"/><s n="loc"/></l> 
+        <l>Baiona<s n="np"/><s n="top"/></l> 
         <r>Bayonne<s n="np"/></r> 
       </p>
     </e>
@@ -1299,7 +1299,7 @@
     -->
     <e>
       <p>
-        <l>Besòs<s n="np"/><s n="loc"/></l> 
+        <l>Besòs<s n="np"/><s n="top"/></l> 
         <r>Besòs<s n="np"/></r> 
       </p>
     </e>
@@ -1310,7 +1310,7 @@
     -->
     <e>
       <p>
-        <l>Betlem<s n="np"/><s n="loc"/></l> 
+        <l>Betlem<s n="np"/><s n="top"/></l> 
         <r>Belén<s n="np"/></r> 
       </p>
     </e>
@@ -1508,7 +1508,7 @@
     -->
     <e>
       <p>
-        <l>Brussel·les<s n="np"/><s n="loc"/></l> 
+        <l>Brussel·les<s n="np"/><s n="top"/></l> 
         <r>Bruxelles<s n="np"/></r> 
       </p>
     </e>
@@ -1585,7 +1585,7 @@
     -->
     <e>
       <p>
-        <l>Bàssora<s n="np"/><s n="loc"/></l> 
+        <l>Bàssora<s n="np"/><s n="top"/></l> 
         <r>Bàssora<s n="np"/></r> 
       </p>
     </e>
@@ -1772,7 +1772,7 @@
     -->
     <e>
       <p>
-        <l>Canfranc<s n="np"/><s n="loc"/></l> 
+        <l>Canfranc<s n="np"/><s n="top"/></l> 
         <r>Canfranc<s n="np"/></r> 
       </p>
     </e>
@@ -1948,7 +1948,7 @@
     -->
     <e>
       <p>
-        <l>Casp<s n="np"/><s n="loc"/></l> 
+        <l>Casp<s n="np"/><s n="top"/></l> 
         <r>Caspe<s n="np"/></r> 
       </p>
     </e>
@@ -2179,7 +2179,7 @@
     -->
     <e>
       <p>
-        <l>Cisjordània<s n="np"/><s n="loc"/></l> 
+        <l>Cisjordània<s n="np"/><s n="top"/></l> 
         <r>Cisgiordania<s n="np"/></r> 
       </p>
     </e>
@@ -2289,7 +2289,7 @@
     -->
     <e>
       <p>
-        <l>Cornellà<s n="np"/><s n="loc"/></l> 
+        <l>Cornellà<s n="np"/><s n="top"/></l> 
         <r>Cornellà<s n="np"/></r> 
       </p>
     </e>
@@ -2388,7 +2388,7 @@
     -->
     <e>
       <p>
-        <l>Còria<s n="np"/><s n="loc"/></l> 
+        <l>Còria<s n="np"/><s n="top"/></l> 
         <r>Coria<s n="np"/></r> 
       </p>
     </e>
@@ -2487,7 +2487,7 @@
     -->
     <e>
       <p>
-        <l>Diagonal<s n="np"/><s n="loc"/></l> 
+        <l>Diagonal<s n="np"/><s n="top"/></l> 
         <r>Diagonale<s n="np"/></r> 
       </p>
     </e>
@@ -3114,7 +3114,7 @@
     -->
     <e>
       <p>
-        <l>Figueres<s n="np"/><s n="loc"/></l> 
+        <l>Figueres<s n="np"/><s n="top"/></l> 
         <r>Figueres<s n="np"/></r> 
       </p>
     </e>
@@ -3147,7 +3147,7 @@
     -->
     <e>
       <p>
-        <l>Florida<s n="np"/><s n="loc"/></l> 
+        <l>Florida<s n="np"/><s n="top"/></l> 
         <r>Florida<s n="np"/></r> 
       </p>
     </e>
@@ -3675,7 +3675,7 @@
     -->
     <e>
       <p>
-        <l>Hebron<s n="np"/><s n="loc"/></l> 
+        <l>Hebron<s n="np"/><s n="top"/></l> 
         <r>Hebron<s n="np"/></r> 
       </p>
     </e>
@@ -3763,7 +3763,7 @@
     -->
     <e>
       <p>
-        <l>Hiroshima<s n="np"/><s n="loc"/></l> 
+        <l>Hiroshima<s n="np"/><s n="top"/></l> 
         <r>Hiroshima<s n="np"/></r> 
       </p>
     </e>
@@ -3785,7 +3785,7 @@
     -->
     <e>
       <p>
-        <l>Hollywood<s n="np"/><s n="loc"/></l> 
+        <l>Hollywood<s n="np"/><s n="top"/></l> 
         <r>Hollywood<s n="np"/></r> 
       </p>
     </e>
@@ -4148,7 +4148,7 @@
     -->
     <e>
       <p>
-        <l>Jaca<s n="np"/><s n="loc"/></l> 
+        <l>Jaca<s n="np"/><s n="top"/></l> 
         <r>Jaca<s n="np"/></r> 
       </p>
     </e>
@@ -4467,7 +4467,7 @@
     -->
     <e>
       <p>
-        <l>Kosovo<s n="np"/><s n="loc"/></l> 
+        <l>Kosovo<s n="np"/><s n="top"/></l> 
         <r>Kosovo<s n="np"/></r> 
       </p>
     </e>
@@ -5226,7 +5226,7 @@
     -->
     <e>
       <p>
-        <l>Mediterrània<s n="np"/><s n="loc"/></l> 
+        <l>Mediterrània<s n="np"/><s n="top"/></l> 
         <r>Mediterraneo<s n="np"/></r> 
       </p>
     </e>
@@ -5281,7 +5281,7 @@
     -->
     <e>
       <p>
-        <l>Miami<s n="np"/><s n="loc"/></l> 
+        <l>Miami<s n="np"/><s n="top"/></l> 
         <r>Miami<s n="np"/></r> 
       </p>
     </e>
@@ -5358,7 +5358,7 @@
     -->
     <e>
       <p>
-        <l>Milà<s n="np"/><s n="loc"/></l> 
+        <l>Milà<s n="np"/><s n="top"/></l> 
         <r>Milano<s n="np"/></r> 
       </p>
     </e>
@@ -5589,7 +5589,7 @@
     -->
     <e>
       <p>
-        <l>Moskva<s n="np"/><s n="loc"/></l> 
+        <l>Moskva<s n="np"/><s n="top"/></l> 
         <r>Moscova<s n="np"/></r> 
       </p>
     </e>
@@ -5732,7 +5732,7 @@
     -->
     <e>
       <p>
-        <l>Múrcia<s n="np"/><s n="loc"/></l> 
+        <l>Múrcia<s n="np"/><s n="top"/></l> 
         <r>Murcia<s n="np"/></r> 
       </p>
     </e>
@@ -6194,7 +6194,7 @@
     -->
     <e>
       <p>
-        <l>Pau<s n="np"/><s n="loc"/></l> 
+        <l>Pau<s n="np"/><s n="top"/></l> 
         <r>Pau<s n="np"/></r> 
       </p>
     </e>
@@ -6381,7 +6381,7 @@
     -->
     <e>
       <p>
-        <l>Pirineus<s n="np"/><s n="loc"/></l> 
+        <l>Pirineus<s n="np"/><s n="top"/></l> 
         <r>Pirenei<s n="np"/></r> 
       </p>
     </e>
@@ -6678,7 +6678,7 @@
     -->
     <e>
       <p>
-        <l>Ripoll<s n="np"/><s n="loc"/></l> 
+        <l>Ripoll<s n="np"/><s n="top"/></l> 
         <r>Ripoll<s n="np"/></r> 
       </p>
     </e>
@@ -7019,7 +7019,7 @@
     -->
     <e>
       <p>
-        <l>Saragossa<s n="np"/><s n="loc"/></l> 
+        <l>Saragossa<s n="np"/><s n="top"/></l> 
         <r>Saragozza<s n="np"/></r> 
       </p>
     </e>
@@ -7195,8 +7195,8 @@
     -->
     <e>
       <p>
-        <l>Sofia<s n="np"/><s n="loc"/></l> 
-        <r>Sofia<s n="np"/><s n="loc"/></r> 
+        <l>Sofia<s n="np"/><s n="top"/></l> 
+        <r>Sofia<s n="np"/><s n="top"/></r> 
       </p>
     </e>
 
@@ -7250,7 +7250,7 @@
     -->
     <e>
       <p>
-        <l>Sud-àfrica<s n="np"/><s n="loc"/></l> 
+        <l>Sud-àfrica<s n="np"/><s n="top"/></l> 
         <r>Sudafrica<s n="np"/></r> 
       </p>
     </e>
@@ -7338,7 +7338,7 @@
     -->
     <e>
       <p>
-        <l>Sàhara<s n="np"/><s n="loc"/></l> 
+        <l>Sàhara<s n="np"/><s n="top"/></l> 
         <r>Sahara<s n="np"/></r> 
       </p>
     </e>
@@ -7371,7 +7371,7 @@
     -->
     <e>
       <p>
-        <l>Sòria<s n="np"/><s n="loc"/></l> 
+        <l>Sòria<s n="np"/><s n="top"/></l> 
         <r>Soria<s n="np"/></r> 
       </p>
     </e>
@@ -7503,7 +7503,7 @@
     -->
     <e>
       <p>
-        <l>Terol<s n="np"/><s n="loc"/></l> 
+        <l>Terol<s n="np"/><s n="top"/></l> 
         <r>Teruel<s n="np"/></r> 
       </p>
     </e>
@@ -8185,7 +8185,7 @@
     -->
     <e>
       <p>
-        <l>Virgínia<s n="np"/><s n="loc"/></l> 
+        <l>Virgínia<s n="np"/><s n="top"/></l> 
         <r>Virginia<s n="np"/></r> 
       </p>
     </e>
@@ -8516,7 +8516,7 @@
     <e>
       <p>
         <l>York<s n="np"/></l> 
-        <r>York<s n="np"/><s n="loc"/></r> 
+        <r>York<s n="np"/><s n="top"/></r> 
       </p>
     </e>
 
@@ -37084,7 +37084,7 @@
     -->
     <e>
       <p>
-        <l>el<b/>Puig<s n="np"/><s n="loc"/></l> 
+        <l>el<b/>Puig<s n="np"/><s n="top"/></l> 
         <r>Puig<s n="np"/></r> 
       </p>
     </e>
@@ -54669,7 +54669,7 @@
     -->
     <e>
       <p>
-        <l>l'Iraq<s n="np"/><s n="loc"/></l> 
+        <l>l'Iraq<s n="np"/><s n="top"/></l> 
         <r>Iraq<s n="np"/></r> 
       </p>
     </e>
@@ -88294,7 +88294,7 @@
     -->
     <e>
       <p>
-        <l>Àvila<s n="np"/><s n="loc"/></l> 
+        <l>Àvila<s n="np"/><s n="top"/></l> 
         <r>Ávila<s n="np"/></r> 
       </p>
     </e>

@@ -22,7 +22,7 @@
     </def-cat>
 
     <def-cat n="top">
-      <cat-item tags="np.loc.*"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>
 
     <def-cat n="det">          
@@ -49,7 +49,7 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
     </def-attr>
 

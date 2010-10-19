@@ -20,7 +20,7 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
     </def-attr>
 
