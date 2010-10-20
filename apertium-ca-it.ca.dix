@@ -76829,7 +76829,7 @@
 <e lm="alternatiu"><i>alternati</i><par n="abusi/u__adj"/></e>
 <e lm="altre"><i>altr</i><par n="altr/e__adj"/></e>
 <e lm="d'altres"><p><l>d'altres</l>               <r>d'altres<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR" lm="d'altres"><p><l>d'altres</l>        <r>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="d'altres"><p><l>d'altres</l>        <r>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
 <e lm="al·lucinant"><i>al·lucinant</i><par n="abdominal__adj"/></e>
 <e lm="al·lucinant" r="LR"><p><l>aŀlucinant</l><r>al·lucinant</r></p><par n="abdominal__adj"/></e>
 <e lm="al·lèrgic"><i>al·lèrgi</i><par n="acadèmi/c__adj"/></e>
@@ -79346,14 +79346,14 @@
 <e lm="pel que sembla"><i>pel<b/>que<b/>sembla</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per a això"><i>per<b/>a<b/>això</i><par n="a_fe_que__cnjadv"/></e>
 <e r="RL" lm="per aquest motiu"><i>per<b/>aquest<b/>motiu</i><par n="a_fe_que__cnjadv"/></e>
-<e r="LR" lm="per bé que"><i>per<b/>bé<b/>que</i><par n="a_fe_que__cnjadv"/></e>
+<e lm="per bé que"><i>per<b/>bé<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per molt que"><i>per<b/>molt<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per més que"><i>per<b/>més<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per poc que"><i>per<b/>poc<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per tal com"><i>per<b/>tal<b/>com</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per tal que" a="prompsit2uoc"><i>per<b/>tal<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="per tant"><i>per<b/>tant</i><par n="a_fe_que__cnjadv"/></e>
-<e r="LR" lm="per tot plegat"><i>per<b/>tot<b/>plegat</i><par n="a_fe_que__cnjadv"/></e>
+<e lm="per tot plegat"><i>per<b/>tot<b/>plegat</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="perquè"><i>perquè</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="puix que"><i>puix<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="sempre que"><i>sempre<b/>que</i><par n="a_fe_que__cnjadv"/></e>
@@ -79374,7 +79374,7 @@
 <e lm="o"><i>o</i><par n="i__cnjcoo"/></e>
 <e lm="però"><i>però</i><par n="i__cnjcoo"/></e>
 <e lm="sinó"><i>sinó</i><par n="i__cnjcoo"/></e>
-<e r="LR" lm="val a dir"><i>val<b/>a<b/>dir</i><par n="i__cnjcoo"/></e>
+<e lm="val a dir"><i>val<b/>a<b/>dir</i><par n="i__cnjcoo"/></e>
 <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
 <e r="RL" lm="al fet que"><i>al<b/>fet<b/>que</i><par n="que__cnjsub"/></e>
 <e lm="que no pas"><i>que<b/>no<b/>pas</i><par n="que__cnjsub"/></e>
@@ -86810,7 +86810,7 @@
 <e r="LR" lm="pels quals"><p><l>pels<b/>quals</l> <r>per<s n="pr"/><j/>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="per a"><i>per<b/></i><par n="conta__pr"/></e>
 <e r="LR" lm="per a d'altres"><i>per<b/>a<b/>d'altres</i><par n="a__pr"/></e>
-<e r="LR" lm="per d'altres"><i>per<b/>d'altres</i><par n="a__pr"/></e>
+<e lm="per d'altres"><i>per<b/>d'altres</i><par n="a__pr"/></e>
 <e lm="per mitjà de"><i>per<b/>mitjà<b/></i><par n="contde__pr"/></e>
 <e lm="per paga de"><i>per<b/>paga<b/></i><par n="contde__pr"/></e>
 <e lm="per sobre de"><i>per<b/>sobre<b/></i><par n="contde__pr"/></e>
@@ -86847,7 +86847,7 @@
 <e v="val" lm="quasi"><i>quasi</i><par n="ben__preadv"/></e>
 <e lm="tan"><i>tan</i><par n="ben__preadv"/></e>
 <e lm="tot"><i>tot</i><par n="tot__predet"/></e>      
-<e lm="això" v="cat"><p><l>això</l>             <r>això</r></p><par n="allò__prn"/></e>	
+<e lm="això"><p><l>això</l>             <r>això</r></p><par n="allò__prn"/></e>	
 <e lm="algun"><i>algun</i><par n="algun__prn"/></e>
 <e lm="alguna cosa"><i>alguna<b/>cosa</i><par n="alguna_cosa__prn"/></e>
 <e lm="algú"><i>algú</i><par n="algú__prn"/></e>

@@ -14,18 +14,21 @@
     <def-cat n="pp">
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="vbmod.pp.*"/>
+      <cat-item tags="vbhaver.pp.*"/>
       <cat-item tags="vbser.pp.*"/>
     </def-cat>
 
     <def-cat n="inf">
       <cat-item tags="vblex.inf.*"/>
       <cat-item tags="vbmod.inf.*"/>
+      <cat-item tags="vbhaver.inf.*"/>
       <cat-item tags="vbser.inf.*"/>
     </def-cat>
 
     <def-cat n="imp">
       <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vbmod.imp.*"/>
+      <cat-item tags="vbhaver.imp.*"/>
       <cat-item tags="vbser.imp.*"/>
     </def-cat>
 
@@ -1181,6 +1184,31 @@
                         <pattern-item n="pp"/>
                 </pattern>
                 <action>
+        <choose>
+          <when> 
+            <test>
+              <and>
+              <equal caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="haver"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pp"/>
+              </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="m"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="m"/>
+            </let>
+          </when>
+        </choose>
+
                         <call-macro n="f_concord1">
                                 <with-param pos="1"/>
                         </call-macro>
@@ -1277,10 +1305,16 @@
         <choose>
           <when> <!-- devi prendere questo → has de prendre aquesto -->
             <test>
-              <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
-                <lit v="dovere"/>
-              </equal>
+              <or>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="avere"/>
+                </equal>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="dovere"/>
+                </equal>
+              </or>
             </test>
             <let>
               <clip pos="1" side="tl" part="temps"/>

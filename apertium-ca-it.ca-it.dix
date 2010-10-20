@@ -103,32 +103,23 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e r="LR"><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/><s n="ND"/></r></p></e>
     <e r="LR"><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="pro"/></r></p></e>
-    <e r="LR"><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
-    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+
     <e r="LR"><p><l>hom<s n="prn"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
     <e r="LR"><p><l>tots<b/>dos<s n="prn"/></l><r>entrambi<s n="prn"/></r></p></e>
     <e r="LR"><p><l>un<s n="prn"/><s n="tn"/></l><r>alcuno<s n="prn"/><s n="tn"/></r></p></e>
-
-    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 
     <e><p><l>algun<s n="prn"/><s n="tn"/></l><r>alcuno<s n="prn"/><s n="tn"/></r></p></e>
 
     <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>alcunché<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>qualcosa<s n="prn"/><s n="tn"/></r></p></e>
 
-    <e><p><l>algú<s n="prn"/><s n="tn"/><s n="f"/></l><r>qualcuno<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e><p><l>algú<s n="prn"/><s n="tn"/><s n="m"/></l><r>qualcuno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>algú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>qualcuno<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>algú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>qualcuno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>algú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>qualcuno<s n="prn"/><s n="tn"/><s n="GD"/></r></p></e>
 
-    <e><p><l>allò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>allò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
     <e><p><l>amb<b/>mi<s n="prn"/></l><r>con<b/>me<s n="prn"/></r></p></e>
     <e><p><l>amb<b/>mi<s n="prn"/></l><r>meco<s n="prn"/></r></p></e>
@@ -140,35 +131,53 @@
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>entrambi<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
-    <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
-    <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
-    <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></r></p></e>
-    <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
-    <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="f"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="m"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
+    <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="GD"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></r></p></e>
+
+    <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="f"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="m"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
     <e><p><l>aquest<s n="prn"/></l><r>esso<s n="prn"/></r></p></e>
 
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
-    <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
-    <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
-    <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></r></p></e>
+    <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
 
-    <e><p><l>açò<s n="prn"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-    <e><p><l>açò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>aquest<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>cadascun<s n="prn"/></l><r>ciascuno<s n="prn"/></r></p></e>
-    <e><p><l>cadascun<s n="prn"/></l><r>ognuno<s n="prn"/></r></p></e>
-    <e><p><l>cadascú<s n="prn"/></l><r>ognuno<s n="prn"/><s n="tn"/><s n="GD"/></r></p></e>
+    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>açò<s n="prn"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>açò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+
+    <e r="LR"><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/><s n="ND"/></r></p></e>
+    <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="pro"/></r></p></e>
+    <e r="LR"><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
+    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+
+
+    <e><p><l>cadascun<s n="prn"/><s n="tn"/></l><r>ciascuno<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>cadascun<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="LR"><p><l>cadascú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>ognuno<s n="prn"/><s n="tn"/><s n="GD"/></r></p></e>
 
     <e r="LR"><p><l>cap<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="prn"/><s n="tn"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>cap<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>cap<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 
-    <e r="LR"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/></l><r>altro<s n="prn"/><s n="tn"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/></l><r>altro<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/></l><r>altro<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>altro<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>altro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>altro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>altro<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>altro<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
     <e><p><l>el<b/>meu<s n="prn"/></l><r>il<b/>mio<s n="prn"/></r></p></e>
 
@@ -228,9 +237,9 @@
 
     <e><p><l>nosaltres<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l><r>noi<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
 
-    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>qualsiasi<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>qualsivoglia<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>qualunque<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>qualsiasi<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>qualsivoglia<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>qualunque<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>quanto<s n="prn"/><s n="itg"/></r></p></e>
 
@@ -269,10 +278,9 @@
 
     <e><p><l>vosaltres<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></l><r>voi<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></r></p></e>
 
-    <e><p><l>vostè<s n="prn"/><s n="tn"/></l><r>Lei<s n="prn"/><s n="tn"/></r></p></e>
     <e r="LR"><p><l>vosté<s n="prn"/><s n="tn"/></l><r>Lei<s n="prn"/><s n="tn"/></r></p></e>
 
-    <e><p><l>vós<s n="prn"/><s n="tn"/><s n="p3"/></l><r>Lei<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e><p><l>vós<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <!-- -->
 
@@ -1812,7 +1820,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>banda<s n="adv"/></l><r>a<b/>parte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>a<b/>banda<b/>de<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>casa<s n="adv"/></l><r>in<b/>casa<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -1868,13 +1875,11 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>la<b/>nit<s n="adv"/></l><r>di<b/>notte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>a<b/>la<b/>primeria<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>la<b/>vora<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>les<b/>palpentes<s n="adv"/></l><r>a<b/>tentoni<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>a<b/>les<b/>primeries<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>llarg<b/>termini<s n="adv"/></l><r>a<b/>lungo<b/>termine<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -1895,8 +1900,10 @@
     <e><p><l>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>més<b/>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
+
+    <e r="LR"><p><l>a<b/>banda<b/>de<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
     <e><p><l>a<b/>més<b/>de<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>a<b/>on<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
 
@@ -1910,7 +1917,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>patolls<s n="adv"/></l><r>in<b/>massa<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
-    <e><p><l>a<b/>pesar<b/>que<s n="cnjadv"/></l><r>malgrado<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>petita<b/>escala<s n="adv"/></l><r>a<b/>scala<b/>ridotta<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -1923,8 +1929,11 @@
     <e><p><l>a<b/>poc<b/>a<b/>poquet<s n="adv"/></l><r>poco<b/>a<b/>poco<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>posta<s n="adv"/></l><r>a<b/>posta<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
+
+    <e r="LR"><p><l>a<b/>la<b/>primeria<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>a<b/>les<b/>primeries<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
     <e><p><l>a<b/>principis<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>prop<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -5182,13 +5191,14 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>com<s n="adv"/></l><r>come<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>com<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
 
     <e><p><l>com<s n="rel"/></l><r>come<s n="rel"/></r></p></e>
 
-    <e><p><l>com<s n="rel"/><s n="adv"/></l><r>quale<s n="rel"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>com<b/>a<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+    <e><p><l>qual<s n="rel"/><s n="an"/></l><r>quale<s n="rel"/><s n="an"/></r></p></e>
+
+    <e><p><l>com<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>com<b/>a<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>com<b/>a<b/>molt<s n="adv"/></l><r>al<b/>massimo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -6289,7 +6299,10 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>de<b/>llavors<b/>ençà<s n="adv"/></l><r>da<b/>allora<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
-    <e><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>nel<b/>caso<b/>in<b/>cui<s n="cnjadv"/></r></p></e>
+
+    <e><p><l>en<b/>cas<b/>que<s n="cnjadv"/></l><r>nel<b/>caso<b/>in<b/>cui<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>nel<b/>caso<b/>in<b/>cui<s n="cnjadv"/></r></p></e>
+
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>in<b/>modo<b/>che<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -6865,9 +6878,8 @@
     <e><p><l>dinovè<s n="adj"/></l><r>diciannovesimo<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>dins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>dins<s n="pr"/></l><r>dentro<s n="pr"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
+
+    <e r="LR"><p><l>dins<s n="pr"/></l><r>dentro<s n="pr"/></r></p></e>
     <e><p><l>dins<b/>de<s n="pr"/></l><r>dentro<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>dins<b/>de<s n="pr"/></l><r>entro<s n="pr"/></r></p></e>
@@ -7396,7 +7408,7 @@
 
     <e><p><l>el<b/>qual<s n="rel"/></l><r>il<b/>quale<s n="rel"/></r></p></e>
 
-    <e><p><l>el<b/>que<s n="rel"/></l><r>quello<b/>che<s n="rel"/></r></p></e>
+    <e><p><l>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></l><r>quello<b/>che<s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
 
     <e><p><l>el<b/>seu<s n="det"/><s n="pos"/></l><r>il<b/>suo<s n="det"/><s n="pos"/></r></p></e>
 
@@ -7567,7 +7579,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>en<b/>canvi<s n="adv"/></l><r>tuttavia<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
-    <e><p><l>en<b/>cas<b/>que<s n="cnjadv"/></l><r>nel<b/>caso<b/>in<b/>cui<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>en<b/>dejú<s n="adv"/></l><r>a<b/>digiuno<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -8840,10 +8851,10 @@
     <e r="LR"><p><l>finlandès<s n="n"/><s n="m"/></l><r>finlandese<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>finlandès<s n="n"/><s n="f"/></l><r>finlandese<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>finlandès<s n="n"/><s n="GD"/></l><r>finlandese<s n="n"/><s n="mf"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
-    <e><p><l>fins<s n="pr"/></l><r>fino<s n="pr"/></r></p></e>
-    <!-- forced 'null' restriction: pr-simple -->
+
+    <e r="LR"><p><l>fins<s n="pr"/></l><r>fino<s n="pr"/></r></p></e>
     <e><p><l>fins<b/>a<s n="pr"/></l><r>fino<s n="pr"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>fins<b/>ara<s n="adv"/></l><r>finora<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -9270,13 +9281,17 @@
 
     <e r="LR"><p><l>gai<s n="n"/></l><r>omosessuale<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
+
     <e><p><l>gaire<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
+    <e><p><l>molt<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>gaire<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
 
     <e><p><l>gaire<s n="adj"/><s n="mf"/></l><r>molto<s n="adj"/></r></p></e>
 
-    <e><p><l>gaire<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
 
     <e><p><l>gairebé<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>quasi<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
+
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>gal<s n="adj"/></l><r>gallico<s n="adj"/></r></p></e>
 
@@ -11883,7 +11898,6 @@
 
     <e><p><l>meridià<s n="n"/></l><r>meridiano<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: cnjcoo-simple -->
-    <e><p><l>mes<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>mes<s n="n"/></l><r>mese<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -12137,7 +12151,6 @@
 <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>molt<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
 
-    <e><p><l>molt<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
 
     <e><p><l>molt<s n="adj"/></l><r>molto<s n="adj"/></r></p></e>
 
@@ -13693,6 +13706,7 @@
     <e><p><l>període<s n="n"/></l><r>periodo<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: cnjcoo-simple -->
     <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+    <e r="LR"><p><l>mes<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>pes<s n="n"/></l><r>peso<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -14628,7 +14642,6 @@
 
     <e><p><l>quadre<s n="n"/><s n="m"/></l><r>tabella<s n="n"/><s n="f"/></r></p></e>
 
-    <e><p><l>qual<s n="rel"/><s n="an"/></l><r>quale<s n="rel"/></r></p></e>
     <e r="RL"><p><l>qualitat<s n="n"/><s n="f"/><s n="ND"/></l><r>qualità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>qualitat<s n="n"/><s n="f"/><s n="sg"/></l><r>qualità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>qualitat<s n="n"/><s n="f"/><s n="pl"/></l><r>qualità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -14666,11 +14679,11 @@
 
     <e><p><l>quart<s n="n"/></l><r>stanza<s n="n"/><s n="f"/></r></p></e>
 
-    <e><p><l>quasi<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
     <!-- forced 'null' restriction: cnjsub-simple -->
     <e><p><l>que<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
     <e><p><l>no<b/>obstant<s n="cnjadv"/></l><r>nonostante<s n="cnjsub"/></r></p></e>
 
+    <e r="LR"><p><l>què<s n="rel"/></l><r>che<s n="rel"/></r></p></e>
     <e><p><l>que<s n="rel"/></l><r>che<s n="rel"/></r></p></e>
 
     <e><p><l>que<b/>el<b/>seu<s n="rel"/></l><r>il<b/>cui<s n="rel"/></r></p></e>
@@ -14725,7 +14738,6 @@
 
 
 
-    <e><p><l>què<s n="rel"/></l><r>che<s n="rel"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>químic<s n="adj"/></l><r>chimico<s n="adj"/></r></p></e>
 
@@ -16552,8 +16564,10 @@
     <e><p><l>tot<s n="predet"/></l><r>tutto<s n="det"/><s n="ind"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e r="LR"><p><l>tot<b/>amb<b/>tot<s n="cnjadv"/></l><r>ciò<b/>nonostante<s n="cnjadv"/></r></p></e>
-    <!-- forced 'null' restriction: cnjadv-simple -->
+
+    <e r="LR"><p><l>a<b/>pesar<b/>que<s n="cnjadv"/></l><r>malgrado<s n="cnjadv"/></r></p></e>
     <e><p><l>tot<b/>i<b/>que<s n="cnjadv"/></l><r>malgrado<s n="cnjadv"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>tot<b/>just<s n="adv"/></l><r>appena<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -17446,7 +17460,7 @@
 
     <e><p><l>zebra<s n="n"/></l><r>zebra<s n="n"/></r></p></e>
 
-    <e><p><l>zero<s n="num"/></l><r>zero<s n="num"/></r></p></e>
+    <e><p><l>zero<s n="num"/><s n="m"/><s n="sp"/></l><r>zero<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>zinc<s n="n"/></l><r>zinco<s n="n"/></r></p></e>
 
