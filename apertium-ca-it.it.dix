@@ -14633,10 +14633,12 @@
         <par n="Afghanistan__np"/> 
     </e>
 
+<!--
     <e lm="TV">
         <i>TV</i> 
         <par n="TV__n"/> 
     </e>
+-->
 
     <e lm="TVE">
         <i>TVE</i> 
@@ -20182,11 +20184,12 @@
         <par n="abilità__n"/> 
     </e>
 
+<!--
     <e lm="calare">
         <i>calar</i> 
         <par n="ace__n"/> 
     </e>
-
+-->
     <e lm="calaverna">
         <i>calavern</i> 
         <par n="cas/a__n"/> 
@@ -22130,10 +22133,12 @@
         <par n="abbagliant/e__adj"/> 
     </e>
 
+<!--
     <e lm="collegiale">
         <i>collegiale</i> 
         <par n="abitant/e__n"/> 
     </e>
+-->
 
     <e lm="collera">
         <i>coller</i> 
@@ -22571,7 +22576,7 @@
     </e>
 
     <e lm="comparazione">
-        <i>comprazion</i> 
+        <i>comparazion</i> 
         <par n="abbreviazion/e__n"/> 
     </e>
 
