@@ -631,7 +631,9 @@
 <e><p><l>equipament<s n="n"/><s n="m"/></l><r>attrezzatura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>escriptori<s n="n"/><s n="m"/></l><r>desktop<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e><p><l>estàndard<s n="n"/><s n="m"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>estrès<s n="n"/><s n="m"/></l><r>stress<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+
+<e><p><l>estrès<s n="n"/><s n="m"/><s n="sg"/></l><r>stress<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+
 <e><p><l>ètnia<s n="n"/><s n="f"/></l><r>etnia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>fons<s n="n"/><s n="m"/></l><r>fondo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>fort<s n="n"/><s n="m"/></l><r>forte<s n="n"/><s n="m"/></r></p></e>
@@ -668,9 +670,8 @@
 <e r="RL"><p><l>hipòcrita<s n="n"/><s n="mf"/></l><r>ipocrita<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>hipòcrita<s n="n"/><s n="mf"/></l><r>ipocrita<s n="n"/><s n="f"/></r></p></e>
 
-<e r="LR"><p><l>algerià<s n="n"/><s n="mf"/></l><r>algerino<s n="n"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>algerià<s n="n"/><s n="mf"/></l><r>algerino<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>algerià<s n="n"/><s n="mf"/></l><r>algerino<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>algerià<s n="n"/><s n="m"/></l><r>algerino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>algerià<s n="n"/><s n="f"/></l><r>algerino<s n="n"/><s n="f"/></r></p></e>
 
 <e r="LR"><p><l>egipci<s n="n"/><s n="mf"/></l><r>egizio<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>egipci<s n="n"/><s n="mf"/></l><r>egizio<s n="n"/><s n="m"/></r></p></e>
@@ -3908,7 +3909,10 @@
     <e><p><l>ballet<s n="n"/></l><r>balletto<s n="n"/></r></p></e>
     <e><p><l>terme<s n="n"/></l><r>termine<s n="n"/></r></p></e>
 
-<e><p><l>balneari<s n="n"/><s n="m"/></l><r>terme<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>balneari<s n="n"/><s n="m"/><s n="pl"/></l><r>terme<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>balneari<s n="n"/><s n="m"/><s n="ND"/></l><r>terme<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>balneari<s n="n"/><s n="m"/><s n="sg"/></l><r>terme<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+
 <e><p><l>orella<s n="n"/><s n="f"/></l><r>orecchio<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>baló<s n="n"/></l><r>pallone<s n="n"/></r></p></e>
@@ -6890,7 +6894,7 @@
 
     <e><p><l>diferència<s n="n"/></l><r>differenza<s n="n"/></r></p></e>
 
-    <e><p><l>dificultat<s n="n"/></l><r>difficoltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e><p><l>dificultat<s n="n"/><s n="f"/><s n="sg"/></l><r>difficoltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <e><p><l>difunt<s n="n"/></l><r>defunto<s n="n"/></r></p></e>
 
@@ -8271,7 +8275,6 @@
 
     <e><p><l>estruç<s n="n"/><s n="m"/></l><r>struzzo<s n="n"/><s n="m"/></r></p></e>
 
-    <e><p><l>estrès<s n="n"/><s n="sg"/></l><r>stress<s n="n"/><s n="sp"/></r></p></e>
 
     <e><p><l>estuc<s n="n"/></l><r>stucco<s n="n"/></r></p></e>
 
@@ -12689,7 +12692,8 @@
 
     <e><p><l>nomenclatura<s n="n"/></l><r>nomenclatura<s n="n"/></r></p></e>
 
-    <e><p><l>nomenclatura<s n="n"/></l><r>prosieguo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nomenclatura<s n="n"/><s n="f"/></l><r>prosieguo<s n="n"/><s n="m"/></r></p></e>
+
     <e r="LR"><p><l>nominació<s n="n"/><s n="f"/><s n="sg"/></l><r>nomination<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>nominació<s n="n"/><s n="f"/><s n="pl"/></l><r>nomination<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>nominació<s n="n"/><s n="f"/><s n="ND"/></l><r>nomination<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -14704,7 +14708,7 @@
     <e r="LR"><p><l>quantitat<s n="n"/><s n="f"/><s n="sg"/></l><r>quantità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>quantitat<s n="n"/><s n="f"/><s n="pl"/></l><r>quantità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
-    <e><p><l>quantitat<s n="n"/></l><r>quantitativo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>quantitat<s n="n"/><s n="f"/></l><r>quantitativo<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>quantitatiu<s n="adj"/></l><r>quantitativo<s n="adj"/></r></p></e>
 
