@@ -15816,7 +15816,11 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>sinistrat<s n="adj"/></l><r>sinistrato<s n="adj"/></r></p></e>
 
-    <e><p><l>sinistre<s n="adj"/></l><r>sinistro<s n="adj"/></r></p></e>
+    <e><p><l>sinistre<s n="adj"/><s n="m"/><s n="sg"/></l><r>sinistro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>sinistre<s n="adj"/><s n="f"/><s n="sg"/></l><r>sinistro<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>sinistre<s n="adj"/><s n="mf"/><s n="pl"/></l><r>sinistro<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>sinistre<s n="adj"/><s n="mf"/><s n="pl"/></l><r>sinistro<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>sinistre<s n="adj"/><s n="mf"/><s n="pl"/></l><r>sinistro<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 
     <e><p><l>sintaxi<s n="n"/><s n="f"/><s n="ND"/></l><r>sintassi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 

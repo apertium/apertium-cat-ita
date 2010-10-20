@@ -76793,6 +76793,63 @@
 
   <section  id="main" type="standard">
 
+<e lm="absorbent"><i>absorbent</i><par n="abric__n"/></e>
+<e lm="acta"><i>act</i><par n="abell/a__n"/></e>
+<e lm="algerià"><i>algeri</i><par n="americ/à__n"/></e>
+<e lm="aspirador"><i>aspirador</i><par n="abric__n"/></e>
+<e lm="bambolla"><i>bamboll</i><par n="abell/a__n"/></e>
+<e lm="bambú"><i>bambú</i><par n="abric__n"/></e>
+<e lm="barroc"><i>barroc</i><par n="abric__n"/></e>
+<e lm="bunyol"><i>bunyol</i><par n="abric__n"/></e>
+<e lm="calcetí"><i>calcet</i><par n="boc/í__n"/></e>
+<e lm="cec"><i>ce</i><par n="ami/c__n"/></e>
+<e lm="clar"><i>clar</i><par n="abric__n"/></e>
+<e lm="conservador"><i>conservador</i><par n="senyor__n"/></e>
+<e lm="cortina"><i>cortin</i><par n="abell/a__n"/></e>
+<e lm="dacsa"><i>dacs</i><par n="abell/a__n"/></e>
+<e lm="dificultat"><i>dificultat</i><par n="accessibilitat__n"/></e>
+<e lm="dissident"><i>dissident</i><par n="acompanyant__n"/></e>
+<e lm="dissolvent"><i>dissolvent</i><par n="abric__n"/></e>
+<e lm="egoista"><i>egoist</i><par n="accionist/a__n"/></e>
+<e lm="esclavatge"><i>esclavatge</i><par n="abric__n"/></e>
+<e lm="escriptori"><i>escriptori</i><par n="abric__n"/></e>
+<e lm="esglèsia"><i>esglèsi</i><par n="abell/a__n"/></e>
+<e lm="estrès"><i>estr</i><par n="desinter/ès__n"/></e>
+<e lm="febra"><i>febr</i><par n="abell/a__n"/></e>
+<e lm="fenoll" v="val"><i>fenoll</i><par n="abric__n"/></e>
+<e lm="fiscal"><i>fiscal</i><par n="abric__n"/></e>
+<e lm="fons"><i>fons</i><par n="campus__n"/></e>
+<e lm="forment"><i>forment</i><par n="abric__n"/></e>
+<e lm="fort"><i>fort</i><par n="abric__n"/></e>
+<e lm="guerrer"><i>guerrer</i><par n="senyor__n"/></e>
+<e lm="hipòcrita"><i>hipòcrit</i><par n="accionist/a__n"/></e>
+<e lm="indicatiu"><i>indicatiu</i><par n="abric__n"/></e>
+<e lm="intermediari"><i>intermedi</i><par n="adjudicat/ari__n"/></e>
+<e lm="kg"><i>kg</i><par n="campus__n"/></e>
+<e lm="llaurador"><i>llaurador</i><par n="senyor__n"/></e>
+<e lm="llenceria"><i>llenceri</i><par n="abell/a__n"/></e>
+<e lm="maig"><i>ma</i><par n="assa/ig__n"/></e>
+<e lm="maqueta"><i>maquet</i><par n="abell/a__n"/></e>
+<e lm="mascarot"><i>mascarot</i><par n="abric__n"/></e>
+<e lm="matí"><i>mat</i><par n="boc/í__n"/></e>
+<e lm="metropolità"><i>metropolit</i><par n="bacall/à__n"/></e>
+<e lm="mitat"><i>mitat</i><par n="accessibilitat__n"/></e>
+<e lm="nadó"><i>nad</i><par n="aband/ó__n"/></e>
+<e lm="nomenclatura"><i>nomenclatur</i><par n="abell/a__n"/></e>
+<e lm="orient"><i>orient</i><par n="abric__n"/></e>
+<e lm="pelegrinació"><i>pelegrinaci</i><par n="acci/ó__n"/></e>
+<e lm="pilot"><i>pilot</i><par n="abric__n"/></e>
+<e lm="pinso"><i>pinso</i><par n="abric__n"/></e>
+<e lm="pintura"><i>pintur</i><par n="abell/a__n"/></e>
+<e lm="quantitat"><i>quantitat</i><par n="accessibilitat__n"/></e>
+<e lm="quart"><i>quart</i><par n="abric__n"/></e>
+<e lm="sinònim"><i>sinònim</i><par n="abric__n"/></e>
+<e lm="sord"><i>sord</i><par n="senyor__n"/></e>
+<e lm="sostració" v="val"><i>sostraci</i><par n="acci/ó__n"/></e>
+<e lm="suec"><i>sue</i><par n="asiàti/c__n"/></e>
+<e lm="dacsa" a="prompsit2uoc"><i>dacs</i><par n="abell/a__n"/></e>
+
+
 <e lm="aliat" a="eleka"><i>aliat</i><par n="abdominal__adj"/></e>
 <e lm="animal" a="ariel"><i>animal</i> <par n="abdominal__adj"/></e>
 <e lm="difunt"><i>difunt</i><par n="alt__adj"/></e>
