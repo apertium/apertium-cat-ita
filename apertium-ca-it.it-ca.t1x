@@ -11,6 +11,13 @@
       <cat-item tags="adj.GD.*"/>
     </def-cat>
 
+    <def-cat n="vfin">
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vbser.pii.*"/>
+      <cat-item tags="vbmod.prs.*"/>
+      <cat-item tags="vbmod.fti.*"/>
+    </def-cat>
+
     <def-cat n="pretind">
       <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vbser.ifi.*"/>
@@ -1021,12 +1028,13 @@
 	      <tag><var n="numero"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_nom"/>
 	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
 	      <clip pos="1" side="tl" part="gen_mf"/>	 
 	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
 	      <clip pos="1" side="tl" part="nbr_sp"/>
+	      <clip pos="1" side="tl" part="lemq"/> 
 	    </lu> 
 	  </chunk>
 	</out>
@@ -1141,6 +1149,34 @@
 	</out>
       </action>
     </rule>
+
+    <rule comment="REGLA: vfin">
+      <pattern>
+	<pattern-item n="vfin"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="verbcj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+
+            </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
 
 
 

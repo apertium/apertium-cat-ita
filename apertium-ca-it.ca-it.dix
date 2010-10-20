@@ -2758,7 +2758,6 @@
 
     <e><p><l>amnèsia<s n="n"/></l><r>amnesia<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-0 -->
-    <e><p><l>amo<s n="n"/><s n="m"/></l><r>padrone<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-0 -->
     <e><p><l>amo<s n="n"/><s n="m"/></l><r>proprietario<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -8045,6 +8044,7 @@
     <e><p><l>estany<s n="n"/></l><r>stagno<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>estar<s n="vblex"/></l><r>stare<s n="vbser"/></r></p></e>
+    <e r="RL"><p><l>estar<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
 
     <e><p><l>estat<s n="n"/></l><r>stato<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -11825,7 +11825,6 @@
 
     <e><p><l>mestre<s n="n"/><s n="mf"/><s n="pl"/></l><r>maestro<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-1 -->
-    <e><p><l>mestressa<s n="n"/><s n="f"/></l><r>padrone<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>mesura<s n="n"/></l><r>misura<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-3 -->
@@ -13052,7 +13051,10 @@
 
     <e><p><l>padrí<s n="n"/></l><r>padrino<s n="n"/></r></p></e>
 
+    <e><p><l>mestressa<s n="n"/><s n="f"/></l><r>padrone<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>amo<s n="n"/><s n="m"/></l><r>padrone<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>padró<s n="n"/></l><r>padrone<s n="n"/></r></p></e>
+
     <e r="LR"><p><l>paella<s n="n"/><s n="f"/><s n="sg"/></l><r>paella<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>paella<s n="n"/><s n="f"/><s n="pl"/></l><r>paella<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>paella<s n="n"/><s n="f"/><s n="ND"/></l><r>paella<s n="n"/><s n="f"/><s n="sp"/></r></p></e>

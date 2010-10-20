@@ -30,6 +30,9 @@ for i in $POS; do
 	elif [ "$i" = "vbhaver" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pp' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pp' | grep -v REGEX | wc -l`;
+	elif [ "$i" = "vblex" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<adv' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<adv' | grep -v REGEX | wc -l`;
 	elif [ "$i" = "pr" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<prn' -e '<ger' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<prn' -e '<ger' | grep -v REGEX | wc -l`;
