@@ -115,6 +115,7 @@
       <attr-item tags="prn.tn"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.adv"/>
       <attr-item tags="prn.pro.ref"/>
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.ind"/>

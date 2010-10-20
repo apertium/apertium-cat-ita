@@ -12494,10 +12494,12 @@
         <par n="C__num"/> 
     </e>
 
+<!--
     <e lm="Dr">
         <i>D</i> 
         <par n="D/r__n"/> 
     </e>
+-->
 
     <e lm="Dakar">
         <i>Dakar</i> 
@@ -21297,10 +21299,12 @@
         <par n="abbandonat/o__adj"/> 
     </e>
 
+<!--
     <e lm="centimetro">
         <i>centimetr</i> 
         <par n="abbain/o__n"/> 
     </e>
+-->
 
     <e lm="centinaio">
         <i>centinai</i> 
@@ -28246,10 +28250,12 @@
         <par n="accanto__pr"/> 
     </e>
 
+<!--
     <e lm="fino">
         <i>fino</i> 
         <par n="ieri__adv"/> 
     </e>
+-->
 
     <e lm="finocchio">
         <i>finocchi</i> 
@@ -31038,10 +31044,12 @@
         <par n="acclu/dere__vblex"/> 
     </e>
 
+<!--
     <e lm="incluso">
         <i>inclus</i> 
         <par n="abbandonat/o__adj"/> 
     </e>
+-->
 
     <e lm="inclusivamente">
         <i>inclusivamente</i> 
@@ -38683,10 +38691,12 @@
         <par n="poc/o__det"/> 
     </e>
 
+<!--
     <e lm="poco">
         <i>poc</i> 
         <par n="poc/o__prn"/> 
     </e>
+-->
 
     <e lm="poco">
         <i>poco</i> 
@@ -46291,7 +46301,7 @@
     </e>
 
     <e lm="tutti quanti">
-        <i>tutti_quanti</i> 
+        <i>tutti<b/>quanti</i> 
         <par n="qualsivoglia__prn"/> 
     </e>
 
@@ -47826,10 +47836,13 @@
         <par n="cas/a__n"/> 
     </e>
 
+<!--
     <e lm="zero">
         <i>zer</i> 
         <par n="abbain/o__n"/> 
     </e>
+-->
+
 
     <e lm="zero">
         <i>zero</i> 

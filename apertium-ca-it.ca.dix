@@ -7931,6 +7931,7 @@
     </e>
 
     </pardef>
+
     <pardef n="cinquanta-un__det">
     <e>
       <p>
@@ -8023,6 +8024,36 @@
     </e>
 
     </pardef>
+
+    <pardef n="ambd/ós__det">
+      
+    <e>
+      <p>
+        <l>ós</l>
+        <r>ós<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ues</l>
+        <r>ós<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>ós</l>
+        <r>ós<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>ues</l>
+        <r>ós<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    </pardef>
+
+
     <pardef n="aquell__det">
     <e>
       <p>
@@ -76761,6 +76792,10 @@
   </pardefs>
 
   <section  id="main" type="standard">
+
+<e lm="adolescent" a="carmentano"><i>adolescent</i> <par n="abdominal__adj"/></e>
+<e lm="sinistre"><i>sinistr</i> <par n="abstract/e__adj"/></e>
+<e lm="sumari"><i>sum</i><par n="adjudicat/ari__adj"/></e>
       
 <e lm="abdominal"><i>abdominal</i><par n="abdominal__adj"/></e>
 <e lm="absent"><i>absent</i><par n="important__adj"/></e>
@@ -86961,6 +86996,7 @@
 <e lm="les unes i les altres"><p><l>les<b/>unes<b/>i<b/>les<b/>altres</l><r>un<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><j/>i<s n="cnjcoo"/><j/>un<b/>altre<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="un altre"><i>un</i><par n="un/_altre__prn"/></e>
 <e lm="un altre"><i>un</i><par n="un/_altre__det"/></e>
+<e lm="ambdós"><i>ambd</i><par n="ambd/ós__det"/></e>
 <e r="LR" lm="un de sol"><i>un<b/>de<b/>sol</i><par n="algú__prn"/></e>
 <e r="LR" lm="us"><i>us</i><par n="us__prn"/></e>
 <e lm="vosaltres"><i>vosaltres</i><par n="vosaltres__prn"/></e>
@@ -97298,6 +97334,7 @@
 <e lm="mestressa de casa"><i>mestress</i><par n="abell/a__n"/><p><l><b/>de<b/>casa</l><r><g><b/>de<b/>casa</g></r></p></e>
 <e r="LR" lm="per causa de" a="prompsit"><i>per<b/>causa<b/></i><par n="contde__pr"/></e>
 <e lm="a instàncies de" a="prompsit"><i>a<b/>instàncies<b/></i><par n="contde__pr"/></e>
+<e lm="fora de" a=""><i>fora<b/></i><par n="contde__pr"/></e>
 <e lm="al final de" a="prompsit"><i>al<b/>final<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="a proposició de" a="prompsit"><i>a<b/>proposició<b/></i><par n="contde__pr"/></e>
 <e lm="a l'engròs" a="prompsit"><i>a<b/>l'engròs</i><par n="ahir__adv"/></e>
