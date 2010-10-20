@@ -36,4 +36,7 @@ dev/testvoc.sh -text
 /filter.xsl -text
 /it-ca.prob -text svneol=unset#unset
 /modes.xml -text
+/pending-tests.sh -text
+/regression-tests.sh -text
 /translate-to-default-equivalent.xsl -text
+/wiki-tests.sh -text

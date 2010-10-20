@@ -3948,7 +3948,7 @@
 
     <e><p><l>bany<s n="n"/><s n="m"/></l><r>balneazione<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
-    <e><p><l>banyar<s n="vblex"/></l><r>bagnare<s n="vblex"/></r></p></e>
+    <e><p><l>mullar<s n="vblex"/></l><r>bagnare<s n="vblex"/></r></p></e>
 
     <e><p><l>banyera<s n="n"/></l><r>vasca<s n="n"/></r></p></e>
 
@@ -4801,6 +4801,7 @@
 
     <e><p><l>cas<s n="n"/></l><r>caso<s n="n"/></r></p></e>
 
+    <!--<e><p><l>llar<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>-->
     <e><p><l>casa<s n="n"/></l><r>casa<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>casar<s n="vblex"/></l><r>sposare<s n="vblex"/></r></p></e>
@@ -11151,7 +11152,6 @@
     <e r="RL"><p><l>llapis<s n="n"/><s n="m"/><s n="sp"/></l><r>matita<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>llapis<s n="n"/><s n="m"/><s n="sp"/></l><r>matita<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 
-    <e><p><l>llar<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>llarg<s n="adj"/></l><r>lungo<s n="adj"/></r></p></e>
 
