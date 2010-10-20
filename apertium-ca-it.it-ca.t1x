@@ -19,10 +19,10 @@
     </def-cat>
 
     <def-cat n="inf">
-      <cat-item tags="vblex.inf.*"/>
-      <cat-item tags="vbmod.inf.*"/>
-      <cat-item tags="vbhaver.inf.*"/>
-      <cat-item tags="vbser.inf.*"/>
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vbhaver.inf"/>
+      <cat-item tags="vbser.inf"/>
     </def-cat>
 
     <def-cat n="imp">
@@ -95,7 +95,9 @@
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.al"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
 
     <def-attr n="a_det">          

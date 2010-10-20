@@ -78856,7 +78856,7 @@
 <e lm="a crema-roba"><i>a<b/>crema-roba</i><par n="ahir__adv"/></e>
 <e lm="a dalt"><i>a<b/>dalt</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a devora"><i>a<b/>devora</i><par n="ahir__adv"/></e>
-<e r="LR" lm="a dins"><i>a<b/>dins</i><par n="ahir__adv"/></e>
+<e lm="a dins"><i>a<b/>dins</i><par n="ahir__adv"/></e>
 <e lm="a escala"><i>a<b/>escala</i><par n="ahir__adv"/></e>
 <e lm="a flotació"><i>a<b/>flotació</i><par n="ahir__adv"/></e>
 <e lm="a fons"><i>a<b/>fons</i><par n="ahir__adv"/></e>
@@ -78989,6 +78989,7 @@
 <e lm="desgraciadament"><i>desgraciadament</i><par n="ahir__adv"/></e>
 <e lm="després"><i>després</i><par n="ahir__adv"/></e>
 <e v="val" lm="despús-ahir"><i>despús-ahir</i><par n="ahir__adv"/></e>
+<e lm="despús-ahir" r="RL"><i>despús-ahir</i><par n="ahir__adv"/></e>
 <e lm="difícilment"><i>difícilment</i><par n="ahir__adv"/></e>
 <e lm="dignament"><i>dignament</i><par n="ahir__adv"/></e>
 <e lm="dins"><i>dins</i><par n="ahir__adv"/></e>
@@ -87368,6 +87369,7 @@
 <e lm="centrar"><i>centr</i><par n="abander/ar__vblex"/></e>
 <e lm="cenyir"><i>ceny</i><par n="abarat/ir__vblex"/></e>
 <e v="val" lm="cercar"><i>cer</i><par n="abo/car__vblex"/></e>
+<e lm="cercar" r="RL"><i>cer</i><par n="abo/car__vblex"/></e>
 <e lm="certificar"><i>certifi</i><par n="abo/car__vblex"/></e>
 <e lm="cessar"><i>cess</i><par n="abander/ar__vblex"/></e>
 <e lm="cicatritzar"><i>cicatritz</i><par n="abander/ar__vblex"/></e>
@@ -89113,7 +89115,7 @@
 <e r="RL" lm="referent a això"><i>referent<b/>a<b/>això</i><par n="ahir__adv"/></e>
 <e lm="a través" a="mginesti"><i>a<b/>través</i><par n="ahir__adv"/></e>
 <e lm="al capdavall"><i>al<b/>capdavall</i><par n="ahir__adv"/></e>
-<e r="LR" lm="com ara" a="mginesti"><i>com<b/>ara</i><par n="ahir__adv"/></e>
+<e lm="com ara" a="mginesti"><i>com<b/>ara</i><par n="ahir__adv"/></e>
 <e lm="total" a="mginesti"><i>total</i><par n="abric__n"/></e>
 <e lm="intel·lectualisme"><i>intel·lectualisme</i><par n="abric__n"/></e>
 <e lm="intel·lectualisme" r="LR"><p><l>inteŀlectualisme</l><r>intel·lectualisme</r></p><par n="abric__n"/></e>
@@ -89657,7 +89659,7 @@
 <e lm="nitrit" a=" alseoane@gmail.com"><i>nitrit</i><par n="abric__n"/></e>
 <e lm="víric" a=" alseoane@gmail.com"><i>víri</i><par n="acadèmi/c__adj"/></e>
 <e lm="làctic" a=" alseoane@gmail.com"><i>làcti</i><par n="acadèmi/c__adj"/></e>
-<e r="LR" lm="lacti" a=" alseoane@gmail.com"><i>l</i><par n="l/acti__adj"/></e>
+<e lm="lacti" a=" alseoane@gmail.com"><i>l</i><par n="l/acti__adj"/></e>
 <e r="LR" lm="àpat" a=" alseoane@gmail.com"><i>àpat</i><par n="abric__n"/></e>
 <e lm="secreció" a=" alseoane@gmail.com"><i>secreci</i><par n="acci/ó__n"/></e>
 <e lm="meningococ" a=" alseoane@gmail.com"><i>meningococ</i><par n="abric__n"/></e>
@@ -95576,9 +95578,9 @@
 <e lm="aquí mateix" a="prompsit"><i>aquí<b/>mateix</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a sota" a="prompsit"><i>a<b/>sota</i><par n="ahir__adv"/></e>
 <e lm="de moment" a="prompsit"><i>de<b/>moment</i><par n="ahir__adv"/></e>
-<e r="LR" lm="a vegades" a="prompsit"><i>a<b/>vegades</i><par n="ahir__adv"/></e>
+<e lm="a vegades" a="prompsit"><i>a<b/>vegades</i><par n="ahir__adv"/></e>
 <e v="cat" lm="més aviat" a="prompsit"><i>més<b/>aviat</i><par n="ahir__adv"/></e>
-<e r="LR" lm="cada vegada" a="prompsit"><i>cada<b/>vegada</i><par n="ahir__adv"/></e>
+<e lm="cada vegada" a="prompsit"><i>cada<b/>vegada</i><par n="ahir__adv"/></e>
 <e lm="per primera vegada" a="prompsit"><i>per<b/>primera<b/>vegada</i><par n="ahir__adv"/></e>
 <e lm="per segona vegada" a="prompsit"><i>per<b/>segona<b/>vegada</i><par n="ahir__adv"/></e>
 <e lm="per tercera vegada" a="prompsit"><i>per<b/>tercera<b/>vegada</i><par n="ahir__adv"/></e>
@@ -95625,7 +95627,7 @@
 <e lm="estranyament" a="prompsit"><i>estranyament</i><par n="ahir__adv"/></e>
 <e lm="instintivament" a="prompsit"><i>instintivament</i><par n="ahir__adv"/></e>
 <e lm="vivament" a="prompsit"><i>vivament</i><par n="ahir__adv"/></e>
-<e r="LR" lm="adés" a="prompsit"><i>adés</i><par n="ahir__adv"/></e>
+<e lm="adés" a="prompsit"><i>adés</i><par n="ahir__adv"/></e>
 <e lm="indiscutiblement" a="prompsit"><i>indiscutiblement</i><par n="ahir__adv"/></e>
 <e lm="selectivament" a="prompsit"><i>selectivament</i><par n="ahir__adv"/></e>
 <e lm="al capdavant" a="prompsit"><i>al<b/>capdavant</i><par n="ahir__adv"/></e>
@@ -95635,7 +95637,7 @@
 <e lm="impacientment" a="prompsit"><i>impacientment</i><par n="ahir__adv"/></e>
 <e lm="ahir a la nit" a="prompsit"><i>ahir<b/>a<b/>la<b/>nit</i><par n="ahir__adv"/></e>
 <e lm="la nit passada" a="prompsit"><i>la<b/>nit<b/>passada</i><par n="ahir__adv"/></e>
-<e r="LR" lm="ensems" a="prompsit"><i>ensems</i><par n="ahir__adv"/></e>
+<e lm="ensems" a="prompsit"><i>ensems</i><par n="ahir__adv"/></e>
 <e lm="anecdòticament" a="prompsit"><i>anecdòticament</i><par n="ahir__adv"/></e>
 <e lm="ritualment" a="prompsit"><i>ritualment</i><par n="ahir__adv"/></e>
 <e lm="a l'inrevés" a="prompsit"><i>a<b/>l'inrevés</i><par n="ahir__adv"/></e>
@@ -98502,6 +98504,7 @@
 <e lm="diabòlic" a="prompsit2uoc"><i>diabòli</i><par n="acadèmi/c__adj"/></e>
 <e lm="aeròbic" a="prompsit2uoc"><i>aeròbi</i><par n="acadèmi/c__adj"/></e>
 <e lm="toponímic" a="prompsit2uoc"><i>toponími</i><par n="acadèmi/c__adj"/></e>
+<e lm="electrodomèstic"><i>electrodomèsti</i><par n="acadèmi/c__adj"/></e>
 <e lm="electrostàtic" a="prompsit2uoc"><i>electrostàti</i><par n="acadèmi/c__adj"/></e>
 <e lm="altaic" a="prompsit2uoc"><i>altai</i><par n="acadèmi/c__adj"/></e>
 <e lm="càrstic" a="prompsit2uoc"><i>càrsti</i><par n="acadèmi/c__adj"/></e>
@@ -103131,6 +103134,7 @@
 <e lm="pigós"><i>pig</i><par n="afectu/ós__adj"/></e>
 <e lm="pioc"><i>pio</i><par n="acadèmi/c__adj"/></e>
 <e lm="bla" v="val"><p><l>bla</l>               <r>bla</r></p><par n="bo__adj"/></e>
+<e lm="bla" r="RL"><p><l>bla</l>               <r>bla</r></p><par n="bo__adj"/></e>
 <e lm="placentari"><i>placent</i><par n="adjudicat/ari__adj"/></e>
 <e lm="planctònic"><i>planctòni</i><par n="acadèmi/c__adj"/></e>
 <e lm="planificador"><i>planificador</i><par n="absolut__adj"/></e>
@@ -103590,7 +103594,7 @@
 <e lm="a l'alba"><i>a<b/>l'alba</i><par n="ahir__adv"/></e>
 <e lm="a l'altra part del món"><i>a<b/>l'altra<b/>part<b/>del<b/>món</i><par n="ahir__adv"/></e>
 <e lm="a l'avantguarda"><i>a<b/>l'avantguarda</i><par n="ahir__adv"/></e>
-<e r="LR" lm="a l'encop"><i>a<b/>l'encop</i><par n="ahir__adv"/></e>
+<e lm="a l'encop"><i>a<b/>l'encop</i><par n="ahir__adv"/></e>
 <e lm="a l'endemà"><i>a<b/>l'endemà</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a l'escapça"><i>a<b/>l'escapça</i><par n="ahir__adv"/></e>
 <e lm="a l'espera"><i>a<b/>l'espera</i><par n="ahir__adv"/></e>
@@ -103618,7 +103622,7 @@
 <e lm="a la llunyania"><i>a<b/>la<b/>llunyania</i><par n="ahir__adv"/></e>
 <e r="RL" lm="a la manera"><i>a<b/>la<b/>manera</i><par n="ahir__adv"/></e>
 <e r="RL" lm="a la manera antiga"><i>a<b/>la<b/>manera<b/>antiga</i><par n="ahir__adv"/></e>
-<e r="LR" lm="a la matinada"><i>a<b/>la<b/>matinada</i><par n="ahir__adv"/></e>
+<e lm="a la matinada"><i>a<b/>la<b/>matinada</i><par n="ahir__adv"/></e>
 <e r="RL" lm="a la presó"><i>a<b/>la<b/>presó</i><par n="ahir__adv"/></e>
 <e r="RL" lm="a la primavera"><i>a<b/>la<b/>primavera</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a la primeria"><i>a<b/>la<b/>primeria</i><par n="ahir__adv"/></e>
@@ -104623,7 +104627,9 @@
 <e lm="desproveïdament"><i>desproveïdament</i><par n="ahir__adv"/></e>
 <e lm="despòticament"><i>despòticament</i><par n="ahir__adv"/></e>
 <e lm="despús-anit" v="val"><i>despús-anit</i><par n="ahir__adv"/></e>
+<e lm="despús-anit" r="RL"><i>despús-anit</i><par n="ahir__adv"/></e>
 <e lm="despús-demà" v="val"><p><l>despús-demà</l><r>despús-demà</r></p><par n="ahir__adv"/></e>
+<e lm="despús-demà" r="RL"><p><l>despús-demà</l><r>despús-demà</r></p><par n="ahir__adv"/></e>
 <e lm="destacablement"><i>destacablement</i><par n="ahir__adv"/></e>
 <e lm="destil·ladament"><i>destil·ladament</i><par n="ahir__adv"/></e>
 <e lm="destil·ladament" r="LR"><p><l>destiŀladament</l><r>destil·ladament</r></p><par n="ahir__adv"/></e>
@@ -108190,7 +108196,9 @@
 <e lm="fer les coses en gran"><i>f</i><par n="f/er__vblex"/><p><l><b/>les<b/>coses<b/>en<b/>gran</l><r><g><b/>les<b/>coses<b/>en<b/>gran</g></r></p></e>
 <e lm="fer sortir de polleguera"><i>f</i><par n="f/er__vblex"/><p><l><b/>sortir<b/>de<b/>polleguera</l><r><g><b/>sortir<b/>de<b/>polleguera</g></r></p></e>
 <e lm="fer un esprint"><i>f</i><par n="f/er__vblex"/><p><l><b/>un<b/>esprint</l><r><g><b/>un<b/>esprint</g></r></p></e>
+
 <e lm="fer xantatge"><i>f</i><par n="f/er__vblex"/><p><l><b/>xantatge</l><r><g><b/>xantatge</g></r></p></e>
+
 <e lm="fixar el preu just"><i>fix</i><par n="abander/ar__vblex"/><p><l><b/>el<b/>preu<b/>just</l><r><g><b/>el<b/>preu<b/>just</g></r></p></e>
 <e lm="jugar al contraatac"><i>jug</i><par n="afalag/ar__vblex"/><p><l><b/>al<b/>contraatac</l><r><g><b/>al<b/>contraatac</g></r></p></e>
 <e lm="jugar a lladres i serenos"><i>jug</i><par n="afalag/ar__vblex"/><p><l><b/>a<b/>lladres<b/>i<b/>serenos</l><r><g><b/>a<b/>lladres<b/>i<b/>serenos</g></r></p></e>
@@ -112378,7 +112386,7 @@
 <e lm="Bonrepòs"><i>Bonrepòs</i><par n="Afganistan__np"/></e>
 <e lm="Bonrepòs i Mirambell"><i>Bonrepòs<b/>i<b/>Mirambell</i><par n="Afganistan__np"/></e>
 <e lm="Borao"><i>Borao</i><par n="Abad__np"/></e>
-<e r="LR" lm="Borbons"><i>Borbons</i><par n="Abad__np"/></e>
+<e lm="Borbons"><i>Borbons</i><par n="Abad__np"/></e>
 <e lm="Bordera"><i>Bordera</i><par n="Abad__np"/></e>
 <e lm="Bordils"><i>Bordils</i><par n="Afganistan__np"/></e>
 <e lm="Bordás"><i>Bordás</i><par n="Abad__np"/></e>
