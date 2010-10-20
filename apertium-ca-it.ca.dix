@@ -76793,6 +76793,14 @@
 
   <section  id="main" type="standard">
 
+<e lm="aliat" a="eleka"><i>aliat</i><par n="abdominal__adj"/></e>
+<e lm="animal" a="ariel"><i>animal</i> <par n="abdominal__adj"/></e>
+<e lm="difunt"><i>difunt</i><par n="alt__adj"/></e>
+<e lm="extraterrestre"><i>extraterrestre</i><par n="abdominal__adj"/></e>
+<e lm="heterosexual"><i>heterosexual</i><par n="abdominal__adj"/></e>
+<e lm="mentider"><i>mentider</i><par n="absolut__adj"/></e>
+<e lm="addicte"><i>addict</i> <par n="abstract/e__adj"/></e>
+
 <e lm="adolescent" a="carmentano"><i>adolescent</i> <par n="abdominal__adj"/></e>
 <e lm="sinistre"><i>sinistr</i> <par n="abstract/e__adj"/></e>
 <e lm="sumari"><i>sum</i><par n="adjudicat/ari__adj"/></e>

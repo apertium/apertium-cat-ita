@@ -1992,6 +1992,28 @@
 
     <e c="Ángel"><p><l>abdomen<s n="n"/></l><r>addome<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
+
+
+
+    <e><p><l>aliat<s n="adj"/></l><r>alleato<s n="adj"/></r></p></e>
+    <e><p><l>animal<s n="adj"/></l><r>animale<s n="adj"/></r></p></e>
+    <e><p><l>antípoda<s n="adj"/></l><r>antipode<s n="adj"/></r></p></e>
+    <e><p><l>mentider<s n="adj"/></l><r>bugiardo<s n="adj"/></r></p></e>
+    <e><p><l>canari<s n="adj"/></l><r>canario<s n="adj"/></r></p></e>
+    <e><p><l>compositor<s n="adj"/></l><r>compositore<s n="adj"/></r></p></e>
+    <e><p><l>contribuent<s n="adj"/></l><r>contribuente<s n="adj"/></r></p></e>
+    <e><p><l>difunt<s n="adj"/></l><r>defunto<s n="adj"/></r></p></e>
+    <e><p><l>addicte<s n="adj"/><s n="m"/></l><r>dipendente<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>depenent<s n="adj"/></l><r>dipendente<s n="adj"/></r></p></e>
+    <e><p><l>exiliat<s n="adj"/></l><r>esiliato<s n="adj"/></r></p></e>
+    <e><p><l>heterosexual<s n="adj"/></l><r>eterosessuale<s n="adj"/></r></p></e>
+    <e><p><l>extraterrestre<s n="adj"/></l><r>extraterrestre<s n="adj"/></r></p></e>
+    <e><p><l>inmobiliari<s n="adj"/></l><r>immobiliare<s n="adj"/></r></p></e>
+    <e><p><l>encarregat<s n="adj"/></l><r>incaricato<s n="adj"/></r></p></e>
+    <e><p><l>incident<s n="adj"/></l><r>incidente<s n="adj"/></r></p></e>
+
+
+
     <e><p><l>abdominal<s n="adj"/></l><r>addominale<s n="adj"/></r></p></e>
 
     <e><p><l>abecedari<s n="n"/></l><r>abbecedario<s n="n"/></r></p></e>
@@ -7356,6 +7378,8 @@
     <e><p><l>electrocardiograma<s n="n"/></l><r>elettrocardiogramma<s n="n"/></r></p></e>
 
     <e><p><l>electrodomèstic<s n="n"/></l><r>elettrodomestico<s n="n"/></r></p></e>
+
+    <e><p><l>qual<s n="adj"/></l><r>quale<s n="adj"/></r></p></e>
 
     <e><p><l>electrodomèstic<s n="adj"/></l><r>elettrodomestico<s n="adj"/></r></p></e>
 

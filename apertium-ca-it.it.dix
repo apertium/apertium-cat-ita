@@ -16301,10 +16301,12 @@
         <par n="agricolt/ore__n"/> 
     </e>
 
+<!--
     <e lm="agricoltore">
         <i>agricolt</i> 
         <par n="accentrat/ore__adj"/> 
     </e>
+-->
 
     <e lm="agricoltura">
         <i>agricoltur</i> 
