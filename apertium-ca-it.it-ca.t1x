@@ -18,6 +18,13 @@
       <cat-item tags="vbser.pp.*"/>
     </def-cat>
 
+    <def-cat n="ger">
+      <cat-item tags="vblex.ger"/>
+      <cat-item tags="vbmod.ger"/>
+      <cat-item tags="vbhaver.ger"/>
+      <cat-item tags="vbser.ger"/>
+    </def-cat>
+
     <def-cat n="inf">
       <cat-item tags="vblex.inf"/>
       <cat-item tags="vbmod.inf"/>
@@ -1408,6 +1415,35 @@
 	</out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ger">
+      <pattern>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+
+
 
 
 

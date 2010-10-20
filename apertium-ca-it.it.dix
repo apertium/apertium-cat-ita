@@ -32083,11 +32083,6 @@
         <par n="add/urre__vblex"/> 
     </e>
 
-    <e lm="introdurre">
-        <i>introdu</i> 
-        <par n="addi/nte__adj"/> 
-    </e>
-
     <e lm="introduzione">
         <i>introduzion</i> 
         <par n="abbreviazion/e__n"/> 
@@ -39680,11 +39675,6 @@
         <par n="abbain/o__n"/> 
     </e>
 
-    <e lm="produrre">
-        <i>produ</i> 
-        <par n="addi/nte__adj"/> 
-    </e>
-
     <e lm="produttore">
         <i>produtt</i> 
         <par n="att/ore__n"/> 
@@ -45826,11 +45816,6 @@
     <e lm="tradizionalmente">
         <i>tradizionalmente</i> 
         <par n="ieri__adv"/> 
-    </e>
-
-    <e lm="tradurre">
-        <i>tradu</i> 
-        <par n="addi/nte__adj"/> 
     </e>
 
     <e lm="traduttore">
