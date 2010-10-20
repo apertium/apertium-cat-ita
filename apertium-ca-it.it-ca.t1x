@@ -88,6 +88,7 @@
       <attr-item tags="adj"/>
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.qnt"/>
+      <attr-item tags="det.ind"/> <!-- poco / poc -->
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -102,6 +103,7 @@
       <attr-item tags="det.ind"/>
       <attr-item tags="det.dem"/>
       <attr-item tags="det.pos"/>
+      <attr-item tags="adj"/> <!-- poco / poc -->
       <attr-item tags="predet"/>
     </def-attr>
 

@@ -284,6 +284,8 @@
 
     <!-- SECTION: Determiners -->
 
+    <e><p><l>poc<s n="adj"/></l><r>poco<s n="det"/><s n="ind"/></r></p></e>
+
     <e><p><l>algun<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p></e>
 
     <e r="RL"><p><l>algun<s n="det"/><s n="ind"/><s n="GD"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
@@ -361,9 +363,88 @@
     <e><p><l>un<b/>altre<s n="det"/><s n="ind"/></l><r>un<b/>altro<s n="det"/><s n="ind"/></r></p></e>
 
     <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
+    <!-- SECTION: Adverbs -->
+
+
+    <e><p><l>com<s n="adv"/></l><r>come<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>baix<s n="adv"/></l><r>abbasso<s n="adv"/></r></p></e>
+    <e><p><l>avall<s n="adv"/></l><r>abbasso<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>bastant<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>força<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
+    <e><p><l>prou<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>sobre<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>al<b/>damunt<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>damunt<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>la<b/>matinada<s n="adv"/></l><r>all'alba<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>avant<s n="adv"/></l><r>avanti<s n="adv"/></r></p></e>
+    <e><p><l>endavant<s n="adv"/></l><r>avanti<s n="adv"/></r></p></e>
+    <e><p><l>d'ara<b/>endavant<s n="adv"/></l><r>d'ora<b/>in<b/>avanti<s n="adv"/></r></p></e>
+    <e><p><l>al<b/>voltant<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>aproximadament<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>tot<b/>arreu<s n="adv"/></l><r>dappertutto<s n="adv"/></r></p></e>
+    <e><p><l>pertot<s n="adv"/></l><r>dappertutto<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>dins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>dintre<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dintre<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>endins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>baix<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
+    <e><p><l>avall<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>baix<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>finalment<s n="adv"/></l><r>infine<s n="adv"/></r></p></e>
+    <e><p><l>per<b/>fi<s n="adv"/></l><r>infine<s n="adv"/></r></p></e>
+    <e><p><l>ensems<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
+    <e><p><l>allà<s n="adv"/></l><r>là<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>enllà<s n="adv"/></l><r>là<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>ací<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>allí<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
+    <e><p><l>aquí<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>gaire<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
+    <e><p><l>molt<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>més<b/>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
+    <e><p><l>bastant<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>més<b/>aviat<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>més<b/>aïna<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>més<b/>aïnes<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>més<b/>tost<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>una<b/>miqueta<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e><p><l>aviat<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>d'hora<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dejorn<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>enjorn<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>prompte<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+    <e><p><l>desgraciadament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dissortadament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>malauradament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>ací<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
+    <e><p><l>aquí<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>ençà<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>reiteradament<s n="adv"/></l><r>ripetutamente<s n="adv"/></r></p></e>
+    <e><p><l>repetidament<s n="adv"/></l><r>ripetutamente<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>només<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sols<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
+    <e><p><l>tan<b/>sols<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>dalt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
+    <e><p><l>amunt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dalt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>sota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>al<b/>dessota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>davall<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
+    <e><p><l>sota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>de<b/>debò<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
+    <e><p><l>verdaderament<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>veritablement<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>vertaderament<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>devora<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>la<b/>vora<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>prop<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+    <e><p><l>prop<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+
+    <e><p><l>allí<s n="adv"/></l><r>ci<s n="adv"/></r></p></e>
     <!-- -->
 
     <e><p><l>ABC<s n="np"/></l><r>ABC<s n="np"/></r></p></e>
@@ -1896,11 +1977,8 @@
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>baix<s n="adv"/></l><r>abbasso<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>baix<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>banda<s n="adv"/></l><r>a<b/>parte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>casa<s n="adv"/></l><r>in<b/>casa<s n="adv"/></r></p></e>
@@ -1913,17 +1991,12 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>continuació<s n="adv"/></l><r>di<b/>seguito<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>contrapèl<s n="adv"/></l><r>a<b/>contropelo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>curt<b/>termini<s n="adv"/></l><r>a<b/>breve<b/>termine<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>dalt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>devora<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>dins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>dintre<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>dretcient<s n="adv"/></l><r>deliberatamente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -1953,12 +2026,10 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>la<b/>lleugera<s n="adv"/></l><r>alla<b/>leggera<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>la<b/>matinada<s n="adv"/></l><r>all'alba<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>la<b/>nit<s n="adv"/></l><r>di<b/>notte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>la<b/>vora<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>les<b/>palpentes<s n="adv"/></l><r>a<b/>tentoni<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
@@ -1979,9 +2050,7 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>més<s n="adv"/></l><r>inoltre<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>més<b/>a<b/>més<s n="adv"/></l><r>oltretutto<s n="adv"/></r></p></e>
 
     <e r="LR"><p><l>a<b/>banda<b/>de<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
     <e><p><l>a<b/>més<b/>de<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
@@ -1990,8 +2059,10 @@
     <e r="LR"><p><l>a<b/>on<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
 
     <e r="LR"><p><l>a<b/>on<s n="rel"/></l><r>dove<s n="rel"/></r></p></e>
-    <!-- forced 'null' restriction: adv-simple -->
+
+    <e r="LR"><p><l>a<b/>banda<s n="adv"/></l><r>a<b/>parte<s n="adv"/></r></p></e>
     <e><p><l>a<b/>part<s n="adv"/></l><r>a<b/>parte<s n="adv"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>part<s n="adv"/></l><r>da<b/>parte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
@@ -2017,25 +2088,20 @@
     <e><p><l>a<b/>principis<b/>de<s n="pr"/></l><r>agli<b/>inizi<b/>di<s n="pr"/></r></p></e>
 
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>prop<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>propòsit<s n="adv"/></l><r>a<b/>proposito<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>repèl<s n="adv"/></l><r>a<b/>contropelo<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>contrapèl<s n="adv"/></l><r>a<b/>contropelo<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>repèl<s n="adv"/></l><r>a<b/>contropelo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>a<b/>ròssec<s n="adv"/></l><r>di<b/>forza<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>sobre<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>sota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>tot<b/>arreu<s n="adv"/></l><r>dappertutto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>a<b/>tothora<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>vegades<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>a<b/>voltes<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
 
     <e><p><l>abadia<s n="n"/><s n="f"/></l><r>abbazia<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -2351,9 +2417,7 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>acusar<s n="vblex"/></l><r>accusare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>ací<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>ací<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>acústic<s n="adj"/></l><r>acustico<s n="adj"/></r></p></e>
 
@@ -2644,7 +2708,6 @@
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>al<b/>costat<b/>de<s n="pr"/></l><r>assieme<b/>a<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>al<b/>damunt<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>al<b/>darrere<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -2652,7 +2715,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>al<b/>defora<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>al<b/>dessota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>al<b/>llarg<b/>de<s n="pr"/></l><r>lungo<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -2662,7 +2724,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>al<b/>voltant<s n="adv"/></l><r>attorno<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>al<b/>voltant<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>al<b/>voltant<b/>de<s n="pr"/></l><r>intorno<b/>a<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
@@ -2783,11 +2844,9 @@
 
     <e><p><l>allotjament<s n="n"/></l><r>alloggio<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>allà<s n="adv"/></l><r>là<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>allèn<s n="adv"/></l><r>oltre<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>allí<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
 
 
     <e><p><l>almanac<s n="n"/></l><r>almanacco<s n="n"/></r></p></e>
@@ -3012,7 +3071,6 @@
 
     <e><p><l>ampolla<s n="n"/></l><r>bottiglia<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>amunt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
 
     <e><p><l>amàs<s n="n"/></l><r>mucchio<s n="n"/></r></p></e>
 
@@ -3275,7 +3333,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>aproximadament<s n="adv"/></l><r>approssimativamente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>aproximadament<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
 <!--<e><p><l>apujar<s n="vblex"/></l><r>subire<s n="vblex"/></r></p></e>
 -->
@@ -3302,9 +3359,7 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>aquàtic<s n="adj"/></l><r>acquatico<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>aquí<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>aquí<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>aquós<s n="adj"/></l><r>acquoso<s n="adj"/></r></p></e>
 
@@ -3409,7 +3464,6 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>arrestar<s n="vblex"/></l><r>arrestare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
 
     <e><p><l>arribada<s n="n"/><s n="f"/></l><r>arrivo<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -3758,13 +3812,10 @@
 
     <e><p><l>aval<s n="n"/></l><r>avallo<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>avall<s n="adv"/></l><r>abbasso<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>avall<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
 
     <e><p><l>avaluació<s n="n"/></l><r>valutazione<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>avant<s n="adv"/></l><r>avanti<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>avantatjar<s n="vblex"/></l><r>avvantaggiare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -3797,7 +3848,6 @@
 
     <e><p><l>aviador<s n="n"/></l><r>aviatore<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>aviat<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
     <e r="LR"><p><l>avidesa<s n="n"/><s n="f"/><s n="sg"/></l><r>avidità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>avidesa<s n="n"/><s n="f"/><s n="pl"/></l><r>avidità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>avidesa<s n="n"/><s n="f"/><s n="ND"/></l><r>avidità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -3842,7 +3892,6 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>baix<s n="adj"/></l><r>basso<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>baix<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>baixar<s n="vblex"/></l><r>abbassare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -3982,9 +4031,7 @@
 
     <e><p><l>bassal<s n="n"/><s n="m"/></l><r>pozzanghera<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>bastant<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>bastant<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
 
     <e><p><l>bastida<s n="n"/><s n="f"/></l><r>impalcatura<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -5255,7 +5302,6 @@
 
     <e><p><l>colònia<s n="n"/></l><r>colonia<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>com<s n="adv"/></l><r>come<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
 
     <e><p><l>com<s n="rel"/></l><r>come<s n="rel"/></r></p></e>
@@ -6274,13 +6320,11 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></l><r>tra<b/>poco<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>d'ara<b/>endavant<s n="adv"/></l><r>d'ora<b/>in<b/>avanti<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>d'ara<b/>endavant<s n="adv"/></l><r>d'ora<b/>in<b/>poi<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple <e><p><l>d'ençà<b/>de<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
  -->
 <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>d'hora<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>d'una<b/>altra<b/>banda<s n="adv"/></l><r>d'altro<b/>canto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -6295,11 +6339,9 @@
     <!-- forced 'null' restriction: norestrictions-4 -->
     <e><p><l>dada<s n="n"/><s n="f"/></l><r>dato<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>dalt<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
 
     <e><p><l>dama<s n="n"/></l><r>dama<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>damunt<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
 
     <e><p><l>dansa<s n="n"/></l><r>danza<s n="n"/></r></p></e>
     <e r="LR"><p><l>danès<s n="adj"/><s n="m"/></l><r>danese<s n="adj"/><s n="mf"/></r></p></e>
@@ -6324,7 +6366,6 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>daurar<s n="vblex"/></l><r>dorare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>davall<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>davallar<s n="vblex"/></l><r>scendere<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -6354,7 +6395,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>de<b/>cop<b/>i<b/>volta<s n="adv"/></l><r>all'improvviso<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>de<b/>debò<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>de<b/>fet<s n="adv"/></l><r>in<b/>effetti<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -6398,10 +6438,12 @@
     <e><p><l>de<b/>tota<b/>manera<s n="adv"/></l><r>d'ogni<b/>modo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>de<b/>tota<b/>manera<s n="adv"/></l><r>in<b/>tutti<b/>i<b/>modi<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>de<b/>vegades<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>debades<s n="adv"/></l><r>in<b/>inutile<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>a<b/>vegades<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>voltes<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>de<b/>vegades<s n="adv"/></l><r>a<b/>volte<s n="adv"/></r></p></e>
+
+    <e><p><l>endebades<s n="adv"/></l><r>in<b/>inutile<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>debades<s n="adv"/></l><r>in<b/>inutile<s n="adv"/></r></p></e>
 
     <e><p><l>debat<s n="n"/></l><r>dibattito<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -6497,7 +6539,6 @@
 
     <e><p><l>deixeble<s n="n"/><s n="mf"/><s n="pl"/></l><r>discepolo<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>dejorn<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>delegar<s n="vblex"/></l><r>delegare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-3 -->
@@ -6677,7 +6718,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>desgraciadament<s n="adv"/></l><r>lamentabilmente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>desgraciadament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
 
     <e><p><l>deshidratació<s n="n"/></l><r>disidratazione<s n="n"/></r></p></e>
 
@@ -6942,7 +6982,6 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>dinovè<s n="adj"/></l><r>diciannovesimo<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>dins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
 
     <e r="LR"><p><l>dins<s n="pr"/></l><r>dentro<s n="pr"/></r></p></e>
     <e><p><l>dins<b/>de<s n="pr"/></l><r>dentro<s n="pr"/></r></p></e>
@@ -6953,7 +6992,6 @@
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>dins<b/>de<s n="pr"/></l><r>entro<b/>di<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>dintre<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>dinàmic<s n="adj"/></l><r>dinamico<s n="adj"/></r></p></e>
 
@@ -7071,7 +7109,6 @@
 
     <e><p><l>dissolució<s n="n"/></l><r>dissoluzione<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>dissortadament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>distant<s n="adj"/></l><r>distante<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -7680,15 +7717,12 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>endarrere<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e r="LR"><p><l>endavant<s n="adv"/></l><r>avanti<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>endebades<s n="adv"/></l><r>in<b/>inutile<s n="adv"/></r></p></e>
 
     <e><p><l>endeutament<s n="n"/></l><r>indebitamento<s n="n"/></r></p></e>
 
     <e><p><l>endeví<s n="n"/></l><r>indovino<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>endins<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>endur<s n="vblex"/></l><r>portare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -7723,7 +7757,6 @@
 
     <e><p><l>enigma<s n="n"/></l><r>enigma<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>enjorn<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
 
     <e><p><l>enlairament<s n="n"/></l><r>decollo<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -7737,7 +7770,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>enlloc<s n="adv"/></l><r>da<b/>nessuna<b/>parte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>enllà<s n="adv"/></l><r>là<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>ennuvolat<s n="adj"/></l><r>nuvoloso<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -7770,7 +7802,6 @@
     <!-- forced 'null' restriction: norestrictions-4 -->
     <e r="LR"><p><l>ensarronada<s n="n"/><s n="f"/></l><r>inganno<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>ensems<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-3 -->
     <e><p><l>ensenyament<s n="n"/><s n="m"/></l><r>insegnamento<s n="n"/><s n="f"/></r></p></e>
 
@@ -7831,7 +7862,6 @@
 
     <e><p><l>envà<s n="n"/></l><r>setto<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>ençà<s n="adv"/></l><r>qui<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>enèsim<s n="adj"/></l><r>ennesimo<s n="adj"/></r></p></e>
 
@@ -8871,7 +8901,6 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>finalitzar<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>finalment<s n="adv"/></l><r>infine<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>financer<s n="adj"/></l><r>finanziario<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-3 -->
@@ -9057,7 +9086,6 @@
 
     <e><p><l>força<s n="n"/></l><r>forza<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>força<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>forçar<s n="vblex"/></l><r>forzare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -9325,11 +9353,9 @@
     <e r="LR"><p><l>gai<s n="n"/></l><r>omosessuale<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
 
-    <e><p><l>gaire<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
     <e><p><l>molt<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
     <e r="LR"><p><l>gaire<s n="preadv"/></l><r>molto<s n="preadv"/></r></p></e>
 
-    <e><p><l>gaire<s n="adj"/><s n="mf"/></l><r>molto<s n="adj"/></r></p></e>
 
 
     <e><p><l>gairebé<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
@@ -9833,11 +9859,9 @@
 
     <e><p><l>heterosexual<s n="n"/></l><r>eterosessuale<s n="n"/></r></p></e>
 
-    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="ND"/></r></p></e>
-
-    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-
-    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
     <e><p><l>hibernació<s n="n"/></l><r>letargo<s n="n"/><s n="m"/></r></p></e>
 
@@ -11535,7 +11559,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>malament<s n="adv"/></l><r>male<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>malauradament<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>malbaratar<s n="vblex"/></l><r>sprecare<s n="vblex"/></r></p></e>
 
@@ -12191,24 +12214,21 @@
 <!--<e><p><l>moll<s n="adj"/></l><r>blando<s n="adj"/></r></p></e>
 -->
 <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>molt<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
 
 
+    <e r="LR"><p><l>gaire<s n="adj"/><s n="mf"/></l><r>molto<s n="adj"/></r></p></e>
     <e><p><l>molt<s n="adj"/></l><r>molto<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>molt<b/>de<s n="adj"/><s n="m"/><s n="sg"/></l><r>molto<s n="adj"/></r></p></e>
 
     <e><p><l>molt<s n="adj"/><s n="f"/><s n="pl"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-
     <e><p><l>molt<s n="adj"/><s n="f"/><s n="sg"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-
     <e><p><l>molt<s n="adj"/><s n="m"/><s n="pl"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-
     <e><p><l>molt<s n="adj"/><s n="m"/><s n="sg"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-
     <e><p><l>molt<s n="adj"/><s n="sup"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
+
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>molt<b/>abans<s n="adv"/></l><r>molto<b/>prima<s n="adv"/></r></p></e>
 
-    <e><p><l>molt<b/>de<s n="adj"/><s n="m"/><s n="sg"/></l><r>molto<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>molt<b/>després<s n="adv"/></l><r>molto<b/>dopo<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -12445,13 +12465,9 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>més<s n="adv"/></l><r>più<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>més<b/>aviat<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>més<b/>aïna<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>més<b/>aïnes<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>més<b/>tost<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
 
     <e><p><l>míssil<s n="n"/></l><r>missile<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -12700,7 +12716,6 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>nominar<s n="vblex"/></l><r>nominare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>només<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>només<b/>que<s n="cnjadv"/></l><r>solo<b/>con<s n="cnjadv"/></r></p></e>
 
@@ -12734,11 +12749,11 @@
     <e r="RL"><p><l>noruec<s n="n"/><s n="GD"/></l><r>norvegese<s n="n"/><s n="mf"/></r></p></e>
 
 
-    <e><p><l>nostre<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></l><r>nostro<s n="adj"/><s n="pos"/></r></p></e>
-
-    <e><p><l>nostre<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>nostro<s n="adj"/><s n="pos"/></r></p></e>
-
-    <e><p><l>nostre<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></l><r>nostro<s n="adj"/><s n="pos"/></r></p></e>
+    <e r="RL"><p><l>nostre<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></l><r>nostro<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>nostre<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></l><r>nostro<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>nostre<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></l><r>nostro<s n="adj"/><s n="pos"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e><p><l>nostre<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></l><r>nostro<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>nostre<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>nostro<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>nostàlgia<s n="n"/></l><r>nostalgia<s n="n"/></r></p></e>
 
@@ -13574,9 +13589,7 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e r="LR"><p><l>per<b/>enlloc<s n="adv"/></l><r>da<b/>nessuna<b/>parte<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>per<b/>exemple<s n="adv"/></l><r>per<b/>esempio<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>per<b/>fi<s n="adv"/></l><r>infine<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>tramite<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
@@ -13598,7 +13611,6 @@
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>per<b/>tant<s n="cnjadv"/></l><r>conseguentemente<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>per<b/>tot<b/>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>per<b/>tot<b/>plegat<s n="cnjadv"/></l><r>per<b/>tutto<b/>ciò<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -13733,11 +13745,11 @@
     <e><p><l>pertinença<s n="n"/></l><r>appartenenza<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>pertocar<s n="vblex"/></l><r>corrispondere<s n="vblex"/></r></p></e>
-    <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>pertot<s n="adv"/></l><r>dappertutto<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>pertot<b/>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
-    <!-- forced 'null' restriction: norestrictions-2 -->
+
+    <e r="LR"><p><l>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
+    <e><p><l>per<b/>tot<b/>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>pertot<b/>arreu<s n="adv"/></l><r>da<b/>tutte<b/>le<b/>parti<s n="adv"/></r></p></e>
+
     <e><p><l>pertànyer<s n="vblex"/></l><r>appartenere<s n="vblex"/></r></p></e>
 
     <e><p><l>peruà<s n="n"/></l><r>peruviano<s n="n"/></r></p></e>
@@ -14096,7 +14108,8 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>posar<s n="vblex"/></l><r>posare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>posem<b/>per<b/>cas<s n="adv"/></l><r>per<b/>esempio<s n="adv"/></r></p></e>
+    <e><p><l>per<b/>exemple<s n="adv"/></l><r>per<b/>esempio<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>posem<b/>per<b/>cas<s n="adv"/></l><r>per<b/>esempio<s n="adv"/></r></p></e>
 
     <e><p><l>posicionament<s n="n"/></l><r>posizionamento<s n="n"/></r></p></e>
 
@@ -14424,7 +14437,6 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>promoure<s n="vblex"/></l><r>promuovere<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>prompte<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
 
     <e><p><l>pronom<s n="n"/></l><r>pronome<s n="n"/></r></p></e>
 
@@ -14434,7 +14446,6 @@
 
     <e><p><l>pronúncia<s n="n"/></l><r>pronuncia<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>prop<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>prop<b/>de<s n="pr"/></l><r>vicino<b/>a<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: pr-simple -->
@@ -14510,7 +14521,6 @@
     <!-- forced 'LR' restriction: mfadj-21 -->
     <e r="LR"><p><l>prou<s n="adj"/><s n="mf"/><s n="sp"/></l><r>sufficiente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>prou<s n="adv"/></l><r>abbastanza<s n="adv"/></r></p></e>
 
     <e><p><l>prova<s n="n"/></l><r>prova<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -15057,7 +15067,6 @@
 
     <e><p><l>reinserció<s n="n"/><s n="f"/></l><r>reinserimento<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>reiteradament<s n="adv"/></l><r>ripetutamente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>reiterat<s n="adj"/></l><r>reiterato<s n="adj"/></r></p></e>
 
@@ -15137,7 +15146,6 @@
 
     <e><p><l>repetició<s n="n"/></l><r>ripetizione<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>repetidament<s n="adv"/></l><r>ripetutamente<s n="adv"/></r></p></e>
 
     <e><p><l>repetidor<s n="n"/></l><r>ripetitore<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -15975,7 +15983,6 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>solitari<s n="adj"/></l><r>solitario<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>sols<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
 
     <e><p><l>solstici<s n="n"/></l><r>solstizio<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
@@ -16055,7 +16062,6 @@
     <!-- forced 'null' restriction: pr-simple -->
     <e><p><l>sota<s n="pr"/></l><r>sotto<s n="pr"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>sota<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
 
     <e><p><l>sou<s n="n"/></l><r>salario<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -16277,7 +16283,6 @@
 
     <e><p><l>tan<s n="preadv"/></l><r>tanto<s n="preadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>tan<b/>sols<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
 
     <e><p><l>tanca<s n="n"/><s n="f"/></l><r>siepe<s n="n"/><s n="f"/></r></p></e>
 
@@ -16299,7 +16304,9 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>tard<s n="adv"/></l><r>in<b/>ritardo<s n="adv"/></r></p></e>
 
-    <e r="LR"><p><l>tarda<s n="n"/><s n="f"/></l><r>pomeriggio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>vesprada<s n="n"/><s n="f"/></l><r>pomeriggio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tarda<s n="n"/><s n="f"/></l><r>pomeriggio<s n="n"/><s n="m"/></r></p></e>
+
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>tardar<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-4 -->
@@ -16905,7 +16912,6 @@
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>una<b/>mica<s n="adv"/></l><r>un<b/>pò<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>una<b/>miqueta<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
 
     <e><p><l>ungla<s n="n"/></l><r>unghia<s n="n"/></r></p></e>
 
@@ -17097,7 +17103,6 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e r="LR"><p><l>verdader<s n="adj"/></l><r>vero<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>verdaderament<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
 
     <e><p><l>verdura<s n="n"/></l><r>verdura<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -17115,7 +17120,6 @@
 
     <e r="LR"><p><l>veritable<s n="adj"/><s n="mf"/></l><r>vero<s n="adj"/><s n="GD"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>veritablement<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
     <e r="RL"><p><l>veritat<s n="n"/><s n="f"/><s n="ND"/></l><r>verità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>veritat<s n="n"/><s n="f"/><s n="sg"/></l><r>verità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>veritat<s n="n"/><s n="f"/><s n="pl"/></l><r>verità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -17134,7 +17138,6 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>vertader<s n="adj"/></l><r>vero<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>vertaderament<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>vertical<s n="adj"/></l><r>verticale<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -17144,7 +17147,6 @@
 
     <e><p><l>vespa<s n="n"/></l><r>vespa<s n="n"/></r></p></e>
 
-    <e><p><l>vesprada<s n="n"/><s n="f"/></l><r>pomeriggio<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>vessant<s n="n"/><s n="m"/></l><r>aspetto<s n="n"/><s n="m"/></r></p></e>
 
