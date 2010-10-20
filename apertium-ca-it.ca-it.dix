@@ -12536,7 +12536,7 @@
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>ciò<b/>nonostante<s n="cnjadv"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
-    <e><p><l>no<b/>pas<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>no<b/>pas<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
 
     <e><p><l>no<b/>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/></r></p></e>
 
@@ -15260,6 +15260,7 @@
     <e><p><l>rodó<s n="adj"/></l><r>rotondo<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e c="eliminat: slr=roig"><p><l>roig<s n="adj"/></l><r>rosso<s n="adj"/></r></p></e>
+    <!--<e><p><l>vermell<s n="adj"/></l><r>rosso<s n="adj"/></r></p></e>-->
 
     <e><p><l>roig<s n="n"/></l><r>rosso<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
