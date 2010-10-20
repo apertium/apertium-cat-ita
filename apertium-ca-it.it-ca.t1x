@@ -11,11 +11,43 @@
       <cat-item tags="adj.GD.*"/>
     </def-cat>
 
+    <def-cat n="pp">
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="vbmod.pp.*"/>
+      <cat-item tags="vbser.pp.*"/>
+    </def-cat>
+
+    <def-cat n="inf">
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vbmod.inf.*"/>
+      <cat-item tags="vbser.inf.*"/>
+    </def-cat>
+
+    <def-cat n="imp">
+      <cat-item tags="vblex.imp.*"/>
+      <cat-item tags="vbmod.imp.*"/>
+      <cat-item tags="vbser.imp.*"/>
+    </def-cat>
+
     <def-cat n="vfin">
       <cat-item tags="vblex.pri.*"/>
-      <cat-item tags="vbser.pii.*"/>
+      <cat-item tags="vblex.pii.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vblex.fti.*"/>
+      <cat-item tags="vblex.pis.*"/>
+      <cat-item tags="vblex.cni.*"/>
+      <cat-item tags="vbmod.pri.*"/>
+      <cat-item tags="vbmod.pii.*"/>
       <cat-item tags="vbmod.prs.*"/>
       <cat-item tags="vbmod.fti.*"/>
+      <cat-item tags="vbmod.cni.*"/>
+      <cat-item tags="vbmod.pis.*"/>
+      <cat-item tags="vbser.pri.*"/>
+      <cat-item tags="vbser.pii.*"/>
+      <cat-item tags="vbser.prs.*"/>
+      <cat-item tags="vbser.fti.*"/>
+      <cat-item tags="vbser.pis.*"/>
+      <cat-item tags="vbser.cni.*"/>
     </def-cat>
 
     <def-cat n="pretind">
@@ -69,6 +101,19 @@
       <attr-item tags="det.pos"/>
       <attr-item tags="predet"/>
     </def-attr>
+
+    <def-attr n="tipus_prn">
+      <attr-item tags="prn.tn.pos"/>
+      <attr-item tags="prn.tn.ref"/>
+      <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.pos"/>
+    </def-attr>
+
 
     <def-attr n="persona">
       <attr-item tags="p1"/>
@@ -961,12 +1006,17 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
-              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="persona"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tipus_prn"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -1126,6 +1176,44 @@
     <!--      SINTAGMES VERBALS -->
 
 
+        <rule comment="REGLA: pp (quan no acompanya res o va amb desconeguda)">
+                <pattern>
+                        <pattern-item n="pp"/>
+                </pattern>
+                <action>
+                        <call-macro n="f_concord1">
+                                <with-param pos="1"/>
+                        </call-macro>
+                        <call-macro n="firstWord">
+                                <with-param pos="1"/>
+                        </call-macro>
+                        <out>
+                                <chunk name="pp" case="caseFirstWord">
+                                        <tags>
+                                                <tag><lit-tag v="SA"/></tag>
+                                                <tag><var n="genero"/></tag>
+                                                <tag><var n="numero"/></tag>
+                                        </tags>
+                                        <lu>
+                                                <clip pos="1" side="tl" part="lemh"/>
+                                                <clip pos="1" side="tl" part="a_verb"/>
+                                                <clip pos="1" side="tl" part="temps"/>
+                                                <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+                                                <clip pos="1" side="tl" part="gen_mf"/>
+                                                <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+                                                <clip pos="1" side="tl" part="nbr_sp"/>
+                                                <clip pos="1" side="tl" part="lemq"/>
+                                        </lu>
+                                </chunk>
+                        </out>
+                        <let>
+                                <var n="caseFirstWord"/>
+                                <lit v="aa"/>
+                        </let>
+                </action>
+        </rule>
+
+
     <rule comment="REGLA: PRETIND">
       <pattern>
 	<pattern-item n="pretind"/>
@@ -1176,6 +1264,74 @@
 	</out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: imp">
+      <pattern>
+	<pattern-item n="imp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+        <choose>
+          <when> <!-- devi prendere questo → has de prendre aquesto -->
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="dovere"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+        </choose>
+	<out>
+	  <chunk name="imp" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+
+            </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: inf">
+      <pattern>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="inf" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
 
 
 

@@ -12976,42 +12976,42 @@
 
     </pardef>
     <pardef n="/el_meu__prn">
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>meues</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>meves</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>meua</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>meva</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>els<b/>meus</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>el<b/>meu</l> 
         <r>el<b/>meu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
@@ -13020,28 +13020,28 @@
 
     </pardef>
     <pardef n="/el_nostre__prn">
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>nostres</l> 
         <r>el<b/>nostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>nostra</l> 
         <r>el<b/>nostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>els<b/>nostres</l> 
         <r>el<b/>nostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>el<b/>nostre</l> 
         <r>el<b/>nostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
@@ -13050,42 +13050,42 @@
 
     </pardef>
     <pardef n="/el_seu__prn">
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>seues</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>seves</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>seua</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>seva</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>els<b/>seus</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>el<b/>seu</l> 
         <r>el<b/>seu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
@@ -13094,42 +13094,42 @@
 
     </pardef>
     <pardef n="/el_teu__prn">
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>teues</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>teves</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>teua</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>teva</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>els<b/>teus</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>el<b/>teu</l> 
         <r>el<b/>teu<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
@@ -13138,28 +13138,28 @@
 
     </pardef>
     <pardef n="/el_vostre__prn">
-    <e r="LR">
+    <e>
       <p>
         <l>les<b/>vostres</l> 
         <r>el<b/>vostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>la<b/>vostra</l> 
         <r>el<b/>vostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>els<b/>vostres</l> 
         <r>el<b/>vostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>el<b/>vostre</l> 
         <r>el<b/>vostre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
@@ -86940,7 +86940,7 @@
 <e lm="quin"><i>quin</i><par n="quant__prn"/></e>
 <e lm="què"><i>què</i><par n="què__prn"/></e>
 <e lm="res"><i>res</i><par n="allò__prn"/></e>
-<e r="LR" lm="res no"><i>res<b/>no</i><par n="allò__prn"/></e>
+<e lm="res no"><i>res<b/>no</i><par n="allò__prn"/></e>
 <e lm="si"><i>si</i><par n="si__prn"/></e>
 <e lm="tot"><i>tot</i><par n="algun__prn"/></e>
 <e lm="tot i res"><i>tot<b/>i<b/>res</i><par n="alguna_cosa__prn"/></e>
