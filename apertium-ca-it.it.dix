@@ -15403,6 +15403,11 @@
         <par n="abbreviazion/e__n"/> 
     </e>
 
+    <e lm="coalizione">
+        <i>coalizion</i> 
+        <par n="abbreviazion/e__n"/> 
+    </e>
+
     <e lm="aberrazione">
         <i>aberrazion</i> 
         <par n="abbreviazion/e__n"/> 
@@ -27558,6 +27563,10 @@
         <par n="blogger__n"/> 
     </e>
 
+    <e lm="ex">
+        <i>ex</i> 
+        <par n="extra__adj"/> 
+    </e>
     <e lm="extra">
         <i>extra</i> 
         <par n="extra__adj"/> 

@@ -8550,6 +8550,7 @@
     <e><p><l>extingir<s n="vblex"/></l><r>estinguere<s n="vblex"/></r></p></e>
 
     <e><p><l>extintor<s n="n"/></l><r>estintore<s n="n"/></r></p></e>
+    <e><p><l>ex<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ex<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>extra<s n="adj"/><s n="mf"/><s n="sg"/></l><r>extra<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>extra<s n="adj"/><s n="mf"/><s n="pl"/></l><r>extra<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>extra<s n="adj"/><s n="mf"/><s n="ND"/></l><r>extra<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -17301,6 +17302,8 @@
     <e><p><l>vital<s n="adj"/></l><r>vitale<s n="adj"/></r></p></e>
 
     <e><p><l>vitamina<s n="n"/></l><r>vitamina<s n="n"/></r></p></e>
+
+    <e><p><l>coalició<s n="n"/></l><r>coalizione<s n="n"/></r></p></e>
 
     <e><p><l>vitrina<s n="n"/></l><r>vetrina<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
