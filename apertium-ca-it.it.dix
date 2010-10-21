@@ -15398,6 +15398,10 @@
         <par n="abbarbic/are__vblex"/> 
     </e>
 
+    <e lm="fortificazione">
+        <i>fortificazion</i> 
+        <par n="abbreviazion/e__n"/> 
+    </e>
     <e lm="abdicazione">
         <i>abdicazion</i> 
         <par n="abbreviazion/e__n"/> 
