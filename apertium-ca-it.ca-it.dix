@@ -2072,11 +2072,13 @@
     <e><p><l>abadia<s n="n"/><s n="f"/></l><r>abbazia<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>abaixar<s n="vblex"/></l><r>scendere<s n="vblex"/></r></p></e>
+    <e><p><l>il·luminar<s n="vblex"/></l><r>illuminare<s n="vblex"/></r></p></e>
 
     <e><p><l>abandonament<s n="n"/></l><r>abbandono<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e><p><l>abandonar<s n="vblex"/></l><r>abbandonare<s n="vblex"/></r></p></e>
 
+    <e><p><l>il·luminat<s n="adj"/></l><r>illuminato<s n="adj"/></r></p></e>
     <e><p><l>abandó<s n="n"/></l><r>abbandono<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
     <e><p><l>abans<s n="adv"/></l><r>prima<s n="adv"/></r></p></e>
@@ -3582,6 +3584,7 @@
     <e><p><l>assimilar<s n="vblex"/></l><r>assimilare<s n="vblex"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>assistencial<s n="adj"/></l><r>assistenziale<s n="adj"/></r></p></e>
+    <e><p><l>confidencial<s n="adj"/></l><r>confidenziale<s n="adj"/></r></p></e>
     <e r="LR"><p><l>assistent<s n="n"/><s n="m"/></l><r>assistente<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>assistent<s n="n"/><s n="f"/></l><r>assistente<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>assistent<s n="n"/><s n="GD"/></l><r>assistente<s n="n"/><s n="m"/></r></p></e>

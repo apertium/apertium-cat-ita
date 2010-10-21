@@ -12720,6 +12720,7 @@
     <e lm="assimilazione"><i>assimilazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="assistente"><i>assistent</i><par n="abat/e__n"/></e>
     <e lm="assistenziale"><i>assistenzial</i><par n="abbagliant/e__adj"/></e>
+    <e lm="confidenziale"><i>confidenzial</i><par n="abbagliant/e__adj"/></e>
     <e lm="assistere"><par n="/assistere__vblex"/></e>
     <e lm="associare"><i>assoc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="associazione"><i>associazion</i><par n="abbreviazion/e__n"/></e>
@@ -15128,6 +15129,8 @@
     <e lm="illegale"><i>illegal</i><par n="abbagliant/e__adj"/></e>
     <e lm="illegalmente"><i>illegalmente</i><par n="ieri__adv"/></e>
     <e lm="illegittimo"><i>illegittim</i><par n="abbandonat/o__adj"/></e>
+    <e lm="illuminato"><i>illuminat</i><par n="abbandonat/o__adj"/></e>
+    <e lm="illuminare"><i>illumin</i><par n="abbacin/are__vblex"/></e>
     <e lm="illuminazione"><i>illuminazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="illusione"><i>illusion</i><par n="abbreviazion/e__n"/></e>
     <e lm="illustre"><i>illustr</i><par n="abbagliant/e__adj"/></e>
