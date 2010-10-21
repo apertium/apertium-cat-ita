@@ -457,7 +457,7 @@
       <e>       <p><l>a</l><r>a<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>e</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="destr/a__adj">
+    <pardef n="destr/a__adj" c="MG: falta forma masculina">
       <e>       <p><l>e</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>a</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
@@ -17453,10 +17453,6 @@
         <par n="abortistic/o__adj"/> 
     </e>
 
-    <e lm="antipode">
-        <i>antipod</i> 
-        <par n="amor/e__n"/> 
-    </e>
 
     <e lm="antipode">
         <i>antipod</i> 
@@ -18356,10 +18352,6 @@
         <par n="abbacchia/nte__adj"/> 
     </e>
 
-    <e lm="assorbente">
-        <i>assorbent</i> 
-        <par n="abat/e__n"/> 
-    </e>
 
     <e lm="assorbimento">
         <i>assorbiment</i> 
@@ -20235,11 +20227,6 @@
         <par n="calcolat/ore__adj"/> 
     </e>
 
-    <e lm="calcolatore">
-        <i>calcolator</i> 
-        <par n="abat/e__n"/> 
-    </e>
-
     <e lm="calcolatrice">
         <i>calcolatric</i> 
         <par n="abbreviazion/e__n"/> 
@@ -21294,10 +21281,6 @@
         <par n="cas/a__n"/> 
     </e>
 
-    <e lm="centigrado">
-        <i>centigrad</i> 
-        <par n="bambin/o__n"/> 
-    </e>
 
     <e lm="centigrado">
         <i>centigrad</i> 
@@ -22555,11 +22538,6 @@
         <par n="agricolt/ore__n"/> 
     </e>
 
-    <e lm="compositore">
-        <i>composit</i> 
-        <par n="accentrat/ore__adj"/> 
-    </e>
-
     <e lm="composizione">
         <i>composizion</i> 
         <par n="abbreviazion/e__n"/> 
@@ -23484,10 +23462,6 @@
         <par n="abbell/ire__vblex"/> 
     </e>
 
-    <e lm="contribuente">
-        <i>contribu</i> 
-        <par n="abbell/ente__adj"/> 
-    </e>
 
     <e lm="contribuente">
         <i>contribuent</i> 
@@ -25991,11 +25965,7 @@
         <par n="abbarbic/are__vblex"/> 
     </e>
 
-    <e lm="domani">
-        <i>domani</i> 
-        <par n="advisor__n"/> 
-    </e>
-
+    
     <e lm="domani">
         <i>domani</i> 
         <par n="ieri__adv"/> 
@@ -26483,18 +26453,9 @@
 
     <e lm="egizio">
         <i>egizi</i> 
-        <par n="bambin/o__n"/> 
-    </e>
-
-    <e lm="egizio">
-        <i>egizi</i> 
         <par n="abbandonat/o__adj"/> 
     </e>
 
-    <e lm="egiziano">
-        <i>egizian</i> 
-        <par n="bambin/o__n"/> 
-    </e>
 
     <e lm="egiziano">
         <i>egizian</i> 
@@ -30946,10 +30907,6 @@
         <par n="bambin/o__n"/> 
     </e>
 
-    <e lm="incaricato">
-        <i>incaricat</i> 
-        <par n="abbandonat/o__adj"/> 
-    </e>
 
     <e lm="incendio">
         <i>incendi</i> 
@@ -32525,7 +32482,7 @@
 
     <e lm="kg">
         <i>kg</i> 
-        <par n="PIL__n"/> 
+        <par n="scacchi__n"/> 
     </e>
 
     <e lm="kilowatt">
@@ -39002,11 +38959,6 @@
 
     <e lm="possibile">
         <i>possibil</i> 
-        <par n="amor/e__n"/> 
-    </e>
-
-    <e lm="possibile">
-        <i>possibil</i> 
         <par n="abbagliant/e__adj"/> 
     </e>
 
@@ -40137,10 +40089,6 @@
         <par n="ambientalist/a__n"/> 
     </e>
 
-    <e lm="pubblicitario">
-        <i>pubblicitari</i> 
-        <par n="bambin/o__n"/> 
-    </e>
 
     <e lm="pubblicitario">
         <i>pubblicitari</i> 
@@ -42382,10 +42330,6 @@
         <par n="abbain/o__n"/> 
     </e>
 
-    <e lm="schifo">
-        <i>schif</i> 
-        <par n="abbandonat/o__adj"/> 
-    </e>
 
     <e lm="schiuma">
         <i>schium</i> 
@@ -47798,10 +47742,7 @@
         <par n="abbain/o__n"/> 
     </e>
 
-    <e lm="zafferano">
-        <i>zafferan</i> 
-        <par n="abbandonat/o__adj"/> 
-    </e>
+  
 
     <e lm="zaffiro">
         <i>zaffir</i> 
