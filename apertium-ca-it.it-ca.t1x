@@ -19,7 +19,6 @@
       <cat-item tags="adv"/>
     </def-cat>
 
-
     <def-cat n="pp">
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="vbmod.pp.*"/>
@@ -4242,6 +4241,10 @@
                 <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="dovere"/>
+                </equal>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="bisognare"/>
                 </equal>
               </or>
             </test>

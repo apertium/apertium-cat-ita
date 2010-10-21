@@ -8207,7 +8207,6 @@
 
     <e><p><l>estany<s n="n"/></l><r>stagno<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
-    <e><p><l>estar<s n="vblex"/></l><r>stare<s n="vbser"/></r></p></e>
     <e r="RL"><p><l>estar<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
 
     <e><p><l>estat<s n="n"/></l><r>stato<s n="n"/></r></p></e>
@@ -9004,9 +9003,9 @@
 
     <e><p><l>fonoll<s n="n"/></l><r>finocchio<s n="n"/></r></p></e>
 
-    <e r="LR"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>fondo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
     <e><p><l>font<s n="n"/></l><r>fonte<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -9791,7 +9790,6 @@
     <!-- forced 'null' restriction: cnjadv-simple -->
     <e><p><l>havent<b/>donat<b/>compte<b/>que<s n="cnjadv"/></l><r>dato<b/>che<s n="cnjadv"/></r></p></e>
 
-    <e><p><l>haver<s n="vbhaver"/></l><r>avere<s n="vbhaver"/></r></p></e>
 
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>hebreu<s n="adj"/></l><r>ebreo<s n="adj"/></r></p></e>
@@ -15723,11 +15721,6 @@
     <e r="RL"><p><l>sequera<s n="n"/><s n="f"/><s n="ND"/></l><r>siccità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 
     <e><p><l>seqüela<s n="n"/></l><r>sequela<s n="n"/></r></p></e>
-    <!-- forced 'null' restriction: default <e><p><l>ser<s n="vbser"/></l><r>essere<s n="vbser"/><s n="auxser"/></r></p></e>
- -->
-<!-- forced 'null' restriction: default -->
-    <e><p><l>ser<s n="vbser"/></l><r>essere<s n="vbser"/></r></p></e>
-    <e><p><l>estar<s n="vblex"/></l><r>essere<s n="vblex"/></r></p></e>
 
     <e><p><l>sergent<s n="n"/><s n="mf"/></l><r>sergente<s n="n"/><s n="m"/></r></p></e>
     <!-- forced 'null' restriction: adv-simple -->
@@ -17344,9 +17337,14 @@
 
     <e><p><l>voleibol<s n="n"/><s n="m"/></l><r>pallavolo<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
-<!--<e><p><l>voler<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
--->
-<!-- forced 'null' restriction: default -->
+<!--<e><p><l>voler<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>-->
+
+    <e><p><l>estar<s n="vblex"/></l><r>stare<s n="vbser"/></r></p></e>
+    <e><p><l>ser<s n="vbser"/></l><r>essere<s n="vbser"/></r></p></e>
+    <e><p><l>estar<s n="vblex"/></l><r>essere<s n="vblex"/></r></p></e>
+
+    <e><p><l>haver<s n="vbhaver"/></l><r>avere<s n="vbhaver"/></r></p></e>
+
     <e><p><l>caldre<s n="vbmod"/></l><r>bisognare<s n="vbmod"/></r></p></e>
     <e><p><l>voler<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>potere<s n="vbmod"/></r></p></e>

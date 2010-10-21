@@ -4613,6 +4613,7 @@
       <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="bisogn/are__vbmod">
+<!--
       <e>       <p><l>ai</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>avate</l><r>are<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>aste</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -4621,24 +4622,16 @@
       <e>       <p><l>aron</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>arono</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>eremmo</l><r>are<s n="vbmod"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ò</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ino</l><r>are<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>asser</l><r>are<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>erei</l><r>are<s n="vbmod"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iamo</l><r>are<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>i</l><r>are<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ereste</l><r>are<s n="vbmod"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>eresti</l><r>are<s n="vbmod"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>erebber</l><r>are<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ano</l><r>are<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>erebbero</l><r>are<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ate</l><r>are<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>erebbe</l><r>are<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>a</l><r>are<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>eremo</l><r>are<s n="vbmod"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ati</l><r>are<s n="vbmod"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ata</l><r>are<s n="vbmod"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ato</l><r>are<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>assimo</l><r>are<s n="vbmod"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>erò</l><r>are<s n="vbmod"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>assi</l><r>are<s n="vbmod"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4648,13 +4641,11 @@
       <e>       <p><l>assi</l><r>are<s n="vbmod"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>eran</l><r>are<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>eranno</l><r>are<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>erà</l><r>are<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>avamo</l><r>are<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ammo</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>avo</l><r>are<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>assero</l><r>are<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ate</l><r>are<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>asse</l><r>are<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>are<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>iamo</l><r>are<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>are<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4662,8 +4653,6 @@
       <e>       <p><l>avan</l><r>are<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>are<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>avano</l><r>are<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ando</l><r>are<s n="vbmod"/><s n="ger"/></r></p></e>
-      <e>       <p><l>ava</l><r>are<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>in</l><r>are<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>iamo</l><r>are<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>o</l><r>are<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4671,7 +4660,24 @@
       <e>       <p><l>i</l><r>are<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ar</l><r>are<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>an</l><r>are<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+-->
+      <!-- http://en.wiktionary.org/wiki/bisognare -->
       <e>       <p><l>are</l><r>are<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>ando</l><r>are<s n="vbmod"/><s n="ger"/></r></p></e>
+
+      <e>       <p><l>ate</l><r>are<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ati</l><r>are<s n="vbmod"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ata</l><r>are<s n="vbmod"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ato</l><r>are<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+
+      <e>       <p><l>i</l><r>are<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ò</l><r>are<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erebbe</l><r>are<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>are<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ava</l><r>are<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>asse</l><r>are<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erà</l><r>are<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+
     </pardef>
     <pardef n="c'/è_bisogno_di__vbmod">
       <e>       <p><l>i<b/>sarebbe<b/>bisogno<b/>di</l><r>è<b/>bisogno<b/>di<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>

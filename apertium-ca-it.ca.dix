@@ -75156,6 +75156,13 @@
       </p>
     </e>
 
+    <!-- CHECK -->
+    <e r="RL">
+      <p>
+        <l>ent</l> 
+        <r>dre<s n="vbmod"/><s n="ger"/></r> 
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>dre</l> 
@@ -75212,10 +75219,29 @@
       </p>
     </e>
 
+    <!-- CHECK -->
     <e>
       <p>
         <l>gut</l> 
         <r>dre<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guda</l> 
+        <r>dre<s n="vbmod"/><s n="pp"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guts</l> 
+        <r>dre<s n="vbmod"/><s n="pp"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gudes</l> 
+        <r>dre<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -75262,6 +75288,8 @@
     </e>
 
     </pardef>
+
+
     <pardef n="p/oder__vbmod">
     <e>
       <p>
