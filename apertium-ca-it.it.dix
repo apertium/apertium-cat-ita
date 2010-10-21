@@ -13379,6 +13379,7 @@
     <e lm="chirurgia"><i>chirurgi</i><par n="cas/a__n"/></e>
     <e lm="chitarra"><i>chitarr</i><par n="cas/a__n"/></e>
     <e lm="chitarrista"><i>chitarrist</i><par n="eremit/a__n"/></e>
+    <e lm="chiudere"><i>chiu</i><par n="acclu/dere__vblex"/></e>
     <e lm="chiusura"><i>chiusur</i><par n="cas/a__n"/></e>
     <e r="LR" lm="ci"><i>ci</i><par n="ci__prn"/></e>
     <e lm="c'è"><p><l>ci<b/>sono</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>

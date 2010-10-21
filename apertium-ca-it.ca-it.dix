@@ -2073,6 +2073,7 @@
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>abaixar<s n="vblex"/></l><r>scendere<s n="vblex"/></r></p></e>
     <e><p><l>il·luminar<s n="vblex"/></l><r>illuminare<s n="vblex"/></r></p></e>
+    <e><p><l>tancar<s n="vblex"/></l><r>chiudere<s n="vblex"/></r></p></e>
 
     <e><p><l>abandonament<s n="n"/></l><r>abbandono<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
