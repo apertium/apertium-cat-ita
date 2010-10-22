@@ -610,7 +610,7 @@
 <e><p><l>benefactor<s n="n"/><s n="m"/></l><r>benefattore<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>benefactor<s n="n"/><s n="f"/></l><r>benefattore<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>cella<s n="n"/><s n="f"/></l><r>sopracciglio<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>ancora<s n="n"/><s n="f"/></l><r>ancora<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>àncora<s n="n"/><s n="f"/></l><r>ancora<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>cec<s n="n"/><s n="m"/></l><r>cieco<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cec<s n="n"/><s n="f"/></l><r>cieco<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>clar<s n="n"/><s n="m"/></l><r>chiaro<s n="n"/><s n="m"/></r></p></e>
@@ -695,11 +695,12 @@
 <e><p><l>orella<s n="n"/><s n="f"/></l><r>orecchio<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>paracaigudes<s n="n"/><s n="m"/><s n="sp"/></l><r>paracadute<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 
-<e><p><l>parell<s n="n"/></l><r>paio<s n="n"/></r></p></e>
-    <e r="LR"><p><l>parell<s n="n"/><s n="m"/><s n="sg"/></l><r>paio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>parell<s n="n"/><s n="m"/><s n="pl"/></l><r>paio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>parell<s n="n"/><s n="m"/><s n="sg"/></l><r>paio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>parell<s n="n"/><s n="m"/><s n="pl"/></l><r>paio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<!-- 
+  la forma plural de 'paio' és femenina, en català 'parell' pot ser femenina també, però amb altre sentit  
+  http://en.wiktionary.org/wiki/parell
+-->
+<e><p><l>parell<s n="n"/><s n="m"/><s n="sg"/></l><r>paio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>parell<s n="n"/><s n="m"/><s n="pl"/></l><r>paio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e><p><l>pestanya<s n="n"/><s n="f"/></l><r>ciglio<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>precedent<s n="n"/><s n="m"/></l><r>precedente<s n="n"/><s n="m"/></r></p></e>
