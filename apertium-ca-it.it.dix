@@ -12103,6 +12103,7 @@
     <e lm="a galla"><i>a<b/>galla</i><par n="ieri__adv"/></e>
     <e r="LR" lm="a grande scala"><i>a<b/>grande<b/>scala</i><par n="ieri__adv"/></e>
     <e lm="a lungo termine"><i>a<b/>lungo<b/>termine</i><par n="ieri__adv"/></e>
+    <e lm="infatti"><i>infatti</i><par n="ieri__adv"/></e>
     <e lm="a mano"><i>a<b/>mano</i><par n="ieri__adv"/></e>
     <e lm="a morte"><i>a<b/>morte</i><par n="ieri__adv"/></e>
     <e lm="a parte"><i>a<b/>parte</i><par n="ieri__adv"/></e>
@@ -12556,7 +12557,7 @@
     <e lm="antinaturale"><i>antinatural</i><par n="abbagliant/e__adj"/></e>
     <e lm="antiossidante"><i>antiossidant</i><par n="abbagliant/e__adj"/></e>
     <e lm="antipatico"><i>antipatic</i><par n="abortistic/o__adj"/></e>
-    <e lm="antipode"><i>antipod</i><par n="abbagliant/e__adj"/></e>
+    <e lm="antipode"><i>antipod</i><par n="amor/e__n"/></e>
     <e lm="antiquato"><i>antiquat</i><par n="abbandonat/o__adj"/></e>
     <e lm="antitesi"><i>antitesi</i><par n="abilità__n"/></e>
     <e lm="antonimo"><i>antonim</i><par n="abbain/o__n"/></e>
@@ -14989,6 +14990,7 @@
     <e lm="giustamente"><i>giustamente</i><par n="ieri__adv"/></e>
     <e lm="giustificazione"><i>giustificazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="giustizia"><i>giustizi</i><par n="cas/a__n"/></e>
+    <e lm="ingiustizia"><i>ingiustizi</i><par n="cas/a__n"/></e>
     <e lm="giusto"><i>giusto</i><par n="ieri__adv"/></e>
     <e lm="già"><i>già</i><par n="ieri__adv"/></e>
     <e lm="giù"><i>giù</i><par n="ieri__adv"/></e>
@@ -17044,6 +17046,7 @@
     <e lm="prosperare"><i>prosper</i><par n="abbacin/are__vblex"/></e>
     <e lm="prosperità"><i>prosperità</i><par n="abilità__n"/></e>
     <e lm="prospettiva"><i>prospettiv</i><par n="cas/a__n"/></e>
+    <e lm="direttiva"><i>direttiv</i><par n="cas/a__n"/></e>
     <e lm="prossimo"><i>prossim</i><par n="abbandonat/o__adj"/></e>
     <e lm="prossimamente"><i>prossimamente</i><par n="ieri__adv"/></e>
     <e lm="prostituzione"><i>prostituzion</i><par n="abbreviazion/e__n"/></e>
@@ -17661,7 +17664,6 @@
     <e lm="sessismo"><i>sessism</i><par n="abbain/o__n"/></e>
     <e lm="sessuale"><i>sessual</i><par n="abbagliant/e__adj"/></e>
     <e lm="sessualmente"><i>sessualmente</i><par n="ieri__adv"/></e>
-    <e lm="sesto"><i>sest</i><par n="abbain/o__n"/></e>
     <e lm="sesto"><i>sest</i><par n="abbandonat/o__adj"/></e>
     <e lm="seta"><i>set</i><par n="cas/a__n"/></e>
     <e lm="setta"><i>sett</i><par n="anomali/a__n"/></e>
