@@ -632,6 +632,7 @@
 <e><p><l>anglès<s n="n"/><s n="m"/></l><r>inglese<s n="n"/><s n="mf"/></r></p></e>
 <e><p><l>instal·lació<s n="n"/><s n="f"/></l><r>installazione<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>intenció<s n="n"/><s n="f"/></l><r>intenzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reconstrucció<s n="n"/><s n="f"/></l><r>ricostruzione<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>internet<s n="n"/><s n="f"/><s n="sp"/></l><r>internet<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e><p><l>juliol<s n="n"/><s n="m"/></l><r>luglio<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>llaurador<s n="n"/><s n="GD"/><s n="ND"/></l><r>labrador<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -2058,6 +2059,7 @@
     <e><p><l>abadia<s n="n"/><s n="f"/></l><r>abbazia<s n="n"/><s n="f"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-2 -->
     <e r="LR"><p><l>abaixar<s n="vblex"/></l><r>scendere<s n="vblex"/></r></p></e>
+    <e><p><l>transferir<s n="vblex"/></l><r>trasferire<s n="vblex"/></r></p></e>
     <e><p><l>il·luminar<s n="vblex"/></l><r>illuminare<s n="vblex"/></r></p></e>
     <e><p><l>tancar<s n="vblex"/></l><r>chiudere<s n="vblex"/></r></p></e>
 
