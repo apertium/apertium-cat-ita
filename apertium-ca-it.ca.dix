@@ -76562,7 +76562,7 @@
 <e lm="dacsa" a="prompsit2uoc"><i>dacs</i><par n="abell/a__n"/></e>
 
 
-<e lm="aliat" a="eleka"><i>aliat</i><par n="triparti/t__adj"/></e>
+<e lm="aliat" a="eleka"><i>alia</i><par n="triparti/t__adj"/></e>
 <e lm="animal" a="ariel"><i>animal</i> <par n="abdominal__adj"/></e>
 <e lm="difunt"><i>difunt</i><par n="alt__adj"/></e>
 <e lm="extraterrestre"><i>extraterrestre</i><par n="abdominal__adj"/></e>
@@ -76727,6 +76727,7 @@
 <e lm="atlètic"><i>atlèti</i><par n="acadèmi/c__adj"/></e>
 <e lm="atractiu"><i>atracti</i><par n="abusi/u__adj"/></e>
 <e lm="atrafegat"><i>atrafega</i><par n="afortuna/t__adj"/></e>
+<e lm="encarregat"><i>encarrega</i><par n="afortuna/t__adj"/></e>
 <e lm="atroç"><i>atro</i><par n="preco/ç__adj"/></e>
 <e lm="atòmic"><i>atòmi</i><par n="acadèmi/c__adj"/></e>
 <e lm="atònit"><i>atònit</i><par n="absolut__adj"/></e>
@@ -77071,6 +77072,7 @@
 <e lm="destructiu"><i>destructi</i><par n="abusi/u__adj"/></e>
 <e lm="destructor"><i>destructor</i><par n="absolut__adj"/></e>
 <e lm="desè"><i>des</i><par n="ali/è__adj"/></e>
+<e lm="il·luminat"><i>il·lumina</i><par n="afortuna/t__adj"/></e>
 <e lm="detallat"><i>detalla</i><par n="afortuna/t__adj"/></e>
 <e lm="determinant"><i>determinant</i><par n="abdominal__adj"/></e>
 <e lm="detestable"><i>detestable</i><par n="abdominal__adj"/></e>

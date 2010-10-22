@@ -2128,7 +2128,14 @@
     <e><p><l>exiliat<s n="adj"/></l><r>esiliato<s n="adj"/></r></p></e>
     <e><p><l>heterosexual<s n="adj"/></l><r>eterosessuale<s n="adj"/></r></p></e>
     <e><p><l>extraterrestre<s n="adj"/></l><r>extraterrestre<s n="adj"/></r></p></e>
-    <e><p><l>immobiliari<s n="adj"/></l><r>immobiliare<s n="adj"/></r></p></e>
+
+    <e r="RL"><p><l>immobiliari<s n="adj"/><s n="GD"/><s n="sg"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>immobiliari<s n="adj"/><s n="GD"/><s n="pl"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>immobiliari<s n="adj"/><s n="f"/><s n="pl"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>immobiliari<s n="adj"/><s n="m"/><s n="pl"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>immobiliari<s n="adj"/><s n="f"/><s n="sg"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>immobiliari<s n="adj"/><s n="m"/><s n="sg"/></l><r>immobiliare<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+
     <e><p><l>incident<s n="adj"/></l><r>incidente<s n="adj"/></r></p></e>
 
 
