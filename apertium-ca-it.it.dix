@@ -661,6 +661,73 @@
     <pardef n="ieri__adv">
       <e>       <p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+    <pardef n="sol/ere__vblex">
+      <e>       <p><l>ei</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>evate</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>este</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>evi</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>esti</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eron</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erono</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>è</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ano</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>esser</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<!--  NOTE: Defective verb - no future, conditional, compound tenses or imperative
+
+      <e>       <p><l>eremmo</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erei</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ereste</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>eresti</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erebber</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erebbero</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erebbe</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erò</l><r>ere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erete</l><r>ere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erai</l><r>ere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eran</l><r>ere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>eranno</l><r>ere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erà</l><r>ere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eremo</l><r>ere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+-->
+
+      <e>       <p><l>ono</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ute</l><r>ere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>e</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>uti</l><r>ere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>uta</l><r>ere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>uto</l><r>ere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>essimo</l><r>ere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>essi</l><r>ere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>este</l><r>ere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>essi</l><r>ere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>evamo</l><r>ere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>emmo</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>evo</l><r>ere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>essero</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>esse</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iamo</l><r>ere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iate</l><r>ere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>evan</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>evano</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>endo</l><r>ere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e>       <p><l>eva</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>an</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>iamo</l><r>ere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>o</l><r>ere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ete</l><r>ere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>i</l><r>ere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>er</l><r>ere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>on</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ere</l><r>ere<s n="vblex"/><s n="inf"/></r></p></e>
+    </pardef>
+
     <pardef n="abbatt/ere__vblex">
       <e>       <p><l>ei</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>evate</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -17772,7 +17839,7 @@
     <e lm="soia"><i>soi</i><par n="cas/a__n"/></e>
     <e lm="solo"><i>sol</i><par n="abbandonat/o__adj"/></e>
     <e lm="sole"><i>sol</i><par n="amor/e__n"/></e>
-    <e lm="solere"><i>sol</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="solere"><i>sol</i><par n="sol/ere__vblex"/></e>
     <e lm="solamente"><i>solamente</i><par n="ieri__adv"/></e>
     <e lm="solare"><i>solar</i><par n="abbagliant/e__adj"/></e>
     <e lm="soldato"><i>soldat</i><par n="abbain/o__n"/></e>

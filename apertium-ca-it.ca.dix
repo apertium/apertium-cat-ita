@@ -33250,6 +33250,7 @@
     </e>
 
     </pardef>
+
     <pardef n="sol/er__vblex">
     <e>
       <p>
@@ -33505,7 +33506,55 @@
       </p>
     </e>
 
+
+
+    <e>
+      <p>
+        <l>guéssim</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>gués</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>guéssiu</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>guessis</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>guessin</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>gués</l> 
+        <r>er<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
     </pardef>
+
+
+
+
     <pardef n="concórr/er__vblex">
     <e v="val">
       <p>
