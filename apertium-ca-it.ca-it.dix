@@ -8700,6 +8700,7 @@
     <e><p><l>federal<s n="adj"/></l><r>federale<s n="adj"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-4 -->
     <e><p><l>feina<s n="n"/><s n="f"/></l><r>lavoro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>feixisme<s n="n"/><s n="m"/></l><r>fascismo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>feixista<s n="adj"/><s n="mf"/></l><r>fascista<s n="adj"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>feixista<s n="adj"/><s n="mf"/></l><r>fascista<s n="adj"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>feixista<s n="adj"/><s n="mf"/></l><r>fascista<s n="adj"/><s n="f"/></r></p></e>
