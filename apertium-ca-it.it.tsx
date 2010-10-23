@@ -66,13 +66,19 @@
     <tags-item tags="ij"/>
   </def-label> 
   <def-label name="ANTROPONIM">
+    <tags-item tags="np.ant"/>
+    <tags-item tags="np.cog"/>
     <tags-item tags="np.ant.*"/>
     <tags-item tags="np.cog.*"/>
   </def-label>
   <def-label name="TOPONIM">
+    <tags-item tags="np.top"/>
+    <tags-item tags="np.top.*"/>
+    <tags-item tags="np.loc"/>
     <tags-item tags="np.loc.*"/>
   </def-label>
   <def-label name="NPALTRES">
+    <tags-item tags="np.al"/>
     <tags-item tags="np.al.*"/>
   </def-label>
   <def-label name="NUM" closed="true">
@@ -105,6 +111,9 @@
   </def-label>
   <def-label name="PRNPRO" closed="true">
     <tags-item tags="prn.pro.*"/>
+  </def-label>
+  <def-label name="PRNALTRE" closed="true">
+    <tags-item tags="prn.*"/>
   </def-label>
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
