@@ -4560,7 +4560,9 @@
 
     <e><p><l>canalització<s n="n"/></l><r>canalizzazione<s n="n"/></r></p></e>
 
-    <e><p><l>canalla<s n="n"/><s n="f"/><s n="sg"/></l><r>bambino<s n="n"/></r></p></e>
+    <e><p><l>nen<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
+    <e r="LR"><p><l>xiquet<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
+    <e><p><l>infant<s n="n"/></l><r>infante<s n="n"/></r></p></e>
 
     <e r="LR"><p><l>canapè<s n="n"/><s n="m"/><s n="sg"/></l><r>canapé<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>canapè<s n="n"/><s n="m"/><s n="pl"/></l><r>canapé<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -10318,9 +10320,7 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>infame<s n="adj"/></l><r>infame<s n="adj"/></r></p></e>
 
-    <e><p><l>infant<s n="n"/></l><r>infante<s n="n"/></r></p></e>
 
-    <e><p><l>infant<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
 
     <e><p><l>infantesa<s n="n"/></l><r>infanzia<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
@@ -10371,7 +10371,6 @@
 
     <e><p><l>infusió<s n="n"/><s n="f"/></l><r>infuso<s n="n"/><s n="m"/></r></p></e>
 
-    <e><p><l>infància<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>ingenu<s n="adj"/></l><r>ingenuo<s n="adj"/></r></p></e>
 
@@ -12543,7 +12542,6 @@
     <e r="RL"><p><l>negre<s n="n"/><s n="mf"/><s n="pl"/></l><r>nero<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>negre<s n="n"/><s n="mf"/><s n="pl"/></l><r>nero<s n="n"/><s n="GD"/><s n="pl"/></r></p></e>
 
-    <e><p><l>nen<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>neoliberal<s n="adj"/></l><r>neoliberale<s n="adj"/></r></p></e>
 
@@ -17381,7 +17379,6 @@
 
     <e><p><l>xiprer<s n="n"/></l><r>cipresso<s n="n"/></r></p></e>
 
-    <e><p><l>xiquet<s n="n"/></l><r>bambino<s n="n"/></r></p></e>
     <!-- forced 'null' restriction: norestrictions-4 -->
     <e><p><l>xiuletada<s n="n"/><s n="f"/></l><r>fischio<s n="n"/><s n="m"/></r></p></e>
 
