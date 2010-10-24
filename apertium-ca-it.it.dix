@@ -8216,13 +8216,9 @@
       <e>       <p><l>edrebber</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>edono</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>edrebbero</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>edute</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>edrebbe</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ede</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>edremo</l><r>edere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>eduti</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>eduta</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>eduto</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>edessimo</l><r>edere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>edrò</l><r>edere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>edessi</l><r>edere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -8256,6 +8252,15 @@
       <e r="LR"><p><l>eder</l><r>edere<s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l>edon</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>edere</l><r>edere<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e r="LR"><p><l>eduto</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eduta</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eduti</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>edute</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>isto</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ista</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>isti</l><r>edere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>iste</l><r>edere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="io__prn">
       <e>       <p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>

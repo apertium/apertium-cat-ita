@@ -17173,9 +17173,10 @@
     <!-- forced 'null' restriction: adj-simple -->
     <e><p><l>virtuós<s n="adj"/></l><r>virtuoso<s n="adj"/></r></p></e>
     <e><p><l>virus<s n="n"/></l><r>virus<s n="n"/></r></p></e>
-    <!-- forced 'null' restriction: norestrictions-2 -->
-    <e><p><l>visar<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>
-    <!-- forced 'null' restriction: adj-simple -->
+
+    <e><p><l>veure<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>
+    <!--<e><p><l>visar<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>-->
+
     <e><p><l>visceral<s n="adj"/></l><r>viscerale<s n="adj"/></r></p></e>
     <e r="RL"><p><l>viscositat<s n="n"/><s n="f"/><s n="ND"/></l><r>viscosità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>viscositat<s n="n"/><s n="f"/><s n="sg"/></l><r>viscosità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
