@@ -131,6 +131,7 @@
 <section-def-lists>
 		<def-list n="vbambser">
 			<list-item v="anar"/>
+<!--			<list-item v="crescere"/>-->
 			<list-item v="devenire"/>
 			<list-item v="arribare"/>
 			<list-item v="morire"/>
@@ -148,6 +149,7 @@
 			<list-item v="sedere"/>
 			<list-item v="arrivare"/>
 			<list-item v="piovere"/>
+			<list-item v="frenare"/>
 
    		 </def-list>
 </section-def-lists>
@@ -882,11 +884,7 @@
 				</let>
 			</when>
 		</choose>
-<!--				<let>
-					<clip pos="2" side="tl" part="gen"/>
-					<var n="genero"/>
-				</let>
-		-->
+
 	</def-macro>
 
 

@@ -15,7 +15,7 @@
       <cat-item tags="adv"/>
       <cat-item tags="preadv"/>
     </def-cat>
-    <def-cat n="adv">
+   <def-cat n="adv">
       <cat-item tags="adv"/>
     </def-cat>
 
@@ -24,6 +24,14 @@
       <cat-item tags="vbmod.pp.*"/>
       <cat-item tags="vbhaver.pp.*"/>
       <cat-item tags="vbser.pp.*"/>
+    </def-cat>
+
+   <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+   <def-cat n="vbaux">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/>
     </def-cat>
 
     <def-cat n="ger">
@@ -76,6 +84,9 @@
 
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="prnpro">
+      <cat-item tags="prn.pro.*"/>
     </def-cat>
 
     <def-cat n="top_ant">
@@ -141,7 +152,11 @@
       <attr-item tags="adj"/> <!-- poco / poc -->
       <attr-item tags="predet"/>
     </def-attr>
-
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+      <attr-item tags="preadv"/>
+    </def-attr>
+   
     <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.percent"/>
@@ -233,6 +248,34 @@
     <def-var n="genero" v="&lt;m&gt;"/>
 
   </section-def-vars>
+
+<section-def-lists>
+		<def-list n="vbambser">
+			<list-item v="andare"/>
+			<list-item v="crescere"/>
+			<list-item v="frenare"/>
+			<list-item v="devenire"/>
+			<list-item v="arribare"/>
+			<!--<list-item v="morire"/>-->
+			<list-item v="entrare"/>
+			<list-item v="nascere"/>
+			<list-item v="partire"/>
+			<list-item v="restare"/>
+			<list-item v="venire"/>
+			<list-item v="uscire"/>
+			<list-item v="passare"/>
+			<list-item v="essere"/>
+			<list-item v="stare"/>
+			<list-item v="scendere"/>
+			<list-item v="salire"/>
+			<list-item v="sedere"/>
+			<list-item v="arrivare"/>
+			<list-item v="piovere"/>
+
+   		 </def-list>
+</section-def-lists>
+
+
 
   <section-def-macros>
 
@@ -337,7 +380,7 @@
 		</equal>
 	      </test>
 	      <modify-case>
-		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="lemh"/> 
 		<lit v="aa"/>
 	      </modify-case>
 	    </when>
@@ -358,7 +401,9 @@
             <var n="verbfinal"/>
             <concat>
 	      <var n="verbfinal"/>
+		<get-case-from pos="1">
 	      <clip pos="1" side="tl" part="lemh"/>
+		</get-case-from>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="temps"/>
 	      <clip pos="1" side="tl" part="persona"/>
@@ -2674,6 +2719,37 @@
       </choose>
     </def-macro>
 
+	<def-macro n="f_vauxiliar" npar="2">
+		<choose>
+			<when>
+				<test>
+					<in caseless="yes"> <!-- comprovem si el vblex s a la llista-->
+						<clip pos="2" side="sl" part="lem"/>
+						<list n="vbambser"/>
+					</in>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="lem"/>
+					<lit v="haver"/>
+				</let>
+				<let>
+					<clip pos="1" side="tl" part="a_verb"/>
+					<lit-tag v="vbhaver"/>
+				</let>
+				<let> 
+					<clip pos="2" side="tl" part="gen"/>
+					<lit-tag v="m"/>
+				</let>
+				<let>
+					<clip pos="2" side="tl" part="nbr"/>
+					<lit-tag v="sg"/>
+				</let>
+			</when>
+		</choose>
+
+	</def-macro>
+
+
   </section-def-macros>
 
   <section-rules>
@@ -4194,6 +4270,231 @@
       </action>
     </rule>
 
+  <rule comment="REGLA: vbser + pp"> <!-- sono andata: he anat-->
+      <pattern>
+	<pattern-item n="vbser"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_vauxiliar">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="verbcj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: prnpro + vbaux + pp"> <!-- no aconsegueixo que m'agafi el verb ser com a vbser-->
+      <pattern>
+	<pattern-item n="prnpro"/>
+	<pattern-item n="vbaux"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_vauxiliar">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_pretind">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <chunk name="prnpro_verbcj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+ 	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	<b pos="1"/>
+           <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: vbaux + adv + pp"> <!-- "sono gi andate. hanno gi mangiato. sono gi fatte: ja han anat. ja han menjat. ja sn fetes-->
+      <pattern>
+	<pattern-item n="vbaux"/>
+	<pattern-item n="adv_preadv"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out> <!-- aquest ordre estrany s per les maj-->
+	<chunk name="adv" case="caseFirstWord">
+		<tags>
+			<tag><clip pos="2" side="tl" part="a_adv"/></tag>
+		</tags>
+		<lu>
+			<get-case-from pos="1">
+				<clip pos="2" side="tl" part="lem"/>
+			</get-case-from>
+			<clip pos="2" side="tl" part="a_adv"/>
+		</lu>
+	</chunk>
+	<b pos="1"/>
+	</out>
+	  <choose>
+	    <when>
+	      <test>
+		<equal>
+		  <case-of pos="1" side="sl" part="lemh"/>
+		  <lit v="Aa"/>
+		</equal>
+	      </test>
+	      <modify-case>
+		<clip pos="1" side="sl" part="lemh"/>
+		<lit v="aa"/>
+	      </modify-case>
+	    </when>
+	  </choose>
+	<call-macro n="f_vauxiliar">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro>
+        <out>
+	  <chunk name="verbcj">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: prnopro vbaux + adv + pp"> <!-- tampoc aconsegueixo un vbser-->
+      <pattern>
+	<pattern-item n="prnpro"/>
+	<pattern-item n="vbaux"/>
+	<pattern-item n="adv_preadv"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out> <!-- aquest ordre estrany s per les maj-->
+	<chunk name="adv" case="caseFirstWord">
+		<tags>
+			<tag><clip pos="3" side="tl" part="a_adv"/></tag>
+		</tags>
+		<lu>
+			<get-case-from pos="1">
+				<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+			<clip pos="3" side="tl" part="a_adv"/>
+		</lu>
+	</chunk>
+	<b pos="1"/>
+	</out>
+	  <choose>
+	    <when>
+	      <test>
+		<equal>
+		  <case-of pos="1" side="sl" part="lemh"/>
+		  <lit v="Aa"/>
+		</equal>
+	      </test>
+	      <modify-case>
+		<clip pos="1" side="sl" part="lemh"/>
+		<lit v="aa"/>
+	      </modify-case>
+	    </when>
+	  </choose>
+	<call-macro n="f_vauxiliar">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_pretind">
+	  <with-param pos="2"/>
+	</call-macro>
+        <out>
+	  <chunk name="prnprpo_verbcj">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+ 		<clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="3"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <clip pos="4" side="tl" part="temps"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
+
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+ 
     <rule comment="REGLA: vfin">
       <pattern>
 	<pattern-item n="vfin"/>
