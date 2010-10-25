@@ -4104,7 +4104,7 @@
       <e>       <p><l>avete</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>hai</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>aver</l><r>avere<s n="vbhaver"/><s n="inf"/></r></p></e>
-      <e>       <p><l>han</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>han</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>avere</l><r>avere<s n="vbhaver"/><s n="inf"/></r></p></e>
     </pardef>
     <pardef n="/avere__vblex">
@@ -7640,7 +7640,7 @@
       <e>       <p><l>siete</l><r>essere<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>sei</l><r>essere<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>esser</l><r>essere<s n="vbser"/><s n="inf"/></r></p></e>
-      <e>       <p><l>son</l><r>essere<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>son</l><r>essere<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>essere</l><r>essere<s n="vbser"/><s n="inf"/></r></p></e>
     </pardef>
     <pardef n="/essere__vblex">

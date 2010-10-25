@@ -13,6 +13,20 @@
       <cat-item tags="det.*"/>
       <cat-item tags="predet.*"/>
     </def-cat>
+
+    <def-cat n="pp">
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="vbser.pp.*"/>
+      <cat-item tags="vbmod.pp.*"/>
+      <cat-item tags="vbhaver.pp.*"/>
+    </def-cat>
+
+    <def-cat n="aux"><!--verbs que fan d'aux seguits de pp-->
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
+
+
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -68,6 +82,43 @@
       <attr-item tags="sp"/>
     </def-attr>
 
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
+   <def-attr n="a_pp">
+      <attr-item tags="vblex.pp"/>
+      <attr-item tags="vbser.pp"/>
+      <attr-item tags="vbmod.pp"/>
+      <attr-item tags="vaux.pp"/>
+      <attr-item tags="vbhaver.pp"/>
+    </def-attr>
+
+   <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+
+   <def-attr n="temps">
+      <attr-item tags="cni"/>
+      <attr-item tags="fts"/>
+      <attr-item tags="fti"/>  
+      <attr-item tags="ifi"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pp"/><!-- ? -->
+      <attr-item tags="ger"/><!-- ? -->
+      <attr-item tags="inf"/><!-- ? -->
+    </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -77,6 +128,25 @@
     <def-var n="genero"/>
     <def-var n="numero"/>
   </section-def-vars>
+<section-def-lists>
+		<def-list n="vbambser">
+			<list-item v="anar"/>
+			<list-item v="devenire"/>
+			<list-item v="arribare"/>
+			<list-item v="morire"/>
+			<list-item v="entrare"/>
+			<list-item v="nascere"/>
+			<list-item v="partire"/>
+			<list-item v="restare"/>
+			<list-item v="venire"/>
+			<list-item v="uscire"/>
+			<list-item v="passare"/>
+			<list-item v="essere"/>
+			<list-item v="stare"/>
+			<list-item v="scendere"/>
+			<list-item v="salire"/>
+   		 </def-list>
+</section-def-lists>
 
   <section-def-macros>
 
@@ -781,6 +851,40 @@
       </choose>
     </def-macro>
 
+	<def-macro n="vauxiliar" npar="2">
+		<choose>
+			<when>
+				<test>
+					<in caseless="yes"> <!-- comprovem si el vblex s a la llista-->
+						<clip pos="2" side="tl" part="lem"/>
+						<list n="vbambser"/>
+					</in>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="lem"/>
+					<lit v="essere"/>
+				</let>
+				<let>
+					<clip pos="1" side="tl" part="a_verb"/>
+					<lit-tag v="vbser"/>
+				</let>
+				<let> <!-- suposem que el suj s l'ltim sn-->
+					<clip pos="2" side="tl" part="gen"/>
+					<var n="genero"/>
+				</let>
+				<let>
+					<clip pos="2" side="tl" part="nbr"/>
+					<var n="numero"/>
+				</let>
+			</when>
+		</choose>
+<!--				<let>
+					<clip pos="2" side="tl" part="gen"/>
+					<var n="genero"/>
+				</let>
+		-->
+	</def-macro>
+
 
   </section-def-macros>
 
@@ -924,6 +1028,49 @@
       </action>
     </rule>
 
+   <rule comment="aux + pp">
+     <pattern>
+	<pattern-item n="aux"/>
+	<pattern-item n="pp"/>
+     </pattern>
+     <action>
+      <call-macro n="vauxiliar">
+         <with-param pos="1"/>
+         <with-param pos="2"/>
+       </call-macro>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+	<out>
+	  <chunk name="aux_pp" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="temps"/>
+	      <clip pos="1" side="tl" part="pers"/>	 
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
   </section-rules>
 </transfer>
