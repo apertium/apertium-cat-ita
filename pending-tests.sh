@@ -10,6 +10,5 @@ fi
 
 sh wiki-tests.sh Pending it ca update | grep -C $C "$GREP"
 
-#sh wiki-tests.sh Pending fa tg update | grep -C $C "$GREP"
-
+sh wiki-tests.sh Pending ca it update | grep -C $C "$GREP"
 

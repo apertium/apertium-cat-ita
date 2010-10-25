@@ -14702,7 +14702,14 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
+      <p>
+        <l><a/>ha</l> 
+        <r>haver<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
       <p>
         <l>ha</l> 
         <r>haver<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
