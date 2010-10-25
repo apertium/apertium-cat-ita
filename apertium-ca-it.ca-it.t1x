@@ -145,6 +145,10 @@
 			<list-item v="stare"/>
 			<list-item v="scendere"/>
 			<list-item v="salire"/>
+			<list-item v="sedere"/>
+			<list-item v="arrivare"/>
+			<list-item v="piovere"/>
+
    		 </def-list>
 </section-def-lists>
 
