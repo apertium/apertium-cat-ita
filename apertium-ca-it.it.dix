@@ -1049,7 +1049,7 @@
       <e>       <p><l>ire</l><r>ire<s n="vblex"/><s n="inf"/></r></p></e>
     </pardef>
     <pardef n="abbiosc/iare__vblex">
-      <e r="LR"><p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
       <e>       <p><l>iare</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
 
       <e>       <p><l>iando</l><r>iare<s n="vblex"/><s n="ger"/></r></p></e>
