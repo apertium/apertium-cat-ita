@@ -217,6 +217,200 @@
       <e>       <p><l>nti</l><r>nte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
       <e>       <p><l>nte</l><r>nte<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
+
+
+
+
+
+    <!-- SECTION: Verbs -->
+
+    <pardef n="S__cantandomi">
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantandoti">
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantandosi">
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantarglie">
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    </pardef>
+
+<!-- <pardef n="S__cantarsi">
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>-->
+
+    <pardef n="S__cantando">
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ve</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e>       <p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantandosi"/></e>
+    </pardef>
+
+    <pardef n="S__canta">
+      <!--en castellà, és per a imperatius -->
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+<!--  <e r="RL"><p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantarsi"/></e>-->
+<!--  <e r="RL"><p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantarsi"/></e>-->
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantar">
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ve</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <!--'-selo' en español -->
+      <e><p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+      <!--mire-->
+      <e><p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e>       <p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantandosi"/></e>
+    </pardef>
+
+    <pardef n="S__cantiamo">
+      <!--complet -->
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ve</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
+<!--<pardef n="S__canta">
+      <e>       <p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>-->
+
+    <pardef n="S__cantate">
+      <e>       <p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>le</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>la</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantate">
+      <e>       <p><l>ve</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandoti"/></e>
+    </pardef>
+
+    <pardef n="S__cantate">
+      <e>       <p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandoti"/></e>
+      <e>       <p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
+      <e>       <p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+<!--  <e r="RL"><p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantarsi"/></e>-->
+<!--  <e r="RL"><p><l>se</l><r>si<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantarsi"/></e>-->
+    </pardef>
+
+    <pardef n="S__da">
+      <!-- Para las imperativos monosílabos -->
+      <e>       <p><l>mmi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mme</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>cce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>tti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>tte</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>lle</l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>lle</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>gli</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>glie</l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantarglie"/></e>
+      <e>       <p><l>lla</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>gli</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>llo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>llo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
     <pardef n="d/are__vblex">
       <e>       <p><l>arò</l><r>are<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>aremo</l><r>are<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -855,6 +1049,16 @@
       <e>       <p><l>ire</l><r>ire<s n="vblex"/><s n="inf"/></r></p></e>
     </pardef>
     <pardef n="abbiosc/iare__vblex">
+      <e r="LR"><p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>iare</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e>       <p><l>iando</l><r>iare<s n="vblex"/><s n="ger"/></r></p></e>
+
+      <e>       <p><l>iamo</l><r>iare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ia</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ia</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+
       <e>       <p><l>iai</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iavate</l><r>iare<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>iaste</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -867,20 +1071,15 @@
       <e>       <p><l>ino</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>iasser</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>erei</l><r>iare<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iamo</l><r>iare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ereste</l><r>iare<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>eresti</l><r>iare<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>erebber</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>iano</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>erebbero</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>erebbe</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ia</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>eremo</l><r>iare<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iati</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iata</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iato</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>iassimo</l><r>iare<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>erò</l><r>iare<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iassi</l><r>iare<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -895,25 +1094,25 @@
       <e>       <p><l>iammo</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>iavo</l><r>iare<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iassero</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>iasse</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ia</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>iamo</l><r>iare<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>iare<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>iavan</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>iare<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>iavano</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iando</l><r>iare<s n="vblex"/><s n="ger"/></r></p></e>
       <e>       <p><l>iava</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>in</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>iamo</l><r>iare<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>io</l><r>iare<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>iare<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l>ian</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iare</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e>       <p><l>iate</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>iati</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>iata</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iato</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="abboff/are__vblex">
       <e>       <p><l>ai</l><r>are<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
