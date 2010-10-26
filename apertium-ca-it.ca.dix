@@ -14194,14 +14194,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>hauria</l> 
-        <r>haver<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>hauria</l> 
         <r>haver<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
@@ -14229,14 +14223,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>hauria</l> 
-        <r>haver<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>hauria</l> 
         <r>haver<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
@@ -14278,14 +14266,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>haurà</l> 
-        <r>haver<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>haurà</l> 
         <r>haver<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
@@ -14301,7 +14283,7 @@
 
     <e r="RL">
       <p>
-        <l>hi<b/>hagués</l> 
+        <l>hagués</l> 
         <r>haver<s n="vbhaver"/><s n="fts"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
@@ -14329,24 +14311,18 @@
 
     <e r="RL">
       <p>
-        <l>hi<b/>hagués</l> 
+        <l>hagués</l> 
         <r>haver<s n="vbhaver"/><s n="fts"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>havent</l> 
         <r>haver<s n="vbhaver"/><s n="ger"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>havent-hi</l> 
-        <r>haver<s n="vbhaver"/><s n="ger"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -14398,68 +14374,14 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>va<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="RL">
-      <p>
-        <l>vam<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>vaig<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>vau<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>vas<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>van<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>hi<b/>va<b/>haver</l> 
-        <r>haver<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e>
       <p>
         <l>haver</l> 
         <r>haver<s n="vbhaver"/><s n="inf"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>haver-hi</l> 
-        <r>haver<s n="vbhaver"/><s n="inf"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -14476,14 +14398,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>havia</l> 
-        <r>haver<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>havia</l> 
         <r>haver<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
@@ -14511,14 +14427,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>hi<b/>havia</l> 
-        <r>haver<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>havia</l> 
         <r>haver<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
@@ -14539,27 +14449,15 @@
       </p>
     </e>
 
-    <e r="RL" v="cat">
-      <p>
-        <l>hi<b/>hagués</l> 
-        <r>haver<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e r="RL" v="val">
-      <p>
-        <l>hi<b/>haguera</l> 
-        <r>haver<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR" v="cat">
+    <e v="cat">
       <p>
         <l>hagués</l> 
         <r>haver<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR"  v="val">
+    <e  v="val">
       <p>
         <l>haguera</l> 
         <r>haver<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
@@ -14608,27 +14506,15 @@
       </p>
     </e>
 
-    <e r="RL" v="cat">
-      <p>
-        <l>hi<b/>hagués</l> 
-        <r>haver<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e r="RL" v="val">
-      <p>
-        <l>hi<b/>haguera</l> 
-        <r>haver<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="LR" v="cat">
+    <e v="cat">
       <p>
         <l>hagués</l> 
         <r>haver<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR" v="val">
+    <e v="val">
       <p>
         <l>haguera</l> 
         <r>haver<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
@@ -14695,13 +14581,6 @@
       </p>
     </e>
 
-    <e r="RL" i="yes">
-      <p>
-        <l>hi<b/>ha</l> 
-        <r>haver<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l><a/>ha</l> 
@@ -14737,27 +14616,14 @@
       </p>
     </e>
 
-    <e r="RL" v="cat">
-      <p>
-        <l>hi<b/>hagi</l> 
-        <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e r="RL" v="val">
-      <p>
-        <l>hi<b/>haja</l> 
-        <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" v="cat">
+    <e v="cat">
       <p>
         <l>hagi</l> 
         <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR" v="val">
+    <e v="val">
       <p>
         <l>haja</l> 
         <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
@@ -14813,27 +14679,15 @@
       </p>
     </e>
 
-    <e r="RL" v="cat">
-      <p>
-        <l>hi<b/>hagi</l> 
-        <r>haver<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e r="RL" v="val">
-      <p>
-        <l>hi<b/>haja</l> 
-        <r>haver<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" v="cat">
+   
+    <e v="cat">
       <p>
         <l>hagi</l> 
         <r>haver<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR" v="val">
+    <e v="val">
       <p>
         <l>haja</l> 
         <r>haver<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
@@ -14918,447 +14772,7 @@
     </e>
 
     </pardef>
-    <pardef n="haver__vaux">
-    <e>
-      <p>
-        <l>hauríem</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauria</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauríeu</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauries</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haurien</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauria</l> 
-        <r>haver<s n="vaux"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haurem</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauré</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haureu</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauràs</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hauran</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haurà</l> 
-        <r>haver<s n="vaux"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haguéssim</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hagués</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haguéssiu</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haguessis</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haguessin</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hagués</l> 
-        <r>haver<s n="vaux"/><s n="fts"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havent</l> 
-        <r>haver<s n="vaux"/><s n="ger"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havent</l> 
-        <r>haver<s n="vaux"/><s n="ger"/><j/></r> 
-      </p>
-        <par n="S__anant"/> 
-    </e>
-
-    <e>
-      <p>
-        <l>vam<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>vaig<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>vau<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>vas<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>van<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>va<b/>haver</l> 
-        <r>haver<s n="vaux"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haver</l> 
-        <r>haver<s n="vaux"/><s n="inf"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>haver</l> 
-        <r>haver<s n="vaux"/><s n="inf"/><j/></r> 
-      </p>
-        <par n="S__anant"/> 
-    </e>
-
-    <e>
-      <p>
-        <l>havíem</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havia</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havíeu</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havies</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havien</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>havia</l> 
-        <r>haver<s n="vaux"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>haguéssim</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haguérem</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagués</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haguera</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>haguéssiu</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haguéreu</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>haguessis</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>hagueres</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>haguessin</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>hagueren</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagués</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haguera</l> 
-        <r>haver<s n="vaux"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>hem</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>he</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>heu</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>has</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>han</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>ha</l> 
-        <r>haver<s n="vaux"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hàgim</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>hàgem</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagi</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haja</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hàgiu</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>hàgeu</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagis</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="val">
-      <p>
-        <l>hages</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagin</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>hagen</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e v="cat">
-      <p>
-        <l>hagi</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-    <e v="val">
-      <p>
-        <l>haja</l> 
-        <r>haver<s n="vaux"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    </pardef>
+   
     <pardef n="/anar__vblex">
     <e>
       <p>
@@ -86509,7 +85923,6 @@
 <e r="RL" lm="anar"><p><l>va</l>                  <r>an</r></p><par n="va/ar__vaux"/></e>
 <e lm="haver"><i></i><par n="haver__vbhaver"/></e>
 <e lm="haver prou"><i></i><par n="haver__vblex"/><p><l><b/>prou</l><r><g><b/>prou</g></r></p></e>
-<e r="RL" lm="haver"><i></i><par n="haver__vaux"/></e>
 <e lm="hi ha"><p><l>hi<b/>ha</l>                  <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="hi ha prou"><p><l>hi<b/>ha</l>             <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p><p><l><b/>prou</l><r><g><b/>prou</g></r></p></e>
 <e r="LR" lm="n'hi ha"><p><l>n'hi<b/>ha</l>       <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
