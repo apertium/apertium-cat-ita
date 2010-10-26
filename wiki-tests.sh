@@ -35,7 +35,7 @@ fi
 
 
 cleansrc () {
-    grep "<li> ($SRCLANG)" | $SED 's/<.*li>//g' | $SED 's/ /_/g' | cut -f2 -d')' | $SED 's/<i>//g' | $SED 's/<\/i>//g' | cut -f2 -d'*' | $SED 's/→/!/g' | cut -f1 -d'!' | $SED 's/(note:/!/g' | $SED 's/_/ /g' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/\([^,.?!:;]\)$/\1./g' |\
+    grep "<li> ($SRCLANG)" | $SED 's/<.*li>//g' | $SED 's/ /_/g' | cut -f2 -d')' | $SED 's/<i>//g' | $SED 's/<\/i>//g' | cut -f2 -d'*' | $SED 's/→/~/g' | cut -f1 -d'~' | $SED 's/(note:/~/g' | $SED 's/_/ /g' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/\([^,.?!:;]\)$/\1./g' |\
     if [ "$TRGLANG" == "nob-old" ]; then
         # split into one lexical unit per line
 	$SED 's/[.]*$/. /' | $SED 's/\([,?.]\) / \1 /g'  | sed 's/?/ ?/g' | $SED 's/$/\n¶/g' | $SED 's/ /\n/g' | grep -v '^ *$'
@@ -44,7 +44,7 @@ cleansrc () {
     fi
 }
 cleantrg () {
-    grep "<li> ($SRCLANG)" | $SED 's/<.*li>//g' | $SED 's/ /_/g' | $SED 's/(\w\w)//g' | $SED 's/<i>//g' | cut -f2 -d'*' | $SED 's/<\/i>_→/!/g' | cut -f2 -d'!' | $SED 's/_/ /g' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/\([^,.?!:;]\)$/\1./g'
+    grep "<li> ($SRCLANG)" | $SED 's/<.*li>//g' | $SED 's/ /_/g' | $SED 's/(\w\w)//g' | $SED 's/<i>//g' | cut -f2 -d'*' | $SED 's/<\/i>_→/~/g' | cut -f2 -d'~' | $SED 's/_/ /g' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/\([^,.?!:;]\)$/\1./g'
 }
 cat $HTML | cleansrc > $SRCLIST;
 cat $HTML | cleantrg > $TRGLIST;
@@ -64,10 +64,10 @@ fi
 # Output the MT vs ref translations:
 TOTAL=0
 CORRECT=0
-for LINE in `paste $SRCLIST $TRGLIST $TSTLIST | $SED 's/ /%_%/g' | $SED 's/\t/!/g'`; do
-	SRC=`echo $LINE | $SED 's/%_%/ /g' | cut -f1 -d'!' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g'`;
-	TRG=`echo $LINE | $SED 's/%_%/ /g' | cut -f2 -d'!' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g' | sed 's/::/%/g' | cut -f1 -d'%'`;
-	TST=`echo $LINE | $SED 's/%_%/ /g' | cut -f3 -d'!' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g'`;
+for LINE in `paste $SRCLIST $TRGLIST $TSTLIST | $SED 's/ /%_%/g' | $SED 's/\t/~/g'`; do
+	SRC=`echo $LINE | $SED 's/%_%/ /g' | cut -f1 -d'~' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g'`;
+	TRG=`echo $LINE | $SED 's/%_%/ /g' | cut -f2 -d'~' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g' | sed 's/::/%/g' | cut -f1 -d'%'`;
+	TST=`echo $LINE | $SED 's/%_%/ /g' | cut -f3 -d'~' | $SED 's/^ *//g' | $SED 's/ *$//g' | $SED 's/   */ /g'`;
 
 	if [ "$LINE" = "!!" ]; then
 		continue;
