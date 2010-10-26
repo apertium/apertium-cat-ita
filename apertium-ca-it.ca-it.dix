@@ -103,8 +103,11 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e><p><l>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></r></p></e>
 
+    <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
