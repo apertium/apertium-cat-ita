@@ -415,6 +415,16 @@
     </pardef>
 
     <pardef n="d/are__vblex">
+      <e>       <p><l>are</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e>       <p><l>ando</l><r>are<s n="vblex"/><s n="ger"/></r></p></e>
+
+      <e>       <p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>a'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e>
+      <e>       <p><l>ai</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+
       <e>       <p><l>arò</l><r>are<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>aremo</l><r>are<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>arai</l><r>are<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -429,11 +439,6 @@
       <e>       <p><l>arebbe</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>arebber</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>arebbero</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ando</l><r>are<s n="vblex"/><s n="ger"/></r></p></e>
-      <e>       <p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e r="LR"><p><l>a'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ai</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>etti</l><r>are<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iedi</l><r>are<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>emmo</l><r>are<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -445,7 +450,6 @@
       <e>       <p><l>ettero</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ieder</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>iedero</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>are</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l>avo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>avamo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>avi</l><r>are<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
