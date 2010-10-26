@@ -8,6 +8,6 @@ then
     GREP='[*#/]'
 fi
 
-sh wiki-tests.sh Regression tg fa update | grep -C $C "$GREP"
+bash wiki-tests.sh Regression it ca update | grep -C $C "$GREP"
 
-
+bash wiki-tests.sh Regression ca it update | grep -C $C "$GREP"
