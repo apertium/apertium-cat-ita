@@ -110,6 +110,11 @@
     <e><p><l>ens<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/></l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/></r></p></e>
 
+    <e><p><l>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></r></p></e>
+    <e><p><l>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></r></p></e>
+
+
+
     <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
