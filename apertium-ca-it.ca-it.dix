@@ -8484,7 +8484,6 @@
 
     <e><p><l>obrer<s n="adj"/></l><r>operaio<s n="adj"/></r></p></e>
 
-    <e><p><l>obrer<s n="n"/></l><r>operaio<s n="n"/></r></p></e>
 
     <e><p><l>obscur<s n="adj"/></l><r>scuro<s n="adj"/></r></p></e>
 
@@ -8752,7 +8751,7 @@
     <e><p><l>palestra<s n="n"/><s n="f"/></l><r>scenario<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>obra<g><b/>de<b/>paleta</g><s n="n"/></l><r>muratura<s n="n"/></r></p></e>
-    <e r="RL"><p><l>obrer<s n="n"/><s n="GD"/></l><r>muratore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>obrer<s n="n"/></l><r>operaio<s n="n"/></r></p></e>
     <e><p><l>paleta<s n="n"/><s n="mf"/></l><r>muratore<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>paleta<s n="n"/></l><r>paletta<s n="n"/></r></p></e>
