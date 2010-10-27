@@ -12371,6 +12371,7 @@
     <e lm="sul"><par n="/sul__pr"/></e>
     <e lm="col"><par n="/col__pr"/></e>
     <e lm="a"><par n="/a__pr"/></e>
+    <e lm="in ufficio"><i>in<b/>ufficio</i><par n="ieri__adv"/></e>
     <e lm="a breve termine"><i>a<b/>breve<b/>termine</i><par n="ieri__adv"/></e>
     <e lm="a cielo aperto"><i>a<b/>cielo<b/>aperto</i><par n="ieri__adv"/></e>
     <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
