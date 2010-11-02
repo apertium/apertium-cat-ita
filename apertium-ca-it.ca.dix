@@ -12301,21 +12301,58 @@
     </e>
 
     </pardef>
-    <pardef n="vint-i-un__num">
+    <pardef n="vint-i-u/n__num" c="copiat de l'es-it, cal fer canvis">
     <e>
       <p>
-        <l>a</l> 
-        <r><s n="num"/><s n="f"/><s n="sp"/></r> 
+        <l>na</l> 
+        <r>n<s n="num"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l></l> 
-        <r><s n="num"/><s n="m"/><s n="sp"/></r> 
+        <r>n<s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>n</l> 
+        <r>n<s n="det"/><s n="ind"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>na</l> 
+        <r>n<s n="det"/><s n="ind"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
 
+   <!-- <e>
+      <p>
+        <l>na<b/>mil</l> 
+        <r>n<b/>mil<s n="det"/><s n="ind"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>un<b/>mil</l> 
+        <r>un<b/>mil<s n="det"/><s n="ind"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e> -->
+    <e>
+      <p>
+        <l>n<b/>mil</l> 
+        <r>n<b/>mil<s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>na<b/>mil</l> 
+        <r>n<b/>mil<s n="num"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="zero__num">
     <e>
@@ -12415,6 +12452,41 @@
     </e>
 
     </pardef>
+
+ <pardef n="nueve__num">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="num"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><b/>mil</l> 
+        <r><b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+
+      <pardef n="nueve(2)__num">
+    <e>
+      <p>
+        <l></l> 
+        <r></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><b/>mil</l> 
+        <r><b/>mil</r> 
+      </p>
+    </e>
+
+    </pardef>
+
+
+
     <pardef n="a__pr">
     <e>
       <p>
@@ -12822,16 +12894,16 @@
 
     </pardef>
     <pardef n="allò__prn">
-      <e r="RL">
+      <!--<e r="RL">
       <p>
         <l></l> 
         <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r> 
       </p>
-    </e>
+    </e> -->
     <e>
       <p>
         <l></l> 
-        <r><s n="prn"/><s n="tn"/><s n="nt"/></r> 
+        <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -85574,7 +85646,7 @@
 <e lm="vint-i-set"><i>vint-i-set</i><par n="sis__num"/></e>
 <e lm="vint-i-sis"><i>vint-i-sis</i><par n="sis__num"/></e>
 <e lm="vint-i-tres"><i>vint-i-tres</i><par n="sis__num"/></e>
-<e lm="vint-i-un"><i>vint-i-un</i><par n="vint-i-un__num"/></e>
+<e lm="vint-i-un"><i>vint-i-u</i><par n="vint-i-u/n__num"/></e>
 <e lm="vint-i-vuit"><i>vint-i-vuit</i><par n="sis__num"/></e>
 <e lm="vuit"><i>vuit</i><par n="sis__num"/></e>
 <e lm="vuit-cents"><i>vuit-cent</i><par n="cinc-cent/s__num"/></e>

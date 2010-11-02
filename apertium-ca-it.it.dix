@@ -5130,7 +5130,7 @@
     </pardef>
     <pardef n="centocinquanta__num">
       <e>       <p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e>       <p><l>mila</l><r>mila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <!--<e>       <p><l>mila</l><r>mila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e> -->
     </pardef>
     <pardef n="centocinquanta(2)__num">
       <e>       <p><l></l><r></r></p></e>
@@ -14596,6 +14596,8 @@
     <e lm="durezza"><i>durezz</i><par n="cas/a__n"/></e>
     <e lm="duttile"><i>duttil</i><par n="abbagliant/e__adj"/></e>
     <e lm="e"><i>e</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="ed"><i>ed</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="ossia"><i>ossia</i><par n="siccome__cnjadv"/></e>
     <e lm="e-mail"><i>e-mail</i><par n="abilità__n"/></e>
     <e lm="ebano"><i>eban</i><par n="abbain/o__n"/></e>
     <e lm="ebreo"><i>ebre</i><par n="abbandonat/o__adj"/></e>
@@ -18657,6 +18659,113 @@
     <e lm="universitario"><i>universitari</i><par n="abbandonat/o__adj"/></e>
     <e lm="università"><i>università</i><par n="abilità__n"/></e>
     <e lm="uno"><i>uno</i><par n="uno__num"/></e>
+    <e lm="due"><i>due</i><par n="centocinquanta__num"/></e>
+    <e lm="tre"><i>tre</i><par n="centocinquanta__num"/></e>
+    <e lm="quattro"><i>quattro</i><par n="centocinquanta__num"/></e>
+    <e lm="cinque"><i>cinque</i><par n="centocinquanta__num"/></e>
+    <e lm="sei"><i>sei</i><par n="centocinquanta__num"/></e>
+    <e lm="sette"><i>sette</i><par n="centocinquanta__num"/></e>
+    <e lm="otto"><i>otto</i><par n="centocinquanta__num"/></e>
+    <e lm="nove"><i>nove</i><par n="centocinquanta__num"/></e>
+    <e lm="dieci"><i>dieci</i><par n="centocinquanta__num"/></e>
+    <e lm="undici"><i>undici</i><par n="centocinquanta__num"/></e>
+    <e lm="dodici"><i>dodici</i><par n="centocinquanta__num"/></e>
+    <e lm="tredici"><i>tredici</i><par n="centocinquanta__num"/></e>
+    <e lm="quattordici"><i>quattordici</i><par n="centocinquanta__num"/></e>
+    <e lm="quindici"><i>quindici</i><par n="centocinquanta__num"/></e>
+    <e lm="sedici"><i>sedici</i><par n="centocinquanta__num"/></e>
+    <e lm="diciassette"><i>diciassette</i><par n="centocinquanta__num"/></e>
+    <e lm="diciotto"><i>diciotto</i><par n="centocinquanta__num"/></e>
+    <e lm="diciannove"><i>diciannove</i><par n="centocinquanta__num"/></e>
+    <e lm="venti"><i>venti</i><par n="centocinquanta__num"/></e>
+   <!-- <e lm="ventidue"><i>ventidue</i><par n="centocinquanta__num"/></e>
+    <e lm="ventitré"><i>ventitr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="ventiquattro"><i>ventiquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="venticinque"><i>venticinque</i><par n="centocinquanta__num"/></e>
+    <e lm="ventisei"><i>ventisei</i><par n="centocinquanta__num"/></e>
+    <e lm="ventisette"><i>ventisette</i><par n="centocinquanta__num"/></e>
+    <e lm="ventotto"><i>ventotto</i><par n="centocinquanta__num"/></e>
+    <e lm="ventinove"><i>ventinove</i><par n="centocinquanta__num"/></e>
+    <e lm="trenta"><i>trenta</i><par n="centocinquanta__num"/></e>
+    <e lm="trentadue"><i>trentadue</i><par n="centocinquanta__num"/></e>
+    <e lm="trentatré"><i>trentatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="trentaquattro"><i>trentaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="trentacinque"><i>trentacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="trentasei"><i>trentasei</i><par n="centocinquanta__num"/></e>
+    <e lm="trentasette"><i>trentasette</i><par n="centocinquanta__num"/></e>
+    <e lm="trentotto"><i>trentotto</i><par n="centocinquanta__num"/></e>
+    <e lm="trentanove"><i>trentanove</i><par n="centocinquanta__num"/></e>
+    <e lm="quaranta"><i>quaranta</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantadue"><i>quarantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantatré"><i>quarantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="quarantaquattro"><i>quarantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantacinque"><i>quarantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantasei"><i>quarantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantasette"><i>quarantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantotto"><i>quarantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="quarantanove"><i>quarantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquanta"><i>cinquanta</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantadue"><i>cinquantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantatré"><i>cinquantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="cinquantaquattro"><i>cinquantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantacinque"><i>cinquantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantasei"><i>cinquantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantasette"><i>cinquantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantotto"><i>cinquantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquantanove"><i>cinquantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="sessanta"><i>sessanta</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantadue"><i>sessantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantatré"><i>sessantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="sessantaquattro"><i>sessantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantacinque"><i>sessantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantasei"><i>sessantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantasette"><i>sessantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantotto"><i>sessantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="sessantanove"><i>sessantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="settanta"><i>settanta</i><par n="centocinquanta__num"/></e>
+    <e lm="settantadue"><i>settantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="settantatré"><i>settantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="settantaquattro"><i>settantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="settantacinque"><i>settantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="settantasei"><i>settantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="settantasette"><i>settantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="settantotto"><i>settantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="settantanove"><i>settantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="ottanta"><i>ottanta</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantadue"><i>ottantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantatré"><i>ottantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="ottantaquattro"><i>ottantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantacinque"><i>ottantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantasei"><i>ottantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantasette"><i>ottantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantotto"><i>ottantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="ottantanove"><i>ottantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="novanta"><i>novanta</i><par n="centocinquanta__num"/></e>
+    <e lm="novantadue"><i>novantadue</i><par n="centocinquanta__num"/></e>
+    <e lm="novantatré"><i>novantatr</i><par n="cinquantatr/é__num"/></e>
+    <e lm="novantaquattro"><i>novantaquattro</i><par n="centocinquanta__num"/></e>
+    <e lm="novantacinque"><i>novantacinque</i><par n="centocinquanta__num"/></e>
+    <e lm="novantasei"><i>novantasei</i><par n="centocinquanta__num"/></e>
+    <e lm="novantasette"><i>novantasette</i><par n="centocinquanta__num"/></e>
+    <e lm="novantotto"><i>novantotto</i><par n="centocinquanta__num"/></e>
+    <e lm="novantanove"><i>novantanove</i><par n="centocinquanta__num"/></e>
+    <e lm="cento"><i>cento</i><par n="trecento/__num"/></e>
+    <e lm="duecento"><i>duecento</i><par n="trecento/__num"/></e>
+    <e lm="trecento"><i>trecento</i><par n="trecento/__num"/></e>
+    <e lm="quattrocento"><i>quattrocento</i><par n="trecento/__num"/></e>
+    <e lm="cinquecento"><i>cinquecento</i><par n="trecento/__num"/></e>
+    <e lm="seicento"><i>seicento</i><par n="trecento/__num"/></e>
+    <e lm="settecento"><i>settecento</i><par n="trecento/__num"/></e>
+    <e lm="ottocento"><i>ottocento</i><par n="trecento/__num"/></e>
+    <e lm="novecento"><i>novecento</i><par n="trecento/__num"/></e>
+    <e lm="ventuno"><i>ventun</i><par n="cinquantun/o__num"/></e>
+    <e lm="trentuno"><i>trentun</i><par n="cinquantun/o__num"/></e>
+    <e lm="quarantuno"><i>quarantun</i><par n="cinquantun/o__num"/></e>
+    <e lm="cinquantuno"><i>cinquantun</i><par n="cinquantun/o__num"/></e>
+    <e lm="sessantuno"><i>sessantun</i><par n="cinquantun/o__num"/></e>
+    <e lm="settantuno"><i>settantun</i><par n="cinquantun/o__num"/></e>
+    <e lm="ottantuno"><i>ottantun</i><par n="cinquantun/o__num"/></e>
+    <e lm="novantuno"><i>novantun</i><par n="cinquantun/o__num"/></e> -->
     <e lm="uomo"><i>uom</i><par n="galantuom/o__n"/></e>
     <e lm="uovo"><i>uov</i><par n="budell/o__n"/></e>
     <e lm="uragano"><i>uragan</i><par n="abbain/o__n"/></e>
@@ -18916,6 +19025,8 @@
     <e lm="Úbeda"><i>Úbeda</i><par n="Afghanistan__np"/></e>
     <e lm="è giusto dire"><i>è<b/>giusto<b/>dire</i><par n="ancorché__cnjcoo"/></e>
     <e lm="sul mio"><p><l>sul<b/>mio</l><r>su<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ciò"><i>ciò</i><par n="qualcosa__prn"/></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">

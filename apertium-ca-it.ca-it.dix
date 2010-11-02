@@ -98,11 +98,21 @@
     <sdef n="pr"/>
     <sdef n="acr"/>
   </sdefs>
+ <pardefs>
+   <pardef n="mil">
+     <e><i><s n="num"/></i></e>
+     <!--<e><p><l><b/>mil<s n="num"/></l><r>mila<s n="num"/></r></p></e> -->
+   </pardef>
+</pardefs>
+
+
   <section id="main" type="standard">
 
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>i<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>i<s n="cnjcoo"/></l><r>ed<s n="cnjcoo"/></r></p></e>
+    <e><p><l>és<b/>a<b/>dir<s n="cnjadv"/></l><r>ossia<s n="cnjadv"/></r></p></e>
     <e><p><l>val<b/>a<b/>dir<s n="cnjcoo"/></l><r>è<b/>giusto<b/>dire<s n="cnjcoo"/></r></p></e>
     <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
     <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
@@ -263,7 +273,7 @@
     <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="m"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
     <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="GD"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/></r></p></e>
 
-    <e><p><l>allò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>allò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 
     <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="f"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>aquell<s n="prn"/><s n="tn"/><s n="m"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
@@ -275,7 +285,7 @@
 
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/></l><r>questo<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
     <e><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/></l><r>costui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
@@ -289,7 +299,7 @@
     <e r="RL"><p><l>aquest<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>aquest<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
-    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>això<s n="prn"/><s n="tn"/><s n="nt"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e r="LR"><p><l>açò<s n="prn"/></l><r>codesto<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e r="LR"><p><l>açò<s n="prn"/><s n="tn"/><s n="nt"/></l><r>questo<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 
@@ -384,9 +394,9 @@
     <e><p><l>què<s n="prn"/></l><r>che<s n="prn"/></r></p></e>
     <e><p><l>què<s n="prn"/></l><r>cosa<s n="prn"/></r></p></e>
 
-    <e r="LR"><p><l>no<b/>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><p><l>res<b/>no<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><p><l>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>no<b/>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>res<b/>no<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+    <e><p><l>res<s n="prn"/></l><r>nulla<s n="prn"/></r></p></e>
 
     <e><p><l>si<s n="prn"/><s n="tn"/></l><r>sè<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>si<s n="prn"/><s n="tn"/></l><r>sé<s n="prn"/><s n="tn"/></r></p></e>
@@ -433,6 +443,7 @@
     <e><p><l>que<s n="rel"/></l><r>che<s n="rel"/></r></p></e>
 
     <e><p><l>que<b/>el<b/>seu<s n="rel"/></l><r>il<b/>cui<s n="rel"/></r></p></e>
+ <e><p><l>això<s n="prn"/></l><r>ciò<s n="prn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
@@ -553,14 +564,36 @@
     <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
     <e><p><l>XXI<s n="num"/></l><r>XXI<s n="num"/></r></p></e>
 
-    <e r="LR"><p><l>due<s n="num"/><s n="mf"/><s n="sp"/></l><r>dos<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>due<s n="num"/><s n="mf"/><s n="sp"/></l><r>dos<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>due<s n="num"/><s n="mf"/><s n="sp"/></l><r>dos<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>dos<s n="num"/><s n="GD"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>due<s n="num"/><s n="m"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>due<s n="num"/><s n="f"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>mil<s n="num"/></l><r>mille<s n="num"/></r></p></e>
     <e><p><l>u<s n="num"/></l><r>uno<s n="num"/></r></p></e>
     <e><p><l>zero<s n="num"/><s n="m"/><s n="sp"/></l><r>zero<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>cent<s n="num"/><s n="mf"/><s n="sp"/></l><r>cento<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+
+ <e><p><l>catorze</l><r>quattordici</r></p><par n="mil"/></e>
+    <e><p><l>quinze</l><r>quindici</r></p><par n="mil"/></e>
+    <e><p><l>tretze</l><r>tredici</r></p><par n="mil"/></e>
+    <e><p><l>dotze</l><r>dodici</r></p><par n="mil"/></e>
+    <e><p><l>onze</l><r>undici</r></p><par n="mil"/></e>
+    <e><p><l>quatre</l><r>quattro</r></p><par n="mil"/></e>
+    <e><p><l>deu</l><r>dieci</r></p><par n="mil"/></e>
+    <e><p><l>nou</l><r>nove</r></p><par n="mil"/></e>
+    <e><p><l>vuit</l><r>otto</r></p><par n="mil"/></e>
+    <e><p><l>sis</l><r>sei</r></p><par n="mil"/></e>
+    <e><p><l>set</l><r>sette</r></p><par n="mil"/></e>
+    <e><p><l>tres</l><r>tre</r></p><par n="mil"/></e>
+    <e><p><l>cinc</l><r>cinque</r></p><par n="mil"/></e>
+    <e><p><l>dinou</l><r>diciannove</r></p><par n="mil"/></e>
+    <e><p><l>divuit</l><r>diciotto</r></p><par n="mil"/></e>
+    <e><p><l>disset</l><r>diciassette</r></p><par n="mil"/></e>
+    <e><p><l>setze</l><r>sedici</r></p><par n="mil"/></e>
+    <e><p><l>vint</l><r>venti</r></p><par n="mil"/></e>
+
+
+
 
     <!-- -->
 
