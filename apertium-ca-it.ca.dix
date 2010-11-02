@@ -8139,6 +8139,24 @@
     </e>
 
     </pardef>
+
+    <pardef n="tal__det">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+
+    </pardef>
+
     <pardef n="llur__det">
     <e>
       <p>
@@ -12917,6 +12935,12 @@
     </e>
 
     </pardef>
+
+    <pardef n="tal__prn">
+      <e>       <p><l>s</l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l></l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="si__prn">
     <e>
       <p>
@@ -77660,7 +77684,8 @@
 <e lm="súper"><i>súper</i><par n="abdominal__adj"/></e>
 <e lm="tafaner"><i>tafaner</i><par n="absolut__adj"/></e>
 <e lm="tailandès"><i>tailand</i><par n="afgan/ès__adj"/></e>
-<e lm="tal"><i>tal</i><par n="abdominal__adj"/></e>
+<e lm="tal"><i>tal</i><par n="tal__det"/></e>
+<e lm="tal"><i>tal</i><par n="tal__prn"/></e>
 <e lm="tallant"><i>tallant</i><par n="abdominal__adj"/></e>
 <e lm="tancat"><i>tanca</i><par n="afortuna/t__adj"/></e>
 <e lm="tant"><i>tant</i><par n="absolut__adj"/></e>
@@ -88955,7 +88980,6 @@
 <e lm="Monzó"><i>Monzó</i><par n="Abad__np"/></e>
 <e lm="M"><i>M</i><par n="sis__num"/></e>
 <e lm="Espí"><i>Espí</i><par n="Abad__np"/></e>
-<e lm="tal"><i>tal</i><par n="ahir__adv"/></e>
 <e lm="Plató"><i>Plató</i><par n="Abad__np"/></e>
 <e lm="golfa"><i>golf</i><par n="abell/a__n"/></e>
 <e lm="Lula"><i>Lula</i><par n="Abad__np"/></e>

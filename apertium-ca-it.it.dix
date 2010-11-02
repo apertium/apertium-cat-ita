@@ -11277,9 +11277,9 @@
       <e>       <p><l>a</l><r>o<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="tal/e__det">
-      <e>       <p><l>i</l><r>e<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l></l><r>e<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>e</l><r>e<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>i</l><r>e<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l></l><r>e<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>e</l><r>e<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="tal/e__prn">
       <e>       <p><l>i</l><r>e<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -17436,11 +17436,11 @@
     <e lm="quercia"><i>querc</i><par n="angosc/ia__n"/></e>
     <e lm="querelare"><i>querel</i><par n="abbacin/are__vblex"/></e>
     <e lm="questo"><i>quest</i><par n="quest/o__det"/></e>
-    <e lm="questo"><i>quest</i><par n="abbandonat/o__adj"/></e>
     <e lm="questo"><i>quest</i><par n="quell/o__prn"/></e>
     <e lm="questione"><i>question</i><par n="abbreviazion/e__n"/></e>
     <e lm="questionare"><i>question</i><par n="abbacin/are__vblex"/></e>
     <e lm="qui"><i>qui</i><par n="ieri__adv"/></e>
+    <e lm="quindi"><i>quindi</i><par n="siccome__cnjadv"/></e>
     <e lm="quindicesimo"><i>quindicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="quotidiano"><i>quotidian</i><par n="abbain/o__n"/></e>
     <e lm="quotidiano"><i>quotidian</i><par n="abbandonat/o__adj"/></e>
@@ -17730,6 +17730,7 @@
     <e lm="rubinetto"><i>rubinett</i><par n="abbain/o__n"/></e>
     <e lm="rumeno"><i>rumen</i><par n="abbandonat/o__adj"/></e>
     <e lm="rumor"><i>rumor</i><par n="affaire__n"/></e>
+    <e lm="ruolo"><i>ruol</i><par n="abbain/o__n"/></e>
     <e lm="rumoroso"><i>rumoros</i><par n="abbandonat/o__adj"/></e>
     <e lm="ruota"><i>ruot</i><par n="cas/a__n"/></e>
     <e lm="rurale"><i>rural</i><par n="abbagliant/e__adj"/></e>
@@ -18067,8 +18068,10 @@
     <e lm="sollevare"><i>sollev</i><par n="abbacin/are__vblex"/></e>
     <e lm="solo"><i>solo</i><par n="ieri__adv"/></e>
     <e lm="solo con"><i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
+    <e lm="però"><i>però</i><par n="siccome__cnjadv"/></e>
     <e lm="solstizio"><i>solstizi</i><par n="abbagli/o__n"/></e>
     <e lm="soltanto"><i>soltanto</i><par n="ieri__adv"/></e>
+    <e lm="poi"><i>poi</i><par n="ieri__adv"/></e>
     <e lm="solubile"><i>solubil</i><par n="abbagliant/e__adj"/></e>
     <e lm="soluzione"><i>soluzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="solvente"><i>solvent</i><par n="abat/e__n"/></e>
@@ -19025,7 +19028,11 @@
     <e lm="Úbeda"><i>Úbeda</i><par n="Afghanistan__np"/></e>
     <e lm="è giusto dire"><i>è<b/>giusto<b/>dire</i><par n="ancorché__cnjcoo"/></e>
     <e lm="sul mio"><p><l>sul<b/>mio</l><r>su<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="ciò"><i>ciò</i><par n="qualcosa__prn"/></e>
+    <e lm="ciò"><i>ciò</i><par n="qualcosa__prn"/></e>
+
+
+    <e lm="tale"><i>tal</i><par n="tal/e__det"/></e>
+    <e lm="tale"><i>tal</i><par n="tal/e__prn"/></e>
 
   </section>
 

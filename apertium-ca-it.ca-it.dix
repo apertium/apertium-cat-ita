@@ -536,6 +536,11 @@
     <e><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>un<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 
+
+    <e><p><l>tal<s n="det"/></l><r>tale<s n="det"/></r></p></e>
+    <e><p><l>tal<s n="prn"/></l><r>tale<s n="prn"/></r></p></e>
+    <e><p><l>així<b/>doncs<s n="cnjadv"/></l><r>quindi<s n="cnjadv"/></r></p></e>
+
     <!-- SECTION: Numerals -->
 
     <e><p><l>C<s n="num"/></l><r>C<s n="num"/></r></p></e>
@@ -10791,10 +10796,7 @@
     <e r="LR"><p><l>tailandès<s n="n"/><s n="f"/></l><r>tailandese<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>tailandès<s n="n"/><s n="GD"/></l><r>tailandese<s n="n"/><s n="mf"/></r></p></e>
 
-    <e r="LR"><p><l>tal<s n="adj"/><s n="mf"/></l><r>questo<s n="adj"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>tal<s n="adj"/><s n="mf"/></l><r>questo<s n="adj"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>tal<s n="adj"/><s n="mf"/></l><r>questo<s n="adj"/><s n="f"/></r></p></e>
-
+   
 
     <e><p><l>talent<s n="n"/></l><r>talento<s n="n"/></r></p></e>
 
@@ -11771,7 +11773,9 @@
 
     <e><p><l>úter<s n="n"/></l><r>utero<s n="n"/></r></p></e>
     <e><p><l>útil<s n="adj"/></l><r>utile<s n="adj"/></r></p></e>
+    <e><p><l>rol<s n="n"/></l><r>ruolo<s n="n"/></r></p></e>
 
+    <e r="RL"><p><l>però<s n="cnjcoo"/></l><r>però<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
