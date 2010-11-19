@@ -11709,7 +11709,6 @@
     <e lm="Australia"><i>Australia</i><par n="Europa__np"/></e>
     <e lm="Austria"><i>Austria</i><par n="Europa__np"/></e>
     <e lm="Avilés"><i>Avilés</i><par n="Afghanistan__np"/></e>
-    <e lm="BBVA"><i>BBVA</i><par n="BBVA__n"/></e>
     <e lm="BSCH"><i>BSCH</i><par n="ABC__np"/></e>
     <e lm="Badajoz"><i>Badajoz</i><par n="Afghanistan__np"/></e>
     <e lm="Badalona"><i>Badalona</i><par n="Afghanistan__np"/></e>
@@ -11882,6 +11881,24 @@
     <e lm="Euskadi"><i>Euskadi</i><par n="Afghanistan__np"/></e>
     <e lm="Eva"><i>Eva</i><par n="María__np"/></e>
     <e lm="FMI"><i>FMI</i><par n="BBVA__n"/></e>
+
+ <e lm="BBVA"><i>BBVA</i><par n="BBVA__n"/></e>
+    <e lm="PP"><i>PP</i><par n="BBVA__n"/></e>
+    <e lm="PSOE"><i>PSOE</i><par n="BBVA__n"/></e>
+    <e lm="PNV"><i>PNV</i><par n="BBVA__n"/></e>
+    <e lm="PSC"><i>PSC</i><par n="BBVA__n"/></e>
+    <e lm="PIL"><i>PIL</i><par n="PIL__n"/></e>
+    <e lm="UA"><i>UA</i><par n="TV__n"/></e>
+    <e lm="UE"><i>UE</i><par n="TV__n"/></e>
+    <e lm="UEFA"><i>UEFA</i><par n="TV__n"/></e>
+    <e lm="UGT"><i>UGT</i><par n="TV__n"/></e>
+    <e lm="UHF"><i>UHF</i><par n="TV__n"/></e>
+    <e lm="UPC"><i>UPC</i><par n="TV__n"/></e>
+    <e lm="UPV"><i>UPV</i><par n="TV__n"/></e>
+    <e lm="URL"><i>URL</i><par n="TV__n"/></e>
+    <e lm="www"><i>www</i><par n="TV__n"/></e>
+    <e lm="TV"><i>TV</i><par n="TV__n"/></e>
+
     <e lm="Federico"><i>Federico</i><par n="Juan__np"/></e>
     <e lm="Felipe"><i>Felipe</i><par n="Juan__np"/></e>
     <e lm="Fernando"><i>Fernando</i><par n="Juan__np"/></e>
@@ -12149,7 +12166,6 @@
     <e lm="Otero"><i>Otero</i><par n="Díez__np"/></e>
     <e lm="Ourense"><i>Ourense</i><par n="Afghanistan__np"/></e>
     <e lm="Oviedo"><i>Oviedo</i><par n="Afghanistan__np"/></e>
-    <e lm="PIL"><i>PIL</i><par n="PIL__n"/></e>
     <e lm="Pablo"><i>Pablo</i><par n="Juan__np"/></e>
     <e lm="Padova"><i>Padova</i><par n="Afghanistan__np"/></e>
     <e lm="Pakistan"><i>Pakistan</i><par n="Afghanistan__np"/></e>
@@ -12427,6 +12443,7 @@
     <e lm="abdicare"><i>abdic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="fortificazione"><i>fortificazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="ricostruzione"><i>ricostruzion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="costruzione"><i>costruzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="abdicazione"><i>abdicazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="coalizione"><i>coalizion</i><par n="abbreviazion/e__n"/></e>
     <e lm="aberrazione"><i>aberrazion</i><par n="abbreviazion/e__n"/></e>
@@ -13622,7 +13639,9 @@
     <e lm="cerebrale"><i>cerebral</i><par n="abbagliant/e__adj"/></e>
     <e lm="cerniera"><i>cernier</i><par n="cas/a__n"/></e>
     <e lm="certo"><i>cert</i><par n="cert/o__det"/></e>
+    <e lm="diverso"><i>divers</i><par n="vari/o__det"/></e>
     <e lm="certamente"><i>certamente</i><par n="ieri__adv"/></e>
+    <e lm="comunque"><i>comunque</i><par n="ieri__adv"/></e>
     <e lm="certificare"><i>certific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="certificato"><i>certificat</i><par n="abbain/o__n"/></e>
     <e lm="certificazione"><i>certificazion</i><par n="abbreviazion/e__n"/></e>
@@ -13726,6 +13745,7 @@
     <e lm="civile"><i>civil</i><par n="abbagliant/e__adj"/></e>
     <e lm="civiltà"><i>civiltà</i><par n="abilità__n"/></e>
     <e lm="ciò nonostante"><i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
+    <e lm="cioè"><i>cioè</i><par n="siccome__cnjadv"/></e>
     <e lm="clan"><i>clan</i><par n="advisor__n"/></e>
     <e lm="clandestino"><i>clandestin</i><par n="abbandonat/o__adj"/></e>
     <e lm="clarinetto"><i>clarinett</i><par n="abbain/o__n"/></e>
@@ -14711,6 +14731,8 @@
     <e lm="entrata"><i>entrat</i><par n="cas/a__n"/></e>
     <e lm="entro"><i>entro</i><par n="accanto__pr"/></e>
     <e lm="entro di"><i>entro<b/></i><par n="/di__pr"/></e>
+    <e lm="invece di"><i>invece<b/></i><par n="/di__pr"/></e>
+    <e lm="invece che"><i>invece<b/>che</i><par n="accanto__pr"/></e>
     <e lm="entusiasmare"><i>entusiasm</i><par n="abbacin/are__vblex"/></e>
     <e lm="epatite"><i>epatit</i><par n="abbreviazion/e__n"/></e>
     <e lm="epicentro"><i>epicentr</i><par n="abbain/o__n"/></e>
@@ -15030,6 +15052,7 @@
     <e lm="folclore"><i>folclor</i><par n="abat/e__n"/></e>
     <e lm="fondare"><i>fond</i><par n="abbacin/are__vblex"/></e>
     <e lm="fondo"><i>fond</i><par n="abbain/o__n"/></e>
+    <e lm="sfondo"><i>sfond</i><par n="abbain/o__n"/></e>
     <e lm="fondamentale"><i>fondamental</i><par n="abbagliant/e__adj"/></e>
     <e lm="fondamentalista"><i>fondamentalist</i><par n="eremit/a__n"/></e>
     <e lm="fondamentalmente"><i>fondamentalmente</i><par n="ieri__adv"/></e>
@@ -15217,6 +15240,7 @@
     <e lm="ghiandola"><i>ghiandol</i><par n="cas/a__n"/></e>
     <e lm="giacca"><i>giacc</i><par n="acciug/a__n"/></e>
     <e lm="giacché"><i>giacché</i><par n="siccome__cnjadv"/></e>
+    <e lm="poiché"><i>poiché</i><par n="siccome__cnjadv"/></e>
     <e lm="giacimento"><i>giaciment</i><par n="abbain/o__n"/></e>
     <e lm="giacinto"><i>giacint</i><par n="abbain/o__n"/></e>
     <e lm="giada"><i>giad</i><par n="cas/a__n"/></e>
@@ -15643,6 +15667,8 @@
     <e lm="informare"><i>inform</i><par n="abbacin/are__vblex"/></e>
     <e lm="informale"><i>informal</i><par n="abbagliant/e__adj"/></e>
     <e lm="informazione"><i>informazion</i><par n="abitant/e__n"/></e>
+    
+    <e lm="formazione"><i>formazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="infrastruttura"><i>infrastruttur</i><par n="cas/a__n"/></e>
     <e lm="infuso"><i>infus</i><par n="abbain/o__n"/></e>
     <e lm="inganno"><i>ingann</i><par n="abbain/o__n"/></e>
@@ -15773,6 +15799,7 @@
     <e lm="inutile"><i>inutil</i><par n="abbagliant/e__adj"/></e>
     <e lm="invalidare"><i>invalid</i><par n="abbacin/are__vblex"/></e>
     <e lm="invano"><i>invano</i><par n="ieri__adv"/></e>
+    <e lm="invece"><i>invece</i><par n="ieri__adv"/></e>
     <e lm="invasione"><i>invasion</i><par n="abbreviazion/e__n"/></e>
     <e lm="invecchiare"><i>invecchi</i><par n="abbacchi/are__vblex"/></e>
     <e lm="inventare"><i>invent</i><par n="abbacin/are__vblex"/></e>
@@ -16570,6 +16597,7 @@
     <e lm="notaio"><i>notai</i><par n="abbain/o__n"/></e>
     <e lm="notarile"><i>notaril</i><par n="abbagliant/e__adj"/></e>
     <e lm="notevole"><i>notevol</i><par n="abbagliant/e__adj"/></e>
+    <e lm="onorevole"><i>onorevol</i><par n="abbagliant/e__adj"/></e>
     <e lm="notevolmente"><i>notevolmente</i><par n="ieri__adv"/></e>
     <e lm="notificare"><i>notific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="notifica"><i>notific</i><par n="acciug/a__n"/></e>
@@ -16599,6 +16627,7 @@
     <e lm="nuvoloso"><i>nuvolos</i><par n="abbandonat/o__adj"/></e>
     <e lm="né"><i>né</i><par n="ancorché__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="ovvero"><i>ovvero</i><par n="ancorché__cnjcoo"/></e>
     <e lm="oasi"><i>oasi</i><par n="abilità__n"/></e>
     <e lm="obbligo"><i>obblig</i><par n="acciacc/o__n"/></e>
     <e lm="obbligatoriamente"><i>obbligatoriamente</i><par n="ieri__adv"/></e>
@@ -16684,6 +16713,8 @@
     <e lm="operaio"><i>operai</i><par n="bambin/o__n"/></e>
     <e lm="operaio"><i>operai</i><par n="abbandonat/o__adj"/></e>
     <e lm="operatore"><i>operat</i><par n="att/ore__n"/></e>
+
+    <e lm="editore"><i>edit</i><par n="agricolt/ore__n"/></e>
     <e lm="operazione"><i>operazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="opinare"><i>opin</i><par n="abbacin/are__vblex"/></e>
     <e lm="opinione"><i>opinion</i><par n="abbreviazion/e__n"/></e>
@@ -17630,9 +17661,14 @@
     <e lm="rigore"><i>rigor</i><par n="abat/e__n"/></e>
     <e lm="rigoroso"><i>rigoros</i><par n="abbandonat/o__adj"/></e>
     <e lm="rigorosamente"><i>rigorosamente</i><par n="ieri__adv"/></e>
+     <e lm="rispetto a"><i>rispetto<b/></i><par n="/a__pr"/></e>
+     <e lm="rispetto"><i>rispett</i><par n="abbain/o__n"/></e>
+     
+    <e lm="rispettosamente"><i>rispettosamente</i><par n="ieri__adv"/></e>
     <e lm="rilancio"><i>rilanci</i><par n="abbagli/o__n"/></e>
     <e lm="rilascio"><i>rilasci</i><par n="abbagli/o__n"/></e>
     <e lm="rilevare"><i>rilev</i><par n="abbacin/are__vblex"/></e>
+ <e lm="riguardare"><i>riguard</i><par n="abbacin/are__vblex"/></e>
     <e lm="rilevazione"><i>rilevazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="rilievo"><i>riliev</i><par n="abbain/o__n"/></e>
     <e lm="rima"><i>rim</i><par n="cas/a__n"/></e>
@@ -17989,6 +18025,7 @@
     <e lm="significato"><i>significat</i><par n="abbain/o__n"/></e>
     <e lm="significativo"><i>significativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="signore"><i>signor</i><par n="marches/e__n"/></e>
+    <e lm="signor"><i>signor</i><par n="ace__n"/></e>
     <e lm="silenzioso"><i>silenzios</i><par n="abbandonat/o__adj"/></e>
     <e lm="silicio"><i>silici</i><par n="abbagli/o__n"/></e>
     <e lm="simbiosi"><i>simbiosi</i><par n="abilità__n"/></e>
@@ -18198,6 +18235,8 @@
     <e lm="stabilità"><i>stabilità</i><par n="abilità__n"/></e>
     <e lm="stadio"><i>stadi</i><par n="abbagli/o__n"/></e>
     <e lm="stagione"><i>stagion</i><par n="abbreviazion/e__n"/></e>
+    
+    <e lm="stazione"><i>stazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="stagno"><i>stagn</i><par n="abbain/o__n"/></e>
     <e lm="stagnazione"><i>stagnazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="stalla"><i>stall</i><par n="cas/a__n"/></e>
@@ -18877,6 +18916,7 @@
     <e lm="versatile"><i>versatil</i><par n="abbagliant/e__adj"/></e>
     <e lm="versione"><i>version</i><par n="abbreviazion/e__n"/></e>
     <e r="LR" lm="verso"><i>verso</i><par n="accanto__pr"/></e>
+    <e lm="attraverso"><i>attraverso</i><par n="accanto__pr"/></e>
     <e lm="vertebra"><i>vertebr</i><par n="cas/a__n"/></e>
     <e lm="vertice"><i>vertic</i><par n="abat/e__n"/></e>
     <e lm="verticale"><i>vertical</i><par n="abbagliant/e__adj"/></e>

@@ -85397,7 +85397,6 @@
 <e lm="Sánchez"><i>Sánchez</i><par n="Abad__np"/></e>
 <e lm="Síria"><i>Síria</i><par n="Afganistan__np"/></e>
 <e lm="Sòria"><i>Sòria</i><par n="Afganistan__np"/></e>
-<e lm="TV"><i>TV</i><par n="ABC__np"/></e>
 <e lm="TVE"><i>TVE</i><par n="ABC__np"/></e>
 <e lm="Tabarca"><i>Tabarca</i><par n="Afganistan__np"/></e>
 <e lm="Tailàndia"><i>Tailàndia</i><par n="Afganistan__np"/></e>
@@ -92026,6 +92025,7 @@
 <e lm="BNP" a="prompsit2adn"><i>BNP</i><par n="BBVA__n"/></e>
 <e lm="UIMP" a="prompsit2adn"><i>UIMP</i><par n="BBC__n"/></e>
 <e lm="TVC" a="prompsit2adn"><i>TVC</i><par n="BBC__n"/></e>
+<e lm="TV"><i>TV</i><par n="BBC__n"/></e>
 <e lm="RBS" a="prompsit2adn"><i>RBS</i><par n="BBVA__n"/></e>
 <e lm="COI" a="prompsit2adn"><i>COI</i><par n="BBVA__n"/></e>
 <e lm="CAC" a="prompsit2adn"><i>CAC</i><par n="BBVA__n"/></e>
@@ -96072,7 +96072,6 @@
 <e lm="biomedicina" a="prompsit"><i>biomedicin</i><par n="abell/a__n"/></e>
 <e lm="telemedicina" a="prompsit"><i>telemedicin</i><par n="abell/a__n"/></e>
 <e lm="telecentre" a="prompsit"><i>telecentre</i><par n="abric__n"/></e>
-<e a="respecte"><i>respecte</i><par n="abric__n"/></e>
 <e lm="penicil·lina" a="prompsit"><i>penicil·lin</i><par n="abell/a__n"/></e>
 <e lm="penicil·lina" r="LR"><p><l>peniciŀlin</l><r>penicil·lin</r></p><par n="abell/a__n"/></e>
 <e lm="replegament" a="prompsit"><i>replegament</i><par n="abric__n"/></e>
@@ -96329,6 +96328,7 @@
 <e r="LR" lm="per causa de" a="prompsit"><i>per<b/>causa<b/></i><par n="contde__pr"/></e>
 <e lm="a instàncies de" a="prompsit"><i>a<b/>instàncies<b/></i><par n="contde__pr"/></e>
 <e lm="fora de" a=""><i>fora<b/></i><par n="contde__pr"/></e>
+<e lm="a través de"><i>a<b/>través<b/></i><par n="contde__pr"/></e>
 <e lm="al final de" a="prompsit"><i>al<b/>final<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="a proposició de" a="prompsit"><i>a<b/>proposició<b/></i><par n="contde__pr"/></e>
 <e lm="a l'engròs" a="prompsit"><i>a<b/>l'engròs</i><par n="ahir__adv"/></e>
