@@ -4,7 +4,6 @@
 /ChangeLog -text
 /INSTALL -text
 /Makefile.am -text
-/Makefile.am.old -text
 /NEWS -text
 /README -text
 /alt.xsl -text
