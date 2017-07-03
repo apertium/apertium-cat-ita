@@ -260,7 +260,8 @@
 			<list-item v="crescere"/>
 			<list-item v="frenare"/>
 			<list-item v="devenire"/>
-			<list-item v="arribare"/>
+			<list-item v="divenire"/>
+			<list-item v="arrivare"/>
 			<!--<list-item v="morire"/>-->
 			<list-item v="entrare"/>
 			<list-item v="nascere"/>
