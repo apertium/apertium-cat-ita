@@ -1,5 +1,4 @@
-Catalan and Italian
-                            apertium-ca-it
+Catalan and Italian (`apertium-cat-ita`)
 ===============================================================================
 
 This is an Apertium language pair for translating from Italian to
@@ -26,13 +25,13 @@ Compiling
 ===============================================================================
 
 Given the requirements being installed, you should be able to just run:
-
+```
 $ ./configure 
 $ make
 # make install
-
-You can use ./autogen.sh instead of ./configure you're compiling from
-SVN. If you're using a --prefix to ./configure, make sure it's the
+```
+You can use `./autogen.sh` instead of `./configure` you're compiling from
+Git. If you're using a `--prefix` to `./configure`, make sure it's the
 same one you used to install apertium itself.
 
 Testing
@@ -40,36 +39,37 @@ Testing
 
 If you are in the source directory after running make, the following
 commands should work:
-
-$  echo "Questo è una prova." | apertium -d . it-ca
+```
+$  echo "Questo è una prova." | apertium -d . ita-cat
 Aquest és una prova.
-
+```
 After installing somewhere in $PATH, you should be able to do eg.
-
-$ echo "Questo è una prova." | apertium it-ca
+```
+$ echo "Questo è una prova." | apertium ita-cat
 Aquest és una prova.
-
+```
 The following command runs tests which are on the Apertium wiki page:
-
+```
 $ ./pending-tests.sh 
+```
 
 Files and data
 ===============================================================================
 
-* apertium-ca-it.ca.dix            - Monolingual dictionary for Catalan
-* apertium-ca-it.ca-it.dix         - Bilingual dictionary 
-* apertium-ca-it.it.dix            - Monolingual dictionary for Italian
-* apertium-ca-it.it-ca.t1x         - Chunker rules for translating into Catalan
-* apertium-ca-it.it-ca.t2x         - Interchunk rules for translating into Catalan
-* apertium-ca-it.it-ca.t3x         - Postchunk rules for translating into Catalan
-* it-ca.prob                       - Tagger model for Italian
-* modes.xml                        - Translation modes
+* `apertium-cat-ita.ca.dix`            - Monolingual dictionary for Catalan
+* `apertium-cat-ita.cat-ita.dix`         - Bilingual dictionary 
+* `apertium-cat-ita.it.dix`            - Monolingual dictionary for Italian
+* `apertium-cat-ita.ita-cat.t1x`         - Chunker rules for translating into Catalan
+* `apertium-cat-ita.ita-cat.t2x`         - Interchunk rules for translating into Catalan
+* `apertium-cat-ita.ita-cat.t3x`         - Postchunk rules for translating into Catalan
+* `ita-cat.prob`                       - Tagger model for Italian
+* `modes.xml`                        - Translation modes
 
 For more information
 ===============================================================================
 
 * http://wiki.apertium.org/wiki/Installation
-* http://wiki.apertium.org/wiki/apertium-ca-it
+* http://wiki.apertium.org/wiki/apertium-cat-ita
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
 Help and support
@@ -78,7 +78,7 @@ Help and support
 If you need help using this language pair or data, you can contact:
 
 * Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: #apertium on irc.freenode.net
+* IRC: `#apertium` on `irc.freenode.net`
 
 See also the file AUTHORS included in this distribution.
 
