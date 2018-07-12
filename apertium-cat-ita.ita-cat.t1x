@@ -8,6 +8,7 @@
       <cat-item tags="adj.m.*"/>
       <cat-item tags="adj.f.*"/>
       <cat-item tags="adj.mf.*"/>
+      <cat-item tags="adj.itg.mf.*"/>
       <cat-item tags="adj.GD.*"/>
     </def-cat>
 
@@ -135,6 +136,7 @@
 
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+      <attr-item tags="adj.itg"/>
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.qnt"/>
       <attr-item tags="det.ind"/> <!-- poco / poc -->
