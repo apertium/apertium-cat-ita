@@ -61,6 +61,13 @@
       <cat-item tags="vbser.imp.*"/>
     </def-cat>
 
+    <def-cat n="pprs">
+      <cat-item tags="vblex.pprs.*"/>
+      <cat-item tags="vbmod.pprs.*"/>
+      <cat-item tags="vbhaver.pprs.*"/>
+      <cat-item tags="vbser.pprs.*"/>
+    </def-cat>
+
     <def-cat n="vfin">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vblex.pii.*"/>
@@ -157,6 +164,7 @@
       <attr-item tags="det.dem"/>
       <attr-item tags="det.pos"/>
       <attr-item tags="adj"/> <!-- poco / poc -->
+      <attr-item tags="adj.ind"/>
       <attr-item tags="predet"/>
     </def-attr>
     <def-attr n="a_adv">
@@ -2848,6 +2856,8 @@
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
@@ -4600,6 +4610,37 @@
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
 
+            </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pprs">
+      <pattern>
+	<pattern-item n="pprs"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="pprs" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+            <lu>
+              <lit v="que"/>
+              <lit-tag v="rel.an.mf.sp"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="prs"/>
+              <lit-tag v="p3"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
 	  </chunk>
 	</out>
