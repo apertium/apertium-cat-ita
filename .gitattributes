@@ -6,23 +6,17 @@
 /NEWS -text
 /README -text
 /alt.xsl -text
-/apertium-ca-it.ca-it.dix -text
-/apertium-ca-it.ca-it.t1x -text
-/apertium-ca-it.ca-it.t2x -text
-/apertium-ca-it.ca-it.t3x -text
-/apertium-ca-it.ca.acx -text
-/apertium-ca-it.ca.dix -text
-/apertium-ca-it.it-ca.t1x -text
-/apertium-ca-it.it-ca.t2x -text
-/apertium-ca-it.it-ca.t3x -text
-/apertium-ca-it.it.acx -text
-/apertium-ca-it.it.dix -text
-/apertium-ca-it.it.tsx -text
-/apertium-ca-it.post-ca.dix -text
-/apertium-ca-it.post-it.dix -text
+/apertium-cat-ita.cat-ita.dix -text
+/apertium-cat-ita.cat-ita.metalrx -text
+/apertium-cat-ita.cat-ita.t1x -text
+/apertium-cat-ita.cat-ita.t2x -text
+/apertium-cat-ita.cat-ita.t3x -text
+/apertium-cat-ita.ita-cat.metalrx -text
+/apertium-cat-ita.ita-cat.t1x -text
+/apertium-cat-ita.ita-cat.t2x -text
+/apertium-cat-ita.ita-cat.t3x -text
 /autogen.sh -text
 /ca-it-unsupervised.make -text
-/ca-it.prob -text svneol=unset#unset
 /configure.ac -text
 dev/cross-model-ca-es-it.xml -text
 dev/cross.xml -text
@@ -30,18 +24,17 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/not-common-apertium-es-it.es-it.dix -text
 dev/patterns-not-detected.xml -text
-dev/testvoc-summary.ca-it.txt -text
-dev/testvoc-summary.it-ca.txt -text
+dev/testvoc-summary.cat-ita.txt -text
+dev/testvoc-summary.ita-cat.txt -text
 dev/testvoc.sh -text
 /filter.xsl -text
-/it-ca.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 /translate-to-default-equivalent.xsl -text
 /wiki-tests.sh -text
 *.dix linguist-language=XML linguist-detectable=true
-*.lrx linguist-language=XML linguist-detectable=true
+*.metalrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true

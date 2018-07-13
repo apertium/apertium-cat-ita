@@ -1,8 +1,6 @@
-Catalan and Italian
-                            apertium-ca-it
-===============================================================================
+# Catalan and Italian: apertium-cat-ita
 
-This is an Apertium language pair for translating from Italian to
+This is an Apertium language pair for translating between Italian to
 Catalan. What you can use this language package for:
 
 * Translating between Catalan and Italian
@@ -12,68 +10,67 @@ Catalan. What you can use this language package for:
 For information on the latter two points, see subheading "For more 
 information" below
 
-Requirements
-===============================================================================
+## Requirements
 
 You will need the following software installed:
 
-* lttoolbox (>= 3.2.0)
-* apertium (>= 3.2.0)
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* apertium-cat
+* apertium-ita
 
 If this does not make any sense, we recommend you look at: www.apertium.org
 
-Compiling
-===============================================================================
+## Compiling
 
 Given the requirements being installed, you should be able to just run:
 
-$ ./configure 
-$ make
-# make install
+    $ ./configure 
+    $ make
+    # make install
 
-You can use ./autogen.sh instead of ./configure you're compiling from
-SVN. If you're using a --prefix to ./configure, make sure it's the
-same one you used to install apertium itself.
+You can use `./autogen.sh` instead of `./configure` you're compiling from
+SVN. If you installed any prerequisite language packages using a `--prefix`
+to `./configure`, make sure to give the same `--prefix` to `./configure` here.
 
-Testing
-===============================================================================
+## Testing
 
 If you are in the source directory after running make, the following
 commands should work:
 
-$  echo "Questo è una prova." | apertium -d . it-ca
-Aquest és una prova.
+    $  echo "Questo è una prova." | apertium -d . ita-cat
+    Aquest és una prova.
 
 After installing somewhere in $PATH, you should be able to do eg.
 
-$ echo "Questo è una prova." | apertium it-ca
-Aquest és una prova.
+    $ echo "Questo è una prova." | apertium ita-cat
+    Aquest és una prova.
 
 The following command runs tests which are on the Apertium wiki page:
 
-$ ./pending-tests.sh 
+    $ ./pending-tests.sh 
 
-Files and data
-===============================================================================
+## Files and data
 
-* apertium-ca-it.ca.dix            - Monolingual dictionary for Catalan
-* apertium-ca-it.ca-it.dix         - Bilingual dictionary 
-* apertium-ca-it.it.dix            - Monolingual dictionary for Italian
-* apertium-ca-it.it-ca.t1x         - Chunker rules for translating into Catalan
-* apertium-ca-it.it-ca.t2x         - Interchunk rules for translating into Catalan
-* apertium-ca-it.it-ca.t3x         - Postchunk rules for translating into Catalan
-* it-ca.prob                       - Tagger model for Italian
-* modes.xml                        - Translation modes
+* apertium-cat-ita.cat-ita.dix  - Bilingual dictionary
+* apertium-cat-ita.cat-ita.t1x  - Chunking rules for translating into Italian
+* apertium-cat-ita.ita-cat.t1x  - Chunking rules for translating into Catalan
+* apertium-cat-ita.cat-ita.t2x  - Interchunk rules for translating into Italian
+* apertium-cat-ita.ita-cat.t2x  - Interchunk rules for translating into Catalan
+* apertium-cat-ita.cat-ita.t3x  - Postchunk rules for translating into Italian
+* apertium-cat-ita.ita-cat.t3x  - Postchunk rules for translating into Catalan
+* apertium-cat-ita.cat-ita.metalrx  - Lexical selection rules for translating into Italian
+* apertium-cat-ita.ita-cat.metalrx  - Lexical selection rules for translating into Catalan
+* modes.xml                     - Translation modes
 
-For more information
-===============================================================================
+## For more information
 
 * http://wiki.apertium.org/wiki/Installation
 * http://wiki.apertium.org/wiki/apertium-ca-it
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
-Help and support
-===============================================================================
+## Help and support
 
 If you need help using this language pair or data, you can contact:
 
@@ -82,8 +79,7 @@ If you need help using this language pair or data, you can contact:
 
 See also the file AUTHORS included in this distribution.
 
-Publications 
-===============================================================================
+## Publications 
 
 Antonio Toral, Mireia Ginestí-Rosell, Francis Tyers (2011) "An Italian to 
   Catalan RBMT system reusing data from existing language pairs". Second 
