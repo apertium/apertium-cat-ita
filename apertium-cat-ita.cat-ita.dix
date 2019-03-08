@@ -7111,6 +7111,8 @@
 <!--<e><p><l>regla<s n="n"/><s n="f"/></l><r>principio<s n="n"/><s n="m"/></r></p></e>-->
 <e>       <p><l>regulació<s n="n"/><s n="f"/></l>      <r>regolamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rei<s n="n"/></l>                      <r>re<s n="n"/></r></p></e>
+<e>       <p><l>regent<s n="n"/></l>                   <r>reggente<s n="n"/></r></p></e>
+<e>       <p><l>regent<s n="adj"/></l>                 <r>reggente<s n="adj"/></r></p></e>
 <e>       <p><l>reinserció<s n="n"/><s n="f"/></l>     <r>reinserimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>reivindicació<s n="n"/></l>            <r>rivendicazione<s n="n"/></r></p></e>
 <e r="RL"><p><l>relació<s n="n"/></l>                  <r>relazione<s n="n"/></r></p></e>
