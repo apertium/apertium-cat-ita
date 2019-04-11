@@ -3935,6 +3935,8 @@
 <e>       <p><l>costella<s n="n"/></l>                 <r>costola<s n="n"/></r></p></e>
 <e>       <p><l>costera<s n="n"/></l>                  <r>costa<s n="n"/></r></p></e>
 <e>       <p><l>costum<s n="n"/><s n="m"/></l>         <r>abitudine<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>costum<s n="n"/><s n="m"/></l>         <r>costume<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>costum<s n="n"/><s n="m"/></l>         <r>consuetudine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cotxe<s n="n"/><s n="m"/></l>          <r>macchina<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>cotxera<s n="n"/><s n="m"/><s n="sg"/></l><r>garage<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>cotxera<s n="n"/><s n="m"/><s n="pl"/></l><r>garage<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -4739,7 +4741,7 @@
 <e>       <p><l>expropiació<s n="n"/></l>              <r>espropriazione<s n="n"/></r></p></e>
 <e>       <p><l>expulsió<s n="n"/></l>                 <r>espulsione<s n="n"/></r></p></e>
 <e>       <p><l>extensió<s n="n"/></l>                 <r>estensione<s n="n"/></r></p></e>
-<e>       <p><l>extens<s n="adj"/></l>                 <r>estenso<s n="adj"/></r></p></e>
+<e>       <p><l>extens<s n="adj"/></l>                 <r>esteso<s n="adj"/></r></p></e>
 <e>       <p><l>extinció<s n="n"/></l>                 <r>estinzione<s n="n"/></r></p></e>
 <e>       <p><l>extintor<s n="n"/></l>                 <r>estintore<s n="n"/></r></p></e>
 <e r="LR"><p><l>extra<s n="n"/><s n="mf"/><s n="sg"/></l><r>extra<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -6799,6 +6801,9 @@
 <e r="LR"><p><l>pop<s n="n"/><s n="m"/><s n="pl"/></l> <r>pop<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>pop<s n="n"/><s n="m"/><s n="ND"/></l> <r>pop<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>popa<s n="n"/></l>                     <r>poppa<s n="n"/></r></p></e>
+<e>       <p><l>pontífex<s n="n"/></l>                 <r>pontefice<s n="n"/></r></p></e>
+<e>       <p><l>pontifici<s n="adj"/></l>              <r>pontificio<s n="adj"/></r></p></e>
+<e>       <p><l>pontifical<s n="adj"/></l>             <r>pontificale<s n="adj"/></r></p></e>
 <e r="LR"><p><l>popularitat<s n="n"/><s n="f"/><s n="sg"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>popularitat<s n="n"/><s n="f"/><s n="pl"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>popularitat<s n="n"/><s n="f"/><s n="ND"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -9914,6 +9919,8 @@
 <e>       <p><l>testar<s n="vblex"/></l>               <r>testare<s n="vblex"/></r></p></e>
 <e>       <p><l>testificar<s n="vblex"/></l>           <r>testimoniare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>testimoniar<s n="vblex"/></l>          <r>testimoniare<s n="vblex"/></r></p></e>
+<e>       <p><l>testimoni<s n="n"/><s n="mf"/></l>     <r>testimone<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>testimoniatge<s n="n"/><s n="m"/></l>  <r>testimonianza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tirar<s n="vblex"/></l>                <r>gettare<s n="vblex"/></r></p></e>
 <e>       <p><l>tirar<s n="vblex"/></l>                <r>tirare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>tocar<s n="vblex"/></l>                <r>suonare<s n="vblex"/></r></p></e>
