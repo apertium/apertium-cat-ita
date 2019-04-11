@@ -1,15 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rules>
-  <!-- 
-    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
-    Add your own rules within <rule> here, using the resources below as a guide 
-  -->
 
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
+<!-- ADJ -->
+  <rule weight="0.8">
+    <match lemma="rosso" tags="adj.*"><select lemma="vermell" tags="adj.*"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="vino" tags="n.*"/>
+    <match lemma="rosso" tags="adj.*"><select lemma="negre" tags="adj.*"/></match>
+  </rule>
+
+<!-- N -->
+  <!-- corso > carrer, cors -->
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.sg"><select lemma="curs" tags="n.m.sg"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.pl"><select lemma="cors" tags="n.m.pl"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="corso" tags="n.m.sg"><select lemma="passeig" tags="n.m.sg"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="cors" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.sg"><select lemma="curs" tags="n.m.sg"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+
+<!-- V -->
+  <!-- disciplinare > disciplinar, reglamentar -->
+  <rule weight="0.8">
+    <match lemma="disciplinare" tags="vblex.*"><select lemma="disciplinar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
+    <match lemma="da" tags="pr"/>
+  </rule>
+  
+<!-- PR -->
+  <!-- da > de, per -->
+  <rule weight="0.8">
+     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+
+
 </rules>
 
 <!-- 
@@ -19,4 +62,3 @@ Resources:
     http://wiki.apertium.org/wiki/Lexical_selection
     http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
 -->
-
