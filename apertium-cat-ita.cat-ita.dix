@@ -9534,8 +9534,6 @@
 <e>       <p><l>espiar<s n="vblex"/></l>               <r>spiare<s n="vblex"/></r></p></e>
 <e>       <p><l>establir<s n="vblex"/></l>             <r>stabilire<s n="vblex"/></r></p></e>
 <e>       <p><l>estancar<s n="vblex"/></l>             <r>ristagnare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>estar<s n="vblex"/></l>                <r>stare<s n="vblex"/></r></p></e>
-<e>       <p><l>estar<s n="vblex"/></l>                <r>essere<s n="vblex"/></r></p></e>
 <e>       <p><l>estendre<s n="vblex"/></l>             <r>estendere<s n="vblex"/></r></p></e>
 <e>       <p><l>esterilitzar<s n="vblex"/></l>         <r>sterilizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>estigmatitzar<s n="vblex"/></l>        <r>stigmatizzare<s n="vblex"/></r></p></e>
@@ -10086,7 +10084,8 @@
 <e>       <p><l>poder<s n="vbmod"/></l>                <r>potere<s n="vbmod"/></r></p></e>
 <e>       <p><l>voler<s n="vbmod"/></l>                <r>volere<s n="vbmod"/></r></p></e>
 
-<e>       <p><l>estar<s n="vblex"/></l>                <r>stare<s n="vbser"/></r></p></e>
+<e>       <p><l>estar<s n="vblex"/></l>                <r>stare<s n="vblex"/></r></p></e>
+<e>       <p><l>estar<s n="vblex"/></l>                <r>essere<s n="vblex"/></r></p></e>
 <e>       <p><l>haver<s n="vbhaver"/></l>              <r>avere<s n="vbhaver"/></r></p></e>
 <e>       <p><l>ser<s n="vbser"/></l>                  <r>essere<s n="vbser"/></r></p></e>
 
