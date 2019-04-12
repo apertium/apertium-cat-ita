@@ -2488,7 +2488,7 @@
 <e>       <p><l>poc<s n="adj"/></l>                    <r>poco<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualsiasi<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualunque<s n="det"/><s n="ind"/></r></p></e>
-<e>       <p><l>tal<s n="adj"/></l>                    <r>tale<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>tal<s n="adj"/></l>                    <r>tale<s n="adj"/></r></p></e>
 <e>       <p><l>tot<s n="predet"/></l>                 <r>tutto<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
