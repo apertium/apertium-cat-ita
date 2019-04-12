@@ -1311,13 +1311,13 @@
 
 <!-- **************** V VBLEX **************** -->
 
-<!-- estar > èssere, istare -->
+<!-- estar > essere, stare -->
 
   <rule weight="0.6">
-     <match lemma="estar" tags="vblex.*"><select lemma="èssere"/></match>
+     <match lemma="estar" tags="vblex.*"><select lemma="essere"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="estar" tags="vblex.*"><select lemma="istare"/></match>
+     <match lemma="estar" tags="vblex.*"><select lemma="stare"/></match>
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
