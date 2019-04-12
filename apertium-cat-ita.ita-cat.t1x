@@ -31,7 +31,6 @@
       <cat-item tags="prn.enc.*"/>
     </def-cat>
 
-
    <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
     </def-cat>
@@ -105,6 +104,7 @@
     <def-cat n="top_ant">
       <cat-item tags="np.top.*"/>
       <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.cog.*"/>
       <cat-item tags="np.al.*"/>
     </def-cat>
 
@@ -2866,8 +2866,6 @@
     </rule>
 
 
-
-
     <rule comment="REGLA: NOM">
       <pattern>
 	<pattern-item n="nom"/>
@@ -3503,7 +3501,7 @@
     </rule>
     
 
-    <rule comment="REGLA: DET ADJ cnj	 ADJ NOM">
+    <rule comment="REGLA: DET ADJ cnj ADJ NOM">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adjec"/>
@@ -4122,7 +4120,7 @@
     </rule>
 
     
-    <rule comment="REGLA: det (quan no acompanya res o va amb desconeguda)">
+    <rule comment="REGLA: DET (quan no acompanya res o va amb desconeguda)">
       <pattern>
 	<pattern-item n="det"/>
       </pattern>
