@@ -2444,13 +2444,7 @@
 <e>       <p><l>ambdós<s n="adj"/><s n="ind"/></l>     <r>entrambi<b/>i<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>aqueix<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>aquell<s n="det"/><s n="dem"/></l>     <r>quello<s n="det"/><s n="dem"/></r></p></e>
-<e r="LR"><p><l>aquell<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>aquell<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></l><r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>aquell<s n="det"/><s n="dem"/><s n="GD"/><s n="sg"/></l><r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>aquest<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p></e>
-<e r="RL"><p><l>aquest<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>aquest<s n="det"/><s n="dem"/><s n="m"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>aquest<s n="det"/><s n="dem"/><s n="f"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l>       <r>ciascuno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l>       <r>ciascuno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l>       <r>ciascuno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></r></p></e>
