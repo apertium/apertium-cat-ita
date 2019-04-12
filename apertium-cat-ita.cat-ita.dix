@@ -87,11 +87,86 @@
     <sdef n="loc" />
     <sdef n="hyd" />
   </sdefs>
+
   <pardefs>
 <pardef n="mil">
   <e>       <i><s n="num"/></i></e>
      <!--<e><p><l><b/>mil<s n="num"/></l><r>mila<s n="num"/></r></p></e> -->
 </pardef>
+
+<pardef n="sp_ND">
+  <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="pl_ND">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="mf_GD">
+  <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p></e>
+</pardef>
+
+<pardef n="ND_sp">
+  <e r="LR"><p><l><s n="sg"/></l><r><s n="sp"/></r></p></e>
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sp"/></r></p></e>
+  <e r="RL"><p><l><s n="ND"/></l><r><s n="sp"/></r></p></e>
+</pardef>
+
+<pardef n="GD_mf">
+  <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+  <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
+  <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+</pardef>
+
+<pardef n="GD_m">
+  <e r="LR"><p><l><s n="f"/></l><r><s n="m"/></r></p></e>
+  <e r="LR"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+  <e r="RL"><p><l><s n="GD"/></l><r><s n="m"/></r></p></e>
+</pardef>
+
+<pardef n="GD_mf-ND_sp">
+  <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+  <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+  <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+</pardef>
+
+<pardef n="mf_GD-sp_ND">
+  <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p><par n="sp_ND"/></e>
+  <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p><par n="sp_ND"/></e>
+  <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p><par n="sp_ND"/></e>
+</pardef>
+
+<pardef n="mf_GD_sp_ND">
+  <e r="LR"><p><l><s n="mf"/><s n="sp"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="mf-sp_ND">
+  <e r="LR"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="m-m_f-f" c="para competir con otras posibilidades de traducción en que se especifíca el género (porque es distinto)">
+  <e>       <p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+  <e>       <p><l><s n="f"/></l><r><s n="f"/></r></p></e>
+</pardef>
+
+<pardef n="ND_pl">
+  <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><s n="ND"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="adj_sup">
   <!-- Hi ha adjectius que en italià tenen superlatiu però en català no. Aquest paradigma evita errors de generació en català, però cal abordar-ho al trànsfer -->
   <e>       <p><l><s n="adj"/><s n="m"/></l><r><s n="adj"/><s n="m"/></r></p></e>
@@ -99,6 +174,7 @@
   <e r="RL"><p><l><s n="adj"/><s n="m"/></l><r><s n="adj"/><s n="sup"/><s n="m"/></r></p></e>
   <e r="RL"><p><l><s n="adj"/><s n="f"/></l><r><s n="adj"/><s n="sup"/><s n="f"/></r></p></e>
 </pardef>
+
 <pardef n="adj_sup2">
   <!-- Hi ha adjectius que en italià tenen superlatiu però en català no. Aquest paradigma evita errors de generació en català, però cal abordar-ho al trànsfer -->
   <e>       <p><l><s n="adj"/><s n="mf"/></l><r><s n="adj"/><s n="mf"/></r></p></e>
