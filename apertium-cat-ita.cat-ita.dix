@@ -2469,6 +2469,7 @@
 <e r="LR"><p><l>eixe<s n="det"/><s n="dem"/></l>       <r>questo<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>el<s n="detnt"/></l>                   <r>lo<s n="detnt"/></r></p></e>
 <e>       <p><l>el<s n="det"/><s n="def"/></l>         <r>il<s n="det"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>el<s n="det"/><s n="def"/><s n="mf"/></l><r>il<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>il<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
 <e>       <p><l>el<b/>meu<s n="det"/><s n="pos"/></l>  <r>mio<s n="det"/><s n="pos"/></r></p></e>
 <e>       <p><l>el<b/>meu<s n="det"/><s n="pos"/></l>  <r>il<b/>mio<s n="det"/><s n="pos"/></r></p></e>
