@@ -121,7 +121,6 @@
       <cat-item tags="num"/>
     </def-cat>
 
-
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
@@ -4555,7 +4554,6 @@
               <clip pos="1" side="tl" part="persona"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
-
             </lu>
 	  </chunk>
 	</out>
@@ -4572,7 +4570,7 @@
 	  <with-param pos="1"/>
 	</call-macro>
         <choose>
-          <when> <!-- devi prendere questo → has de prendre aquesto -->
+          <when> <!-- devi prendere questo → has de prendre això -->
             <test>
               <or>
                 <equal caseless="yes">
@@ -4607,7 +4605,6 @@
               <clip pos="1" side="tl" part="persona"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
-
             </lu>
 	  </chunk>
 	</out>
