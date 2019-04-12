@@ -1302,26 +1302,12 @@
 
 <!-- **************** PRN **************** -->
 
-<!-- hi > nche, bi (hi ha > b'at) -->
-
   <rule weight="0.6">
-     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
+     <match lemma="li" tags="prn.pro.p3.mf.sg"><select lemma="gli" tags="prn.pro.p3.m.sg"/></match>
   </rule>
-  <rule weight="1.0">
-     <match lemma="hi" tags="prn.pro.adv"><select lemma="bi" tags="prn.*"/></match>
-     <match tags="vbhaver.*"/>
+  <rule weight="0.6">
+     <match lemma="li" tags="prn.enc.p3.mf.sg"><select lemma="gli" tags="prn.enc.p3.m.sg"/></match>
   </rule>
-  <rule weight="1.0">
-     <match lemma="hi" tags="prn.pro.adv"><select lemma="bi" tags="prn.*"/></match>
-     <match lemma="anar" tags="vblex.pri.p3.*"/>
-     <match tags="vbhaver.inf"/>
-  </rule>
-  <rule weight="1.2">
-     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
-     <match tags="vbhaver.*"/>
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/><match tags="vbser.pp.*"/></or>
-  </rule>
-
 
 <!-- **************** V VBLEX **************** -->
 
