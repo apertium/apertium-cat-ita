@@ -5,7 +5,7 @@
       <program name="lt-proc -w">
         <file name="cat-ita.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disamb">
         <file name="cat-ita.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -56,7 +56,7 @@
       <program name="lt-proc -w">
         <file name="ita-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disamb">
         <file name="ita-cat.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
