@@ -103,9 +103,13 @@
 
     <def-cat n="top_ant">
       <cat-item tags="np.top.*"/>
+      <cat-item tags="np.hyd.*"/>
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.cog.*"/>
       <cat-item tags="np.al.*"/>
+      <cat-item tags="np.ant"/>
+      <cat-item tags="np.al"/>
+      <cat-item tags="np.loc"/>
     </def-cat>
 
     <def-cat n="det">          
@@ -152,6 +156,7 @@
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.hyd"/>
       <attr-item tags="np.al"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
