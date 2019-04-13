@@ -8,11 +8,18 @@
   </section-def-cats>
 
   <section-def-attrs>
+   <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+   </def-attr>
    <def-attr n="nbr">
-          <attr-item tags="sg"/>
-	  <attr-item tags="pl"/>
-	  <attr-item tags="sp"/>
-	  <attr-item tags="ND"/>
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
     <attr-item tags="NN"/>
    </def-attr>
   </section-def-attrs>
@@ -21,23 +28,57 @@
     <def-var n="uno"/>
   </section-def-vars>
 
+  <section-def-macros>
+    <def-macro n="assigna_gen_nbr" npar="1">
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+    </def-macro>
+  </section-def-macros>
+
 <section-rules>
+
 <rule comment="REGLA: SN">
-	<pattern>
-		<pattern-item n="SN"/>
-	</pattern>
-	<action>
-<!--	<call-macro n="assigna_gen_nbr">
-		<with-param pos="1"/>
-	</call-macro>-->
-			<out>
-				<chunk>
-					<clip pos="1" part="lem"/>
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-				</chunk>
-			</out>
-</action>
+    <pattern>
+        <pattern-item n="SN"/>
+    </pattern>
+    <action>
+      <call-macro n="assigna_gen_nbr">
+        <with-param pos="1"/>
+      </call-macro>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+      </out>
+    </action>
 </rule>
 </section-rules>
 </interchunk>
