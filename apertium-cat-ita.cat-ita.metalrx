@@ -2292,6 +2292,24 @@
 
 <!-- **************** N **************** -->
 
+<!-- golf > golfo, golf -->
+
+  <rule weight="0.6">
+     <match lemma="golf" tags="n.*"><select lemma="golfo"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="jugar" tags="vblex"/>
+     <match lemma="a" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
+  </rule>
+
 <!-- tassa > tassa, tassu -->
 
   <rule weight="0.6">

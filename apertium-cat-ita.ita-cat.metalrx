@@ -309,6 +309,11 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- essere > ser, estar -->
+  <rule weight="0.8">
+    <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
+  </rule>
+
 <!-- PR -->
   <!-- da > de, per -->
   <rule weight="0.8">
