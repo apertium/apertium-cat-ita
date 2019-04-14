@@ -443,6 +443,9 @@
 <e r="LR"><p><l>canadenc<s n="adj"/><s n="m"/></l>     <r>canadese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>canadenc<s n="adj"/><s n="f"/></l>     <r>canadese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>canadenc<s n="adj"/><s n="GD"/></l>    <r>canadese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>canadenc<s n="n"/><s n="m"/></l>     <r>canadese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>canadenc<s n="n"/><s n="f"/></l>     <r>canadese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>canadenc<s n="n"/><s n="GD"/></l>    <r>canadese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>canari<s n="adj"/></l>                 <r>canario<s n="adj"/></r></p></e>
 <e>       <p><l>cantant<s n="adj"/></l>                <r>cantante<s n="adj"/></r></p></e>
 <e r="RL"><p><l>capaç<s n="adj"/><s n="GD"/><s n="pl"/></l><r>capace<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -526,6 +529,9 @@
 <e r="LR"><p><l>congolès<s n="adj"/><s n="m"/></l>     <r>congolese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>congolès<s n="adj"/><s n="f"/></l>     <r>congolese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>congolès<s n="adj"/><s n="GD"/></l>    <r>congolese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>congolès<s n="n"/><s n="m"/></l>     <r>congolese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>congolès<s n="n"/><s n="f"/></l>     <r>congolese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>congolès<s n="n"/><s n="GD"/></l>    <r>congolese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>congènit</l>                           <r>congenito</r></p><par n="adj_sup"/></e>
 <e>       <p><l>conjugal</l>                           <r>coniugale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>conjunt</l>                            <r>congiunto</r></p><par n="adj_sup"/></e>
@@ -604,6 +610,9 @@
 <e r="LR"><p><l>danès<s n="adj"/><s n="m"/></l>        <r>danese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>danès<s n="adj"/><s n="f"/></l>        <r>danese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>danès<s n="adj"/><s n="GD"/></l>       <r>danese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>danès<s n="n"/><s n="m"/></l>        <r>danese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>danès<s n="n"/><s n="f"/></l>        <r>danese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>danès<s n="n"/><s n="GD"/></l>       <r>danese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>darrer<s n="adj"/></l>                 <r>ultimo<s n="adj"/></r></p></e>
 <e>       <p><l>decimal</l>                            <r>decimale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>decisiu</l>                            <r>decisivo</r></p><par n="adj_sup"/></e>
@@ -724,6 +733,9 @@
 <e r="LR"><p><l>escocès<s n="adj"/><s n="m"/></l>      <r>scozzese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>escocès<s n="adj"/><s n="f"/></l>      <r>scozzese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>escocès<s n="adj"/><s n="GD"/></l>     <r>scozzese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>escocès<s n="n"/><s n="m"/></l>      <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>escocès<s n="n"/><s n="f"/></l>      <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>escocès<s n="n"/><s n="GD"/></l>     <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>escolar<s n="adj"/></l>                <r>allievo<s n="adj"/></r></p></e>
 <e r="LR"><p><l>escolar<s n="adj"/><s n="mf"/></l>     <r>scolastico<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>escolar<s n="adj"/><s n="mf"/></l>     <r>scolastico<s n="adj"/><s n="m"/></r></p></e>
@@ -935,6 +947,9 @@
 <e r="LR"><p><l>hongarès<s n="adj"/><s n="m"/></l>     <r>ungherese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>hongarès<s n="adj"/><s n="f"/></l>     <r>ungherese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>hongarès<s n="adj"/><s n="GD"/></l>    <r>ungherese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>hongarès<s n="n"/><s n="m"/></l>     <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>hongarès<s n="n"/><s n="f"/></l>     <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>hongarès<s n="n"/><s n="GD"/></l>    <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>honorable</l>                          <r>onorabile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>honorable<s n="adj"/></l>              <r>onorevole<s n="adj"/></r></p></e>
 <e>       <p><l>honorífic</l>                          <r>onorifico</r></p><par n="adj_sup"/></e>
@@ -1161,6 +1176,9 @@
 <e r="LR"><p><l>londinenc<s n="adj"/><s n="m"/></l>    <r>londinese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>londinenc<s n="adj"/><s n="f"/></l>    <r>londinese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>londinenc<s n="adj"/><s n="GD"/></l>   <r>londinese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>londinenc<s n="n"/><s n="m"/></l>    <r>londinese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>londinenc<s n="n"/><s n="f"/></l>    <r>londinese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>londinenc<s n="n"/><s n="GD"/></l>   <r>londinese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>lunar</l>                              <r>lunare</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>làctic<s n="adj"/></l>                 <r>latteo<s n="adj"/></r></p></e>
 <e>       <p><l>lícit</l>                              <r>lecito</r></p><par n="adj_sup"/></e>
@@ -1415,6 +1433,9 @@
 <e r="LR"><p><l>portuguès<s n="adj"/><s n="m"/></l>    <r>portoghese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>portuguès<s n="adj"/><s n="f"/></l>    <r>portoghese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>portuguès<s n="adj"/><s n="GD"/></l>   <r>portoghese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>portuguès<s n="n"/><s n="m"/></l>    <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>portuguès<s n="n"/><s n="f"/></l>    <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>portuguès<s n="n"/><s n="GD"/></l>   <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>portàtil</l>                           <r>portatile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>positiu</l>                            <r>positivo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>possible</l>                           <r>possibile</r></p><par n="adj_sup2"/></e>
@@ -1750,6 +1771,9 @@
 <e r="LR"><p><l>xinès<s n="adj"/><s n="m"/></l>        <r>cinese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>xinès<s n="adj"/><s n="f"/></l>        <r>cinese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>xinès<s n="adj"/><s n="GD"/></l>       <r>cinese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>xinès<s n="n"/><s n="m"/></l>        <r>cinese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>xinès<s n="n"/><s n="f"/></l>        <r>cinese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>xinès<s n="n"/><s n="GD"/></l>       <r>cinese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>àcid</l>                               <r>acido</r></p><par n="adj_sup"/></e>
 <e>       <p><l>àgil</l>                               <r>agile</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>àrab<s n="adj"/><s n="mf"/></l>        <r>arabo<s n="adj"/><s n="GD"/></r></p></e>
@@ -2754,7 +2778,9 @@
 <e>       <p><l>alacantí<s n="n"/></l>                 <r>alicantino<s n="n"/></r></p></e>
 <e>       <p><l>alambí<s n="n"/></l>                   <r>alambicco<s n="n"/></r></p></e>
 <e>       <p><l>alarma<s n="n"/><s n="f"/></l>         <r>allarme<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>albanès<s n="n"/><s n="m"/></l>        <r>albanese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>albanès<s n="n"/><s n="m"/></l>        <r>albanese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>albanès<s n="n"/><s n="f"/></l>        <r>albanese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>albanès<s n="n"/><s n="GD"/></l>       <r>albanese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>albercoc<s n="n"/><s n="m"/></l>       <r>albicocca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>albergínia<s n="n"/></l>               <r>melanzana<s n="n"/></r></p></e>
 <e r="LR"><p><l>alcalde<s n="n"/><s n="m"/></l>        <r>sindaco<s n="n"/><s n="m"/></r></p></e>
@@ -2968,7 +2994,9 @@
 <e>       <p><l>aquari<s n="n"/></l>                   <r>acquario<s n="n"/></r></p></e>
 <e>       <p><l>aquàrium<s n="n"/></l>                 <r>acquario<s n="n"/></r></p></e>
 <e>       <p><l>aqüeducte<s n="n"/></l>                <r>acquedotto<s n="n"/></r></p></e>
-<e>       <p><l>aragonès<s n="n"/><s n="m"/></l>       <r>aragonese<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>aragonès<s n="n"/><s n="m"/></l>     <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>aragonès<s n="n"/><s n="f"/></l>     <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>aragonès<s n="n"/><s n="GD"/></l>    <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>aranya<s n="n"/><s n="f"/></l>         <r>ragno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>arbitratge<s n="n"/></l>               <r>arbitrato<s n="n"/></r></p></e>
 <e>       <p><l>arbre<s n="n"/></l>                    <r>albero<s n="n"/></r></p></e>
@@ -5671,14 +5699,10 @@
 <e>       <p><l>iot<s n="n"/></l>                      <r>panfilo<s n="n"/></r></p></e>
 <e>       <p><l>iot<s n="n"/><s n="m"/></l>            <r>imbarcazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ira<s n="n"/></l>                      <r>ira<s n="n"/></r></p></e>
-<e>       <p><l>iranià<s n="n"/><s n="GD"/></l>        <r>iraniano<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>iranià<s n="n"/><s n="GD"/></l>        <r>iraniano<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>iranià<s n="n"/><s n="f"/></l>         <r>iraniano<s n="n"/><s n="GD"/></r></p></e>
-<e>       <p><l>iranià<s n="n"/><s n="m"/></l>         <r>iraniano<s n="n"/><s n="GD"/></r></p></e>
-<e>       <p><l>iraquià<s n="n"/><s n="GD"/></l>       <r>iracheno<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>iraquià<s n="n"/><s n="GD"/></l>       <r>iracheno<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>iraquià<s n="n"/><s n="f"/></l>        <r>iracheno<s n="n"/><s n="GD"/></r></p></e>
-<e>       <p><l>iraquià<s n="n"/><s n="m"/></l>        <r>iracheno<s n="n"/><s n="GD"/></r></p></e>
+<e>       <p><l>iranià<s n="n"/></l>                   <r>iraniano<s n="n"/></r></p></e>
+<e>       <p><l>iranià<s n="adj"/></l>                 <r>iraniano<s n="adj"/></r></p></e>
+<e>       <p><l>iraquià<s n="n"/></l>                  <r>iracheno<s n="n"/></r></p></e>
+<e>       <p><l>iraquià<s n="adj"/></l>                <r>iracheno<s n="adj"/></r></p></e>
 <e r="LR"><p><l>irlandès<s n="n"/><s n="m"/></l>       <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>irlandès<s n="n"/><s n="f"/></l>       <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>irlandès<s n="n"/><s n="GD"/></l>      <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
@@ -7606,7 +7630,9 @@
 <e>       <p><l>sucrera<s n="n"/><s n="f"/></l>        <r>zuccheriere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sucrera<s n="n"/><s n="f"/></l>        <r>zuccheriere<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sud<s n="n"/><s n="m"/><s n="sg"/></l> <r>sud<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e>       <p><l>suec<s n="n"/><s n="m"/></l>           <r>svedese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>suec<s n="n"/><s n="m"/></l>         <r>svedese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>suec<s n="n"/><s n="f"/></l>         <r>svedese<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>suec<s n="n"/><s n="GD"/></l>        <r>svedese<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>sufix<s n="n"/></l>                    <r>suffisso<s n="n"/></r></p></e>
 <e>       <p><l>sufragi<s n="n"/></l>                  <r>suffragio<s n="n"/></r></p></e>
 <e>       <p><l>suggeriment<s n="n"/><s n="m"/></l>    <r>suggerimento<s n="n"/><s n="m"/></r></p></e>
