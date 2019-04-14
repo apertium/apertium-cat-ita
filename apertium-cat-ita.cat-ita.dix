@@ -436,9 +436,6 @@
 <e>       <p><l>cadastral</l>                          <r>catastale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>calb</l>                               <r>calvo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>calculador<s n="adj"/></l>             <r>calcolatore<s n="adj"/></r></p></e>
-<!-- <e r="LR"><p><l>calent<s n="adj"/><s n="mf"/></l><r>caldo<s n="adj"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>calent<s n="adj"/><s n="mf"/></l><r>caldo<s n="adj"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>calent<s n="adj"/><s n="mf"/></l><r>caldo<s n="adj"/><s n="f"/></r></p></e>-->
 <e>       <p><l>calent<s n="adj"/></l>                 <r>caldo<s n="adj"/></r></p></e>
 <e r="LR"><p><l>canadenc<s n="adj"/><s n="m"/></l>     <r>canadese<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>canadenc<s n="adj"/><s n="f"/></l>     <r>canadese<s n="adj"/><s n="mf"/></r></p></e>
@@ -837,7 +834,8 @@
 <e>       <p><l>fenomenal</l>                          <r>fenomenale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>ferri</l>                              <r>ferreo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>feudal</l>                             <r>feudale</r></p><par n="adj_sup2"/></e>
-<e>       <p><l>fi<s n="adj"/></l>                     <r>fino<s n="adj"/></r></p></e>
+<e>       <p><l>fi<s n="adj"/></l>                     <r>fine<s n="adj"/></r></p><par n="adj_sup2"/></e>
+<e r="RL"><p><l>fi<s n="adj"/></l>                     <r>fino<s n="adj"/></r></p></e>
 <e>       <p><l>fidel<s n="adj"/></l>                  <r>fedele<s n="adj"/></r></p></e>
 <e>       <p><l>figuratiu</l>                          <r>figurativo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>filial</l>                             <r>filiale</r></p><par n="adj_sup2"/></e>
@@ -1276,11 +1274,7 @@
 <e>       <p><l>modest<s n="adj"/></l>                 <r>modesto<s n="adj"/></r></p></e>
 <e>       <p><l>molecular</l>                          <r>molecolare</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>molt<s n="adj"/></l>                   <r>molto<s n="adj"/><s n="ind"/></r></p></e>
-<e>       <p><l>molt<s n="adj"/><s n="f"/><s n="pl"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-<e>       <p><l>molt<s n="adj"/><s n="f"/><s n="sg"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-<e>       <p><l>molt<s n="adj"/><s n="m"/><s n="pl"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-<e>       <p><l>molt<s n="adj"/><s n="m"/><s n="sg"/></l><r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
-<e>       <p><l>molt<s n="adj"/><s n="sup"/></l>       <r>parecchio<s n="adj"/><s n="ind"/></r></p></e>
+<e r="RL"><p><l>molt<s n="adj"/></l>                   <r>parecchio<s n="adj"/></r></p></e>
 <e r="LR"><p><l>molt<b/>de<s n="adj"/><s n="m"/><s n="sg"/></l><r>molto<s n="adj"/></r></p></e>
 <e>       <p><l>monetari<s n="adj"/></l>               <r>monetario<s n="adj"/></r></p></e>
 <e>       <p><l>monumental</l>                         <r>monumentale</r></p><par n="adj_sup2"/></e>
@@ -1445,7 +1439,7 @@
 <e>       <p><l>pragmàtic</l>                          <r>pragmatico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>precari<s n="adj"/></l>                <r>precario<s n="adj"/></r></p></e>
 <e>       <p><l>preciós<s n="adj"/></l>                <r>prezioso<s n="adj"/></r></p></e>
-<e r="LR"><p><l>precís<s n="adj"/></l>                 <r>indispensabile<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>precís<s n="adj"/></l>                 <r>preciso<s n="adj"/></r></p></e>
 <e>       <p><l>predominant</l>                        <r>predominante</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>preferible</l>                         <r>preferibile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>prehistòric</l>                        <r>preistorico</r></p><par n="adj_sup"/></e>
@@ -2135,6 +2129,7 @@
 <e>       <p><l>gratuïtament<s n="adv"/></l>           <r>gratuitamente<s n="adv"/></r></p></e>
 <e>       <p><l>greument<s n="adv"/></l>               <r>gravemente<s n="adv"/></r></p></e>
 <e>       <p><l>habitualment<s n="adv"/></l>           <r>abitualmente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>habitualment<s n="adv"/></l>           <r>di<b/>solito<s n="adv"/></r></p></e>
 <e>       <p><l>històricament<s n="adv"/></l>          <r>storicamente<s n="adv"/></r></p></e>
 <e>       <p><l>honradament<s n="adv"/></l>            <r>onoratamente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>hui<b/>dia<s n="adv"/></l>             <r>oggigiorno<s n="adv"/></r></p></e>
@@ -4144,6 +4139,7 @@
 <e>       <p><l>curtmetratge<s n="n"/></l>             <r>cortometraggio<s n="n"/></r></p></e>
 <e>       <p><l>custòdia<s n="n"/></l>                 <r>custodia<s n="n"/></r></p></e>
 <e>       <p><l>càlcul<s n="n"/></l>                   <r>calcolo<s n="n"/></r></p></e>
+<e>       <p><l>calcular<s n="vblex"/></l>             <r>calcolare<s n="vblex"/></r></p></e>
 <e>       <p><l>càmera<s n="n"/></l>                   <r>camera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>càmera<s n="n"/></l>                   <r>cameraman<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>càncer<s n="n"/></l>                   <r>cancro<s n="n"/></r></p></e>
@@ -4990,9 +4986,8 @@
 <e r="RL"><p><l>fetus<s n="n"/><s n="m"/><s n="sp"/></l><r>feto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>fetus<s n="n"/><s n="m"/><s n="sp"/></l><r>feto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>feudalisme<s n="n"/></l>               <r>feudalesimo<s n="n"/></r></p></e>
-<e>       <p><l>fi<s n="n"/><s n="m"/></l>             <r>fine<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>fi<s n="n"/><s n="f"/><s n="sg"/></l>  <r>fine<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>fi<s n="n"/><s n="f"/><s n="pl"/></l>  <r>fine<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>fi<s n="n"/><s n="m"/></l>             <r>fine<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fi<s n="n"/><s n="f"/></l>             <r>fine<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>fiabilitat<s n="n"/><s n="f"/><s n="ND"/></l><r>attendibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>fiabilitat<s n="n"/><s n="f"/><s n="sg"/></l><r>attendibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>fiabilitat<s n="n"/><s n="f"/><s n="pl"/></l><r>attendibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -6106,7 +6101,7 @@
 <e>       <p><l>membrana<s n="n"/></l>                 <r>membrana<s n="n"/></r></p></e>
 <e>       <p><l>membre<s n="n"/><s n="mf"/></l>        <r>membro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>memòria<s n="n"/></l>                  <r>memoria<s n="n"/></r></p></e>
-<e>       <p><l>mena<s n="n"/><s n="f"/></l>           <r>tipo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>mena<s n="n"/><s n="f"/></l>           <r>tipo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>menjar<s n="n"/><s n="m"/></l>         <r>cibo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>menor<s n="n"/><s n="mf"/></l>         <r>minore<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>menor<s n="n"/></l>                    <r>minore<s n="n"/></r></p></e>
@@ -7774,15 +7769,14 @@
 <e>       <p><l>testament<s n="n"/></l>                <r>testamento<s n="n"/></r></p></e>
 <e>       <p><l>text<s n="n"/></l>                     <r>testo<s n="n"/></r></p></e>
 <e>       <p><l>tia<s n="n"/><s n="f"/></l>            <r>zio<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>tigre<s n="n"/><s n="m"/></l>          <r>tigre<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tigre<s n="n"/><s n="m"/></l>          <r>tigre<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>tigre<s n="n"/><s n="f"/></l>          <r>tigre<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>tigre<s n="n"/><s n="GD"/></l>         <r>tigre<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>timbal<s n="n"/></l>                   <r>tamburo<s n="n"/></r></p></e>
 <e>       <p><l>timpà<s n="n"/></l>                    <r>timpano<s n="n"/></r></p></e>
 <e r="LR"><p><l>timus<s n="n"/><s n="m"/><s n="sp"/></l><r>truffa<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e>       <p><l>tinent<s n="n"/><s n="mf"/></l>        <r>tenente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tinent<s n="n"/><s n="mf"/></l>        <r>supplente<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>tipus<s n="n"/><s n="m"/><s n="sp"/></l><r>tipo<s n="n"/></r></p></e>
+<e>       <p><l>tipus<s n="n"/><s n="m"/></l>          <r>tipo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>tir<s n="n"/></l>                      <r>tiro<s n="n"/></r></p></e>
 <e>       <p><l>titella<s n="n"/><s n="f"/></l>        <r>marionetta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>titlla<s n="n"/><s n="f"/></l>         <r>tilde<s n="n"/><s n="mf"/></r></p></e>
@@ -9236,6 +9230,9 @@
 <e>       <p><l>aconsellar<s n="vblex"/></l>           <r>consigliare<s n="vblex"/></r></p></e>
 <e>       <p><l>acordar<s n="vblex"/></l>              <r>accordare<s n="vblex"/></r></p></e>
 <!--<e><p><l>acordar<s n="vblex"/></l><r>ricordare<s n="vblex"/></r></p></e>-->
+<e>       <p><l>acostumar<s n="vblex"/></l>            <r>abituare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>acostumar<s n="vblex"/></l>            <r>assuefar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>acostumar<g><b/>a</g><s n="vblex"/></l><r>solere<s n="vblex"/></r></p></e>
 <e>       <p><l>acreditar<s n="vblex"/></l>            <r>accreditare<s n="vblex"/></r></p></e>
 <e>       <p><l>activar<s n="vblex"/></l>              <r>attivare<s n="vblex"/></r></p></e>
 <e>       <p><l>actualitzar<s n="vblex"/></l>          <r>aggiornare<s n="vblex"/></r></p></e>
@@ -9305,6 +9302,8 @@
 <e>       <p><l>apreciar<s n="vblex"/></l>             <r>apprezzare<s n="vblex"/></r></p></e>
 <e>       <p><l>aprendre<s n="vblex"/></l>             <r>apprendere<s n="vblex"/></r></p></e>
 <e>       <p><l>aprendre<s n="vblex"/></l>             <r>imparare<s n="vblex"/></r></p></e>
+<e>       <p><l>aprofitar<s n="vblex"/></l>            <r>approfittare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>aprofitar<s n="vblex"/></l>            <r>profittare<s n="vblex"/></r></p></e>
 <!--<e><p><l>apujar<s n="vblex"/></l><r>subire<s n="vblex"/></r></p></e>-->
 <e>       <p><l>apuntar<s n="vblex"/></l>              <r>puntare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>arrenglerar<s n="vblex"/></l>          <r>alienare<s n="vblex"/></r></p></e>
@@ -9598,6 +9597,7 @@
 <e>       <p><l>embotellar<s n="vblex"/></l>           <r>imbottigliare<s n="vblex"/></r></p></e>
 <e>       <p><l>embrutar<s n="vblex"/></l>             <r>sporcare<s n="vblex"/></r></p></e>
 <e>       <p><l>emigrar<s n="vblex"/></l>              <r>emigrare<s n="vblex"/></r></p></e>
+<e>       <p><l>emmagatzemar<s n="vblex"/></l>         <r>immagazzinare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>empentar<s n="vblex"/></l>             <r>spingere<s n="vblex"/></r></p></e>
 <e>       <p><l>empitjorar<s n="vblex"/></l>           <r>aggravare<s n="vblex"/></r></p></e>
 <e>       <p><l>empitjorar<s n="vblex"/></l>           <r>peggiorare<s n="vblex"/></r></p></e>
@@ -9743,6 +9743,7 @@
 <e>       <p><l>il·lustrar<s n="vblex"/></l>           <r>illustrare<s n="vblex"/></r></p></e>
 <e>       <p><l>imitar<s n="vblex"/></l>               <r>imitare<s n="vblex"/></r></p></e>
 <e>       <p><l>impartir<s n="vblex"/></l>             <r>impartire<s n="vblex"/></r></p></e>
+<e>       <p><l>impedir<s n="vblex"/></l>              <r>impedire<s n="vblex"/></r></p></e>
 <e>       <p><l>imperar<s n="vblex"/></l>              <r>imperare<s n="vblex"/></r></p></e>
 <e>       <p><l>implicar<s n="vblex"/></l>             <r>implicare<s n="vblex"/></r></p></e>
 <e>       <p><l>importar<s n="vblex"/></l>             <r>importare<s n="vblex"/></r></p></e>
@@ -9950,6 +9951,7 @@
 <e>       <p><l>projectar<s n="vblex"/></l>            <r>progettare<s n="vblex"/></r></p></e>
 <e>       <p><l>proliferar<s n="vblex"/></l>           <r>proliferare<s n="vblex"/></r></p></e>
 <e>       <p><l>promoure<s n="vblex"/></l>             <r>promuovere<s n="vblex"/></r></p></e>
+<e>       <p><l>pronosticar<s n="vblex"/></l>          <r>pronosticare<s n="vblex"/></r></p></e>
 <e>       <p><l>pronunciar<s n="vblex"/></l>           <r>pronunciare<s n="vblex"/></r></p></e>
 <e>       <p><l>prosperar<s n="vblex"/></l>            <r>prosperare<s n="vblex"/></r></p></e>
 <e>       <p><l>prosseguir<s n="vblex"/></l>           <r>proseguire<s n="vblex"/></r></p></e>
@@ -9991,6 +9993,9 @@
 <e>       <p><l>referir<s n="vblex"/></l>              <r>riferire<s n="vblex"/></r></p></e>
 <e>       <p><l>reforçar<s n="vblex"/></l>             <r>rafforzare<s n="vblex"/></r></p></e>
 <e>       <p><l>refrescar<s n="vblex"/></l>            <r>rinfrescare<s n="vblex"/></r></p></e>
+<e>       <p><l>refredar<s n="vblex"/></l>             <r>raffreddare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>refredar<s n="vblex"/></l>             <r>freddare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>refredar<s n="vblex"/></l>             <r>infreddare<s n="vblex"/></r></p></e>
 <e>       <p><l>regalar<s n="vblex"/></l>              <r>regalare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>registrar<s n="vblex"/></l>            <r>registrare<s n="vblex"/></r></p></e>
 <e>       <p><l>reglamentar<s n="vblex"/></l>          <r>regolamentare<s n="vblex"/></r></p></e>
