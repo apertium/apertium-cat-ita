@@ -143,6 +143,7 @@
 
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+      <attr-item tags="adj.ind"/>
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.qnt"/>
@@ -1036,8 +1037,7 @@
 
   <section-rules>
 
-    <rule> <!-- REGLA: PRONOM --><!--Special case, macro f_concord1
-                                     is not applicable because gender and number can not be taken from previous rules -->
+  <rule comment="REGLA: PRONOM"> <!--Special case, macro f_concord1 is not applicable because gender and number can not be taken from previous rules -->
       <pattern>
         <pattern-item n="prn"/>
       </pattern>
