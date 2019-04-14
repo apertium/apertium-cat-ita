@@ -278,6 +278,26 @@
   </rule>
 
 <!-- N -->
+  <!-- stagione > estació, temporada -->
+  <rule weight="0.8">
+    <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+    <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="adj.ord.*"/>
+      <match lemma="alcuno" tags="adj.*"/>
+      <match lemma="qualche" tags="adj.*"/>
+      <match lemma="vario" tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+  </rule>
+
   <!-- corso > carrer, cors -->
   <rule weight="0.8">
     <match lemma="corso" tags="n.m.sg"><select lemma="curs" tags="n.m.sg"/></match>
