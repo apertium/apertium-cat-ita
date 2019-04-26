@@ -6956,7 +6956,7 @@
 <e r="LR"><p><l>possibilitat<s n="n"/><s n="f"/><s n="sg"/></l><r>possibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>possibilitat<s n="n"/><s n="f"/><s n="pl"/></l><r>possibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>possibilitat<s n="n"/><s n="f"/><s n="ND"/></l><r>possibilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>post<s n="n"/></l>                     <r>tavola<s n="n"/></r></p></e>
+<e r="LR"><p><l>post<s n="n"/></l>                     <r>tavola<s n="n"/></r></p></e>
 <e r="LR"><p><l>posteritat<s n="n"/><s n="f"/><s n="sg"/></l><r>posterità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>posteritat<s n="n"/><s n="f"/><s n="pl"/></l><r>posterità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>posteritat<s n="n"/><s n="f"/><s n="ND"/></l><r>posterità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -7661,9 +7661,9 @@
 <e>       <p><l>taronja<s n="n"/></l>                  <r>arancia<s n="n"/></r></p></e>
 <e>       <p><l>tasca<s n="n"/></l>                    <r>lavoro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tascó<s n="n"/><s n="m"/></l>          <r>cuneo<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tauró<s n="n"/></l>                    <r>squalo<s n="n"/></r></p></e>
 <e>       <p><l>taverna<s n="n"/></l>                  <r>taverna<s n="n"/></r></p></e>
 <e r="LR"><p><l>taxi<s n="n"/><s n="m"/><s n="sg"/></l><r>taxi<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
