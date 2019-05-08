@@ -9092,6 +9092,11 @@
 <e>       <p><l>molt<s n="preadv"/></l>                <r>molto<s n="preadv"/></r></p></e>
 <e r="LR"><p><l>quasi<s n="preadv"/></l>               <r>quasi<s n="preadv"/></r></p></e>
 <e>       <p><l>tan<s n="preadv"/></l>                 <r>tanto<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>tan<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>ben<s n="preadv"/></l><r>ben<s n="preadv"/></r></p></e>
+<e><p><l>bastant<s n="preadv"/></l><r>abbastanza<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>mal<s n="preadv"/></l><r>mal<s n="preadv"/></r></p></e>
+<e><p><l>no<b/>gaire<s n="preadv"/></l><r>non<b/>molto<s n="preadv"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
 
