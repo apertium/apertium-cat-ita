@@ -32,8 +32,11 @@
       <cat-item tags="adv"/>
       <cat-item tags="preadv"/>
     </def-cat>
-   <def-cat n="adv">
+    <def-cat n="adv">
       <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="gens">
+      <cat-item lemma="gens" tags="adv"/>
     </def-cat>
 
     <def-cat n="det">          
@@ -46,12 +49,23 @@
       <cat-item tags="num"/>
     </def-cat>
 
+    <def-cat n="cnjadv">
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
 
     <def-cat n="cnjsub">
       <cat-item tags="cnjsub"/>
+    </def-cat>
+
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+    </def-cat>
+    <def-cat n="de">
+      <cat-item lemma="de" tags="pr"/>
     </def-cat>
 
     <def-cat n="vbser">
@@ -317,7 +331,7 @@
     </def-macro>
 
 
-    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc cont?o no format. Cal posar aquesta funci?en les regles en qu?desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si cont?format cal conservar-la, si no en cont?cal eliminar-la perqu?no apareguin dos espais seguits. -->
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc cont?o no format. Cal posar aquesta funci?en les regles en qu?desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si cont?format cal conservar-la, si no en cont?cal eliminar-la perqu?no apareguin dos espais seguits. -->
       <choose>
 	<when>
 	  <test>
@@ -1106,7 +1120,7 @@
       <action>
 	<call-macro n="f_concord1">
 	  <with-param pos="1"/>
-	</call-macro>
+   	</call-macro>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -1263,6 +1277,92 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: cnjadv">
+      <pattern>
+	<pattern-item n="cnjadv"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="cnjadv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="cnjadv"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: cnjsub">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="cnjsub" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="cnjsub"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pr">
+      <pattern>
+	<pattern-item n="pr"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="pr" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="pr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: adv_preadv">
+      <pattern>
+	<pattern-item n="adv_preadv"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="adv"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <!-- REGLES SN -->
+
     <rule comment="REGLA: DET NOM">
       <pattern>
 	<pattern-item n="det"/>
@@ -1300,6 +1400,46 @@
 	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
 	      <clip pos="2" side="tl" part="nbr_sp"/>
 	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: gens de NOM > niente NOM">
+      <pattern>
+	<pattern-item n="gens"/>
+	<pattern-item n="de"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="3"/>
+	</call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+	<out>
+	  <chunk name="det_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="genero"/></tag>
+	      <tag><var n="numero"/></tag>
+	    </tags>
+	    <lu>
+              <lit v="niente"/>
+              <lit-tag v="adj.mf.sp"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+	      <clip pos="3" side="tl" part="gen_mf"/>	 
+	      <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+	      <clip pos="3" side="tl" part="nbr_sp"/>
+	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	</out>
