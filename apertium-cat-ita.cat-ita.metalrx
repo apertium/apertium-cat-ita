@@ -2170,6 +2170,27 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- no > no, non -->
+
+  <rule weight="0.6">
+     <match lemma="no" tags="adv"><select lemma="no"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="no" tags="adv"><select lemma="non"/></match>
+     <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="no" tags="adv"><select lemma="non"/></match>
+     <match tags="prn.pro.*"/>
+     <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="no" tags="adv"><select lemma="non"/></match>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
+     <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
+  </rule>
+
 <!-- més > prus, de prus --> <!-- srd -->
 
   <rule weight="0.6">
