@@ -2088,7 +2088,7 @@
 <e>       <p><l>estrictament<s n="adv"/></l>           <r>rigorosamente<s n="adv"/></r></p></e>
 <e>       <p><l>estupendament<s n="adv"/></l>          <r>stupendamente<s n="adv"/></r></p></e>
 <e>       <p><l>estèticament<s n="adv"/></l>           <r>esteticamente<s n="adv"/></r></p></e>
-<e>       <p><l>etc<s n="adv"/></l>                    <r>etc<s n="adv"/></r></p></e>
+<e>       <p><l>etc<s n="adv"/></l>                    <r>ecc<s n="adv"/></r></p></e>
 <e>       <p><l>eternament<s n="adv"/></l>             <r>eternamente<s n="adv"/></r></p></e>
 <e>       <p><l>eventualment<s n="adv"/></l>           <r>eventualmente<s n="adv"/></r></p></e>
 <e>       <p><l>evidentment<s n="adv"/></l>            <r>evidentemente<s n="adv"/></r></p></e>
@@ -2457,12 +2457,36 @@
 <e>       <p><l>és<b/>a<b/>dir<s n="cnjadv"/></l>      <r>ossia<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>és<b/>a<b/>dir<s n="cnjadv"/></l>      <r>cioè<s n="cnjadv"/></r></p></e>
 <e>       <p><l>no<b/>obstant<s n="cnjadv"/></l>       <r>nonostante<s n="cnjsub"/></r></p></e>
+<e>       <p><l>mentre<s n="cnjadv"/></l>              <r>mentre<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
+<e><p><l>tanmateix<s n="cnjadv"/></l><r>comunque<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>comsevulla<b/>que<s n="cnjadv"/></l><r>comunque<s n="cnjadv"/></r></p></e>
+<e><p><l>encara<b/>que<s n="cnjadv"/></l><r>anche<b/>se<s n="cnjadv"/></r></p></e>
+<e><p><l>encara<b/>que<s n="cnjadv"/></l><r>pur<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>per<b/>això<s n="cnjadv"/></l><r>per<b/>questo<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l><r>intanto<b/>che<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l><r>frattanto<b/>che<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>en<b/>cas<b/>que<s n="cnjadv"/></l><r>nel<b/>caso<b/>che<s n="cnjadv"/></r></p></e>
+<e><p><l>fins<b/>que<s n="cnjadv"/></l><r>finché<s n="cnjadv"/></r></p></e>
+<e><p><l>encara<b/>que<s n="cnjadv"/></l><r>benché<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>encara<b/>que<s n="cnjadv"/></l><r>sebbene<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>encara<b/>que<s n="cnjadv"/></l><r>nonostante<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>perquè<s n="cnjadv"/></l><r>affinché<s n="cnjadv"/></r></p></e>
+<e><p><l>com<b/>si<s n="cnjadv"/></l><r>come<b/>se<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>en<b/>cas<b/>que<s n="cnjadv"/></l><r>qualora<s n="cnjadv"/></r></p></e>
+<e><p><l>fins<b/>al<b/>punt<b/>que<s n="cnjadv"/></l><r>al<b/>punto<b/>che<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l><r>laddove<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>per<b/>tant<s n="cnjadv"/></l><r>sicché<s n="cnjadv"/></r></p></e>
+<e><p><l>així<b/>que<s n="cnjadv"/></l><r>cosicché<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>cosicché<s n="cnjadv"/></r></p></e>
+<e><p><l>per<b/>tal<b/>que<s n="cnjadv"/></l><r>purché<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>a<b/>condició<b/>que<s n="cnjadv"/></l><r>a<b/>patto<b/>che<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>segons<b/>sembla<s n="cnjadv"/></l><r>a<b/>quanto<b/>pare<s n="cnjadv"/></r></p></e>
+
 <e>       <p><l>que<s n="cnjsub"/></l>                 <r>che<s n="cnjsub"/></r></p></e>
 
 <e>       <p><l>i<s n="cnjcoo"/></l>                   <r>e<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>i<s n="cnjcoo"/></l>                   <r>ed<s n="cnjcoo"/></r></p></e>
-<e>       <p><l>mentre<s n="cnjadv"/></l>              <r>mentre<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>mes<s n="cnjcoo"/></l>                 <r>ma<s n="cnjcoo"/></r></p></e>
 <e r="LR"><p><l>sinó<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ni<s n="cnjcoo"/></l>                  <r>né<s n="cnjcoo"/></r></p></e>
@@ -4997,7 +5021,7 @@
 <e>       <p><l>filtre<s n="n"/><s n="m"/></l>         <r>filtro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>filòsof<s n="n"/></l>                  <r>filosofo<s n="n"/></r></p></e>
 <e>       <p><l>final<s n="n"/></l>                    <r>finale<s n="n"/></r></p></e>
-<e>       <p><l>finalitat<s n="n"/><s n="f"/>          </l><r>fine<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>finalitat<s n="n"/><s n="f"/></l>      <r>fine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>finançament<s n="n"/><s n="m"/></l>    <r>finanziamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>finca<s n="n"/><s n="f"/></l>          <r>podere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>finestra<s n="n"/></l>                 <r>finestra<s n="n"/></r></p></e>
@@ -6934,7 +6958,6 @@
 <e r="LR"><p><l>popularitat<s n="n"/><s n="f"/><s n="sg"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>popularitat<s n="n"/><s n="f"/><s n="pl"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>popularitat<s n="n"/><s n="f"/><s n="ND"/></l><r>popolarità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>por<s n="n"/><s n="f"/></l>            <r>paura<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>por<s n="n"/><s n="f"/></l>            <r>paura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>porc<s n="n"/></l>                     <r>porco<s n="n"/></r></p></e>
 <e>       <p><l>porca<s n="n"/></l>                    <r>scrofa<s n="n"/></r></p></e>
@@ -7719,12 +7742,13 @@
 <e>       <p><l>teoria<s n="n"/></l>                   <r>teoria<s n="n"/></r></p></e>
 <e>       <p><l>teranyina<s n="n"/></l>                <r>ragnatela<s n="n"/></r></p></e>
 <e>       <p><l>terme<s n="n"/></l>                    <r>termine<s n="n"/></r></p></e>
-<e>       <p><l>terme<b/>mitjà<s n="n"/><s n="m"/></l>           <r>media<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>terme<b/>mitjà<s n="n"/><s n="m"/></l> <r>media<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>terminal<s n="n"/><s n="f"/></l>       <r>terminale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>terminologia<s n="n"/></l>             <r>terminologia<s n="n"/></r></p></e>
 <e>       <p><l>termodinàmica<s n="n"/></l>            <r>termodinamica<s n="n"/></r></p></e>
 <e>       <p><l>termòmetre<s n="n"/></l>               <r>termometro<s n="n"/></r></p></e>
-<e>       <p><l>terra<s n="n"/></l>                    <r>terra<s n="n"/></r></p></e>
+<e>       <p><l>terra<s n="n"/><s n="f"/></l>          <r>terra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>terra<s n="n"/><s n="m"/></l>          <r>suolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>terrassa<s n="n"/></l>                 <r>terrazza<s n="n"/></r></p></e>
 <e>       <p><l>terratrèmol<s n="n"/></l>              <r>terremoto<s n="n"/></r></p></e>
 <e>       <p><l>terreny<s n="n"/></l>                  <r>terreno<s n="n"/></r></p></e>
@@ -9376,6 +9400,7 @@
 <e r="RL"><p><l>castigar<s n="vblex"/></l>             <r>punire<s n="vblex"/></r></p></e>
 <e>       <p><l>catalogar<s n="vblex"/></l>            <r>catalogare<s n="vblex"/></r></p></e>
 <e>       <p><l>caure<s n="vblex"/></l>                <r>cadere<s n="vblex"/></r></p></e>
+<e>       <p><l>caure<g><b/>a</b>terra</g><s n="vblex"/></l><r>cadere<g><b/>a</b>terra</g><s n="vblex"/></r></p></e>
 <e>       <p><l>causar<s n="vblex"/></l>               <r>causare<s n="vblex"/></r></p></e>
 <e>       <p><l>cavar<s n="vblex"/></l>                <r>scavare<s n="vblex"/></r></p></e>
 <e>       <p><l>caçar<s n="vblex"/></l>                <r>cacciare<s n="vblex"/></r></p></e>
