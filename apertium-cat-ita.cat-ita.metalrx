@@ -679,7 +679,7 @@
   </def-seqs>
 
 <!-- **************** PR **************** -->
-<!-- a > a, in -->
+<!-- a > a, in --> <!-- srd -->
 
 <rules>
   <rule weight="0.6">
@@ -951,7 +951,7 @@
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
 
-<!-- davant > in antis, in antis de -->
+  <!-- davant > in antis, in antis de --> <!-- srd -->
 
   <rule weight="0.6">
     <match lemma="davant" tags="pr"><select lemma="in antis" tags="pr"/></match>
@@ -968,7 +968,7 @@
     </or>
   </rule>
 
-<!-- per > pro, dae -->
+  <!-- per > pro, dae --> <!-- srd -->
 
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
@@ -995,7 +995,7 @@
   </rule>
 
 
-<!-- de > de, dae -->
+  <!-- de > de, dae --> <!-- srd -->
 <!-- pp dae -->
 
   <rule weight="0.6">
@@ -1181,7 +1181,7 @@
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
 
-<!-- al llarg de > durante, a largu de -->
+  <!-- al llarg de > durante, a largu de --> <!-- srd -->
 
   <rule weight="0.6">
     <match lemma="al llarg de" tags="pr"><select lemma="durante" tags="pr"/></match>
@@ -1191,7 +1191,7 @@
     <match tags="np.*"/>
   </rule>
 
-<!-- fora de > foras de, francu -->
+  <!-- fora de > foras de, francu --> <!-- srd -->
 
   <rule weight="0.6">
     <match lemma="fora de" tags="pr"><select lemma="foras de" tags="pr"/></match>
@@ -1205,7 +1205,7 @@
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
-<!-- segons (pr) > segundu, a parrere de -->
+  <!-- segons (pr) > segundu, a parrere de --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="segons" tags="pr"><select lemma="segundu"/></match>
@@ -1218,7 +1218,7 @@
 
 <!-- **************** CNJSUB **************** -->
 
-<!-- perquè > ca, pro chi (conjunció final) -->
+<!-- perquè > ca, pro chi (conjunció final) --> <!-- srd -->
 <!-- perquè les xarxes socials no siguin "un espai impune" > pro chi sas retes sotziales non siant "un'ispàtziu impunidu" -->
 
   <rule weight="0.6">
@@ -1479,7 +1479,7 @@
   </rule>
 
 
-<!-- així que > a manera chi, comente -->
+  <!-- així que > a manera chi, comente --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="així que" tags="cnjadv"><select lemma="a manera chi"/></match>
@@ -1595,7 +1595,7 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
-<!-- ensenyar > insegnare, mustrare -->
+  <!-- ensenyar > insegnare, mustrare --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="insingiare"/></match>
@@ -1641,7 +1641,7 @@
      </or>
   </rule>
 
-<!-- aconseguir > otènnere, resèssere, resèssere a -->
+  <!-- aconseguir > otènnere, resèssere, resèssere a --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="aconseguir" tags="vblex.*"><select lemma="otènnere"/></match>
@@ -1655,7 +1655,7 @@
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
-<!-- desitjar > disigiare, augurare -->
+  <!-- desitjar > disigiare, augurare --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
@@ -1689,7 +1689,7 @@
      <match tags="prn.enc.ref.*"/>
   </rule>
 
-<!-- violar > violare, violentare -->
+  <!-- violar > violare, violentare --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="violar" tags="vblex.*"><select lemma="violare"/></match>
@@ -1711,7 +1711,7 @@
      </or>
   </rule>
 
-<!-- permetre > permìtere, permìtere de -->
+  <!-- permetre > permìtere, permìtere de --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="permetre" tags="vblex.*"><select lemma="permìtere"/></match>
@@ -1721,13 +1721,13 @@
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
-<!-- portar > batire, portare, giùghere -->
+  <!-- portar > batire, portare, giùghere --> <!-- srd -->
 
   <rule weight="0.6">
-     <match lemma="portar" tags="vblex.*"><select lemma="batire"/></match> <!-- sep -->
+	  <match lemma="portar" tags="vblex.*"><select lemma="batire"/></match> <!-- sep --> <!-- srd -->
   </rule>
   <rule weight="0.6">
-     <match lemma="portar" tags="vblex.*"><select lemma="portare"/></match> <!-- mer -->
+	  <match lemma="portar" tags="vblex.*"><select lemma="portare"/></match> <!-- mer --> <!-- srd -->
   </rule>
   <rule weight="1.0">
      <match lemma="portar" tags="vblex.*"><select lemma="giùghere"/></match>
@@ -1739,7 +1739,7 @@
      <match tags="prn.*"/>
   </rule>
 
-<!-- demanar > pregontare, pedire -->
+  <!-- demanar > pregontare, pedire --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="demanar" tags="vblex.*"><select lemma="pregontare"/></match>
@@ -1828,7 +1828,7 @@
      <match tags="vblex.inf"/>
   </rule>
 
-<!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) -->
+  <!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="arrencar" tags="vblex.*"><select lemma="irraighinare"/></match>
@@ -1848,7 +1848,7 @@
      <or><match lemma="vehicle"/><match lemma="cotxe"/><match lemma="moto"/></or>
   </rule>
 
-<!-- estimar > amare, istimare -->
+  <!-- estimar > amare, istimare --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
@@ -1875,7 +1875,7 @@
      <match lemma="estimar" tags="vblex.pp.*"><select lemma="istimare"/></match>
   </rule>
 
-<!-- tractar de > tratare de, proare a -->
+  <!-- tractar de > tratare de, proare a --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="tractar# de" tags="vblex.*"><select lemma="tratare# de"/></match>
@@ -1885,7 +1885,7 @@
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
-<!-- guanyar > bìnchere, balangiare -->
+  <!-- guanyar > bìnchere, balangiare --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="guanyar" tags="vblex.*"><select lemma="bìnchere"/></match>
@@ -1907,7 +1907,7 @@
 
 
 <!-- COMPARACIONS -->
-<!-- que > chi, de (comparacions) -->
+<!-- que > chi, de (comparacions) --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
@@ -2192,7 +2192,7 @@
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
 
-<!-- com > comente, comente a (comparacions) -->
+  <!-- com > comente, comente a (comparacions) --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="com" tags="rel.adv"><select lemma="comente"/></match>
@@ -2212,7 +2212,7 @@
 
 <!-- **************** ADV **************** -->
 
-<!-- més > prus, de prus -->
+<!-- més > prus, de prus --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="més" tags="adv"><select lemma="prus"/></match>
@@ -2228,7 +2228,7 @@
 
 <!-- **************** ADJ **************** -->
 
-<!-- gran > mannu, grandu -->
+<!-- gran > mannu, grandu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="gran" tags="adj.*"><select lemma="mannu"/></match>
@@ -2238,7 +2238,7 @@
      <match tags="n.*"/>
   </rule>
 
-<!-- anterior > anteriore, in antis -->
+  <!-- anterior > anteriore, in antis --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="anterior" tags="adj.*"><select lemma="anteriore"/></match>
@@ -2250,7 +2250,7 @@
      <match lemma="anterior" tags="adj.*"><select lemma="in antis"/></match>
   </rule>
 
-<!-- sospitós > suspetadu, suspetosu -->
+  <!-- sospitós > suspetadu, suspetosu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="sospitós" tags="adj.*"><select lemma="suspetadu"/></match>
@@ -2269,7 +2269,7 @@
      <match lemma="sospitós" tags="adj.*"><select lemma="suspetosu"/></match>
   </rule>
 
-<!-- romànic > romànicu, romantzu -->
+  <!-- romànic > romànicu, romantzu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="romànic" tags="adj.*"><select lemma="romànicu"/></match>
@@ -2279,7 +2279,7 @@
      <match lemma="romànic" tags="adj.*"><select lemma="romantzu"/></match>
   </rule>
 
-<!-- presumpte > presumidu, crètidu -->
+  <!-- presumpte > presumidu, crètidu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="presumpte" tags="adj.*"><select lemma="presumidu"/></match>
@@ -2292,7 +2292,7 @@
 
 <!-- **************** N **************** -->
 
-<!-- golf > golfo, golf -->
+<!-- golf > golfo, golf --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="golf" tags="n.*"><select lemma="golfo"/></match>
@@ -2310,7 +2310,7 @@
      <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
   </rule>
 
-<!-- tassa > tassa, tassu -->
+  <!-- tassa > tassa, tassu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
@@ -2320,7 +2320,7 @@
      <match lemma="de" tags="pr"/>
   </rule>
 
-<!-- curs > cursu, annu -->
+  <!-- curs > cursu, annu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="curs" tags="n.*"><select lemma="cursu"/></match>
@@ -2337,7 +2337,7 @@
      <match tags="num"/>
   </rule>
 
-<!-- dona > fèmina, mugere -->
+  <!-- dona > fèmina, mugere --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="dona" tags="n.*"><select lemma="fèmina"/></match>
@@ -2358,7 +2358,7 @@
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
-<!-- home > òmine, maridu -->
+  <!-- home > òmine, maridu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="home" tags="n.*"><select lemma="òmine"/></match>
@@ -2379,7 +2379,7 @@
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
-<!-- eixida > essida, corte -->
+  <!-- eixida > essida, corte --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="eixida" tags="n.*"><select lemma="essida"/></match>
@@ -2396,7 +2396,7 @@
 # cops forts, cop molt dur, cops al pit
 -->
 
-<!-- cop > corfu, bia -->
+<!-- cop > corfu, bia --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="cop" tags="n.*"><select lemma="bia"/></match>
@@ -2419,7 +2419,7 @@
      <match tags="adj.*"/>
   </rule>
 
-<!-- paper > pabiru, ruolu -->
+  <!-- paper > pabiru, ruolu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
@@ -2476,7 +2476,7 @@
      <match lemma="com"/>
   </rule>
 
-<!-- recurs > risorsa, ricursu -->
+  <!-- recurs > risorsa, ricursu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="recurs" tags="n.*"><select lemma="risorsa"/></match>
@@ -2514,7 +2514,7 @@
      <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
   </rule>
 
-<!-- carta > lìtera, carta -->
+  <!-- carta > lìtera, carta --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="carta" tags="n.*"><select lemma="lìtera"/></match>
@@ -2541,7 +2541,7 @@
      </or>
   </rule>
 
-<!-- càrrec > càrrigu, incàrrigu, funtzionàriu -->
+  <!-- càrrec > càrrigu, incàrrigu, funtzionàriu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="càrrec" tags="n.*"><select lemma="càrrigu"/></match>
@@ -2554,7 +2554,7 @@
      </or>
   </rule>
 
-<!-- matrícula > matrìcula, targa -->
+  <!-- matrícula > matrìcula, targa --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="matrícula" tags="n.*"><select lemma="matrìcula"/></match>
@@ -2565,7 +2565,7 @@
      <match lemma="cotxe" tags="n.*"/>
   </rule>
 
-<!-- infant > pipiu, prìntzipe -->
+  <!-- infant > pipiu, prìntzipe --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="infant" tags="n.*"><select lemma="pipiu"/></match>
@@ -2579,7 +2579,7 @@
      <match tags="np.*"/>
   </rule>
 
-<!-- cambra > aposentu, càmera -->
+  <!-- cambra > aposentu, càmera --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="cambra" tags="n.*"><select lemma="aposentu"/></match>
@@ -2589,7 +2589,7 @@
      <match lemma="cambra" tags="n.*"><select lemma="càmera"/></match>
   </rule>
 
-<!-- mosso > camerieri, mosso -->
+  <!-- mosso > camerieri, mosso --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="mosso" tags="n.*"><select lemma="camerieri"/></match>
@@ -2603,7 +2603,7 @@
      <match lemma="esquadra" tags="n.*"/>
   </rule>
 
-<!-- costat > costàgiu, ala -->
+  <!-- costat > costàgiu, ala --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="costat" tags="n.*"><select lemma="costàgiu"/></match>
@@ -2615,7 +2615,7 @@
      <match lemma="," tags="cm"/>
   </rule>
 
-<!-- poble > bidda, pòpulu -->
+  <!-- poble > bidda, pòpulu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="poble" tags="n.*"><select lemma="bidda"/></match>
@@ -2625,7 +2625,7 @@
      <match tags="adj.*"/>
   </rule>
 
-<!-- banda > banda, ala -->
+  <!-- banda > banda, ala --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="banda" tags="n.*"><select lemma="banda"/></match>
@@ -2637,7 +2637,7 @@
      <match lemma="," tags="cm"/>
   </rule>
 
-<!-- pinya > pigna, ananassu -->
+  <!-- pinya > pigna, ananassu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
@@ -2647,7 +2647,7 @@
      <match lemma="tropical" tags="adj.*"/>
   </rule>
 
-<!-- lira > lira (música), francu (moneda) -->
+  <!-- lira > lira (música), francu (moneda) --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="lira" tags="n.*"><select lemma="lira"/></match>
@@ -2661,7 +2661,7 @@
      <match lemma="italià" tags="adj.*"/>
   </rule>
 
-<!-- còlera > colera, arrennegu -->
+  <!-- còlera > colera, arrennegu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="còlera" tags="n.mf.*"><select lemma="colera"/></match>
@@ -2680,7 +2680,7 @@
      <match tags="adj.f.*"/>
   </rule>
 
-<!-- policia > politzia, politziotu -->
+  <!-- policia > politzia, politziotu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="policia" tags="n.*"><select lemma="politzia"/></match>
@@ -2705,7 +2705,7 @@
      <match tags="adj.m.*"/>
   </rule>
 
-<!-- got > gotu, tassa -->
+  <!-- got > gotu, tassa --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="got" tags="n.*"><select lemma="gotu"/></match>
@@ -2720,7 +2720,7 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
-<!-- guàrdia > guàrdia, guardianu -->
+  <!-- guàrdia > guàrdia, guardianu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
@@ -2750,7 +2750,7 @@
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
   </rule>
 
-<!-- xic (n) > pitzocu, pagu -->
+  <!-- xic (n) > pitzocu, pagu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="xic" tags="n.m.*"><select lemma="pitzocu"/></match>
@@ -2765,7 +2765,7 @@
      <match tags="np.*"/>
   </rule>
 
-<!-- caragol, cargol (n) > corrobaca, vite -->
+  <!-- caragol, cargol (n) > corrobaca, vite --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="caragol" tags="n.m.*"><select lemma="corrobaca"/></match>
@@ -2818,7 +2818,7 @@
      <or><match tags="np.cog.*"/><match tags="np.al.*"/></or> <!-- Philips, Allen, etc. -->
   </rule>
 
-<!-- tret > caraterìstica, disparu -->
+  <!-- tret > caraterìstica, disparu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="tret" tags="n.*"><select lemma="caraterìstica"/></match>
@@ -2828,7 +2828,7 @@
      <match lemma="a" tags="pr"/>
   </rule>
 
-<!-- taula > caraterìstica, tabella -->
+  <!-- taula > caraterìstica, tabella --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="taula" tags="n.*"><select lemma="mesa"/></match>
