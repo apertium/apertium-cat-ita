@@ -1415,6 +1415,7 @@
 <e>       <p><l>plurianual</l>                         <r>pluriennale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>pluvial</l>                            <r>pluviale</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>poblacional<s n="adj"/></l>            <r>popolare<s n="adj"/></r></p></e>
+<e>       <p><l>poc<s n="adj"/><s n="ind"/></l>        <r>poco<s n="adj"/><s n="ind"/></r></p></e>
 <e>       <p><l>poderós<s n="adj"/></l>                <r>poderoso<s n="adj"/></r></p></e>
 <e>       <p><l>polar</l>                              <r>polare</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>policial<s n="adj"/><s n="mf"/></l>    <r>poliziesco<s n="adj"/><s n="GD"/></r></p></e>
@@ -1832,8 +1833,10 @@
 <e>       <p><l>a<b/>patolls<s n="adv"/></l>           <r>in<b/>massa<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>petita<b/>escala<s n="adv"/></l>  <r>a<b/>scala<b/>ridotta<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>pleret<s n="adv"/></l>            <r>poco<b/>a<b/>poco<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>poc<b/>a<b/>poc<s n="adv"/></l>   <r>a<b/>poco<b/>a<b/>poco<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>poc<b/>a<b/>poc<s n="adv"/></l>   <r>poco<b/>a<b/>poco<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>poc<b/>a<b/>poc<s n="adv"/></l>   <r>piano<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>poc<b/>a<b/>poc<s n="adv"/></l>   <r>piano<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>poc<b/>a<b/>poc<s n="adv"/></l>   <r>pian<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>poc<b/>a<b/>poquet<s n="adv"/></l><r>poco<b/>a<b/>poco<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>posta<s n="adv"/></l>             <r>a<b/>posta<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>prop<s n="adv"/></l>              <r>vicino<s n="adv"/></r></p></e>
@@ -1850,7 +1853,7 @@
 <e r="RL"><p><l>abans<s n="adv"/></l>                  <r>innanzi<s n="adv"/></r></p></e>
 <e>       <p><l>abans-d'ahir<s n="adv"/></l>           <r>l'altro<b/>ieri<s n="adv"/></r></p></e>
 <e r="LR"><p><l>abans<b/>d'ahir<s n="adv"/></l>        <r>l'altro<b/>ieri<s n="adv"/></r></p></e>
-<e>       <p><l>abans<b/>de<b/>gaire<s n="adv"/></l>   <r>tra<b/>poco<s n="adv"/></r></p></e>
+<e r="LR"><p><l>abans<b/>de<b/>gaire<s n="adv"/></l>   <r>tra<b/>poco<s n="adv"/></r></p></e>
 <e>       <p><l>absolutament<s n="adv"/></l>           <r>assolutamente<s n="adv"/></r></p></e>
 <e>       <p><l>accidentalment<s n="adv"/></l>         <r>accidentalmente<s n="adv"/></r></p></e>
 <e>       <p><l>activament<s n="adv"/></l>             <r>attivamente<s n="adv"/></r></p></e>
@@ -1971,7 +1974,7 @@
 <e>       <p><l>d'altra<b/>banda<s n="adv"/></l>       <r>d'altra<b/>parte<s n="adv"/></r></p></e>
 <e>       <p><l>d'altra<b/>banda<s n="adv"/></l>       <r>d'altro<b/>lato<s n="adv"/></r></p></e>
 <e>       <p><l>d'altra<b/>banda<s n="adv"/></l>       <r>d'altro<b/>canto<s n="adv"/></r></p></e>
-<e r="LR"><p><l>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></l><r>tra<b/>poco<s n="adv"/></r></p></e>
+<e>       <p><l>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></l><r>tra<b/>poco<s n="adv"/></r></p></e>
 <e>       <p><l>d'ara<b/>endavant<s n="adv"/></l>      <r>d'ora<b/>in<b/>poi<s n="adv"/></r></p></e>
 <e>       <p><l>d'ara<b/>endavant<s n="adv"/></l>      <r>d'ora<b/>in<b/>avanti<s n="adv"/></r></p></e>
 <e r="LR"><p><l>d'hora<s n="adv"/></l>                 <r>presto<s n="adv"/></r></p></e>
@@ -2548,7 +2551,6 @@
 <e r="LR"><p><l>llur<s n="det"/><s n="pos"/><s n="mf"/></l><r>il<b/>suo<s n="det"/><s n="pos"/><s n="GD"/></r></p></e>
 <e>       <p><l>molt<s n="adj"/></l>                   <r>molto<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>molts<b/>altres<s n="det"/><s n="ind"/></l><r>tanti<b/>altri<s n="det"/><s n="ind"/></r></p></e>
-<e>       <p><l>poc<s n="adj"/></l>                    <r>poco<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualsiasi<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualunque<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>tal<s n="adj"/></l>                    <r>tale<s n="adj"/></r></p></e>
@@ -7815,6 +7817,7 @@
 <e r="LR"><p><l>tramvia<s n="n"/><s n="m"/><s n="sg"/></l><r>tram<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>tramvia<s n="n"/><s n="m"/><s n="pl"/></l><r>tram<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>tramvia<s n="n"/><s n="m"/><s n="ND"/></l><r>tram<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>transcurs<s n="n"/><s n="m"/></l>      <r>corso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>transferència<s n="n"/><s n="f"/></l>  <r>bonifico<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>transformació<s n="n"/></l>            <r>trasformazione<s n="n"/></r></p></e>
 <e>       <p><l>transfusió<s n="n"/></l>               <r>trasfusione<s n="n"/></r></p></e>
@@ -8178,6 +8181,12 @@
 <e>       <p><l>Alcántara<s n="np"/><s n="ant"/></l>   <r>Alcántara<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Aldaia<s n="np"/><s n="top"/><s n="f"/></l>                  <r>Aldaia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Alejandro<s n="np"/><s n="ant"/></l>               <r>Alejandro<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alexandre<b/>el<b/>Gran<s n="np"/><s n="ant"/></l> <r>Alessandro<b/>Magno<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alexandre<b/>el<b/>Magne<s n="np"/><s n="ant"/></l><r>Alessandro<b/>Magno<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alexandre<s n="np"/><s n="ant"/></l>               <r>Alexandre<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alexandre<s n="np"/><s n="ant"/></l>               <r>Alessandro<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alessandro<s n="np"/><s n="ant"/></l>              <r>Alessandro<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alessandra<s n="np"/><s n="ant"/></l>              <r>Alessandra<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alemanya<s n="np"/><s n="top"/></l>                <r>Germania<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l>              <r>Alessandria<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Alfaro<s n="np"/><s n="ant"/></l>      <r>Alfaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -9054,6 +9063,7 @@
 <e><p><l>a<b/>sobre<b/>de<s n="pr"/></l><r>in<b/>cima<b/>a<s n="pr"/></r></p></e>
 <e><p><l>lluny<b/>de<s n="pr"/></l><r>lungi<b/>da<s n="pr"/></r></p></e>
 <e><p><l>a<b/>la<b/>vista<b/>de<s n="pr"/></l><r>alla<b/>vista<b/>di<s n="pr"/></r></p></e>
+<e><p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>nel<b/>corso<b/>di<s n="pr"/></r></p></e>
 
 <!-- SECTION: Preadv -->
 
@@ -9400,7 +9410,7 @@
 <e r="RL"><p><l>castigar<s n="vblex"/></l>             <r>punire<s n="vblex"/></r></p></e>
 <e>       <p><l>catalogar<s n="vblex"/></l>            <r>catalogare<s n="vblex"/></r></p></e>
 <e>       <p><l>caure<s n="vblex"/></l>                <r>cadere<s n="vblex"/></r></p></e>
-<e>       <p><l>caure<g><b/>a</b>terra</g><s n="vblex"/></l><r>cadere<g><b/>a</b>terra</g><s n="vblex"/></r></p></e>
+<e>       <p><l>caure<g><b/>a<b/>terra</g><s n="vblex"/></l><r>cadere<g><b/>a<b/>terra</g><s n="vblex"/></r></p></e>
 <e>       <p><l>causar<s n="vblex"/></l>               <r>causare<s n="vblex"/></r></p></e>
 <e>       <p><l>cavar<s n="vblex"/></l>                <r>scavare<s n="vblex"/></r></p></e>
 <e>       <p><l>caçar<s n="vblex"/></l>                <r>cacciare<s n="vblex"/></r></p></e>
