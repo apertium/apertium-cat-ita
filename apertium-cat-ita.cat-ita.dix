@@ -2460,6 +2460,7 @@
 <e>       <p><l>mentre<s n="cnjadv"/></l>              <r>mentre<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>mentre<b/>que<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>mes<s n="cnjcoo"/></l>                 <r>ma<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>sinó<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ni<s n="cnjcoo"/></l>                  <r>né<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>o<s n="cnjcoo"/></l>                   <r>o<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>o<s n="cnjcoo"/></l>                   <r>ovvero<s n="cnjcoo"/></r></p></e>
@@ -4996,8 +4997,7 @@
 <e>       <p><l>filtre<s n="n"/><s n="m"/></l>         <r>filtro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>filòsof<s n="n"/></l>                  <r>filosofo<s n="n"/></r></p></e>
 <e>       <p><l>final<s n="n"/></l>                    <r>finale<s n="n"/></r></p></e>
-<e>       <p><l>finalitat<s n="n"/><s n="f"/><s n="pl"/></l><r>fine<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>finançament<s n="n"/><s n="m"/></l>    <r>finanziamento<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>finalitat<s n="n"/><s n="f"/>          </l><r>fine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>finançament<s n="n"/><s n="m"/></l>    <r>finanziamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>finca<s n="n"/><s n="f"/></l>          <r>podere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>finestra<s n="n"/></l>                 <r>finestra<s n="n"/></r></p></e>
@@ -5591,7 +5591,7 @@
 <e>       <p><l>inflació<s n="n"/></l>                 <r>inflazione<s n="n"/></r></p></e>
 <e>       <p><l>influència<s n="n"/></l>               <r>influenza<s n="n"/></r></p></e>
 <e>       <p><l>influenciar<s n="vblex"/></l>          <r>influenzare<s n="vblex"/></r></p></e>
-<e>       <p><l>informació<s n="n"/><s n="f"/></l>     <r>informazione<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>informació<s n="n"/><s n="f"/></l>     <r>informazione<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>informe<s n="n"/></l>                  <r>rapporto<s n="n"/></r></p></e>
 <e>       <p><l>infraestructura<s n="n"/></l>          <r>infrastruttura<s n="n"/></r></p></e>
 <e>       <p><l>infusió<s n="n"/><s n="f"/></l>        <r>infuso<s n="n"/><s n="m"/></r></p></e>
@@ -6609,7 +6609,8 @@
 <e>       <p><l>panerola<s n="n"/></l>                 <r>blatta<s n="n"/></r></p></e>
 <e>       <p><l>panorama<s n="n"/></l>                 <r>panorama<s n="n"/></r></p></e>
 <e>       <p><l>pantalla<s n="n"/><s n="f"/></l>       <r>schermo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>pantalons<s n="n"/><s n="m"/><s n="pl"/></l><r>pantalone<s n="n"/></r></p></e>
+<e>       <p><l>pantalons<s n="n"/><s n="m"/><s n="pl"/></l><r>pantalone<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>pantalons<s n="n"/><s n="m"/><s n="pl"/></l><r>pantalone<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>pantà<s n="n"/><s n="m"/></l>          <r>palude<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>panxa<s n="n"/></l>                    <r>pancia<s n="n"/></r></p></e>
 <e>       <p><l>pany<s n="n"/><s n="m"/></l>           <r>serratura<s n="n"/><s n="f"/></r></p></e>
@@ -9000,6 +9001,31 @@
 <e>       <p><l>sobre<s n="pr"/></l>                   <r>sopra<s n="pr"/></r></p></e>
 <e>       <p><l>sobre<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>sota<s n="pr"/></l>                    <r>sotto<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fins<b/>a<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+<e><p><l>una<b/>mica<b/>de<s n="pr"/></l><r>un<b/>po'di<s n="pr"/></r></p></e>
+<e><p><l>quant<b/>a<s n="pr"/></l><r>per<b/>quanto<b/>riguarda<s n="pr"/></r></p></e>
+<e><p><l>com<b/>a<s n="pr"/></l><r>come<b/>a<s n="pr"/></r></p></e>
+<e><p><l>a<b/>partir<b/>de<s n="pr"/></l><r>a<b/>partire<b/>da<s n="pr"/></r></p></e>
+<e r="LR"><p><l>malgrat<s n="pr"/></l><r>malgrado<s n="pr"/></r></p></e>
+<e r="LR"><p><l>en<b/>comptes<b/>de<s n="pr"/></l><r>anziché<s n="pr"/></r></p></e>
+<e r="LR"><p><l>davant<b/>de<s n="pr"/></l><r>di<b/>fronte<b/>a<s n="pr"/></r></p></e>
+<e r="LR"><p><l>juntament<b/>amb<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
+<e i="yes"><p><l>juntament<b/>amb<s n="pr"/></l><r>assieme<b/>a<s n="pr"/></r></p></e>
+<e r="LR"><p><l>juntament<b/>amb<s n="pr"/></l><r>assieme<b/>con<s n="pr"/></r></p></e>
+<e><p><l>a<b/>la<b/>recerca<b/>de<s n="pr"/></l><r>in<b/>cerca<b/>di<s n="pr"/></r></p></e>
+<e><p><l>des<b/>de<s n="pr"/></l><r>fin<b/>da<s n="pr"/></r></p></e>
+<e r="LR"><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>mitjançant<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>darrere<b/>de<s n="pr"/></l><r>dietro<b/>a<s n="pr"/></r></p></e>
+<e><p><l>per<b/>tal<b/>de<s n="pr"/></l><r>pur<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>excepte<s n="pr"/></l><r>eccetto<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fora<b/>de<s n="pr"/></l><r>fuori<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fora<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
+<e r="LR"><p><l>a<b/>través<b/>de<s n="pr"/></l><r>attraverso<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>dins<b/>de<s n="pr"/></l><r>dentro<b/>a<s n="pr"/></r></p></e>
+<e r="LR"><p><l>excepte<s n="pr"/></l><r>salvo<s n="pr"/></r></p></e>
+<e><p><l>a<b/>sobre<b/>de<s n="pr"/></l><r>in<b/>cima<b/>a<s n="pr"/></r></p></e>
+<e><p><l>lluny<b/>de<s n="pr"/></l><r>lungi<b/>da<s n="pr"/></r></p></e>
 
 
 
