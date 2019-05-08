@@ -2309,7 +2309,7 @@
 <e>       <p><l>puntualment<s n="adv"/></l>            <r>puntualmente<s n="adv"/></r></p></e>
 <e>       <p><l>purament<s n="adv"/></l>               <r>puramente<s n="adv"/></r></p></e>
 <e>       <p><l>públicament<s n="adv"/></l>            <r>pubblicamente<s n="adv"/></r></p></e>
-<e>       <p><l>quan<s n="adv"/></l>                   <r>quando<s n="adv"/></r></p></e>
+<e>       <p><l>quan<s n="adv"/><s n="itg"/></l>       <r>quando<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>radicalment<s n="adv"/></l>            <r>radicalmente<s n="adv"/></r></p></e>
 <e>       <p><l>raonablement<s n="adv"/></l>           <r>ragionevolmente<s n="adv"/></r></p></e>
 <e>       <p><l>rarament<s n="adv"/></l>               <r>raramente<s n="adv"/></r></p></e>
@@ -2318,6 +2318,7 @@
 <e>       <p><l>recentment<s n="adv"/></l>             <r>di<b/>recente<s n="adv"/></r></p></e>
 <e>       <p><l>referent<b/>a<b/>això<s n="adv"/></l>  <r>a<b/>tal<b/>proposito<s n="adv"/></r></p></e>
 <e>       <p><l>referent<b/>a<b/>això<s n="adv"/></l>  <r>a<b/>tal<b/>riguardo<s n="adv"/></r></p></e>
+<e>       <p><l>en<b/>general<s n="adv"/></l>          <r>in<b/>genere<s n="adv"/></r></p></e>
 <e>       <p><l>regularment<s n="adv"/></l>            <r>in<b/>generale<s n="adv"/></r></p></e>
 <e>       <p><l>regularment<s n="adv"/></l>            <r>regolarmente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>reialment<s n="adv"/></l>              <r>realmente<s n="adv"/></r></p></e>
@@ -2411,6 +2412,9 @@
 <e>       <p><l>òbviament<s n="adv"/></l>              <r>ovviamente<s n="adv"/></r></p></e>
 <e>       <p><l>últimament<s n="adv"/></l>             <r>ultimamente<s n="adv"/></r></p></e>
 <e>       <p><l>únicament<s n="adv"/></l>              <r>unicamente<s n="adv"/></r></p></e>
+<e>       <p><l>gens<s n="adv"/></l>                   <r>affatto<s n="adv"/></r></p></e>
+<e r="LR"><p><l>gens<b/>ni<b/>mica<s n="adv"/></l>     <r>affatto<s n="adv"/></r></p></e>
+<e r="LR"><p><l>gens<b/>ni<b/>miqueta<s n="adv"/></l>  <r>affatto<s n="adv"/></r></p></e>
 
 <!-- SECTION: Conjunctions -->
 
@@ -2496,6 +2500,14 @@
 <e>       <p><l>o<s n="cnjcoo"/></l>                   <r>o<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>o<s n="cnjcoo"/></l>                   <r>ovvero<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>però<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
+<e><p><l>és<b/>a<b/>dir<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>o<s n="cnjcoo"/></l><r>oppure<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>o<b/>bé<s n="cnjcoo"/></l><r>oppure<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>però<s n="cnjcoo"/></l><r>e<b/>intanto<s n="cnjcoo"/></r></p></e>
+<e><p><l>o<b/>sigui<s n="cnjcoo"/></l><r>ossia<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>ni<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+<e><p><l>sinó<s n="cnjcoo"/></l><r>bensì<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>ni<s n="cnjcoo"/></l><r>neanche<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Determiners -->
 
@@ -6291,6 +6303,8 @@
 <e>       <p><l>motor<s n="n"/></l>                    <r>motore<s n="n"/></r></p></e>
 <e>       <p><l>motí<s n="n"/></l>                     <r>ammutinamento<s n="n"/></r></p></e>
 <e>       <p><l>moviment<s n="n"/></l>                 <r>movimento<s n="n"/></r></p></e>
+<e>       <p><l>moure<s n="vblex"/></l>                <r>muovere<s n="vblex"/></r></p></e>
+<e>       <p><l>commoure<s n="vblex"/></l>             <r>commuovere<s n="vblex"/></r></p></e>
 <e>       <p><l>mucosa<s n="n"/></l>                   <r>mucosa<s n="n"/></r></p></e>
 <e>       <p><l>mulat<s n="n"/></l>                    <r>mulatto<s n="n"/></r></p></e>
 <e>       <p><l>muller<s n="n"/></l>                   <r>donna<s n="n"/></r></p></e>
@@ -6359,7 +6373,8 @@
 <e>       <p><l>natalici<s n="n"/><s n="m"/><s n="sg"/></l><r>compleanno<s n="n"/></r></p></e>
 <e>       <p><l>natja<s n="n"/></l>                    <r>natica<s n="n"/></r></p></e>
 <e>       <p><l>natja<s n="n"/></l>                    <r>chiappa<s n="n"/></r></p></e>
-<e>       <p><l>naturalesa<s n="n"/></l>               <r>natura<s n="n"/></r></p></e>
+<e>       <p><l>natura<s n="n"/></l>                   <r>natura<s n="n"/></r></p></e>
+<e r="LR"><p><l>naturalesa<s n="n"/></l>               <r>natura<s n="n"/></r></p></e>
 <e>       <p><l>nau<s n="n"/><s n="f"/></l>            <r>capannone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>naufragi<s n="n"/></l>                 <r>naufragio<s n="n"/></r></p></e>
 <e>       <p><l>navegació<s n="n"/></l>                <r>navigazione<s n="n"/></r></p></e>
@@ -8176,7 +8191,7 @@
 <e>       <p><l>Alcanyís<s n="np"/><s n="top"/></l>                <r>Alcañiz<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Alcaraz<s n="np"/><s n="ant"/></l>     <r>Alcaraz<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Alcoi<s n="np"/><s n="top"/></l>                   <r>Alcoi<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Alcoi<s n="np"/><s n="top"/></l>                   <r>Alcoy<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>Alcoi<s n="np"/><s n="top"/></l>                   <r>Alcoy<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Alcàsser<s n="np"/><s n="top"/></l>                <r>Alcàsser<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Alcántara<s n="np"/><s n="ant"/></l>   <r>Alcántara<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Aldaia<s n="np"/><s n="top"/><s n="f"/></l>                  <r>Aldaia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -8188,16 +8203,18 @@
 <e>       <p><l>Alessandro<s n="np"/><s n="ant"/></l>              <r>Alessandro<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alessandra<s n="np"/><s n="ant"/></l>              <r>Alessandra<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alemanya<s n="np"/><s n="top"/></l>                <r>Germania<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l>              <r>Alessandria<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l>    <r>Alessandria<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Alfaro<s n="np"/><s n="ant"/></l>      <r>Alfaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>     <r>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Algarra<s n="np"/><s n="ant"/></l>     <r>Algarra<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Algèria<s n="np"/><s n="top"/><s n="f"/></l>     <r>Algeria<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Almansa<s n="np"/><s n="top"/></l>                 <r>Almansa<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Almeria<s n="np"/><s n="top"/><s n="f"/></l>                 <r>Almería<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-<e>       <p><l>Almería<s n="np"/><s n="top"/><s n="f"/></l>                 <r>Almería<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Almeria<s n="np"/><s n="top"/><s n="f"/></l>       <r>Almería<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Almería<s n="np"/><s n="top"/><s n="f"/></l>       <r>Almería<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Alonso<s n="np"/><s n="ant"/></l>      <r>Alonso<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>Altea<s n="np"/><s n="top"/><s n="f"/></l>                   <r>Altea<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Altea<s n="np"/><s n="top"/><s n="f"/></l>         <r>Altea<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Al·là<s n="np"/><s n="ant"/></l>                   <r>Allah<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Amsterdam<s n="np"/><s n="top"/></l>               <r>Amsterdam<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Amèrica<s n="np"/><s n="top"/></l>                 <r>America<s n="np"/><s n="loc"/></r></p></e>
