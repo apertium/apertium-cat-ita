@@ -1431,6 +1431,7 @@
 <e>       <p><l>portàtil</l>                           <r>portatile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>positiu</l>                            <r>positivo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>possible</l>                           <r>possibile</r></p><par n="adj_sup2"/></e>
+<e>       <p><l>impossible</l>                         <r>impossibile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>posterior<s n="adj"/></l>              <r>posteriore<s n="adj"/></r></p></e>
 <e>       <p><l>potable</l>                            <r>potabile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>potencial</l>                          <r>potenziale</r></p><par n="adj_sup2"/></e>
@@ -2273,7 +2274,7 @@
 <e>       <p><l>popularment<s n="adv"/></l>            <r>popolarmente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>posem<b/>per<b/>cas<s n="adv"/></l>    <r>per<b/>esempio<s n="adv"/></r></p></e>
 <e>       <p><l>positivament<s n="adv"/></l>           <r>positivamente<s n="adv"/></r></p></e>
-<e>       <p><l>possiblement<s n="adv"/></l>           <r>se<b/>possibile<s n="adv"/></r></p></e>
+<e r="RL"><p><l>possiblement<s n="adv"/></l>           <r>se<b/>possibile<s n="adv"/></r></p></e>
 <e>       <p><l>possiblement<s n="adv"/></l>           <r>possibilmente<s n="adv"/></r></p></e>
 <e>       <p><l>posteriorment<s n="adv"/></l>          <r>posteriormente<s n="adv"/></r></p></e>
 <e>       <p><l>potencialment<s n="adv"/></l>          <r>potenzialmente<s n="adv"/></r></p></e>
@@ -2282,6 +2283,7 @@
 <e>       <p><l>precisament<s n="adv"/></l>            <r>precisamente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>preferentment<s n="adv"/></l>          <r>preferibilmente<s n="adv"/></r></p></e>
 <e>       <p><l>preferiblement<s n="adv"/></l>         <r>preferibilmente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pregonament<s n="adv"/></l>            <r>profondamente<s n="adv"/></r></p></e>
 <e>       <p><l>presumiblement<s n="adv"/></l>         <r>presumibilmente<s n="adv"/></r></p></e>
 <e>       <p><l>presumptament<s n="adv"/></l>          <r>presuntamente<s n="adv"/></r></p></e>
 <e>       <p><l>previsiblement<s n="adv"/></l>         <r>previsibilmente<s n="adv"/></r></p></e>
@@ -2454,6 +2456,8 @@
 <e>       <p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>malgrado<s n="cnjadv"/></r></p></e>
 <e>       <p><l>és<b/>a<b/>dir<s n="cnjadv"/></l>      <r>ossia<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>és<b/>a<b/>dir<s n="cnjadv"/></l>      <r>cioè<s n="cnjadv"/></r></p></e>
+<e>       <p><l>no<b/>obstant<s n="cnjadv"/></l>       <r>nonostante<s n="cnjsub"/></r></p></e>
+<e>       <p><l>que<s n="cnjsub"/></l>                 <r>che<s n="cnjsub"/></r></p></e>
 
 <e>       <p><l>i<s n="cnjcoo"/></l>                   <r>e<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>i<s n="cnjcoo"/></l>                   <r>ed<s n="cnjcoo"/></r></p></e>
@@ -2465,10 +2469,6 @@
 <e>       <p><l>o<s n="cnjcoo"/></l>                   <r>o<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>o<s n="cnjcoo"/></l>                   <r>ovvero<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>però<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
-<e r="LR"><p><l>val<b/>a<b/>dir<s n="cnjcoo"/></l>     <r>è<b/>giusto<b/>dire<s n="cnjcoo"/></r></p></e>
-
-<e>       <p><l>no<b/>obstant<s n="cnjadv"/></l>       <r>nonostante<s n="cnjsub"/></r></p></e>
-<e>       <p><l>que<s n="cnjsub"/></l>                 <r>che<s n="cnjsub"/></r></p></e>
 
 <!-- SECTION: Determiners -->
 
@@ -8979,9 +8979,11 @@
 <e>       <p><l>entre<s n="pr"/></l>                   <r>fra<s n="pr"/></r></p></e>
 <e r="LR"><p><l>envers<s n="pr"/></l>                  <r>per<s n="pr"/></r></p></e>
 <e>       <p><l>excepte<s n="pr"/></l>                 <r>tranne<s n="pr"/></r></p></e>
-<e r="LR"><p><l>fins<s n="pr"/></l>                    <r>fino<s n="pr"/></r></p></e>
-<e>       <p><l>fins<b/>a<s n="pr"/></l>               <r>fino<s n="pr"/></r></p></e>
+<e>       <p><l>fins<s n="pr"/></l>                    <r>fino<s n="pr"/></r></p></e>
+<e>       <p><l>fins<b/>a<s n="pr"/></l>               <r>fino<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>fora<b/>de<s n="pr"/></l>              <r>fuori<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fora<b/>de<s n="pr"/></l>              <r>fuori<b/>di<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fora<b/>de<s n="pr"/></l>              <r>fuori<b/>da<s n="pr"/></r></p></e>
 <e>       <p><l>juntament<b/>amb<s n="pr"/></l>        <r>insieme<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>malgrat<s n="pr"/></l>                 <r>nonostante<s n="pr"/></r></p></e>
 <e>       <p><l>mitjançant<s n="pr"/></l>              <r>mediante<s n="pr"/></r></p></e>
@@ -9001,33 +9003,35 @@
 <e>       <p><l>sobre<s n="pr"/></l>                   <r>sopra<s n="pr"/></r></p></e>
 <e>       <p><l>sobre<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>sota<s n="pr"/></l>                    <r>sotto<s n="pr"/></r></p></e>
-<e r="LR"><p><l>fins<b/>a<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+<e>       <p><l>a<b/>l'encontre<b/>de<s n="pr"/></l>   <r>incontro<b/>a<s n="pr"/></r></p></e>
+<e><p><l>al<b/>nord<b/>de<s n="pr"/></l><r>a<b/>nord<b/>di<s n="pr"/></r></p></e>
 <e><p><l>una<b/>mica<b/>de<s n="pr"/></l><r>un<b/>po'di<s n="pr"/></r></p></e>
 <e><p><l>quant<b/>a<s n="pr"/></l><r>per<b/>quanto<b/>riguarda<s n="pr"/></r></p></e>
 <e><p><l>com<b/>a<s n="pr"/></l><r>come<b/>a<s n="pr"/></r></p></e>
 <e><p><l>a<b/>partir<b/>de<s n="pr"/></l><r>a<b/>partire<b/>da<s n="pr"/></r></p></e>
-<e r="LR"><p><l>malgrat<s n="pr"/></l><r>malgrado<s n="pr"/></r></p></e>
-<e r="LR"><p><l>en<b/>comptes<b/>de<s n="pr"/></l><r>anziché<s n="pr"/></r></p></e>
-<e r="LR"><p><l>davant<b/>de<s n="pr"/></l><r>di<b/>fronte<b/>a<s n="pr"/></r></p></e>
-<e r="LR"><p><l>juntament<b/>amb<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
+<e r="RL"><p><l>malgrat<s n="pr"/></l><r>malgrado<s n="pr"/></r></p></e>
+<e r="RL"><p><l>en<b/>comptes<b/>de<s n="pr"/></l><r>anziché<s n="pr"/></r></p></e>
+<e r="RL"><p><l>davant<b/>de<s n="pr"/></l><r>di<b/>fronte<b/>a<s n="pr"/></r></p></e>
+<e><p><l>en<b/>concepte<b/>de<s n="pr"/></l><r>a<b/>fronte<b/>di<s n="pr"/></r></p></e>
+<e r="RL"><p><l>juntament<b/>amb<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
 <e i="yes"><p><l>juntament<b/>amb<s n="pr"/></l><r>assieme<b/>a<s n="pr"/></r></p></e>
-<e r="LR"><p><l>juntament<b/>amb<s n="pr"/></l><r>assieme<b/>con<s n="pr"/></r></p></e>
+<e r="RL"><p><l>juntament<b/>amb<s n="pr"/></l><r>assieme<b/>con<s n="pr"/></r></p></e>
 <e><p><l>a<b/>la<b/>recerca<b/>de<s n="pr"/></l><r>in<b/>cerca<b/>di<s n="pr"/></r></p></e>
 <e><p><l>des<b/>de<s n="pr"/></l><r>fin<b/>da<s n="pr"/></r></p></e>
-<e r="LR"><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
-<e r="LR"><p><l>mitjançant<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
-<e r="LR"><p><l>darrere<b/>de<s n="pr"/></l><r>dietro<b/>a<s n="pr"/></r></p></e>
+<e r="RL"><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
+<e r="RL"><p><l>mitjançant<s n="pr"/></l><r>per<b/>mezzo<b/>di<s n="pr"/></r></p></e>
+<e r="RL"><p><l>darrere<b/>de<s n="pr"/></l><r>dietro<b/>a<s n="pr"/></r></p></e>
+<e><p><l>en<b/>espera<b/>de<s n="pr"/></l><r>in<b/>attesa<b/>di<s n="pr"/></r></p></e>
 <e><p><l>per<b/>tal<b/>de<s n="pr"/></l><r>pur<b/>di<s n="pr"/></r></p></e>
-<e r="LR"><p><l>excepte<s n="pr"/></l><r>eccetto<s n="pr"/></r></p></e>
-<e r="LR"><p><l>fora<b/>de<s n="pr"/></l><r>fuori<b/>di<s n="pr"/></r></p></e>
-<e r="LR"><p><l>fora<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
-<e r="LR"><p><l>a<b/>través<b/>de<s n="pr"/></l><r>attraverso<b/>di<s n="pr"/></r></p></e>
-<e r="LR"><p><l>dins<b/>de<s n="pr"/></l><r>dentro<b/>a<s n="pr"/></r></p></e>
-<e r="LR"><p><l>excepte<s n="pr"/></l><r>salvo<s n="pr"/></r></p></e>
+<e r="RL"><p><l>excepte<s n="pr"/></l><r>eccetto<s n="pr"/></r></p></e>
+<e r="RL"><p><l>a<b/>través<b/>de<s n="pr"/></l><r>attraverso<b/>di<s n="pr"/></r></p></e>
+<e r="RL"><p><l>dins<b/>de<s n="pr"/></l><r>dentro<b/>a<s n="pr"/></r></p></e>
+<e r="RL"><p><l>excepte<s n="pr"/></l><r>salvo<s n="pr"/></r></p></e>
 <e><p><l>a<b/>sobre<b/>de<s n="pr"/></l><r>in<b/>cima<b/>a<s n="pr"/></r></p></e>
 <e><p><l>lluny<b/>de<s n="pr"/></l><r>lungi<b/>da<s n="pr"/></r></p></e>
+<e><p><l>a<b/>la<b/>vista<b/>de<s n="pr"/></l><r>alla<b/>vista<b/>di<s n="pr"/></r></p></e>
 
-
+<!-- SECTION: Preadv -->
 
 <e>       <p><l>amb<b/>prou<b/>feines<s n="adv"/></l>  <r>appena<s n="preadv"/></r></p></e>
 <e>       <p><l>ben<s n="preadv"/></l>                 <r>bene<s n="preadv"/></r></p></e>

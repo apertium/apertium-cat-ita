@@ -968,19 +968,19 @@
     </or>
   </rule>
 
-  <!-- per > pro, dae --> <!-- srd -->
+  <!-- per > per, da -->
 
   <rule weight="0.6">
-    <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+    <match lemma="per" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
-  <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
+  <rule weight="1.0"> <!-- complement agent introduït per "da" en sard -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match tags="adv"/>
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
   <rule weight="1.2">
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -995,24 +995,18 @@
   </rule>
 
 
-  <!-- de > de, dae --> <!-- srd -->
-<!-- pp dae -->
+  <!-- de > da, di -->
 
   <rule weight="0.6">
-    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
 
   <rule weight="1.0">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match tags="adv"/>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="1.2">
      <or>
        <match lemma="venir" tags="vblex.*"/>
        <match lemma="arribar" tags="vblex.*"/>
@@ -1038,51 +1032,30 @@
        <match lemma="separar" tags="vblex.*"/>
        <match lemma="resultar" tags="vblex.*"/>
      </or>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
 
-  <rule weight="1.0">
-     <or>
-       <match lemma="venir" tags="vblex.*"/>
-       <match lemma="arribar" tags="vblex.*"/>
-       <match lemma="eliminar" tags="vblex.*"/>
-       <match lemma="treure" tags="vblex.*"/>
-       <match lemma="esborrar" tags="vblex.*"/>
-       <match lemma="provenir" tags="vblex.*"/>
-       <match lemma="procedir" tags="vblex.*"/>
-       <match lemma="viatjar" tags="vblex.*"/>
-       <match lemma="volar" tags="vblex.*"/>
-       <match lemma="anar" tags="vblex.*"/>
-       <match lemma="tornar" tags="vblex.*"/>
-       <match lemma="saltar" tags="vblex.*"/>
-       <match lemma="nedar" tags="vblex.*"/>
-       <match lemma="navegar" tags="vblex.*"/>
-       <match lemma="sortir" tags="vblex.*"/>
-       <match lemma="eixir" tags="vblex.*"/>
-       <match lemma="salpar" tags="vblex.*"/>
-       <match lemma="pujar" tags="vblex.*"/>
-       <match lemma="baixar" tags="vblex.*"/>
-       <match lemma="traduir" tags="vblex.*"/>
-       <match lemma="dependre" tags="vblex.*"/>
-       <match lemma="separar" tags="vblex.*"/>
-       <match lemma="resultar" tags="vblex.*"/>
-     </or>
-     <match tags="adv"/>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-  </rule>
-
-  <rule weight="1.0">
+  <rule weight="1.2">
      <or>
        <match lemma="procedent" tags="vblex.adj*"/>
        <match lemma="provinent" tags="vblex.adj*"/>
        <match lemma="sortint" tags="vblex.adj*"/>
        <match lemma="resultant" tags="vblex.adj*"/>
      </or>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
 
   <rule weight="1.0">
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adj.*"/>
+     </repeat>
      <or>
        <match lemma="cotó" tags="n.*"/>
        <match lemma="llana" tags="n.*"/>
@@ -1116,9 +1089,9 @@
      </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="1.2">
      <match lemma="traducció" tags="n.*"/>
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
      <match tags="det.def.m.sg"/>
     <or>
       <seq n="llengua"/>
@@ -1127,21 +1100,13 @@
 
   <rule weight="1.0">
      <or>
-       <match lemma="majoria" tags="n.*"/>
-       <match lemma="minoria" tags="n.*"/>
-       <match lemma="part" tags="n.*"/>
-     </or>
-     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or>
        <match lemma="camp" tags="n.*"/>
        <match lemma="fàbrica" tags="n.*"/>
        <match lemma="factoria" tags="n.*"/>
        <match lemma="mina" tags="n.*"/>
        <match lemma="explotació" tags="n.*"/>
      </or>
-     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
      <or>
        <match lemma="cotó" tags="n.*"/>
        <match lemma="llana" tags="n.*"/>
@@ -1166,19 +1131,12 @@
        <match lemma="metall" tags="n.*"/>
        <match lemma="bronze" tags="n.*"/>
        <match lemma="ferro" tags="n.*"/>
-<!--       <match lemma="or" tags="n.*"/> -->
        <match lemma="plata" tags="n.*"/>
        <match lemma="argent" tags="n.*"/>
        <match lemma="diamant" tags="n.*"/>
        <match lemma="rubí" tags="n.*"/>
        <match lemma="maragda" tags="n.*"/>
      </or>
-  </rule>
-
-  <rule weight="1.0">
-     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-     <match lemma="un" tags="det.*"/>
-     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
 
   <!-- al llarg de > durante, a largu de --> <!-- srd -->
