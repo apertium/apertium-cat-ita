@@ -1553,6 +1553,18 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- limitar > limitare, confinare -->
+  <rule weight="0.8">
+    <match lemma="limitar" tags="vblex.*"><select lemma="limitare" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match lemma="limitar" tags="vblex.pp.*"><select lemma="confinare" tags="vblex.*"/></match>
+  </rule>
+  
   <!-- ensenyar > insegnare, mustrare --> <!-- srd -->
 
   <rule weight="0.6">

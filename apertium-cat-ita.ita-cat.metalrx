@@ -320,6 +320,18 @@
   </rule>
 
 <!-- V -->
+  <!-- confinare > confinar, limitar -->
+  <rule weight="0.8">
+    <match lemma="confinare" tags="vblex.*"><select lemma="confinar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="confinare" tags="vblex.pp.*"><select lemma="limitar" tags="vblex.*"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match lemma="con" tags="pr"/>
+  </rule>
+  
   <!-- disciplinare > disciplinar, reglamentar -->
   <rule weight="0.8">
     <match lemma="disciplinare" tags="vblex.*"><select lemma="disciplinar" tags="vblex.*"/></match>
