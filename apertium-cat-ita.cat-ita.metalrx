@@ -10,13 +10,13 @@
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
          <match lemma="de" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.loc"/><match tags="np.top.*"/><match lemma="Borbó" tags="np.ant"/></or>
       </rule>
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
          <match tags="np.ant.*"/>
          <match lemma="de" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+	 <or><match tags="np.loc"/><match tags="np.top.*"/><match lemma="Borbó" tags="np.ant"/></or>
       </rule>
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -1006,6 +1006,62 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <match lemma="Borbó" tags="np.ant"/>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="patriarca" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="regent" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="delfí" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+  </rule>
+  `
+  <rule weight="1.0">
+     <or>
+       <match lemma="patriarcat" tags="n.*"/>
+       <match lemma="bisbat" tags="n.*"/>
+       <match lemma="arquebisbat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="virreinat" tags="n.*"/>
+       <match lemma="principat" tags="n.*"/>
+       <match lemma="comtat" tags="n.*"/>
+       <match lemma="vescomtat" tags="n.*"/>
+       <match lemma="ducat" tags="n.*"/>
+       <match lemma="arxiducat" tags="n.*"/>
+       <match lemma="marquesat" tags="n.*"/>
+       <match lemma="baronia" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+  </rule>
+  `
+  <rule weight="1.2">
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <match lemma="Urgell" tags="np.*"/>
+  </rule>
+  `
   <rule weight="1.2">
      <or>
        <match lemma="venir" tags="vblex.*"/>
@@ -1037,6 +1093,7 @@
      </repeat>
      <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
+
 
   <rule weight="1.2">
      <or>
@@ -2977,7 +3034,7 @@
   <macro name="noms_propis" p1="Pau" p2="Paolo" />
   <macro name="noms_propis" p1="Pere" p2="Pietro" />
   <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
-  <macro name="noms_propis" p1="Ramon" p2="Raimundo" />
+  <macro name="noms_propis" p1="Ramon" p2="Raimondo" />
   <macro name="noms_propis" p1="Ricard" p2="Ricardo" />
   <macro name="noms_propis" p1="Robert" p2="Roberto" />
   <macro name="noms_propis" p1="Roger" p2="Ruggero" />
