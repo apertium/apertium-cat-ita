@@ -94,11 +94,32 @@
       <cat-item tags="vbmod.ifi.*"/>
     </def-cat>
 
+    <def-cat n="ser_p3sg">
+      <cat-item tags="vbser.pri.p3.sg"/>
+      <cat-item tags="vbser.pii.p3.sg"/>
+      <cat-item tags="vbser.prs.p3.sg"/>
+      <cat-item tags="vbser.fti.p3.sg"/>
+      <cat-item tags="vbser.pis.p3.sg"/>
+      <cat-item tags="vbser.cni.p3.sg"/>
+    </def-cat>
+
+    <def-cat n="ser_p3pl">
+      <cat-item tags="vbser.pri.p3.pl"/>
+      <cat-item tags="vbser.pii.p3.pl"/>
+      <cat-item tags="vbser.prs.p3.pl"/>
+      <cat-item tags="vbser.fti.p3.pl"/>
+      <cat-item tags="vbser.pis.p3.pl"/>
+      <cat-item tags="vbser.cni.p3.pl"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
     <def-cat n="prnpro">
       <cat-item tags="prn.pro.*"/>
+    </def-cat>
+    <def-cat n="ci">
+      <cat-item lemma="ci" tags="prn.pro.adv"/>
     </def-cat>
 
     <def-cat n="top_ant">
