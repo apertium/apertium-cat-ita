@@ -9,13 +9,26 @@
       </rule>
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-         <match lemma="de" tags="pr"/>
+         <match lemma="di" tags="pr"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
          <match tags="np.ant.*"/>
-         <match lemma="de" tags="pr"/>
+         <match lemma="di" tags="pr"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
@@ -217,7 +230,7 @@
            <match lemma="reggenza" tags="n.*"/>
            <match lemma="vicereame" tags="n.*"/>
          </or>
-         <match lemma="de" tags="pr"/>
+         <match lemma="di" tags="pr"/>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
       <rule weight="1.0">
@@ -229,7 +242,20 @@
            <match lemma="reggenza" tags="n.*"/>
            <match lemma="vicereame" tags="n.*"/>
          </or>
-         <match lemma="de" tags="pr"/>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papato" tags="n.*"/>
+           <match lemma="pontificato" tags="n.*"/>
+           <match lemma="impero" tags="n.*"/>
+           <match lemma="regno" tags="n.*"/>
+           <match lemma="reggenza" tags="n.*"/>
+           <match lemma="vicereame" tags="n.*"/>
+         </or>
+         <match lemma="di" tags="pr"/>
          <match tags="np.ant.*"/>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
@@ -358,8 +384,10 @@
 
 <!-- **************** NP **************** -->
 
+  <macro name="noms_propis" p1="Alberto" p2="Albert" />
   <macro name="noms_propis" p1="Alessandro" p2="Alexandre" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
+  <macro name="noms_propis" p1="Andrea" p2="Andreu" />
   <macro name="noms_propis" p1="Benedeto" p2="Benet" />
   <macro name="noms_propis" p1="Berengario" p2="Berenguer" />
   <macro name="noms_propis" p1="Bernardo" p2="Bernat" />
@@ -368,9 +396,10 @@
   <macro name="noms_propis" p1="Celestino" p2="Celestí" />
   <macro name="noms_propis" p1="Clemente" p2="Climent" />
   <macro name="noms_propis" p1="Cristiano" p2="Cristià" />
+  <macro name="noms_propis" p1="Edoardo" p2="Eduard" />
   <macro name="noms_propis" p1="Elisabeta" p2="Elisabet" />
   <macro name="noms_propis" p1="Emanuele" p2="Manuel" />
-  <macro name="noms_propis" p1="Errico" p2="Enric" />
+  <macro name="noms_propis" p1="Enrico" p2="Enric" />
   <macro name="noms_propis" p1="Filippo" p2="Felip" />
   <macro name="noms_propis" p1="Ferdinando" p2="Ferran" />
   <macro name="noms_propis" p1="Francesco" p2="Francesc" />
