@@ -8486,6 +8486,15 @@
 <e>       <p><l>Alexandre<s n="np"/><s n="ant"/></l>               <r>Alessandro<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alessandro<s n="np"/><s n="ant"/></l>              <r>Alessandro<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alessandra<s n="np"/><s n="ant"/></l>              <r>Alessandra<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Víctor<s n="np"/><s n="ant"/></l>               <r>Víctor<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Víctor<s n="np"/><s n="ant"/></l>               <r>Vittorio<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Vittorio<s n="np"/><s n="ant"/></l>              <r>Vittorio<s n="np"/><s n="ant"/></r></p></e>
+<e i="yes"><p><l>Víctor<b/>Manuel<s n="np"/><s n="ant"/></l>               <r>Víctor<b/>Manuel<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Víctor<b/>Manuel<s n="np"/><s n="ant"/></l>               <r>Vittorio<b/>Emanuele<s n="np"/><s n="ant"/></r></p></e>
+<e i="yes"><p><l>Vittorio<b/>Emanuele<s n="np"/><s n="ant"/></l>              <r>Vittorio<b/>Emanuele<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Manuel<s n="np"/><s n="ant"/></l>               <r>Manuel<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Manuel<s n="np"/><s n="ant"/></l>               <r>Emanuele<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Emanuele<s n="np"/><s n="ant"/></l>              <r>Emanuele<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alemanya<s n="np"/><s n="top"/></l>                <r>Germania<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l>    <r>Alessandria<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Alfaro<s n="np"/><s n="ant"/></l>      <r>Alfaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -8654,6 +8663,8 @@
 <e>       <p><l>Corea<s n="np"/><s n="top"/></l>                   <r>Corea<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Cornellà<s n="np"/><s n="top"/></l>    <r>Cornellà<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Crist<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>        <r>Cristo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Cristià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>    <r>Cristià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Cristià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>    <r>Cristiano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Cristiano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>    <r>Cristiano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Croàcia<s n="np"/><s n="top"/></l>                 <r>Croazia<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Cuba<s n="np"/><s n="top"/></l>                    <r>Cuba<s n="np"/><s n="loc"/></r></p></e>

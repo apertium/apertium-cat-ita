@@ -2937,7 +2937,9 @@
   <macro name="noms_propis" p1="Carles" p2="Carlo" />
   <macro name="noms_propis" p1="Celestí" p2="Celestino" />
   <macro name="noms_propis" p1="Climent" p2="Clemente" />
+  <macro name="noms_propis" p1="Cristià" p2="Cristiano" />
   <macro name="noms_propis" p1="Elisabet" p2="Elisabeta" />
+  <macro name="noms_propis" p1="Emanuele" p2="Manuel" />
   <macro name="noms_propis" p1="Enric" p2="Errico" />
   <macro name="noms_propis" p1="Felip" p2="Filippo" />
   <macro name="noms_propis" p1="Ferran" p2="Ferdinando" />
@@ -2965,6 +2967,7 @@
   <macro name="noms_propis" p1="Manuel" p2="Manuelle" />
   <macro name="noms_propis" p1="Marc" p2="Marco" />
   <macro name="noms_propis" p1="Martí" p2="Martino" />
+  <macro name="noms_propis" p1="Manuel" p2="Emanuele" />
   <macro name="noms_propis" p1="Mateu" p2="Matteo" />
   <macro name="noms_propis" p1="Maximilià" p2="Massimiliano" />
   <macro name="noms_propis" p1="Nicolau" p2="Nicola" />
@@ -2975,6 +2978,8 @@
   <macro name="noms_propis" p1="Ricard" p2="Ricardo" />
   <macro name="noms_propis" p1="Roger" p2="Ruggero" />
   <macro name="noms_propis" p1="Sixt" p2="Sisto" />
+  <macro name="noms_propis" p1="Víctor" p2="Vittorio" />
+  <macro name="noms_propis" p1="Víctor Manuel" p2="Vittorio Emanuele" />
 
 </rules>
 </metalrx>
