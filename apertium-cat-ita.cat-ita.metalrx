@@ -2979,6 +2979,7 @@
   <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
   <macro name="noms_propis" p1="Ramon" p2="Raimundo" />
   <macro name="noms_propis" p1="Ricard" p2="Ricardo" />
+  <macro name="noms_propis" p1="Robert" p2="Roberto" />
   <macro name="noms_propis" p1="Roger" p2="Ruggero" />
   <macro name="noms_propis" p1="Sixt" p2="Sisto" />
   <macro name="noms_propis" p1="Víctor" p2="Vittorio" />

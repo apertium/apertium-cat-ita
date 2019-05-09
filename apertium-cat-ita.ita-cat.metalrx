@@ -433,6 +433,7 @@
   <macro name="noms_propis" p1="Ramiro" p2="Ramir" />
   <macro name="noms_propis" p1="Raimundo" p2="Ramon" />
   <macro name="noms_propis" p1="Ricardo" p2="Ricard" />
+  <macro name="noms_propis" p1="Roberto" p2="Robert" />
   <macro name="noms_propis" p1="Ruggero" p2="Roger" />
   <macro name="noms_propis" p1="Sisto" p2="Sixt" />
   <macro name="noms_propis" p1="Vittorio" p2="Víctor" />

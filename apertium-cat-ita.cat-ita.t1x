@@ -15,6 +15,7 @@
 
     <def-cat n="top_ant">
       <cat-item tags="np.top.*"/>
+      <cat-item tags="np.hyd.*"/>
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.cog.*"/>
       <cat-item tags="np.al.*"/>
@@ -151,6 +152,7 @@
       <attr-item tags="np.top"/>
       <attr-item tags="np.hyd"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
       <attr-item tags="np.loc"/>
       <attr-item tags="np.al"/>
     </def-attr>

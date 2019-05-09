@@ -2736,7 +2736,7 @@
 <e>       <p><l>divers<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>diverso<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>divers<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></l><r>diverso<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>eixe<s n="det"/><s n="dem"/></l>       <r>questo<s n="det"/><s n="dem"/></r></p></e>
-<e>       <p><l>el<s n="detnt"/></l>                   <r>lo<s n="detnt"/></r></p></e>
+<e r="RL"><p><l>el<s n="detnt"/></l>                   <r>lo<s n="detnt"/></r></p></e>
 <e>       <p><l>el<s n="det"/><s n="def"/></l>         <r>il<s n="det"/><s n="def"/></r></p></e>
 <e r="LR"><p><l>el<s n="det"/><s n="def"/><s n="mf"/></l><r>il<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>il<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
@@ -9038,6 +9038,9 @@
 <e>       <p><l>Nigèria<s n="np"/><s n="top"/><s n="f"/></l>                 <r>Nigeria<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Niça<s n="np"/><s n="top"/></l>                    <r>Nizza<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Norberto<s n="np"/><s n="ant"/></l>                <r>Norberto<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Humbert<s n="np"/><s n="ant"/></l>                <r>Humbert<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Humbert<s n="np"/><s n="ant"/></l>                <r>Umberto<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Umberto<s n="np"/><s n="ant"/></l>                <r>Umberto<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Noruega<s n="np"/><s n="top"/></l>                 <r>Norvegia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Nova<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Nàpols<s n="np"/><s n="top"/></l>                  <r>Napoli<s n="np"/><s n="top"/></r></p></e>
@@ -9070,6 +9073,14 @@
 <e>       <p><l>Paul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>        <r>Paul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Paula<s n="np"/><s n="ant"/></l>                   <r>Paula<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Pietro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pietro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Pietro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Piero<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Piero<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Beppe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Beppe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Marc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Marc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Marc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Marco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Marco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l>       <r>Marco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Pegàs<s n="np"/><s n="al"/></l>        <r>Pegaso<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Penélope<s n="np"/><s n="ant"/></l>                <r>Penelope<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Pequín<s n="np"/><s n="top"/></l>                  <r>Pechino<s n="np"/><s n="top"/></r></p></e>
@@ -9108,12 +9119,15 @@
 <e>       <p><l>Requena<s n="np"/><s n="top"/></l>                 <r>Requena<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Reus<s n="np"/><s n="top"/></l>                    <r>Reus<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ribes<s n="np"/><s n="al"/></l>        <r>Ribes<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Ricard<s n="np"/><s n="ant"/></l>                 <r>Ricard<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ricard<s n="np"/><s n="ant"/></l>                 <r>Ricardo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Ricardo<s n="np"/><s n="ant"/></l>                 <r>Ricardo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Richard<s n="np"/><s n="ant"/></l>     <r>Richard<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Ripoll<s n="np"/><s n="top"/></l>      <r>Ripoll<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Riquelme<s n="np"/><s n="ant"/></l>    <r>Riquelme<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Rivera<s n="np"/><s n="al"/></l>       <r>Rivera<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Robert<s n="np"/><s n="ant"/></l>                  <r>Robert<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Robert<s n="np"/><s n="ant"/></l>                 <r>Roberto<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Roberto<s n="np"/><s n="ant"/></l>                 <r>Roberto<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Rodrigo<s n="np"/><s n="ant"/></l>     <r>Rodrigo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Rodríguez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l>   <r>Rodríguez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
