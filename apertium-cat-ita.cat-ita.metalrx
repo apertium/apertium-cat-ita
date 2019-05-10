@@ -1006,12 +1006,18 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
+  <rule weight="1.0"> <!-- gairebé sempre són topònims, però que estan analitzats com a cognoms (perquè en tenim molts) -->
+     <match tags="np.ant.*"/>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <match tags="np.cog.*"/>
+  </rule>
+  `
   <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
      <match lemma="Borbó" tags="np.ant"/>
   </rule>
 
-  <rule weight="1.2">
+  <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
      <match lemma="Urgell" tags="np.*"/>
   </rule>
@@ -1062,6 +1068,16 @@
      <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
   </rule>
   `
+  <rule weight="1.0">
+     <match tags="det.def.*"/>
+     <or>
+       <match lemma="més"/>
+       <match lemma="menys"/>
+     </or>
+     <match tags="adj..*"/>
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+  </rule>
+
   <rule weight="1.2">
      <or>
        <match lemma="venir" tags="vblex.*"/>
