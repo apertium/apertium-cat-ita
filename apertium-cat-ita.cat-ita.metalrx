@@ -3014,10 +3014,7 @@
   <macro name="noms_propis" p1="Isabel" p2="Isabella" />
   <macro name="noms_propis" p1="Jaume" p2="Giacomo" />
   <macro name="noms_propis" p1="Joana" p2="Giovanna" />
-  <macro name="noms_propis" p1="Joan Carles" p2="Juan Carlos" />
-  <macro name="noms_propis" p1="Joan Manuel" p2="Giovanni Manuelle" />
   <macro name="noms_propis" p1="Joan" p2="Giovanni" />
-  <macro name="noms_propis" p1="Joan Pau" p2="Giovanni Paolo" />
   <macro name="noms_propis" p1="Josep" p2="Giuseppe" />
   <macro name="noms_propis" p1="Juli" p2="Giulio" />
   <macro name="noms_propis" p1="Lleó" p2="Leone" />
