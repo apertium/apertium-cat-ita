@@ -1011,6 +1011,11 @@
      <match lemma="Borbó" tags="np.ant"/>
   </rule>
 
+  <rule weight="1.2">
+     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+     <match lemma="Urgell" tags="np.*"/>
+  </rule>
+  `
   <rule weight="1.0">
      <or>
        <match lemma="papa" tags="n.*"/>
@@ -1055,11 +1060,6 @@
        <match lemma="baronia" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
-  </rule>
-  `
-  <rule weight="1.2">
-     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
-     <match lemma="Urgell" tags="np.*"/>
   </rule>
   `
   <rule weight="1.2">
