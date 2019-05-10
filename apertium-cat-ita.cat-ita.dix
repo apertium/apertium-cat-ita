@@ -6897,6 +6897,7 @@
 <e>       <p><l>orfebre<s n="n"/></l>                  <r>orafo<s n="n"/></r></p></e>
 <e>       <p><l>organisme<s n="n"/></l>                <r>organismo<s n="n"/></r></p></e>
 <e>       <p><l>organització<s n="n"/></l>             <r>organizzazione<s n="n"/></r></p></e>
+<e>       <p><l>reorganització<s n="n"/></l>           <r>riorganizzazione<s n="n"/></r></p></e>
 <e>       <p><l>orgasme<s n="n"/></l>                  <r>orgasmo<s n="n"/></r></p></e>
 <e>       <p><l>orgia<s n="n"/></l>                    <r>orgia<s n="n"/></r></p></e>
 <e r="LR"><p><l>orgue<s n="n"/></l>                    <r>organo<s n="n"/></r></p></e>
@@ -24645,6 +24646,7 @@
 <e><p><l>Urendez<s n="np"/><s n="cog"/></l><r>Urendez<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Ureña<s n="np"/><s n="cog"/></l><r>Ureña<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Urgell<s n="np"/><s n="cog"/></l><r>Urgell<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Urgell<s n="np"/><s n="top"/></l><r>Urgell<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Urgellés<s n="np"/><s n="cog"/></l><r>Urgellés<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Uria<s n="np"/><s n="cog"/></l><r>Uria<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Uriarte<s n="np"/><s n="cog"/></l><r>Uriarte<s n="np"/><s n="cog"/></r></p></e>
@@ -26495,6 +26497,7 @@
 <e>       <p><l>constatar<s n="vblex"/></l>            <r>constatare<s n="vblex"/></r></p></e>
 <e>       <p><l>constituir<s n="vblex"/></l>           <r>costituire<s n="vblex"/></r></p></e>
 <e>       <p><l>construir<s n="vblex"/></l>            <r>costruire<s n="vblex"/></r></p></e>
+<e>       <p><l>reconstruir<s n="vblex"/></l>          <r>ricostruire<s n="vblex"/></r></p></e>
 <e>       <p><l>consultar<s n="vblex"/></l>            <r>consultare<s n="vblex"/></r></p></e>
 <e>       <p><l>consumar<s n="vblex"/></l>             <r>consumare<s n="vblex"/></r></p></e>
 <e>       <p><l>contagiar<s n="vblex"/></l>            <r>contagiare<s n="vblex"/></r></p></e>
