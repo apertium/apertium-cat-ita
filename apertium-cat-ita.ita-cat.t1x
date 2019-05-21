@@ -162,6 +162,9 @@
       <cat-item tags="pr"/>
     </def-cat>
     
+    <def-cat n="rel">
+      <cat-item tags="rel.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -2935,6 +2938,30 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: rel">
+      <pattern>
+	<pattern-item n="rel"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="rel" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="rel"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: cnjadv">
       <pattern>
 	<pattern-item n="cnjadv"/>
@@ -3039,6 +3066,37 @@
 	</out>
       </action>
     </rule>
+
+    <rule comment="REGLA: DET REL">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="rel"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <chunk name="rel" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="rel"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: DET NOM">
       <pattern>

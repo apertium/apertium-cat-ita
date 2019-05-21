@@ -372,7 +372,22 @@
     <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
   </rule>
 
-<!-- PR -->
+<!-- **************** REL **************** -->
+
+  <rule weight="0.6">
+     <match lemma="che" tags="rel.*"><select lemma="que"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="pr"/>
+     <match lemma="che" tags="rel.*"><select lemma="què"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*"/>
+     <match lemma="che" tags="rel.*"><select lemma="qual"/></match>
+  </rule>
+
+<!-- **************** PR **************** -->
+
   <!-- da > de, per -->
   <rule weight="0.8">
      <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
