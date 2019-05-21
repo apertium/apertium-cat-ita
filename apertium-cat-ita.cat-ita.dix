@@ -2612,6 +2612,8 @@
 <e><p><l>des<b/>de<b/>fa<b/>molt<b/>de<b/>temps<s n="adv"/></l><r>da<b/>molto<b/>tempo<s n="adv"/></r></p></e>
 <e r="RL"><p><l>des<b/>de<b/>fa<b/>molt<b/>temps<s n="adv"/></l><r>da<b/>molto<b/>tempo<s n="adv"/></r></p></e>
 <e><p><l>de<b/>mala<b/>gana<s n="adv"/></l><r>controvoglia<s n="adv"/></r></p></e>
+<e>       <p><l>aC<s n="adv"/></l><r>a.C.<s n="adv"/></r></p></e>
+<e>       <p><l>dC<s n="adv"/></l><r>d.C.<s n="adv"/></r></p></e>
 
 <!-- SECTION: Conjunctions -->
 
@@ -4015,11 +4017,8 @@
 <e>       <p><l>cendra<s n="n"/></l>                   <r>cenere<s n="n"/></r></p></e>
 <e>       <p><l>cens<s n="n"/></l>                     <r>censimento<s n="n"/></r></p></e>
 <e>       <p><l>censura<s n="n"/></l>                  <r>censura<s n="n"/></r></p></e>
-<e r="LR"><p><l>centenar<s n="n"/><s n="m"/><s n="sg"/></l><r>centinaio<s n="n"/><s n="GD"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>centenar<s n="n"/><s n="m"/><s n="pl"/></l><r>centinaio<s n="n"/><s n="GD"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>centenar<s n="n"/><s n="m"/><s n="ND"/></l><r>centinaio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>centenar<s n="n"/><s n="m"/><s n="ND"/></l><r>centinaio<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>central<s n="n"/><s n="f"/></l>        <r>centrale<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>centenar<s n="n"/><s n="m"/></l>       <r>centinaio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>central<s n="n"/><s n="f"/></l>        <r>centrale<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>centre<s n="n"/></l>                   <r>centro<s n="n"/></r></p></e>
 <e>       <p><l>centímetre<s n="n"/></l>               <r>centimetro<s n="n"/></r></p></e>
 <e>       <p><l>cep<s n="n"/><s n="m"/></l>            <r>ceppo<s n="n"/><s n="m"/></r></p></e>
@@ -4218,9 +4217,8 @@
 <e r="LR"><p><l>comptabilitat<s n="n"/><s n="f"/><s n="pl"/></l><r>contabilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>comptador<s n="n"/></l>                <r>contatore<s n="n"/></r></p></e>
 <e>       <p><l>compte<s n="n"/><s n="m"/></l>         <r>conto<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>computador<s n="n"/><s n="m"/><s n="sg"/></l><r>computer<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>computador<s n="n"/><s n="m"/><s n="pl"/></l><r>computer<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>computador<s n="n"/><s n="m"/><s n="ND"/></l><r>computer<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>computador<s n="n"/><s n="m"/></l>     <r>computer<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>computadora<s n="n"/><s n="f"/></l>    <r>computer<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>compàs<s n="n"/></l>                   <r>compasso<s n="n"/></r></p></e>
 <e>       <p><l>comtat<s n="n"/><s n="m"/></l>         <r>contea<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>comte<s n="n"/></l>                    <r>conte<s n="n"/></r></p></e>
@@ -4404,6 +4402,7 @@
 <e>       <p><l>cortina<s n="n"/><s n="f"/></l>        <r>tamponamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cos<s n="n"/></l>                      <r>corpo<s n="n"/></r></p></e>
 <e>       <p><l>cosa<s n="n"/></l>                     <r>cosa<s n="n"/></r></p></e>
+<e>       <p><l>cosí<s n="n"/></l>                     <r>cugino<s n="n"/></r></p></e>
 <e>       <p><l>cosmètic<s n="n"/></l>                 <r>cosmetico<s n="n"/></r></p></e>
 <e>       <p><l>cost<s n="n"/></l>                     <r>costo<s n="n"/></r></p></e>
 <e>       <p><l>costa<s n="n"/></l>                    <r>costa<s n="n"/></r></p></e>
@@ -6667,7 +6666,6 @@
 <e r="RL"><p><l>nacionalista<s n="n"/><s n="mf"/></l>  <r>nazionalista<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>nacionalista<s n="n"/><s n="mf"/></l>  <r>nazionalista<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>nació<s n="n"/></l>                    <r>nazione<s n="n"/></r></p></e>
-<e>       <p><l>nadal<s n="n"/><s n="m"/><s n="sg"/></l><r>natale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>nadal<s n="n"/><s n="m"/></l>          <r>natale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>nadó<s n="n"/></l>                     <r>neonato<s n="n"/></r></p></e>
 <e>       <p><l>naixement<s n="n"/><s n="m"/></l>      <r>nascita<s n="n"/><s n="f"/></r></p></e>
@@ -6887,7 +6885,7 @@
 <e>       <p><l>ordenament<s n="n"/><s n="m"/></l>     <r>ordinamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ordenança<s n="n"/><s n="f"/></l>      <r>ordinanza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ordi<s n="n"/><s n="m"/></l>           <r>orzo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>ordinador<s n="n"/></l>                <r>computer<s n="n"/></r></p></e>
+<e>       <p><l>ordinador<s n="n"/><s n="m"/></l>      <r>computer<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>ordre<s n="n"/><s n="f"/></l>          <r>ordine<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ordre<s n="n"/><s n="m"/></l>          <r>ordine<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>ordre<s n="n"/><s n="m"/></l>          <r>provvedimento<s n="n"/><s n="m"/></r></p></e>
@@ -26971,13 +26969,22 @@
 <e>       <p><l>XII<s n="num"/></l>                    <r>XII<s n="num"/></r></p></e>
 <e>       <p><l>XIII<s n="num"/></l>                   <r>XIII<s n="num"/></r></p></e>
 <e>       <p><l>XIV<s n="num"/></l>                    <r>XIV<s n="num"/></r></p></e>
-<e>       <p><l>XIX<s n="num"/></l>                    <r>XIX<s n="num"/></r></p></e>
 <e>       <p><l>XV<s n="num"/></l>                     <r>XV<s n="num"/></r></p></e>
 <e>       <p><l>XVI<s n="num"/></l>                    <r>XVI<s n="num"/></r></p></e>
 <e>       <p><l>XVII<s n="num"/></l>                   <r>XVII<s n="num"/></r></p></e>
 <e>       <p><l>XVIII<s n="num"/></l>                  <r>XVIII<s n="num"/></r></p></e>
+<e>       <p><l>XIX<s n="num"/></l>                    <r>XIX<s n="num"/></r></p></e>
 <e>       <p><l>XX<s n="num"/></l>                     <r>XX<s n="num"/></r></p></e>
 <e>       <p><l>XXI<s n="num"/></l>                    <r>XXI<s n="num"/></r></p></e>
+<e>       <p><l>XXII<s n="num"/></l>                   <r>XXII<s n="num"/></r></p></e>
+<e>       <p><l>XXIII<s n="num"/></l>                  <r>XXIII<s n="num"/></r></p></e>
+<e>       <p><l>XXIV<s n="num"/></l>                   <r>XXIV<s n="num"/></r></p></e>
+<e>       <p><l>XXV<s n="num"/></l>                    <r>XXV<s n="num"/></r></p></e>
+<e>       <p><l>XXVI<s n="num"/></l>                   <r>XXVI<s n="num"/></r></p></e>
+<e>       <p><l>XXVII<s n="num"/></l>                  <r>XXVII<s n="num"/></r></p></e>
+<e>       <p><l>XXVIII<s n="num"/></l>                 <r>XXVIII<s n="num"/></r></p></e>
+<e>       <p><l>XXIX<s n="num"/></l>                   <r>XXIX<s n="num"/></r></p></e>
+<e>       <p><l>XXX<s n="num"/></l>                    <r>XXX<s n="num"/></r></p></e>
 <e>       <p><l>cent<s n="num"/><s n="mf"/><s n="sp"/></l><r>cento<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>dos<s n="num"/><s n="GD"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>dos<s n="num"/><s n="m"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -27267,9 +27274,10 @@
 <e>       <p><l>qual<s n="rel"/><s n="an"/></l>        <r>quale<s n="rel"/><s n="an"/></r></p></e>
 <e>       <p><l>quan<s n="rel"/></l>                   <r>quando<s n="rel"/></r></p></e>
 <e>       <p><l>quant<s n="rel"/></l>                  <r>quanto<s n="rel"/></r></p></e>
-<e>       <p><l>que<s n="rel"/></l>                    <r>che<s n="rel"/></r></p></e>
+<e>       <p><l>qual<s n="rel"/><s n="an"/><s n="mf"/></l><r>che<s n="rel"/><s n="an"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>che<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>què<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>che<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>que<b/>el<b/>seu<s n="rel"/></l>       <r>il<b/>cui<s n="rel"/></r></p></e>
-<e r="LR"><p><l>què<s n="rel"/></l>                    <r>che<s n="rel"/></r></p></e>
 
 <!-- SECTION: Verbs -->
 
