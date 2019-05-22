@@ -1605,6 +1605,13 @@
   </rule>
 
 
+<!-- **************** REL **************** -->
+
+  <!-- què > che, cui -->
+  <rule weight="0.6">
+     <match lemma="què" tags="rel.*"><select lemma="che"/></match>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
   <rule weight="0.6">
@@ -2695,13 +2702,13 @@
      <match lemma="," tags="cm"/>
   </rule>
 
-  <!-- poble > bidda, pòpulu --> <!-- srd -->
+  <!-- poble > paese, popolo -->
 
   <rule weight="0.6">
-     <match lemma="poble" tags="n.*"><select lemma="bidda"/></match>
+     <match lemma="poble" tags="n.*"><select lemma="paese"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="poble" tags="n.*"><select lemma="pòpulu"/></match>
+     <match lemma="poble" tags="n.*"><select lemma="popolo"/></match>
      <match tags="adj.*"/>
   </rule>
 
