@@ -27783,6 +27783,7 @@
 <e>       <p><l>formar<s n="vblex"/></l>               <r>formare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>fornir<s n="vblex"/></l>               <r>fornire<s n="vblex"/></r></p></e>
 <e>       <p><l>forçar<s n="vblex"/></l>               <r>forzare<s n="vblex"/></r></p></e>
+<e>       <p><l>forçar<s n="vblex"/></l>               <r>violentare<s n="vblex"/></r></p></e>
 <e>       <p><l>fotocopiar<s n="vblex"/></l>           <r>fotocopiare<s n="vblex"/></r></p></e>
 <e>       <p><l>fotografiar<s n="vblex"/></l>          <r>fotografare<s n="vblex"/></r></p></e>
 <e>       <p><l>fregar<s n="vblex"/></l>               <r>fregare<s n="vblex"/></r></p></e>
@@ -27860,7 +27861,7 @@
 <e>       <p><l>insultar<s n="vblex"/></l>             <r>insultare<s n="vblex"/></r></p></e>
 <e>       <p><l>integrar<s n="vblex"/></l>             <r>integrare<s n="vblex"/></r></p></e>
 <e>       <p><l>intensificar<s n="vblex"/></l>         <r>intensificare<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>intentar<s n="vblex"/></l>             <r>tentare<s n="vblex"/></r></p></e>
+<e>       <p><l>intentar<s n="vblex"/></l>             <r>tentare<s n="vblex"/></r></p></e>
 <e>       <p><l>interceptar<s n="vblex"/></l>          <r>intercettare<s n="vblex"/></r></p></e>
 <e>       <p><l>interioritzar<s n="vblex"/></l>        <r>interiorizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>internar<s n="vblex"/></l>             <r>internare<s n="vblex"/></r></p></e>
@@ -28205,6 +28206,7 @@
 <e>       <p><l>tendir<s n="vblex"/></l>               <r>stendere<s n="vblex"/></r></p></e>
 <e>       <p><l>tendir<s n="vblex"/></l>               <r>tendere<s n="vblex"/></r></p></e>
 <e>       <p><l>tenir<s n="vblex"/></l>                <r>tenere<s n="vblex"/></r></p></e>
+<e>       <p><l>tenir<s n="vblex"/></l>                <r>avere<s n="vblex"/></r></p></e>
 <e>       <p><l>testar<s n="vblex"/></l>               <r>testare<s n="vblex"/></r></p></e>
 <e>       <p><l>testificar<s n="vblex"/></l>           <r>testimoniare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>testimoniar<s n="vblex"/></l>          <r>testimoniare<s n="vblex"/></r></p></e>
