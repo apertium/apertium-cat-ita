@@ -1941,8 +1941,7 @@
 <e>       <p><l>alhora<s n="adv"/></l>                 <r>nel<b/>contempo<s n="adv"/></r></p></e>
 <e>       <p><l>allà<s n="adv"/></l>                   <r>là<s n="adv"/></r></p></e>
 <e>       <p><l>allèn<s n="adv"/></l>                  <r>oltre<s n="adv"/></r></p></e>
-<e r="LR"><p><l>allí<s n="adv"/></l>                   <r>lì<s n="adv"/></r></p></e>
-<e>       <p><l>allí<s n="adv"/></l>                   <r>ci<s n="adv"/></r></p></e>
+<e r="LR"><p><l>allí<s n="adv"/></l>                   <r>là<s n="adv"/></r></p></e>
 <e>       <p><l>almenys<s n="adv"/></l>                <r>almeno<s n="adv"/></r></p></e>
 <e>       <p><l>almenys<s n="adv"/></l>                <r>al<b/>meno<s n="adv"/></r></p></e>
 <e>       <p><l>almenys<s n="adv"/></l>                <r>per<b/>lo<b/>meno<s n="adv"/></r></p></e>
@@ -1956,7 +1955,7 @@
 <e>       <p><l>amb<b/>prou<b/>feines<s n="adv"/></l>  <r>con<b/>grandi<b/>difficoltà<s n="adv"/></r></p></e>
 <e>       <p><l>amb<b/>totes<b/>les<b/>forces<s n="adv"/></l><r>intensamente<s n="adv"/></r></p></e>
 <e>       <p><l>amunt<s n="adv"/></l>                  <r>sopra<s n="adv"/></r></p></e>
-<e>       <p><l>anit<s n="adv"/></l>                   <r>la<b/>notte<b/>scorsa<s n="adv"/></r></p></e>
+<e r="LR"><p><l>anit<s n="adv"/></l>                   <r>la<b/>notte<b/>scorsa<s n="adv"/></r></p></e>
 <e r="LR"><p><l>ans<s n="adv"/></l>                    <r>prima<s n="adv"/></r></p></e>
 <e>       <p><l>anteriorment<s n="adv"/></l>           <r>anteriormente<s n="adv"/></r></p></e>
 <e>       <p><l>antigament<s n="adv"/></l>             <r>anticamente<s n="adv"/></r></p></e>
@@ -2401,7 +2400,8 @@
 <e>       <p><l>sobretot<s n="adv"/></l>               <r>soprattutto<s n="adv"/></r></p></e>
 <e>       <p><l>socialment<s n="adv"/></l>             <r>socialmente<s n="adv"/></r></p></e>
 <e>       <p><l>solament<s n="adv"/></l>               <r>solo<s n="adv"/></r></p></e>
-<e>       <p><l>solament<s n="adv"/></l>               <r>solamente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>solament<s n="adv"/></l>               <r>solamente<s n="adv"/></r></p></e>
+<e r="RL"><p><l>només<s n="adv"/></l>                  <r>solamente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>sols<s n="adv"/></l>                   <r>soltanto<s n="adv"/></r></p></e>
 <e>       <p><l>sorprenentment<s n="adv"/></l>         <r>stupefacentemente<s n="adv"/></r></p></e>
 <e>       <p><l>sorprenentment<s n="adv"/></l>         <r>sorprendentemente<s n="adv"/></r></p></e>
@@ -4171,7 +4171,6 @@
 <e r="RL"><p><l>comissari<s n="n"/><s n="GD"/></l>     <r>commissario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>comissió<s n="n"/></l>                 <r>commissione<s n="n"/></r></p></e>
 <e>       <p><l>comitè<s n="n"/></l>                   <r>comitato<s n="n"/></r></p></e>
-<e>       <p><l>comité<s n="n"/></l>                   <r>comitato<s n="n"/></r></p></e>
 <e>       <p><l>commutador<s n="n"/><s n="m"/></l>     <r>centralina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>company<s n="n"/></l>                  <r>compagno<s n="n"/></r></p></e>
 <e r="LR"><p><l>company<s n="n"/><s n="m"/><s n="sg"/></l>        <r>partner<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -5238,7 +5237,7 @@
 <e r="RL"><p><l>facilitat<s n="n"/><s n="f"/><s n="ND"/></l><r>facilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>facilitat<s n="n"/><s n="f"/><s n="sg"/></l><r>facilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>facilitat<s n="n"/><s n="f"/><s n="pl"/></l><r>facilità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>factor<s n="n"/></l>                   <r>fattore<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>factor<s n="n"/></l>                   <r>fattore<s n="n"/></r></p></e>
 <e>       <p><l>factura<s n="n"/></l>                  <r>fattura<s n="n"/></r></p></e>
 <e>       <p><l>factura<s n="n"/></l>                  <r>bolletta<s n="n"/></r></p></e>
 <e r="LR"><p><l>facultat<s n="n"/><s n="f"/><s n="sg"/></l><r>facoltà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -7254,6 +7253,7 @@
 <e>       <p><l>poblat<s n="adj"/></l>                 <r>popoloso<s n="adj"/></r></p></e>
 <e>       <p><l>poblat<s n="n"/></l>                   <r>abitato<s n="n"/></r></p></e>
 <e>       <p><l>poble<s n="n"/></l>                    <r>popolo<s n="n"/></r></p></e>
+<e>       <p><l>poble<s n="n"/></l>                    <r>paese<s n="n"/></r></p></e>
 <e r="LR"><p><l>pobresa<s n="n"/><s n="f"/><s n="sg"/></l><r>povertà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>pobresa<s n="n"/><s n="f"/><s n="pl"/></l><r>povertà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>pobresa<s n="n"/><s n="f"/><s n="ND"/></l><r>povertà<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -27231,9 +27231,7 @@
 <e>       <p><l>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>qualunque<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>quant<s n="prn"/><s n="itg"/></l>      <r>quanto<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>quelcom<s n="prn"/></l>                <r>qualcosa<s n="prn"/></r></p></e>
-<e>       <p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>chi<s n="prn"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>chi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>cui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>quin<s n="prn"/><s n="itg"/><s n="GD"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
 <e r="LR"><p><l>quin<s n="prn"/><s n="itg"/><s n="f"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
 <e r="LR"><p><l>quin<s n="prn"/><s n="itg"/><s n="m"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
@@ -27278,6 +27276,9 @@
 <e>       <p><l>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>che<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>què<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>che<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>que<b/>el<b/>seu<s n="rel"/></l>       <r>il<b/>cui<s n="rel"/></r></p></e>
+<e>       <p><l>qui<s n="rel"/></l>                    <r>chi<s n="rel"/></r></p></e>
+<e>       <p><l>a<b/>qui<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>cui<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>què<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>cui<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 
 <!-- SECTION: Verbs -->
 
@@ -28276,6 +28277,7 @@
 <e>       <p><l>visitar<s n="vblex"/></l>              <r>visitare<s n="vblex"/></r></p></e>
 <e>       <p><l>visualitzar<s n="vblex"/></l>          <r>visualizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>viure<s n="vblex"/></l>                <r>vivere<s n="vblex"/></r></p></e>
+<e>       <p><l>viure<s n="vblex"/></l>                <r>abitare<s n="vblex"/></r></p></e>
 <e>       <p><l>volar<s n="vblex"/></l>                <r>volare<s n="vblex"/></r></p></e>
 <!--<e><p><l>voler<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>-->
 <e>       <p><l>vomitar<s n="vblex"/></l>              <r>vomitare<s n="vblex"/></r></p></e>
