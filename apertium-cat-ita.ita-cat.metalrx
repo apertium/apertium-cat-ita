@@ -367,6 +367,15 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- tentare > temptar, intentar -->
+  <rule weight="0.8">
+    <match lemma="tentare" tags="vblex.*"><select lemma="temptar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tentare" tags="vblex.*"><select lemma="intentar" tags="vblex.*"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+  
   <!-- essere > ser, estar -->
   <rule weight="0.8">
     <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
