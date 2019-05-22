@@ -1616,7 +1616,7 @@
 
 <!-- **************** V VBLEX **************** -->
 
-<!-- estar > essere, stare -->
+  <!-- estar > essere, stare -->
 
   <rule weight="0.6">
      <match lemma="estar" tags="vblex.*"><select lemma="essere"/></match>
@@ -1624,6 +1624,22 @@
   <rule weight="1.0">
      <match lemma="estar" tags="vblex.*"><select lemma="stare"/></match>
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
+  </rule>
+
+  <!-- tenir > avere, tenere -->
+
+  <rule weight="0.6">
+     <match lemma="tenir" tags="vblex.*"><select lemma="avere"/></match>
+  </rule>
+
+  <!-- forçar > forzare, violentare -->
+
+  <rule weight="0.6">
+     <match lemma="forçar" tags="vblex.*"><select lemma="forzare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="forçar" tags="vblex.*"><select lemma="violentare"/></match>
+     <match tags="np.ant.f.sg"/>
   </rule>
 
   <!-- limitar > limitare, confinare -->
