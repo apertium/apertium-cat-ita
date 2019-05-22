@@ -6,6 +6,28 @@
       <cat-item tags="SN.*"/>
     </def-cat>
 
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+    </def-cat>
+
+    <def-cat n="SV_inf">
+      <cat-item tags="SV.vblex.inf"/>
+      <cat-item tags="SV.vblex.inf.*"/>
+    </def-cat>
+
+    <def-cat n="verbs_de">
+      <cat-item lemma="buscar" tags="SV.*"/>
+      <cat-item lemma="intentar" tags="SV.*"/>
+    </def-cat>
+
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+    </def-cat>
+
+    <def-cat n="de">
+      <cat-item lemma="de" tags="pr"/>
+    </def-cat>
+
     <def-cat n="NUM">
       <cat-item tags="NUM.*"/>
     </def-cat>
@@ -73,6 +95,24 @@
 	  </when>
 	</choose>
     </def-macro>
+
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc cont?o no format. Cal posar aquesta funci?en les regles en qu?desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si cont?format cal conservar-la, si no en cont?cal eliminar-la perqu?no apareguin dos espais seguits. -->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<b pos="1"/>
+		<lit v=" "/>
+	      </equal>
+	    </not>
+	  </test>
+	  <out>
+	    <b pos="1"/>
+	  </out>
+	</when>     	    
+      </choose>
+    </def-macro>
   </section-def-macros>
 
 <section-rules>
@@ -109,5 +149,32 @@
     </out>
     </action>
 </rule>
+
+<rule comment="REGLA: cerca di prendere > intenta prendre">
+    <pattern>
+        <pattern-item n="verbs_de"/>
+        <pattern-item n="de"/>
+        <pattern-item n="SV_inf"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+	<b pos="1"/>
+      </out>
+      <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+      <out>
+        <chunk>
+          <clip pos="3" part="lem"/>
+          <clip pos="3" part="tags"/>
+          <clip pos="3" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
 </section-rules>
 </interchunk>
