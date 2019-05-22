@@ -345,6 +345,11 @@
     <match lemma="di" tags="pr"/>
   </rule>
 
+  <!-- paese > país, poble -->
+  <rule weight="0.8">
+    <match lemma="paese" tags="n.*"><select lemma="país" tags="n.*"/></match>
+  </rule>
+
 <!-- V -->
   <!-- confinare > confinar, limitar -->
   <rule weight="0.8">
@@ -383,6 +388,7 @@
 
 <!-- **************** REL **************** -->
 
+  <!-- che > que, què, qual -->
   <rule weight="0.6">
      <match lemma="che" tags="rel.*"><select lemma="que"/></match>
   </rule>
@@ -393,6 +399,19 @@
   <rule weight="1.0">
      <match tags="det.*"/>
      <match lemma="che" tags="rel.*"><select lemma="qual"/></match>
+  </rule>
+
+  <!-- cui > que, què, qual -->
+  <rule weight="0.6">
+     <match lemma="cui" tags="rel.*"><select lemma="a qui"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="pr"/>
+     <match lemma="cui" tags="rel.*"><select lemma="què"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*"/>
+     <match lemma="cui" tags="rel.*"><select lemma="qual"/></match>
   </rule>
 
 <!-- **************** PR **************** -->
