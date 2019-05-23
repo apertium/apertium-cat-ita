@@ -2973,9 +2973,7 @@
 <e>       <p><l>adverbi<s n="n"/></l>                  <r>avverbio<s n="n"/></r></p></e>
 <e>       <p><l>adversari<s n="n"/></l>                <r>avversario<s n="n"/></r></p></e>
 <e>       <p><l>advocacia<s n="n"/></l>                <r>avvocatura<s n="n"/></r></p></e>
-<e r="LR"><p><l>advocat<s n="n"/><s n="m"/></l>        <r>avvocato<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>advocat<s n="n"/><s n="f"/></l>        <r>avvocato<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>advocat<s n="n"/><s n="GD"/></l>       <r>avvocato<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>advocat<s n="n"/></l><r>avvocato<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>aerodinàmica<s n="n"/></l>             <r>aerodinamica<s n="n"/></r></p></e>
 <e>       <p><l>aeronau<s n="n"/><s n="f"/></l>        <r>aeromobile<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>aeronau<s n="n"/><s n="f"/></l>        <r>velivolo<s n="n"/><s n="m"/></r></p></e>
@@ -3954,7 +3952,7 @@
 <e>       <p><l>comitè<s n="n"/></l>                   <r>comitato<s n="n"/></r></p></e>
 <e>       <p><l>commutador<s n="n"/><s n="m"/></l>     <r>centralina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>company<s n="n"/></l>                  <r>compagno<s n="n"/></r></p></e>
-<e r="LR"><p><l>company<s n="n"/></l>                  <r>partner<s n="n"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e r="RL"><p><l>company<s n="n"/></l>                  <r>partner<s n="n"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e>       <p><l>companyia<s n="n"/></l>                <r>compagnia<s n="n"/></r></p></e>
 <e>       <p><l>companyia<s n="n"/></l>                <r>azienda<s n="n"/></r></p></e>
 <e>       <p><l>comparació<s n="n"/></l>               <r>comparazione<s n="n"/></r></p></e>
@@ -4034,9 +4032,7 @@
 <e>       <p><l>congelació<s n="n"/><s n="f"/></l>     <r>congelamento<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>congost<s n="n"/><s n="m"/></l>        <r>gola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>congrés<s n="n"/></l>                  <r>congresso<s n="n"/></r></p></e>
-<e r="LR"><p><l>conill<s n="n"/><s n="m"/></l>         <r>coniglio<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>conill<s n="n"/><s n="f"/></l>         <r>coniglio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>conill<s n="n"/><s n="GD"/></l>        <r>coniglio<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>conill<s n="n"/></l><r>coniglio<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>conjectura<s n="n"/></l>               <r>congettura<s n="n"/></r></p></e>
 <e>       <p><l>conjunció<s n="n"/></l>                <r>congiunzione<s n="n"/></r></p></e>
 <e>       <p><l>conjunt<s n="n"/></l>                  <r>insieme<s n="n"/></r></p></e>
@@ -4090,9 +4086,7 @@
 <e>       <p><l>contingent<s n="n"/><s n="m"/></l>     <r>contingente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>continuació<s n="n"/><s n="f"/></l>    <r>proseguimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>contorn<s n="n"/></l>                  <r>contorno<s n="n"/></r></p></e>
-<e r="LR"><p><l>contra<s n="n"/><s n="f"/><s n="sg"/></l><r>contro<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>contra<s n="n"/><s n="f"/><s n="pl"/></l><r>contro<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>contra<s n="n"/><s n="f"/><s n="ND"/></l><r>contro<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>contra<s n="n"/><s n="f"/></l>         <r>contro<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>contraban<s n="n"/></l>                <r>contrabbando<s n="n"/></r></p></e>
 <e>       <p><l>contractació<s n="n"/></l>             <r>contrattazione<s n="n"/></r></p></e>
 <e>       <p><l>contracte<s n="n"/></l>                <r>contratto<s n="n"/></r></p></e>
@@ -4954,9 +4948,7 @@
 <e>       <p><l>ferradura<s n="n"/></l>                <r>ferratura<s n="n"/></r></p></e>
 <e>       <p><l>ferralla<s n="n"/></l>                 <r>spazzatura<s n="n"/></r></p></e>
 <e r="LR"><p><l>ferramenta<s n="n"/><s n="f"/></l>     <r>utensile<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>ferrer<s n="n"/><s n="m"/></l>         <r>fabbro<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>ferrer<s n="n"/><s n="f"/></l>         <r>fabbro<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>ferrer<s n="n"/><s n="GD"/></l>        <r>fabbro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ferrer<s n="n"/></l><r>fabbro<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>ferri<s n="n"/></l>                    <r>traghetto<s n="n"/></r></p></e>
 <e>       <p><l>ferro<s n="n"/></l>                    <r>ferro<s n="n"/></r></p></e>
 <e>       <p><l>ferrocarril<s n="n"/><s n="m"/></l>    <r>ferrovia<s n="n"/><s n="f"/></r></p></e>
@@ -5610,9 +5602,7 @@
 <e>       <p><l>jardineria<s n="n"/><s n="f"/></l>     <r>giardinaggio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jardí<s n="n"/></l>                    <r>giardino<s n="n"/></r></p></e>
 <e>       <p><l>jaç<s n="n"/></l>                      <r>letto<s n="n"/></r></p></e>
-<e r="LR"><p><l>jeep<s n="n"/><s n="m"/><s n="sg"/></l><r>jeep<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>jeep<s n="n"/><s n="m"/><s n="pl"/></l><r>jeep<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>jeep<s n="n"/><s n="m"/><s n="ND"/></l><r>jeep<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e>       <p><l>jeep<s n="n"/><s n="m"/></l>           <r>jeep<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>jerarquia<s n="n"/></l>                <r>gerarchia<s n="n"/></r></p></e>
 <e>       <p><l>jersei<s n="n"/></l>                   <r>maglione<s n="n"/></r></p></e>
 <e>       <p><l>joc<s n="n"/></l>                      <r>gioco<s n="n"/></r></p></e>
@@ -5628,9 +5618,6 @@
 <e>       <p><l>judici<s n="n"/></l>                   <r>giudizio<s n="n"/></r></p></e>
 <e>       <p><l>jugador<s n="n"/></l>                  <r>giocatore<s n="n"/></r></p></e>
 <e>       <p><l>juliol<s n="n"/><s n="m"/></l>         <r>luglio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>juliol<s n="n"/><s n="m"/><s n="ND"/></l><r>luglio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>juliol<s n="n"/><s n="m"/><s n="pl"/></l><r>luglio<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>juliol<s n="n"/><s n="m"/><s n="sg"/></l><r>luglio<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>julivert<s n="n"/></l>                 <r>prezzemolo<s n="n"/></r></p></e>
 <e>       <p><l>jungla<s n="n"/></l>                   <r>giungla<s n="n"/></r></p></e>
 <e>       <p><l>junta<s n="n"/><s n="f"/></l>          <r>consiglio<s n="n"/><s n="m"/></r></p></e>
@@ -5816,9 +5803,7 @@
 <e><p><l>maduresa<s n="n"/><s n="f"/></l><r>maturità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>mag<s n="n"/></l>                      <r>mago<s n="n"/></r></p></e>
 <e>       <p><l>magatzem<s n="n"/></l>                 <r>magazzino<s n="n"/></r></p></e>
-<e r="LR"><p><l>magistrat<s n="n"/><s n="m"/></l>      <r>magistrato<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>magistrat<s n="n"/><s n="f"/></l>      <r>magistrato<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>magistrat<s n="n"/><s n="GD"/></l>     <r>magistrato<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>magistrat<s n="n"/></l><r>magistrato<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>magnetisme<s n="n"/></l>               <r>magnetismo<s n="n"/></r></p></e>
 <e>       <p><l>magnitud<s n="n"/></l>                 <r>magnitudine<s n="n"/></r></p></e>
 <e>       <p><l>magrana<s n="n"/><s n="f"/></l>        <r>melograno<s n="n"/><s n="m"/></r></p></e>
@@ -5828,9 +5813,7 @@
 <e r="LR"><p><l>mail<s n="n"/><s n="m"/><s n="pl"/></l><r>mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>mail<s n="n"/><s n="m"/><s n="ND"/></l><r>mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>maixella<s n="n"/></l>                 <r>mandibola<s n="n"/></r></p></e>
-<e r="LR"><p><l>majordom<s n="n"/><s n="m"/></l>       <r>maggiordomo<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>majordom<s n="n"/><s n="f"/></l>       <r>maggiordomo<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>majordom<s n="n"/><s n="GD"/></l>      <r>maggiordomo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>majordom<s n="n"/></l><r>maggiordomo<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>majoria<s n="n"/></l>                  <r>maggioranza<s n="n"/></r></p></e>
 <e>       <p><l>majorista<s n="n"/><s n="mf"/></l>     <r>grossista<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mal<s n="n"/></l>                      <r>male<s n="n"/></r></p></e>
@@ -6255,9 +6238,7 @@
 <e><p><l>noruec<s n="n"/></l><r>norvegese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>nostàlgia<s n="n"/></l>                <r>nostalgia<s n="n"/></r></p></e>
 <e>       <p><l>nota<s n="n"/></l>                     <r>nota<s n="n"/></r></p></e>
-<e r="LR"><p><l>notari<s n="n"/><s n="m"/></l>         <r>notaio<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>notari<s n="n"/><s n="f"/></l>         <r>notaio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>notari<s n="n"/><s n="GD"/></l>        <r>notaio<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>notari<s n="n"/></l><r>notaio<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>notificació<s n="n"/></l>              <r>notifica<s n="n"/></r></p></e>
 <e>       <p><l>notícia<s n="n"/></l>                  <r>notizia<s n="n"/></r></p></e>
 <e>       <p><l>nou<s n="n"/></l>                      <r>noce<s n="n"/></r></p></e>
