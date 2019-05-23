@@ -470,9 +470,7 @@
 <e>       <p><l>calculador<s n="adj"/></l>             <r>calcolatore<s n="adj"/></r></p></e>
 <e>       <p><l>calent<s n="adj"/></l>                 <r>caldo<s n="adj"/></r></p></e>
 <e><p><l>canadenc<s n="adj"/></l><r>canadese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>canadenc<s n="n"/><s n="m"/></l>     <r>canadese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>canadenc<s n="n"/><s n="f"/></l>     <r>canadese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>canadenc<s n="n"/><s n="GD"/></l>    <r>canadese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>canadenc<s n="n"/></l><r>canadese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>canari<s n="adj"/></l>                 <r>canario<s n="adj"/></r></p></e>
 <e>       <p><l>cantant<s n="adj"/></l>                <r>cantante<s n="adj"/></r></p></e>
 <e r="RL"><p><l>capaç<s n="adj"/><s n="GD"/><s n="pl"/></l><r>capace<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -552,9 +550,7 @@
 <e r="LR"><p><l>conflictiu<s n="adj"/><s n="m"/></l>   <r>conflittuale<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>conflictiu<s n="adj"/><s n="f"/></l>   <r>conflittuale<s n="adj"/><s n="mf"/></r></p></e>
 <e><p><l>congolès<s n="adj"/></l><r>congolese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>congolès<s n="n"/><s n="m"/></l>     <r>congolese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>congolès<s n="n"/><s n="f"/></l>     <r>congolese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>congolès<s n="n"/><s n="GD"/></l>    <r>congolese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>congolès<s n="n"/></l><r>congolese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>congènit</l>                           <r>congenito</r></p><par n="adj_sup"/></e>
 <e>       <p><l>conjugal</l>                           <r>coniugale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>conjunt</l>                            <r>congiunto</r></p><par n="adj_sup"/></e>
@@ -629,9 +625,7 @@
 <e>       <p><l>cònic</l>                              <r>conico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>dactilar</l>                           <r>digitale</r></p><par n="adj_sup2"/></e>
 <e><p><l>danès<s n="adj"/></l><r>danese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>danès<s n="n"/><s n="m"/></l>        <r>danese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>danès<s n="n"/><s n="f"/></l>        <r>danese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>danès<s n="n"/><s n="GD"/></l>       <r>danese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>danès<s n="n"/></l><r>danese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>darrer<s n="adj"/></l>                 <r>ultimo<s n="adj"/></r></p></e>
 <e>       <p><l>decimal</l>                            <r>decimale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>decisiu</l>                            <r>decisivo</r></p><par n="adj_sup"/></e>
@@ -746,9 +740,7 @@
 <e>       <p><l>equivalent<s n="adj"/></l>             <r>equivalente<s n="adj"/></r></p></e>
 <e>       <p><l>erudit</l>                             <r>erudito</r></p><par n="adj_sup"/></e>
 <e><p><l>escocès<s n="adj"/></l><r>scozzese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>escocès<s n="n"/><s n="m"/></l>      <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>escocès<s n="n"/><s n="f"/></l>      <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>escocès<s n="n"/><s n="GD"/></l>     <r>scozzese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>escocès<s n="n"/></l><r>scozzese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>escolar<s n="adj"/></l>                <r>allievo<s n="adj"/></r></p></e>
 <e r="LR"><p><l>escolar<s n="adj"/><s n="mf"/></l>     <r>scolastico<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>escolar<s n="adj"/><s n="mf"/></l>     <r>scolastico<s n="adj"/><s n="m"/></r></p></e>
@@ -951,9 +943,7 @@
 <e>       <p><l>homònim</l>                            <r>omonimo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>honest<s n="adj"/></l>                 <r>onesto<s n="adj"/></r></p></e>
 <e><p><l>hongarès<s n="adj"/></l><r>ungherese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>hongarès<s n="n"/><s n="m"/></l>     <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>hongarès<s n="n"/><s n="f"/></l>     <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>hongarès<s n="n"/><s n="GD"/></l>    <r>ungherese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>hongarès<s n="n"/></l><r>ungherese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>honorable</l>                          <r>onorabile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>honorable<s n="adj"/></l>              <r>onorevole<s n="adj"/></r></p></e>
 <e>       <p><l>honorífic</l>                          <r>onorifico</r></p><par n="adj_sup"/></e>
@@ -1170,9 +1160,7 @@
 <e>       <p><l>local</l>                              <r>locale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>logístic</l>                           <r>logistico</r></p><par n="adj_sup"/></e>
 <e><p><l>londinenc<s n="adj"/></l><r>londinese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>londinenc<s n="n"/><s n="m"/></l>    <r>londinese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>londinenc<s n="n"/><s n="f"/></l>    <r>londinese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>londinenc<s n="n"/><s n="GD"/></l>   <r>londinese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>londinenc<s n="n"/></l><r>londinese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>lunar</l>                              <r>lunare</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>làctic<s n="adj"/></l>                 <r>latteo<s n="adj"/></r></p></e>
 <e>       <p><l>lícit</l>                              <r>lecito</r></p><par n="adj_sup"/></e>
@@ -1410,9 +1398,7 @@
 <e>       <p><l>polític</l>                            <r>politico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>popular<s n="adj"/></l>                <r>popolare<s n="adj"/></r></p></e>
 <e><p><l>portuguès<s n="adj"/></l><r>portoghese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>portuguès<s n="n"/><s n="m"/></l>    <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>portuguès<s n="n"/><s n="f"/></l>    <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>portuguès<s n="n"/><s n="GD"/></l>   <r>portoghese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>portuguès<s n="n"/></l><r>portoghese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>portàtil</l>                           <r>portatile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>positiu</l>                            <r>positivo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>possible</l>                           <r>possibile</r></p><par n="adj_sup2"/></e>
@@ -1741,9 +1727,7 @@
 <e r="RL"><p><l>ximple<s n="adj"/><s n="mf"/></l>      <r>tonto<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>ximple<s n="adj"/><s n="mf"/></l>      <r>tonto<s n="adj"/><s n="f"/></r></p></e>
 <e><p><l>xinès<s n="adj"/></l><r>cinese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="LR"><p><l>xinès<s n="n"/><s n="m"/></l>        <r>cinese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>xinès<s n="n"/><s n="f"/></l>        <r>cinese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>xinès<s n="n"/><s n="GD"/></l>       <r>cinese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>xinès<s n="n"/></l><r>cinese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>àcid</l>                               <r>acido</r></p><par n="adj_sup"/></e>
 <e>       <p><l>àgil</l>                               <r>agile</r></p><par n="adj_sup2"/></e>
 <e r="LR"><p><l>àrab<s n="adj"/><s n="mf"/></l>        <r>arabo<s n="adj"/><s n="GD"/></r></p></e>
@@ -3043,9 +3027,7 @@
 <e>       <p><l>alacantí<s n="n"/></l>                 <r>alicantino<s n="n"/></r></p></e>
 <e>       <p><l>alambí<s n="n"/></l>                   <r>alambicco<s n="n"/></r></p></e>
 <e>       <p><l>alarma<s n="n"/><s n="f"/></l>         <r>allarme<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>albanès<s n="n"/><s n="m"/></l>        <r>albanese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>albanès<s n="n"/><s n="f"/></l>        <r>albanese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>albanès<s n="n"/><s n="GD"/></l>       <r>albanese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>albanès<s n="n"/></l><r>albanese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>albercoc<s n="n"/><s n="m"/></l>       <r>albicocca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>albergínia<s n="n"/></l>               <r>melanzana<s n="n"/></r></p></e>
 <e r="LR"><p><l>alcalde<s n="n"/><s n="m"/></l>        <r>sindaco<s n="n"/><s n="m"/></r></p></e>
@@ -3164,12 +3146,8 @@
 <e>       <p><l>anell<s n="n"/></l>                    <r>anello<s n="n"/></r></p></e>
 <e>       <p><l>anestèsia<s n="n"/></l>                <r>anestesia<s n="n"/></r></p></e>
 <e>       <p><l>angle<s n="n"/></l>                    <r>angolo<s n="n"/></r></p></e>
-<e r="LR"><p><l>anglosaxó<s n="n"/><s n="m"/></l>      <r>anglosassone<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>anglosaxó<s n="n"/><s n="f"/></l>      <r>anglosassone<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>anglosaxó<s n="n"/><s n="GD"/></l>     <r>anglosassone<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>anglès<s n="n"/><s n="m"/></l>         <r>inglese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>anglès<s n="n"/><s n="f"/></l>         <r>inglese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>anglès<s n="n"/><s n="GD"/></l>        <r>inglese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>anglosaxó<s n="n"/></l><r>anglosassone<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>anglès<s n="n"/></l><r>inglese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>anhel<s n="n"/></l>                    <r>desiderio<s n="n"/></r></p></e>
 <e>       <p><l>animació<s n="n"/></l>                 <r>animazione<s n="n"/></r></p></e>
 <e>       <p><l>animal<s n="n"/></l>                   <r>animale<s n="n"/></r></p></e>
@@ -3246,9 +3224,7 @@
 <e>       <p><l>aquari<s n="n"/></l>                   <r>acquario<s n="n"/></r></p></e>
 <e>       <p><l>aquàrium<s n="n"/></l>                 <r>acquario<s n="n"/></r></p></e>
 <e>       <p><l>aqüeducte<s n="n"/></l>                <r>acquedotto<s n="n"/></r></p></e>
-<e r="LR"><p><l>aragonès<s n="n"/><s n="m"/></l>     <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>aragonès<s n="n"/><s n="f"/></l>     <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>aragonès<s n="n"/><s n="GD"/></l>    <r>aragonese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>aragonès<s n="n"/></l><r>aragonese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>aranya<s n="n"/><s n="f"/></l>         <r>ragno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>arbitratge<s n="n"/></l>               <r>arbitrato<s n="n"/></r></p></e>
 <e>       <p><l>arbre<s n="n"/></l>                    <r>albero<s n="n"/></r></p></e>
@@ -3334,9 +3310,7 @@
 <e>       <p><l>assemblea<s n="n"/></l>                <r>assemblea<s n="n"/></r></p></e>
 <e>       <p><l>assentament<s n="n"/></l>              <r>assestamento<s n="n"/></r></p></e>
 <e>       <p><l>assentament<s n="n"/></l>              <r>insediamento<s n="n"/></r></p></e>
-<e r="LR"><p><l>assessor<s n="n"/><s n="m"/></l><r>assessore<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>assessor<s n="n"/><s n="f"/></l><r>assessore<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>assessor<s n="n"/><s n="GD"/></l><r>assessore<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>assessor<s n="n"/></l><r>assessore<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>assessorament<s n="n"/><s n="m"/></l>  <r>consulenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>assignació<s n="n"/></l>               <r>assegnazione<s n="n"/></r></p></e>
 <e>       <p><l>assimilació<s n="n"/></l>              <r>assimilazione<s n="n"/></r></p></e>
@@ -3634,9 +3608,7 @@
 <e>       <p><l>bulímia<s n="n"/></l>                  <r>bulimia<s n="n"/></r></p></e>
 <e><p><l>bunyol<s n="n"/><s n="m"/></l><r>bigné<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>burgesia<s n="n"/></l>                 <r>borghesia<s n="n"/></r></p></e>
-<e r="LR"><p><l>burgès<s n="n"/><s n="m"/></l>         <r>borghese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>burgès<s n="n"/><s n="f"/></l>         <r>borghese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>burgès<s n="n"/><s n="GD"/></l>        <r>borghese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>burgès<s n="n"/></l><r>borghese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>burocràcia<s n="n"/></l>               <r>burocrazia<s n="n"/></r></p></e>
 <e r="LR"><p><l>burro<s n="n"/></l>                    <r>somaro<s n="n"/></r></p></e>
 <e><p><l>bus<s n="n"/><s n="m"/></l><r>pullman<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -3817,9 +3789,7 @@
 <e>       <p><l>casset<s n="n"/><s n="m"/></l>         <r>musicassetta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>castedat<s n="n"/><s n="f"/></l><r>castità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>castell<s n="n"/></l>                  <r>castello<s n="n"/></r></p></e>
-<e r="LR"><p><l>castellonenc<s n="n"/><s n="m"/></l>   <r>castiglionese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>castellonenc<s n="n"/><s n="f"/></l>   <r>castiglionese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>castellonenc<s n="n"/><s n="GD"/></l>  <r>castiglionese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>castellonenc<s n="n"/></l><r>castiglionese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>castellà<s n="n"/></l>                 <r>castigliano<s n="n"/></r></p></e>
 <e>       <p><l>castor<s n="n"/></l>                   <r>castoro<s n="n"/></r></p></e>
 <e>       <p><l>castració<s n="n"/></l>                <r>castrazione<s n="n"/></r></p></e>
@@ -3940,9 +3910,7 @@
 <e>       <p><l>clergat<s n="n"/></l>                  <r>clero<s n="n"/></r></p></e>
 <e r="LR"><p><l>clericat<s n="n"/></l>                 <r>clero<s n="n"/></r></p></e>
 <e r="LR"><p><l>clero<s n="n"/></l>                    <r>clero<s n="n"/></r></p></e>
-<e r="LR"><p><l>client<s n="n"/><s n="m"/></l>         <r>cliente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>client<s n="n"/><s n="f"/></l>         <r>cliente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>client<s n="n"/><s n="GD"/></l>        <r>cliente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>client<s n="n"/></l><r>cliente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>clientela<s n="n"/></l>                <r>clientela<s n="n"/></r></p></e>
 <e>       <p><l>clima<s n="n"/></l>                    <r>clima<s n="n"/></r></p></e>
 <e>       <p><l>climatologia<s n="n"/></l>             <r>climatologia<s n="n"/></r></p></e>
@@ -3977,8 +3945,7 @@
 <e>       <p><l>collaret<s n="n"/><s n="m"/></l>       <r>collana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>collita<s n="n"/><s n="f"/></l>        <r>raccolto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>colom<s n="n"/></l>                    <r>piccione<s n="n"/></r></p></e>
-<e>       <p><l>colon<s n="n"/><s n="GD"/></l>         <r>colono<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>colon<s n="n"/><s n="f"/></l>          <r>colono<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>colon<s n="n"/><s n="f"/></l>          <r>colono<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>colon<s n="n"/><s n="m"/></l>          <r>colono<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>colonialisme<s n="n"/></l>             <r>colonialismo<s n="n"/></r></p></e>
 <e>       <p><l>color<s n="n"/></l>                    <r>colore<s n="n"/></r></p></e>
@@ -4043,9 +4010,7 @@
 <e>       <p><l>compra<s n="n"/><s n="f"/></l>         <r>acquisto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>compra<s n="n"/></l>                   <r>spesa<s n="n"/></r></p></e>
 <e>       <p><l>comprador<s n="n"/></l>                <r>committente<s n="n"/></r></p></e>
-<e r="LR"><p><l>comprador<s n="n"/><s n="m"/></l>      <r>acquirente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>comprador<s n="n"/><s n="f"/></l>      <r>acquirente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>comprador<s n="n"/><s n="GD"/></l>     <r>acquirente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>comprador<s n="n"/></l><r>acquirente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>comprador<s n="n"/></l>                <r>compratore<s n="n"/></r></p></e>
 <e>       <p><l>comprensió<s n="n"/></l>               <r>comprensione<s n="n"/></r></p></e>
 <e>       <p><l>compressió<s n="n"/></l>               <r>compressione<s n="n"/></r></p></e>
@@ -4144,9 +4109,7 @@
 <e>       <p><l>construcció<s n="n"/><s n="f"/></l>    <r>costruzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>construcció<s n="n"/></l>              <r>edilizia<s n="n"/></r></p></e>
 <e>       <p><l>consulta<s n="n"/></l>                 <r>consulta<s n="n"/></r></p></e>
-<e r="LR"><p><l>consultor<s n="n"/><s n="m"/></l>      <r>consulente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>consultor<s n="n"/><s n="f"/></l>      <r>consulente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>consultor<s n="n"/><s n="GD"/></l>     <r>consulente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>consultor<s n="n"/></l><r>consulente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>consum<s n="n"/></l>                   <r>consumo<s n="n"/></r></p></e>
 <e>       <p><l>consumidor<s n="n"/></l>               <r>consumatore<s n="n"/></r></p></e>
 <e>       <p><l>consumisme<s n="n"/></l>               <r>consumismo<s n="n"/></r></p></e>
@@ -4203,9 +4166,7 @@
 <e>       <p><l>corbata<s n="n"/></l>                  <r>cravatta<s n="n"/></r></p></e>
 <e>       <p><l>corda<s n="n"/></l>                    <r>corda<s n="n"/></r></p></e>
 <e>       <p><l>corder<s n="n"/><s n="m"/></l>         <r>agnello<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>cordovès<s n="n"/><s n="m"/></l>       <r>cordovese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>cordovès<s n="n"/><s n="f"/></l>       <r>cordovese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>cordovès<s n="n"/><s n="GD"/></l>      <r>cordovese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>cordovès<s n="n"/></l><r>cordovese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>cordó<s n="n"/></l>                    <r>cordone<s n="n"/></r></p></e>
 <e>       <p><l>coreografia<s n="n"/></l>              <r>coreografia<s n="n"/></r></p></e>
 <e>       <p><l>coreà<s n="n"/></l>                    <r>coreano<s n="n"/></r></p></e>
@@ -4386,9 +4347,7 @@
 <e>       <p><l>denúncia<s n="n"/></l>                 <r>denuncia<s n="n"/></r></p></e>
 <e>       <p><l>departament<s n="n"/></l>              <r>dipartimento<s n="n"/></r></p></e>
 <e>       <p><l>dependent<s n="n"/></l>                <r>commesso<s n="n"/></r></p></e>
-<e r="LR"><p><l>dependent<s n="n"/><s n="m"/></l>      <r>dipendente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>dependent<s n="n"/><s n="f"/></l>      <r>dipendente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>dependent<s n="n"/><s n="GD"/></l>     <r>dipendente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>dependent<s n="n"/></l><r>dipendente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>depressió<s n="n"/></l>                <r>depressione<s n="n"/></r></p></e>
 <e>       <p><l>depuració<s n="n"/></l>                <r>depurazione<s n="n"/></r></p></e>
 <e r="LR"><p><l>depòsit<s n="n"/></l>                  <r>deposito<s n="n"/></r></p></e>
@@ -4723,9 +4682,7 @@
 <e>       <p><l>enfrontament<s n="n"/></l>             <r>scontro<s n="n"/></r></p></e>
 <e>       <p><l>engany<s n="n"/></l>                   <r>inganno<s n="n"/></r></p></e>
 <e>       <p><l>enginy<s n="n"/></l>                   <r>ingegno<s n="n"/></r></p></e>
-<e r="LR"><p><l>enginyer<s n="n"/><s n="m"/></l>       <r>ingegnere<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>enginyer<s n="n"/><s n="f"/></l>       <r>ingegnere<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>enginyer<s n="n"/><s n="GD"/></l>      <r>ingegnere<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>enginyer<s n="n"/></l><r>ingegnere<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>enginyeria<s n="n"/></l>               <r>ingegneria<s n="n"/></r></p></e>
 <e>       <p><l>enigma<s n="n"/></l>                   <r>enigma<s n="n"/></r></p></e>
 <e>       <p><l>enlairament<s n="n"/></l>              <r>decollo<s n="n"/></r></p></e>
@@ -5094,9 +5051,7 @@
 <e>       <p><l>finca<s n="n"/><s n="f"/></l>          <r>podere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>finestra<s n="n"/></l>                 <r>finestra<s n="n"/></r></p></e>
 <e>       <p><l>finestreta<s n="n"/><s n="f"/></l>     <r>finestrino<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>finlandès<s n="n"/><s n="m"/></l>      <r>finlandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>finlandès<s n="n"/><s n="f"/></l>      <r>finlandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>finlandès<s n="n"/><s n="GD"/></l>     <r>finlandese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>finlandès<s n="n"/></l><r>finlandese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>firma<s n="n"/></l>                    <r>firma<s n="n"/></r></p></e>
 <e>       <p><l>firmament<s n="n"/></l>                <r>firmamento<s n="n"/></r></p></e>
 <e>       <p><l>fiscal<s n="n"/><s n="mf"/></l>        <r>pubblico<b/>ministero<s n="n"/><s n="m"/></r></p></e>
@@ -5179,9 +5134,7 @@
 <e>       <p><l>fracàs<s n="n"/></l>                   <r>fallimento<s n="n"/></r></p></e>
 <e><p><l>fragilitat<s n="n"/><s n="f"/></l><r>fragilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>fragment<s n="n"/></l>                 <r>frammento<s n="n"/></r></p></e>
-<e r="LR"><p><l>francès<s n="n"/><s n="m"/></l>        <r>francese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>francès<s n="n"/><s n="f"/></l>        <r>francese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>francès<s n="n"/><s n="GD"/></l>       <r>francese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>francès<s n="n"/></l><r>francese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>franquisme<s n="n"/></l>               <r>franchismo<s n="n"/></r></p></e>
 <e r="RL"><p><l>franquista<s n="n"/><s n="mf"/></l>      <r>franchista<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>franquista<s n="n"/><s n="mf"/></l>      <r>franchista<s n="n"/><s n="f"/></r></p></e>
@@ -5296,9 +5249,7 @@
 <e>       <p><l>gavina<s n="n"/><s n="f"/></l>         <r>gabbiano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>gebre<s n="n"/><s n="m"/></l>          <r>galaverna<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>gebre<s n="n"/><s n="m"/></l>          <r>calaverna<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>gegant<s n="n"/><s n="GD"/></l>        <r>gigante<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>gegant<s n="n"/><s n="m"/></l>         <r>gigante<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>gegant<s n="n"/><s n="f"/></l>         <r>gigante<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>gegant<s n="n"/></l><r>gigante<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>gel<s n="n"/></l>                      <r>ghiaccio<s n="n"/></r></p></e>
 <e>       <p><l>gelatina<s n="n"/></l>                 <r>gelatina<s n="n"/></r></p></e>
 <e>       <p><l>gelea<s n="n"/></l>                    <r>gelatina<s n="n"/></r></p></e>
@@ -5396,9 +5347,7 @@
 <e r="RL"><p><l>guarda-roba<s n="n"/><s n="mf"/><s n="ND"/></l><r>guardaroba<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>guarderia<s n="n"/><s n="f"/></l>      <r>asilo<g><b/>nido</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>guardiola<s n="n"/><s n="f"/></l>      <r>salvadanaio<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>guardià<s n="n"/><s n="m"/></l>        <r>custode<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>guardià<s n="n"/><s n="f"/></l>        <r>custode<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>guardià<s n="n"/><s n="GD"/></l>       <r>custode<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>guardià<s n="n"/></l><r>custode<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>guarnició<s n="n"/></l>                <r>guarnigione<s n="n"/></r></p></e>
 <e>       <p><l>guerra<s n="n"/></l>                   <r>guerra<s n="n"/></r></p></e>
 <e>       <p><l>guerrer<s n="n"/></l>                  <r>guerriero<s n="n"/></r></p></e>
@@ -5489,9 +5438,7 @@
 <e>       <p><l>història<s n="n"/></l>                 <r>storia<s n="n"/></r></p></e>
 <e>       <p><l>hivern<s n="n"/></l>                   <r>inverno<s n="n"/></r></p></e>
 <e>       <p><l>hivernacle<s n="n"/><s n="m"/></l>     <r>serra<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>holandès<s n="n"/><s n="m"/></l>       <r>olandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>holandès<s n="n"/><s n="f"/></l>       <r>olandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>holandès<s n="n"/><s n="GD"/></l>      <r>olandese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>holandès<s n="n"/></l><r>olandese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>holocaust<s n="n"/></l>                <r>olocausto<s n="n"/></r></p></e>
 <e>       <p><l>home<s n="n"/></l>                     <r>uomo<s n="n"/></r></p></e>
 <e>       <p><l>homenatge<s n="n"/></l>                <r>omaggio<s n="n"/></r></p></e>
@@ -5715,9 +5662,7 @@
 <e>       <p><l>iranià<s n="adj"/></l>                 <r>iraniano<s n="adj"/></r></p></e>
 <e>       <p><l>iraquià<s n="n"/></l>                  <r>iracheno<s n="n"/></r></p></e>
 <e>       <p><l>iraquià<s n="adj"/></l>                <r>iracheno<s n="adj"/></r></p></e>
-<e r="LR"><p><l>irlandès<s n="n"/><s n="m"/></l>       <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>irlandès<s n="n"/><s n="f"/></l>       <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>irlandès<s n="n"/><s n="GD"/></l>      <r>irlandese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>irlandès<s n="n"/></l><r>irlandese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>ironia<s n="n"/></l>                   <r>ironia<s n="n"/></r></p></e>
 <e>       <p><l>irritació<s n="n"/></l>                <r>irritazione<s n="n"/></r></p></e>
 <e>       <p><l>irrupció<s n="n"/></l>                 <r>irruzione<s n="n"/></r></p></e>
@@ -5736,9 +5681,7 @@
 <e>       <p><l>jaguar<s n="n"/></l>                   <r>giaguaro<s n="n"/></r></p></e>
 <e r="LR"><p><l>jaló<s n="n"/><s n="m"/></l>           <r>pietra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>jamaicà<s n="n"/></l>                  <r>giamaicano<s n="n"/></r></p></e>
-<e r="LR"><p><l>japonès<s n="n"/><s n="m"/></l>        <r>giapponese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>japonès<s n="n"/><s n="f"/></l>        <r>giapponese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>japonès<s n="n"/><s n="GD"/></l>       <r>giapponese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>japonès<s n="n"/></l><r>giapponese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>jaqueta<s n="n"/></l>                  <r>giacca<s n="n"/></r></p></e>
 <e>       <p><l>jardiner<s n="n"/></l>                 <r>giardiniere<s n="n"/></r></p></e>
 <e>       <p><l>jardineria<s n="n"/><s n="f"/></l>     <r>giardinaggio<s n="n"/><s n="m"/></r></p></e>
@@ -6396,9 +6339,7 @@
 <e>       <p><l>norma<s n="n"/></l>                    <r>norma<s n="n"/></r></p></e>
 <e><p><l>normalitat<s n="n"/><s n="f"/></l><r>normalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>normalització<s n="n"/></l>            <r>normalizzazione<s n="n"/></r></p></e>
-<e r="LR"><p><l>noruec<s n="n"/><s n="m"/></l>         <r>norvegese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>noruec<s n="n"/><s n="f"/></l>         <r>norvegese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>noruec<s n="n"/><s n="GD"/></l>        <r>norvegese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>noruec<s n="n"/></l><r>norvegese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>nostàlgia<s n="n"/></l>                <r>nostalgia<s n="n"/></r></p></e>
 <e>       <p><l>nota<s n="n"/></l>                     <r>nota<s n="n"/></r></p></e>
 <e r="LR"><p><l>notari<s n="n"/><s n="m"/></l>         <r>notaio<s n="n"/><s n="m"/></r></p></e>
@@ -6645,9 +6586,7 @@
 <e>       <p><l>parell<s n="n"/><s n="m"/><s n="pl"/></l><r>paio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>parella<s n="n"/></l>                  <r>coppia<s n="n"/></r></p></e>
 <e>       <p><l>parent<s n="n"/></l>                   <r>parente<s n="n"/></r></p></e>
-<e r="LR"><p><l>parent<s n="n"/><s n="m"/></l>         <r>parente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>parent<s n="n"/><s n="f"/></l>         <r>parente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>parent<s n="n"/><s n="GD"/></l>        <r>parente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>parent<s n="n"/></l><r>parente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>parentiu<s n="n"/><s n="m"/></l>       <r>parentela<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>parer<s n="n"/></l>                    <r>parere<s n="n"/></r></p></e>
 <e>       <p><l>paret<s n="n"/></l>                    <r>parete<s n="n"/></r></p></e>
@@ -7508,9 +7447,7 @@
 <e>       <p><l>sucrera<s n="n"/><s n="f"/></l>        <r>zuccheriere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sucrera<s n="n"/><s n="f"/></l>        <r>zuccheriere<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sud<s n="n"/><s n="m"/><s n="sg"/></l> <r>sud<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>suec<s n="n"/><s n="m"/></l>         <r>svedese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>suec<s n="n"/><s n="f"/></l>         <r>svedese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>suec<s n="n"/><s n="GD"/></l>        <r>svedese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>suec<s n="n"/></l><r>svedese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>sufix<s n="n"/></l>                    <r>suffisso<s n="n"/></r></p></e>
 <e>       <p><l>sufragi<s n="n"/></l>                  <r>suffragio<s n="n"/></r></p></e>
 <e>       <p><l>suggeriment<s n="n"/><s n="m"/></l>    <r>suggerimento<s n="n"/><s n="m"/></r></p></e>
@@ -7547,9 +7484,7 @@
 <e>       <p><l>tabaquisme<s n="n"/></l>               <r>tabagismo<s n="n"/></r></p></e>
 <e><p><l>tabú<s n="n"/><s n="m"/></l><r>tabù<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tafaner<s n="n"/></l>                  <r>guardone<s n="n"/></r></p></e>
-<e r="LR"><p><l>tailandès<s n="n"/><s n="m"/></l>      <r>tailandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>tailandès<s n="n"/><s n="f"/></l>      <r>tailandese<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>tailandès<s n="n"/><s n="GD"/></l>     <r>tailandese<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>tailandès<s n="n"/></l><r>tailandese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>talent<s n="n"/></l>                   <r>talento<s n="n"/></r></p></e>
 <e>       <p><l>talismà<s n="n"/></l>                  <r>talismano<s n="n"/></r></p></e>
 <e>       <p><l>tall<s n="n"/><s n="m"/></l>           <r>taglio<s n="n"/><s n="m"/></r></p></e>
@@ -7678,9 +7613,7 @@
 <e>       <p><l>tos<s n="n"/><s n="f"/><s n="sp"/></l> <r>tosse<s n="n"/></r></p></e>
 <e r="RL"><p><l>tos<s n="n"/><s n="f"/><s n="sp"/></l> <r>tosse<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>tos<s n="n"/><s n="f"/><s n="sp"/></l> <r>tosse<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>toxicòman<s n="n"/><s n="m"/></l>      <r>tossicomane<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>toxicòman<s n="n"/><s n="f"/></l>      <r>tossicomane<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>toxicòman<s n="n"/><s n="GD"/></l>     <r>tossicomane<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>toxicòman<s n="n"/></l><r>tossicomane<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>tractament<s n="n"/></l>               <r>trattamento<s n="n"/></r></p></e>
 <e>       <p><l>tractor<s n="n"/></l>                  <r>trattore<s n="n"/></r></p></e>
 <e>       <p><l>tradició<s n="n"/></l>                 <r>tradizione<s n="n"/></r></p></e>
@@ -7778,9 +7711,7 @@
 <e><p><l>universitat<s n="n"/><s n="f"/></l><r>università<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>unió<s n="n"/></l>                     <r>unione<s n="n"/></r></p></e>
 <e>       <p><l>urani<s n="n"/></l>                    <r>uranio<s n="n"/></r></p></e>
-<e r="LR"><p><l>usuari<s n="n"/><s n="m"/></l>         <r>utente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>usuari<s n="n"/><s n="f"/></l>         <r>utente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>usuari<s n="n"/><s n="GD"/></l>        <r>utente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>usuari<s n="n"/></l><r>utente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>usura<s n="n"/></l>                    <r>usura<s n="n"/></r></p></e>
 <e>       <p><l>utopia<s n="n"/></l>                   <r>utopia<s n="n"/></r></p></e>
 <e>       <p><l>v<s n="n"/></l>                        <r>v<s n="n"/></r></p></e>
