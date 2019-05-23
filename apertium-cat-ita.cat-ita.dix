@@ -3479,9 +3479,6 @@
 <e>       <p><l>camarilla<s n="n"/></l>                <r>camarilla<s n="n"/></r></p></e>
 <e>       <p><l>cambra<s n="n"/><s n="f"/></l>         <r>stanza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cambra<s n="n"/><s n="f"/></l>         <r>camera<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>cambra<s n="n"/><s n="f"/><s n="ND"/></l><r>cameraman<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>cambra<s n="n"/><s n="f"/><s n="sg"/></l><r>cameraman<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>cambra<s n="n"/><s n="f"/><s n="pl"/></l><r>cameraman<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>cambrer<s n="n"/></l>                  <r>cameriere<s n="n"/></r></p></e>
 <e>       <p><l>camell<s n="n"/></l>                   <r>cammello<s n="n"/></r></p></e>
 <e>       <p><l>camioner<s n="n"/></l>                 <r>camionista<s n="n"/></r></p></e>
@@ -4051,8 +4048,8 @@
 <e>       <p><l>custòdia<s n="n"/></l>                 <r>custodia<s n="n"/></r></p></e>
 <e>       <p><l>càlcul<s n="n"/></l>                   <r>calcolo<s n="n"/></r></p></e>
 <e>       <p><l>calcular<s n="vblex"/></l>             <r>calcolare<s n="vblex"/></r></p></e>
-<e>       <p><l>càmera<s n="n"/></l>                   <r>camera<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>càmera<s n="n"/></l>                   <r>cameraman<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>càmera<s n="n"/><s n="f"/></l>         <r>camera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>càmera<s n="n"/><s n="m"/></l>         <r>cameraman<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>càncer<s n="n"/></l>                   <r>cancro<s n="n"/></r></p></e>
 <e>       <p><l>cànem<s n="n"/><s n="m"/></l>          <r>canapa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cànon<s n="n"/></l>                    <r>canone<s n="n"/></r></p></e>
@@ -4063,9 +4060,7 @@
 <e>       <p><l>cèl·lula<s n="n"/></l>                 <r>cellula<s n="n"/></r></p></e>
 <e>       <p><l>cèrcol<s n="n"/></l>                   <r>cerchio<s n="n"/></r></p></e>
 <e>       <p><l>cérvol<s n="n"/></l>                   <r>cervo<s n="n"/></r></p></e>
-<e r="RL"><p><l>cítric<s n="n"/><s n="m"/></l>         <r>citrico<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>cítric<s n="n"/><s n="m"/></l>         <r>citrico<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>cítric<s n="n"/><s n="m"/></l>         <r>citrico<s n="n"/><s n="GD"/></r></p></e>
+<e>       <p><l>cítric<s n="n"/><s n="m"/></l>         <r>agrume<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>còctel<s n="n"/><s n="m"/></l><r>cocktail<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>còlera<s n="n"/><s n="mf"/></l>        <r>collera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>còmic<s n="n"/></l>                    <r>comico<s n="n"/></r></p></e>
@@ -5500,10 +5495,7 @@
 <e>       <p><l>llargmetratge<s n="n"/></l>            <r>lungometraggio<s n="n"/></r></p></e>
 <e>       <p><l>llargària<s n="n"/></l>                <r>longitudine<s n="n"/></r></p></e>
 <e>       <p><l>llast<s n="n"/><s n="m"/></l>          <r>zavorra<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>llatí<s n="n"/><s n="m"/><s n="sg"/></l><r>latino<s n="n"/></r></p></e>
-<e>       <p><l>llatí<s n="n"/><s n="m"/><s n="pl"/></l><r>latino<s n="n"/></r></p></e>
-<e>       <p><l>llatí<s n="n"/><s n="f"/><s n="sg"/></l><r>latino<s n="n"/></r></p></e>
-<e>       <p><l>llatí<s n="n"/><s n="f"/><s n="pl"/></l><r>latino<s n="n"/></r></p></e>
+<e>       <p><l>llatí<s n="n"/></l>                    <r>latino<s n="n"/></r></p></e>
 <e>       <p><l>llauna<s n="n"/></l>                   <r>latta<s n="n"/></r></p></e>
 <e r="LR"><p><l>llaurador<s n="n"/></l>                <r>contadino<s n="n"/></r></p></e>
 <e r="LR"><p><l>llavadora<s n="n"/></l>                <r>lavatrice<s n="n"/></r></p></e>
@@ -5651,9 +5643,7 @@
 <e r="LR"><p><l>maqueta<s n="n"/></l>                  <r>modello<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mapa<s n="n"/><s n="m"/></l>           <r>cartina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mapa<s n="n"/><s n="m"/></l>           <r>mappa<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>maquineta<s n="n"/><s n="f"/><s n="ND"/></l><r>temperino<s n="n"/></r></p></e>
-<e>       <p><l>maquineta<s n="n"/><s n="f"/><s n="pl"/></l><r>temperino<s n="n"/></r></p></e>
-<e>       <p><l>maquineta<s n="n"/><s n="f"/><s n="sg"/></l><r>temperino<s n="n"/></r></p></e>
+<e>       <p><l>maquineta<s n="n"/><s n="f"/></l>      <r>temperino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>maquinària<s n="n"/><s n="f"/></l>     <r>macchinario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mar<s n="n"/><s n="mf"/></l>           <r>mare<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>maragda<s n="n"/><s n="f"/></l>        <r>smeraldo<s n="n"/><s n="m"/></r></p></e>
@@ -5673,9 +5663,7 @@
 <e>       <p><l>marieta<s n="n"/></l>                  <r>coccinella<s n="n"/></r></p></e>
 <e>       <p><l>marihuana<s n="n"/></l>                <r>marijuana<s n="n"/></r></p></e>
 <e>       <p><l>marina<s n="n"/></l>                   <r>marina<s n="n"/></r></p></e>
-<e r="LR"><p><l>mariner<s n="n"/><s n="m"/></l>        <r>marinaio<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>mariner<s n="n"/><s n="f"/></l>        <r>marinaio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>mariner<s n="n"/><s n="GD"/></l>       <r>marinaio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mariner<s n="n"/><s n="m"/></l>        <r>marinaio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>marioneta<s n="n"/></l>                <r>marionetta<s n="n"/></r></p></e>
 <e>       <p><l>marisc<s n="n"/></l>                   <r>frutto<g><b/>di<b/>mare</g><s n="n"/></r></p></e>
 <e>       <p><l>marit<s n="n"/></l>                    <r>marito<s n="n"/></r></p></e>
@@ -5763,9 +5751,7 @@
 <e><p><l>metamorfosi<s n="n"/><s n="f"/></l><r>metamorfosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>meteorit<s n="n"/></l>                 <r>meteorite<s n="n"/></r></p></e>
 <e>       <p><l>meteorologia<s n="n"/></l>             <r>meteorologia<s n="n"/></r></p></e>
-<e r="LR"><p><l>metge<s n="n"/><s n="m"/></l>          <r>medico<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>metge<s n="n"/><s n="f"/></l>          <r>medico<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>metge<s n="n"/><s n="GD"/></l>         <r>medico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>metge<s n="n"/></l>                    <r>medico<s n="n"/></r></p></e>
 <e>       <p><l>metre<s n="n"/></l>                    <r>metro<s n="n"/></r></p></e>
 <e>       <p><l>metro<s n="n"/></l>                    <r>metro<s n="n"/></r></p></e>
 <e>       <p><l>metro<s n="n"/><s n="m"/></l>          <r>metropolitano<s n="n"/><s n="m"/></r></p></e>
