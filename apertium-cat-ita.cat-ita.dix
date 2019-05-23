@@ -4375,9 +4375,7 @@
 <e r="LR"><p><l>diable<s n="n"/><s n="m"/></l>         <r>diavolo<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>diable<s n="n"/><s n="GD"/></l>        <r>diavolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>diada<s n="n"/></l>                    <r>festa<s n="n"/></r></p></e>
-<e r="LR"><p><l>diagnòstic<s n="n"/><s n="m"/><s n="sg"/></l><r>diagnosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>diagnòstic<s n="n"/><s n="m"/><s n="pl"/></l><r>diagnosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>diagnòstic<s n="n"/><s n="m"/><s n="ND"/></l><r>diagnosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>diagnòstic<s n="n"/><s n="m"/></l><r>diagnosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>dialecte<s n="n"/></l>                 <r>dialetto<s n="n"/></r></p></e>
 <e>       <p><l>dialèctica<s n="n"/></l>               <r>dialettica<s n="n"/></r></p></e>
 <e>       <p><l>diamant<s n="n"/></l>                  <r>diamante<s n="n"/></r></p></e>
@@ -4427,9 +4425,7 @@
 <e>       <p><l>direcció<s n="n"/><s n="f"/></l>                 <r>indirizzo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>direcció<s n="n"/></l>                 <r>direzione<s n="n"/></r></p></e>
 <e>       <p><l>director<s n="n"/></l>                 <r>direttore<s n="n"/></r></p></e>
-<e r="LR"><p><l>directori<s n="n"/><s n="m"/><s n="sg"/></l><r>directory<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>directori<s n="n"/><s n="m"/><s n="pl"/></l><r>directory<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>directori<s n="n"/><s n="m"/><s n="ND"/></l><r>directory<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>directori<s n="n"/><s n="m"/></l><r>directory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>directriu<s n="n"/></l>                <r>direttrice<s n="n"/></r></p></e>
 <e>       <p><l>directriu<s n="n"/><s n="f"/></l>      <r>direttiva<s n="n"/></r></p></e>
 <e>       <p><l>dirigent<s n="n"/></l>                 <r>dirigente<s n="n"/></r></p></e>
@@ -4541,9 +4537,7 @@
 <e>       <p><l>déu<s n="n"/></l>                      <r>dio<s n="n"/></r></p></e>
 <e>       <p><l>dígit<s n="n"/><s n="m"/></l>          <r>cifra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dòlar<s n="n"/></l>                    <r>dollaro<s n="n"/></r></p></e>
-<e r="LR"><p><l>e-mail<s n="n"/><s n="m"/><s n="sg"/></l><r>e-mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>e-mail<s n="n"/><s n="m"/><s n="pl"/></l><r>e-mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>e-mail<s n="n"/><s n="m"/><s n="ND"/></l><r>e-mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>e-mail<s n="n"/><s n="m"/></l><r>e-mail<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e r="LR"><p><l>eben<s n="n"/></l>                     <r>ebano<s n="n"/></r></p></e>
 <e>       <p><l>eclesiàstic<s n="n"/></l>              <r>ecclesiastico<s n="n"/></r></p></e>
 <e>       <p><l>eco<s n="n"/></l>                      <r>eco<s n="n"/></r></p></e>
@@ -5646,9 +5640,7 @@
 <e>       <p><l>latitud<s n="n"/></l>                  <r>latitudine<s n="n"/></r></p></e>
 <e>       <p><l>lava<s n="n"/></l>                     <r>lava<s n="n"/></r></p></e>
 <e>       <p><l>lavabo<s n="n"/></l>                   <r>lavabo<s n="n"/></r></p></e>
-<e r="LR"><p><l>laïcisme<s n="n"/><s n="m"/><s n="sg"/></l><r>laicità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>laïcisme<s n="n"/><s n="m"/><s n="pl"/></l><r>laicità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>laïcisme<s n="n"/><s n="m"/><s n="ND"/></l><r>laicità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>laïcisme<s n="n"/><s n="m"/></l><r>laicità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>lectura<s n="n"/></l>                  <r>lettura<s n="n"/></r></p></e>
 <e>       <p><l>legislació<s n="n"/></l>               <r>legislazione<s n="n"/></r></p></e>
 <e>       <p><l>legislatura<s n="n"/></l>              <r>legislatura<s n="n"/></r></p></e>
@@ -5809,9 +5801,7 @@
 <e>       <p><l>magrana<s n="n"/><s n="f"/></l>        <r>melograno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>magrebí<s n="n"/></l>                  <r>magrebino<s n="n"/></r></p></e>
 <e>       <p><l>maig<s n="n"/></l>                     <r>maggio<s n="n"/></r></p></e>
-<e r="LR"><p><l>mail<s n="n"/><s n="m"/><s n="sg"/></l><r>mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>mail<s n="n"/><s n="m"/><s n="pl"/></l><r>mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>mail<s n="n"/><s n="m"/><s n="ND"/></l><r>mail<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>mail<s n="n"/><s n="m"/></l><r>mail<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e r="LR"><p><l>maixella<s n="n"/></l>                 <r>mandibola<s n="n"/></r></p></e>
 <e><p><l>majordom<s n="n"/></l><r>maggiordomo<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>majoria<s n="n"/></l>                  <r>maggioranza<s n="n"/></r></p></e>
@@ -6919,9 +6909,7 @@
 <e>       <p><l>quiosc<s n="n"/></l>                   <r>chiosco<s n="n"/></r></p></e>
 <e>       <p><l>quirat<s n="n"/></l>                   <r>carato<s n="n"/></r></p></e>
 <e>       <p><l>quist<s n="n"/></l>                    <r>cisti<s n="n"/></r></p></e>
-<e r="LR"><p><l>quist<s n="n"/><s n="m"/><s n="sg"/></l><r>cisti<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>quist<s n="n"/><s n="m"/><s n="pl"/></l><r>cisti<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>quist<s n="n"/><s n="m"/><s n="ND"/></l><r>cisti<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>quist<s n="n"/><s n="m"/></l><r>cisti<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>quist<s n="n"/><s n="m"/></l>          <r>ciste<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>quitrà<s n="n"/></l>                   <r>catrame<s n="n"/></r></p></e>
 <e>       <p><l>químic<s n="n"/></l>                   <r>chimico<s n="n"/></r></p></e>
@@ -7531,9 +7519,7 @@
 <e>       <p><l>tros<s n="n"/></l>                     <r>pezzetto<s n="n"/></r></p></e>
 <e>       <p><l>truja<s n="n"/></l>                    <r>scrofa<s n="n"/></r></p></e>
 <e>       <p><l>tràfic<s n="n"/></l>                   <r>traffico<s n="n"/></r></p></e>
-<e r="LR"><p><l>tràngol<s n="n"/><s n="m"/><s n="sg"/></l><r>trance<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>tràngol<s n="n"/><s n="m"/><s n="pl"/></l><r>trance<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>tràngol<s n="n"/><s n="m"/><s n="ND"/></l><r>trance<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>tràngol<s n="n"/><s n="m"/></l><r>trance<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tuberculosi<s n="n"/><s n="f"/><s n="ND"/></l><r>tubercolosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>tuberculosi<s n="n"/><s n="f"/><s n="pl"/></l><r>tubercolosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>tuberculosi<s n="n"/><s n="f"/><s n="sg"/></l><r>tubercolosi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -7700,9 +7686,7 @@
 <e r="LR"><p><l>xarrada<s n="n"/></l>                  <r>ciarla<s n="n"/></r></p></e>
 <e>       <p><l>xarxa<s n="n"/></l>                    <r>rete<s n="n"/></r></p></e>
 <e>       <p><l>xassís<s n="n"/><s n="m"/></l><r>telaio<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>xat<s n="n"/><s n="m"/><s n="sg"/></l> <r>chat<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>xat<s n="n"/><s n="m"/><s n="pl"/></l> <r>chat<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>xat<s n="n"/><s n="m"/><s n="ND"/></l> <r>chat<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>xat<s n="n"/><s n="m"/></l><r>chat<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>xec<s n="n"/></l>                      <r>assegno<s n="n"/></r></p></e>
 <e r="LR"><p><l>xef<s n="n"/><s n="mf"/><s n="sg"/></l><r>chef<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>xef<s n="n"/><s n="mf"/><s n="pl"/></l><r>chef<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
