@@ -307,6 +307,19 @@
     <match lemma="un altro" tags="det.ind.f.pl"><select lemma="altre" tags="det.*"/></match>
   </rule>
 
+<!-- **************** PRN **************** -->
+
+<!-- un altro > un altre, altre -->
+  <rule weight="0.6">
+    <match lemma="un altro" tags="prn.*"><select lemma="un altre" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un altro" tags="prn.ind.m.pl"><select lemma="altre" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un altro" tags="prn.ind.f.pl"><select lemma="altre" tags="prn.*"/></match>
+  </rule>
+
 <!-- **************** ADJ **************** -->
 
 <!-- rosso > vermell, negre -->
@@ -366,7 +379,8 @@
     <match lemma="paese" tags="n.*"><select lemma="país" tags="n.*"/></match>
   </rule>
 
-<!-- V -->
+<!-- **************** V **************** -->
+
   <!-- confinare > confinar, limitar -->
   <rule weight="0.8">
     <match lemma="confinare" tags="vblex.*"><select lemma="confinar" tags="vblex.*"/></match>
@@ -434,11 +448,113 @@
 
   <!-- da > de, per -->
   <rule weight="0.8">
-     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+
+  <!-- a >> a, en -->
+  <rule weight="0.8">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pensare"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <!-- in >> en, a -->
+  <rule weight="0.8">
+    <match lemma="in" tags="pr"><select lemma="en"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match lemma="Catalogna"/>
+      <match lemma="Aragona"/>
+      <match lemma="Castiglia"/>
+      <match lemma="Andalusia"/>
+      <match lemma="Occitania"/>
+      <match lemma="Provenza"/>
+      <match lemma="Aquitania"/>
+      <match lemma="Biscaglia"/>
+      <match lemma="Normandia"/>
+      <match lemma="Bretagna"/>
+      <match lemma="Alsazia"/>
+      <match lemma="Spagna"/>
+      <match lemma="Francia"/>
+      <match lemma="Germania"/>
+      <match lemma="Svezia"/>
+      <match lemma="Norvegia"/>
+      <match lemma="Finlandia"/>
+      <match lemma="Islanda"/>
+      <match lemma="Italia"/>
+      <match lemma="Lombardia"/>
+      <match lemma="Piemonte"/>
+      <match lemma="Liguria"/>
+      <match lemma="Veneto"/>
+      <match lemma="Friuli"/>
+      <match lemma="Emilia"/>
+      <match lemma="Romagna"/>
+      <match lemma="Toscana"/>
+      <match lemma="Lazio"/>
+      <match lemma="Campania"/>
+      <match lemma="Calabria"/>
+      <match lemma="Sicilia"/>
+      <match lemma="Sardinia"/>
+      <match lemma="Belgio"/>
+      <match lemma="Olanda"/>
+      <match lemma="Svizzera"/>
+      <match lemma="Austria"/>
+      <match lemma="Ungheria"/>
+      <match lemma="Slovacchia"/>
+      <match lemma="Polonia"/>
+      <match lemma="Lituania"/>
+      <match lemma="Lettonia"/>
+      <match lemma="Estonia"/>
+      <match lemma="Bielorussia"/>
+      <match lemma="Grecia"/>
+      <match lemma="Inghilterra"/>
+      <match lemma="Scozia"/>
+      <match lemma="Russia"/>
+      <match lemma="Ucraina"/>
+      <match lemma="Bosnia"/>
+      <match lemma="Croacia"/>
+      <match lemma="Serbia"/>
+      <match lemma="Cina"/>
+      <match lemma="India"/>
+      <match lemma="Turchia"/>
+      <match lemma="Iraq"/>
+      <match lemma="Iran"/>
+      <match lemma="Arabia"/>
+      <match lemma="Siria"/>
+      <match lemma="Giordania"/>
+      <match lemma="Israele"/>
+      <match lemma="Palestina"/>
+      <match lemma="Africa"/>
+      <match lemma="America"/>
+      <match lemma="America centrale"/>
+      <match lemma="Nord America"/>
+      <match lemma="Sud America"/>
+      <match lemma="Asia"/>
+      <match lemma="Europa"/>
+      <match lemma="Oceania"/>
+      <match lemma="Australia"/>
+      <match lemma="occidente"/>
+      <match lemma="oriente"/>
+
+      <match lemma="regione" tags="n.*"/>
+      <match lemma="dipartimento" tags="n.*"/>
+      <match lemma="provincia" tags="n.*"/>
+      <match lemma="repubblica" tags="n.*"/>
+    </or>
   </rule>
 
 <!-- **************** NP **************** -->
