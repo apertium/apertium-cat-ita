@@ -294,7 +294,22 @@
 
   <rules>
 
-<!-- ADJ -->
+<!-- **************** DET **************** -->
+
+<!-- un altro > un altre, altre -->
+  <rule weight="0.6">
+    <match lemma="un altro" tags="det.*"><select lemma="un altre" tags="det.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un altro" tags="det.ind.m.pl"><select lemma="altre" tags="det.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un altro" tags="det.ind.f.pl"><select lemma="altre" tags="det.*"/></match>
+  </rule>
+
+<!-- **************** ADJ **************** -->
+
+<!-- rosso > vermell, negre -->
   <rule weight="0.8">
     <match lemma="rosso" tags="adj.*"><select lemma="vermell" tags="adj.*"/></match>
   </rule>
@@ -303,7 +318,8 @@
     <match lemma="rosso" tags="adj.*"><select lemma="negre" tags="adj.*"/></match>
   </rule>
 
-<!-- N -->
+<!-- **************** N **************** -->
+
   <!-- stagione > estació, temporada -->
   <rule weight="0.8">
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>

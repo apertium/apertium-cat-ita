@@ -678,10 +678,18 @@
 
   </def-seqs>
 
-<!-- **************** PR **************** -->
-<!-- a > a, in --> <!-- srd -->
-
 <rules>
+
+<!-- **************** DET **************** -->
+
+<!-- altre > altro, un altro -->
+  <rule weight="0.6">
+    <match lemma="altre" tags="det.*"><select lemma="altro" tags="det.*"/></match>
+  </rule>
+
+<!-- **************** PR **************** -->
+
+<!-- a > a, in --> <!-- srd -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>

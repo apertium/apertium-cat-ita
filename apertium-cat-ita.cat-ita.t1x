@@ -14,11 +14,8 @@
     </def-cat>
 
     <def-cat n="adjec">
-      <cat-item tags="adj.m.*"/>
-      <cat-item tags="adj.f.*"/>
-      <cat-item tags="adj.mf.*"/>
-      <cat-item tags="adj.itg.mf.*"/>
-      <cat-item tags="adj.GD.*"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.pp.*"/>
     </def-cat>
 
     <def-cat n="adv_preadv">
@@ -188,6 +185,7 @@
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.qnt"/>
       <attr-item tags="det.ind"/> <!-- poco / poc -->
+      <attr-item tags="vblex.pp"/>
     </def-attr>
 
     <def-attr n="a_det">          
