@@ -27,10 +27,6 @@
       <cat-item tags="vbser.pp.*"/>
     </def-cat>
 
-    <def-cat n="prnenc">
-      <cat-item tags="prn.enc.*"/>
-    </def-cat>
-
    <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
     </def-cat>
@@ -115,11 +111,26 @@
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="prnenc">
+      <cat-item tags="prn.enc.*"/>
+    </def-cat>
     <def-cat n="prnpro">
       <cat-item tags="prn.pro.*"/>
     </def-cat>
     <def-cat n="ci">
       <cat-item lemma="ci" tags="prn.pro.adv"/>
+    </def-cat>
+    <def-cat n="tutto_prn">
+      <cat-item lemma="tutto" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="prnpers_subj">
+      <cat-item lemma="io" tags="prn.tn.*"/>
+      <cat-item lemma="tu" tags="prn.tn.*"/>
+      <cat-item lemma="lui" tags="prn.tn.*"/>
+      <cat-item lemma="lei" tags="prn.tn.*"/>
+      <cat-item lemma="noi" tags="prn.tn.*"/>
+      <cat-item lemma="voi" tags="prn.tn.*"/>
+      <cat-item lemma="loro" tags="prn.tn.*"/>
     </def-cat>
 
     <def-cat n="top_ant">
@@ -227,7 +238,7 @@
     </def-attr>
 
 
-    <def-attr n="persona">
+    <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
@@ -420,7 +431,7 @@
   	        <lit v="anar"/>
 	      </get-case-from>
 	      <lit-tag v="vaux"/>
-	      <clip pos="1" side="sl" part="persona"/>
+	      <clip pos="1" side="sl" part="pers"/>
 	      <clip pos="1" side="sl" part="nbr"/>
               <lit v="$ ^"/>
 	    </concat>
@@ -460,7 +471,7 @@
 		</get-case-from>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="temps"/>
-	      <clip pos="1" side="tl" part="persona"/>
+	      <clip pos="1" side="tl" part="pers"/>
 	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
@@ -2850,14 +2861,92 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
-              <tag><clip pos="1" side="tl" part="persona"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="tipus_prn"/>
-              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+	<let>
+	  <var n="genero"/>
+	  <clip pos="1" side="tl" part="gen"/>
+	</let>
+	<let>
+	  <var n="numero"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	</let>
+      </action>
+    </rule>
+
+
+    <rule comment="noi tutti > tots nosaltres">
+      <pattern>
+        <pattern-item n="prnpers_subj"/>
+        <pattern-item n="tutto_prn"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="gen"/>
+                <lit-tag v="GD"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="m"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="pronom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tipus_prn"/>
+              <clip pos="1" side="tl" part="pers"/>
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -4771,7 +4860,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="pers"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4825,7 +4914,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="pers"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -5037,7 +5126,7 @@
                                                 <tag><lit-tag v="SV"/></tag>
                                                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
                                                 <tag><clip pos="1" side="sl" part="temps"/></tag>
-                                                <tag><clip pos="1" side="tl" part="persona"/></tag>
+                                                <tag><clip pos="1" side="tl" part="pers"/></tag>
                                                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
                                                 <!--<tag><var n="tipusverb"/></tag>
                                                 <tag><var n="cv_verb"/></tag>-->
@@ -5047,7 +5136,7 @@
                                                         <clip pos="1" side="tl" part="lemh"/>
                                                         <clip pos="1" side="tl" part="a_verb"/>
                                                         <clip pos="1" side="tl" part="temps"/>
-                                                        <clip pos="1" side="tl" part="persona"/>
+                                                        <clip pos="1" side="tl" part="pers"/>
                                                         <clip pos="1" side="tl" part="nbr"/>
                                                 </lu>
                                                 <lu>
@@ -5087,7 +5176,7 @@
                                                 <tag><lit-tag v="SV"/></tag>
                                                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
                                                 <tag><clip pos="1" side="sl" part="temps"/></tag>
-                                                <tag><clip pos="1" side="tl" part="persona"/></tag>
+                                                <tag><clip pos="1" side="tl" part="pers"/></tag>
                                                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
                                                 <!--<tag><var n="tipusverb"/></tag>
                                                 <tag><var n="cv_verb"/></tag>-->
@@ -5097,7 +5186,7 @@
                                                         <clip pos="1" side="tl" part="lemh"/>
                                                         <clip pos="1" side="tl" part="a_verb"/>
                                                         <clip pos="1" side="tl" part="temps"/>
-                                                        <clip pos="1" side="tl" part="persona"/>
+                                                        <clip pos="1" side="tl" part="pers"/>
                                                         <clip pos="1" side="tl" part="nbr"/>
                                                 </lu>
                                                 <lu>
