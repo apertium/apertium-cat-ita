@@ -90,6 +90,11 @@
       <cat-item tags="vbmod.ifi.*"/>
     </def-cat>
 
+    <def-cat n="ser_p3_ifi">
+      <cat-item tags="vbser.ifi.p3.sg"/>
+      <cat-item tags="vbser.ifi.p3.pl"/>
+    </def-cat>
+
     <def-cat n="ser_p3_no_ifi">
       <cat-item tags="vbser.pri.p3.sg"/>
       <cat-item tags="vbser.pii.p3.sg"/>
@@ -5505,6 +5510,49 @@
             <clip pos="2" side="tl" part="pers"/>
             <lit-tag v="sg"/>
             <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="regla: ci fu > hi va haver">
+    <pattern>
+    <pattern-item n="ci"/>
+    <pattern-item n="ser_p3_ifi"/>
+    </pattern>
+    <action>
+      <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+      <out>
+        <chunk name="hi_va_haver">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+	    <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+	    <tag><clip pos="2" side="tl" part="temps"/></tag>
+	    <tag><var n="numero"/></tag>
+          </tags>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="hi"/>
+            </get-case-from>
+            <clip pos="1" side="tl" part="tags"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="anar"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="pers"/>
+            <lit-tag v="sg"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="haver"/>
+            </get-case-from>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <lit-tag v="inf"/>
           </lu>
         </chunk>
       </out>
