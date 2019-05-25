@@ -191,6 +191,9 @@
       <cat-item tags="vbhaver.cni.p3.*"/>
     </def-cat>
 
+    <def-cat n="anar_pri">
+       <cat-item lemma="anar" tags="vblex.pri.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -326,31 +329,104 @@
     <def-var n="lemma"/>
   </section-def-vars>
 
-<section-def-lists>
-		<def-list n="vbambser">
-			<list-item v="anar"/>
-<!--			<list-item v="crescere"/>-->
-			<list-item v="devenire"/>
-			<list-item v="arribare"/>
-			<list-item v="morire"/>
-			<list-item v="entrare"/>
-			<list-item v="nascere"/>
-			<list-item v="partire"/>
-			<list-item v="restare"/>
-			<list-item v="venire"/>
-			<list-item v="uscire"/>
-			<list-item v="passare"/>
-			<list-item v="essere"/>
-			<list-item v="stare"/>
-			<list-item v="scendere"/>
-			<list-item v="salire"/>
-			<list-item v="sedere"/>
-			<list-item v="arrivare"/>
-			<list-item v="piovere"/>
-			<list-item v="frenare"/>
+  <section-def-lists>
+    <def-list n="verbs_estat">
+      <list-item v="estar"/>
+      <list-item v="ser"/>
+      <list-item v="quedar"/>
+     </def-list>
 
-   		 </def-list>
-</section-def-lists>
+    <def-list n="vbambser">
+      <list-item v="accorrere"/>
+      <list-item v="addivenire"/>
+      <list-item v="affiorare"/>
+      <list-item v="allibire"/>
+      <list-item v="ammattire"/>
+      <list-item v="ammuffire"/>
+      <list-item v="andare"/>
+      <list-item v="apparire"/>
+      <list-item v="arrivare"/>
+      <list-item v="arrossire"/>
+      <list-item v="assurgere"/>
+      <list-item v="avvizzire"/>
+      <list-item v="balenare"/>
+      <list-item v="bastare"/>
+      <list-item v="cadere"/>
+      <list-item v="capitare"/>
+      <list-item v="cascare"/>
+      <list-item v="comparire"/>
+      <list-item v="costare"/>
+      <list-item v="crollare"/>
+      <list-item v="decadere"/>
+      <list-item v="decedere"/>
+      <list-item v="decorrere"/>
+      <list-item v="decrescere"/>
+      <list-item v="defungere"/>
+      <list-item v="dimagrire"/>
+      <list-item v="dipendere"/>
+      <list-item v="dispiacere"/>
+      <list-item v="divenire"/>
+      <list-item v="diventare"/>
+      <list-item v="durare"/>
+      <list-item v="emergere"/>
+      <list-item v="entrare"/>
+      <list-item v="esistere"/>
+      <list-item v="essere"/>
+      <list-item v="giacere"/>
+      <list-item v="giungere"/>
+      <list-item v="implodere"/>
+      <list-item v="incorrere"/>
+      <list-item v="insorgere"/>
+      <list-item v="insorgere"/>
+      <list-item v="intervenire"/>
+      <list-item v="morire"/>
+      <list-item v="nascere"/>
+      <list-item v="occorrere"/>
+      <list-item v="parere"/>
+      <list-item v="partire"/>
+      <list-item v="permanere"/>
+      <list-item v="piacere"/>
+      <list-item v="provenire"/>
+      <list-item v="restare"/>
+      <list-item v="ricadere"/>
+      <list-item v="rimanere"/>
+      <list-item v="risorgere"/>
+      <list-item v="risultare"/>
+      <list-item v="ritornare"/>
+      <list-item v="riuscire"/>
+      <list-item v="sbucare"/>
+      <list-item v="scadere"/>
+      <list-item v="scappare"/>
+      <list-item v="scomparire"/>
+      <list-item v="sembrare"/>
+      <list-item v="sfuggire"/>
+      <list-item v="sparire"/>
+      <list-item v="sopraggiungere"/>
+      <list-item v="sopravvenire"/>
+      <list-item v="sorgere"/>
+      <list-item v="sovvenire"/>
+      <list-item v="spiacere"/>
+      <list-item v="stare"/>
+      <list-item v="sussistere"/>
+      <list-item v="svanire"/>
+      <list-item v="svenire"/>
+      <list-item v="tornare"/>
+      <list-item v="uscire"/>
+      <list-item v="valere"/>
+    </def-list>
+
+    <def-list n="familiars">
+      <list-item v="fill"/>
+      <list-item v="pare"/>
+      <list-item v="mare"/>
+      <list-item v="papa"/>
+      <list-item v="mama"/>
+      <list-item v="avi"/>
+      <list-item v="iaia"/>
+      <list-item v="besavi"/>
+      <list-item v="oncle"/>
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
 
@@ -1117,6 +1193,52 @@
 
 	</def-macro>
 
+
+<def-macro n="f_vaux_anar_inf" npar="2">
+   <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>	<!-- FIXME: depèn del gènere i nombre del subjecte -->
+   <choose> <!-- vaux + vlex: es canvia el vaux a èssere o àere i es posa el segon en pp -->
+     <when>
+       <test>
+         <or>
+           <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	   <and>
+	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="tornare"/></equal>
+	     <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	   </and>
+         </or>
+       </test>
+       <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="essere"/></get-case-from></let>
+       <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+       <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+     </when>
+     <otherwise>
+       <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="avere"/></get-case-from></let>
+       <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
+     </otherwise>
+   </choose>
+</def-macro>
+
+<!--
+    <def-macro n="f_set_sg1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><var n="set_sg"/><lit v="1"/></equal>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>      
+      <let><var n="set_sg"/><lit v="0"/></let>
+    </def-macro>      
+
+    <def-macro n="f_set_sg2" npar="2">
+      <call-macro n="f_set_sg1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_sg1"><with-param pos="2"/></call-macro>
+    </def-macro>      
+-->
 
   </section-def-macros>
 
@@ -2202,6 +2324,9 @@
       <call-macro n="f_concord1">
         <with-param pos="2"/>
       </call-macro>
+      <call-macro n="firstWord">
+        <with-param pos="1"/>
+      </call-macro>
       <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
       <out>
         <chunk name="hi_ha">
@@ -2232,6 +2357,59 @@
       </out>
     </action>
   </rule>
+
+<rule comment="regla: anar_pri inf">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+      <call-macro n="firstWord">
+        <with-param pos="1"/>
+      </call-macro>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <!--
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
+     -->
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="essere"/></equal>
+             <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+               <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
+           </and>
+         </test>
+         <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="aux_pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
 
   </section-rules>
 </transfer>
