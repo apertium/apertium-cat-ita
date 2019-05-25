@@ -63,7 +63,7 @@
       <cat-item tags="vbser.pprs.*"/>
     </def-cat>
 
-    <def-cat n="vfin">
+    <def-cat n="vfin_no_ifi">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vblex.pii.*"/>
       <cat-item tags="vblex.prs.*"/>
@@ -90,7 +90,22 @@
       <cat-item tags="vbmod.ifi.*"/>
     </def-cat>
 
-    <def-cat n="ser_p3sg">
+    <def-cat n="ser_p3_no_ifi">
+      <cat-item tags="vbser.pri.p3.sg"/>
+      <cat-item tags="vbser.pii.p3.sg"/>
+      <cat-item tags="vbser.prs.p3.sg"/>
+      <cat-item tags="vbser.fti.p3.sg"/>
+      <cat-item tags="vbser.pis.p3.sg"/>
+      <cat-item tags="vbser.cni.p3.sg"/>
+      <cat-item tags="vbser.pri.p3.pl"/>
+      <cat-item tags="vbser.pii.p3.pl"/>
+      <cat-item tags="vbser.prs.p3.pl"/>
+      <cat-item tags="vbser.fti.p3.pl"/>
+      <cat-item tags="vbser.pis.p3.pl"/>
+      <cat-item tags="vbser.cni.p3.pl"/>
+    </def-cat>
+
+    <def-cat n="ser_p3sg_no_ifi">
       <cat-item tags="vbser.pri.p3.sg"/>
       <cat-item tags="vbser.pii.p3.sg"/>
       <cat-item tags="vbser.prs.p3.sg"/>
@@ -99,7 +114,7 @@
       <cat-item tags="vbser.cni.p3.sg"/>
     </def-cat>
 
-    <def-cat n="ser_p3pl">
+    <def-cat n="ser_p3pl_no_ifi">
       <cat-item tags="vbser.pri.p3.pl"/>
       <cat-item tags="vbser.pii.p3.pl"/>
       <cat-item tags="vbser.prs.p3.pl"/>
@@ -195,6 +210,7 @@
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -2809,7 +2825,7 @@
 				</let>
 				<let>
 					<clip pos="1" side="tl" part="a_verb"/>
-					<lit-tag v="vbhaver"/>
+					<lit-tag v="vaux"/>
 				</let>
 				<let> 
 					<clip pos="2" side="tl" part="gen"/>
@@ -4748,7 +4764,52 @@
 	      <clip pos="2" side="tl" part="nbr"/>
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
+    <rule comment="REGLA: ci vbser + pp (ci sono andata: he anat)">
+      <pattern>
+	<pattern-item n="ci"/>
+	<pattern-item n="vbser"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_vauxiliar">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_pretind">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+	<out>
+	  <chunk name="prnpro_verbcj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="2" side="sl" part="temps"/></tag>
+	    </tags>
+ 	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="1"/>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
 	</out>
       </action>
@@ -4801,7 +4862,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: vbaux + adv + pp"> <!-- "sono gi andate. hanno gi mangiato. sono gi fatte: ja han anat. ja han menjat. ja sn fetes-->
+  <rule comment="REGLA: vbaux + adv + pp"> <!-- "sono già andate. hanno già mangiato. sono già fatte: ja han anat. ja han menjat. ja sn fetes-->
       <pattern>
 	<pattern-item n="vbaux"/>
 	<pattern-item n="adv_preadv"/>
@@ -4949,9 +5010,9 @@
     </rule>
 
  
-    <rule comment="REGLA: vfin">
+    <rule comment="REGLA: vfin (no ifi)">
       <pattern>
-	<pattern-item n="vfin"/>
+	<pattern-item n="vfin_no_ifi"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
@@ -5410,6 +5471,45 @@
                 </action>
         </rule>
 
+  <rule comment="regla: c'è, ci sono > hi ha (tots els temps simples)">
+    <pattern>
+      <pattern-item n="ci"/>
+      <pattern-item n="ser_p3_no_ifi"/>
+    </pattern>
+    <action>
+      <call-macro n="f_concord1">
+        <with-param pos="2"/>
+      </call-macro>
+      <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+      <out>
+        <chunk name="hi_ha">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+	    <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+	    <tag><clip pos="2" side="tl" part="temps"/></tag>
+	    <tag><var n="numero"/></tag>
+          </tags>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="hi"/>
+            </get-case-from>
+            <clip pos="1" side="tl" part="tags"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="haver"/>
+            </get-case-from>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="pers"/>
+            <lit-tag v="sg"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
 
   </section-rules>
 </transfer>
