@@ -572,13 +572,12 @@
   <macro name="noms_propis" p1="Clemente" p2="Climent" />
   <macro name="noms_propis" p1="Cristiano" p2="Cristià" />
   <macro name="noms_propis" p1="Edoardo" p2="Eduard" />
-  <macro name="noms_propis" p1="Elisabeta" p2="Elisabet" />
+  <macro name="noms_propis" p1="Elisabetta" p2="Elisabet" />
   <macro name="noms_propis" p1="Emanuele" p2="Manuel" />
   <macro name="noms_propis" p1="Enrico" p2="Enric" />
   <macro name="noms_propis" p1="Filippo" p2="Felip" />
   <macro name="noms_propis" p1="Ferdinando" p2="Ferran" />
   <macro name="noms_propis" p1="Francesco" p2="Francesc" />
-  <macro name="noms_propis" p1="Francesco Saverio" p2="Francesc Xavier" />
   <macro name="noms_propis" p1="Federico" p2="Frederic" />
   <macro name="noms_propis" p1="Gregorio" p2="Gregori" />
   <macro name="noms_propis" p1="Gofredo" p2="Guifré" />
@@ -592,10 +591,10 @@
   <macro name="noms_propis" p1="Giuseppe" p2="Josep" />
   <macro name="noms_propis" p1="Giulio" p2="Juli" />
   <macro name="noms_propis" p1="Leone" p2="Lleó" />
+  <macro name="noms_propis" p1="Leopoldo" p2="Leopold" />
   <macro name="noms_propis" p1="Lucia" p2="Llúcia" />
   <macro name="noms_propis" p1="Luca" p2="Lluc" />
   <macro name="noms_propis" p1="Luigi" p2="Lluís" />
-  <macro name="noms_propis" p1="Manuelle" p2="Manuel" />
   <macro name="noms_propis" p1="Marco" p2="Marc" />
   <macro name="noms_propis" p1="Martino" p2="Martí" />
   <macro name="noms_propis" p1="Matteo" p2="Mateu" />
