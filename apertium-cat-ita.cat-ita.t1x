@@ -69,6 +69,9 @@
       <cat-item lemma="ells" tags="prn.tn.*"/>
       <cat-item lemma="vostè" tags="prn.tn.p3.mf.sg"/>
     </def-cat>
+    <def-cat n="hi">
+      <cat-item lemma="hi" tags="prn.pro.adv"/>
+    </def-cat>
 
     <def-cat n="det">          
       <cat-item tags="det.*"/>
@@ -148,28 +151,44 @@
     <def-cat n="vfin">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vblex.pii.*"/>
+      <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vblex.prs.*"/>
       <cat-item tags="vblex.fti.*"/>
       <cat-item tags="vblex.pis.*"/>
       <cat-item tags="vblex.cni.*"/>
       <cat-item tags="vbmod.pri.*"/>
       <cat-item tags="vbmod.pii.*"/>
+      <cat-item tags="vbmod.ifi.*"/>
       <cat-item tags="vbmod.prs.*"/>
       <cat-item tags="vbmod.fti.*"/>
       <cat-item tags="vbmod.cni.*"/>
       <cat-item tags="vbmod.pis.*"/>
       <cat-item tags="vbser.pri.*"/>
       <cat-item tags="vbser.pii.*"/>
+      <cat-item tags="vbser.ifi.*"/>
       <cat-item tags="vbser.prs.*"/>
       <cat-item tags="vbser.fti.*"/>
       <cat-item tags="vbser.pis.*"/>
       <cat-item tags="vbser.cni.*"/>
     </def-cat>
 
-    <def-cat n="pretind">
-      <cat-item tags="vblex.ifi.*"/>
-      <cat-item tags="vbser.ifi.*"/>
-      <cat-item tags="vbmod.ifi.*"/>
+    <def-cat n="haverfin">
+      <cat-item tags="vbhaver.pri.*"/>
+      <cat-item tags="vbhaver.pii.*"/>
+      <cat-item tags="vbhaver.ifi.*"/>
+      <cat-item tags="vbhaver.prs.*"/>
+      <cat-item tags="vbhaver.fti.*"/>
+      <cat-item tags="vbhaver.pis.*"/>
+      <cat-item tags="vbhaver.cni.*"/>
+    </def-cat>
+    <def-cat n="haverp3"> <!-- accepta pl, tot i que "hi han llibres" no és normatiu -->
+      <cat-item tags="vbhaver.pri.p3.*"/>
+      <cat-item tags="vbhaver.pii.p3.*"/>
+      <cat-item tags="vbhaver.ifi.p3.*"/>
+      <cat-item tags="vbhaver.prs.p3.*"/>
+      <cat-item tags="vbhaver.fti.p3.*"/>
+      <cat-item tags="vbhaver.pis.p3.*"/>
+      <cat-item tags="vbhaver.cni.p3.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -1630,6 +1649,9 @@
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_concord1"> <!-- hi ha > c'è, ci sono -->
+	  <with-param pos="1"/>
+	</call-macro>
 	<let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
 	<out>
 	  <chunk namefrom="lemma" case="caseFirstWord">
@@ -1637,13 +1659,14 @@
 	      <tag><lit-tag v="SV"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 	      <tag><clip pos="1" side="tl" part="temps"/></tag>
+	      <tag><var n="numero"/></tag>
 	    </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps"/>
               <clip pos="1" side="tl" part="pers"/>
-              <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
 	  </chunk>
@@ -2169,6 +2192,46 @@
                         </let>
                 </action>
         </rule>
+
+  <rule comment="regla: hi ha > c'è, ci sono (tots els temps simples)">
+    <pattern>
+      <pattern-item n="hi"/>
+      <pattern-item n="haverp3"/>
+    </pattern>
+    <action>
+      <call-macro n="f_concord1">
+        <with-param pos="2"/>
+      </call-macro>
+      <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+      <out>
+        <chunk name="hi_ha">
+          <tags>
+            <tag><lit-tag v="SV"/></tag>
+	    <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+	    <tag><clip pos="2" side="tl" part="temps"/></tag>
+	    <tag><var n="numero"/></tag>
+          </tags>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="ci"/>
+            </get-case-from>
+            <clip pos="1" side="tl" part="tags"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="essere"/>
+            </get-case-from>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="pers"/>
+	    <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
 
   </section-rules>
 </transfer>
