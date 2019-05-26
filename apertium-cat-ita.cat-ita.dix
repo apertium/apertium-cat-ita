@@ -1267,6 +1267,7 @@
 <e>       <p><l>pertanyent</l>                         <r>appartenente</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>petit<s n="adj"/></l>                  <r>piccolo<s n="adj"/></r></p></e>
 <e>       <p><l>pitjor<s n="adj"/></l>                 <r>peggiore<s n="adj"/></r></p></e>
+<e>       <p><l>pla<s n="adj"/></l>                    <r>piano<s n="adj"/></r></p></e>
 <e>       <p><l>ple<s n="adj"/></l>                    <r>pieno<s n="adj"/></r></p></e>
 <e>       <p><l>plural<s n="adj"/></l>                 <r>plurale<s n="adj"/></r></p></e>
 <e>       <p><l>plurianual</l>                         <r>pluriennale</r></p><par n="adj_sup2"/></e>
@@ -2511,11 +2512,13 @@
 <e>       <p><l>cada<s n="det"/><s n="ind"/></l>       <r>ogni<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>tot<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>ogni<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>tot<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>ogni<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+
 <e r="LR"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+`
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>certo<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>taluno<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>divers<s n="det"/></l>                 <r>vario<s n="det"/></r></p></e>
@@ -5157,6 +5160,7 @@
 <e>       <p><l>harmonia<s n="n"/></l>                 <r>armonia<s n="n"/></r></p></e>
 <e>       <p><l>harmonització<s n="n"/></l>            <r>armonizzazione<s n="n"/></r></p></e>
 <e>       <p><l>harpia<s n="n"/></l>                   <r>arpia<s n="n"/></r></p></e>
+<e>       <p><l>haver<s n="n"/></l>                    <r>avere<s n="n"/></r></p></e>
 <e>       <p><l>hecatombe<s n="n"/></l>                <r>ecatombe<s n="n"/></r></p></e>
 <e>       <p><l>hectàrea<s n="n"/><s n="f"/></l>       <r>ettaro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>hedonisme<s n="n"/></l>                <r>edonismo<s n="n"/></r></p></e>
@@ -6445,7 +6449,7 @@
 <e><p><l>pirata<s n="n"/></l><r>pirata<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>pirateria<s n="n"/></l>                <r>pirateria<s n="n"/></r></p></e>
 <e>       <p><l>piràmide<s n="n"/></l>                 <r>piramide<s n="n"/></r></p></e>
-<e>       <p><l>pis<s n="n"/></l>                      <r>pavimento<s n="n"/></r></p></e>
+<e>       <p><l>pis<s n="n"/></l>                      <r>piano<s n="n"/></r></p></e>
 <e>       <p><l>piscina<s n="n"/></l>                  <r>piscina<s n="n"/></r></p></e>
 <e>       <p><l>pista<s n="n"/></l>                    <r>pista<s n="n"/></r></p></e>
 <e>       <p><l>pistola<s n="n"/></l>                  <r>pistola<s n="n"/></r></p></e>
@@ -26297,7 +26301,10 @@
 <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/><s n="m"/></l><r>questo<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 <e>       <p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></r></p></e>
 <e>       <p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></r></p></e>
-<e>       <p><l>el<s n="prn"/><s n="pro"/><s n="p3"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/></r></p></e>
+<e>       <p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></r></p></e>
+<e>       <p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></r></p></e>
 <e>       <p><l>el<b/>meu<s n="prn"/></l>              <r>il<b/>mio<s n="prn"/></r></p></e>
 <e>       <p><l>el<b/>nostre<s n="prn"/><s n="tn"/><s n="pos"/></l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
 <e>       <p><l>el<b/>seu<s n="prn"/></l>              <r>il<b/>loro<s n="prn"/></r></p></e>
@@ -27417,15 +27424,17 @@
 <e>       <p><l>caldre<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></l><r>bisognare<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
 
 <e>       <p><l>caldre<s n="vbmod"/></l>               <r>c'è<b/>bisogno<b/>di<s n="vbmod"/></r></p></e>
-<e>       <p><l>deure<s n="vbmod"/></l>                <r>dovere<s n="vbmod"/></r></p></e>
-<e>       <p><l>haver<g><b/>de</g><s n="vbmod"/><s n="imp"/></l><r>dovere<s n="vbmod"/><s n="imp"/></r></p></e>
+<e r="LR"><p><l>deure<s n="vbmod"/></l>                <r>dovere<s n="vbmod"/></r></p></e>
+<e>       <p><l>haver<g><b/>de</g><s n="vbmod"/></l>   <r>dovere<s n="vbmod"/></r></p></e>
 <e>       <p><l>poder<s n="vbmod"/></l>                <r>potere<s n="vbmod"/></r></p></e>
 <e>       <p><l>voler<s n="vbmod"/></l>                <r>volere<s n="vbmod"/></r></p></e>
 
+<e>       <p><l>ser<s n="vbser"/></l>                  <r>essere<s n="vbser"/></r></p></e>
+<e>       <p><l>haver<s n="vbhaver"/></l>              <r>avere<s n="vbhaver"/></r></p></e>
+
+<e>       <p><l>deure<s n="vblex"/></l>                <r>dovere<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<s n="vblex"/></l>                <r>stare<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<s n="vblex"/></l>                <r>essere<s n="vbser"/></r></p></e>
-<e>       <p><l>haver<s n="vbhaver"/></l>              <r>avere<s n="vbhaver"/></r></p></e>
-<e>       <p><l>ser<s n="vbser"/></l>                  <r>essere<s n="vbser"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
