@@ -932,7 +932,7 @@
 
   <!-- cap > nessuno, alcun -->
   <rule weight="0.6">
-    <match lemma="cap" tags="det.*"><select lemma="nessun" tags="det.*"/></match>
+    <match lemma="cap" tags="det.*"><select lemma="nessuno" tags="det.*"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="sense" tags="pr"/>
