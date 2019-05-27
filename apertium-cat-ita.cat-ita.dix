@@ -2518,7 +2518,12 @@
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-`
+<e r="LR"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>certo<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>taluno<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>divers<s n="det"/></l>                 <r>vario<s n="det"/></r></p></e>
@@ -4525,7 +4530,8 @@
 <e>       <p><l>erudit<s n="n"/></l>                   <r>erudito<s n="n"/></r></p></e>
 <e>       <p><l>erupció<s n="n"/></l>                  <r>eruzione<s n="n"/></r></p></e>
 <e>       <p><l>esbós<s n="n"/></l>                    <r>abbozzo<s n="n"/></r></p></e>
-<e>       <p><l>escac<s n="n"/><s n="m"/><s n="pl"/></l><r>scacchi<s n="n"/><s n="sp"/></r></p></e>
+<e>       <p><l>escac<s n="n"/><s n="m"/><s n="pl"/></l><r>scacchi<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>diners<s n="n"/><s n="m"/><s n="pl"/></l><r>soldi<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>escala<s n="n"/><s n="f"/></l>         <r>scala<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>escalada<s n="n"/></l>                 <r>arrampicata<s n="n"/></r></p></e>
 <e>       <p><l>escalfador<s n="n"/></l>               <r>riscaldatore<s n="n"/></r></p></e>
@@ -6589,8 +6595,9 @@
 <e>       <p><l>pressió<s n="n"/></l>                  <r>pressione<s n="n"/></r></p></e>
 <e><p><l>pressupost<s n="n"/><s n="m"/></l><r>budget<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>presència<s n="n"/></l>                <r>presenza<s n="n"/></r></p></e>
-<e>       <p><l>presó<s n="n"/><s n="f"/></l>          <r>carcere<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>presó<s n="n"/></l>                    <r>prigione<s n="n"/></r></p></e>
+<e r="RL"><p><l>presó<s n="n"/><s n="f"/></l>          <r>carcere<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>presó<s n="n"/><s n="f"/></l>          <r>prigione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pressa<s n="n"/></l>                   <r>fretta<s n="n"/></r></p></e>
 <e>       <p><l>pretensió<s n="n"/></l>                <r>pretesa<s n="n"/></r></p></e>
 <e>       <p><l>preu<s n="n"/></l>                     <r>prezzo<s n="n"/></r></p></e>
 <e>       <p><l>prevenció<s n="n"/><s n="f"/></l>      <r>prevenzione<s n="n"/><s n="f"/></r></p></e>
