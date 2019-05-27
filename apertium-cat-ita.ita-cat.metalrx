@@ -296,7 +296,7 @@
 
 <!-- **************** DET **************** -->
 
-<!-- un altro > un altre, altre -->
+  <!-- un altro > un altre, altre -->
   <rule weight="0.6">
     <match lemma="un altro" tags="det.*"><select lemma="un altre" tags="det.*"/></match>
   </rule>
@@ -307,9 +307,29 @@
     <match lemma="un altro" tags="det.ind.f.pl"><select lemma="altre" tags="det.*"/></match>
   </rule>
 
+  <!-- alcuno > un altre, cap -->
+  <rule weight="0.6">
+    <match lemma="alcun" tags="det.*"><select lemma="algun" tags="det.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="senza" tags="pr"/>
+    <match lemma="alcun" tags="det.*"><select lemma="cap" tags="det.*"/></match>
+  </rule>
+  <rule weight="1.0" c="non c'è alcuna fretta">
+    <match lemma="non" tags="adv"/>
+     <repeat from="0" upto="2">
+       <or>
+         <match tags="prn.pro.*"/>
+         <match tags="adv"/>
+       </or>
+     </repeat>
+    <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
+    <match lemma="alcun" tags="det.*"><select lemma="cap" tags="det.*"/></match>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
-<!-- un altro > un altre, altre -->
+  <!-- un altro > un altre, altre -->
   <rule weight="0.6">
     <match lemma="un altro" tags="prn.*"><select lemma="un altre" tags="prn.*"/></match>
   </rule>
@@ -351,6 +371,19 @@
       <match tags="num.*"/>
     </or>
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+  </rule>
+
+  <!-- piano > pla, pis -->
+  <rule weight="0.8">
+    <match lemma="piano" tags="n.*"><select lemma="pla" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="adj.ord.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="piano" tags="n.*"><select lemma="pis" tags="n.*"/></match>
   </rule>
 
   <!-- corso > carrer, cors -->
