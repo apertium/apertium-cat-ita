@@ -290,6 +290,60 @@
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
     </def-macro>
+
+    <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
+    <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
+    <def-macro name="verb_nopron_pron">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.sg"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.sg"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match tags="prn.enc.ref.p3.*.sp"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.pl"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.pl"/>
+      </rule>
+    </def-macro>
   </def-macros>
 
   <rules>
@@ -351,6 +405,9 @@
     <match lemma="rosso" tags="adj.*"><select lemma="negre" tags="adj.*"/></match>
   </rule>
 
+<!-- **************** ADV **************** -->
+
+
 <!-- **************** N **************** -->
 
   <!-- stagione > estació, temporada -->
@@ -371,6 +428,11 @@
       <match tags="num.*"/>
     </or>
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+  </rule>
+
+  <!-- macchina > màquina, cotxe -->
+  <rule weight="0.8">
+    <match lemma="macchina" tags="n.*"><select lemma="màquina" tags="n.*"/></match>
   </rule>
 
   <!-- piano > pla, pis -->
@@ -435,6 +497,9 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- diventare > esdevenir, tornar -->
+  <macro name="verb_nopron_pron" p1="diventare" p2="esdevenir" p3="tornar"/>
+
   <!-- tentare > temptar, intentar -->
   <rule weight="0.8">
     <match lemma="tentare" tags="vblex.*"><select lemma="temptar" tags="vblex.*"/></match>
@@ -447,6 +512,17 @@
   <!-- essere > ser, estar -->
   <rule weight="0.8">
     <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"><select lemma="estar" tags="vbser.*"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="situare" tags="vblex.pp.*"/>
+      <match lemma="dividire" tags="vblex.pp.*"/>
+      <match lemma="subdividire" tags="vblex.pp.*"/>
+    </or>
   </rule>
 
 <!-- **************** REL **************** -->
