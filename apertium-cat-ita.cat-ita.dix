@@ -2964,6 +2964,7 @@
 <e r="RL"><p><l>però<s n="cnjcoo"/></l>                <r>però<s n="cnjadv"/></r></p></e>
 <e>       <p><l>segons<s n="cnjadv"/></l>              <r>secondo<s n="cnjadv"/></r></p></e>
 <e>       <p><l>si<s n="cnjadv"/></l>                  <r>se<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>si<s n="cnjadv"/></l>                  <r>ove<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>tanmateix<s n="cnjadv"/></l>           <r>ciò<b/>nonostante<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>tot<b/>amb<b/>tot<s n="cnjadv"/></l>   <r>ciò<b/>nonostante<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>malgrado<s n="cnjadv"/></r></p></e>
@@ -3016,7 +3017,7 @@
 
 <!-- SECTION: Determiners -->
 
-<e>       <p><l>algun<s n="det"/><s n="ind"/></l>      <r>alcun<s n="det"/><s n="ind"/></r></p></e>
+<e>       <p><l>algun<s n="det"/><s n="ind"/></l>      <r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_mf"/><par n="sp_sp"/></e>
 <e r="RL"><p><l>algun<s n="det"/><s n="ind"/><s n="GD"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>altre<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>altro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>altre<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>altro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
@@ -3039,13 +3040,13 @@
 <e r="LR"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e i="yes"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+<e i="yes"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>nessuno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e i="yes"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+<e i="yes"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>alcun<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>certo<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>cert<s n="det"/><s n="ind"/></l>       <r>taluno<s n="det"/><s n="ind"/></r></p></e>
@@ -25608,6 +25609,7 @@
 <e>       <p><l>guarir<s n="vblex"/></l>               <r>guarire<s n="vblex"/></r></p></e>
 <e>       <p><l>guiar<s n="vblex"/></l>                <r>guidare<s n="vblex"/></r></p></e>
 <e>       <p><l>habitar<s n="vblex"/></l>              <r>abitare<s n="vblex"/></r></p></e>
+<e>       <p><l>habitat<s n="adj"/></l>                <r>abitato<s n="adj"/></r></p></e>
 <e>       <p><l>heretar<s n="vblex"/></l>              <r>ereditare<s n="vblex"/></r></p></e>
 <e>       <p><l>humanitzar<s n="vblex"/></l>           <r>umanizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>humiliar<s n="vblex"/></l>             <r>umiliare<s n="vblex"/></r></p></e>
@@ -26104,6 +26106,9 @@
 <e>       <p><l>deure<s n="vblex"/></l>                <r>dovere<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<s n="vblex"/></l>                <r>stare<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<s n="vblex"/></l>                <r>essere<s n="vbser"/></r></p></e>
+
+<e>       <p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Estats<b/>Units<b/>d'Amèrica<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="top"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
