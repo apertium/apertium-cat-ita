@@ -656,7 +656,30 @@
     </def-macro>
     
 
-    <def-macro n="f_concord2" npar="2">
+    <def-macro n="f_concord2" npar="2"> <!-- p1: nom, p2: num (si n'hi ha un) -->
+
+      <!-- pedaç per a coses com "200.000 unità" i "tre unità" -->
+      <!--
+        ^200.000<num>/200.000<num>$ ^unità<n><f><sp>/unitat<n><f><ND>$
+        ^tre<num><mf><sp>/tres<num><mf><sp>$ ^unità<n><f><sp>/unitat<n><f><ND>$^
+      -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+              <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <or>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let><var n="numero"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
       <choose>
         <when>
           <test>
@@ -1147,7 +1170,30 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_concord3" npar="3">
+    <def-macro n="f_concord3" npar="3"> <!-- p1: nom, p2: num (si n'hi ha un) -->
+
+      <!-- pedaç per a coses com "200.000 unità" i "tre unità" -->
+      <!--
+        ^200.000<num>/200.000<num>$ ^unità<n><f><sp>/unitat<n><f><ND>$
+        ^tre<num><mf><sp>/tres<num><mf><sp>$ ^unità<n><f><sp>/unitat<n><f><ND>$^
+      -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+              <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <or>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let><var n="numero"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
       <choose>
         <!-- Look whether in source language there is concordance between first and second element -->
         <when>
@@ -4006,8 +4052,8 @@
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="4"/>
-          <with-param pos="3"/>
           <with-param pos="1"/>
+          <with-param pos="3"/>
         </call-macro>
         <out>
           <chunk name="num_adv_adj_nom" case="caseFirstWord">
@@ -4065,8 +4111,8 @@
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
-          <with-param pos="2"/>
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <out>
           <chunk name="num_adj_nom" case="caseFirstWord">
@@ -4191,8 +4237,8 @@
       <action>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
-          <with-param pos="3"/>
           <with-param pos="1"/>
+          <with-param pos="3"/>
         </call-macro>        
         <call-macro n="firstWord">
           <with-param pos="1"/>
@@ -4359,8 +4405,8 @@
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
-          <with-param pos="4"/>
           <with-param pos="1"/>
+          <with-param pos="4"/>
         </call-macro>        
         <out>
           <chunk name="num_nom_adv_adj" case="caseFirstWord">
