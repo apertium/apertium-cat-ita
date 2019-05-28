@@ -6806,7 +6806,7 @@
 <e r="LR"><p><l>parallamps<s n="n"/><s n="m"/><s n="sp"/></l><r>parafulmine<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e>       <p><l>paranoia<s n="n"/></l>                 <r>paranoia<s n="n"/></r></p></e>
 <e>       <p><l>parany<s n="n"/><s n="m"/></l>         <r>trappola<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>paraula<s n="n"/></l>                  <r>parola<s n="n"/></r></p></e>
+<e>       <p><l>paraula<s n="n"/><s n="f"/></l>        <r>parola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>parc<s n="n"/></l>                     <r>parco<s n="n"/></r></p></e>
 <e>       <p><l>parcialitat<s n="n"/><s n="f"/></l>    <r>faziosità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>pare<s n="n"/><s n="m"/><s n="sg"/></l><r>padre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6826,9 +6826,9 @@
 <e>       <p><l>parer<s n="n"/></l>                    <r>parere<s n="n"/></r></p></e>
 <e>       <p><l>paret<s n="n"/></l>                    <r>parete<s n="n"/></r></p></e>
 <e>       <p><l>paritat<s n="n"/><s n="f"/></l>        <r>parità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>parla<s n="n"/></l>                    <r>parola<s n="n"/></r></p></e>
+<e>       <p><l>parla<s n="n"/><s n="f"/></l>          <r>parlata<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>parlament<s n="n"/></l>                <r>parlamento<s n="n"/></r></p></e>
-<e>       <p><l>parlar<s n="n"/><s n="m"/></l>         <r>parola<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>parlar<s n="n"/><s n="m"/></l>         <r>parlata<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>parpella<s n="n"/><s n="f"/></l>       <r>palpebra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>part<s n="n"/><s n="f"/></l>           <r>parte<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>part<s n="n"/><s n="m"/></l>           <r>parto<s n="n"/><s n="m"/></r></p></e>
