@@ -2612,7 +2612,17 @@
 
 <!-- **************** N **************** -->
 
-<!-- golf > golfo, golf --> <!-- srd -->
+  <!-- nau > nave, capannone -->
+
+  <rule weight="0.6">
+     <match lemma="nau" tags="n.*"><select lemma="nave"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="nau" tags="n.*"><select lemma="capannone"/></match>
+     <match lemma="industrial" tags="adj.*"/>
+  </rule>
+
+  <!-- golf > golfo, golf --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="golf" tags="n.*"><select lemma="golfo"/></match>

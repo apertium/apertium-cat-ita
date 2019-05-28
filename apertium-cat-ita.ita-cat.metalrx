@@ -435,6 +435,11 @@
     <match lemma="macchina" tags="n.*"><select lemma="màquina" tags="n.*"/></match>
   </rule>
 
+  <!-- stella > estrella, estel, estrela -->
+  <rule weight="0.8">
+    <match lemma="stella" tags="n.*"><select lemma="estrella" tags="n.*"/></match>
+  </rule>
+
   <!-- piano > pla, pis -->
   <rule weight="0.8">
     <match lemma="piano" tags="n.*"><select lemma="pla" tags="n.*"/></match>
