@@ -2999,7 +2999,6 @@
 <e>       <p><l>que<s n="cnjsub"/></l>                 <r>che<s n="cnjsub"/></r></p></e>
 
 <e>       <p><l>i<s n="cnjcoo"/></l>                   <r>e<s n="cnjcoo"/></r></p></e>
-<e r="RL"><p><l>i<s n="cnjcoo"/></l>                   <r>ed<s n="cnjcoo"/></r></p></e>
 <e r="LR"><p><l>mes<s n="cnjcoo"/></l>                 <r>ma<s n="cnjcoo"/></r></p></e>
 <e r="LR"><p><l>sinó<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ni<s n="cnjcoo"/></l>                  <r>né<s n="cnjcoo"/></r></p></e>
@@ -3976,7 +3975,7 @@
 <e>       <p><l>bruixa<s n="n"/><s n="f"/></l>         <r>stregone<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bruixot<s n="n"/><s n="m"/></l>        <r>stregone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>brúixola<s n="n"/></l>                 <r>bussola<s n="n"/></r></p></e>
-<e>       <p><l>buc<s n="n"/><s n="m"/></l>            <r>nave<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>buc<s n="n"/><s n="m"/></l>            <r>nave<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>budisme<s n="n"/></l>                  <r>buddhismo<s n="n"/></r></p></e>
 <e>       <p><l>bufanda<s n="n"/></l>                  <r>sciarpa<s n="n"/></r></p></e>
 <e>       <p><l>bufó<s n="n"/></l>                     <r>giullare<s n="n"/></r></p></e>
@@ -5170,7 +5169,7 @@
 <e>       <p><l>estat<s n="n"/></l>                    <r>stato<s n="n"/></r></p></e>
 <e>       <p><l>estatura<s n="n"/></l>                 <r>statura<s n="n"/></r></p></e>
 <e>       <p><l>estel<s n="n"/><s n="m"/></l>          <r>stella<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>estela<s n="n"/></l>                   <r>stella<s n="n"/></r></p></e>
+<e>       <p><l>estela<s n="n"/><s n="f"/></l>         <r>stella<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>estella<s n="n"/></l>                  <r>scheggia<s n="n"/></r></p></e>
 <e>       <p><l>estepa<s n="n"/></l>                   <r>steppa<s n="n"/></r></p></e>
 <e>       <p><l>estereofonia<s n="n"/></l>             <r>stereofonia<s n="n"/></r></p></e>
@@ -5183,8 +5182,8 @@
 <e>       <p><l>estranger<s n="n"/></l>                <r>straniero<s n="n"/></r></p></e>
 <e>       <p><l>estrat<s n="n"/></l>                   <r>giacimento<s n="n"/></r></p></e>
 <e>       <p><l>estratègia<s n="n"/></l>               <r>strategia<s n="n"/></r></p></e>
-<e>       <p><l>estrela<s n="n"/></l>                  <r>stella<s n="n"/></r></p></e>
-<e>       <p><l>estrella<s n="n"/></l>                 <r>stella<s n="n"/></r></p></e>
+<e>       <p><l>estrela<s n="n"/><s n="f"/></l>        <r>stella<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>estrella<s n="n"/><s n="f"/></l>       <r>stella<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>estructura<s n="n"/></l>               <r>struttura<s n="n"/></r></p></e>
 <e>       <p><l>estructura<s n="n"/></l>               <r>compagine<s n="n"/></r></p></e>
 <e>       <p><l>estruç<s n="n"/><s n="m"/></l>         <r>struzzo<s n="n"/><s n="m"/></r></p></e>
@@ -6519,6 +6518,8 @@
 <e>       <p><l>natura<s n="n"/></l>                   <r>natura<s n="n"/></r></p></e>
 <e r="LR"><p><l>naturalesa<s n="n"/></l>               <r>natura<s n="n"/></r></p></e>
 <e>       <p><l>nau<s n="n"/><s n="f"/></l>            <r>capannone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>nau<s n="n"/><s n="f"/></l>            <r>nave<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>astronau<s n="n"/><s n="f"/></l>       <r>astronave<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>naufragi<s n="n"/></l>                 <r>naufragio<s n="n"/></r></p></e>
 <e>       <p><l>navegació<s n="n"/></l>                <r>navigazione<s n="n"/></r></p></e>
 <e>       <p><l>navegador<s n="n"/></l>                <r>navigatore<s n="n"/></r></p></e>
@@ -7664,6 +7665,7 @@
 <e>       <p><l>sutge<s n="n"/><s n="m"/></l>          <r>fuliggine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sutura<s n="n"/></l>                   <r>sutura<s n="n"/></r></p></e>
 <e>       <p><l>suís<s n="n"/></l>                     <r>svizzero<s n="n"/></r></p></e>
+<e>       <p><l>suís<s n="adj"/></l>                   <r>svizzero<s n="adj"/></r></p></e>
 <e>       <p><l>suïcida<s n="n"/></l>                  <r>suicida<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>suïcidi<s n="n"/></l>                  <r>suicidio<s n="n"/></r></p></e>
 <e>       <p><l>sàtira<s n="n"/></l>                   <r>satira<s n="n"/></r></p></e>
@@ -7723,6 +7725,7 @@
 <e>       <p><l>televisor<s n="n"/></l>                <r>televisore<s n="n"/></r></p></e>
 <e>       <p><l>telèfon<s n="n"/></l>                  <r>telefono<s n="n"/></r></p></e>
 <e>       <p><l>teló<s n="n"/></l>                     <r>sipario<s n="n"/></r></p></e>
+<e>       <p><l>tema<s n="n"/></l>                     <r>tema<s n="n"/></r></p></e>
 <e>       <p><l>temperatura<s n="n"/></l>              <r>temperatura<s n="n"/></r></p></e>
 <e>       <p><l>tempesta<s n="n"/></l>                 <r>tormenta<s n="n"/></r></p></e>
 <e>       <p><l>temple<s n="n"/></l>                   <r>tempio<s n="n"/></r></p></e>
@@ -25445,6 +25448,7 @@
 <e>       <p><l>distribuir<s n="vblex"/></l>           <r>distribuire<s n="vblex"/></r></p></e>
 <e>       <p><l>divertir<s n="vblex"/></l>             <r>divertire<s n="vblex"/></r></p></e>
 <e>       <p><l>dividir<s n="vblex"/></l>              <r>dividere<s n="vblex"/></r></p></e>
+<e>       <p><l>subdividir<s n="vblex"/></l>           <r>suddividere<s n="vblex"/></r></p></e>
 <e>       <p><l>divulgar<s n="vblex"/></l>             <r>divulgare<s n="vblex"/></r></p></e>
 <e>       <p><l>documentar<s n="vblex"/></l>           <r>documentare<s n="vblex"/></r></p></e>
 <e>       <p><l>doldre<s n="vblex"/></l>               <r>dolere<s n="vblex"/></r></p></e>
