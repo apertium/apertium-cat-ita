@@ -211,6 +211,7 @@
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.qnt"/>
+      <attr-item tags="adj.sup"/>
       <attr-item tags="det.ind"/> <!-- poco / poc -->
       <attr-item tags="vblex.pp"/>
     </def-attr>
