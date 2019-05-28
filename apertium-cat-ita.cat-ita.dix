@@ -1697,8 +1697,9 @@
 <e>       <p><l>aparentment<s n="adv"/></l>            <r>apparentemente<s n="adv"/></r></p></e>
 <e>       <p><l>aproximadament<s n="adv"/></l>         <r>approssimativamente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>aproximadament<s n="adv"/></l>         <r>circa<s n="adv"/></r></p></e>
-<e>       <p><l>aquí<s n="adv"/></l>                   <r>lì<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aquí<s n="adv"/></l>                   <r>lì<s n="adv"/></r></p></e>
 <e>       <p><l>aquí<s n="adv"/></l>                   <r>qui<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aquí<s n="adv"/></l>                   <r>ecco<s n="adv"/></r></p></e>
 <e>       <p><l>ara<s n="adv"/></l>                    <r>adesso<s n="adv"/></r></p></e>
 <e>       <p><l>ara<b/>com<b/>ara<s n="adv"/></l>      <r>per<b/>adesso<s n="adv"/></r></p></e>
 <e>       <p><l>ara<b/>com<b/>ara<s n="adv"/></l>      <r>per<b/>ora<s n="adv"/></r></p></e>
@@ -2197,8 +2198,8 @@
 <e>       <p><l>òbviament<s n="adv"/></l>              <r>ovviamente<s n="adv"/></r></p></e>
 <e>       <p><l>últimament<s n="adv"/></l>             <r>ultimamente<s n="adv"/></r></p></e>
 <e>       <p><l>únicament<s n="adv"/></l>              <r>unicamente<s n="adv"/></r></p></e>
-<e>       <p><l>vet<b/>aquí<s n="adv"/></l>            <r>ecco<s n="adv"/></r></p></e>
-<e r="LR"><p><l>vet<b/>ací<s n="adv"/></l>             <r>ecco<s n="adv"/></r></p></e>
+<e>       <p><l>vet<b/>aquí<s n="ij"/></l>             <r>ecco<s n="ij"/></r></p></e>
+<e r="LR"><p><l>vet<b/>ací<s n="ij"/></l>              <r>ecco<s n="ij"/></r></p></e>
 <e>       <p><l>gens<s n="adv"/></l>                   <r>affatto<s n="adv"/></r></p></e>
 <e r="LR"><p><l>gens<b/>ni<b/>mica<s n="adv"/></l>     <r>affatto<s n="adv"/></r></p></e>
 <e r="LR"><p><l>gens<b/>ni<b/>miqueta<s n="adv"/></l>  <r>affatto<s n="adv"/></r></p></e>
@@ -2364,6 +2365,569 @@
 <e r="LR"><p><l>tots<b/>sols<s n="adv"/></l>           <r>da<b/>solo<s n="adv"/></r></p></e>
 <e r="LR"><p><l>totes<b/>soles<s n="adv"/></l>         <r>da<b/>solo<s n="adv"/></r></p></e>
 
+<e a="wiktionary"><p><l>a<b/>boca<b/>de<b/>canó<s n="adv"/></l><r>a<b/>bruciapelo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>a<b/>frec<b/>de<b/>roba<s n="adv"/></l><r>a<b/>bruciapelo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>a<b/>granel<s n="adv"/></l><r>sfuso<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abjectament<s n="adv"/></l><r>abiettamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>a<b/>la<b/>quinta<b/>forca<s n="adv"/></l><r>a<b/>casa<b/>del<b/>diavolo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>a<b/>lloure<s n="adv"/></l><r>a<b/>propio<b/>agio<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abominablement<s n="adv"/></l><r>abominevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>a<b/>portell<s n="adv"/></l><r>a<b/>fila<b/>sfalsata<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abreujadament<s n="adv"/></l><r>abbreviatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abrivadament<s n="adv"/></l><r>coraggiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abstractament<s n="adv"/></l><r>astrattamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>absurdament<s n="adv"/></l><r>assurdamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abundantment<s n="adv"/></l><r>abbondantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>abusivament<s n="adv"/></l><r>abusivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acadèmicament<s n="adv"/></l><r>accademicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acaloradament<s n="adv"/></l><r>accaloratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acceleradament<s n="adv"/></l><r>acceleratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>accentuadament<s n="adv"/></l><r>accentuatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acceptablement<s n="adv"/></l><r>accettabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>accessòriament<s n="adv"/></l><r>accessoriamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acerbament<s n="adv"/></l><r>acerbamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acordadament<s n="adv"/></l><r>accordatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acostumadament<s n="adv"/></l><r>accostumatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acrement<s n="adv"/></l><r>acremente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>acumulativament<s n="adv"/></l><r>cumulativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>adjectivament<s n="adv"/></l><r>aggettivalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>administrativament<s n="adv"/></l><r>amministrativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>admirablement<s n="adv"/></l><r>ammiratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>admirativament<s n="adv"/></l><r>ammirativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>adorablement<s n="adv"/></l><r>adorabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>adversament<s n="adv"/></l><r>avversamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>advertidament<s n="adv"/></l><r>avvertitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>afablement<s n="adv"/></l><r>affabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>afanyadament<s n="adv"/></l><r>affannosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>afectadament<s n="adv"/></l><r>leccatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>afectuosament<s n="adv"/></l><r>affettuosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aferrissadament<s n="adv"/></l><r>accanitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>afirmativament<s n="adv"/></l><r>affermativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>àgilment<s n="adv"/></l><r>agilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>agradablement<s n="adv"/></l><r>piacevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>agrament<s n="adv"/></l><r>agramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>agressivament<s n="adv"/></l><r>aggressivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>agudament<s n="adv"/></l><r>acutamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aïlladament<s n="adv"/></l><r>isolatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>així<b/>així<s n="adv"/></l><r>così<b/>così<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>al<b/>capdavall<s n="adv"/></l><r>alla<b/>fin<b/>fine<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aleatòriament<s n="adv"/></l><r>aleatoriamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>alfabèticament<s n="adv"/></l><r>alfabeticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>algebraicament<s n="adv"/></l><r>algebricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>algèbricament<s n="adv"/></l><r>algebricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>al·legòricament<s n="adv"/></l><r>allegoricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>alternativament<s n="adv"/></l><r>alternamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>altivament<s n="adv"/></l><r>altezzosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>altrament<s n="adv"/></l><r>altrimenti<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>altressí<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>amagadament<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>amaneradament<s n="adv"/></l><r>manieratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>amargament<s n="adv"/></l><r>amaramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ambiciosament<s n="adv"/></l><r>ambiziosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ambiguament<s n="adv"/></l><r>ambiguamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>amigablement<s n="adv"/></l><r>amichevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>amorosament<s n="adv"/></l><r>amorosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>analíticament<s n="adv"/></l><r>analiticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anàlogament<s n="adv"/></l><r>analogamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>analògicament<s n="adv"/></l><r>analogicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anàrquicament<s n="adv"/></l><r>anarchicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anatòmicament<s n="adv"/></l><r>anatomicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>angelicalment<s n="adv"/></l><r>angelicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>angèlicament<s n="adv"/></l><r>angelicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>angoixosament<s n="adv"/></l><r>angustiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>angularment<s n="adv"/></l><r>angolarmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anguniosament<s n="adv"/></l><r>angosciosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>animosament<s n="adv"/></l><r>animosamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>anit<s n="adv"/></l><r>iernotte<s n="adv"/></r></p></e>
+<e a="hector"><p><l>ahir<b/>a<b/>la<b/>nit<s n="adv"/></l><r>iernotte<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anònimament<s n="adv"/></l><r>anonimamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ansiosament<s n="adv"/></l><r>ansiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>antecedentment<s n="adv"/></l><r>antecedentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anticipadament<s n="adv"/></l><r>anticipatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>anticonstitucionalment<s n="adv"/></l><r>anticostituzionalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>antipàticament<s n="adv"/></l><r>antipaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apartadament<s n="adv"/></l><r>appartatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apassionadament<s n="adv"/></l><r>appassionatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apàticament<s n="adv"/></l><r>apaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apologèticament<s n="adv"/></l><r>apologeticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apostòlicament<s n="adv"/></l><r>apostolicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apreciablement<s n="adv"/></l><r>apprezzabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>apropiadament<s n="adv"/></l><r>appropriatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aptament<s n="adv"/></l><r>attamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arbitralment<s n="adv"/></l><r>arbitrale<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arbitràriament<s n="adv"/></l><r>arbitrariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ardentment<s n="adv"/></l><r>ardentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>àrduament<s n="adv"/></l><r>arduamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aristocràticament<s n="adv"/></l><r>aristocraticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>aritmèticament<s n="adv"/></l><r>aritmeticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arquitectònicament<s n="adv"/></l><r>architettonicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arravatadament<s n="adv"/></l><r>avventatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arriscadament<s n="adv"/></l><r>arrischiatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arrogantment<s n="adv"/></l><r>arrogantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>arterosament<s n="adv"/></l><r>artatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>articuladament<s n="adv"/></l><r>articolatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>artificiosament<s n="adv"/></l><r>artificiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>artísticament<s n="adv"/></l><r>artisticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>asimètricament<s n="adv"/></l><r>asimmetricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>asprament<s n="adv"/></l><r>aspramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>assenyadament<s n="adv"/></l><r>assennatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>assertivament<s n="adv"/></l><r>assertivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>assíduament<s n="adv"/></l><r>assiduamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>assossegadament<s n="adv"/></l><r>calmamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>astronòmicament<s n="adv"/></l><r>astronomicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>astutament<s n="adv"/></l><r>astutamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>atlèticament<s n="adv"/></l><r>atleticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>atractivament<s n="adv"/></l><r>attrattivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>atroçment<s n="adv"/></l><r>atrocemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>audaçment<s n="adv"/></l><r>audacemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>augustament<s n="adv"/></l><r>augustamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>austerament<s n="adv"/></l><r>austeramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>autocràticament<s n="adv"/></l><r>autocraticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>autonòmicament<s n="adv"/></l><r>autonomamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>autoritàriament<s n="adv"/></l><r>autoritariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>avantatjosament<s n="adv"/></l><r>vantaggiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>avarament<s n="adv"/></l><r>avaramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>avariciosament<s n="adv"/></l><r>avaramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>baix<s n="adv"/></l><r>basso<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>banalment<s n="adv"/></l><r>banalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>bàrbarament<s n="adv"/></l><r>barbaramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>barroerament<s n="adv"/></l><r>abborracciatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>bellament<s n="adv"/></l><r>bellamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>benauradament<s n="adv"/></l><r>benauguratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>benèficament<s n="adv"/></l><r>beneficamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>benèvolament<s n="adv"/></l><r>benevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>benignament<s n="adv"/></l><r>benignamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>bestialment<s n="adv"/></l><r>bestialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>blanament<s n="adv"/></l><r>blandamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>bravament<s n="adv"/></l><r>bravamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>brillantment<s n="adv"/></l><r>brillantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>brutament<s n="adv"/></l><r>bruttamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>calorosament<s n="adv"/></l><r>calorosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>calumniosament<s n="adv"/></l><r>calunniosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cancellerescament<s n="adv"/></l><r>cancellerescamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>càndidament<s n="adv"/></l><r>candidamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>canònicament<s n="adv"/></l><r>canonicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>caòticament<s n="adv"/></l><r>caoticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>capciosament<s n="adv"/></l><r>capziosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>capritxosament<s n="adv"/></l><r>capricciosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>característicament<s n="adv"/></l><r>caratteristicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>carament<s n="adv"/></l><r>caramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>caritativament<s n="adv"/></l><r>caritatevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>carnalment<s n="adv"/></l><r>carnalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>castament<s n="adv"/></l><r>castamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>catòlicament<s n="adv"/></l><r>cattolicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>càusticament<s n="adv"/></l><r>causticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cautament<s n="adv"/></l><r>cautamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cautelosament<s n="adv"/></l><r>cautelativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cavil·losament<s n="adv"/></l><r>cavillosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cegament<s n="adv"/></l><r>ciecamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>celadament<s n="adv"/></l><r>celatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>celestialment<s n="adv"/></l><r>celestialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cerimoniosament<s n="adv"/></l><r>cerimoniosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cert<s n="adv"/></l><r>certo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>científicament<s n="adv"/></l><r>scientificamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cínicament<s n="adv"/></l><r>cinicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>circularment<s n="adv"/></l><r>circolarmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>circumstanciadament<s n="adv"/></l><r>circostanziatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>civilment<s n="adv"/></l><r>civilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>clamorosament<s n="adv"/></l><r>clamorosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>clandestinament<s n="adv"/></l><r>clandestinamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>clericalment<s n="adv"/></l><r>clericalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cobejosament<s n="adv"/></l><r>cupidamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cobertament<s n="adv"/></l><r>copertamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>coherentment<s n="adv"/></l><r>coerentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>colèricament<s n="adv"/></l><r>collericamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>col·lateralment<s n="adv"/></l><r>collateralmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>col·lectivament<s n="adv"/></l><r>collettivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>col·legialment<s n="adv"/></l><r>collegialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>colossalment<s n="adv"/></l><r>colossale<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comercialment<s n="adv"/></l><r>commercialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>còmicament<s n="adv"/></l><r>comicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>compactament<s n="adv"/></l><r>compattamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comparablement<s n="adv"/></l><r>comparabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comparativament<s n="adv"/></l><r>comparativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>compassivament<s n="adv"/></l><r>compassionevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>compatiblement<s n="adv"/></l><r>compatibilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>compendiosament<s n="adv"/></l><r>compendiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>competentment<s n="adv"/></l><r>competentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>complidament<s n="adv"/></l><r>compiutamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comprensiblement<s n="adv"/></l><r>comprensibilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comprensivament<s n="adv"/></l><r>comprensivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>comunament<s n="adv"/></l><r>comunemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>concèntricament<s n="adv"/></l><r>concentricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conceptuosament<s n="adv"/></l><r>concettualmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>concisament<s n="adv"/></l><r>concisamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conclusivament<s n="adv"/></l><r>conclusivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>concordantment<s n="adv"/></l><r>concordemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>concordement<s n="adv"/></l><r>concordemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>concurrentment<s n="adv"/></l><r>concorrente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>condicionalment<s n="adv"/></l><r>condizionalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>confidencialment<s n="adv"/></l><r>confidenzialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>confidentment<s n="adv"/></l><r>confidentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conformement<s n="adv"/></l><r>conformemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conforme<s n="adv"/></l><r>conforme<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>confortablement<s n="adv"/></l><r>confortabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>confusament<s n="adv"/></l><r>confusamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>còngruament<s n="adv"/></l><r>congruamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>congruentment<s n="adv"/></l><r>congruentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conjugalment<s n="adv"/></l><r>coniugalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conscientment<s n="adv"/></l><r>consciamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consecutivament<s n="adv"/></l><r>consecutivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conseqüentment<s n="adv"/></l><r>consequenzialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consideradament<s n="adv"/></l><r>consideratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consistentment<s n="adv"/></l><r>consistentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consistorialment<s n="adv"/></l><r>concistoriale<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consonantment<s n="adv"/></l><r>consonantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>conspícuament<s n="adv"/></l><r>cospicuamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>constructivament<s n="adv"/></l><r>costruttivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consubstancialment<s n="adv"/></l><r>consustanzialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>consuetudinàriament<s n="adv"/></l><r>consuetudinariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contemplativament<s n="adv"/></l><r>contemplativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contemporàniament<s n="adv"/></l><r>contemporaneamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contenciosament<s n="adv"/></l><r>contenziosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contiguament<s n="adv"/></l><r>contiguamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>continentment<s n="adv"/></l><r>continentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contingentment<s n="adv"/></l><r>contingentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>continuadament<s n="adv"/></l><r>continuatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contradictòriament<s n="adv"/></l><r>contraddittoriamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>contràriament<s n="adv"/></l><r>contrariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>convencionalment<s n="adv"/></l><r>convenzionalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>convenientment<s n="adv"/></l><r>convenevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>convincentment<s n="adv"/></l><r>convincentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>coordinadament<s n="adv"/></l><r>coordinatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>copiosament<s n="adv"/></l><r>copiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>copulativament<s n="adv"/></l><r>copulativo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>coralment<s n="adv"/></l><r>coralmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>coratjosament<s n="adv"/></l><r>coraggiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cordialment<s n="adv"/></l><r>cordialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>corporalment<s n="adv"/></l><r>corporalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>corporativament<s n="adv"/></l><r>corporativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>corpòriament<s n="adv"/></l><r>corporeamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>correlativament<s n="adv"/></l><r>correlativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>correntment<s n="adv"/></l><r>correntemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>corrompudament<s n="adv"/></l><r>corrottamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>corruptament<s n="adv"/></l><r>corrottamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cortesament<s n="adv"/></l><r>cortesemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>costosament<s n="adv"/></l><r>costosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>covardament<s n="adv"/></l><r>codardamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>crassament<s n="adv"/></l><r>crasso<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>creïblement<s n="adv"/></l><r>credibilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>crescendo<s n="adv"/></l><r>crescendo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>criminalment<s n="adv"/></l><r>criminalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>críticament<s n="adv"/></l><r>criticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cromàticament<s n="adv"/></l><r>cromaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>crònicament<s n="adv"/></l><r>cronicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cronològicament<s n="adv"/></l><r>cronologicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cruament<s n="adv"/></l><r>crudamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cruelment<s n="adv"/></l><r>crudelmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cruentament<s n="adv"/></l><r>cruentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>cultament<s n="adv"/></l><r>culto<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>culturalment<s n="adv"/></l><r>culturalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>curosament<s n="adv"/></l><r>accuratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>curtament<s n="adv"/></l><r>cortamente<s n="adv"/></r></p></e>
+<e a="hector"><p><l>secretament<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e r="LR" a="hector"><p><l>en<b/>secret<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>d'amagatons<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e r="LR" a="hector"><p><l>d'amagatotis<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dèbilment<s n="adv"/></l><r>debolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>de<b/>res<s n="ij"/></l><r>prego<s n="ij"/></r></p></e>
+<e a="wiktionary"><p><l>decentment<s n="adv"/></l><r>decentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>decididament<s n="adv"/></l><r>decisamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>decisivament<s n="adv"/></l><r>decisivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>decorosament<s n="adv"/></l><r>decorosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>decrescendo<s n="adv"/></l><r>decrescendo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deductivament<s n="adv"/></l><r>deduttivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>defectuosament<s n="adv"/></l><r>difettosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>defensivament<s n="adv"/></l><r>difensivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deficientment<s n="adv"/></l><r>deficiente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deformement<s n="adv"/></l><r>deformemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>delectablement<s n="adv"/></l><r>dilettevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>delicadament<s n="adv"/></l><r>delicatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deliciosament<s n="adv"/></l><r>deliziosamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>dellà<s n="adv"/></l><r>di<b/>là<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>demagògicament<s n="adv"/></l><r>demagogicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>demostrativament<s n="adv"/></l><r>dimostrativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>densament<s n="adv"/></l><r>densamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deplorablement<s n="adv"/></l><r>deplorabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>depravadament<s n="adv"/></l><r>depravato<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>depressivament<s n="adv"/></l><r>depressivo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desacomodadament<s n="adv"/></l><r>scomodamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desacostumadament<s n="adv"/></l><r>scostumatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desairosament<s n="adv"/></l><r>goffamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desapassionadament<s n="adv"/></l><r>spassionatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desapercebudament<s n="adv"/></l><r>inavvertitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desaplicadament<s n="adv"/></l><r>svogliatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desarregladament<s n="adv"/></l><r>sregolatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desassenyadament<s n="adv"/></l><r>sventatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desastrosament<s n="adv"/></l><r>disastrosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desatentament<s n="adv"/></l><r>disattentamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desautoritzadament<s n="adv"/></l><r>esautorato<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desavantatjosament<s n="adv"/></l><r>svantaggiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desbaratadament<s n="adv"/></l><r>sregolatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desbocadament<s n="adv"/></l><r>sfrenatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descansadament<s n="adv"/></l><r>riposatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descarnadament<s n="adv"/></l><r>scarnamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descobertament<s n="adv"/></l><r>scopertamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descompassadament<s n="adv"/></l><r>sproporzionatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desconcertadament<s n="adv"/></l><r>sconcertatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desconfiadament<s n="adv"/></l><r>diffidentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desconsideradament<s n="adv"/></l><r>sconsideratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desconsoladament<s n="adv"/></l><r>sconsolatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descoratjadament<s n="adv"/></l><r>scoraggiato<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descortesament<s n="adv"/></l><r>scortesemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descriptivament<s n="adv"/></l><r>descrittivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>descuidadament<s n="adv"/></l><r>sbadatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desdenyosament<s n="adv"/></l><r>sdegnosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desemparadament<s n="adv"/></l><r>abbandonatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desenfrenadament<s n="adv"/></l><r>sfrenatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desenraonadament<s n="adv"/></l><r>irragionevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desentonadament<s n="adv"/></l><r>alteratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desesperadament<s n="adv"/></l><r>disperatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desfavorablement<s n="adv"/></l><r>sfavorevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deshonestament<s n="adv"/></l><r>disonestamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deshonrosament<s n="adv"/></l><r>disonorevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desigualment<s n="adv"/></l><r>disugualmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desinteressadament<s n="adv"/></l><r>disinteressatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desitjablement<s n="adv"/></l><r>desiderabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deslleialment<s n="adv"/></l><r>slealmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>deslluïdament<s n="adv"/></l><r>opacamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desmanegadament<s n="adv"/></l><r>scapestratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desmesuradament<s n="adv"/></l><r>smisuratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desobedientment<s n="adv"/></l><r>disubbidiente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desordenadament<s n="adv"/></l><r>disordinatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desorganitzadament<s n="adv"/></l><r>disorganizzatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>despectivament<s n="adv"/></l><r>spregiativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>despietadament<s n="adv"/></l><r>spietatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>despòticament<s n="adv"/></l><r>dispoticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desprevingudament<s n="adv"/></l><r>sprovvedutamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desproporcionadament<s n="adv"/></l><r>sproporzionatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>destrament<s n="adv"/></l><r>destramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desunidament<s n="adv"/></l><r>disunitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desventuradament<s n="adv"/></l><r>sventuratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>desvergonyidament<s n="adv"/></l><r>svergognatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>detalladament<s n="adv"/></l><r>dettagliatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>determinadament<s n="adv"/></l><r>determinatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>detestablement<s n="adv"/></l><r>detestabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>devotament<s n="adv"/></l><r>devotamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diabòlicament<s n="adv"/></l><r>diabolicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diagonalment<s n="adv"/></l><r>diagonalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dialècticament<s n="adv"/></l><r>dialetticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diametralment<s n="adv"/></l><r>diametralmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dictatorialment<s n="adv"/></l><r>dittatorialmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>didàcticament<s n="adv"/></l><r>didatticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diferentment<s n="adv"/></l><r>differentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diferent<s n="adv"/></l><r>differente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dificultosament<s n="adv"/></l><r>difficoltosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>difusament<s n="adv"/></l><r>diffusamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diligentment<s n="adv"/></l><r>diligentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dinàmicament<s n="adv"/></l><r>dinamicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diplomàticament<s n="adv"/></l><r>diplomaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>disciplinadament<s n="adv"/></l><r>disciplinatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>discrecionalment<s n="adv"/></l><r>discrezionalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>discretament<s n="adv"/></l><r>discretamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dispendiosament<s n="adv"/></l><r>dispendiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dispersament<s n="adv"/></l><r>dispersamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dissimuladament<s n="adv"/></l><r>dissimulatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dissolutament<s n="adv"/></l><r>dissolutamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>distintament<s n="adv"/></l><r>distintamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>distretament<s n="adv"/></l><r>distrattamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>distributivament<s n="adv"/></l><r>distributivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>diversament<s n="adv"/></l><r>diversamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>divertidament<s n="adv"/></l><r>divertentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>divinament<s n="adv"/></l><r>divinamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>doblement<s n="adv"/></l><r>doppiamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dòcilment<s n="adv"/></l><r>docilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>doctament<s n="adv"/></l><r>dottamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>doctoralment<s n="adv"/></l><r>dottoralmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>doctrinalment<s n="adv"/></l><r>dottrinalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>documentalment<s n="adv"/></l><r>documentatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dogmàticament<s n="adv"/></l><r>dogmaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dolorosament<s n="adv"/></l><r>dolorosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>domèsticament<s n="adv"/></l><r>domesticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dramàticament<s n="adv"/></l><r>drammaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dretament<s n="adv"/></l><r>dirittamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dubitativament<s n="adv"/></l><r>dubitativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>dubtosament<s n="adv"/></l><r>dubbiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>durablement<s n="adv"/></l><r>durevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eclècticament<s n="adv"/></l><r>ecletticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eclesiàsticament<s n="adv"/></l><r>ecclesiasticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>efeminadament<s n="adv"/></l><r>effeminatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eficientment<s n="adv"/></l><r>efficientemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>egoistament<s n="adv"/></l><r>egotisticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>egrègiament<s n="adv"/></l><r>egregiamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eixelebradament<s n="adv"/></l><r>sbadatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eixeridament<s n="adv"/></l><r>spigliatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eixutament<s n="adv"/></l><r>seccamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elàsticament<s n="adv"/></l><r>elasticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elèctricament<s n="adv"/></l><r>elettricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elegantment<s n="adv"/></l><r>elegantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elementalment<s n="adv"/></l><r>elementarmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elevadament<s n="adv"/></l><r>elevatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>el·lípticament<s n="adv"/></l><r>ellitticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>elogiosament<s n="adv"/></l><r>elogiativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eloqüentment<s n="adv"/></l><r>eloquentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>embarbussadament<s n="adv"/></l><r>scompigliatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>emblemàticament<s n="adv"/></l><r>emblematicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>emfàticament<s n="adv"/></l><r>enfaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eminentment<s n="adv"/></l><r>eminentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>empíricament<s n="adv"/></l><r>empiricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>encaridament<s n="adv"/></l><r>caldamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>encertadament<s n="adv"/></l><r>riuscibilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>encongidament<s n="adv"/></l><r>contrattamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>endimoniadament<s n="adv"/></l><r>maledettamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enèrgicament<s n="adv"/></l><r>energicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enganyosament<s n="adv"/></l><r>ingannevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enginyosament<s n="adv"/></l><r>ingegnosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enigmàticament<s n="adv"/></l><r>enigmaticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>entenimentadament<s n="adv"/></l><r>sensatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enterament<s n="adv"/></l><r>interamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>entranyablement<s n="adv"/></l><r>caramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>entretant<s n="adv"/></l><r>frattanto<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>entusiàsticament<s n="adv"/></l><r>entusiasticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>enutjosament<s n="adv"/></l><r>noiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>envejablement<s n="adv"/></l><r>invidiabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>envejosament<s n="adv"/></l><r>invidiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>èpicament<s n="adv"/></l><r>epicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>episòdicament<s n="adv"/></l><r>episodicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>epistolarment<s n="adv"/></l><r>epistolarmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equànimement<s n="adv"/></l><r>equanimemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equidistantment<s n="adv"/></l><r>equidistantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equitablement<s n="adv"/></l><r>equamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equivalentment<s n="adv"/></l><r>equivalentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equivocadament<s n="adv"/></l><r>erratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>equívocament<s n="adv"/></l><r>equivocamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eròticament<s n="adv"/></l><r>eroticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>erradament<s n="adv"/></l><r>erratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>erròniament<s n="adv"/></l><r>erroneamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>eruditament<s n="adv"/></l><r>eruditamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escabrosament<s n="adv"/></l><r>scabrosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escandalosament<s n="adv"/></l><r>scandalosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escassament<s n="adv"/></l><r>scarsamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escèpticament<s n="adv"/></l><r>scetticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escolàsticament<s n="adv"/></l><r>scolasticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>escrupolosament<s n="adv"/></l><r>scrupolosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>esfèricament<s n="adv"/></l><r>sfericamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>espaiosament<s n="adv"/></l><r>spaziosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>espantosament<s n="adv"/></l><r>spaventosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>espasmòdicament<s n="adv"/></l><r>spasmodicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>especificadament<s n="adv"/></l><r>specificatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>especulativament<s n="adv"/></l><r>speculativamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>espiritualment<s n="adv"/></l><r>spiritualmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>esplèndidament<s n="adv"/></l><r>splendidamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>espontàniament<s n="adv"/></l><r>spontaneamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>esporàdicament<s n="adv"/></l><r>sporadicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>esportivament<s n="adv"/></l><r>sportivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>esquemàticament<s n="adv"/></l><r>schematicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>establement<s n="adv"/></l><r>stabilmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estèrilment<s n="adv"/></l><r>vanamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estòlidament<s n="adv"/></l><r>stoltamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estrafolàriament<s n="adv"/></l><r>bizzarramente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estranyament<s n="adv"/></l><r>stranamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estratègicament<s n="adv"/></l><r>strategicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estrepitosament<s n="adv"/></l><r>strepitosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estudiadament<s n="adv"/></l><r>studiatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estudiosament<s n="adv"/></l><r>studiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>estúpidament<s n="adv"/></l><r>stupidamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>èticament<s n="adv"/></l><r>eticamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>etimològicament<s n="adv"/></l><r>etimologicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ètnicament<s n="adv"/></l><r>etnicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>evangèlicament<s n="adv"/></l><r>evangelicamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>evasivament<s n="adv"/></l><r>evasivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>exageradament<s n="adv"/></l><r>esageratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>excel·lentment<s n="adv"/></l><r>eccellentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>excelsament<s n="adv"/></l><r>eccelsamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>excèntricament<s n="adv"/></l><r>eccentricamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>executivament<s n="adv"/></l><r>esecutivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>exemplarment<s n="adv"/></l><r>esemplarmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>exorbitantment<s n="adv"/></l><r>esorbitantemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>expansivament<s n="adv"/></l><r>espansivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>experimentalment<s n="adv"/></l><r>sperimentalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>expertament<s n="adv"/></l><r>espertamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>explícitament<s n="adv"/></l><r>esplicitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>expressivament<s n="adv"/></l><r>espressivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>extemporàniament<s n="adv"/></l><r>estemporaneamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>extensament<s n="adv"/></l><r>estesamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>extensivament<s n="adv"/></l><r>estensivamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>exteriorment<s n="adv"/></l><r>esteriormente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>externament<s n="adv"/></l><r>esternamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>extraordinàriament<s n="adv"/></l><r>straordinariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>finalment<s n="adv"/></l><r>finalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>honestament<s n="adv"/></l><r>onestamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>honoríficament<s n="adv"/></l><r>onorificamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>impacientment<s n="adv"/></l><r>impazientemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>imperiosament<s n="adv"/></l><r>imperiosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>importantment<s n="adv"/></l><r>importanza<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>inadvertidament<s n="adv"/></l><r>inavvertitamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>incidentment<s n="adv"/></l><r>incidentemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>incòmodament<s n="adv"/></l><r>incomodamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>indignament<s n="adv"/></l><r>indegnamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>interessadament<s n="adv"/></l><r>interessatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>lleialment<s n="adv"/></l><r>lealmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>maleïdament<s n="adv"/></l><r>maledettamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>manco<s n="adv"/></l><r>monco<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>merescudament<s n="adv"/></l><r>meritatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>mesuradament<s n="adv"/></l><r>misuratamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>mortalment<s n="adv"/></l><r>mortalmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>obedientment<s n="adv"/></l><r>ubbidientemente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>ordenadament<s n="adv"/></l><r>ordinatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>originàriament<s n="adv"/></l><r>originariamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>p.<b/>ex.<s n="adv"/></l><r>ad<b/>es.<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>per<b/>duplicat<s n="adv"/></l><r>in<b/>duplice<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>piano<s n="adv"/></l><r>piano<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>plaentment<s n="adv"/></l><r>piacevolmente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>primer<s n="adv"/></l><r>primo<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>pus<s n="adv"/></l><r>pus<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>quant<s n="adv"/></l><r>quanto<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>roent<s n="adv"/></l><r>raggante<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>sensatament<s n="adv"/></l><r>sensatamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>sol<s n="adv"/></l><r>sole<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>tal<s n="adv"/></l><r>tale<s n="adv"/></r></p></e>
+<e a="hector"><p><l>tal<b/>qual<s n="adv"/></l><r>tale<b/>quale<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>valentament<s n="adv"/></l><r>ardimentosamente<s n="adv"/></r></p></e>
+<e a="wiktionary"><p><l>vet<b/>aquí<s n="ij"/></l><r>ecco<b/>qui<s n="ij"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>estrictament<s n="adv"/></l><r>strettamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>abans-d'ahir<s n="adv"/></l><r>altroieri<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>acuradament<s n="adv"/></l><r>accuratamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>consegüentment<s n="adv"/></l><r>conseguentemente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>considerablement<s n="adv"/></l><r>considerabilmente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>d'amagatotis<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>desagradablement<s n="adv"/></l><r>spiacevolmente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>desgraciadament<s n="adv"/></l><r>disgraziatamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>detingudament<s n="adv"/></l><r>accuratamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>especialment<s n="adv"/></l><r>spezialmente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>gairebé<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>gens<s n="adv"/></l><r>affato<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>gens<s n="adv"/></l><r>un<b/>po'<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>igualment<s n="adv"/></l><r>ugualmente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>massa<s n="adv"/></l><r>massa<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>massa<s n="adv"/></l><r>pasta<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>millor<s n="adv"/></l><r>migliore<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>mitjanit<s n="adv"/></l><r>mezzanotte<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>originalment<s n="adv"/></l><r>originariamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>pitjor<s n="adv"/></l><r>peggior<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>pobrament<s n="adv"/></l><r>brullamente<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tanmateix<s n="adv"/></l><r>anche<b/>se<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tard<s n="adv"/></l><r>tardi<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>abruptament<s n="adv"/></l><r>bruscamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>allí<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>amplament<s n="adv"/></l><r>ampiamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>anit<s n="adv"/></l><r>stasera<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>aproximativament<s n="adv"/></l><r>approssimativamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>avisadament<s n="adv"/></l><r>avvisatamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>certament<s n="adv"/></l><r>certamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>circa<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>corrents<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>debades<s n="adv"/></l><r>invano<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>deliberadament<s n="adv"/></l><r>deliberatamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>desastradament<s n="adv"/></l><r>sfortunatamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>en<b/>efecte<s n="adv"/></l><r>in<b/>effetti<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>enlaire<s n="adv"/></l><r>in<b/>aria<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>enllà<s n="adv"/></l><r>oltre<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>entremig<s n="adv"/></l><r>in<b/>mezzo<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>esbojarradament<s n="adv"/></l><r>pazzamente<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>sol<s n="adv"/></l><r>solo<s n="adv"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>tan<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
+
 <!-- SECTION: Conjunctions -->
 
 <e>       <p><l>a<b/>condició<b/>que<s n="cnjadv"/></l><r>a<b/>condizione<b/>che<s n="cnjadv"/></r></p></e>
@@ -2471,6 +3035,7 @@
 <e>       <p><l>aquell<s n="det"/><s n="dem"/></l>     <r>quello<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>aquest<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p></e>
 <e r="RL"><p><l>aquest<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>tal<s n="det"/><s n="dem"/></l>        <r>tale<s n="det"/><s n="dem"/></r></p></e>
 <e r="RL"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>ciascuno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>ciascuno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>ciascuno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></r></p></e>
@@ -2522,6 +3087,8 @@
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualsiasi<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>qualsevol<s n="det"/><s n="ind"/></l>  <r>qualunque<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>tal<s n="adj"/></l>                    <r>tale<s n="adj"/></r></p></e>
+<e>       <p><l>susdit<s n="adj"/></l>                 <r>suddetto<s n="adj"/></r></p></e>
+<e r="LR"><p><l>propdit<s n="adj"/></l>                <r>anzidetto<s n="adj"/></r></p></e>
 <e>       <p><l>tot<s n="predet"/></l>                 <r>tutto<s n="predet"/></r></p></e>
 <e r="LR"><p><l>diferent<s n="adj"/></l>               <r>distinto<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -6038,6 +6605,8 @@
 <e>       <p><l>emilià<s n="adj"/></l>                 <r>emiliano<s n="adj"/></r></p></e>
 <e>       <p><l>napolità<s n="n"/></l>                 <r>napolitano<s n="n"/></r></p></e>
 <e>       <p><l>napolità<s n="adj"/></l>               <r>napolitano<s n="adj"/></r></p></e>
+<e>       <p><l>florentí<s n="n"/></l>                 <r>fiorentino<s n="n"/></r></p></e>
+<e>       <p><l>florentí<s n="adj"/></l>               <r>fiorentino<s n="adj"/></r></p></e>
 <e>       <p><l>pisà<s n="n"/></l>                     <r>pisano<s n="n"/></r></p></e>
 <e>       <p><l>pisà<s n="adj"/></l>                   <r>pisano<s n="adj"/></r></p></e>
 <e>       <p><l>piemontès<s n="n"/></l>                <r>piemontese<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -6350,6 +6919,7 @@
 <e>       <p><l>perill<s n="n"/></l>                   <r>pericolo<s n="n"/></r></p></e>
 <e>       <p><l>periodisme<s n="n"/></l>               <r>giornalismo<s n="n"/></r></p></e>
 <e>       <p><l>periodista<s n="n"/></l>               <r>giornalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>periodista<s n="n"/></l>               <r>cronista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e r="LR"><p><l>periquito<s n="n"/><s n="m"/></l>      <r>pappagallino<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>periquito<s n="n"/><s n="m"/></l>      <r>pappagallino<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>periquito<s n="n"/><s n="m"/></l>      <r>pappagallino<s n="n"/><s n="f"/></r></p></e>
