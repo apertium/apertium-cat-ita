@@ -8368,6 +8368,9 @@
 <e>       <p><l>Eslovènia<s n="np"/><s n="top"/></l>   <r>Slovenia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Esmeralda<s n="np"/><s n="ant"/></l>   <r>Esmeralda<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Espanya<s n="np"/><s n="top"/></l>     <r>Spagna<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Estats<b/>Units<b/>d'Amèrica<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="top"/></r></p></e>
+
 <e>       <p><l>Estocolm<s n="np"/><s n="top"/><s n="m"/></l><r>Stoccolma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Estrasburg<s n="np"/><s n="top"/></l>  <r>Strasburgo<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Estremadura<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estremadura<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -24736,6 +24739,13 @@
 <e>       <p><l>Zolea<s n="np"/><s n="cog"/></l>       <r>Zolea<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Zummo<s n="np"/><s n="cog"/></l>       <r>Zummo<s n="np"/><s n="cog"/></r></p></e>
 
+<e>       <p><l>Rin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Reno<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Po<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Po<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Tíber<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tevere<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Roine<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rodano<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Danubi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Danubio<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Arno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Arno<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+
 <!-- SECTION: Numerals -->
 
 <e>       <p><l>C<s n="num"/></l>                      <r>C<s n="num"/></r></p></e>
@@ -25300,6 +25310,7 @@
 <e>       <p><l>concretar<s n="vblex"/></l>            <r>concretare<s n="vblex"/></r></p></e>
 <e>       <p><l>condemnar<s n="vblex"/></l>            <r>condannare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>conduir<s n="vblex"/></l>              <r>guidare<s n="vblex"/></r></p></e>
+<e>       <p><l>conduir<s n="vblex"/></l>              <r>condurre<s n="vblex"/></r></p></e>
 <e>       <p><l>conferir<s n="vblex"/></l>             <r>conferire<s n="vblex"/></r></p></e>
 <e>       <p><l>confiar<s n="vblex"/></l>              <r>affidare<s n="vblex"/></r></p></e>
 <e>       <p><l>configurar<s n="vblex"/></l>           <r>configurare<s n="vblex"/></r></p></e>
@@ -25476,10 +25487,11 @@
 <e>       <p><l>embolicar<s n="vblex"/></l>            <r>avvolgere<s n="vblex"/></r></p></e>
 <e>       <p><l>embotellar<s n="vblex"/></l>           <r>imbottigliare<s n="vblex"/></r></p></e>
 <e>       <p><l>embrutar<s n="vblex"/></l>             <r>sporcare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>embrutir<s n="vblex"/></l>             <r>sporcare<s n="vblex"/></r></p></e>
 <e>       <p><l>emigrar<s n="vblex"/></l>              <r>emigrare<s n="vblex"/></r></p></e>
 <e>       <p><l>emmagatzemar<s n="vblex"/></l>         <r>immagazzinare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>empentar<s n="vblex"/></l>             <r>spingere<s n="vblex"/></r></p></e>
-<e>       <p><l>empitjorar<s n="vblex"/></l>           <r>aggravare<s n="vblex"/></r></p></e>
+<e>       <p><l>agreujar<s n="vblex"/></l>             <r>aggravare<s n="vblex"/></r></p></e>
 <e>       <p><l>empitjorar<s n="vblex"/></l>           <r>peggiorare<s n="vblex"/></r></p></e>
 <e>       <p><l>emplenar<s n="vblex"/></l>             <r>riempire<s n="vblex"/></r></p></e>
 <e>       <p><l>empobrir<s n="vblex"/></l>             <r>impoverire<s n="vblex"/></r></p></e>
@@ -25562,6 +25574,8 @@
 <e>       <p><l>facilitar<s n="vblex"/></l>            <r>facilitare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>fallar<s n="vblex"/></l>               <r>fallire<s n="vblex"/></r></p></e>
 <e>       <p><l>fallir<s n="vblex"/></l>               <r>fallire<s n="vblex"/></r></p></e>
+<e>       <p><l>falsejar<s n="vblex"/></l>             <r>falsare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>falsar<s n="vblex"/></l>               <r>falsare<s n="vblex"/></r></p></e>
 <e>       <p><l>falsificar<s n="vblex"/></l>           <r>falsificare<s n="vblex"/></r></p></e>
 <e>       <p><l>faltar<s n="vblex"/></l>               <r>mancare<s n="vblex"/></r></p></e>
 <e>       <p><l>farcir<s n="vblex"/></l>               <r>farcire<s n="vblex"/></r></p></e>
@@ -25870,6 +25884,7 @@
 <e c="Acordar algo = acordar alguna cosa; acordarse de algo = recordar-se!!"><p><l>recordar<s n="vblex"/></l><r>ricordare<s n="vblex"/></r></p></e>
 <e>       <p><l>recuperar<s n="vblex"/></l>            <r>recuperare<s n="vblex"/></r></p></e>
 <e>       <p><l>recórrer<s n="vblex"/></l>             <r>ricorrere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>recórrer<s n="vblex"/></l>             <r>percorrere<s n="vblex"/></r></p></e>
 <e>       <p><l>redefinir<s n="vblex"/></l>            <r>ridefinire<s n="vblex"/></r></p></e>
 <e>       <p><l>referir<s n="vblex"/></l>              <r>riferire<s n="vblex"/></r></p></e>
 <e>       <p><l>reforçar<s n="vblex"/></l>             <r>rafforzare<s n="vblex"/></r></p></e>
@@ -26107,8 +26122,588 @@
 <e>       <p><l>estar<s n="vblex"/></l>                <r>stare<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<s n="vblex"/></l>                <r>essere<s n="vbser"/></r></p></e>
 
-<e>       <p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Estats<b/>Units<b/>d'Amèrica<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="top"/></r></p></e>
+<e a="wiktionary"><p><l>abalançar<s n="vblex"/></l><r>bilanciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abarrotar<s n="vblex"/></l><r>affollare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>ablanir<s n="vblex"/></l><r>addolcire<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>ablanir<s n="vblex"/></l><r>mollificare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>estovar<s n="vblex"/></l><r>ammollire<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>estovar<s n="vblex"/></l><r>rammollire<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>estovar<s n="vblex"/></l><r>ammorbidire<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>estovar<s n="vblex"/></l><r>rammorbidire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abocar<s n="vblex"/></l><r>spandere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abocar<s n="vblex"/></l><r>traboccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abonar<s n="vblex"/></l><r>avallare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abonyegar<s n="vblex"/></l><r>acciaccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abordar<s n="vblex"/></l><r>assalire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abrasar<s n="vblex"/></l><r>abbruciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abrigar<s n="vblex"/></l><r>ricoprire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>absorbir<s n="vblex"/></l><r>assorbire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>abstreure<s n="vblex"/></l><r>astrarre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acabalar<s n="vblex"/></l><r>tesoreggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acabdillar<s n="vblex"/></l><r>capeggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acantonar<s n="vblex"/></l><r>accantonare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>accentuar<s n="vblex"/></l><r>accentuare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>accionar<s n="vblex"/></l><r>azionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acetificar<s n="vblex"/></l><r>acetificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acidificar<s n="vblex"/></l><r>acidificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aclarir<s n="vblex"/></l><r>chisciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acoblar<s n="vblex"/></l><r>accoppiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acollir<s n="vblex"/></l><r>accogliere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acomiadar<s n="vblex"/></l><r>congedare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acomodar<s n="vblex"/></l><r>pacificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acostar<s n="vblex"/></l><r>accostare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acostar<s n="vblex"/></l><r>avvicinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acréixer<s n="vblex"/></l><r>accrescere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>acudir<s n="vblex"/></l><r>accorrere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adduir<s n="vblex"/></l><r>addurre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adherir<s n="vblex"/></l><r>aderire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adjudicar<s n="vblex"/></l><r>aggiudicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adobar<s n="vblex"/></l><r>conciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adormir<s n="vblex"/></l><r>addormentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adquirir<s n="vblex"/></l><r>acquistare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adreçar<s n="vblex"/></l><r>dirizzare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>redreçar<s n="vblex"/></l><r>raddrizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adular<s n="vblex"/></l><r>adulare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adunar<s n="vblex"/></l><r>adunare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>adverar<s n="vblex"/></l><r>avverare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>advocar<s n="vblex"/></l><r>avvocare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afaitar<s n="vblex"/></l><r>radere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afamar<s n="vblex"/></l><r>affamare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afartar<s n="vblex"/></l><r>saziare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aferrar<s n="vblex"/></l><r>afferrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afigurar<s n="vblex"/></l><r>raffigurare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afinar<s n="vblex"/></l><r>affinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afluir<s n="vblex"/></l><r>affluire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>afluixar<s n="vblex"/></l><r>rallentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>agençar<s n="vblex"/></l><r>sistemare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aglutinar<s n="vblex"/></l><r>agglutinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>agraciar<s n="vblex"/></l><r>graziare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>agrupar<s n="vblex"/></l><r>raggruppare<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>reagrupar<s n="vblex"/></l><r>raggruppare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aguaitar<s n="vblex"/></l><r>insidiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aguantar<s n="vblex"/></l><r>patire<s n="vblex"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>aguantar<s n="vblex"/></l><r>reggere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aguditzar<s n="vblex"/></l><r>acutizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>agullonar<s n="vblex"/></l><r>pungolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aïllar<s n="vblex"/></l><r>isolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aixafar<s n="vblex"/></l><r>schiacciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aixoplugar<s n="vblex"/></l><r>rifugiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ajustar<s n="vblex"/></l><r>aggiustare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ajusticiar<s n="vblex"/></l><r>giustiziare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>alambinar<s n="vblex"/></l><r>lambiccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>alarmar<s n="vblex"/></l><r>allarmare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>albardanejar<s n="vblex"/></l><r>buffoneggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aletejar<s n="vblex"/></l><r>sbattere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aliar<s n="vblex"/></l><r>alleare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>alimentar<s n="vblex"/></l><r>nutrire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>al·legar<s n="vblex"/></l><r>allegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>alleugerir<s n="vblex"/></l><r>alleggerire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>alliçonar<s n="vblex"/></l><r>addestrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>allisar<s n="vblex"/></l><r>agguagliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>allisar<s n="vblex"/></l><r>pulire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>allotjar<s n="vblex"/></l><r>alloggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>allunyar<s n="vblex"/></l><r>allontanare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amanir<s n="vblex"/></l><r>condire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amansir<s n="vblex"/></l><r>addimesticare<s n="vblex"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>amansir<s n="vblex"/></l><r>addolcire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amanyagar<s n="vblex"/></l><r>careggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amargar<s n="vblex"/></l><r>amareggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amarrar<s n="vblex"/></l><r>ormeggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amartellar<s n="vblex"/></l><r>armare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amblar<s n="vblex"/></l><r>ambiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amenaçar<s n="vblex"/></l><r>minacciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amidar<s n="vblex"/></l><r>misurare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amollar<s n="vblex"/></l><r>allentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amonestar<s n="vblex"/></l><r>ammonire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>amortallar<s n="vblex"/></l><r>seppellire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>analitzar<s n="vblex"/></l><r>analizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>anatomitzar<s n="vblex"/></l><r>notomizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ancorar<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>angoixar<s n="vblex"/></l><r>angosciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>anisar<s n="vblex"/></l><r>condire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>annexionar<s n="vblex"/></l><r>annettere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>anonimitzar<s n="vblex"/></l><r>anonimizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>anteposar<s n="vblex"/></l><r>anteporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>anul·lar<s n="vblex"/></l><r>annullare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aombrar<s n="vblex"/></l><r>ombreggiare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>apadrinar<s n="vblex"/></l><r>patrocinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>apagar<s n="vblex"/></l><r>spegnere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aparcar<s n="vblex"/></l><r>parcheggiare<s n="vblex"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>aparellar<s n="vblex"/></l><r>accoppiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aparellar<s n="vblex"/></l><r>appaiare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>aparellar<s n="vblex"/></l><r>apparecchiare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>aparellar<s n="vblex"/></l><r>mesticare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>apassionar<s n="vblex"/></l><r>appassionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>apel·lar<s n="vblex"/></l><r>appellare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aplacar<s n="vblex"/></l><r>placare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aporrinar<s n="vblex"/></l><r>oltraggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aprofundir<s n="vblex"/></l><r>approfondire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>apropiar<s n="vblex"/></l><r>appropriare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aprovisionar<s n="vblex"/></l><r>approvvigionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>apurar<s n="vblex"/></l><r>affinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aquietar<s n="vblex"/></l><r>acquietare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arabitzar<s n="vblex"/></l><r>arabizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arbitrar<s n="vblex"/></l><r>arbitrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>argumentar<s n="vblex"/></l><r>argomentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>armar<s n="vblex"/></l><r>armare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>aromatitzar<s n="vblex"/></l><r>aromatizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arquejar<s n="vblex"/></l><r>archeggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arrabassar<s n="vblex"/></l><r>sradicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arraconar<s n="vblex"/></l><r>accantonare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arranjar<s n="vblex"/></l><r>arrangiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arrencar<s n="vblex"/></l><r>sradicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arriscar<s n="vblex"/></l><r>rischiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arromangar<s n="vblex"/></l><r>rimboccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arronsar<s n="vblex"/></l><r>contrarre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arruïnar<s n="vblex"/></l><r>rovinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>arxivar<s n="vblex"/></l><r>archiviare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>assajar<s n="vblex"/></l><r>saggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>assentir<s n="vblex"/></l><r>assentire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>assetjar<s n="vblex"/></l><r>assediare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>assossegar<s n="vblex"/></l><r>placare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>assumir<s n="vblex"/></l><r>assumere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atemptar<s n="vblex"/></l><r>attentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atenuar<s n="vblex"/></l><r>attenuare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atiar<s n="vblex"/></l><r>alimentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atomitzar<s n="vblex"/></l><r>atomizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atracar<s n="vblex"/></l><r>attraccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>atrofiar<s n="vblex"/></l><r>atrofiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>automatitzar<s n="vblex"/></l><r>automatizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>avalar<s n="vblex"/></l><r>avallare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>avergonyir<s n="vblex"/></l><r>disonorare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>avisar<s n="vblex"/></l><r>avvisare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>badallar<s n="vblex"/></l><r>sbadigliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>baratar<s n="vblex"/></l><r>scambiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>batejar<s n="vblex"/></l><r>battezzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>batre<s n="vblex"/></l><r>abbacchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>batre<s n="vblex"/></l><r>battere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>beatificar<s n="vblex"/></l><r>beatificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>befar<s n="vblex"/></l><r>beffare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>beneficiar<s n="vblex"/></l><r>beneficiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>beneir<s n="vblex"/></l><r>benedire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>besar<s n="vblex"/></l><r>baciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>bescanviar<s n="vblex"/></l><r>scambiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>birbar<s n="vblex"/></l><r>sarchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>blanquejar<s n="vblex"/></l><r>imbiancare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>blanquejar<s n="vblex"/></l><r>riciclare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>blasfemar<s n="vblex"/></l><r>bestemmiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>bombar<s n="vblex"/></l><r>pompare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>boquejar<s n="vblex"/></l><r>boccheggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>bromejar<s n="vblex"/></l><r>scherzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>buidar<s n="vblex"/></l><r>vuotare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>calcificar<s n="vblex"/></l><r>calcificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>calcinar<s n="vblex"/></l><r>calcinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>campar<s n="vblex"/></l><r>campare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>cancel·lar<s n="vblex"/></l><r>cancellare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>cansar<s n="vblex"/></l><r>affaticare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>capacitar<s n="vblex"/></l><r>abilitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>capitalitzar<s n="vblex"/></l><r>capitalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>capitular<s n="vblex"/></l><r>capitolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>carregar<s n="vblex"/></l><r>caricare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>castellanitzar<s n="vblex"/></l><r>castiglianizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>cavalcar<s n="vblex"/></l><r>cavalcare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>centrifugar<s n="vblex"/></l><r>centrifugare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>civilitzar<s n="vblex"/></l><r>civilizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>claudicar<s n="vblex"/></l><r>zoppicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>clicar<s n="vblex"/></l><r>cliccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>cloquejar<s n="vblex"/></l><r>chiocciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>coexistir<s n="vblex"/></l><r>coesistere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>coixejar<s n="vblex"/></l><r>zoppicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>col·lapsar<s n="vblex"/></l><r>collassare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>col·legir<s n="vblex"/></l><r>collegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>colonitzar<s n="vblex"/></l><r>colonizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>combatre<s n="vblex"/></l><r>assalire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>comerciar<s n="vblex"/></l><r>commerciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>commutar<s n="vblex"/></l><r>commutare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>competir<s n="vblex"/></l><r>competere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>complementar<s n="vblex"/></l><r>complementare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>comprimir<s n="vblex"/></l><r>comprimere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>concebre<s n="vblex"/></l><r>concepire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>condecorar<s n="vblex"/></l><r>onorificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>constrènyer<s n="vblex"/></l><r>costringere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>contactar<s n="vblex"/></l><r>contattare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>convergir<s n="vblex"/></l><r>convergere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>corroir<s n="vblex"/></l><r>corrodere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>coure<s n="vblex"/></l><r>cuocere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>cristal·litzar<s n="vblex"/></l><r>cristallizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>crivellar<s n="vblex"/></l><r>setacciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>debatre<s n="vblex"/></l><r>dibattere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>debutar<s n="vblex"/></l><r>debuttare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>defallir<s n="vblex"/></l><r>vacillare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>defugir<s n="vblex"/></l><r>sfuggire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>degollar<s n="vblex"/></l><r>decollare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>deixondir<s n="vblex"/></l><r>svegliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>dejunar<s n="vblex"/></l><r>digiunare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>deliberar<s n="vblex"/></l><r>deliberare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>delinquir<s n="vblex"/></l><r>delinquere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desaconsellar<s n="vblex"/></l><r>sconsigliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>descansar<s n="vblex"/></l><r>riposare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>descompondre<s n="vblex"/></l><r>scomporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desconnectar<s n="vblex"/></l><r>sconnettere<s n="vblex"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>desembolicar<s n="vblex"/></l><r>disfare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desembolicar<s n="vblex"/></l><r>sbrogliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desemmascarar<s n="vblex"/></l><r>smascherare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desenganxar<s n="vblex"/></l><r>sganciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desenrotllar<s n="vblex"/></l><r>srotolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desfer<s n="vblex"/></l><r>disfare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desil·lusionar<s n="vblex"/></l><r>disilludere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desmaiar<s n="vblex"/></l><r>svenire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desplegar<s n="vblex"/></l><r>esporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desposseir<s n="vblex"/></l><r>espropriare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>destil·lar<s n="vblex"/></l><r>distillare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>destronar<s n="vblex"/></l><r>detronizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desvelar<s n="vblex"/></l><r>svelare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>desxifrar<s n="vblex"/></l><r>decifrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>diferir<s n="vblex"/></l><r>differire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>dissentir<s n="vblex"/></l><r>dissentire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>dissuadir<s n="vblex"/></l><r>dissuadere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>divergir<s n="vblex"/></l><r>divergere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>doblar<s n="vblex"/></l><r>raddoppiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>doblegar<s n="vblex"/></l><r>piegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>efeminar<s n="vblex"/></l><r>effeminare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>eludir<s n="vblex"/></l><r>eludere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>embellir<s n="vblex"/></l><r>abbellire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>emfasitzar<s n="vblex"/></l><r>enfatizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>empalmar<s n="vblex"/></l><r>collegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>emparar<s n="vblex"/></l><r>proteggere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>encantar<s n="vblex"/></l><r>incantare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>endolcir<s n="vblex"/></l><r>addolcire<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>engalipar<s n="vblex"/></l><r>imbrogliare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>enredar<s n="vblex"/></l><r>imbrogliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>enganxar<s n="vblex"/></l><r>appicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>engrescar<s n="vblex"/></l><r>affascinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>enlletgir<s n="vblex"/></l><r>imbruttire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ensinistrar<s n="vblex"/></l><r>addestrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ensorrar<s n="vblex"/></l><r>incagliare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>entabanar<s n="vblex"/></l><r>imbrogliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>entollar<s n="vblex"/></l><r>allagare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>entumir<s n="vblex"/></l><r>intorpidire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>envair<s n="vblex"/></l><r>invadere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>enyorar<s n="vblex"/></l><r>rammaricare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>equiparar<s n="vblex"/></l><r>equiparare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>escombrar<s n="vblex"/></l><r>spazzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>escotar<s n="vblex"/></l><r>scollare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>escurçar<s n="vblex"/></l><r>accorciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>esglaiar<s n="vblex"/></l><r>scioccare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>esgotar<s n="vblex"/></l><r>disseccare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>esgotar<s n="vblex"/></l><r>dissipare<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>esgotar<s n="vblex"/></l><r>esaurire<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>exhaurir<s n="vblex"/></l><r>esaurire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>espanyolitzar<s n="vblex"/></l><r>ispanizzare<s n="vblex"/></r></p></e>
+<e><p><l>catalanitzar<s n="vblex"/></l><r>catalanizzare<s n="vblex"/></r></p></e>
+<e><p><l>castellanitzar<s n="vblex"/></l><r>castiglianizzare<s n="vblex"/></r></p></e>
+<e><p><l>valencianitzar<s n="vblex"/></l><r>valenzianizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>espiritualitzar<s n="vblex"/></l><r>spiritualizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>esquiar<s n="vblex"/></l><r>sciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>esquitxar<s n="vblex"/></l><r>schizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>estampar<s n="vblex"/></l><r>stampare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>estandarditzar<s n="vblex"/></l><r>standardizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>estratificar<s n="vblex"/></l><r>stratificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>estrènyer<s n="vblex"/></l><r>restringere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>evangelitzar<s n="vblex"/></l><r>evangelizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>evolucionar<s n="vblex"/></l><r>evolvere<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>exaltar<s n="vblex"/></l><r>encomiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exaltar<s n="vblex"/></l><r>esaltare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>examinar<s n="vblex"/></l><r>esaminare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>excitar<s n="vblex"/></l><r>eccitare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>exercir<s n="vblex"/></l><r>esercitare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>exercir<s n="vblex"/></l><r>esercire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exercitar<s n="vblex"/></l><r>esercitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exigir<s n="vblex"/></l><r>esigere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exonerar<s n="vblex"/></l><r>sgravare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exorcitzar<s n="vblex"/></l><r>esorcizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>experimentar<s n="vblex"/></l><r>sperimentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>explorar<s n="vblex"/></l><r>esplorare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>exposar<s n="vblex"/></l><r>esporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fer<g><b/>l'ullet</g><s n="vblex"/></l><r>strizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ficar<s n="vblex"/></l><r>ficcare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>finalitzar<s n="vblex"/></l><r>finalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fixar<s n="vblex"/></l><r>fissare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>florir<s n="vblex"/></l><r>fiorire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>follar<s n="vblex"/></l><r>pigiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fornicar<s n="vblex"/></l><r>fornicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fraternitzar<s n="vblex"/></l><r>fraternizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fregir<s n="vblex"/></l><r>friggere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>funcionar<s n="vblex"/></l><r>funzionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>fustigar<s n="vblex"/></l><r>fustigare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>gargaritzar<s n="vblex"/></l><r>gargarizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>gargotejar<s n="vblex"/></l><r>scarabocchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>gelar<s n="vblex"/></l><r>gelare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>glaçar<s n="vblex"/></l><r>gelare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>habilitar<s n="vblex"/></l><r>abilitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>halar<s n="vblex"/></l><r>alare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>harmonitzar<s n="vblex"/></l><r>armonizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hel·lenitzar<s n="vblex"/></l><r>ellenizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hesitar<s n="vblex"/></l><r>esitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hidrolitzar<s n="vblex"/></l><r>idrolizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hipnotitzar<s n="vblex"/></l><r>ipnotizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hipotecar<s n="vblex"/></l><r>ipotecare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hissar<s n="vblex"/></l><r>issare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>homogeneïtzar<s n="vblex"/></l><r>omogeneizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>homologar<s n="vblex"/></l><r>omologare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>honrar<s n="vblex"/></l><r>onorare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>horroritzar<s n="vblex"/></l><r>spaventare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hostatjar<s n="vblex"/></l><r>albergare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>hostilitzar<s n="vblex"/></l><r>osteggiare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>igualar<s n="vblex"/></l><r>agguagliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>igualar<s n="vblex"/></l><r>uguagliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>il·lusionar<s n="vblex"/></l><r>illudere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imaginar<s n="vblex"/></l><r>immaginare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imantar<s n="vblex"/></l><r>magnetizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imbricar<s n="vblex"/></l><r>embricare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>immergir<s n="vblex"/></l><r>immergere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>immigrar<s n="vblex"/></l><r>immigrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>immobilitzar<s n="vblex"/></l><r>immobilizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>immunitzar<s n="vblex"/></l><r>immunizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>immutar<s n="vblex"/></l><r>mutare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>implementar<s n="vblex"/></l><r>implementare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imposar<s n="vblex"/></l><r>imporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>impostar<s n="vblex"/></l><r>impostare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imprecar<s n="vblex"/></l><r>imprecare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>impressionar<s n="vblex"/></l><r>imprimere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>imprimir<s n="vblex"/></l><r>stampare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>improvisar<s n="vblex"/></l><r>improvvisare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>impugnar<s n="vblex"/></l><r>impugnare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>incapacitar<s n="vblex"/></l><r>inabilitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>incidir<s n="vblex"/></l><r>incidere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>incomunicar<s n="vblex"/></l><r>isolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inculcar<s n="vblex"/></l><r>inculcare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inculpar<s n="vblex"/></l><r>incolpare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>indexar<s n="vblex"/></l><r>indicizzare<s n="vblex"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>indisposar<s n="vblex"/></l><r>ammalare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>indisposar<s n="vblex"/></l><r>inimicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>individualitzar<s n="vblex"/></l><r>individuare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>induir<s n="vblex"/></l><r>indurre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>indultar<s n="vblex"/></l><r>riporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>industrialitzar<s n="vblex"/></l><r>industrializzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>infamar<s n="vblex"/></l><r>infamare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>infectar<s n="vblex"/></l><r>infettare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>infeudar<s n="vblex"/></l><r>infeudare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inflar<s n="vblex"/></l><r>gonfiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>influir<s n="vblex"/></l><r>influire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>informatitzar<s n="vblex"/></l><r>informatizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>infrautilitzar<s n="vblex"/></l><r>sottoutilizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>infravalorar<s n="vblex"/></l><r>sottovalutare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ingressar<s n="vblex"/></l><r>ricoverare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inhabilitar<s n="vblex"/></l><r>inabilitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inhibir<s n="vblex"/></l><r>inibire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inicialitzar<s n="vblex"/></l><r>inizializzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>injectar<s n="vblex"/></l><r>iniettare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>innovar<s n="vblex"/></l><r>innovare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inquietar<s n="vblex"/></l><r>turbare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>insidiar<s n="vblex"/></l><r>insidiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>insistir<s n="vblex"/></l><r>insistere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>insonoritzar<s n="vblex"/></l><r>insonorizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inspeccionar<s n="vblex"/></l><r>ispezionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>instigar<s n="vblex"/></l><r>istigare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interaccionar<s n="vblex"/></l><r>interagire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intercanviar<s n="vblex"/></l><r>scambiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interferir<s n="vblex"/></l><r>interferire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interfoliar<s n="vblex"/></l><r>interfogliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>internacionalitzar<s n="vblex"/></l><r>internazionalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interpel·lar<s n="vblex"/></l><r>interpellare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>interpolar<s n="vblex"/></l><r>interporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interposar<s n="vblex"/></l><r>interporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>interpretar<s n="vblex"/></l><r>interpretare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intersecar<s n="vblex"/></l><r>intersecare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intimar<s n="vblex"/></l><r>intimare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intitular<s n="vblex"/></l><r>intitolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intoxicar<s n="vblex"/></l><r>intossicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intrigar<s n="vblex"/></l><r>intrigare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>intuir<s n="vblex"/></l><r>intuire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inutilitzar<s n="vblex"/></l><r>inutilizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>inventariar<s n="vblex"/></l><r>inventariare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ironitzar<s n="vblex"/></l><r>ironizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>irradiar<s n="vblex"/></l><r>irradiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>irrigar<s n="vblex"/></l><r>irrigare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>irrompre<s n="vblex"/></l><r>scoppiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>italianitzar<s n="vblex"/></l><r>italianizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>jubilar<s n="vblex"/></l><r>pensionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>judaïtzar<s n="vblex"/></l><r>giudaizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>junyir<s n="vblex"/></l><r>aggiogare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>justificar<s n="vblex"/></l><r>giustificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>jutjar<s n="vblex"/></l><r>giudicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>lacar<s n="vblex"/></l><r>laccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>lacrar<s n="vblex"/></l><r>sigillare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>laïcitzar<s n="vblex"/></l><r>laicizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>legalitzar<s n="vblex"/></l><r>legalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>legislar<s n="vblex"/></l><r>legiferare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>liberalitzar<s n="vblex"/></l><r>liberalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>linxar<s n="vblex"/></l><r>linciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>liofilitzar<s n="vblex"/></l><r>liofilizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>lladrar<s n="vblex"/></l><r>abbaiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>llatinitzar<s n="vblex"/></l><r>latinizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>llibertar<s n="vblex"/></l><r>affrancare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>llimar<s n="vblex"/></l><r>limare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>llogar<s n="vblex"/></l><r>locare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>lubrificar<s n="vblex"/></l><r>lubrificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>magnificar<s n="vblex"/></l><r>magnificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>magolar<s n="vblex"/></l><r>ammaccare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>maleir<s n="vblex"/></l><r>maledire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>malentendre<s n="vblex"/></l><r>fraintendere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>marinar<s n="vblex"/></l><r>marinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>martiritzar<s n="vblex"/></l><r>martirizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>mastegar<s n="vblex"/></l><r>masticare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>materialitzar<s n="vblex"/></l><r>materializzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>matricular<s n="vblex"/></l><r>immatricolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>mecanitzar<s n="vblex"/></l><r>meccanizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>medicar<s n="vblex"/></l><r>medicare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>menar<s n="vblex"/></l><r>condurre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>meravellar<s n="vblex"/></l><r>meravigliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>mercadejar<s n="vblex"/></l><r>commerciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>merceritzar<s n="vblex"/></l><r>mercerizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>merèixer<s n="vblex"/></l><r>meritare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>mesurar<s n="vblex"/></l><r>misurare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>metrallar<s n="vblex"/></l><r>mitragliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>migrar<s n="vblex"/></l><r>migrare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>militar<s n="vblex"/></l><r>militare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>minar<s n="vblex"/></l><r>minare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>minimitzar<s n="vblex"/></l><r>minimizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>modular<s n="vblex"/></l><r>modulare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>monopolitzar<s n="vblex"/></l><r>monopolizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>mortificar<s n="vblex"/></l><r>mortificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>munyir<s n="vblex"/></l><r>mungere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>nodrir<s n="vblex"/></l><r>nutrire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>oblidar<s n="vblex"/></l><r>dimenticare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>obligar<s n="vblex"/></l><r>obbligare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>obrar<s n="vblex"/></l><r>agire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>obviar<s n="vblex"/></l><r>ovviare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ofegar<s n="vblex"/></l><r>soffocare<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>afogar<s n="vblex"/></l><r>soffocare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>optimitzar<s n="vblex"/></l><r>ottimizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>paredar<s n="vblex"/></l><r>murare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>parlotejar<s n="vblex"/></l><r>cianciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>parodiar<s n="vblex"/></l><r>parodiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pentinar<s n="vblex"/></l><r>pettinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>percebre<s n="vblex"/></l><r>percepire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>perllongar<s n="vblex"/></l><r>prolungare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>persistir<s n="vblex"/></l><r>persistere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>personificar<s n="vblex"/></l><r>personificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pervertir<s n="vblex"/></l><r>pervertire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>picar<s n="vblex"/></l><r>cuocere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>picar<s n="vblex"/></l><r>pungere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pintar<s n="vblex"/></l><r>dipingere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pixar<s n="vblex"/></l><r>pisciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pixelar<s n="vblex"/></l><r>pixellizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>plegar<s n="vblex"/></l><r>piegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>plomar<s n="vblex"/></l><r>sigillare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>poblar<s n="vblex"/></l><r>popolare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>pol·luir<s n="vblex"/></l><r>inquinare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>predeterminar<s n="vblex"/></l><r>predeterminare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>predisposar<s n="vblex"/></l><r>predisporre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>prometre<s n="vblex"/></l><r>promettere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>proporcionar<s n="vblex"/></l><r>proporzionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>prostituir<s n="vblex"/></l><r>prostituire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>provar<s n="vblex"/></l><r>provare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>pudir<s n="vblex"/></l><r>stufare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>fer<g><b/>pudor</g><s n="vblex"/></l><r>stufare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>quadruplicar<s n="vblex"/></l><r>quadruplicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>quintuplicar<s n="vblex"/></l><r>quintuplicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rapar<s n="vblex"/></l><r>radere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rascar<s n="vblex"/></l><r>graffiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rasclar<s n="vblex"/></l><r>rastrellare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rastellar<s n="vblex"/></l><r>rastrellare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>raure<s n="vblex"/></l><r>raschiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>readmetre<s n="vblex"/></l><r>riammettere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reblar<s n="vblex"/></l><r>ribadire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reclutar<s n="vblex"/></l><r>reclutare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>recusar<s n="vblex"/></l><r>rifiutare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>redreçar<s n="vblex"/></l><r>addirizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reduir<s n="vblex"/></l><r>ridurre<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reedificar<s n="vblex"/></l><r>riedificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reenviar<s n="vblex"/></l><r>rinviare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reflectir<s n="vblex"/></l><r>rispecchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reflexionar<s n="vblex"/></l><r>riflettere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>regar<s n="vblex"/></l><r>irrigare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>remeiar<s n="vblex"/></l><r>rimarginare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rendir<s n="vblex"/></l><r>rendere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>renegar<s n="vblex"/></l><r>rinnegare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>repicar<s n="vblex"/></l><r>scrosciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>repudiar<s n="vblex"/></l><r>repudiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>retenir<s n="vblex"/></l><r>ritenere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>retre<s n="vblex"/></l><r>rendere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>revestir<s n="vblex"/></l><r>rivestire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>reveure<s n="vblex"/></l><r>rivedere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>revocar<s n="vblex"/></l><r>revocare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>rifar<s n="vblex"/></l><r>sorteggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>riure<s n="vblex"/></l><r>ridere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>saciar<s n="vblex"/></l><r>saziare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>salpar<s n="vblex"/></l><r>salpare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>secularitzar<s n="vblex"/></l><r>secolarizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>secundar<s n="vblex"/></l><r>assecondare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sedimentar<s n="vblex"/></l><r>sedimentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>seleccionar<s n="vblex"/></l><r>selezionare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>simplificar<s n="vblex"/></l><r>semplificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sintetitzar<s n="vblex"/></l><r>sintetizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sintonitzar<s n="vblex"/></l><r>sintonizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sospitar<s n="vblex"/></l><r>sospettare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sotsarrendar<s n="vblex"/></l><r>sublocare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>subsistir<s n="vblex"/></l><r>sussistere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>succeir<s n="vblex"/></l><r>succedere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>sumar<s n="vblex"/></l><r>sommare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tacar<s n="vblex"/></l><r>macchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tafanejar<s n="vblex"/></l><r>curiosare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tamborinejar<s n="vblex"/></l><r>tambureggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tamisar<s n="vblex"/></l><r>setacciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>taral·larejar<s n="vblex"/></l><r>canticchiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tarifar<s n="vblex"/></l><r>tariffare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tastar<s n="vblex"/></l><r>assaggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tatuar<s n="vblex"/></l><r>tatuare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>taxar<s n="vblex"/></l><r>calmierare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tecnificar<s n="vblex"/></l><r>tecnicizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>teixir<s n="vblex"/></l><r>tessere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>televisar<s n="vblex"/></l><r>teletrasmettere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>temporitzar<s n="vblex"/></l><r>temporeggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>teologitzar<s n="vblex"/></l><r>teologizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>teoritzar<s n="vblex"/></l><r>teorizzare<s n="vblex"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tergiversar<s n="vblex"/></l><r>falsare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>terroritzar<s n="vblex"/></l><r>terrorizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tipificar<s n="vblex"/></l><r>tipizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tiranitzar<s n="vblex"/></l><r>tiranneggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>titllar<s n="vblex"/></l><r>tacciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>titubejar<s n="vblex"/></l><r>incespicare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tonificar<s n="vblex"/></l><r>tonificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>topar<s n="vblex"/></l><r>urtare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>torbar<s n="vblex"/></l><r>turbare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>torcar<s n="vblex"/></l><r>pulire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tossir<s n="vblex"/></l><r>tossire<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>estossegar<s n="vblex"/></l><r>tossire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>totalitzar<s n="vblex"/></l><r>totalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>traçar<s n="vblex"/></l><r>tracciare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>traficar<s n="vblex"/></l><r>trafficare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>trair<s n="vblex"/></l><r>tradire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>trampejar<s n="vblex"/></l><r>arrangiare<s n="vblex"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>trampejar<s n="vblex"/></l><r>imbrogliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>transcórrer<s n="vblex"/></l><r>trascorrere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>transcriure<s n="vblex"/></l><r>trascrivere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>transitar<s n="vblex"/></l><r>transitare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>traspaperar<s n="vblex"/></l><r>smarrire<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>trasplantar<s n="vblex"/></l><r>trapiantare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>trastornar<s n="vblex"/></l><r>sconvolgere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>tremolar<s n="vblex"/></l><r>tremare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>truncar<s n="vblex"/></l><r>troncare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>turmentar<s n="vblex"/></l><r>tormentare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ultrapassar<s n="vblex"/></l><r>oltrepassare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ultratjar<s n="vblex"/></l><r>oltraggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>ungir<s n="vblex"/></l><r>ungere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>universalitzar<s n="vblex"/></l><r>universalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>urbanitzar<s n="vblex"/></l><r>urbanizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>urgir<s n="vblex"/></l><r>urgere<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>vagar<s n="vblex"/></l><r>vagare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>vaporitzar<s n="vblex"/></l><r>vaporizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>verbalitzar<s n="vblex"/></l><r>verbalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>versificar<s n="vblex"/></l><r>versificare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>viatjar<s n="vblex"/></l><r>viaggiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>virar<s n="vblex"/></l><r>virare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>vitalitzar<s n="vblex"/></l><r>vitalizzare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>vogar<s n="vblex"/></l><r>vogare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>xerrar<s n="vblex"/></l><r>chiacchierare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>xerrotejar<s n="vblex"/></l><r>barbugliare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>xiular<s n="vblex"/></l><r>fischiare<s n="vblex"/></r></p></e>
+<e a="wiktionary"><p><l>xuclar<s n="vblex"/></l><r>succhiare<s n="vblex"/></r></p></e>
+
+<e a="hector"><p><l>comprometre<s n="vblex"/></l><r>compromettere<s n="vblex"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
