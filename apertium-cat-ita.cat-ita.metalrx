@@ -1859,21 +1859,28 @@
   </rule>
 
   <!-- tornar > tornare, ritornare, diventare -->
-
   <macro name="verb_nopron_pron" p1="tornar" p2="tornare" p3="diventare"/>
   <rule weight="1.0" c="tornar boig">
      <match lemma="tornar" tags="vblex.*"><select lemma="diventare"/></match>
      <match tags="adj.*"/>
   </rule>
 
-  <!-- tenir > avere, tenere -->
+  <!-- negar > negare, annegare -->
+  <rule weight="0.6">
+     <match lemma="negar" tags="vblex.*"><select lemma="negare"/></match>
+  </rule>
 
+  <!-- marxar > partire, marciare -->
+  <rule weight="0.6">
+     <match lemma="marxar" tags="vblex.*"><select lemma="partire"/></match>
+  </rule>
+
+  <!-- tenir > avere, tenere -->
   <rule weight="0.6">
      <match lemma="tenir" tags="vblex.*"><select lemma="avere"/></match>
   </rule>
 
   <!-- forçar > forzare, violentare -->
-
   <rule weight="0.6">
      <match lemma="forçar" tags="vblex.*"><select lemma="forzare"/></match>
   </rule>
