@@ -2560,7 +2560,17 @@
 
 <!-- **************** ADJ **************** -->
 
-<!-- gran > mannu, grandu --> <!-- srd -->
+  <!-- croat > croato, crociato -->
+
+  <rule weight="0.6">
+     <match lemma="croat" tags="adj.*"><select lemma="croato"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="soldat" tags="n.*"/>
+     <match lemma="croat" tags="adj.*"><select lemma="crociato"/></match>
+  </rule>
+
+  <!-- gran > mannu, grandu --> <!-- srd -->
 
   <rule weight="0.6">
      <match lemma="gran" tags="adj.*"><select lemma="mannu"/></match>
@@ -2632,6 +2642,12 @@
   <rule weight="1.0">
      <match lemma="nau" tags="n.*"><select lemma="capannone"/></match>
      <match lemma="industrial" tags="adj.*"/>
+  </rule>
+
+  <!-- croat > croato, crociato -->
+
+  <rule weight="0.6">
+     <match lemma="croat" tags="n.*"><select lemma="croato"/></match>
   </rule>
 
   <!-- plana > pianura, pagina -->

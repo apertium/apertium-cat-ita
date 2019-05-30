@@ -405,6 +405,15 @@
     <match lemma="rosso" tags="adj.*"><select lemma="negre" tags="adj.*"/></match>
   </rule>
 
+<!-- caro > car, benvolgut -->
+  <rule weight="0.8">
+    <match lemma="caro" tags="adj.*"><select lemma="car" tags="adj.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caro" tags="adj.*"><select lemma="benvolgut" tags="adj.*"/></match>
+    <match lemma="amico" tags="n.*"/>
+  </rule>
+
 <!-- **************** ADV **************** -->
 
 
