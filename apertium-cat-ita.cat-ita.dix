@@ -1354,7 +1354,7 @@
 <e>       <p><l>ritual</l>                             <r>rituale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>robust</l>                             <r>robusto</r></p><par n="adj_sup"/></e>
 <e>       <p><l>rodó</l>                               <r>rotondo</r></p><par n="adj_sup"/></e>
-<e r="LR" c="eliminat: slr=roig"><p><l>roig</l>        <r>rosso</r></p><par n="adj_sup"/></e>
+<e r="LR"><p><l>roig</l>                               <r>rosso</r></p><par n="adj_sup"/></e>
 <e>       <p><l>romanès</l>                            <r>rumeno</r></p><par n="adj_sup"/></e>
 <e>       <p><l>ros<s n="adj"/></l>                    <r>biondo<s n="adj"/></r></p></e>
 <e>       <p><l>rosat</l>                              <r>rosato</r></p><par n="adj_sup"/></e>
@@ -1568,6 +1568,138 @@
 <e r="LR"><p><l>últim<s n="adj"/></l>                  <r>ultimo<s n="adj"/></r></p></e>
 <e>       <p><l>únic</l>                               <r>unico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>útil</l>                               <r>utile</r></p><par n="adj_sup2"/></e>
+
+<e a="wiktionary"><p><l>adult<s n="adj"/></l><r>adulto<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>aeri<s n="adj"/></l><r>aereo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>aerobi<s n="adj"/></l><r>aerobico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>aerostàtic<s n="adj"/></l><r>aerostatico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>africà<s n="adj"/></l><r>africano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>agnòstic<s n="adj"/></l><r>agnostico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>agut<s n="adj"/></l><r>acuto<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aigualit<s n="adj"/></l><r>acquoso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>airós<s n="adj"/></l><r>arioso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>al·legòric<s n="adj"/></l><r>allegorico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>alternatiu<s n="adj"/></l><r>alternativo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>altiu<s n="adj"/></l><r>altezzoso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>amarg<s n="adj"/></l><r>amaro<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>ambigu<s n="adj"/></l><r>ambiguo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>andalús<s n="adj"/></l><r>andaluso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>andorrà<s n="adj"/></l><r>andorrano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>angloamericà<s n="adj"/></l><r>angloamericano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>arbitrari<s n="adj"/></l><r>arbitrario<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>arbitrari<s n="adj"/></l><r>arbitrato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>arcà<s n="adj"/></l><r>arcano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>armeni<s n="adj"/></l><r>armeno<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>assassí<s n="adj"/></l><r>assassino<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>assenyat<s n="adj"/></l><r>assennato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>assertiu<s n="adj"/></l><r>assertivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>augmentatiu<s n="adj"/></l><r>accrescitivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>autòcton<s n="adj"/></l><r>autoctono<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>automàtic<s n="adj"/></l><r>automatico<s n="adj"/></r></p></e>
+<e r="LR" a="hector"><p><l>àvar<s n="adj"/></l><r>avaro<s n="adj"/></r></p></e>
+<e r="LR" a="hector"><p><l>àvar<s n="n"/></l><r>avaro<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>babau<s n="adj"/></l><r>sciocco<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>balener<s n="adj"/></l><r>baleniero<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>balístic<s n="adj"/></l><r>balistico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>barroer<s n="adj"/></l><r>grossolano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>belarús<s n="adj"/></l><r>bielorusso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>beneit<s n="adj"/></l><r>stolto<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>benvolgut<s n="adj"/></l><r>caro<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>benvolgut<s n="adj"/><s n="sup"/></l><r>caro<s n="adj"/><s n="sup"/></r></p></e>
+<e a="wiktionary"><p><l>bessó<s n="adj"/></l><r>gemello<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>bíblic<s n="adj"/></l><r>biblico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>binari<s n="adj"/></l><r>binario<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>birmà<s n="adj"/></l><r>birmano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>boig<s n="adj"/></l><r>pazzo<s n="adj"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>bonic<s n="adj"/></l><r>bello<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>bucòlic<s n="adj"/></l><r>bucolico<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>bufó<s n="adj"/></l><r>carino<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>burlesc<s n="adj"/></l><r>burlesco<s n="adj"/></r></p></e>
+<e a="hector"><p><l>bastard<s n="adj"/></l><r>bastardo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cabró<s n="adj"/></l><r>cornuto<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>camperol<s n="adj"/></l><r>contadino<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>camperol<s n="n"/></l><r>contadino<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>canós<s n="adj"/></l><r>canuto<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>captiu<s n="adj"/></l><r>cattivo<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>carnisser<s n="adj"/></l><r>carnivoro<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cast<s n="adj"/></l><r>casto<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cavalleresc<s n="adj"/></l><r>cavalleresco<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cavallerós<s n="adj"/></l><r>cavalleresco<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cèntric<s n="adj"/></l><r>centrico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>centrífug<s n="adj"/></l><r>centrifugo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cert<s n="adj"/></l><r>certo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cinètic<s n="adj"/></l><r>cinetico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cismàtic<s n="adj"/></l><r>scismatico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cismàtic<s n="adj"/></l><r>sedizioso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>ciutadà<s n="adj"/></l><r>cittadino<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>clàssic<s n="adj"/></l><r>classico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>coix<s n="adj"/></l><r>zoppo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>còlic<s n="adj"/></l><r>colico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>competitiu<s n="adj"/></l><r>competitivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>complet<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>còncau<s n="adj"/></l><r>concavo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>contagiós<s n="adj"/></l><r>contagioso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>contemporani<s n="adj"/></l><r>contemporaneo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>contigu<s n="adj"/></l><r>contiguo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>corb<s n="adj"/></l><r>curvo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>corpulent<s n="adj"/></l><r>corpulento<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cortesà<s n="adj"/></l><r>cortigiano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>cosmètic<s n="adj"/></l><r>cosmetico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>creador<s n="adj"/></l><r>creatore<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>croat<s n="adj"/></l><r>crociato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>croat<s n="n"/><s n="m"/></l><r>crociato<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>croat<s n="adj"/></l><r>croato<s n="adj"/></r></p></e>
+<e a="hector"><p><l>croat<s n="n"/></l><r>croato<s n="n"/></r></p><par n="mf_mf"/></e>
+<e a="wiktionary"><p><l>curós<s n="adj"/></l><r>accurato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>defensiu<s n="adj"/></l><r>difensivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>definit<s n="adj"/></l><r>definito<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>deliberat<s n="adj"/></l><r>deliberato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>delicat<s n="adj"/></l><r>delicato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>dens<s n="adj"/></l><r>denso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>desafortunat<s n="adj"/></l><r>sfortunato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>descalç<s n="adj"/></l><r>scalzo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>digestiu<s n="adj"/></l><r>digestivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>diminutiu<s n="adj"/></l><r>diminutivo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>dissortat<s n="adj"/></l><r>disgraziato<s n="adj"/></r></p></e>
+<e i="yes" a="hector"><p><l>dissortat<s n="adj"/></l><r>sfortunato<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>dissortat<s n="adj"/></l><r>sventurato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>divers<s n="adj"/></l><r>diverso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>egocèntric<s n="adj"/></l><r>egocentrico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>elevat<s n="adj"/></l><r>elevato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>enemic<s n="adj"/></l><r>nemico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>enèrgic<s n="adj"/></l><r>energico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>enigmàtic<s n="adj"/></l><r>enigmatico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>envejós<s n="adj"/></l><r>geloso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>eòlic<s n="adj"/></l><r>eolico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>èpic<s n="adj"/></l><r>epico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>erràtic<s n="adj"/></l><r>erratico<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>ert<s n="adj"/></l><r>rigido<s n="adj"/></r></p></e>
+<e a="hector"><p><l>rígid<s n="adj"/></l><r>rigido<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>escanyolit<s n="adj"/></l><r>emaciato<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>escarransit<s n="adj"/></l><r>rachitico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>esclau<s n="adj"/></l><r>schiavo<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>escolàstic<s n="adj"/></l><r>scolastico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>eslovac<s n="adj"/></l><r>slovacco<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>espantadís<s n="adj"/></l><r>pauroso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>espantós<s n="adj"/></l><r>spaventoso<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>esplèndid<s n="adj"/></l><r>splendido<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>estàtic<s n="adj"/></l><r>statico<s n="adj"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>estimat<s n="adj"/></l><r>caro<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>estocàstic<s n="adj"/></l><r>stocastico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>estràbic<s n="adj"/></l><r>strabico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>estult<s n="adj"/></l><r>stolto<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>etimològic<s n="adj"/></l><r>etimologico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>evangèlic<s n="adj"/></l><r>evangelico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>exigu<s n="adj"/></l><r>esiguo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>fantàstic<s n="adj"/></l><r>fantastico<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>farcit<s n="adj"/></l><r>farcito<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>farcit<s n="adj"/></l><r>ripieno<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>farcit<s n="adj"/></l><r>infarcito<s n="adj"/></r></p></e>
+<e a="hector"><p><l>verdià<s n="adj"/></l><r>verdiano<s n="adj"/></r></p></e>
+<e a="hector"><p><l>wagnerià<s n="adj"/></l><r>wagneriano<s n="adj"/></r></p></e>
+
+<!-- xxxx -->
 
 <!-- SECTION: Adverbis -->
 
@@ -2335,7 +2467,7 @@
 <e>       <p><l>en<b/>veu<b/>alta<s n="adv"/></l>      <r>ad<b/>alta<b/>voce<s n="adv"/></r></p></e>
 <e r="RL"><p><l>de<b/>sobte<s n="adv"/></l>            <r>da<b/>subito<s n="adv"/></r></p></e>
 <e>       <p><l>des<b/>de<b/>fora<s n="adv"/></l>      <r>dall'estero<s n="adv"/></r></p></e>
-<e>       <p><l>molt<b/>bé<s n="adv"/></l>             <r>benissimo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>molt<b/>bé<s n="adv"/></l>             <r>benissimo<s n="adv"/></r></p></e>
 <e>       <p><l>per<b/>altra<b/>banda<s n="adv"/></l>  <r>d'altronde<s n="adv"/></r></p></e>
 <e>       <p><l>fora<b/>de<b/>perill<s n="adv"/></l>   <r>in<b/>salvo<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>primer<b/>lloc<s n="adv"/></l>   <r>per<b/>prima<b/>cosa<s n="adv"/></r></p></e>
@@ -3776,7 +3908,9 @@
 <e>       <p><l>avantguarda<s n="n"/></l>              <r>avanguardia<s n="n"/></r></p></e>
 <e>       <p><l>avantsala<s n="n"/></l>                <r>anticamera<s n="n"/></r></p></e>
 <e>       <p><l>avanç<s n="n"/></l>                    <r>avanzo<s n="n"/></r></p></e>
-<e>       <p><l>avar<s n="n"/><s n="m"/></l>           <r>avido<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>àvid<s n="adj"/></l>                   <r>avido<s n="adj"/></r></p></e>
+<e>       <p><l>avar<s n="n"/></l>                     <r>avaro<s n="n"/></r></p></e>
+<e>       <p><l>avar<s n="adj"/></l>                   <r>avaro<s n="adj"/></r></p></e>
 <e>       <p><l>avarícia<s n="n"/></l>                 <r>avarizia<s n="n"/></r></p></e>
 <e>       <p><l>avatar<s n="n"/><s n="m"/></l>         <r>avatar<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>avellana<s n="n"/></l>                 <r>nocciola<s n="n"/></r></p></e>
@@ -6084,6 +6218,7 @@
 <e>       <p><l>llatí<s n="n"/></l>                    <r>latino<s n="n"/></r></p></e>
 <e>       <p><l>llauna<s n="n"/></l>                   <r>latta<s n="n"/></r></p></e>
 <e r="LR"><p><l>llaurador<s n="n"/></l>                <r>contadino<s n="n"/></r></p></e>
+<e r="LR"><p><l>llaurador<s n="adj"/></l>              <r>contadino<s n="adj"/></r></p></e>
 <e r="LR"><p><l>llavadora<s n="n"/></l>                <r>lavatrice<s n="n"/></r></p></e>
 <e>       <p><l>llavi<s n="n"/><s n="m"/><s n="sg"/></l><r>labbro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>llavi<s n="n"/><s n="m"/><s n="pl"/></l><r>labbro<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -6099,7 +6234,7 @@
 <e>       <p><l>llenceria<s n="n"/><s n="f"/></l>      <r>lingerie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>llengua<s n="n"/></l>                  <r>lingua<s n="n"/></r></p></e>
 <e>       <p><l>llenguatge<s n="n"/></l>               <r>linguaggio<s n="n"/></r></p></e>
-<e>       <p><l>llengüeta<s n="n"/></l>                <r>ancia<s n="n"/></r></p></e>
+<e r="RL"><p><l>llengüeta<s n="n"/></l>                <r>ancia<s n="n"/></r></p></e>
 <e>       <p><l>llengüeta<s n="n"/></l>                <r>linguetta<s n="n"/></r></p></e>
 <e>       <p><l>llentia<s n="n"/></l>                  <r>lenticchia<s n="n"/></r></p></e>
 <e>       <p><l>llentilla<s n="n"/></l>                <r>lenticchia<s n="n"/></r></p></e>
@@ -6771,6 +6906,7 @@
 <e>       <p><l>pagoda<s n="n"/></l>                   <r>pagoda<s n="n"/></r></p></e>
 <e r="RL"><p><l>pagès<s n="n"/><s n="m"/><s n="ND"/></l><r>labrador<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>pagès<s n="n"/></l>                    <r>contadino<s n="n"/></r></p></e>
+<e>       <p><l>pagès<s n="adj"/></l>                  <r>contadino<s n="adj"/></r></p></e>
 <e>       <p><l>paisatge<s n="n"/></l>                 <r>paesaggio<s n="n"/></r></p></e>
 <e>       <p><l>pakistanès<s n="n"/></l>               <r>pachistano<s n="n"/></r></p></e>
 <e r="RL"><p><l>pakistanès<s n="n"/></l>               <r>pakistano<s n="n"/></r></p></e>
@@ -8388,7 +8524,6 @@
 <e>       <p><l>Espanya<s n="np"/><s n="top"/></l>     <r>Spagna<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Estats<b/>Units<b/>d'Amèrica<s n="np"/><s n="top"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="top"/></r></p></e>
-
 <e>       <p><l>Estocolm<s n="np"/><s n="top"/><s n="m"/></l><r>Stoccolma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Estrasburg<s n="np"/><s n="top"/></l>  <r>Strasburgo<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Estremadura<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estremadura<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -27269,6 +27404,14 @@
 <e r="RL" a="wiktionary"><p><l>traslladar<s n="vblex"/></l><r>traslocare<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>endarrerir<s n="vblex"/></l><r>ritardare<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>classificar<s n="vblex"/></l><r>classificare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>diferenciar<s n="vblex"/></l><r>differenziare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>diversificar<s n="vblex"/></l><r>diversificare<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>vincular<s n="vblex"/></l><r>vincolare<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>vincular<s n="vblex"/></l><r>legare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>lligar<s n="vblex"/></l><r>legare<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>desvincular<s n="vblex"/></l><r>svincolare<s n="vblex"/></r></p></e>
+<e r="LR" a="hector"><p><l>desvincular<s n="vblex"/></l><r>slegare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>deslligar<s n="vblex"/></l><r>slegare<s n="vblex"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
