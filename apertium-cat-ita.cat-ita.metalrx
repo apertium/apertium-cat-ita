@@ -38,6 +38,7 @@
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
          <or>
+           <match tags="num"/>
            <match tags="num.*"/>
            <match lemma="I" tags="adj.*"/>
            <match lemma="II" tags="adj.*"/>
@@ -75,6 +76,7 @@
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
          <match tags="np.ant.*"/>
          <or>
+           <match tags="num"/>
            <match tags="num.*"/>
            <match lemma="I" tags="adj.*"/>
            <match lemma="II" tags="adj.*"/>
@@ -1261,10 +1263,10 @@
     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
-    <match tags="num.*"/>
+    <or><match tags="num.*"/><match tags="num"/></or>
     <match lemma="vegada" tags="n.*"/>
     <match lemma="de" tags="pr"><select lemma="sur" tags="pr"/></match>
-    <match tags="num.*"/>
+    <or><match tags="num.*"/><match tags="num"/></or>
   </rule>
 
   <rule weight="0.8">
@@ -1880,6 +1882,9 @@
      <match lemma="tenir" tags="vblex.*"><select lemma="avere"/></match>
   </rule>
 
+  <!-- abrigar > proteggere, coprire -->
+  <macro name="verb_nopron_pron" p1="abrigar" p2="proteggere" p3="coprire"/>
+
   <!-- forçar > forzare, violentare -->
   <rule weight="0.6">
      <match lemma="forçar" tags="vblex.*"><select lemma="forzare"/></match>
@@ -2207,7 +2212,7 @@
   </rule>
   <rule weight="1.0">
      <match lemma="guanyar" tags="vblex.*"><select lemma="balangiare"/></match>
-     <or><match tags="num.*"/><match tags="adj.*"/></or>
+     <or><match tags="num"/><match tags="num.*"/><match tags="adj.*"/></or>
      <or><match lemma="euro" tags="n.*"/><match lemma="pesseta" tags="n.*"/><match lemma="lira" tags="n.*"/><match lemma="franc" tags="n.*"/><match lemma="marc" tags="n.*"/><match lemma="dòlar" tags="n.*"/></or>
   </rule>
 
@@ -2629,6 +2634,16 @@
      <match lemma="industrial" tags="adj.*"/>
   </rule>
 
+  <!-- plana > pianura, pagina -->
+
+  <rule weight="0.6">
+     <match lemma="plana" tags="n.*"><select lemma="pianura"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="plana" tags="n.*"><select lemma="pagina"/></match>
+     <match lemma="industrial" tags="adj.*"/>
+  </rule>
+
   <!-- golf > golfo, golf --> <!-- srd -->
 
   <rule weight="0.6">
@@ -2990,7 +3005,7 @@
      <match lemma="lira" tags="n.*"><select lemma="lira"/></match>
   </rule>
   <rule weight="1.0">
-     <match tags="num.*"/>
+     <or><match tags="num.*"/><match tags="num"/></or>
      <match lemma="lira" tags="n.*"><select lemma="francu"/></match>
   </rule>
   <rule weight="1.0">
