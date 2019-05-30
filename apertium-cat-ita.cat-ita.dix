@@ -1635,7 +1635,8 @@
 <e a="wiktionary"><p><l>clàssic<s n="adj"/></l><r>classico<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>coix<s n="adj"/></l><r>zoppo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còlic<s n="adj"/></l><r>colico<s n="adj"/></r></p></e>
-<e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>còmode<s n="adj"/><n ="sup"/></l><r>comodo<s n="adj"/><n ="sup"/></r></p></e>
 <e a="wiktionary"><p><l>competitiu<s n="adj"/></l><r>competitivo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>complet<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còncau<s n="adj"/></l><r>concavo<s n="adj"/></r></p></e>
