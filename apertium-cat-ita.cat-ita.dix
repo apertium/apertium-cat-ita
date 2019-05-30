@@ -6623,6 +6623,8 @@
 <e>       <p><l>piemontès<s n="adj"/></l>              <r>piemontese<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>milanès<s n="n"/></l>                  <r>milanese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>milanès<s n="adj"/></l>                <r>milanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>torinès<s n="n"/></l>                  <r>torinese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>torinès<s n="adj"/></l>                <r>torinese<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>genovès<s n="n"/></l>                  <r>genovese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>genovès<s n="adj"/></l>                <r>genovese<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>lígur<s n="n"/></l>                    <r>ligure<s n="n"/></r></p></e>
@@ -23651,7 +23653,6 @@
 <e>       <p><l>von<b/>Weiszäcker<s n="np"/><s n="cog"/></l><r>von<b/>Weiszäcker<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>von<b/>Weizsaecker<s n="np"/><s n="cog"/></l><r>von<b/>Weizsaecker<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>von<b/>Wogau<s n="np"/><s n="cog"/></l><r>von<b/>Wogau<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>Àvila<s n="np"/><s n="cog"/></l>       <r>Àvila<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Ábalos<s n="np"/><s n="cog"/></l>      <r>Ábalos<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Águila<s n="np"/><s n="cog"/></l>      <r>Águila<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Álvaro<s n="np"/><s n="cog"/></l>      <r>Álvaro<s n="np"/><s n="cog"/></r></p></e>
