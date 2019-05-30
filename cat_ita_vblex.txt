@@ -15,7 +15,6 @@ abandonar	gettar
 abandonar	scoraggiarsi
 abandonar	confidarsi
 abandonar	avvilirsi
-abandonar	straccurare
 abaratir	
 abarcar	
 abarloar	
@@ -32,7 +31,7 @@ abellir	piacere
 abeurar	abbeverare
 abillar	abellire
 abismar	profondarsi
-abjurar	abbiurare
+abjurar	abiurare
 ablanir	mollificare
 ablanir	addolcire
 ablanir	disasprire
@@ -49,7 +48,7 @@ aboiar
 abolir	abolire
 abominar	abominare
 abonar	accreditare
-abonar	abonare
+abonar	abbonare
 abonar	avallare
 abonar	abbonarsi
 abonar excepte bon fi	
@@ -57,7 +56,6 @@ abonyegar	acciaccare
 abordar	abbordare
 abordar	approdare
 abordar	assalire
-abordar	aissare
 aborrallonar	
 abraçar	abbracciare
 abraçar	abbracciare
@@ -112,8 +110,8 @@ accelerar	affrettare
 accelerar	accelerare
 accentuar	accentuare
 accentuar	accentare
-acceptar	accetare
-acceptar	accetare
+acceptar	accettare
+acceptar	accettare
 accidentar	infortunarsi
 accionar	azionare
 accionar	gesticolare
@@ -127,12 +125,9 @@ aclamar	acclamare
 aclaparar	infievolire
 aclarir	schiarare
 aclarir	diradare
-aclarir	rarefare
+aclarir	schiarire
 aclarir	chisciare
 aclarir	dilucidare
-aclarir	svilupare
-aclarir	rasserenarsi
-aclarir	rasserenarsi
 aclimatar	acclimatare
 acoblar	accoppiare
 acollar	
@@ -150,10 +145,10 @@ acomodar	collocare
 acomodar	prevedere
 acomodar	prestare
 acomodar	piacere
-acompanyar	acompagnare
+acompanyar	accompagnare
 acompanyar	scortare
 acompanyar	riunire
-acompanyar	acompagnare
+acompanyar	accompagnare
 acompassar	
 acomplexar	complessare
 acomplir	compiere
@@ -285,7 +280,6 @@ afinar	perfezionare
 afinar	bilanciare
 afinar	accordare
 afinar	affinare
-afinar	consuonare
 afirmar	affermare
 afixar	
 aflamar	
@@ -302,7 +296,6 @@ aforestar
 afrancesar	
 africanitzar	
 afrontar	affrontare
-afrontar	difamare
 afuar	affilare
 afusellar	
 agafar	prendere
@@ -344,7 +337,6 @@ agregar	aggregare
 agregar	ascrivere
 agrejar	inagrire
 agreujar	aggravare
-agrir	inagrare
 agrisar	
 agrumollar	
 agrunsar	
@@ -375,13 +367,10 @@ ajudar	aiutare
 ajudar a pujar	
 ajuntar	unire
 ajuntar	congiungere
-ajuntar	associarsi
-ajupir	acquattarsi
-ajupir	accovacciarsi
-ajustar	accomodare
+ajupir	acquattar
+ajupir	accovacciar
 ajustar	aggiustare
-ajustar	ordinare
-ajustar	chiudere
+ajustar	accomodare
 ajusticiar	giustiziare
 alambinar	lambiccare
 alambinar	lambiccare
@@ -418,7 +407,7 @@ allargassar
 al·legar	allegare
 al·legar	allegare
 al·legoritzar	
-alletar	allatare
+alletar	allattare
 alleugerir	alleggerire
 alleugerir	sollevare
 alleujar	alleggerire
@@ -469,7 +458,6 @@ amartellar	martellare
 amartellar	armare
 amassar	ordire
 ambicionar	ambire
-ambientar	imposare
 ambientar	ambientare
 ambientar	ambientare
 amblar	ambiare
@@ -493,7 +481,7 @@ amorrar	labbra
 amortallar	seppellire
 amortir	
 amortitzar	amortire
-amortitzar	ammorzare
+amortitzar	ammortizzare
 amotinar	ammutinare
 ampliar	ampliare
 amplificar	
@@ -528,8 +516,8 @@ angelitzar
 anglicitzar	
 angoixar	angosciare
 anhelar	anelare
-anihilar	annhichilare
-anihilar	annhichilire
+anihilar	annichilare
+anihilar	annichilire
 animalitzar	
 animar	animare
 aniquilar	
@@ -604,7 +592,6 @@ apoderar	impadronirsi
 apoderar	impadronirsi
 apoltronar	
 aporrinar	oltraggiare
-aportar	aprodare
 aportar	apportare
 apostar	scommettere
 apostar	appostare
@@ -648,7 +635,6 @@ arbitrar	arbitrare
 arborar	alberare
 arboritzar	
 arbrar	
-arcabussejar	archibusare
 arcaïtzar	
 arcar	
 arenar	
@@ -837,7 +823,6 @@ autoretratar
 autoritzar	
 autoservir	
 autosostenir	
-auxiliar	assistente
 auxiliar	soccorrere
 avalar	avallare
 avalotar	scatenarsi
@@ -857,7 +842,7 @@ aviciar	viziare
 avinar	
 avisar	avvisare
 avituallar	
-avivar	ravivare
+avivar	ravvivare
 avorrir	
 avortar	abortire
 axiomatitzar	
@@ -874,7 +859,7 @@ balcanitzar
 baldar	
 ballar	ballare
 ballotejar	
-banalitzar	banalizare
+banalitzar	banalizzare
 bandejar	
 banyar	bagnarsi
 banyegar	
@@ -1361,12 +1346,12 @@ constituir	costituire
 constrènyer	costringere
 construir	costruire
 construir	costruire
-consultar	cronsultare
+consultar	consultare
 consumar	
 consumir	
 contactar	contattare
 contagiar	contagiare
-contaminar	contminare
+contaminar	contaminare
 contar	
 contemplar	
 contemporitzar	
@@ -1526,7 +1511,7 @@ decebre
 decidir	decidere
 declamar	
 declarar	dichiarare
-declinar	eclinare
+declinar	declinare
 decomissar	
 decorar	
 decréixer	
@@ -1791,7 +1776,6 @@ desenamorar
 desenbullar	
 desencadellar	
 desencadenar	
-desencaixar	disincastrare
 desencaixonar	tirar
 desencallar	
 desencaminar	
@@ -2393,14 +2377,12 @@ enfastidir
 enfellonir	
 enfervorir	
 enfilar	infilare
-enfilar	filetare
 enfilar	infilare
 enfocar	
 enfollir	
 enfonsar	
 enforcar	
 enformar	
-enfornar	cottura al forno
 enfortir	
 enfosquir	
 enfrontar	
@@ -2468,7 +2450,7 @@ enrabiar
 enrajolar	
 enramar	
 enraonar	
-enrarir	rarfare
+enrarir	rarefare
 enrasar	
 enredar	
 enrederar	
@@ -2526,7 +2508,7 @@ enterrar
 entestar	
 entintar	
 entollar	allagare
-entonar	rintonare
+entonar	intonare
 entorpir	
 entorxar	
 entossudir	
@@ -2701,7 +2683,6 @@ esgrogueir
 esgrunar	
 esguerrar	deturpare
 esguitar	
-esllomar	dislombare
 esmaltar	
 esmenar	
 esmentar	menzionare
@@ -3380,7 +3361,6 @@ immolar	immolare
 immortalitzar	immortalare
 immunitzar	immunizzare
 immutar	mutare
-impacientar	impazientare
 impactar	
 impartir	impartire
 impedir	impedire
@@ -3393,7 +3373,6 @@ implantar	impiantare
 implantar	impiantare
 implementar	implementare
 implicar	implicare
-implicar	implicarsi
 implorar	implorar
 implotar	
 importar	importare
@@ -3432,7 +3411,7 @@ inclinar	piegare
 inclinar	incline
 incloure	includere
 incoar	incoare
-incomodar	incommodare
+incomodar	incomodare
 incomplir	
 incomunicar	isolare
 incorporar	incorporare
@@ -3440,7 +3419,6 @@ incorporar	aderire
 incorporar	alzare
 incórrer	incorrere
 incrementar	incrementare
-increpar	increpare
 incriminar	incriminare
 incrustar	incrostare
 incubar	
@@ -3448,7 +3426,7 @@ inculcar	inculcare
 inculpar	incolpare
 incumbir	incombere
 indagar	indagare
-indemnitzar	indennizare
+indemnitzar	indennizzare
 independitzar	emancipare
 indexar	indicizzare
 indicar	indicare
@@ -3503,7 +3481,7 @@ iniciar	iniziare
 iniciar	iniziare
 initiar	
 injectar	iniettare
-injuriar	ingiurare
+injuriar	ingiuriare
 innervar	innervare
 innovar	innovare
 inocular	inoculare
@@ -3557,14 +3535,13 @@ interceptar	intercettare
 intercomunicar	
 interconnectar	
 interessar	lucrare
-interessar	interesare
+interessar	interessare
 interferir	interferire
 interfoliar	interfogliare
 interioritzar	
 internacionalitzar	internazionalizzare
 internalitzar	
-internar	intrare
-internar	intrare
+internar	internare
 internar	internarsi
 interpellar	
 interpel·lar	interpellare
@@ -3746,7 +3723,7 @@ maltractar	maltrattare
 malvendre	
 malversar	
 malviure	
-mamar	popare
+mamar	poppare
 manar	comandare
 manar	comandare
 mancar	mancare
@@ -3762,7 +3739,6 @@ manipular
 mantenir	mantenere
 mantenir	mantenere
 mantenir	mantenere
-manufacturar	manifatturare
 maquetar	
 maquillar	
 maquinar	macchinare
@@ -3787,7 +3763,6 @@ masteritzar
 matar	uccidere
 materialitzar	materializzare
 matinar	
-matisar	matisare
 matricular	immatricolare
 matxucar	
 maximitzar	
@@ -3825,7 +3800,7 @@ mesclar ous amb cargols
 mestrejar	
 mesurar	misurare
 metabolitzar	
-metal·litzar	metallizare
+metal·litzar	metallizzare
 metamorfitzar	
 metamorfosar	metamorfosare
 metrallar	mitragliare
@@ -3902,7 +3877,7 @@ musicar
 mussitar	
 mutar	
 mutilar	
-nacionalitzar	nazionalizare
+nacionalitzar	nazionalizzare
 nadar	
 nafrar	
 narcotitzar	
@@ -3930,7 +3905,7 @@ noliejar
 nomenar	nominare
 nominar	nominare
 normalitzar	
-notar	cnotare
+notar	notare
 no tenir res a veure	
 noticiar	
 notificar	
@@ -4463,7 +4438,7 @@ raptar
 rarificar	
 rascar	graffiare
 rasclar	rastrellare
-raspallar	spazolare
+raspallar	spazzolare
 raspar	raspare
 rastellar	rastrellare
 rastrejar	
@@ -5159,7 +5134,7 @@ subtendir
 subtilitzar	
 subtitular	
 subvalorar	
-subvencionar	sovvezionare
+subvencionar	sovvenzionare
 subvenir	
 subvertir	
 sucar	
@@ -5293,7 +5268,7 @@ titllar	tacciare
 titubejar	traballare
 titubejar	titubare
 titubejar	incespicare
-titular	intitulare
+titular	intitolare
 titulitzar	
 tocar	toccare
 tocar	suonare
@@ -5352,19 +5327,19 @@ transcendir	trascendere
 transcórrer	trascorrere
 transcriure	trascrivere
 transferir	transferire
-transfigurar	transfigurare
+transfigurar	trasfigurare
 transfondre	
-transformar	transformare
-transgredir	transgredire
+transformar	trasformare
+transgredir	trasgredire
 transhumar	
 transigir	
 transitar	transitare
 transliterar	
 transmetre	
 transmigrar	trasmigrare
-transparentar	transparire
+transparentar	trasparire
 transpirar	
-transportar	transportare
+transportar	trasportare
 transposar	
 transvasar	travasere
 transvestir	
@@ -5372,7 +5347,6 @@ tranuitar
 trasbalsar	
 traslladar	traslocare
 traslluir	
-trasmudar	
 traspaperar	smarrire
 traspassar	
 trasplantar	trapiantare
