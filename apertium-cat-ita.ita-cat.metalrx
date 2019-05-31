@@ -439,6 +439,11 @@
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
 
+  <!-- giro > volta, gir -->
+  <rule weight="0.8">
+    <match lemma="giro" tags="n.*"><select lemma="volta" tags="n.*"/></match>
+  </rule>
+
   <!-- macchina > màquina, cotxe -->
   <rule weight="0.8">
     <match lemma="macchina" tags="n.*"><select lemma="màquina" tags="n.*"/></match>
@@ -583,7 +588,19 @@
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
 
-  <!-- a >> a, en -->
+  <!-- su > sobre, de -->
+  <rule weight="0.8">
+    <match lemma="su" tags="pr"><select lemma="sobre" tags="pr"/></match>
+  </rule>
+  <!-- due volte su cinque >> dues vegades DE cinc -->
+  <rule weight="1.0">
+    <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
+    <match lemma="volta" tags="n.*"/>
+    <match lemma="su" tags="pr"><select lemma="de"/></match>
+    <match tags="num.*"/>
+  </rule>
+
+  <!-- a >> a, en, de -->
   <rule weight="0.8">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
@@ -593,6 +610,10 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="a" tags="pr"><select lemma="en"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="addetto" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
   <!-- in >> en, a -->

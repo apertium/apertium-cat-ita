@@ -388,10 +388,11 @@
 <e>       <p><l>bilabial<s n="adj"/></l>               <r>bilabiale<s n="adj"/></r></p></e>
 <e>       <p><l>bilateral</l>                          <r>bilaterale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>biològic</l>                           <r>biologico</r></p><par n="adj_sup"/></e>
-<e>       <p><l>bla<s n="adj"/></l>                    <r>blando<s n="adj"/></r></p></e>
+<e r="LR"><p><l>bla<s n="adj"/></l>                    <r>blando<s n="adj"/></r></p></e>
 <e>       <p><l>blanc<s n="adj"/></l>                  <r>bianco<s n="adj"/></r></p></e>
 <e>       <p><l>blanc-i-blau</l>                       <r>biancazzurro</r></p><par n="adj_sup"/></e>
-<e>       <p><l>blau<s n="adj"/></l>                   <r>blu<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e>       <p><l>blau<s n="adj"/></l>                   <r>azzurro<s n="adj"/></r></p><par n="adj_sup"/></e>
+<e r="RL"><p><l>blau<s n="adj"/></l>                   <r>blu<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL"><p><l>blau<s n="adj"/></l>                   <r>blu<s n="adj"/><s n="sup"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e>       <p><l>bo<s n="adj"/></l>                     <r>buono<s n="adj"/></r></p></e>
 <e>       <p><l>bon<s n="adj"/><s n="f"/></l>          <r>buono<s n="adj"/></r></p></e>
@@ -817,7 +818,7 @@
 <e>       <p><l>fèrtil</l>                             <r>fertile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>físic</l>                              <r>fisico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>fútil</l>                              <r>futile</r></p><par n="adj_sup2"/></e>
-<!--<e><p><l>moll<s n="adj"/></l><r>blando<s n="adj"/></r></p></e>-->
+<e i="yes"><p><l>moll<s n="adj"/></l><r>blando<s n="adj"/></r></p></e>
 <e r="LR"><p><l>gaire<s n="adj"/><s n="mf"/></l>       <r>molto<s n="adj"/></r></p></e>
 <e>       <p><l>gal</l>                                <r>gallico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>gallec<s n="adj"/></l>                 <r>galiziano<s n="adj"/></r></p></e>
@@ -1161,7 +1162,10 @@
 <e>       <p><l>nigerià</l>                            <r>nigeriano</r></p><par n="adj_sup"/></e>
 <e>       <p><l>nombrós<s n="adj"/></l>                <r>numeroso<s n="adj"/></r></p></e>
 <e>       <p><l>norantè<s n="adj"/></l>                <r>novantesimo<s n="adj"/></r></p></e>
-<e>       <p><l>nord-americà<s n="adj"/></l>           <r>statunitense<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>nord-americà<s n="adj"/></l>           <r>statunitense<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>nord-americà<s n="n"/></l>             <r>statunitense<s n="n"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>nord-americà<s n="adj"/></l>           <r>nordamericano<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>nord-americà<s n="n"/></l>             <r>nordamericano<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>normal<s n="adj"/></l>                 <r>normale<s n="adj"/></r></p></e>
 <e>       <p><l>normatiu</l>                           <r>normativo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>noruec<s n="adj"/></l>                 <r>norvegese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -1467,7 +1471,7 @@
 <e>       <p><l>textual</l>                            <r>testuale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>torrencial</l>                         <r>torrenziale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>total</l>                              <r>totale</r></p><par n="adj_sup2"/></e>
-<e r="LR"><p><l>tou<s n="adj"/></l>                    <r>blando<s n="adj"/></r></p></e>
+<e>       <p><l>tou<s n="adj"/></l>                    <r>blando<s n="adj"/></r></p></e>
 <e>       <p><l>tradicional<s n="adj"/></l>            <r>tradizionale<s n="adj"/></r></p></e>
 <e>       <p><l>transatlàntic</l>                      <r>transatlantico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>transitori<s n="adj"/></l>             <r>transitorio<s n="adj"/></r></p></e>
@@ -1930,7 +1934,6 @@
 <e r="RL" a="wiktionary"><p><l>nítid<s n="adj"/></l><r>nitido<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>nominatiu<s n="adj"/></l><r>nominativo<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>nominatiu<s n="adj"/></l><r>nominativo<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL" a="wiktionary"><p><l>nord-americà<s n="adj"/></l><r>nordamericano<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>novici<s n="adj"/></l><r>novizio<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>numismàtic<s n="adj"/></l><r>numismatico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>numismàtic<s n="adj"/></l><r>numismatico<s n="adj"/><s n="sup"/></r></p></e>
@@ -2123,7 +2126,7 @@
 <e>       <p><l>a<b/>propòsit<s n="adv"/></l>          <r>a<b/>proposito<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>repèl<s n="adv"/></l>             <r>a<b/>contropelo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>ròssec<s n="adv"/></l>            <r>di<b/>forza<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>sobre<s n="adv"/></l>             <r>addirittura<s n="adv"/></r></p></e>
+<e r="RL"><p><l>fins<b/>i<b/>tot<s n="adv"/></l>       <r>addirittura<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>sota<s n="adv"/></l>              <r>sotto<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>tot<b/>arreu<s n="adv"/></l>      <r>dappertutto<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>tothora<s n="adv"/></l>           <r>sempre<s n="adv"/></r></p></e>
@@ -2710,8 +2713,8 @@
 <e>       <p><l>mateix<s n="adv"/></l>                 <r>stesso<s n="adv"/></r></p></e>
 <e r="RL"><p><l>especialment<s n="adv"/></l>           <r>specie<s n="adv"/></r></p></e>
 <e r="RL"><p><l>en<b/>especial<s n="adv"/></l>         <r>specie<s n="adv"/></r></p></e>
-<e>       <p><l>al<b/>damunt<s n="adv"/></l>           <r>su<s n="adv"/></r></p></e>
-<e r="RL"><p><l>a<b/>sobre<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
+<e r="LR"><p><l>al<b/>damunt<s n="adv"/></l>           <r>su<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>sobre<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
 <e r="RL"><p><l>ara<s n="adv"/></l>                    <r>ora<s n="adv"/></r></p></e>
 <e>       <p><l>junts<s n="adv"/></l>                  <r>assieme<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>nord<s n="adv"/></l>             <r>a<b/>nord<s n="adv"/></r></p></e>
@@ -2921,7 +2924,8 @@
 <e a="wiktionary"><p><l>alternativament<s n="adv"/></l><r>alternamente<s n="adv"/></r></p></e>
 <e a="wiktionary"><p><l>altivament<s n="adv"/></l><r>altezzosamente<s n="adv"/></r></p></e>
 <e a="wiktionary"><p><l>altrament<s n="adv"/></l><r>altrimenti<s n="adv"/></r></p></e>
-<e a="wiktionary"><p><l>altressí<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>altressí<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
+<e a="hector"><p><l>a<b/>més<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
 <e a="wiktionary"><p><l>amagadament<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
 <e a="wiktionary"><p><l>amaneradament<s n="adv"/></l><r>manieratamente<s n="adv"/></r></p></e>
 <e a="wiktionary"><p><l>amargament<s n="adv"/></l><r>amaramente<s n="adv"/></r></p></e>
@@ -3530,6 +3534,7 @@
 <e>       <p><l>ambdós<s n="adj"/><s n="ind"/></l>     <r>entrambi<b/>i<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>aqueix<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>aquell<s n="det"/><s n="dem"/></l>     <r>quello<s n="det"/><s n="dem"/></r></p></e>
+<e r="RL"><p><l>aquell<s n="det"/><s n="dem"/></l>     <r>quello<s n="det"/><s n="dem"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>aquest<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p></e>
 <e r="RL"><p><l>aquest<s n="det"/><s n="dem"/></l>     <r>questo<s n="det"/><s n="dem"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>tal<s n="det"/><s n="dem"/></l>        <r>tale<s n="det"/><s n="dem"/></r></p></e>
@@ -5502,7 +5507,7 @@
 <e>       <p><l>encaix<s n="n"/></l>                   <r>merletto<s n="n"/></r></p></e>
 <e>       <p><l>encantador<s n="n"/></l>               <r>incantatore<s n="n"/></r></p></e>
 <e>       <p><l>encarregat<s n="n"/></l>               <r>incaricato<s n="n"/></r></p></e>
-<e>       <p><l>encarregat<s n="n"/></l>               <r>preposto<s n="n"/></r></p></e>
+<e r="RL"><p><l>encarregat<s n="n"/></l>               <r>addetto<s n="n"/></r></p></e>
 <e>       <p><l>encenedor<s n="n"/></l>                <r>accendino<s n="n"/></r></p></e>
 <e>       <p><l>enciam<s n="n"/><s n="m"/></l>         <r>lattuga<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>enciclopèdia<s n="n"/></l>             <r>enciclopedia<s n="n"/></r></p></e>
@@ -7309,7 +7314,8 @@
 <e>       <p><l>paquet<s n="n"/><s n="m"/></l>         <r>pacchetto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>paracaigudes<s n="n"/><s n="m"/><s n="sp"/></l><r>paracadute<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>paracaigudisme<s n="n"/></l>           <r>paracadutismo<s n="n"/></r></p></e>
-<e>       <p><l>paradigma<s n="n"/></l>                <r>paradigma<s n="n"/></r></p></e>
+<e>       <p><l>paracaigudisme<s n="n"/></l>           <r>paracadutismo<s n="n"/></r></p></e>
+<e>       <p><l>parada<s n="n"/></l>                   <r>fermata<s n="n"/></r></p></e>
 <e>       <p><l>paradoxa<s n="n"/><s n="f"/></l>       <r>paradosso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>paraguaià<s n="n"/></l>                <r>paraguaiano<s n="n"/></r></p></e>
 <e>       <p><l>paraigua<s n="n"/><s n="m"/><s n="ND"/></l><r>ombrello<s n="n"/></r></p></e>
@@ -8525,7 +8531,7 @@
 <e>       <p><l>volant<s n="n"/></l>                   <r>volante<s n="n"/></r></p></e>
 <e>       <p><l>volcà<s n="n"/></l>                    <r>vulcano<s n="n"/></r></p></e>
 <e>       <p><l>voleibol<s n="n"/><s n="m"/></l>       <r>pallavolo<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>volta<s n="n"/></l>                    <r>volta<s n="n"/></r></p></e>
+<e>       <p><l>volta<s n="n"/><s n="f"/></l>          <r>giro<s n="n"/><s n="m"/></r></p></e>
 <e i="yes"><p><l>volta<s n="n"/><s n="f"/></l>         <r>ritorno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>volum<s n="n"/></l>                    <r>volume<s n="n"/></r></p></e>
 <e>       <p><l>voluntariat<s n="n"/></l>              <r>volontariato<s n="n"/></r></p></e>
@@ -8559,7 +8565,8 @@
 <e>       <p><l>xenofòbia<s n="n"/></l>                <r>xenofobia<s n="n"/></r></p></e>
 <e>       <p><l>xeringa<s n="n"/></l>                  <r>siringa<s n="n"/></r></p></e>
 <e>       <p><l>xerrada<s n="n"/></l>                  <r>ciarla<s n="n"/></r></p></e>
-<e>       <p><l>xic<s n="n"/></l>                      <r>ragazzo<s n="n"/></r></p></e>
+<e r="LR"><p><l>xic<s n="n"/></l>                      <r>ragazzo<s n="n"/></r></p></e>
+<e r="LR"><p><l>xiquet<s n="n"/></l>                   <r>ragazzo<s n="n"/></r></p></e>
 <e>       <p><l>xiclet<s n="n"/><s n="m"/></l>         <r>gomma<g><b/>da<b/>masticare</g><s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>xilè<s n="n"/></l>                     <r>cileno<s n="n"/></r></p></e>
 <e>       <p><l>ximenera<s n="n"/><s n="f"/></l>       <r>camino<s n="n"/><s n="m"/></r></p></e>
@@ -8616,6 +8623,67 @@
 <e>       <p><l>úlcera<s n="n"/></l>                   <r>ulcera<s n="n"/></r></p></e>
 <e>       <p><l>ús<s n="n"/></l>                       <r>impiego<s n="n"/></r></p></e>
 <e>       <p><l>úter<s n="n"/></l>                     <r>utero<s n="n"/></r></p></e>
+
+<e a="wiktionary"><p><l>adult<s n="n"/></l><r>adulto<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>africà<s n="n"/></l><r>africano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>agregat<s n="n"/></l><r>aggregato<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>andalús<s n="n"/></l><r>andaluso<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>andorrà<s n="n"/></l><r>andorrano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>bessó<s n="n"/></l><r>gemello<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>birmà<s n="n"/></l><r>birmano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>búlgar<s n="n"/></l><r>bulgaro<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>cabró<s n="n"/></l><r>bastardo<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>cortesà<s n="n"/></l><r>cortigiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>cunyat<s n="n"/></l><r>cognato<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>hawaià<s n="n"/></l><r>hawaiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>humà<s n="n"/></l><r>umano<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>iaio<s n="n"/></l><r>nonno<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>llec<s n="n"/></l><r>profano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>llogater<s n="n"/></l><r>inquilino<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>menestral<s n="n"/></l><r>artigiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>nan<s n="n"/></l><r>nano<s n="n"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>napolità<s n="n"/></l><r>napoletano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>parroquià<s n="n"/></l><r>parrocchiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>pelegrí<s n="n"/></l><r>pellegrino<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>perit<s n="n"/></l><r>perito<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>romanès<s n="n"/></l><r>rumeno<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>serf<s n="n"/></l><r>servo<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>tibetà<s n="n"/></l><r>tibetano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>txetxè<s n="n"/></l><r>ceceno<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>xicot<s n="n"/></l><r>ragazzo<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>àrab<s n="n"/></l><r>arabo<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>àzeri<s n="n"/></l><r>azero<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>berber<s n="n"/></l><r>berbero<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>astròleg<s n="n"/></l><r>astrologo<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>canceller<s n="n"/></l><r>cancelliere<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>carnisser<s n="n"/></l><r>macellaio<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>catòlic<s n="n"/></l><r>cattolico<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>coproductor<s n="n"/></l><r>coproduttore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>creador<s n="n"/></l><r>creatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>eslovac<s n="n"/></l><r>slovacco<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>fautor<s n="n"/></l><r>fautore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>franc<s n="n"/></l><r>franco<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>fumador<s n="n"/></l><r>fumatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>grec<s n="n"/></l><r>greco<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>historiador<s n="n"/></l><r>storico<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>imitador<s n="n"/></l><r>imitatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>impressor<s n="n"/></l><r>stampatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>informador<s n="n"/></l><r>informatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>laic<s n="n"/></l><r>laico<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>lector<s n="n"/></l><r>lettore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>orador<s n="n"/></l><r>oratore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>pecador<s n="n"/></l><r>peccatore<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>peó<s n="n"/><s n="m"/></l><r>pedone<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="hector"><p><l>peó<s n="n"/></l><r>operaio<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>predicador<s n="n"/></l><r>predicatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>proletari<s n="n"/></l><r>proletario<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>realitzador<s n="n"/></l><r>realizzatore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>receptor<s n="n"/></l><r>ricevitore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>rector<s n="n"/></l><r>rettore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>revolucionari<s n="n"/></l><r>rivoluzionario<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>servent<s n="n"/></l><r>servitore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>traïdor<s n="n"/></l><r>traditore<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>trobador<s n="n"/></l><r>trovatore<s n="n"/></r></p></e>
 
 <!-- SECTION: Proper names -->
 
@@ -25435,6 +25503,8 @@
 <e r="LR"><p><l>davant<b/>de<s n="pr"/></l>            <r>davanti<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l>                      <r>di<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l>                      <r>da<s n="pr"/></r></p></e>
+<e>       <p><l>de<s n="pr"/></l>                      <r>a<s n="pr"/></r></p></e>
+<e>       <p><l>de<s n="pr"/></l>                      <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>per<s n="pr"/></l>                     <r>da<s n="pr"/></r></p></e>
 <e r="LR"><p><l>des<b/>de<s n="pr"/></l>               <r>da<s n="pr"/></r></p></e>
 <e>       <p><l>després<b/>de<s n="pr"/></l>           <r>dopo<s n="pr"/></r></p></e>
@@ -26039,7 +26109,8 @@
 <e>       <p><l>destacar<s n="vblex"/></l>             <r>distaccare<s n="vblex"/></r></p></e>
 <e>       <p><l>destinar<s n="vblex"/></l>             <r>destinare<s n="vblex"/></r></p></e>
 <e>       <p><l>destruir<s n="vblex"/></l>             <r>distruggere<s n="vblex"/></r></p></e>
-<e>       <p><l>detenir<s n="vblex"/></l>              <r>detenere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>tenir<s n="vblex"/></l>                <r>detenere<s n="vblex"/></r></p></e>
+<e>       <p><l>detenir<s n="vblex"/></l>              <r>fermare<s n="vblex"/></r></p></e>
 <e>       <p><l>determinar<s n="vblex"/></l>           <r>determinare<s n="vblex"/></r></p></e>
 <e>       <p><l>detestar<s n="vblex"/></l>             <r>detestare<s n="vblex"/></r></p></e>
 <e>       <p><l>detonar<s n="vblex"/></l>              <r>detonare<s n="vblex"/></r></p></e>
