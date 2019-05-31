@@ -48,6 +48,7 @@
     <sdef n="GD" /> 
     <sdef n="det" /> 
     <sdef n="adj" /> 
+    <sdef n="ord" /> 
     <sdef n="vbhaver" /> 
     <sdef n="sup" /> 
     <sdef n="cni" /> 
@@ -1568,6 +1569,86 @@
 <e r="LR"><p><l>últim<s n="adj"/></l>                  <r>ultimo<s n="adj"/></r></p></e>
 <e>       <p><l>únic</l>                               <r>unico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>útil</l>                               <r>utile</r></p><par n="adj_sup2"/></e>
+
+<e a="wiktionary"><p><l>desè<s n="adj"/><s n="ord"/></l><r>decimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setzè<s n="adj"/><s n="ord"/></l><r>sedicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-cinquè<s n="adj"/><s n="ord"/></l><r>venticinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-dosè<s n="adj"/><s n="ord"/></l><r>ventiduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-novè<s n="adj"/><s n="ord"/></l><r>ventinovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-quatrè<s n="adj"/><s n="ord"/></l><r>ventiquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-setè<s n="adj"/><s n="ord"/></l><r>ventisettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-sisè<s n="adj"/><s n="ord"/></l><r>ventiseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-tresè<s n="adj"/><s n="ord"/></l><r>ventitreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-unè<s n="adj"/><s n="ord"/></l><r>ventunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vint-i-vuitè<s n="adj"/><s n="ord"/></l><r>ventottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-cinquè<s n="adj"/><s n="ord"/></l><r>trentacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-dosè<s n="adj"/><s n="ord"/></l><r>trentaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-novè<s n="adj"/><s n="ord"/></l><r>trentanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-quatrè<s n="adj"/><s n="ord"/></l><r>trentaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-setè<s n="adj"/><s n="ord"/></l><r>trentasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-sisè<s n="adj"/><s n="ord"/></l><r>trentaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-tresè<s n="adj"/><s n="ord"/></l><r>trentatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-unè<s n="adj"/><s n="ord"/></l><r>trentunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trenta-vuitè<s n="adj"/><s n="ord"/></l><r>trentottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>trentè<s n="adj"/><s n="ord"/></l><r>trentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-cinquè<s n="adj"/><s n="ord"/></l><r>quarantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-dosè<s n="adj"/><s n="ord"/></l><r>quarantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-novè<s n="adj"/><s n="ord"/></l><r>quarantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-quatrè<s n="adj"/><s n="ord"/></l><r>quarantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-setè<s n="adj"/><s n="ord"/></l><r>quarantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-sisè<s n="adj"/><s n="ord"/></l><r>quarantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-tresè<s n="adj"/><s n="ord"/></l><r>quarantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-unè<s n="adj"/><s n="ord"/></l><r>quarantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quaranta-vuitè<s n="adj"/><s n="ord"/></l><r>quarantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>quarantè<s n="adj"/><s n="ord"/></l><r>quarantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-cinquè<s n="adj"/><s n="ord"/></l><r>cinquantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-dosè<s n="adj"/><s n="ord"/></l><r>cinquantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-novè<s n="adj"/><s n="ord"/></l><r>cinquantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-quatrè<s n="adj"/><s n="ord"/></l><r>cinquantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-setè<s n="adj"/><s n="ord"/></l><r>cinquantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-sisè<s n="adj"/><s n="ord"/></l><r>cinquantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-tresè<s n="adj"/><s n="ord"/></l><r>cinquantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-unè<s n="adj"/><s n="ord"/></l><r>cinquantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>cinquanta-vuitè<s n="adj"/><s n="ord"/></l><r>cinquantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-cinquè<s n="adj"/><s n="ord"/></l><r>sessantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-dosè<s n="adj"/><s n="ord"/></l><r>sessantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-novè<s n="adj"/><s n="ord"/></l><r>sessantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-quatrè<s n="adj"/><s n="ord"/></l><r>sessantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-setè<s n="adj"/><s n="ord"/></l><r>sessantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-sisè<s n="adj"/><s n="ord"/></l><r>sessantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-tresè<s n="adj"/><s n="ord"/></l><r>sessantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-unè<s n="adj"/><s n="ord"/></l><r>sessantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>seixanta-vuitè<s n="adj"/><s n="ord"/></l><r>sessantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-cinquè<s n="adj"/><s n="ord"/></l><r>settantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-cinquè<s n="adj"/><s n="ord"/></l><r>novantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-dosè<s n="adj"/><s n="ord"/></l><r>settantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-novè<s n="adj"/><s n="ord"/></l><r>settantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-quatrè<s n="adj"/><s n="ord"/></l><r>settantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-setè<s n="adj"/><s n="ord"/></l><r>settantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-sisè<s n="adj"/><s n="ord"/></l><r>settantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-tresè<s n="adj"/><s n="ord"/></l><r>settantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-unè<s n="adj"/><s n="ord"/></l><r>settantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setanta-vuitè<s n="adj"/><s n="ord"/></l><r>settantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>setantè<s n="adj"/><s n="ord"/></l><r>settantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-cinquè<s n="adj"/><s n="ord"/></l><r>ottantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-dosè<s n="adj"/><s n="ord"/></l><r>ottantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-novè<s n="adj"/><s n="ord"/></l><r>ottantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-quatrè<s n="adj"/><s n="ord"/></l><r>ottantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-setè<s n="adj"/><s n="ord"/></l><r>ottantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-sisè<s n="adj"/><s n="ord"/></l><r>ottantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-tresè<s n="adj"/><s n="ord"/></l><r>ottantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-unè<s n="adj"/><s n="ord"/></l><r>ottantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitanta-vuitè<s n="adj"/><s n="ord"/></l><r>ottantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>vuitantè<s n="adj"/><s n="ord"/></l><r>ottantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-dosè<s n="adj"/><s n="ord"/></l><r>novantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-novè<s n="adj"/><s n="ord"/></l><r>novantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-quatrè<s n="adj"/><s n="ord"/></l><r>novantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-setè<s n="adj"/><s n="ord"/></l><r>novantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-sisè<s n="adj"/><s n="ord"/></l><r>novantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-tresè<s n="adj"/><s n="ord"/></l><r>novantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-unè<s n="adj"/><s n="ord"/></l><r>novantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>noranta-vuitè<s n="adj"/><s n="ord"/></l><r>novantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e a="wiktionary"><p><l>centè<s n="adj"/><s n="ord"/></l><r>centesimo<s n="adj"/><s n="ord"/></r></p></e>
 
 <e a="wiktionary"><p><l>adult<s n="adj"/></l><r>adulto<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>aeri<s n="adj"/></l><r>aereo<s n="adj"/></r></p></e>
@@ -24596,6 +24677,9 @@
 <e>       <p><l>Zenobio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zenobio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Zeus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zeus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Urbà<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Urbano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Dante<b/>Alighieri<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dante<b/>Alighieri<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Giangiacomo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Giangiacomo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Giannetto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Giannetto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Abati<s n="np"/><s n="cog"/></l>       <r>Abati<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Abbate<s n="np"/><s n="cog"/></l>      <r>Abbate<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Agata<s n="np"/><s n="cog"/></l>       <r>Agata<s n="np"/><s n="cog"/></r></p></e>
