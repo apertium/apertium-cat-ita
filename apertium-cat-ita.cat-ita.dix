@@ -482,7 +482,7 @@
 <e>       <p><l>comprador<s n="adj"/></l>              <r>acquirente<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e r="RL"><p><l>comprador<s n="adj"/></l>              <r>acquirente<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>comptador<s n="adj"/></l>              <r>contatore<s n="adj"/></r></p></e>
-<e>       <p><l>comunal</l>                            <r>comunale</r></p><par n="adj_sup2"/></e>
+<e r="LR"><p><l>comunal</l>                            <r>comunale</r></p></e>
 <e>       <p><l>comunista<s n="adj"/></l>              <r>comunista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>comunitari<s n="adj"/></l>             <r>comunitario<s n="adj"/></r></p></e>
 <e>       <p><l>comú<s n="adj"/></l>                   <r>comune<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -1636,7 +1636,7 @@
 <e a="wiktionary"><p><l>coix<s n="adj"/></l><r>zoppo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còlic<s n="adj"/></l><r>colico<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e a="wiktionary"><p><l>còmode<s n="adj"/><n ="sup"/></l><r>comodo<s n="adj"/><n ="sup"/></r></p></e>
+<e a="wiktionary"><p><l>còmode<s n="adj"/><s n ="sup"/></l><r>comodo<s n="adj"/><s n ="sup"/></r></p></e>
 <e a="wiktionary"><p><l>competitiu<s n="adj"/></l><r>competitivo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>complet<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còncau<s n="adj"/></l><r>concavo<s n="adj"/></r></p></e>
@@ -3562,6 +3562,7 @@
 <e>       <p><l>ajudant<s n="n"/></l>                  <r>aiutante<s n="n"/></r></p></e>
 <e r="LR"><p><l>ajuntament<s n="n"/></l>               <r>comune<s n="n"/></r></p></e>
 <e>       <p><l>municipi<s n="n"/></l>                 <r>comune<s n="n"/></r></p></e>
+<e>       <p><l>municipal</l>                          <r>comunale</r></p></e>
 <e r="LR"><p><l>ajut<s n="n"/></l>                     <r>aiuto<s n="n"/></r></p></e>
 <e>       <p><l>ala<s n="n"/></l>                      <r>ala<s n="n"/></r></p></e>
 <e>       <p><l>alacantí<s n="n"/></l>                 <r>alicantino<s n="n"/></r></p></e>
@@ -3570,9 +3571,7 @@
 <e>       <p><l>albanès<s n="n"/></l>                  <r>albanese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>albercoc<s n="n"/><s n="m"/></l>       <r>albicocca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>albergínia<s n="n"/></l>               <r>melanzana<s n="n"/></r></p></e>
-<e r="LR"><p><l>alcalde<s n="n"/><s n="m"/></l>        <r>sindaco<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>alcalde<s n="n"/><s n="f"/></l>        <r>sindaco<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>alcalde<s n="n"/><s n="GD"/></l>       <r>sindaco<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>alcalde<s n="n"/></l>                  <r>sindaco<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>alcalinitat<s n="n"/><s n="f"/></l>    <r>alcalinità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>alcohol<s n="n"/><s n="m"/></l>        <r>alcool<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e r="RL"><p><l>alcohol<s n="n"/><s n="m"/><s n="ND"/></l><r>alcol<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -27413,6 +27412,8 @@
 <e r="RL" a="hector"><p><l>desvincular<s n="vblex"/></l><r>svincolare<s n="vblex"/></r></p></e>
 <e r="LR" a="hector"><p><l>desvincular<s n="vblex"/></l><r>slegare<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>deslligar<s n="vblex"/></l><r>slegare<s n="vblex"/></r></p></e>
+
+<e a="hector"><p><l>en<b/>funcions<s n="adj"/><s n="mf"/></l><r>facente<g><b/>funzioni</g><s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 
 <!-- SECTION: Punctuation -->
 
