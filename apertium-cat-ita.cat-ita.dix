@@ -207,6 +207,10 @@
   <e r="RL"><p><l><s n="adj"/><s n="m"/></l><r><s n="adj"/><s n="sup"/><s n="m"/></r></p></e>
   <e r="RL"><p><l><s n="adj"/><s n="f"/></l><r><s n="adj"/><s n="sup"/><s n="f"/></r></p></e>
 </pardef>
+<!--
+<e a="wiktionary"><p><l>zigomàtic<s n="adj"/></l><r>zigomatico<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>zigomàtic<s n="adj"/></l><r>zigomatico<s n="adj"/><s n="sup"/></r></p></e>
+-->
 
 <pardef n="adj_sup2">
   <!-- Hi ha adjectius que en italià tenen superlatiu però en català no. Aquest paradigma evita errors de generació en català, però cal abordar-ho al trànsfer -->
@@ -919,8 +923,8 @@
 <e>       <p><l>indecís</l>                            <r>indeciso</r></p><par n="adj_sup"/></e>
 <e>       <p><l>independent</l>                        <r>indipendente</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>indesitjable</l>                       <r>indesiderabile</r></p><par n="adj_sup2"/></e>
-<e>       <p><l>indi<s n="adj"/></l>                   <r>indio<s n="adj"/></r></p></e>
-<e r="RL"><p><l>indi<s n="adj"/></l>                   <r>indiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>indi<s n="adj"/></l>                   <r>indio<s n="adj"/></r></p></e>
+<e>       <p><l>indi<s n="adj"/></l>                   <r>indiano<s n="adj"/></r></p></e>
 <e>       <p><l>indicador<s n="adj"/></l>              <r>indicatore<s n="adj"/></r></p></e>
 <e>       <p><l>indicatiu</l>                          <r>indicativo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>indispensable</l>                      <r>indispensabile</r></p><par n="adj_sup2"/></e>
@@ -6415,8 +6419,8 @@
 <e>       <p><l>incorporació<s n="n"/></l>             <r>incorporazione<s n="n"/></r></p></e>
 <e>       <p><l>increment<s n="n"/></l>                <r>incremento<s n="n"/></r></p></e>
 <e>       <p><l>independència<s n="n"/></l>            <r>indipendenza<s n="n"/></r></p></e>
-<e>       <p><l>indi<s n="n"/></l>                     <r>indio<s n="n"/></r></p></e>
-<e r="RL"><p><l>indi<s n="n"/></l>                     <r>indiano<s n="n"/></r></p></e>
+<e r="RL"><p><l>indi<s n="n"/></l>                     <r>indio<s n="n"/></r></p></e>
+<e>       <p><l>indi<s n="n"/></l>                     <r>indiano<s n="n"/></r></p></e>
 <e>       <p><l>indicador<s n="n"/></l>                <r>indicatore<s n="n"/></r></p></e>
 <e>       <p><l>indicatiu<s n="n"/><s n="m"/></l>      <r>indicativo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>individu<s n="n"/><s n="f"/></l>       <r>individuo<s n="n"/><s n="m"/></r></p></e>
@@ -9611,7 +9615,7 @@
 <e>       <p><l>Rossell<s n="np"/><s n="ant"/></l>     <r>Rossell<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Rosselló<s n="np"/><s n="top"/></l>    <r>Roussillon<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Rubí<s n="np"/><s n="top"/></l>        <r>Rubí<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Rwanda<s n="np"/><s n="top"/></l>      <r>Ruanda<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Ruanda<s n="np"/><s n="top"/></l>      <r>Ruanda<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Rússia<s n="np"/><s n="top"/></l>      <r>Russia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Prússia<s n="np"/><s n="top"/></l>     <r>Prussia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Saxònia<s n="np"/><s n="top"/></l>     <r>Sassonia<s n="np"/><s n="top"/></r></p></e>
