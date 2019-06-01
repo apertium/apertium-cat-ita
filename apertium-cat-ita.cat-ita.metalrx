@@ -1432,12 +1432,12 @@
     <match lemma="de" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
 
-  <!-- al llarg de > durante, a largu de --> <!-- srd -->
+  <!-- al llarg de > durante, lungo -->
   <rule weight="0.6">
     <match lemma="al llarg de" tags="pr"><select lemma="durante" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="al llarg de" tags="pr"><select lemma="a largu de" tags="pr"/></match>
+    <match lemma="al llarg de" tags="pr"><select lemma="lungo" tags="pr"/></match>
     <match tags="np.*"/>
   </rule>
 
@@ -1454,13 +1454,9 @@
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
-  <!-- segons (pr) > segundu, a parrere de --> <!-- srd -->
+  <!-- sobre (pr) > su, sopra -->
   <rule weight="0.6">
-     <match lemma="segons" tags="pr"><select lemma="segundu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="segons" tags="pr"><select lemma="a pàrrere de"/></match>
-     <match tags="np.*"/>
+     <match lemma="sobre" tags="pr"><select lemma="su"/></match>
   </rule>
 
 
@@ -1856,6 +1852,19 @@
   <rule weight="1.0" c="tornar boig">
      <match lemma="tornar" tags="vblex.*"><select lemma="diventare"/></match>
      <match tags="adj.*"/>
+  </rule>
+
+  <!-- cridar > chiamare, gridare -->
+  <rule weight="0.6">
+     <match lemma="cridar" tags="vblex.*"><select lemma="chiamare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="li" tags="prn.pro.*"/>
+     <match lemma="cridar" tags="vblex.*"><select lemma="gritare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cridar" tags="vblex.*"><select lemma="gritare"/></match>
+     <match lemma="li" tags="prn.enc.*"/>
   </rule>
 
   <!-- negar > negare, annegare -->
@@ -2879,10 +2888,10 @@
      <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
   </rule>
 
-  <!-- carta > lìtera, carta --> <!-- srd -->
+  <!-- carta > lettera, carta -->
 
   <rule weight="0.6">
-     <match lemma="carta" tags="n.*"><select lemma="lìtera"/></match>
+     <match lemma="carta" tags="n.*"><select lemma="lettera"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="carta" tags="n.*"><select lemma="carta"/></match>

@@ -548,6 +548,9 @@
   <!-- diventare > esdevenir, tornar -->
   <macro name="verb_nopron_pron" p1="diventare" p2="esdevenir" p3="tornar"/>
 
+  <!-- chiamare > cridar, dir -->
+  <macro name="verb_nopron_pron" p1="chiamare" p2="cridar" p3="dir"/>
+
   <!-- tentare > temptar, intentar -->
   <rule weight="0.8">
     <match lemma="tentare" tags="vblex.*"><select lemma="temptar" tags="vblex.*"/></match>
