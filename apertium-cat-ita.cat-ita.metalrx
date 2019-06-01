@@ -2641,6 +2641,12 @@
      <match lemma="croat" tags="n.*"><select lemma="croato"/></match>
   </rule>
 
+  <!-- aficionat > tifoso, amatore -->
+
+  <rule weight="0.6">
+     <match lemma="aficionat" tags="n.*"><select lemma="tifoso"/></match>
+  </rule>
+
   <!-- plana > pianura, pagina -->
 
   <rule weight="0.6">

@@ -314,7 +314,7 @@
 <e>       <p><l>anual</l>                              <r>annuale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>anular</l>                             <r>anulare</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>anàleg<s n="adj"/></l>                 <r>analogo<s n="adj"/></r></p></e>
-<e>       <p><l>anàrquic</l>                           <r>anarchico</r></p><par n="adj_sup"/></e>
+<e r="LR"><p><l>anàrquic</l>                           <r>anarchico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>anòmal</l>                             <r>anomalo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>anònim</l>                             <r>anonimo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>apetitós<s n="adj"/></l>               <r>appetitoso<s n="adj"/></r></p></e>
@@ -1721,7 +1721,7 @@
 <e a="wiktionary"><p><l>clàssic<s n="adj"/></l><r>classico<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>coix<s n="adj"/></l><r>zoppo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>còlic<s n="adj"/></l><r>colico<s n="adj"/></r></p></e>
-<e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>còmode<s n="adj"/></l><r>comodo<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
 <e a="wiktionary"><p><l>còmode<s n="adj"/><s n ="sup"/></l><r>comodo<s n="adj"/><s n ="sup"/></r></p></e>
 <e a="wiktionary"><p><l>competitiu<s n="adj"/></l><r>competitivo<s n="adj"/></r></p></e>
 <e a="wiktionary"><p><l>complet<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
@@ -3892,7 +3892,12 @@
 <e>       <p><l>aeroport<s n="n"/></l>                 <r>aeroporto<s n="n"/></r></p></e>
 <e>       <p><l>aeròdrom<s n="n"/></l>                 <r>aerodromo<s n="n"/></r></p></e>
 <e>       <p><l>afabilitat<s n="n"/></l>               <r>affabilità<s n="n"/><s n="sp"/></r></p></e>
-<e>       <p><l>afeccionat<s n="n"/></l>               <r>amatore<s n="n"/></r></p></e>
+<e>       <p><l>aficionat<s n="n"/></l>                <r>amatore<s n="n"/></r></p></e>
+<e>       <p><l>aficionat<s n="n"/></l>                <r>tifoso<s n="n"/></r></p></e>
+<e r="RL"><p><l>afeccionat<s n="n"/></l>               <r>diletante<s n="n"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>aficionat<s n="adj"/></l>              <r>diletante<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e i="yes"><p><l>afeccionat<s n="n"/></l>              <r>diletante<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="LR"><p><l>afeccionat<s n="adj"/></l>             <r>diletante<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>afecció<s n="n"/></l>                  <r>affezione<s n="n"/></r></p></e>
 <e>       <p><l>afecte<s n="n"/></l>                   <r>fine<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>afecte<s n="n"/></l>                   <r>affetto<s n="n"/></r></p></e>
@@ -7356,6 +7361,10 @@
 <e>       <p><l>participació<s n="n"/></l>             <r>partecipazione<s n="n"/></r></p></e>
 <e>       <p><l>participant<s n="n"/></l>              <r>partecipante<s n="n"/></r></p></e>
 <e>       <p><l>participi<s n="n"/></l>                <r>participio<s n="n"/></r></p></e>
+<e>       <p><l>partidari<s n="n"/></l>                <r>sostenitore<s n="n"/></r></p></e>
+<e r="RL"><p><l>protector<s n="adj"/></l>              <r>sostenitore<s n="adj"/></r></p></e>
+<e>       <p><l>sustentació<s n="n"/></l>              <r>sostentazione<s n="n"/></r></p></e>
+<e r="RL"><p><l>sustentació<s n="n"/><s n="f"/></l>    <r>sostentamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>partisà<s n="n"/></l>                  <r>partigiano<s n="n"/></r></p></e>
 <e>       <p><l>partit<s n="n"/></l>                   <r>partito<s n="n"/></r></p></e>
 <e>       <p><l>partícula<s n="n"/></l>                <r>particella<s n="n"/></r></p></e>
@@ -7376,6 +7385,7 @@
 <e r="LR"><p><l>pastor<s n="n"/><s n="m"/></l>         <r>pastore<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>pastor<s n="n"/><s n="f"/></l>         <r>pastore<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>pastor<s n="n"/><s n="GD"/></l>        <r>pastore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pastoret<s n="n"/></l>                 <r>pastorello<s n="n"/></r></p></e>
 <e>       <p><l>pastura<s n="n"/><s n="f"/></l>        <r>pasto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pastura<s n="n"/><s n="f"/></l>        <r>pascolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pastís<s n="n"/><s n="m"/></l>         <r>torta<s n="n"/><s n="f"/></r></p></e>
@@ -8685,6 +8695,43 @@
 <e a="wiktionary"><p><l>traïdor<s n="n"/></l><r>traditore<s n="n"/></r></p></e>
 <e a="wiktionary"><p><l>trobador<s n="n"/></l><r>trovatore<s n="n"/></r></p></e>
 
+<e a="wiktionary"><p><l>acompanyant<s n="n"/></l><r>accompagnatore<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="wiktionary"><p><l>àcrata<s n="n"/></l><r>anarchico<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="wiktionary"><p><l>àcrata<s n="adj"/></l><r>anarchico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="wiktionary"><p><l>amateur<s n="n"/></l><r>amatore<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>arribista<s n="n"/></l><r>arrivista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>autista<s n="n"/></l><r>autista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>equilibrista<s n="n"/></l><r>equilibrista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>heretge<s n="n"/></l><r>eretico<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>il·lusionista<s n="n"/></l><r>illusionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>optimista<s n="n"/></l><r>ottimista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>terrorista<s n="n"/></l><r>terrorista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>agent<s n="n"/><s n="mf"/></l><r>agente<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>alguerès<s n="n"/></l><r>algherese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>aquemènida<s n="n"/><s n="mf"/></l><r>achemenide<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>arsàcida<s n="n"/><s n="mf"/></l><r>arsacide<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>artífex<s n="n"/><s n="mf"/></l><r>artefice<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>bengalí<s n="n"/><s n="mf"/></l><r>bengalese<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>bretó<s n="n"/></l><r>bretone<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>esquimal<s n="n"/><s n="mf"/></l><r>eschimese<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>familiar<s n="n"/><s n="mf"/></l><r>familiare<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>fatimita<s n="n"/><s n="mf"/></l><r>fatimide<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>finès<s n="n"/></l><r>finlandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="LR" a="wiktionary"><p><l>finès<s n="adj"/></l><r>finlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>groenlandès<s n="n"/></l><r>groenlandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>insurgent<s n="n"/><s n="mf"/></l><r>ribelle<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>integrant<s n="n"/><s n="mf"/></l><r>integrante<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>luxemburguès<s n="n"/></l><r>lussemburghese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="LR" a="wiktionary"><p><l>mercader<s n="n"/></l><r>commerciante<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="LR" a="wiktionary"><p><l>mosso<s n="n"/></l><r>giovane<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>nebot<s n="n"/></l><r>nipote<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>nét<s n="n"/></l><r>nipote<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>parlant<s n="n"/><s n="mf"/></l><r>parlante<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>sassànida<s n="n"/><s n="mf"/></l><r>sasanide<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>sasserès<s n="n"/></l><r>sassarese<s n="n"/></r></p><par n="GD_mf"/></e>
+
+<e><p><l>auto<s n="n"/><s n="m"/></l><r>auto<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+
 <!-- SECTION: Proper names -->
 
 <e>       <p><l>html<s n="n"/><s n="m"/><s n="sp"/></l><r>html<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
@@ -9380,6 +9427,7 @@
 <e>       <p><l>Roldán<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Roldán<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Rolling<s n="np"/><s n="al"/></l>      <r>Rolling<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Roma<s n="np"/><s n="top"/></l>        <r>Roma<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Florència<s n="np"/><s n="top"/></l>   <r>Firenze<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Romania<s n="np"/><s n="top"/></l>     <r>Romania<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Roque<s n="np"/><s n="top"/></l>       <r>Roque<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Rosell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Rosell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -25986,7 +26034,7 @@
 <e>       <p><l>concordar<s n="vblex"/></l>            <r>concordare<s n="vblex"/></r></p></e>
 <e>       <p><l>concretar<s n="vblex"/></l>            <r>concretare<s n="vblex"/></r></p></e>
 <e>       <p><l>condemnar<s n="vblex"/></l>            <r>condannare<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>conduir<s n="vblex"/></l>              <r>guidare<s n="vblex"/></r></p></e>
+<e>       <p><l>conduir<s n="vblex"/></l>              <r>guidare<s n="vblex"/></r></p></e>
 <e>       <p><l>conduir<s n="vblex"/></l>              <r>condurre<s n="vblex"/></r></p></e>
 <e>       <p><l>conferir<s n="vblex"/></l>             <r>conferire<s n="vblex"/></r></p></e>
 <e>       <p><l>confiar<s n="vblex"/></l>              <r>affidare<s n="vblex"/></r></p></e>
@@ -26474,7 +26522,9 @@
 <e>       <p><l>perfilar<s n="vblex"/></l>             <r>delineare<s n="vblex"/></r></p></e>
 <e>       <p><l>permetre<s n="vblex"/></l>             <r>permettere<s n="vblex"/></r></p></e>
 <e>       <p><l>perpetrar<s n="vblex"/></l>            <r>perpetrare<s n="vblex"/></r></p></e>
-<e>       <p><l>perseguir<s n="vblex"/></l>            <r>perseguire<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>perseguir<s n="vblex"/></l>            <r>perseguire<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>perseguir<s n="vblex"/></l>            <r>perseguitare<s n="vblex"/></r></p></e>
+<e>       <p><l>perseguir<s n="vblex"/></l>            <r>inseguire<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>pertocar<s n="vblex"/></l>             <r>corrispondere<s n="vblex"/></r></p></e>
 <e>       <p><l>pertànyer<s n="vblex"/></l>            <r>appartenere<s n="vblex"/></r></p></e>
 <e>       <p><l>pesar<s n="vblex"/></l>                <r>pesare<s n="vblex"/></r></p></e>
@@ -26554,7 +26604,7 @@
 <e>       <p><l>rebre<s n="vblex"/></l>                <r>ricevere<s n="vblex"/></r></p></e>
 <e>       <p><l>recitar<s n="vblex"/></l>              <r>recitare<s n="vblex"/></r></p></e>
 <e>       <p><l>reclamar<s n="vblex"/></l>             <r>reclamare<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>recolzar<s n="vblex"/></l>             <r>sostenere<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>recolzar<s n="vblex"/></l>            <r>sostenere<s n="vblex"/></r></p></e>
 <e>       <p><l>recolzar<s n="vblex"/></l>             <r>appoggiare<s n="vblex"/></r></p></e>
 <e>       <p><l>recompensar<s n="vblex"/></l>          <r>ricompensare<s n="vblex"/></r></p></e>
 <e>       <p><l>reconciliar<s n="vblex"/></l>          <r>riconciliare<s n="vblex"/></r></p></e>
@@ -26677,6 +26727,7 @@
 <e r="LR"><p><l>soscavar<s n="vblex"/></l>             <r>scavare<s n="vblex"/></r></p></e>
 <e>       <p><l>sospirar<s n="vblex"/></l>             <r>sospirare<s n="vblex"/></r></p></e>
 <e>       <p><l>sostenir<s n="vblex"/></l>             <r>sostenere<s n="vblex"/></r></p></e>
+<e>       <p><l>sustentar<s n="vblex"/></l>            <r>sustentare<s n="vblex"/></r></p></e>
 <e>       <p><l>sostreure<s n="vblex"/></l>            <r>sottrarre<s n="vblex"/></r></p></e>
 <e>       <p><l>suar<s n="vblex"/></l>                 <r>sudare<s n="vblex"/></r></p></e>
 <e>       <p><l>subornar<s n="vblex"/></l>             <r>corrompere<s n="vblex"/></r></p></e>
