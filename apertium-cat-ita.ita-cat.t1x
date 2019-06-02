@@ -181,9 +181,18 @@
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
     </def-cat>
+    <def-cat n="il_msg">          
+      <cat-item tags="det.def.m.sg"/>
+    </def-cat>
 
     <def-cat n="num">
       <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
+    </def-cat>
+    <def-cat n="giorno">
+      <cat-item tags="num"/>
+    </def-cat>
+    <def-cat n="anno">
       <cat-item tags="num"/>
     </def-cat>
 
@@ -202,9 +211,36 @@
     <def-cat n="pr">
       <cat-item tags="pr"/>
     </def-cat>
+    <def-cat n="in">
+      <cat-item lemma="in" tags="pr"/>
+    </def-cat>
     
     <def-cat n="rel">
       <cat-item tags="rel.*"/>
+    </def-cat>
+
+    <def-cat n="mese">
+       <cat-item lemma="gennaio" tags="n.*"/>
+       <cat-item lemma="febbraio" tags="n.*"/>
+       <cat-item lemma="marzo" tags="n.*"/>
+       <cat-item lemma="aprile" tags="n.*"/>
+       <cat-item lemma="maggio" tags="n.*"/>
+       <cat-item lemma="giugno" tags="n.*"/>
+       <cat-item lemma="luglio" tags="n.*"/>
+       <cat-item lemma="agosto" tags="n.*"/>
+       <cat-item lemma="settembre" tags="n.*"/>
+       <cat-item lemma="ottobre" tags="n.*"/>
+       <cat-item lemma="novembre" tags="n.*"/>
+       <cat-item lemma="dicembre" tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="sent">
+       <cat-item lemma="." tags="sent"/>
+    </def-cat>
+    <def-cat n="final_sent">
+       <cat-item lemma="." tags="sent"/>
+       <cat-item lemma="?" tags="sent"/>
+       <cat-item lemma="!" tags="sent"/>
     </def-cat>
   </section-def-cats>
 
@@ -337,44 +373,42 @@
     <def-var n="concSegundo"/>
     <def-var n="concTercero"/>
     <def-var n="lemma"/>
-    <def-var n="EOS"/>
+    <def-var n="EOS" v="&lt;true&gt;"/>
 
     <def-var n="numero" v="&lt;sg&gt;"/>
     <def-var n="genero" v="&lt;m&gt;"/>
+    <def-var n="numero_aux" v="&lt;sg&gt;"/>
+    <def-var n="genero_aux" v="&lt;m&gt;"/>
 
   </section-def-vars>
 
-<section-def-lists>
-                <def-list n="vbambser">
-                        <list-item v="andare"/>
-                        <list-item v="crescere"/>
-                        <list-item v="frenare"/>
-                        <list-item v="devenire"/>
-                        <list-item v="divenire"/>
-                        <list-item v="arrivare"/>
-                        <!--<list-item v="morire"/>-->
-                        <list-item v="entrare"/>
-                        <list-item v="nascere"/>
-                        <list-item v="partire"/>
-                        <list-item v="restare"/>
-                        <list-item v="venire"/>
-                        <list-item v="uscire"/>
-                        <list-item v="passare"/>
-                        <list-item v="essere"/>
-                        <list-item v="stare"/>
-                        <list-item v="scendere"/>
-                        <list-item v="salire"/>
-                        <list-item v="sedere"/>
-                        <list-item v="arrivare"/>
-                        <list-item v="piovere"/>
-
-                    </def-list>
-</section-def-lists>
-
-
+  <section-def-lists>
+    <def-list n="vbambser">
+      <list-item v="andare"/>
+      <list-item v="crescere"/>
+      <list-item v="frenare"/>
+      <list-item v="devenire"/>
+      <list-item v="divenire"/>
+      <list-item v="arrivare"/>
+      <!--<list-item v="morire"/>-->
+      <list-item v="entrare"/>
+      <list-item v="nascere"/>
+      <list-item v="partire"/>
+      <list-item v="restare"/>
+      <list-item v="venire"/>
+      <list-item v="uscire"/>
+      <list-item v="passare"/>
+      <list-item v="essere"/>
+      <list-item v="stare"/>
+      <list-item v="scendere"/>
+      <list-item v="salire"/>
+      <list-item v="sedere"/>
+      <list-item v="arrivare"/>
+      <list-item v="piovere"/>
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
-
     <def-macro n="firstWord" npar="1">
       <choose>
         <when>
@@ -439,6 +473,18 @@
           </out>
         </when>                 
       </choose>
+    </def-macro>
+
+
+    <def-macro n="f_salvar_gen_num" npar="0"> <!-- Per conservar les var genero i numero per restaurar-les després (per no expandir a l'esquerra aquests valors) -->
+      <let><var n="genero_aux"/><var n="genero"/></let>
+      <let><var n="numero_aux"/><var n="numero"/></let>
+    </def-macro>
+
+
+    <def-macro n="f_restaurar_gen_num" npar="0"> <!-- Per restaurar les var genero i numero i no expandir-ne a l'esquerra els valors -->
+      <let><var n="genero"/><var n="genero_aux"/></let>
+      <let><var n="numero"/><var n="numero_aux"/></let>
     </def-macro>
 
 
@@ -3450,6 +3496,44 @@
       </action>
     </rule>
 
+    <rule comment="regla: giorno mes: 26 maggio > 26 de maig ">
+      <pattern>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="dia-de-mes">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
     <rule comment="REGLA: NUM NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -3646,6 +3730,51 @@
       </action>
     </rule>
 
+
+    <rule comment="regla: det giorno mes: il 26 maggio > el 26 de maig ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="det-dia-de-mes">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
 
     <rule comment="DET NUMERAL NOM">
       <pattern>
@@ -4585,7 +4714,393 @@
       </action>
     </rule>
 
+    <rule comment="regla: mes anno: maggio 2017 > maig de 2017">
+      <pattern>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: det mes anno: il maggio 2017 > el maig de 2017">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="det-mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in det mes anno: nel maggio 2017 > el maig de 2017">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="det"/>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="det-mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+	    <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in det giorno mes: nel 26 maggio > el 26 de maig ">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="det"/>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="det-dia-de-mes">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: giorno mes anno: 26 maggio 2017 > 26 de maig de 2017">
+      <pattern>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="dia-de-mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
     
+    <rule comment="regla: det giorno mes anno: il 26 maggio 2017 > el 26 de maig 2017">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <out>
+          <chunk name="det-dia-de-mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in det giorno mes anno: nel 26 maggio 2017 > el 26 de maig 2017">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="det"/>
+        <pattern-item n="giorno"/>
+        <pattern-item n="mese"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="det-dia-de-mes-de-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in det anno: nel 2017 > el 2017">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="il_msg"/>
+        <pattern-item n="anno"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="det-any">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="m"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: DET (quan no acompanya res o va amb desconeguda)">
       <pattern>
         <pattern-item n="det"/>
@@ -5603,6 +6118,27 @@
         </chunk>
       </out>
     </action>
+  </rule>
+
+  <rule comment="regla: final de frase: reset de variables">
+     <pattern>
+       <pattern-item n="final_sent"/>
+     </pattern>
+     <action>
+      <let> <var n="genero"/><lit v="m"/></let>
+      <let> <var n="numero"/><lit v="sg"/></let>
+      <let> <var n="EOS"/><lit v="false"/></let>
+        <out>
+          <chunk name="sent">
+            <tags>
+              <tag><lit-tag v="sent"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+     </action>
   </rule>
 
   </section-rules>
