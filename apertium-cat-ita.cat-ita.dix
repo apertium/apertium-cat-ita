@@ -4599,6 +4599,7 @@
 <e r="RL"><p><l>cap<s n="n"/><s n="m"/></l>            <r>capo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>cap<s n="n"/><s n="f"/></l>            <r>capo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cap<g><b/>d'any</g><s n="n"/><s n="m"/></l><r>capodanno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cap<g><b/>de<b/>llista</g><s n="n"/><s n="mf"/></l><r>capolista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>capa<s n="n"/><s n="f"/></l>           <r>cappa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>capa<s n="n"/><s n="f"/></l>           <r>strato<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>capacitat<s n="n"/><s n="f"/></l>      <r>capacità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
