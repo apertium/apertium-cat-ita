@@ -813,6 +813,7 @@
       <match lemma="Estònia"/>
       <match lemma="Bielorússia"/>
       <match lemma="Grècia"/>
+      <match lemma="Xipre"/>
       <match lemma="Anglaterra"/>
       <match lemma="Gal·les"/>
       <match lemma="Irlanda"/>
@@ -822,6 +823,10 @@
       <match lemma="Croàcia"/>
       <match lemma="Sèrbia"/>
       <match lemma="Xina"/>
+      <match lemma="Japó"/>
+      <match lemma="Corea"/>
+      <match lemma="Corea del Nord"/>
+      <match lemma="Corea del Sud"/>
       <match lemma="Índia"/>
       <match lemma="Turquia"/>
       <match lemma="Irak"/>
@@ -835,12 +840,14 @@
       <match lemma="Austràlia"/>
       <match lemma="Àfrica"/>
       <match lemma="Amèrica"/>
+      <match lemma="Amèrica llatina"/>
       <match lemma="Amèrica Central"/>
       <match lemma="Amèrica del Nord"/>
       <match lemma="Amèrica del Sud"/>
       <match lemma="Àsia"/>
       <match lemma="Europa"/>
       <match lemma="Oceania"/>
+      <match lemma="Canàries"/>
       <match lemma="occident"/>
       <match lemma="orient"/>
     </def-seq>
@@ -1282,7 +1289,6 @@
   </rule>
 
   <!-- per > per, da -->
-
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
@@ -1307,9 +1313,7 @@
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
-
   <!-- de > da, di, su a -->
-
   <rule weight="0.6">
     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
   </rule>
@@ -1814,7 +1818,6 @@
      </or>
   </rule>
 
-
 <!-- **************** REL **************** -->
 
   <!-- què > che, cui -->
@@ -2001,7 +2004,6 @@
   </rule>
 
   <!-- violar > violare, violentare --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="violar" tags="vblex.*"><select lemma="violare"/></match>
   </rule>
@@ -2023,7 +2025,6 @@
   </rule>
 
   <!-- permetre > permìtere, permìtere de --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="permetre" tags="vblex.*"><select lemma="permìtere"/></match>
   </rule>
@@ -2033,7 +2034,6 @@
   </rule>
 
   <!-- portar > batire, portare, giùghere --> <!-- srd -->
-
   <rule weight="0.6">
 	  <match lemma="portar" tags="vblex.*"><select lemma="batire"/></match> <!-- sep --> <!-- srd -->
   </rule>
@@ -2051,7 +2051,6 @@
   </rule>
 
   <!-- demanar > pregontare, pedire --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="demanar" tags="vblex.*"><select lemma="pregontare"/></match>
   </rule>
@@ -2140,7 +2139,6 @@
   </rule>
 
   <!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="arrencar" tags="vblex.*"><select lemma="irraighinare"/></match>
   </rule>
@@ -2160,7 +2158,6 @@
   </rule>
 
   <!-- estimar > amare, istimare --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
   </rule>
@@ -2187,7 +2184,6 @@
   </rule>
 
   <!-- tractar de > tratare de, proare a --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="tractar# de" tags="vblex.*"><select lemma="tratare# de"/></match>
   </rule>
@@ -2197,7 +2193,6 @@
   </rule>
 
   <!-- guanyar > bìnchere, balangiare --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="guanyar" tags="vblex.*"><select lemma="bìnchere"/></match>
   </rule>
@@ -2215,7 +2210,6 @@
      <or><match tags="num"/><match tags="num.*"/><match tags="adj.*"/></or>
      <or><match lemma="euro" tags="n.*"/><match lemma="pesseta" tags="n.*"/><match lemma="lira" tags="n.*"/><match lemma="franc" tags="n.*"/><match lemma="marc" tags="n.*"/><match lemma="dòlar" tags="n.*"/></or>
   </rule>
-
 
 <!-- COMPARACIONS -->
 <!-- que > chi, de (comparacions) --> <!-- srd -->
@@ -2240,7 +2234,6 @@
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
      <match tags="np.*"/>
   </rule>
-
   <rule weight="1.0">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <or><match tags="adj.*"/><match tags="adv"/></or>
@@ -2260,7 +2253,6 @@
      <match tags="det.*"/>
      <match tags="n.*"/>
   </rule>
-
   <rule weight="1.0">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <or><match tags="adj.*"/><match tags="adv"/></or>
@@ -2277,7 +2269,6 @@
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
      <match tags="prn.tn.pos.*"/>
   </rule>
-
   <rule weight="1.0">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <or><match tags="adj.*"/><match tags="adv"/></or>
@@ -2326,7 +2317,6 @@
      <match tags="prn.tn.p3.*.pl"/>
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
-
   <rule weight="1.0">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
@@ -2368,7 +2358,6 @@
      <match tags="prn.tn.p3.*.pl"/>
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
-
   <rule weight="1.2">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <or><match tags="adj.*"/><match tags="adv"/></or>
@@ -2417,7 +2406,6 @@
      <match tags="adv"/>
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
-
   <rule weight="1.0">
      <or><match lemma="pitjor" tags="adv"/><match lemma="millor" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
@@ -2459,7 +2447,6 @@
      <match tags="prn.tn.p3.*.pl"/>
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
-
   <rule weight="1.2">
      <or><match lemma="pitjor" tags="adv"/><match lemma="millor" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
@@ -2504,7 +2491,6 @@
   </rule>
 
   <!-- com > comente, comente a (comparacions) --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="com" tags="rel.adv"><select lemma="comente"/></match>
   </rule>
@@ -2524,7 +2510,6 @@
 <!-- **************** ADV **************** -->
 
   <!-- no > no, non -->
-
   <rule weight="0.6">
      <match lemma="no" tags="adv"><select lemma="no"/></match>
   </rule>
@@ -2545,7 +2530,6 @@
   </rule>
 
 <!-- més > prus, de prus --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="més" tags="adv"><select lemma="prus"/></match>
   </rule>
@@ -2561,7 +2545,6 @@
 <!-- **************** ADJ **************** -->
 
   <!-- croat > croato, crociato -->
-
   <rule weight="0.6">
      <match lemma="croat" tags="adj.*"><select lemma="croato"/></match>
   </rule>
@@ -2570,18 +2553,7 @@
      <match lemma="croat" tags="adj.*"><select lemma="crociato"/></match>
   </rule>
 
-  <!-- gran > mannu, grandu --> <!-- srd -->
-
-  <rule weight="0.6">
-     <match lemma="gran" tags="adj.*"><select lemma="mannu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="gran" tags="adj.*"><select lemma="grandu"/></match>
-     <match tags="n.*"/>
-  </rule>
-
   <!-- anterior > anteriore, in antis --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="anterior" tags="adj.*"><select lemma="anteriore"/></match>
   </rule>
@@ -2593,7 +2565,6 @@
   </rule>
 
   <!-- sospitós > suspetadu, suspetosu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="sospitós" tags="adj.*"><select lemma="suspetadu"/></match>
   </rule>
@@ -2612,7 +2583,6 @@
   </rule>
 
   <!-- romànic > romànicu, romantzu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="romànic" tags="adj.*"><select lemma="romànicu"/></match>
   </rule>
@@ -2622,7 +2592,6 @@
   </rule>
 
   <!-- presumpte > presumidu, crètidu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="presumpte" tags="adj.*"><select lemma="presumidu"/></match>
   </rule>
@@ -2631,11 +2600,9 @@
      <match tags="n.*"/>
   </rule>
 
-
 <!-- **************** N **************** -->
 
   <!-- nau > nave, capannone -->
-
   <rule weight="0.6">
      <match lemma="nau" tags="n.*"><select lemma="nave"/></match>
   </rule>
@@ -2644,20 +2611,152 @@
      <match lemma="industrial" tags="adj.*"/>
   </rule>
 
-  <!-- croat > croato, crociato -->
+  <!-- ponent > ponente, relatore -->
+  <rule weight="0.6">
+     <match lemma="ponent" tags="n.*"><select lemma="ponente"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="ponent" tags="n.m.pl"><select lemma="relatore"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match tags="det.ind.*"/>
+       <match tags="det.dem.*"/>
+     </or>
+     <match lemma="ponent" tags="n.*"><select lemma="relatore"/></match>
+  </rule>
 
+  <!-- molla > molla, mollica, briciola -->
+  <rule weight="0.6">
+     <match lemma="molla" tags="n.*"><select lemma="scalata"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="molla" tags="n.*"><select lemma="mollica"/></match>
+     <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <match lemma="pa" tags="n.*"/>
+  </rule>
+
+  <!-- escalada > scalata, scalation -->
+  <rule weight="0.6">
+     <match lemma="escalada" tags="n.*"><select lemma="scalata"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="escalada" tags="n.*"><select lemma="scalation"/></match>
+     <match lemma="de" tags="pr"/>
+     <or>
+       <match lemma="preu" tags="n.*"/>
+       <match lemma="tensió" tags="n.*"/>
+       <match lemma="violència" tags="n.*"/>
+     </or>
+  </rule>
+
+  <!-- fitxa > scheda, tessera -->
+  <rule weight="0.6">
+     <match lemma="fitxa" tags="n.*"><select lemma="scheda"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="fitxa" tags="n.*"><select lemma="tessera"/></match>
+     <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <or>
+       <match lemma="dòmino" tags="n.*"/>
+       <match lemma="parxís" tags="n.*"/>
+       <match lemma="dama" tags="n.*"/>
+       <match lemma="escacs" tags="n.*"/>
+     </or>
+  </rule>
+
+  <!-- testimoni > testimone, testimonianza -->
+  <rule weight="0.6">
+     <match lemma="testimoni" tags="n.*"><select lemma="testimone"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="fals" tags="adj.*"/>
+     <match lemma="testimoni" tags="n.*"><select lemma="testimonianza"/></match>
+  </rule>
+
+  <!-- colló > coglione, cazzo -->
+  <rule weight="0.6">
+    <match lemma="colló" tags="n.*"><select lemma="coglione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="què"/>
+    <match lemma="colló" tags="n.m.pl"><select lemma="cazzo" tags="n.m.sg"/></match>
+  </rule>
+
+  <!-- cony > fica, cazzo -->
+  <rule weight="0.6">
+    <match lemma="cony" tags="n.*"><select lemma="fica"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="què"/>
+    <match lemma="cony" tags="n.m.sg"><select lemma="cazzo" tags="n.m.sg"/></match>
+  </rule>
+
+  <!-- llitera > cuccetta, letto a castello, barella -->
+  <rule weight="0.6">
+     <match lemma="llitera" tags="n.*"><select lemma="cuccetta"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="anar" tags="vblex.*"/>
+       <match lemma="portar" tags="vblex.*"/>
+     </or>
+     <match lemma="en" tags="pr"/>
+     <match lemma="llitera" tags="n.*"><select lemma="barella"/></match>
+  </rule>
+
+  <!-- onada > onda, ondata -->
+  <rule weight="0.6">
+     <match lemma="onada" tags="n.*"><select lemma="onda"/></match>
+  </rule>
+
+  <!-- llotja > loggia, palco -->
+  <rule weight="0.6">
+     <match lemma="llotja" tags="n.*"><select lemma="loggia"/></match>
+  </rule>
+
+  <!-- inversió > investimento, inversione -->
+  <rule weight="0.6">
+     <match lemma="inversió" tags="n.*"><select lemma="investimento"/></match>
+  </rule>
+
+  <!-- granota > rana, tuta -->
+  <rule weight="0.6">
+     <match lemma="granota" tags="n.*"><select lemma="rana"/></match>
+  </rule>
+
+  <!-- croat > croato, crociato -->
   <rule weight="0.6">
      <match lemma="croat" tags="n.*"><select lemma="croato"/></match>
   </rule>
 
-  <!-- aficionat > tifoso, amatore -->
+  <!-- banc > banca, banco, panchina -->
+  <rule weight="0.6">
+     <match lemma="banc" tags="n.*"><select lemma="banca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="banc" tags="n.*"><select lemma="panchina"/></match>
+     <match tags="pr"/>
+     <match lemma="parc" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="banc" tags="n.*"><select lemma="panchina"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="fusta" tags="n.*"/>
+  </rule>
 
+  <!-- aficionat > tifoso, amatore -->
   <rule weight="0.6">
      <match lemma="aficionat" tags="n.*"><select lemma="tifoso"/></match>
   </rule>
 
   <!-- plana > pianura, pagina -->
-
   <rule weight="0.6">
      <match lemma="plana" tags="n.*"><select lemma="pianura"/></match>
   </rule>
@@ -2667,7 +2766,6 @@
   </rule>
 
   <!-- golf > golfo, golf --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="golf" tags="n.*"><select lemma="golfo"/></match>
   </rule>
@@ -2685,7 +2783,6 @@
   </rule>
 
   <!-- tassa > tassa, tassu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
   </rule>
@@ -2695,7 +2792,6 @@
   </rule>
 
   <!-- curs > cursu, annu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="curs" tags="n.*"><select lemma="cursu"/></match>
   </rule>
@@ -2712,7 +2808,6 @@
   </rule>
 
   <!-- dona > fèmina, mugere --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="dona" tags="n.*"><select lemma="fèmina"/></match>
   </rule>
@@ -2733,7 +2828,6 @@
   </rule>
 
   <!-- home > òmine, maridu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="home" tags="n.*"><select lemma="òmine"/></match>
   </rule>
@@ -2754,7 +2848,6 @@
   </rule>
 
   <!-- eixida > essida, corte --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="eixida" tags="n.*"><select lemma="essida"/></match>
   </rule>
@@ -2770,8 +2863,7 @@
 # cops forts, cop molt dur, cops al pit
 -->
 
-<!-- cop > corfu, bia --> <!-- srd -->
-
+  <!-- cop > corfu, bia --> <!-- srd -->
   <rule weight="0.6">
      <match lemma="cop" tags="n.*"><select lemma="bia"/></match>
   </rule>
@@ -2794,7 +2886,6 @@
   </rule>
 
   <!-- paper > pabiru, ruolu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
   </rule>
@@ -2851,7 +2942,6 @@
   </rule>
 
   <!-- recurs > risorsa, ricursu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="recurs" tags="n.*"><select lemma="risorsa"/></match>
   </rule>
@@ -2889,7 +2979,6 @@
   </rule>
 
   <!-- carta > lettera, carta -->
-
   <rule weight="0.6">
      <match lemma="carta" tags="n.*"><select lemma="lettera"/></match>
   </rule>
@@ -2916,7 +3005,6 @@
   </rule>
 
   <!-- càrrec > càrrigu, incàrrigu, funtzionàriu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="càrrec" tags="n.*"><select lemma="càrrigu"/></match>
   </rule>
@@ -2929,7 +3017,6 @@
   </rule>
 
   <!-- matrícula > matrìcula, targa --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="matrícula" tags="n.*"><select lemma="matrìcula"/></match>
   </rule>
@@ -2940,7 +3027,6 @@
   </rule>
 
   <!-- infant > pipiu, prìntzipe --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="infant" tags="n.*"><select lemma="pipiu"/></match>
   </rule>
@@ -2954,7 +3040,6 @@
   </rule>
 
   <!-- cambra > aposentu, càmera --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="cambra" tags="n.*"><select lemma="aposentu"/></match>
   </rule>
@@ -2964,7 +3049,6 @@
   </rule>
 
   <!-- mosso > camerieri, mosso --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="mosso" tags="n.*"><select lemma="camerieri"/></match>
   </rule>
@@ -2978,7 +3062,6 @@
   </rule>
 
   <!-- costat > costàgiu, ala --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="costat" tags="n.*"><select lemma="costàgiu"/></match>
   </rule>
@@ -2990,7 +3073,6 @@
   </rule>
 
   <!-- poble > paese, popolo -->
-
   <rule weight="0.6">
      <match lemma="poble" tags="n.*"><select lemma="paese"/></match>
   </rule>
@@ -3000,7 +3082,6 @@
   </rule>
 
   <!-- banda > banda, ala --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="banda" tags="n.*"><select lemma="banda"/></match>
   </rule>
@@ -3012,7 +3093,6 @@
   </rule>
 
   <!-- pinya > pigna, ananassu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
   </rule>
@@ -3022,7 +3102,6 @@
   </rule>
 
   <!-- lira > lira (música), francu (moneda) --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="lira" tags="n.*"><select lemma="lira"/></match>
   </rule>
@@ -3036,7 +3115,6 @@
   </rule>
 
   <!-- còlera > colera, arrennegu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="còlera" tags="n.mf.*"><select lemma="colera"/></match>
   </rule>
@@ -3055,7 +3133,6 @@
   </rule>
 
   <!-- policia > politzia, politziotu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="policia" tags="n.*"><select lemma="politzia"/></match>
   </rule>
@@ -3080,7 +3157,6 @@
   </rule>
 
   <!-- got > goto, bicchiere -->
-
   <rule weight="0.6">
      <match lemma="got" tags="n.*"><select lemma="goto"/></match>
   </rule>
@@ -3095,7 +3171,6 @@
   </rule>
 
   <!-- guàrdia > guardia, poliziotto -->
-
   <rule weight="0.6">
      <match lemma="guàrdia" tags="n.*"><select lemma="guardia"/></match>
   </rule>
@@ -3105,7 +3180,6 @@
   </rule>
 
   <!-- xic (n) > pitzocu, pagu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="xic" tags="n.m.*"><select lemma="pitzocu"/></match>
   </rule>
@@ -3120,7 +3194,6 @@
   </rule>
 
   <!-- caragol, cargol (n) > corrobaca, vite --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="caragol" tags="n.m.*"><select lemma="corrobaca"/></match>
   </rule>
@@ -3173,7 +3246,6 @@
   </rule>
 
   <!-- tret > caraterìstica, disparu --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="tret" tags="n.*"><select lemma="caraterìstica"/></match>
   </rule>
@@ -3183,7 +3255,6 @@
   </rule>
 
   <!-- taula > caraterìstica, tabella --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="taula" tags="n.*"><select lemma="mesa"/></match>
   </rule>
@@ -3263,7 +3334,6 @@
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
-
   <rule weight="0.6">
      <match lemma="Virgili" tags="np.*"><select lemma="Virgilio"/></match>
   </rule>
@@ -3278,7 +3348,6 @@
   </rule>
 
 <!-- Jesús > Gesù, Jesús -->
-
   <rule weight="0.6">
      <match lemma="Jesús" tags="np.*"><select lemma="Gesù"/></match>
   </rule>

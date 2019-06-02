@@ -294,7 +294,7 @@
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
     <def-macro name="verb_nopron_pron">
-      <rule weight="0.8">
+      <rule weight="0.6">
         <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
       </rule>
       <rule weight="1.0">
@@ -397,7 +397,7 @@
 <!-- **************** ADJ **************** -->
 
 <!-- rosso > vermell, negre -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="rosso" tags="adj.*"><select lemma="vermell" tags="adj.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -406,7 +406,7 @@
   </rule>
 
 <!-- caro > car, benvolgut -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="caro" tags="adj.*"><select lemma="car" tags="adj.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -420,7 +420,7 @@
 <!-- **************** N **************** -->
 
   <!-- stagione > estació, temporada -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -439,18 +439,72 @@
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
 
+  <!-- loggia > lògia, llotja -->
+  <rule weight="0.6">
+    <match lemma="loggia" tags="n.*"><select lemma="lògia"/></match>
+  </rule>
+
+  <!-- insegna > insígnia, condecoració -->
+  <rule weight="0.6">
+    <match lemma="insegna" tags="n.*"><select lemma="insígnia"/></match>
+  </rule>
+
+  <!-- relatore > relator, ponent -->
+  <rule weight="0.6">
+    <match lemma="relatore" tags="n.*"><select lemma="ponent"/></match>
+  </rule>
+
+  <!-- cazzo > tita, colló -->
+  <rule weight="0.6">
+    <match lemma="cazzo" tags="n.*"><select lemma="tita"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="che"/>
+    <match lemma="cazzo" tags="n.m.sg"><select lemma="colló" tags="n.m.pl"/></match>
+  </rule>
+
+  <!-- lunghezza > llargada, longitud-->
+  <rule weight="0.6">
+    <match lemma="lunghezza" tags="n.*"><select lemma="longitud"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="lunghezza" tags="n.*"><select lemma="longitud"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="onda" tags="n.*"/>
+  </rule>
+
+  <!-- longitudine > longitud, llargada -->
+  <rule weight="0.6">
+    <match lemma="longitudine" tags="n.*"><select lemma="longitud"/></match>
+  </rule>
+
+  <!-- leva > palanca, lleva -->
+  <rule weight="0.6">
+    <match lemma="leva" tags="n.*"><select lemma="palanca"/></match>
+  </rule>
+
+  <!-- cerniera > cremallera, frontissa -->
+  <rule weight="0.6">
+    <match lemma="cerniera" tags="n.*"><select lemma="cremallera"/></match>
+  </rule>
+
   <!-- giro > volta, gir -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="giro" tags="n.*"><select lemma="volta" tags="n.*"/></match>
   </rule>
 
+  <!-- briciola > engruna, molla -->
+  <rule weight="0.6">
+    <match lemma="briciola" tags="n.*"><select lemma="engruna" tags="n.*"/></match>
+  </rule>
+
   <!-- nipote > nét, nebot -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="nipote" tags="n.*"><select lemma="nét" tags="n.*"/></match>
   </rule>
 
   <!-- macchina > màquina, cotxe -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="macchina" tags="n.*"><select lemma="màquina" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -463,13 +517,25 @@
     <match lemma="macchina" tags="n.*"><select lemma="cotxe" tags="n.*"/></match>
   </rule>
 
+  <!-- ragazzo > noi, xicot -->
+  <rule weight="0.6">
+    <match lemma="ragazzo" tags="n.*"><select lemma="noi" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+     <repeat from="0" upto="1">
+       <match tags="adj.*"/>
+     </repeat>
+    <match lemma="ragazzo" tags="n.*"><select lemma="xicot" tags="n.*"/></match>
+  </rule>
+
   <!-- stella > estrella, estel, estrela -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="stella" tags="n.*"><select lemma="estrella" tags="n.*"/></match>
   </rule>
 
   <!-- piano > pla, pis -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="piano" tags="n.*"><select lemma="pla" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -482,10 +548,10 @@
   </rule>
 
   <!-- corso > carrer, cors -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="corso" tags="n.m.sg"><select lemma="curs" tags="n.m.sg"/></match>
   </rule>
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="corso" tags="n.m.pl"><select lemma="cors" tags="n.m.pl"/></match>
   </rule>
   <rule weight="1.0">
@@ -503,14 +569,14 @@
   </rule>
 
   <!-- paese > país, poble -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="paese" tags="n.*"><select lemma="país" tags="n.*"/></match>
   </rule>
 
 <!-- **************** V **************** -->
 
   <!-- confinare > confinar, limitar -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="confinare" tags="vblex.*"><select lemma="confinar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -537,7 +603,7 @@
   </rule>
 
   <!-- disciplinare > disciplinar, reglamentar -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="disciplinare" tags="vblex.*"><select lemma="disciplinar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -552,7 +618,7 @@
   <macro name="verb_nopron_pron" p1="chiamare" p2="cridar" p3="dir"/>
 
   <!-- tentare > temptar, intentar -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="tentare" tags="vblex.*"><select lemma="temptar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -561,7 +627,7 @@
   </rule>
   
   <!-- essere > ser, estar -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -607,7 +673,7 @@
 <!-- **************** PR **************** -->
 
   <!-- da > de, per -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
@@ -616,7 +682,7 @@
   </rule>
 
   <!-- su > sobre, de -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="su" tags="pr"><select lemma="sobre" tags="pr"/></match>
   </rule>
   <!-- due volte su cinque >> dues vegades DE cinc -->
@@ -628,7 +694,7 @@
   </rule>
 
   <!-- a >> a, en, de -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
@@ -644,7 +710,7 @@
   </rule>
 
   <!-- in >> en, a -->
-  <rule weight="0.8">
+  <rule weight="0.6">
     <match lemma="in" tags="pr"><select lemma="en"/></match>
   </rule>
   <rule weight="1.0">
@@ -697,6 +763,7 @@
       <match lemma="Estonia"/>
       <match lemma="Bielorussia"/>
       <match lemma="Grecia"/>
+      <match lemma="Cipro"/>
       <match lemma="Inghilterra"/>
       <match lemma="Scozia"/>
       <match lemma="Russia"/>
@@ -705,6 +772,10 @@
       <match lemma="Croacia"/>
       <match lemma="Serbia"/>
       <match lemma="Cina"/>
+      <match lemma="Giappone"/>
+      <match lemma="Corea"/>
+      <match lemma="Corea del Nord"/>
+      <match lemma="Corea del Sud"/>
       <match lemma="India"/>
       <match lemma="Turchia"/>
       <match lemma="Iraq"/>
@@ -716,15 +787,19 @@
       <match lemma="Palestina"/>
       <match lemma="Africa"/>
       <match lemma="America"/>
-      <match lemma="America centrale"/>
-      <match lemma="Nord America"/>
-      <match lemma="Sud America"/>
+      <match lemma="America Centrale"/>
+      <match lemma="America latina"/>
+      <match lemma="America del Nord"/>
+      <match lemma="America del Sud"/>
+      <match lemma="Americhe"/>
       <match lemma="Asia"/>
       <match lemma="Europa"/>
       <match lemma="Oceania"/>
       <match lemma="Australia"/>
       <match lemma="occidente"/>
       <match lemma="oriente"/>
+
+      <match lemma="Canarie"/>
 
       <match lemma="regione" tags="n.*"/>
       <match lemma="dipartimento" tags="n.*"/>
