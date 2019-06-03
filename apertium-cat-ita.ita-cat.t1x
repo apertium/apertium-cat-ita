@@ -3675,9 +3675,9 @@
         <pattern-item n="mese"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="dia-de-mes">
             <tags>
@@ -3911,9 +3911,9 @@
         <pattern-item n="mese"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="det-dia-de-mes">
             <tags>
@@ -4895,9 +4895,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="mes-de-any">
             <tags>
@@ -4934,9 +4934,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="det-mes-de-any">
             <tags>
@@ -4980,9 +4980,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-mes-de-any">
@@ -5027,9 +5027,9 @@
         <pattern-item n="mese"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes">
@@ -5073,9 +5073,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="dia-de-mes-de-any">
             <tags>
@@ -5125,9 +5125,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <out>
           <chunk name="det-dia-de-mes-de-any">
             <tags>
@@ -5183,9 +5183,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes-de-any">
@@ -5240,9 +5240,9 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-any">
