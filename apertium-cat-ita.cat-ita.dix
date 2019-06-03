@@ -8093,6 +8093,36 @@
 <e>       <p><l>seda<s n="n"/></l>                     <r>seta<s n="n"/></r></p></e>
 <e>       <p><l>segell<s n="n"/></l>                   <r>francobollo<s n="n"/></r></p></e>
 <e>       <p><l>segle<s n="n"/></l>                    <r>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>I<s n="n"/></l>               <r>I<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>II<s n="n"/></l>              <r>II<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>III<s n="n"/></l>             <r>III<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>IV<s n="n"/></l>              <r>IV<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>V<s n="n"/></l>               <r>V<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>VI<s n="n"/></l>              <r>VI<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>VII<s n="n"/></l>             <r>VII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>VIII<s n="n"/></l>            <r>VIII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>IX<s n="n"/></l>              <r>IX<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>X<s n="n"/></l>               <r>X<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XI<s n="n"/></l>              <r>XI<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XII<s n="n"/></l>             <r>XII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XIII<s n="n"/></l>            <r>XIII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XIV<s n="n"/></l>             <r>XIV<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XV<s n="n"/></l>              <r>XV<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XVI<s n="n"/></l>             <r>XVI<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XVII<s n="n"/></l>            <r>XVII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XVIII<s n="n"/></l>           <r>XVIII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XIX<s n="n"/></l>             <r>XIX<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XX<s n="n"/></l>              <r>XX<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXI<s n="n"/></l>             <r>XXI<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXII<s n="n"/></l>            <r>XXII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXIII<s n="n"/></l>           <r>XXIII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXIV<s n="n"/></l>            <r>XXIV<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXV<s n="n"/></l>             <r>XXV<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXVI<s n="n"/></l>            <r>XXVI<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXVII<s n="n"/></l>           <r>XXVII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXVIII<s n="n"/></l>          <r>XXVIII<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXIX<s n="n"/></l>            <r>XXIX<b/>secolo<s n="n"/></r></p></e>
+<e>       <p><l>segle<b/>XXX<s n="n"/></l>             <r>XXX<b/>secolo<s n="n"/></r></p></e>
 <e>       <p><l>segment<s n="n"/></l>                  <r>segmento<s n="n"/></r></p></e>
 <e>       <p><l>segon<s n="n"/><s n="m"/></l>          <r>secondo<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>segon<s n="n"/><s n="m"/></l>          <r>secondo<s n="n"/><s n="f"/></r></p></e>
@@ -8133,6 +8163,7 @@
 <e r="LR"><p><l>servici<s n="n"/></l>                  <r>servizio<s n="n"/></r></p></e>
 <e>       <p><l>servidor<s n="n"/></l>                 <r>servo<s n="n"/></r></p></e>
 <e>       <p><l>servitud<s n="n"/><s n="f"/></l>       <r>servitù<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>set<s n="n"/><s n="f"/><s n="sg"/></l> <r>sete<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>setembre<s n="n"/></l>                 <r>settembre<s n="n"/></r></p></e>
 <e>       <p><l>setge<s n="n"/></l>                    <r>assedio<s n="n"/></r></p></e>
 <e>       <p><l>setmana<s n="n"/></l>                  <r>settimana<s n="n"/></r></p></e>
