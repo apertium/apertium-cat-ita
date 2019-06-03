@@ -3725,6 +3725,17 @@
 <e>       <p><l>huitanta-dos<s n="num"/></l>           <r>ottantadue<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>norantados<s n="num"/></l>             <r>novantadue<s n="num"/></r></p><par n="GD_mf"/></e>
 
+<e><p><l>cinc-cents<s n="num"/></l><r>cinquecento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>dos-cents<s n="num"/></l><r>duecento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>nou-cents<s n="num"/></l><r>novecento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>vuit-cents<s n="num"/></l><r>ottocento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e r="LR"><p><l>huit-cents<s n="num"/></l><r>ottocento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>quatre-cents<s n="num"/></l><r>quattrocento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sis-cents<s n="num"/></l><r>seicento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>set-cents<s n="num"/></l><r>settecento<s n="num"/></r></p><par n="GD_mf"/></e>
+<e><p><l>tres-cents<s n="num"/></l><r>trecento<s n="num"/></r></p><par n="GD_mf"/></e>
+
+
 
 <e>       <p><l>BBVA<s n="n"/></l>                     <r>BBVA<s n="n"/></r></p></e>
 <e>       <p><l>Dr<s n="n"/><s n="n"/><s n="f"/><s n="sg"/></l><r>Dr<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -9227,6 +9238,15 @@
 
 <e a="hector"><p><l>sobre<s n="n"/><s n="m"/></l><r>busta<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>pedaç<s n="n"/><s n="m"/></l><r>rammendo<s n="n"/><s n="m"/></r></p></e>
+
+<e r="RL"><p><l>segle<b/>XVI<s n="n"/><s n="m"/><s n="sg"/></l><r>Cinquecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XIII<s n="n"/><s n="m"/><s n="sg"/></l><r>Duecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XX<s n="n"/><s n="m"/><s n="sg"/></l><r>Novecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XIX<s n="n"/><s n="m"/><s n="sg"/></l><r>Ottocento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XV<s n="n"/><s n="m"/><s n="sg"/></l><r>Quattrocento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XVII<s n="n"/><s n="m"/><s n="sg"/></l><r>Seicento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XVIII<s n="n"/><s n="m"/><s n="sg"/></l><r>Settecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XIV<s n="n"/><s n="m"/><s n="sg"/></l><r>Trecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 <!-- xxxx -->
 
