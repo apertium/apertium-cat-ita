@@ -209,6 +209,46 @@
        <cat-item lemma="novembre" tags="n.*"/>
        <cat-item lemma="desembre" tags="n.*"/>
     </def-cat>
+    <def-cat n="num_roma"> <!-- algun error fa que els lemes s'hagin de posar en minúscules, o bé no es reconeixen -->
+       <cat-item lemma="i" tags="num.*"/>
+       <cat-item lemma="ii" tags="num.*"/>
+       <cat-item lemma="iii" tags="num.*"/>
+       <cat-item lemma="iv" tags="num.*"/>
+       <cat-item lemma="v" tags="num.*"/>
+       <cat-item lemma="vi" tags="num.*"/>
+       <cat-item lemma="vii" tags="num.*"/>
+       <cat-item lemma="viii" tags="num.*"/>
+       <cat-item lemma="ix" tags="num.*"/>
+       <cat-item lemma="x" tags="num.*"/>
+       <cat-item lemma="xi" tags="num.*"/>
+       <cat-item lemma="xii" tags="num.*"/>
+       <cat-item lemma="xiii" tags="num.*"/>
+       <cat-item lemma="xiv" tags="num.*"/>
+       <cat-item lemma="xv" tags="num.*"/>
+       <cat-item lemma="xvi" tags="num.*"/>
+       <cat-item lemma="xvii" tags="num.*"/>
+       <cat-item lemma="xviii" tags="num.*"/>
+       <cat-item lemma="xix" tags="num.*"/>
+       <cat-item lemma="xx" tags="num.*"/>
+       <cat-item lemma="xxi" tags="num.*"/>
+       <cat-item lemma="xxi" tags="num.*"/>
+       <cat-item lemma="xxii" tags="num.*"/>
+       <cat-item lemma="xxiii" tags="num.*"/>
+       <cat-item lemma="xxiv" tags="num.*"/>
+       <cat-item lemma="xxv" tags="num.*"/>
+       <cat-item lemma="xxvi" tags="num.*"/>
+       <cat-item lemma="xxvii" tags="num.*"/>
+       <cat-item lemma="xxviii" tags="num.*"/>
+       <cat-item lemma="xxix" tags="num.*"/>
+       <cat-item lemma="xxx" tags="num.*"/>
+    </def-cat>
+    <def-cat n="segle_sg">
+       <cat-item lemma="segle" tags="n.m.sg"/>
+    </def-cat>
+    <def-cat n="periode">
+       <cat-item lemma="segle" tags="n.*"/>
+       <cat-item lemma="any" tags="n*"/>
+    </def-cat>
 
     <def-cat n="sent">
        <cat-item lemma="." tags="sent"/>
@@ -1672,6 +1712,72 @@
     </rule>
 
     <!-- REGLES SN -->
+
+    <!-- regles segles -->
+    <rule comment="regla: segle num_roma : segle I > I secolo ">
+      <pattern>
+        <pattern-item n="segle_sg"/>
+        <pattern-item n="num_roma"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="segle_num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: det segle num_rom: el segle I > il I secolo I">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="segle_sg"/>
+        <pattern-item n="num_roma"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="det_segle_num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: DET NOM">
       <pattern>
