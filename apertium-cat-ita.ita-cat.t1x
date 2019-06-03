@@ -233,6 +233,49 @@
        <cat-item lemma="novembre" tags="n.*"/>
        <cat-item lemma="dicembre" tags="n.*"/>
     </def-cat>
+    <def-cat n="secolo">
+       <cat-item lemma="secolo" tags="n.*"/>
+    </def-cat>
+    <def-cat n="secolo_sg">
+       <cat-item lemma="secolo" tags="n.m.sg"/>
+    </def-cat>
+    <def-cat n="num_romano"> <!-- algun error fa que els lemes s'hagin de posar en minúscules, o bé no es reconeixen -->
+       <cat-item lemma="i" tags="num.*"/>
+       <cat-item lemma="ii" tags="num.*"/>
+       <cat-item lemma="iii" tags="num.*"/>
+       <cat-item lemma="iv" tags="num.*"/>
+       <cat-item lemma="v" tags="num.*"/>
+       <cat-item lemma="vi" tags="num.*"/>
+       <cat-item lemma="vii" tags="num.*"/>
+       <cat-item lemma="viii" tags="num.*"/>
+       <cat-item lemma="ix" tags="num.*"/>
+       <cat-item lemma="x" tags="num.*"/>
+       <cat-item lemma="xi" tags="num.*"/>
+       <cat-item lemma="xii" tags="num.*"/>
+       <cat-item lemma="xiii" tags="num.*"/>
+       <cat-item lemma="xiv" tags="num.*"/>
+       <cat-item lemma="xv" tags="num.*"/>
+       <cat-item lemma="xvi" tags="num.*"/>
+       <cat-item lemma="xvii" tags="num.*"/>
+       <cat-item lemma="xviii" tags="num.*"/>
+       <cat-item lemma="xix" tags="num.*"/>
+       <cat-item lemma="xx" tags="num.*"/>
+       <cat-item lemma="xxi" tags="num.*"/>
+       <cat-item lemma="xxi" tags="num.*"/>
+       <cat-item lemma="xxii" tags="num.*"/>
+       <cat-item lemma="xxiii" tags="num.*"/>
+       <cat-item lemma="xxiv" tags="num.*"/>
+       <cat-item lemma="xxv" tags="num.*"/>
+       <cat-item lemma="xxvi" tags="num.*"/>
+       <cat-item lemma="xxvii" tags="num.*"/>
+       <cat-item lemma="xxviii" tags="num.*"/>
+       <cat-item lemma="xxix" tags="num.*"/>
+       <cat-item lemma="xxx" tags="num.*"/>
+    </def-cat>
+    <def-cat n="periode">
+       <cat-item lemma="segle" tags="n.*"/>
+       <cat-item lemma="any" tags="n*"/>
+    </def-cat>
 
     <def-cat n="sent">
        <cat-item lemma="." tags="sent"/>
@@ -3247,7 +3290,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="adv" case="caseFirstWord">
+          <chunk name="Sadv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="adv"/></tag>
             </tags>
@@ -3305,6 +3348,126 @@
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: num_romano secolo: I secolo > segle I">
+      <pattern>
+        <pattern-item n="num_romano"/>
+        <pattern-item n="secolo_sg"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="segle_num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: det num_romano secolo: il I secolo > el segle I">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="num_romano"/>
+        <pattern-item n="secolo_sg"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="det_segle_num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: pr det num_romano cnjcoo det num_romano secolo: tra il XII e il XIV secolo > entre el segle XII i el XIV">
+      <pattern>
+        <pattern-item n="pr"/>
+        <pattern-item n="det"/>
+        <pattern-item n="num_romano"/>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="det"/>
+        <pattern-item n="num_romano"/>
+        <pattern-item n="secolo"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="pr_det_segle_num_cnjcoo_det_num">
+            <tags>
+              <tag><lit-tag v="adv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="7" side="tl" part="lemh"/>
+              <clip pos="7" side="tl" part="tags"/>
+              <clip pos="7" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+            <b pos="5"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+            <b pos="6"/>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
@@ -4714,6 +4877,8 @@
       </action>
     </rule>
 
+    <!-- REGLES data (n'hi algunes més a dalt per donar-los preferència -->
+
     <rule comment="regla: mes anno: maggio 2017 > maig de 2017">
       <pattern>
         <pattern-item n="mese"/>
@@ -5439,7 +5604,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out> <!-- aquest ordre estrany s per les maj-->
-        <chunk name="adv" case="caseFirstWord">
+        <chunk name="Sadv" case="caseFirstWord">
                 <tags>
                         <tag><clip pos="2" side="tl" part="a_adv"/></tag>
                 </tags>
@@ -5511,7 +5676,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out> <!-- aquest ordre estrany s per les maj-->
-        <chunk name="adv" case="caseFirstWord">
+        <chunk name="Sadv" case="caseFirstWord">
                 <tags>
                         <tag><clip pos="3" side="tl" part="a_adv"/></tag>
                 </tags>

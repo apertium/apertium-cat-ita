@@ -8093,7 +8093,7 @@
 <e>       <p><l>seda<s n="n"/></l>                     <r>seta<s n="n"/></r></p></e>
 <e>       <p><l>segell<s n="n"/></l>                   <r>francobollo<s n="n"/></r></p></e>
 <e>       <p><l>segle<s n="n"/></l>                    <r>secolo<s n="n"/></r></p></e>
-<e>       <p><l>segle<b/>I<s n="n"/></l>               <r>I<b/>secolo<s n="n"/></r></p></e>
+<e i="yes"><p><l>segle<b/>I<s n="n"/></l>               <r>I<b/>secolo<s n="n"/></r></p></e>
 <e i="yes"><p><l>segle<b/>II<s n="n"/></l>              <r>II<b/>secolo<s n="n"/></r></p></e>
 <e i="yes"><p><l>segle<b/>III<s n="n"/></l>             <r>III<b/>secolo<s n="n"/></r></p></e>
 <e i="yes"><p><l>segle<b/>IV<s n="n"/></l>              <r>IV<b/>secolo<s n="n"/></r></p></e>
