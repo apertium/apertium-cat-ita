@@ -247,7 +247,7 @@
     </def-cat>
     <def-cat n="periode">
        <cat-item lemma="segle" tags="n.*"/>
-       <cat-item lemma="any" tags="n*"/>
+       <cat-item lemma="any" tags="n.*"/>
     </def-cat>
 
     <def-cat n="sent">
