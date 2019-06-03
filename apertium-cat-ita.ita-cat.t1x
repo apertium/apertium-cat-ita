@@ -128,6 +128,10 @@
       <cat-item tags="vbser.cni.p3.pl"/>
     </def-cat>
 
+    <def-cat n="fa">
+      <cat-item lemma="fare" tags="vblex.pri.p3.sg"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -272,9 +276,15 @@
        <cat-item lemma="xxix" tags="num.*"/>
        <cat-item lemma="xxx" tags="num.*"/>
     </def-cat>
-    <def-cat n="periode">
-       <cat-item lemma="segle" tags="n.*"/>
-       <cat-item lemma="any" tags="n*"/>
+    <def-cat n="periodo">
+       <cat-item lemma="secondo" tags="n.*"/>
+       <cat-item lemma="minuto" tags="n.*"/>
+       <cat-item lemma="ora" tags="n.*"/>
+       <cat-item lemma="giorno" tags="n.*"/>
+       <cat-item lemma="settimana" tags="n.*"/>
+       <cat-item lemma="mese" tags="n.*"/>
+       <cat-item lemma="anno" tags="n.*"/>
+       <cat-item lemma="secolo" tags="n.*"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -3659,7 +3669,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: giorno mes: 26 maggio > 26 de maig ">
+    <rule comment="regla: giorno mese: 26 maggio > 26 de maig ">
       <pattern>
         <pattern-item n="giorno"/>
         <pattern-item n="mese"/>
@@ -3894,7 +3904,7 @@
     </rule>
 
 
-    <rule comment="regla: det giorno mes: il 26 maggio > el 26 de maig ">
+    <rule comment="regla: det giorno mese: il 26 maggio > el 26 de maig ">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="giorno"/>
@@ -4917,7 +4927,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det mes anno: il maggio 2017 > el maig de 2017">
+    <rule comment="regla: det mese anno: il maggio 2017 > el maig de 2017">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="mese"/>
@@ -4962,7 +4972,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: in det mes anno: nel maggio 2017 > el maig de 2017">
+    <rule comment="regla: in det mese anno: nel maggio 2017 > el maig de 2017">
       <pattern>
         <pattern-item n="in"/>
         <pattern-item n="det"/>
@@ -4977,9 +4987,7 @@
         <out>
           <chunk name="det-mes-de-any">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="genero"/></tag>
-              <tag><var n="numero"/></tag>
+              <tag><lit-tag v="adv"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
@@ -5011,7 +5019,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: in det giorno mes: nel 26 maggio > el 26 de maig ">
+    <rule comment="regla: in det giorno mese: nel 26 maggio > el 26 de maig ">
       <pattern>
         <pattern-item n="in"/>
         <pattern-item n="det"/>
@@ -5026,9 +5034,7 @@
         <out>
           <chunk name="det-dia-de-mes">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="genero"/></tag>
-              <tag><var n="numero"/></tag>
+              <tag><lit-tag v="adv"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
@@ -5060,7 +5066,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: giorno mes anno: 26 maggio 2017 > 26 de maig de 2017">
+    <rule comment="regla: giorno mese anno: 26 maggio 2017 > 26 de maig de 2017">
       <pattern>
         <pattern-item n="giorno"/>
         <pattern-item n="mese"/>
@@ -5111,7 +5117,7 @@
     </rule>
 
     
-    <rule comment="regla: det giorno mes anno: il 26 maggio 2017 > el 26 de maig 2017">
+    <rule comment="regla: det giorno mese anno: il 26 maggio 2017 > el 26 de maig 2017">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="giorno"/>
@@ -5168,7 +5174,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: in det giorno mes anno: nel 26 maggio 2017 > el 26 de maig 2017">
+    <rule comment="regla: in det giorno mese anno: nel 26 maggio 2017 > el 26 de maig 2017">
       <pattern>
         <pattern-item n="in"/>
         <pattern-item n="det"/>
@@ -5184,9 +5190,7 @@
         <out>
           <chunk name="det-dia-de-mes-de-any">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="genero"/></tag>
-              <tag><var n="numero"/></tag>
+              <tag><lit-tag v="adv"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
@@ -5236,15 +5240,14 @@
         <pattern-item n="anno"/>
       </pattern>
       <action>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-any">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="m"/></tag>
-              <tag><lit-tag v="sg"/></tag>
+              <tag><lit-tag v="adv"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
@@ -5258,6 +5261,49 @@
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="tags"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: num periodo fa: tre anni fa > fa tres anys">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="periodo"/>
+        <pattern-item n="fa"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="det-any">
+            <tags>
+              <tag><lit-tag v="adv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="3" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
