@@ -9247,14 +9247,15 @@
 <e a="hector"><p><l>sobre<s n="n"/><s n="m"/></l><r>busta<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>pedaç<s n="n"/><s n="m"/></l><r>rammendo<s n="n"/><s n="m"/></r></p></e>
 
-<e r="RL"><p><l>segle<b/>XVI<s n="n"/><s n="m"/><s n="sg"/></l><r>Cinquecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>segle<b/>XIII<s n="n"/><s n="m"/><s n="sg"/></l><r>Duecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>segle<b/>XX<s n="n"/><s n="m"/><s n="sg"/></l><r>Novecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>segle<b/>XIX<s n="n"/><s n="m"/><s n="sg"/></l><r>Ottocento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XIV<s n="n"/><s n="m"/><s n="sg"/></l><r>Trecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>segle<b/>XV<s n="n"/><s n="m"/><s n="sg"/></l><r>Quattrocento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XVI<s n="n"/><s n="m"/><s n="sg"/></l><r>Cinquecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>segle<b/>XVII<s n="n"/><s n="m"/><s n="sg"/></l><r>Seicento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>segle<b/>XVIII<s n="n"/><s n="m"/><s n="sg"/></l><r>Settecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>segle<b/>XIV<s n="n"/><s n="m"/><s n="sg"/></l><r>Trecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XIX<s n="n"/><s n="m"/><s n="sg"/></l><r>Ottocento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XX<s n="n"/><s n="m"/><s n="sg"/></l><r>Novecento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segle<b/>XXI<s n="n"/><s n="m"/><s n="sg"/></l><r>Duemila<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -26064,6 +26065,14 @@
 <e r="LR"><p><l>dos<s n="num"/><s n="f"/><s n="sp"/></l><r>due<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>DOS<s n="n"/><s n="acr"/></l>          <r>DOS<s n="n"/><s n="acr"/></r></p></e>
 <e>       <p><l>mil<s n="num"/></l>                    <r>mille<s n="num"/></r></p></e>
+<e>       <p><l>dos<b/>mil<s n="num"/></l>             <r>duemila<s n="num"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>tres<b/>mil<s n="num"/></l>            <r>tremila<s n="num"/></r></p></e>
+<e>       <p><l>quatre<b/>mil<s n="num"/></l>          <r>quattromila<s n="num"/></r></p></e>
+<e>       <p><l>cinc<b/>mil<s n="num"/></l>            <r>cinquemila<s n="num"/></r></p></e>
+<e>       <p><l>sis<b/>mil<s n="num"/></l>             <r>seimila<s n="num"/></r></p></e>
+<e>       <p><l>set<b/>mil<s n="num"/></l>             <r>settemila<s n="num"/></r></p></e>
+<e>       <p><l>vuit<b/>mil<s n="num"/></l>            <r>ottomila<s n="num"/></r></p></e>
+<e>       <p><l>nou<b/>mil<s n="num"/></l>             <r>novemila<s n="num"/></r></p></e>
 <e>       <p><l>u<s n="num"/></l>                      <r>uno<s n="num"/></r></p></e>
 <e>       <p><l>zero<s n="num"/><s n="m"/><s n="sp"/></l><r>zero<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
