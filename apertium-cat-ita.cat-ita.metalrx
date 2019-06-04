@@ -2721,6 +2721,11 @@
      <match lemma="llotja" tags="n.*"><select lemma="loggia"/></match>
   </rule>
 
+  <!-- paella > paella, padella -->
+  <rule weight="0.6">
+     <match lemma="paella" tags="n.*"><select lemma="paella"/></match>
+  </rule>
+
   <!-- inversió > investimento, inversione -->
   <rule weight="0.6">
      <match lemma="inversió" tags="n.*"><select lemma="investimento"/></match>
