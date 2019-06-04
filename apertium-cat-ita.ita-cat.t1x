@@ -215,6 +215,9 @@
     <def-cat n="pr">
       <cat-item tags="pr"/>
     </def-cat>
+    <def-cat n="da">
+      <cat-item lemma="da" tags="pr"/>
+    </def-cat>
     <def-cat n="in">
       <cat-item lemma="in" tags="pr"/>
     </def-cat>
@@ -437,27 +440,214 @@
 
   <section-def-lists>
     <def-list n="vbambser">
+      <list-item v="accorrere"/>
+      <list-item v="addivenire"/>
+      <list-item v="affiorare"/>
+      <list-item v="allibire"/>
+      <list-item v="ammattire"/>
+      <list-item v="ammuffire"/>
       <list-item v="andare"/>
-      <list-item v="crescere"/>
-      <list-item v="frenare"/>
-      <list-item v="devenire"/>
+      <list-item v="apparire"/>
+      <list-item v="arrivare"/>
+      <list-item v="arrossire"/>
+      <list-item v="assurgere"/>
+      <list-item v="avvizzire"/>
+      <list-item v="balenare"/>
+      <list-item v="bastare"/>
+      <list-item v="cadere"/>
+      <list-item v="capitare"/>
+      <list-item v="cascare"/>
+      <list-item v="comparire"/>
+      <list-item v="costare"/>
+      <list-item v="crollare"/>
+      <list-item v="decadere"/>
+      <list-item v="decedere"/>
+      <list-item v="decorrere"/>
+      <list-item v="decrescere"/>
+      <list-item v="defungere"/>
+      <list-item v="dimagrire"/>
+      <list-item v="dipendere"/>
+      <list-item v="dispiacere"/>
       <list-item v="divenire"/>
-      <list-item v="arrivare"/>
-      <!--<list-item v="morire"/>-->
+      <list-item v="diventare"/>
+      <list-item v="durare"/>
+      <list-item v="emergere"/>
       <list-item v="entrare"/>
-      <list-item v="nascere"/>
-      <list-item v="partire"/>
-      <list-item v="restare"/>
-      <list-item v="venire"/>
-      <list-item v="uscire"/>
-      <list-item v="passare"/>
+      <list-item v="esistere"/>
       <list-item v="essere"/>
+      <list-item v="giacere"/>
+      <list-item v="giungere"/>
+      <list-item v="implodere"/>
+      <list-item v="incorrere"/>
+      <list-item v="insorgere"/>
+      <list-item v="insorgere"/>
+      <list-item v="intervenire"/>
+      <list-item v="morire"/>
+      <list-item v="nascere"/>
+      <list-item v="occorrere"/>
+      <list-item v="parere"/>
+      <list-item v="partire"/>
+      <list-item v="permanere"/>
+      <list-item v="piacere"/>
+      <list-item v="provenire"/>
+      <list-item v="restare"/>
+      <list-item v="ricadere"/>
+      <list-item v="rimanere"/>
+      <list-item v="risorgere"/>
+      <list-item v="risultare"/>
+      <list-item v="ritornare"/>
+      <list-item v="riuscire"/>
+      <list-item v="sbucare"/>
+      <list-item v="scadere"/>
+      <list-item v="scappare"/>
+      <list-item v="scomparire"/>
+      <list-item v="sembrare"/>
+      <list-item v="sfuggire"/>
+      <list-item v="sparire"/>
+      <list-item v="sopraggiungere"/>
+      <list-item v="sopravvenire"/>
+      <list-item v="sorgere"/>
+      <list-item v="sovvenire"/>
+      <list-item v="spiacere"/>
       <list-item v="stare"/>
-      <list-item v="scendere"/>
-      <list-item v="salire"/>
-      <list-item v="sedere"/>
-      <list-item v="arrivare"/>
+      <list-item v="sussistere"/>
+      <list-item v="svanire"/>
+      <list-item v="svenire"/>
+      <list-item v="tornare"/>
+      <list-item v="uscire"/>
+      <list-item v="valere"/>
+      <list-item v="venire"/>
+
+      <list-item v="accedere"/>
+      <list-item v="allunare"/>
+      <list-item v="ammarare"/>
+      <list-item v="annottare"/>
+      <list-item v="appartenere"/>
+      <list-item v="approdare"/>
+      <list-item v="arretrare"/>
+      <list-item v="assomigliare"/>
+      <list-item v="attecchire"/>
+      <list-item v="atterrare"/>
+      <list-item v="brillare"/>
+      <list-item v="calzare"/>
+      <list-item v="campare"/>
+      <list-item v="coincidere"/>
+      <list-item v="combaciare"/>
+      <list-item v="confluire"/>
+      <list-item v="convivere"/>
+      <list-item v="culminare"/>
+      <list-item v="debordare"/>
+      <list-item v="decollare"/>
+      <list-item v="defluire"/>
+      <list-item v="degenerare"/>
+      <list-item v="deragliare"/>
+      <list-item v="dilagare"/>
+      <list-item v="diluviare"/>
+      <list-item v="emigrare"/>
+      <list-item v="equivalere"/>
+      <list-item v="espatriare"/>
+      <list-item v="figurare"/>
+      <list-item v="fioccare"/>
+      <list-item v="garbare"/>
+      <list-item v="germinare"/>
+      <list-item v="germogliare"/>
+      <list-item v="grandinare"/>
+      <list-item v="incespicare"/>
+      <list-item v="inciampare"/>
+      <list-item v="indietreggiare"/>
+      <list-item v="inorridire"/>
+      <list-item v="lampeggiare"/>
+      <list-item v="luccicare"/>
+      <list-item v="marcire"/>
+      <list-item v="maturare"/>
+      <list-item v="migliorare"/>
+      <list-item v="naufragare"/>
+      <list-item v="nevicare"/>
       <list-item v="piovere"/>
+      <list-item v="prevalere"/>
+      <list-item v="procedere"/>
+      <list-item v="rabbrividire"/>
+      <list-item v="rimpatriare"/>
+      <list-item v="risaltare"/>
+      <list-item v="risuonare"/>
+      <list-item v="scivolare"/>
+      <list-item v="somigliare"/>
+      <list-item v="sventolare"/>
+      <list-item v="tramontare"/>
+      <list-item v="vivere"/>
+      <list-item v="zampillare"/>
+
+      <list-item v="accelerare"/>
+      <list-item v="accrescere"/>
+      <list-item v="affievolire"/>
+      <list-item v="affogare"/>
+      <list-item v="affondare"/>
+      <list-item v="agghiacciare"/>
+      <list-item v="ammutolire"/>
+      <list-item v="annegare"/>
+      <list-item v="annerire"/>
+      <list-item v="ardere"/>
+      <list-item v="arretrare"/>
+      <list-item v="arricchire"/>
+      <list-item v="arrugginire"/>
+      <list-item v="asfissiare"/>
+      <list-item v="aumentare"/>
+      <list-item v="avanzare"/>
+      <list-item v="azzittire"/>
+      <list-item v="bruciare"/>
+      <list-item v="calare"/>
+      <list-item v="calzare"/>
+      <list-item v="cambiare"/>
+      <list-item v="centuplicare"/>
+      <list-item v="cessare"/>
+      <list-item v="cicatrizzare"/>
+      <list-item v="colare"/>
+      <list-item v="cominciare"/>
+      <list-item v="continuare"/>
+      <list-item v="convenire"/>
+      <list-item v="correre"/>
+      <list-item v="crepare"/>
+      <list-item v="crescere"/>
+      <list-item v="declinare"/>
+      <list-item v="derivare"/>
+      <list-item v="deviare"/>
+      <list-item v="diminuire"/>
+      <list-item v="discendere"/>
+      <list-item v="evadere"/>
+      <list-item v="esplodere"/>
+      <list-item v="fallire"/>
+      <list-item v="finire"/>
+      <list-item v="fuggire"/>
+      <list-item v="gelare"/>
+      <list-item v="guarire"/>
+      <list-item v="importare"/>
+      <list-item v="ingrassare"/>
+      <list-item v="invecchiare"/>
+      <list-item v="mancare"/>
+      <list-item v="maturare"/>
+      <list-item v="migliorare"/>
+      <list-item v="montare"/>
+      <list-item v="mutare"/>
+      <list-item v="passare"/>
+      <list-item v="peggiorare"/>
+      <list-item v="pesare"/>
+      <list-item v="resuscitare"/>
+      <list-item v="rincarare"/>
+      <list-item v="ringiovanire"/>
+      <list-item v="salire"/>
+      <list-item v="saltare"/>
+      <list-item v="sbarcare"/>
+      <list-item v="scattare"/>
+      <list-item v="scendere"/>
+      <list-item v="schizzare"/>
+      <list-item v="scorrere"/>
+      <list-item v="seguire"/>
+      <list-item v="servire"/>
+      <list-item v="sfumare"/>
+      <list-item v="suonare"/>
+      <list-item v="toccare"/>
+      <list-item v="trascorrere"/>
+      <list-item v="variare"/>
     </def-list>
   </section-def-lists>
 
@@ -2960,35 +3150,34 @@
       </choose>
     </def-macro>
 
-        <def-macro n="f_vauxiliar" npar="2">
-                <choose>
-                        <when>
-                                <test>
-                                        <in caseless="yes"> <!-- comprovem si el vblex s a la llista-->
-                                                <clip pos="2" side="sl" part="lem"/>
-                                                <list n="vbambser"/>
-                                        </in>
-                                </test>
-                                <let>
-                                        <clip pos="1" side="tl" part="lem"/>
-                                        <lit v="haver"/>
-                                </let>
-                                <let>
-                                        <clip pos="1" side="tl" part="a_verb"/>
-                                        <lit-tag v="vaux"/>
-                                </let>
-                                <let> 
-                                        <clip pos="2" side="tl" part="gen"/>
-                                        <lit-tag v="m"/>
-                                </let>
-                                <let>
-                                        <clip pos="2" side="tl" part="nbr"/>
-                                        <lit-tag v="sg"/>
-                                </let>
-                        </when>
-                </choose>
-
-        </def-macro>
+    <def-macro n="f_vauxiliar" npar="2">
+      <choose>
+        <when>
+          <test>
+            <in caseless="yes"> <!-- comprovem si el vblex s a la llista-->
+              <clip pos="2" side="sl" part="lem"/>
+              <list n="vbambser"/>
+            </in>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="haver"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="vaux"/>
+          </let>
+          <let> 
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="m"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="nbr"/>
+            <lit-tag v="sg"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
 
 
   </section-def-macros>
@@ -3410,8 +3599,12 @@
               <tag><var n="numero"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>         
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>         
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
@@ -3451,9 +3644,12 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_det"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>         
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>         
             </lu>
             <b pos="2"/>
             <lu>
@@ -3922,9 +4118,12 @@
               <tag><var n="numero"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
             </lu>
             <b pos="1"/>
             <lu>
@@ -5038,10 +5237,13 @@
             </tags>
             <lu>
               <get-case-from pos="1">
-                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="a_det"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>         
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>         
             </lu>
             <b pos="2"/>
             <lu>
@@ -5136,9 +5338,12 @@
               <tag><var n="numero"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
             </lu>
             <b pos="1"/>
             <lu>
@@ -5194,10 +5399,14 @@
             </tags>
             <lu>
               <get-case-from pos="1">
-                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_det"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>         
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>         
             </lu>
             <b pos="2"/>
             <lu>
@@ -5505,7 +5714,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: vbser + pp"> <!-- sono andata: he anat-->
+  <rule comment="REGLA: vbser + pp (sono andata > he anat)">
       <pattern>
         <pattern-item n="vbser"/>
         <pattern-item n="pp"/>
@@ -5517,6 +5726,44 @@
         <call-macro n="f_vauxiliar">
           <with-param pos="1"/>
           <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/> 
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: vbser + pp + da (passiu: sono servito da > sóc servit per)">
+      <pattern>
+        <pattern-item n="vbser"/>
+        <pattern-item n="pp"/>
+        <pattern-item n="da"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_pretind">
           <with-param pos="1"/>
@@ -5540,6 +5787,73 @@
               <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+        </out>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: vbser + adv + pp + da (passiu: sono bene servito da > sóc ben servit per)">
+      <pattern>
+        <pattern-item n="vbser"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="pp"/>
+        <pattern-item n="da"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/> 
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="3"/>
+        </out>
+        <let><var n="lemma"/><clip pos="4" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/> 
             </lu>
           </chunk>
         </out>
@@ -5651,15 +5965,15 @@
         </call-macro>
         <out> <!-- aquest ordre estrany s per les maj-->
         <chunk name="Sadv" case="caseFirstWord">
-                <tags>
-                        <tag><clip pos="2" side="tl" part="a_adv"/></tag>
-                </tags>
-                <lu>
-                        <get-case-from pos="1">
-                                <clip pos="2" side="tl" part="lem"/>
-                        </get-case-from>
-                        <clip pos="2" side="tl" part="a_adv"/>
-                </lu>
+          <tags>
+            <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+          </tags>
+          <lu>
+            <get-case-from pos="1">
+              <clip pos="2" side="tl" part="lem"/>
+            </get-case-from>
+            <clip pos="2" side="tl" part="a_adv"/>
+          </lu>
         </chunk>
         <b pos="1"/>
         </out>
