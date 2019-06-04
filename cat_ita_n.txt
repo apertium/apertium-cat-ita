@@ -641,7 +641,6 @@ agranulocitosi
 agregació	
 agregadoria	
 agregat	aggregato
-agregat	addetto
 agregat militar	
 agrella	
 agremiació	
@@ -1867,7 +1866,7 @@ aquàrium
 aquarterament	
 aqüeducte	acquedotto
 aquelarre	
-aquemènida	aquemenidi
+aquemènida	achemenide
 aqueni	
 aqüicultor	
 aqüicultura	
@@ -2099,6 +2098,7 @@ arrova	chiocciola
 arruga	ruga
 arruga	piega
 arruïnament	
+arsàcida	arsacide
 arsenal	
 arseniat	
 arsènic	arsenico
@@ -3921,7 +3921,6 @@ butxaca	tasca
 bypass	
 byte	
 c	
-ca	cappa
 CA	
 CAB	
 cabal	beni
@@ -4163,7 +4162,7 @@ cambra de bombolles
 cambra de càrrega	
 cambra de Castella	
 cambra de combustió	
-cambrer	governanti
+cambrer	camariere	hector
 cambril	
 camelina	
 camell	cammello
@@ -5519,7 +5518,6 @@ colomar
 colombià	
 colomer	
 colomí	
-colon	colonizzatore
 còlon	colon
 colònia	colonia
 colonialisme	
@@ -5824,7 +5822,7 @@ condemna	dannazione
 condemnació	
 condemnat	
 condensabilitat	
-condensació	
+condensació	condensazione	hector
 condensador	
 condensat	
 condescendència	
@@ -6501,7 +6499,6 @@ creixença
 créixens	
 crema	crema
 crema	crema
-crema	panna
 crema	bruciatua
 cremació	
 cremada	bruciata
@@ -6520,7 +6517,6 @@ crepuscle dels déus
 crescendo	crescendo
 crescuda	crescimento
 crescuda	accrescimento
-crescuda	maglia
 crescuda	crescere
 cresol	
 crespell	
@@ -6650,8 +6646,6 @@ croqueta
 croquis	abbozzo
 croquisació	
 crossa	gruccia
-crossa	forchetta
-crossa	pastorale
 crosta	
 crostó	
 cru	
@@ -6817,7 +6811,6 @@ dalai-lama	dalai-lama
 dalek	
 dàlia	
 dàlit	
-dalla	falce
 d'Almeria	
 daltabaix	
 daltonisme	
@@ -9019,7 +9012,7 @@ escampada
 escampament	
 escandall	
 escandi	scandio
-escandinau	
+escandinau	scandinavo	hector
 escàndol	scandalo
 escaneig	
 escanejament	
@@ -10191,6 +10184,7 @@ fatalisme
 fatalitat	fatalità
 fatiga	
 fatigabilitat	
+fatimita	fatimide
 fàtua	
 fatuïtat	
 fatxa	
@@ -12861,7 +12855,6 @@ inextensibilitat
 infal·libilitat	
 infamació	infamamento
 infàmia	infamia
-infàmia	testimonianza
 infància	infanza
 infant	
 infantat	
@@ -13886,7 +13879,6 @@ liposucció
 lipotímia	
 liquació	
 liquadora	
-liqüefacció	condensazione
 liquen	
 líquid	
 liquidació	
@@ -15798,7 +15790,6 @@ mucosa
 mucositat	
 mucus	
 mudament	
-mudança	mossa
 mudèjar	
 mudesa	
 muetzí	
@@ -16991,7 +16982,7 @@ padró
 paella	padella
 pàg.	
 paga	
-pagà	
+pagà	pagano	hector
 pagador	
 pagament	pagamento
 pagament de prima	
@@ -20973,7 +20964,7 @@ sarsa
 sarsuela	asseruola
 sarsuela	zarzuelac
 sa senyoria	
-sassànida	sasanidi
+sassànida	sasanide
 sasserès	sassarese
 sasserès	sassarese
 sasserès	sassarese
@@ -22027,7 +22018,7 @@ superintendent
 superiora	
 superioritat	
 superjó	
-superlatiu	uperlativo
+superlatiu	superlativo
 supermercat	supermercato
 supernova	
 supernumerari	
@@ -22659,7 +22650,6 @@ TF1
 TGV	
 theremin	
 thriller	
-tia	zia
 tiamina	
 tibantor	
 tiberi	
@@ -24078,7 +24068,6 @@ vinificació
 vinil	
 vinositat	
 vintena	
-vint-i-u	
 vinya	
 vinyater	
 vinyer	
