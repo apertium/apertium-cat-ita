@@ -872,6 +872,7 @@
 <e>       <p><l>hebreu<s n="n"/></l>                   <r>ebreo<s n="n"/></r></p></e>
 <e>       <p><l>hereditari<s n="adj"/></l>             <r>ereditario<s n="adj"/></r></p></e>
 <e>       <p><l>hermètic</l>                           <r>ermetico</r></p><par n="adj_sup"/></e>
+<e>       <p><l>bisexual</l>                           <r>bisessuale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>heterosexual</l>                       <r>eterosessuale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>hipòcrita<s n="adj"/></l>              <r>ipocrita<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>històric</l>                           <r>storico</r></p><par n="adj_sup"/></e>
@@ -4852,12 +4853,16 @@
 <e r="LR"><p><l>colon<s n="n"/><s n="f"/></l>          <r>colono<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>colon<s n="n"/><s n="m"/></l>          <r>colono<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>colonialisme<s n="n"/></l>             <r>colonialismo<s n="n"/></r></p></e>
+<e>       <p><l>col·lonialista<s n="n"/></l>           <r>collonialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>col·lonialista<s n="adj"/></l>         <r>collonialista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>color<s n="n"/></l>                    <r>colore<s n="n"/></r></p></e>
 <e r="LR"><p><l>colp<s n="n"/></l>                     <r>colpo<s n="n"/></r></p></e>
 <e>       <p><l>coltell<s n="n"/></l>                  <r>coltello<s n="n"/></r></p></e>
 <e>       <p><l>columna<s n="n"/></l>                  <r>colonna<s n="n"/></r></p></e>
 <e>       <p><l>colze<s n="n"/></l>                    <r>gomito<s n="n"/></r></p></e>
 <e>       <p><l>col·laboració<s n="n"/></l>            <r>collaborazione<s n="n"/></r></p></e>
+<e>       <p><l>col·laboracionista<s n="n"/></l>       <r>collaboraziononista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>col·laborador<s n="n"/></l>            <r>collaboratiore<s n="n"/></r></p></e>
 <e>       <p><l>col·leccionista<s n="n"/></l>          <r>collezionista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>col·lecció<s n="n"/></l>               <r>collezione<s n="n"/></r></p></e>
 <e>       <p><l>col·lega<s n="n"/></l>                 <r>collega<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -5265,6 +5270,8 @@
 <e>       <p><l>desglaç<s n="n"/></l>                  <r>disgelo<s n="n"/></r></p></e>
 <e>       <p><l>deshidratació<s n="n"/></l>            <r>disidratazione<s n="n"/></r></p></e>
 <e>       <p><l>desig<s n="n"/></l>                    <r>desiderio<s n="n"/></r></p></e>
+<e r="RL"><p><l>desig<s n="n"/><s n="m"/><s n="sg"/></l><r>voglia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>desig<s n="n"/><s n="m"/><s n="pl"/></l><r>voglia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>designi<s n="n"/></l>                  <r>intento<s n="n"/></r></p></e>
 <e>       <p><l>desinfecció<s n="n"/></l>              <r>disinfezione<s n="n"/></r></p></e>
 <e>       <p><l>desinfectant<s n="n"/></l>             <r>disinfettante<s n="n"/></r></p></e>
@@ -5501,6 +5508,7 @@
 <e>       <p><l>ejaculació<s n="n"/></l>               <r>eiaculazione<s n="n"/></r></p></e>
 <e>       <p><l>elaboració<s n="n"/></l>               <r>elaborazione<s n="n"/></r></p></e>
 <e>       <p><l>reelaboració<s n="n"/></l>             <r>rielaborazione<s n="n"/></r></p></e>
+<e>       <p><l>elaborador<s n="n"/></l>               <r>elaboratore<s n="n"/></r></p></e>
 <e>       <p><l>elasticitat<s n="n"/><s n="f"/></l>    <r>elasticità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>elecció<s n="n"/></l>                  <r>elezione<s n="n"/></r></p></e>
 <e>       <p><l>electorat<s n="n"/></l>                <r>elettorato<s n="n"/></r></p></e>
@@ -5860,9 +5868,7 @@
 <e>       <p><l>fe<s n="n"/></l>                       <r>fede<s n="n"/></r></p></e>
 <e>       <p><l>febra<s n="n"/></l>                    <r>febbre<s n="n"/></r></p></e>
 <e>       <p><l>febre<s n="n"/></l>                    <r>febbre<s n="n"/></r></p></e>
-<e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="sg"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>febrer<s n="n"/><s n="m"/><s n="pl"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>febrer<s n="n"/><s n="m"/><s n="ND"/></l><r>febbraio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>febrer<s n="n"/><s n="m"/></l>         <r>febbraio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>federació<s n="n"/></l>                <r>federazione<s n="n"/></r></p></e>
 <e>       <p><l>feina<s n="n"/><s n="f"/></l>          <r>lavoro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>feixisme<s n="n"/><s n="m"/></l>       <r>fascismo<s n="n"/><s n="m"/></r></p></e>
@@ -6074,10 +6080,8 @@
 <e>       <p><l>fórmula<s n="n"/></l>                  <r>formula<s n="n"/></r></p></e>
 <e>       <p><l>fúria<s n="n"/></l>                    <r>furia<s n="n"/></r></p></e>
 <e>       <p><l>gabinet<s n="n"/></l>                  <r>gabinetto<s n="n"/></r></p></e>
-<e r="LR"><p><l>gai<s n="n"/><s n="mf"/><s n="sg"/></l><r>gay<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>gai<s n="n"/><s n="mf"/><s n="pl"/></l><r>gay<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>gai<s n="n"/><s n="mf"/><s n="ND"/></l><r>gay<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>gai<s n="n"/></l>                      <r>omosessuale<s n="n"/></r></p></e>
+<e>       <p><l>gai<s n="n"/><s n="m"/></l>            <r>gay<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>gai<s n="adj"/><s n="mf"/></l>         <r>gay<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>gal<s n="n"/></l>                      <r>gallico<s n="n"/></r></p></e>
 <e>       <p><l>galeria<s n="n"/></l>                  <r>galleria<s n="n"/></r></p></e>
 <e>       <p><l>galeta<s n="n"/><s n="f"/></l>         <r>biscotto<s n="n"/><s n="m"/></r></p></e>
@@ -6089,12 +6093,9 @@
 <e>       <p><l>galó<s n="n"/></l>                     <r>gallone<s n="n"/></r></p></e>
 <e>       <p><l>gamba<s n="n"/><s n="f"/></l>          <r>gambero<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>gamma<s n="n"/></l>                    <r>gamma<s n="n"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="sg"/></l><r>voglia<s n="n"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="pl"/></l><r>voglia<s n="n"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="sg"/></l><r>fame<s n="n"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="pl"/></l><r>fame<s n="n"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="sg"/></l><r>fame<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>gana<s n="n"/><s n="f"/><s n="pl"/></l><r>fame<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>gana<s n="n"/><s n="f"/><s n="pl"/></l><r>voglia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>gana<s n="n"/><s n="f"/><s n="sg"/></l><r>fame<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>gana<s n="n"/><s n="f"/><s n="pl"/></l><r>fame<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>gangli<s n="n"/></l>                   <r>ganglio<s n="n"/></r></p></e>
 <e>       <p><l>gangrena<s n="n"/></l>                 <r>cancrena<s n="n"/></r></p></e>
 <e>       <p><l>ganivet<s n="n"/></l>                  <r>coltello<s n="n"/></r></p></e>
@@ -6122,9 +6123,7 @@
 <e>       <p><l>gelea<s n="n"/></l>                    <r>gelatina<s n="n"/></r></p></e>
 <e>       <p><l>gen<s n="n"/></l>                      <r>gene<s n="n"/></r></p></e>
 <e>       <p><l>genealogia<s n="n"/></l>               <r>genealogia<s n="n"/></r></p></e>
-<e r="LR"><p><l>gener<s n="n"/><s n="m"/><s n="sg"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>gener<s n="n"/><s n="m"/><s n="pl"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>gener<s n="n"/><s n="m"/><s n="ND"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>gener<s n="n"/><s n="m"/><s n="sg"/></l><r>gennaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>generació<s n="n"/></l>                <r>generazione<s n="n"/></r></p></e>
 <e>       <p><l>general<s n="n"/><s n="mf"/></l>       <r>generale<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>general<s n="n"/><s n="mf"/></l>       <r>generale<s n="n"/><s n="m"/></r></p></e>
@@ -6275,6 +6274,9 @@
 <e r="RL"><p><l>heroi<s n="n"/><s n="GD"/></l>         <r>eroe<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>herpes<s n="n"/><s n="m"/><s n="sp"/></l><r>herpes<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>herència<s n="n"/><s n="f"/></l>       <r>eredità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>bisexualitat<s n="n"/><s n="f"/></l>   <r>bisessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>bisexual<s n="n"/></l>                 <r>bisessuale<s n="n"/></r></p></e>
+<e>       <p><l>heterosexualitat<s n="n"/><s n="f"/></l><r>eterosessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>heterosexual<s n="n"/></l>             <r>eterosessuale<s n="n"/></r></p></e>
 <e>       <p><l>hibernació<s n="n"/></l>               <r>letargo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>hibridació<s n="n"/></l>               <r>ibridizzazione<s n="n"/></r></p></e>
@@ -6307,7 +6309,7 @@
 <e>       <p><l>homicidi<s n="n"/></l>                 <r>omicidio<s n="n"/></r></p></e>
 <e>       <p><l>homofòbia<s n="n"/></l>                <r>omofobia<s n="n"/></r></p></e>
 <e>       <p><l>homologació<s n="n"/></l>              <r>omologazione<s n="n"/></r></p></e>
-<e>       <p><l>homosexual<s n="n"/><s n="mf"/></l>    <r>omosessuale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>homosexual<s n="n"/><s n="mf"/></l>    <r>omosessuale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>homosexualitat<s n="n"/><s n="f"/></l> <r>omosessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>honor<s n="n"/></l>                    <r>onore<s n="n"/></r></p></e>
 <e>       <p><l>honorari<s n="n"/></l>                 <r>onorario<s n="n"/></r></p></e>
@@ -6379,6 +6381,7 @@
 <e>       <p><l>regència<s n="n"/></l>                 <r>reggenza<s n="n"/></r></p></e>
 <e>       <p><l>imperialisme<s n="n"/></l>             <r>imperialismo<s n="n"/></r></p></e>
 <e>       <p><l>imperialista<s n="n"/></l>             <r>imperialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>imperialista<s n="adj"/></l>           <r>imperialista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>impermeable<s n="n"/></l>              <r>impermeabile<s n="n"/></r></p></e>
 <e>       <p><l>implicació<s n="n"/></l>               <r>implicazione<s n="n"/></r></p></e>
 <e>       <p><l>importació<s n="n"/></l>               <r>importazione<s n="n"/></r></p></e>
@@ -6401,6 +6404,9 @@
 <e>       <p><l>inclinació<s n="n"/><s n="f"/></l>     <r>inclinazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>inclinació<s n="n"/><s n="f"/></l>     <r>attaccamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>incorporació<s n="n"/></l>             <r>incorporazione<s n="n"/></r></p></e>
+<e>       <p><l>incursió<s n="n"/></l>                 <r>incursione<s n="n"/></r></p></e>
+<e>       <p><l>excursió<s n="n"/></l>                 <r>excursione<s n="n"/></r></p></e>
+<e r="RL"><p><l>excursió<s n="n"/><s n="f"/></l>       <r>gita<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>increment<s n="n"/></l>                <r>incremento<s n="n"/></r></p></e>
 <e>       <p><l>independència<s n="n"/></l>            <r>indipendenza<s n="n"/></r></p></e>
 <e r="RL"><p><l>indi<s n="n"/></l>                     <r>indio<s n="n"/></r></p></e>
@@ -7597,9 +7603,8 @@
 <e r="LR"><p><l>planura<s n="n"/></l>                  <r>pianura<s n="n"/></r></p></e>
 <e>       <p><l>planxa<s n="n"/></l>                   <r>asse<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>plat<s n="n"/></l>                     <r>piatto<s n="n"/></r></p></e>
-<e>       <p><l>plata<s n="n"/></l>                    <r>argento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>platerets<s n="n"/><s n="m"/><s n="pl"/></l><r>piatto<s n="n"/></r></p></e>
-<e>       <p><l>platet<s n="n"/><s n="m"/><s n="sg"/></l><r>piatto<s n="n"/></r></p></e>
+<e>       <p><l>plata<s n="n"/><s n="f"/></l>          <r>argento<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>platerets<s n="n"/><s n="m"/><s n="pl"/></l><r>piatto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>platet<s n="n"/></l>                   <r>piatto<s n="n"/></r></p></e>
 <e>       <p><l>platja<s n="n"/></l>                   <r>spiaggia<s n="n"/></r></p></e>
 <e>       <p><l>platí<s n="n"/></l>                    <r>platino<s n="n"/></r></p></e>
@@ -8216,6 +8221,7 @@
 <e>       <p><l>sobresalt<s n="n"/><s n="m"/></l>      <r>scossa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>socialisme<s n="n"/></l>               <r>socialismo<s n="n"/></r></p></e>
 <e>       <p><l>socialista<s n="n"/></l>               <r>socialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>socialista<s n="adj"/></l>             <r>socialista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>socialització<s n="n"/></l>            <r>socializzazione<s n="n"/></r></p></e>
 <e>       <p><l>societat<s n="n"/><s n="f"/></l>       <r>società<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>sociologia<s n="n"/></l>               <r>sociologia<s n="n"/></r></p></e>
@@ -26778,6 +26784,7 @@
 <e>       <p><l>edificar<s n="vblex"/></l>             <r>edificare<s n="vblex"/></r></p></e>
 <e>       <p><l>educar<s n="vblex"/></l>               <r>educare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>eixir<s n="vblex"/></l>                <r>uscire<s n="vblex"/></r></p></e>
+<e>       <p><l>col·laborar<s n="vblex"/></l>          <r>collaborare<s n="vblex"/></r></p></e>
 <e>       <p><l>elaborar<s n="vblex"/></l>             <r>elaborare<s n="vblex"/></r></p></e>
 <e>       <p><l>reelaborar<s n="vblex"/></l>           <r>rielaborare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>elegir<s n="vblex"/></l>               <r>scegliere<s n="vblex"/></r></p></e>
