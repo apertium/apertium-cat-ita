@@ -3992,8 +3992,6 @@ cadell d'ós
 cadena	catena
 cadena	vincolo
 cadena	seguito
-cadena	catena
-cadena	catena
 cadena de televisió	
 cadena nacional	
 cadena perpètua	
@@ -19377,12 +19375,11 @@ quàdruple
 quadruplicació	
 quadrupol	
 qualif.	
-qualificació	
+qualificació	qualifica	hector
 qualificador	
 qualificatiu	
 qualitat	
 quall	
-quallada	ricotta
 quantia	
 quantificació	
 quantificador	
@@ -21251,7 +21248,6 @@ serradís
 serradora	
 serradura	
 serral	
-serralada	catena
 serrall	
 serraller	
 serralleria	
@@ -24070,8 +24066,6 @@ vinya
 vinyater	
 vinyer	
 vinyeta	vignetta
-viola	viola
-viola	violetta
 violació	
 violació de domicili	
 viola de gamba	viola da gamba
