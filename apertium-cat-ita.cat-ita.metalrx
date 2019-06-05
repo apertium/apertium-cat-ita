@@ -2866,28 +2866,37 @@
      <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
   </rule>
 
-  <!-- tassa > tassa, tassu --> <!-- srd -->
+  <!-- vigília > veglia, vigilia -->
+  <rule weight="0.6">
+     <match lemma="vigília" tags="n.*"><select lemma="veglia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.def.f.sg"/>
+     <match lemma="vigília" tags="n.*"><select lemma="vigilia"/></match>
+  </rule>
+
+  <!-- tassa > tassa, tasso -->
   <rule weight="0.6">
      <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
+     <match lemma="tassa" tags="n.*"><select lemma="tasso"/></match>
      <match lemma="de" tags="pr"/>
   </rule>
 
-  <!-- curs > cursu, annu --> <!-- srd -->
+  <!-- curs > corso, anno -->
   <rule weight="0.6">
-     <match lemma="curs" tags="n.*"><select lemma="cursu"/></match>
+     <match lemma="curs" tags="n.*"><select lemma="corso"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="curs" tags="n.*"><select lemma="annu"/></match>
+     <match lemma="curs" tags="n.*"><select lemma="anno"/></match>
      <or>
        <match lemma="escolar" tags="adj.*"/>
        <match lemma="acadèmic" tags="adj.*"/>
      </or>
   </rule>
   <rule weight="1.0">
-     <match lemma="curs" tags="n.*"><select lemma="annu"/></match>
+     <match lemma="curs" tags="n.*"><select lemma="anno"/></match>
      <match tags="num"/>
   </rule>
 

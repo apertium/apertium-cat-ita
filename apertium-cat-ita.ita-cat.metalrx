@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metalrx>
 
   <def-macros>
@@ -437,6 +436,41 @@
       <match tags="num.*"/>
     </or>
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
+  </rule>
+
+  <!-- entrata > entrada, ingrés -->
+  <rule weight="0.6">
+     <match lemma="entrata" tags="n.*"><select lemma="entrada"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="entrata" tags="n.*"><select lemma="ingrés"/></match>
+     <match lemma="in" tags="pr"/>
+  </rule>
+
+  <!-- anno > any, curs -->
+  <rule weight="0.6">
+     <match lemma="anno" tags="n.*"><select lemma="any"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="anno" tags="n.*"><select lemma="curs"/></match>
+     <or>
+       <match lemma="scolastico" tags="adj.*"/>
+       <match lemma="academico" tags="adj.*"/>
+     </or>
+  </rule>
+
+  <!-- ansa > ansa, meandre -->
+  <rule weight="0.6">
+     <match lemma="ansa" tags="n.*"><select lemma="ansa"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="ansa" tags="n.*"><select lemma="meandre"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="riu" tags="n.*"/>
+       <match tags="np.*"/>
+     </or>
   </rule>
 
   <!-- piattaforma > plataforma, andana -->
