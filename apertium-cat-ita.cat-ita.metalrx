@@ -989,6 +989,11 @@
 
 <!-- **************** DET **************** -->
 
+  <!-- cada > ogni, ciascun -->
+  <rule weight="0.6">
+    <match lemma="cada" tags="det.*"><select lemma="ogni" tags="det.*"/></match>
+  </rule>
+
   <!-- altre > altro, un altro -->
   <rule weight="0.6">
     <match lemma="altre" tags="det.*"><select lemma="altro" tags="det.*"/></match>
@@ -1850,6 +1855,21 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- anomenar > nominare, chiamare, denominare -->
+  <macro name="verb_nopron_pron" p1="anomenar" p2="nominare" p3="chiamare"/>
+  <rule weight="1.0">
+    <match lemma="anomenar" tags="vblex.pp.*"><select lemma="chiamare"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="anomenar" tags="vblex.pp.*"><select lemma="denominare"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="anomenar" tags="vblex.pp.*"><select lemma="denominare"/></match>
+    <match tags="apos"/>
+  </rule>
+
   <!-- tornar > tornare, ritornare, diventare -->
   <macro name="verb_nopron_pron" p1="tornar" p2="tornare" p3="diventare"/>
   <rule weight="1.0" c="tornar boig">
@@ -2553,6 +2573,15 @@
      <match lemma="croat" tags="adj.*"><select lemma="crociato"/></match>
   </rule>
 
+  <!-- anomenat > denominare, cosiddeto -->
+  <rule weight="0.6">
+     <match lemma="anomenat" tags="adj.*"><select lemma="denominare.vblex.pp.*"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*"/>
+     <match lemma="anomenat" tags="adj.*"><select lemma="cosiddeto"/></match>
+  </rule>
+
   <!-- anterior > anteriore, in antis --> <!-- srd -->
   <rule weight="0.6">
      <match lemma="anterior" tags="adj.*"><select lemma="anteriore"/></match>
@@ -2601,6 +2630,56 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- pica > picca, fonte, acquaio, lavello, picco -->
+  <rule weight="0.6">
+    <match lemma="pica" tags="n.*"><select lemma="picca"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pica" tags="n.*"><select lemma="fonte"/></match>
+    <match lemma="baptismal" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pica" tags="n.*"><select lemma="acquaio"/></match>
+    <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+    <or>
+      <match lemma="cuina" tags="n.*"/>
+      <match lemma="lavabo" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pica" tags="n.*"><select lemma="acquaio"/></match>
+    <match tags="pr"/>
+    <match lemma="rentar" tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pica" tags="n.*"><select lemma="picco"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
+
+  <!-- posta > posta, tramonto -->
+  <rule weight="0.6">
+     <match ploma="posta" tags="n.*"><select lemma="posta"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match ploma="posta" tags="n.*"><select lemma="tramonto"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="sol" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match ploma="posta" tags="n.*"><select lemma="tramonto"/></match>
+  </rule>
+
+  <!-- ploma > penna, pioma -->
+  <rule weight="0.6">
+     <match ploma="nau" tags="n.*"><select lemma="penna"/></match>
+  </rule>
 
   <!-- nau > nave, capannone -->
   <rule weight="0.6">
@@ -3198,12 +3277,45 @@
      <match tags="np.*"/>
   </rule>
 
-  <!-- caragol, cargol (n) > corrobaca, vite --> <!-- srd -->
-  <rule weight="0.6">
-     <match lemma="caragol" tags="n.m.*"><select lemma="corrobaca"/></match>
+  <!-- cap >> capo, testa -->
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
+    <or><match tags="np.top.*"/><match tags="np.loc"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="np.top.*"/><match tags="np.loc"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.*"><select lemma="testa"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="comarca" tags="n.*"/>
+
+      <match lemma="animal" tags="n.*"/>
+      <match lemma="peix" tags="n.*"/>
+      <match lemma="gos" tags="n.*"/>
+      <match lemma="gat" tags="n.*"/>
+      <match lemma="bou" tags="n.*"/>
+      <match lemma="vaca" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- població > popolazione, centro abitato -->
   <rule weight="0.6">
-     <match lemma="cargol" tags="n.m.*"><select lemma="corrobaca"/></match>
+     <match lemma="població" tags="n.*"><select lemma="popolazione"/></match>
+  </rule>
+
+  <!-- caragol >> chiocciola, vite -->
+  <rule weight="0.8">
+    <match lemma="caragol" tags="n.*"><select lemma="chiocciola"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cargol" tags="n.*"><select lemma="chiocciola"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="caragol" tags="n.m.*"><select lemma="vite"/></match>

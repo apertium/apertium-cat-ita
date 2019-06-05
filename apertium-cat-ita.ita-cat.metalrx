@@ -439,6 +439,49 @@
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
 
+  <!-- piattaforma > plataforma, andana -->
+  <rule weight="0.6">
+    <match lemma="piattaforma" tags="n.*"><select lemma="plataforma"/></match>
+  </rule>
+
+  <!-- camera > cambra, habitació, càmera -->
+  <rule weight="0.6">
+     <match ploma="camera" tags="n.*"><select lemma="cambra"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="di" tags="pr"/>
+     <match ploma="camera" tags="n.*"><select lemma="cambra"/></match>
+  </rule>
+
+  <!-- costume > costum, banyador, disfressa -->
+  <rule weight="0.6">
+     <match ploma="costume" tags="n.*"><select lemma="costum"/></match>
+  </rule>
+
+  <!-- maschera > disfressa, màscara -->
+  <rule weight="0.6">
+     <match ploma="maschera" tags="n.*"><select lemma="disfressa"/></match>
+  </rule>
+
+  <!-- posta > correu, posta-->
+  <rule weight="0.6">
+     <match ploma="posta" tags="n.*"><select lemma="correu"/></match>
+  </rule>
+
+  <!-- fonte > font, pica -->
+  <rule weight="0.6">
+    <match lemma="fonte" tags="n.*"><select lemma="font"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fonte" tags="n.*"><select lemma="pica"/></match>
+    <match lemma="batessimale" tags="adj.*"/>
+  </rule>
+
+  <!-- fungo > bolet, fong -->
+  <rule weight="0.6">
+    <match lemma="fungo" tags="n.*"><select lemma="bolet"/></match>
+  </rule>
+
   <!-- loggia > lògia, llotja -->
   <rule weight="0.6">
     <match lemma="loggia" tags="n.*"><select lemma="lògia"/></match>
@@ -616,6 +659,13 @@
 
   <!-- chiamare > cridar, dir -->
   <macro name="verb_nopron_pron" p1="chiamare" p2="cridar" p3="dir"/>
+  <rule weight="1.0">
+    <match lemma="chiamare" tags="vblex.pp.*"><select lemma="anomenar"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="apos"/>
+    </or>
+  </rule>
 
   <!-- tentare > temptar, intentar -->
   <rule weight="0.6">
