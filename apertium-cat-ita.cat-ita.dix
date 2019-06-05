@@ -4353,8 +4353,11 @@
 <e>       <p><l>banyera<s n="n"/></l>                  <r>vasca<s n="n"/></r></p></e>
 <e>       <p><l>banús<s n="n"/></l>                    <r>ebano<s n="n"/></r></p></e>
 <e>       <p><l>bar<s n="n"/><s n="m"/></l>            <r>bar<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>barana<s n="n"/></l>                   <r>balaustra<s n="n"/></r></p></e>
-<e>       <p><l>barana<s n="n"/><s n="f"/></l>         <r>apparato<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>barana<s n="n"/><s n="f"/></l>         <r>balaustra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>barana<s n="n"/><s n="f"/></l>         <r>ringhiera<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>barana<s n="n"/><s n="f"/></l>         <r>corrimano<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>barana<s n="n"/><s n="f"/></l>         <r>mancorrente<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>barana<s n="n"/><s n="f"/></l>         <r>guardamano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>barba<s n="n"/></l>                    <r>barba<s n="n"/></r></p></e>
 <e r="LR"><p><l>barber<s n="n"/><s n="m"/></l>         <r>barbiere<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>barber<s n="n"/><s n="f"/></l>         <r>barbiere<s n="n"/><s n="m"/></r></p></e>
@@ -5885,6 +5888,8 @@
 <e>       <p><l>febrer<s n="n"/><s n="m"/></l>         <r>febbraio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>federació<s n="n"/></l>                <r>federazione<s n="n"/></r></p></e>
 <e>       <p><l>feina<s n="n"/><s n="f"/></l>          <r>lavoro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>faixa<s n="n"/><s n="f"/></l>          <r>fascia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>feix<s n="n"/><s n="m"/></l>           <r>fascio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>feixisme<s n="n"/><s n="m"/></l>       <r>fascismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>feixista<s n="n"/></l>                 <r>fascista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>felicitació<s n="n"/></l>              <r>congratulazione<s n="n"/></r></p></e>
@@ -9449,6 +9454,78 @@
 <e r="LR" a="wiktionary"><p><l>volva<s n="n"/><s n="f"/></l><r>scheggia<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>xifra<s n="n"/><s n="f"/></l><r>cifra<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>xocolata<s n="n"/><s n="f"/></l><r>cioccolata<s n="n"/><s n="f"/></r></p></e>
+
+<e a="wiktionary"><p><l>ablatiu<s n="n"/><s n="m"/></l><r>ablativo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>abric<s n="n"/><s n="m"/></l><r>cappotto<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>absis<s n="n"/><s n="m"/></l><r>abside<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e r="RL" a="wiktionary"><p><l>acabat<s n="n"/><s n="m"/></l><r>finitura<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>accessibilitat<s n="n"/><s n="f"/></l><r>accessibilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>acolliment<s n="n"/><s n="m"/></l><r>accoglienza<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>acomodació<s n="n"/><s n="f"/></l><r>accomodamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>acrònim<s n="n"/><s n="m"/></l><r>acronimo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>acta<s n="n"/><s n="f"/></l><r>verbale<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>adob<s n="n"/><s n="m"/></l><r>concime<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>adornament<s n="n"/><s n="m"/></l><r>ornamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>adreçament<s n="n"/><s n="m"/></l><r>raddrizzamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>advertiment<s n="n"/><s n="m"/></l><r>avvertimento<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>afany<s n="n"/><s n="m"/></l><r>impegno<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>afectivitat<s n="n"/><s n="f"/></l><r>affettività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>agnosticisme<s n="n"/><s n="m"/></l><r>agnosticismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>aguait<s n="n"/><s n="m"/></l><r>agguato<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aguant<s n="n"/><s n="m"/></l><r>vigore<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>agulló<s n="n"/><s n="m"/></l><r>pungiglione<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>agut<s n="n"/><s n="m"/></l><r>acuto<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aiguat<s n="n"/><s n="m"/></l><r>acquazzone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>alba<s n="n"/><s n="f"/></l><r>camice<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>albereda<s n="n"/><s n="f"/></l><r>pioppeto<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>alfil<s n="n"/><s n="m"/></l><r>alfiere<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>algorisme<s n="n"/><s n="m"/></l><r>algoritmo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="hector"><p><l>algoritme<s n="n"/><s n="m"/></l><r>algoritmo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>algutzir<s n="n"/><s n="m"/></l><r>sbirro<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aljub<s n="n"/><s n="m"/></l><r>fonte<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>alleugeriment<s n="n"/><s n="m"/></l><r>alleggerimento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>allunyament<s n="n"/><s n="m"/></l><r>allontanamento<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>almívar<s n="n"/><s n="m"/></l><r>sciroppo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>xarop<s n="n"/><s n="m"/></l><r>sciroppo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>almud<s n="n"/><s n="m"/></l><r>misura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>alosa<s n="n"/><s n="f"/></l><r>agone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>amulet<s n="n"/><s n="m"/></l><r>amuleto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>anhel<s n="n"/><s n="m"/></l><r>anelito<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>ànim<s n="n"/><s n="m"/></l><r>animo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>ansietat<s n="n"/><s n="f"/></l><r>ansietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>antre<s n="n"/><s n="m"/></l><r>antro<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>aparador<s n="n"/><s n="m"/></l><r>vetrina<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>arbust<s n="n"/><s n="m"/></l><r>arbusto<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>arcaisme<s n="n"/><s n="m"/></l><r>arcaismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>aresta<s n="n"/><s n="f"/></l><r>spigolo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>armilla<s n="n"/><s n="f"/></l><r>panciotto<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>arpó<s n="n"/><s n="m"/></l><r>arpione<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>arquitrau<s n="n"/><s n="m"/></l><r>architrave<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>arranjament<s n="n"/><s n="m"/></l><r>arrangiamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>arrossar<s n="n"/><s n="m"/></l><r>risaia<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>assalt<s n="n"/><s n="m"/></l><r>assalto<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>assot<s n="n"/><s n="m"/></l><r>frusta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>assumpte<s n="n"/><s n="m"/></l><r>questione<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>asteroide<s n="n"/><s n="m"/></l><r>asteroide<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>atles<s n="n"/><s n="m"/></l><r>atlante<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e r="LR" a="wiktionary"><p><l>attrezzo<s n="n"/><s n="m"/></l><r>attrezzo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>atzabeja<s n="n"/><s n="f"/></l><r>lustrino<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>atzur<s n="n"/><s n="m"/></l><r>azzurro<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>audiovisual<s n="n"/><s n="m"/></l><r>audiovisivo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>autoritarisme<s n="n"/><s n="m"/></l><r>autoritarismo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>avançament<s n="n"/><s n="m"/></l><r>anticipo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>avaria<s n="n"/><s n="f"/></l><r>avaria<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>avaria<s n="n"/><s n="f"/></l><r>guasto<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>avenc<s n="n"/><s n="m"/></l><r>abisso<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>avenç<s n="n"/><s n="m"/></l><r>progresso<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>avinença<s n="n"/><s n="f"/></l><r>accordo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>avorriment<s n="n"/><s n="m"/></l><r>noia<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>bagul<s n="n"/><s n="m"/></l><r>baule<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>baladre<s n="n"/><s n="m"/></l><r>oleandro<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>balancí<s n="n"/><s n="m"/></l><r>bilanciere<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>balancí<s n="n"/><s n="m"/></l><r>bilancino<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>balcó<s n="n"/><s n="m"/></l><r>balcone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>baldaquí<s n="n"/><s n="m"/></l><r>baldacchino<s n="n"/><s n="m"/></r></p></e>
 
 <!-- xxxx -->
 
