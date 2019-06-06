@@ -457,6 +457,11 @@
      <match lemma="in" tags="pr"/>
   </rule>
 
+  <!-- ramo > branca, ram -->
+  <rule weight="0.6">
+     <match lemma="ramo" tags="n.*"><select lemma="branca"/></match>
+  </rule>
+
   <!-- panchina > banc, banca -->
   <rule weight="0.6">
      <match lemma="panchina" tags="n.*"><select lemma="banc"/></match>

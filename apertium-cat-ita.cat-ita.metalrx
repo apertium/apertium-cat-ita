@@ -2660,6 +2660,21 @@
     <match tags="np.*"/>
   </rule>
 
+  <!-- ram > mazzo, ramo -->
+  <rule weight="0.6">
+     <match ploma="ram" tags="n.*"><select lemma="mazzo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match ploma="ram" tags="n.*"><select lemma="ramon"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="el" tags="det.*"/>
+    <or>
+      <match lemma="tèxtil" tags="n.*"/>
+      <match lemma="confecció" tags="n.*"/>
+      <match lemma="construcció" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- posta > posta, tramonto -->
   <rule weight="0.6">
      <match ploma="posta" tags="n.*"><select lemma="posta"/></match>
