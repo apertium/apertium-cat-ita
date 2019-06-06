@@ -2041,6 +2041,7 @@
 <e r="LR" a="hector"><p><l>així<b/>anomenat<s n="adj"/></l><r>cosiddetto<s n="adj"/></r></p></e>
 <e a="hector"><p><l>anomenat<s n="adj"/></l><r>cosiddetto<s n="adj"/></r></p></e>
 <e r="LR" a="hector"><p><l>anomenat<s n="adj"/></l><r>denominare<s n="vblex"/><s n="pp"/></r></p></e>
+<e a="hector"><p><l>caribeny</l><r>caraibico</r></p><par n="adj_sup"/></e>
 
 <!-- xxxx -->
 
@@ -4333,13 +4334,16 @@
 <e>       <p><l>banc<s n="n"/><s n="m"/></l>           <r>banca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>banc<s n="n"/><s n="m"/></l>           <r>banco<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>banc<s n="n"/><s n="m"/></l>           <r>panchina<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>banc<s n="n"/><s n="m"/></l><r>panca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>banc<g><b/>dels<b/>acusats</g><s n="n"/></l><r>banco<g><b/>degli<b/>accusati</g><s n="n"/></r></p></e>
 <e>       <p><l>banc<g><b/>de<b/>sorra</g><s n="n"/></l><r>banco<g><b/>di<b/>sabbia</g><s n="n"/></r></p></e>
 <e r="LR"><p><l>banc<g><b/>d'arena</g><s n="n"/></l><r>banco<g><b/>di<b/>sabbia</g><s n="n"/></r></p></e>
 <e>       <p><l>banc<g><b/>de<b/>dades</g><s n="n"/></l><r>banco<g><b/>dati</g><s n="n"/></r></p></e>
 <e>       <p><l>banc<g><b/>de<b/>crèdit</g><s n="n"/></l><r>instituto<g><b/>di<b/>credito</g><s n="n"/></r></p></e>
 <e>       <p><l>banc<g><b/>de<b/>sang</g><s n="n"/></l><r>banco<g><b/>del<b/>sangue</g><s n="n"/></r></p></e>
-<e r="LR"><p><l>banca<s n="n"/><s n="m"/></l>          <r>banca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>banca<s n="n"/><s n="f"/></l>          <r>banca<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>banca<s n="n"/><s n="f"/></l><r>panchina<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>banca<s n="n"/><s n="f"/></l><r>banco<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bancarrota<s n="n"/></l>               <r>fallimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>banda<s n="n"/></l>                    <r>banda<s n="n"/></r></p></e>
 <e r="LR"><p><l>bandejament<s n="n"/></l>              <r>esilio<s n="n"/></r></p></e>
@@ -4425,15 +4429,14 @@
 <e>       <p><l>biologia<s n="n"/></l>                 <r>biologia<s n="n"/></r></p></e>
 <e>       <p><l>bisbe<s n="n"/></l>                    <r>vescovo<s n="n"/></r></p></e>
 <e>       <p><l>bitlla<s n="n"/><s n="f"/></l>         <r>birillo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bitllet<s n="n"/><s n="m"/></l>        <r>bigliete<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bitllet<s n="n"/><s n="m"/></l>        <r>banconota<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>biòleg<s n="n"/></l>                   <r>biologo<s n="n"/></r></p></e>
 <e>       <p><l>biòpsia<s n="n"/></l>                  <r>biopsia<s n="n"/></r></p></e>
 <e>       <p><l>blanc<s n="n"/></l>                    <r>bianco<s n="n"/></r></p></e>
 <e>       <p><l>blasó<s n="n"/></l>                    <r>blasone<s n="n"/></r></p></e>
 <e>       <p><l>blat<s n="n"/></l>                     <r>frumento<s n="n"/></r></p></e>
-<e r="LR"><p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/><s n="sg"/></l><r>mais<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/><s n="pl"/></l><r>mais<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/><s n="ND"/></l><r>mais<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/></l><r>mais<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e r="LR"><p><l>blau<s n="n"/><s n="m"/><s n="sg"/></l><r>blu<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>blau<s n="n"/><s n="m"/><s n="pl"/></l><r>blu<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>blau<s n="n"/><s n="f"/><s n="sg"/></l><r>blu<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -4466,9 +4469,8 @@
 <e>       <p><l>bolo<s n="n"/></l>                     <r>birillo<s n="n"/></r></p></e>
 <e>       <p><l>bolxevisme<s n="n"/></l>               <r>bolscevismo<s n="n"/></r></p></e>
 <e>       <p><l>bomba<s n="n"/></l>                    <r>bomba<s n="n"/></r></p></e>
-<e r="LR"><p><l>bomber<s n="n"/><s n="m"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
+/e>       <p><l>bomber<s n="n"/><s n="m"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>bomber<s n="n"/><s n="f"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>bomber<s n="n"/><s n="GD"/></l>        <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bombo<s n="n"/></l>                    <r>bombo<s n="n"/></r></p></e>
 <e>       <p><l>bombolla<s n="n"/></l>                 <r>bolla<s n="n"/></r></p></e>
 <e>       <p><l>bombó<s n="n"/></l>                    <r>cioccolatino<s n="n"/></r></p></e>
@@ -5890,6 +5892,8 @@
 <e>       <p><l>feina<s n="n"/><s n="f"/></l>          <r>lavoro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>faixa<s n="n"/><s n="f"/></l>          <r>fascia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>feix<s n="n"/><s n="m"/></l>           <r>fascio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cinturó<g><b/>d'asteroides</g><s n="n"/><s n="m"/></l><r>fascia<b/>principale<b/>degli<b/>asteroidi<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>cinturó<g><b/>d'asteroides</g><s n="n"/><s n="m"/></l><r>fascia<b/>principale<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>feixisme<s n="n"/><s n="m"/></l>       <r>fascismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>feixista<s n="n"/></l>                 <r>fascista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>felicitació<s n="n"/></l>              <r>congratulazione<s n="n"/></r></p></e>
@@ -7903,6 +7907,7 @@
 <e>       <p><l>raïl<s n="n"/><s n="m"/></l>           <r>rotaia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>rajola<s n="n"/><s n="f"/></l>         <r>mattone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ral·li<s n="n"/></l>                   <r>rally<s n="n"/></r></p></e>
+<e>       <p><l>ram<s n="n"/><s n="m"/></l>            <r>mazzo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ram<s n="n"/><s n="m"/></l>            <r>ramo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ramader<s n="n"/><s n="m"/></l>        <r>allevamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rang<s n="n"/></l>                     <r>grado<s n="n"/></r></p></e>
@@ -9709,6 +9714,9 @@
 <e>       <p><l>Cantàbria<s n="np"/><s n="top"/><s n="f"/></l><r>Cantabria<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Canàries<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Canarie<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Caracas<s n="np"/><s n="top"/></l>     <r>Caracas<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Antilles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Antille<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Caribi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Carlo<s n="np"/><s n="ant"/></l>       <r>Carlo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carles<s n="np"/><s n="ant"/></l>      <r>Carles<s n="np"/><s n="ant"/></r></p></e>

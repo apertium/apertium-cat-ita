@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metalrx>
 
   <def-macros>
@@ -2822,7 +2821,7 @@
 
   <!-- banc > banca, banco, panchina -->
   <rule weight="0.6">
-     <match lemma="banc" tags="n.*"><select lemma="banca"/></match>
+     <match lemma="banc" tags="n.*"><select lemma="banco"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="banc" tags="n.*"><select lemma="panchina"/></match>
@@ -2833,6 +2832,27 @@
      <match lemma="banc" tags="n.*"><select lemma="panchina"/></match>
      <match lemma="de" tags="pr"/>
      <match lemma="fusta" tags="n.*"/>
+  </rule>
+
+  <!-- banca > banca, banc -->
+  <rule weight="0.6">
+     <match lemma="banca" tags="n.*"><select lemma="banca"/></match>
+  </rule>
+
+  <!-- billet > bigliete, banconota -->
+  <rule weight="0.6">
+     <match lemma="billet" tags="n.*"><select lemma="bigliete"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="billet" tags="n.*"><select lemma="banconota"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="num.*"/><match tags="num"/></or>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="billet" tags="n.*"><select lemma="bigliete"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="num.*"/><match tags="num"/></or>
+     <match lemma="viatge" tags="n.*"/>
   </rule>
 
   <!-- aficionat > tifoso, amatore -->

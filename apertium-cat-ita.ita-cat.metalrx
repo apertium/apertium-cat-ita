@@ -438,6 +438,16 @@
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
 
+  <!-- banco > banc, banca -->
+  <rule weight="0.6">
+     <match lemma="banco" tags="n.*"><select lemma="banc"/></match>
+  </rule>
+
+  <!-- banca > banca, banc -->
+  <rule weight="0.6">
+     <match lemma="banca" tags="n.*"><select lemma="banca"/></match>
+  </rule>
+
   <!-- entrata > entrada, ingrés -->
   <rule weight="0.6">
      <match lemma="entrata" tags="n.*"><select lemma="entrada"/></match>
@@ -445,6 +455,11 @@
   <rule weight="0.6">
      <match lemma="entrata" tags="n.*"><select lemma="ingrés"/></match>
      <match lemma="in" tags="pr"/>
+  </rule>
+
+  <!-- panchina > banc, banca -->
+  <rule weight="0.6">
+     <match lemma="panchina" tags="n.*"><select lemma="banc"/></match>
   </rule>
 
   <!-- anno > any, curs -->
