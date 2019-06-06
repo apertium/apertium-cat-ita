@@ -776,6 +776,8 @@
 <e>       <p><l>fecund<s n="adj"/></l>                 <r>fecondo<s n="adj"/></r></p></e>
 <e>       <p><l>federal</l>                            <r>federale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>feixista<s n="adj"/></l>               <r>fascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>masculí<s n="adj"/></l>                <r>maschile<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>masculí<s n="adj"/></l>                <r>maschile<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>femení<s n="adj"/></l>                 <r>femminile<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e r="RL"><p><l>femení<s n="adj"/></l>                 <r>femminile<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>feminista<s n="adj"/></l>              <r>femminista<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -4262,9 +4264,7 @@
 <e>       <p><l>autisme<s n="n"/></l>                  <r>autismo<s n="n"/></r></p></e>
 <e>       <p><l>autobiografia<s n="n"/></l>            <r>autobiografia<s n="n"/></r></p></e>
 <e>       <p><l>autobús<s n="n"/><s n="m"/></l>        <r>autobus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e r="LR"><p><l>autocaravana<s n="n"/><s n="f"/><s n="sg"/></l><r>camper<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>autocaravana<s n="n"/><s n="f"/><s n="pl"/></l><r>camper<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>autocaravana<s n="n"/><s n="f"/><s n="ND"/></l><r>camper<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>autocaravana<s n="n"/><s n="f"/></l>   <r>camper<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>autoestima<s n="n"/></l>               <r>autostima<s n="n"/></r></p></e>
 <e>       <p><l>autofinançament<s n="n"/><s n="m"/></l><r>autofinanziamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>automobilisme<s n="n"/><s n="m"/><s n="sg"/></l><r>automobilismo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4469,7 +4469,7 @@
 <e>       <p><l>bolo<s n="n"/></l>                     <r>birillo<s n="n"/></r></p></e>
 <e>       <p><l>bolxevisme<s n="n"/></l>               <r>bolscevismo<s n="n"/></r></p></e>
 <e>       <p><l>bomba<s n="n"/></l>                    <r>bomba<s n="n"/></r></p></e>
-/e>       <p><l>bomber<s n="n"/><s n="m"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bomber<s n="n"/><s n="m"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>bomber<s n="n"/><s n="f"/></l>         <r>vigile<g><b/>del<b/>fuoco</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bombo<s n="n"/></l>                    <r>bombo<s n="n"/></r></p></e>
 <e>       <p><l>bombolla<s n="n"/></l>                 <r>bolla<s n="n"/></r></p></e>
@@ -4488,9 +4488,8 @@
 <e>       <p><l>bossa<s n="n"/><s n="f"/></l>          <r>borsa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>botella<s n="n"/></l>                  <r>bottiglia<s n="n"/></r></p></e>
 <e>       <p><l>botiga<s n="n"/><s n="f"/></l>         <r>bottega<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>botànic<s n="n"/><s n="m"/></l>        <r>botanico<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>botànic<s n="n"/><s n="f"/></l>        <r>botanico<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>botànic<s n="n"/><s n="GD"/></l>       <r>botanico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>botànic<s n="n"/><s n="m"/></l>        <r>botanico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>botànica<s n="n"/><s n="f"/></l>       <r>botanica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>botí<s n="n"/></l>                     <r>bottino<s n="n"/></r></p></e>
 <e>       <p><l>bou<s n="n"/></l>                      <r>toro<s n="n"/></r></p></e>
 <e>       <p><l>bou<s n="n"/></l>                      <r>bue<s n="n"/></r></p></e>
@@ -4505,6 +4504,7 @@
 <e r="RL"><p><l>braç<s n="n"/><s n="m"/><s n="pl"/></l><r>braccio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>braç<s n="n"/><s n="m"/></l>           <r>braccio<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>bresquilla<s n="n"/></l>               <r>pesca<s n="n"/></r></p></e>
+<e>       <p><l>Brexit<s n="n"/><s n="acr"/><s n="m"/></l><r>Brexit<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>brindis<s n="n"/><s n="m"/><s n="sp"/></l><r>brindisi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>broc<s n="n"/></l>                     <r>becco<s n="n"/></r></p></e>
 <e>       <p><l>brodat<s n="n"/></l>                   <r>ricamo<s n="n"/></r></p></e>
@@ -4529,7 +4529,7 @@
 <e>       <p><l>burocràcia<s n="n"/></l>               <r>burocrazia<s n="n"/></r></p></e>
 <e r="LR"><p><l>burro<s n="n"/></l>                    <r>somaro<s n="n"/></r></p></e>
 <e r="LR"><p><l>burro<s n="adj"/></l>                  <r>somaro<s n="adj"/></r></p></e>
-<e>       <p><l>bus<s n="n"/><s n="m"/></l>            <r>pullman<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>autocar<s n="n"/><s n="m"/></l>        <r>pullman<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>butllofa<s n="n"/></l>                 <r>vescica<s n="n"/></r></p></e>
 <e>       <p><l>butxaca<s n="n"/><s n="f"/></l>        <r>tasca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>butà<s n="n"/></l>                     <r>butano<s n="n"/></r></p></e>
@@ -4589,7 +4589,7 @@
 <e>       <p><l>camell<s n="n"/></l>                   <r>cammello<s n="n"/></r></p></e>
 <e>       <p><l>camioner<s n="n"/></l>                 <r>camionista<s n="n"/></r></p></e>
 <e>       <p><l>camisa<s n="n"/></l>                   <r>camicia<s n="n"/></r></p></e>
-<e>       <p><l>camió<s n="n"/></l>                    <r>autocarro<s n="n"/></r></p></e>
+<e r="RL"><p><l>camió<s n="n"/></l>                    <r>autocarro<s n="n"/></r></p></e>
 <e>       <p><l>camió<s n="n"/><s n="m"/></l>          <r>camion<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>camp<s n="n"/></l>                     <r>campo<s n="n"/></r></p></e>
 <e>       <p><l>campament<s n="n"/></l>                <r>accampamento<s n="n"/></r></p></e>
@@ -4986,14 +4986,16 @@
 <e>       <p><l>conjectura<s n="n"/></l>               <r>congettura<s n="n"/></r></p></e>
 <e>       <p><l>conjunció<s n="n"/></l>                <r>congiunzione<s n="n"/></r></p></e>
 <e>       <p><l>conjunt<s n="n"/></l>                  <r>insieme<s n="n"/></r></p></e>
+<e>       <p><l>subconjunt<s n="n"/></l>               <r>sottoinsieme<s n="n"/></r></p></e>
 <e>       <p><l>connexió<s n="n"/></l>                 <r>connessione<s n="n"/></r></p></e>
 <e>       <p><l>conquesta<s n="n"/></l>                <r>conquista<s n="n"/></r></p></e>
+<e r="LR"><p><l>conquista<s n="n"/></l>                <r>conquista<s n="n"/></r></p></e>
 <e>       <p><l>conqueridor<s n="n"/></l>              <r>conquistatore<s n="n"/></r></p></e>
 <e r="LR"><p><l>conquistador<s n="n"/></l>             <r>conquistatore<s n="n"/></r></p></e>
 <e>       <p><l>conquilla<s n="n"/></l>                <r>conchiglia<s n="n"/></r></p></e>
 <e>       <p><l>conreu<s n="n"/><s n="m"/></l>         <r>coltivazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>consciència<s n="n"/></l>              <r>coscienza<s n="n"/></r></p></e>
-<e>       <p><l>consciència<s n="n"/></l>              <r>consapevolezza<s n="n"/></r></p></e>
+<e r="RL"><p><l>consciència<s n="n"/></l>              <r>consapevolezza<s n="n"/></r></p></e>
 <e>       <p><l>consecució<s n="n"/><s n="f"/></l>     <r>conseguimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>consell<s n="n"/></l>                  <r>consiglio<s n="n"/></r></p></e>
 <e r="LR"><p><l>conseller<s n="n"/><s n="m"/></l>      <r>consigliere<s n="n"/><s n="m"/></r></p></e>
@@ -5384,6 +5386,8 @@
 <e>       <p><l>direcció<s n="n"/></l>                 <r>direzione<s n="n"/></r></p></e>
 <e>       <p><l>director<s n="n"/></l>                 <r>direttore<s n="n"/></r></p></e>
 <e>       <p><l>directori<s n="n"/><s n="m"/></l>      <r>directory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>subdirectori<s n="n"/><s n="m"/></l>   <r>subdirectory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>subdirectori<s n="n"/><s n="m"/></l>   <r>sottodirectory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>directriu<s n="n"/></l>                <r>direttrice<s n="n"/></r></p></e>
 <e>       <p><l>directriu<s n="n"/><s n="f"/></l>      <r>direttiva<s n="n"/></r></p></e>
 <e>       <p><l>dirigent<s n="n"/></l>                 <r>dirigente<s n="n"/></r></p></e>
@@ -6930,9 +6934,9 @@
 <e>       <p><l>meteorit<s n="n"/></l>                 <r>meteorite<s n="n"/></r></p></e>
 <e>       <p><l>meteorologia<s n="n"/></l>             <r>meteorologia<s n="n"/></r></p></e>
 <e>       <p><l>metge<s n="n"/></l>                    <r>medico<s n="n"/></r></p></e>
-<e>       <p><l>metre<s n="n"/></l>                    <r>metro<s n="n"/></r></p></e>
-<e>       <p><l>metro<s n="n"/></l>                    <r>metro<s n="n"/></r></p></e>
-<e>       <p><l>metro<s n="n"/><s n="m"/></l>          <r>metropolitano<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>metre<s n="n"/><s n="m"/></l>          <r>metro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>metro<s n="n"/><s n="m"/></l>          <r>metro<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>metro<s n="n"/><s n="m"/></l>          <r>metropolitana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>metròpoli<s n="n"/><s n="f"/></l>      <r>metropoli<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>metxa<s n="n"/><s n="f"/></l>          <r>stoppino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>metàfora<s n="n"/></l>                 <r>metafora<s n="n"/></r></p></e>
@@ -9531,6 +9535,40 @@
 <e a="wiktionary"><p><l>balancí<s n="n"/><s n="m"/></l><r>bilancino<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>balcó<s n="n"/><s n="m"/></l><r>balcone<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>baldaquí<s n="n"/><s n="m"/></l><r>baldacchino<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>balener<s n="n"/><s n="m"/></l><r>baleniere<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>banjo<s n="n"/><s n="m"/></l><r>banjo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>banya<s n="n"/><s n="f"/></l><r>corno<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>barbarisme<s n="n"/><s n="m"/></l><r>barbarismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>barrufet<s n="n"/><s n="m"/></l><r>puffo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bastonet<s n="n"/><s n="m"/></l><r>bastoncello<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>besamans<s n="n"/><s n="m"/></l><r>baciamano<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bici<s n="n"/><s n="f"/></l><r>bici<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>boix<s n="n"/><s n="m"/></l><r>bosso<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bolquer<s n="n"/><s n="m"/></l><r>pannolino<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>bomber<s n="n"/><s n="m"/></l><r>pompiere<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>bombo<s n="n"/><s n="m"/></l><r>grancassa<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>esborrany<s n="n"/><s n="m"/></l><r>bozza<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>bosó<s n="n"/><s n="m"/></l><r>bosone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>botó<s n="n"/><s n="m"/></l><r>bottone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>botxí<s n="n"/><s n="m"/></l><r>boia<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>branca<s n="n"/><s n="f"/></l><r>ramo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>subbranca<s n="n"/><s n="f"/></l><r>sottoramo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>branquilló<s n="n"/><s n="m"/></l><r>ramoscello<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="hector"><p><l>branqueta<s n="n"/><s n="f"/></l><r>ramoscello<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>brau<s n="n"/><s n="m"/></l><r>toro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>brega<s n="n"/><s n="f"/></l><r>trastullo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bressol<s n="n"/><s n="m"/></l><r>culla<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>brevetat<s n="n"/><s n="f"/></l><r>brevità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>bricolatge<s n="n"/><s n="m"/></l><r>bricolage<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>bufetada<s n="n"/><s n="f"/></l><r>schiaffo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>bufó<s n="n"/><s n="m"/></l><r>buffone<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bugada<s n="n"/><s n="f"/></l><r>bucato<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>bugader<s n="n"/><s n="m"/></l><r>bacino<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>safareig<s n="n"/><s n="m"/></l><r>lavatoio<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bulb<s n="n"/><s n="m"/></l><r>bulbo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>burí<s n="n"/><s n="m"/></l><r>burino<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>bus<s n="n"/><s n="m"/></l><r>bus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>bust<s n="n"/><s n="m"/></l><r>busto<s n="n"/><s n="m"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -10083,6 +10121,7 @@
 <e>       <p><l>Maurici<s n="np"/><s n="ant"/></l>     <r>Mauritius<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Maya<s n="np"/><s n="ant"/></l>        <r>Maya<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Medina<s n="np"/><s n="top"/></l>      <r>Medina<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Mare<b/>Nostrum<s n="np"/><s n="top"/></l> <r>Mare<b/>Nostrum<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Mediterrani<s n="np"/><s n="top"/></l> <r>Mediterraneo<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Mediterrània<s n="np"/><s n="top"/><s n="f"/></l><r>Mediterraneo<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Melilla<s n="np"/><s n="top"/></l>     <r>Melilla<s n="np"/><s n="top"/></r></p></e>
@@ -26307,7 +26346,7 @@
 <e>       <p><l>Tirol<b/>del<b/>Sud<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Alto<b/>Adige<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Trento<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Trento<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>Trentino<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Trentino<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Província<b/>de<b/>Trento<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Trentino<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Província<b/>de<b/>Trento<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trentino<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 
