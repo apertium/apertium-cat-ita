@@ -395,21 +395,26 @@
 
 <!-- **************** ADJ **************** -->
 
-<!-- rosso > vermell, negre -->
+  <!-- democratico > democràtic, demòcrata -->
   <rule weight="0.6">
-    <match lemma="rosso" tags="adj.*"><select lemma="vermell" tags="adj.*"/></match>
+    <match lemma="democratico" tags="adj.*"><select lemma="democràtic"/></match>
+  </rule>
+
+  <!-- rosso > vermell, negre -->
+  <rule weight="0.6">
+    <match lemma="rosso" tags="adj.*"><select lemma="vermell"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="vino" tags="n.*"/>
-    <match lemma="rosso" tags="adj.*"><select lemma="negre" tags="adj.*"/></match>
+    <match lemma="rosso" tags="adj.*"><select lemma="negre"/></match>
   </rule>
 
-<!-- caro > car, benvolgut -->
+  <!-- caro > car, benvolgut -->
   <rule weight="0.6">
-    <match lemma="caro" tags="adj.*"><select lemma="car" tags="adj.*"/></match>
+    <match lemma="caro" tags="adj.*"><select lemma="car"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="caro" tags="adj.*"><select lemma="benvolgut" tags="adj.*"/></match>
+    <match lemma="caro" tags="adj.*"><select lemma="benvolgut"/></match>
     <match lemma="amico" tags="n.*"/>
   </rule>
 
@@ -417,6 +422,16 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- codice > codi, còdex -->
+  <rule weight="0.6">
+     <match ploma="codice" tags="n.*"><select lemma="codi"/></match>
+  </rule>
+
+  <!-- vaso > gerro, test -->
+  <rule weight="0.6">
+     <match ploma="vaso" tags="n.*"><select lemma="gerro"/></match>
+  </rule>
 
   <!-- stagione > estació, temporada -->
   <rule weight="0.6">
@@ -515,6 +530,11 @@
   <!-- maschera > disfressa, màscara -->
   <rule weight="0.6">
      <match ploma="maschera" tags="n.*"><select lemma="disfressa"/></match>
+  </rule>
+
+  <!-- cubo > cub, galleda -->
+  <rule weight="0.6">
+     <match ploma="cubo" tags="n.*"><select lemma="cub"/></match>
   </rule>
 
   <!-- posta > correu, posta-->

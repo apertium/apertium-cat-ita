@@ -2690,6 +2690,26 @@
      <match ploma="posta" tags="n.*"><select lemma="tramonto"/></match>
   </rule>
 
+  <!-- compliment > osservanza, compimento, complimento -->
+  <rule weight="0.6">
+     <match ploma="compliment" tags="n.*"><select lemma="osservanza"/></match>
+  </rule>
+
+  <!-- correu > posta, corriere -->
+  <rule weight="0.6">
+     <match ploma="correu" tags="n.*"><select lemma="posta"/></match>
+  </rule>
+
+  <!-- test > test, vaso -->
+  <rule weight="0.6">
+     <match ploma="test" tags="n.*"><select lemma="test"/></match>
+  </rule>
+
+  <!-- clau > chiave, codice -->
+  <rule weight="0.6">
+     <match ploma="clau" tags="n.*"><select lemma="chiave"/></match>
+  </rule>
+
   <!-- ploma > penna, pioma -->
   <rule weight="0.6">
      <match ploma="nau" tags="n.*"><select lemma="penna"/></match>
