@@ -423,6 +423,16 @@
 
 <!-- **************** N **************** -->
 
+  <!-- stampa > premsa, impremta, edició -->
+  <rule weight="0.6">
+     <match ploma="stampa" tags="n.*"><select lemma="premsa"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="macchina" tags="n.*"/>
+     <match lemma="di" tags="pr"/>
+     <match ploma="stampa" tags="n.*"><select lemma="premsa"/></match>
+  </rule>
+
   <!-- codice > codi, còdex -->
   <rule weight="0.6">
      <match ploma="codice" tags="n.*"><select lemma="codi"/></match>
@@ -692,6 +702,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- cancellare > esborrar, cancel·lar -->
+  <rule weight="0.6">
+    <match lemma="cancellare" tags="vblex.*"><select lemma="esborrar"/></match>
+  </rule>
+
   <!-- confinare > confinar, limitar -->
   <rule weight="0.6">
     <match lemma="confinare" tags="vblex.*"><select lemma="confinar" tags="vblex.*"/></match>
@@ -712,6 +727,23 @@
     <match lemma="guidare" tags="vblex.*"><select lemma="conduir" tags="vblex.*"/></match>
     <match tags="det.*"/>
     <match lemma="auto" tags="n.*"/>
+  </rule>
+
+  <!-- curare > curar, ocupar -->
+  <rule weight="0.6">
+     <match lemma="curare" tags="vblex.*"><select lemma="curar"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="curare" tags="vblex.*"><select lemma="ocupar"/></match>
+     <repeat from="0" upto="2">
+       <match tags="prn.enc.*"/>
+     </repeat>
+     <match lemma="di" tags="pr"/>
+  </rule>
+
+  <!-- stampare > imprimir, editar, estampar -->
+  <rule weight="0.6">
+     <match lemma="stampare" tags="vblex.*"><select lemma="imprimir"/></match>
   </rule>
 
   <!-- nominare > nomenar, nominar -->

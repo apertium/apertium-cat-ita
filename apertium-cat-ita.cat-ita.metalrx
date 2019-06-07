@@ -1854,6 +1854,20 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- posar > mettere, porre, posare -->
+  <rule weight="0.6">
+     <match ploma="posar" tags="n.*"><select lemma="mettere"/></match>
+  </rule>
+
+  <!-- editar > editare, stampare -->
+  <rule weight="0.6">
+     <match ploma="editar" tags="n.*"><select lemma="editare"/></match>
+  </rule>
+  <!-- reeditar > rieditare, ristampare -->
+  <rule weight="0.6">
+     <match ploma="reeditar" tags="n.*"><select lemma="ristampare"/></match>
+  </rule>
+
   <!-- anomenar > nominare, chiamare, denominare -->
   <macro name="verb_nopron_pron" p1="anomenar" p2="nominare" p3="chiamare"/>
   <rule weight="1.0">
@@ -2630,6 +2644,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- competició > competizione, gara -->
+  <rule weight="0.6">
+    <match lemma="competició" tags="n.*"><select lemma="competizione"/></match>
+  </rule>
+
   <!-- pica > picca, fonte, acquaio, lavello, picco -->
   <rule weight="0.6">
     <match lemma="pica" tags="n.*"><select lemma="picca"/></match>
@@ -2658,6 +2677,11 @@
     <match lemma="pica" tags="n.*"><select lemma="picco"/></match>
     <match lemma="de" tags="pr"/>
     <match tags="np.*"/>
+  </rule>
+
+  <!-- moviment > movimento, moto -->
+  <rule weight="0.6">
+     <match ploma="moviment" tags="n.*"><select lemma="movimento"/></match>
   </rule>
 
   <!-- ram > mazzo, ramo -->
@@ -2693,6 +2717,15 @@
   <!-- compliment > osservanza, compimento, complimento -->
   <rule weight="0.6">
      <match ploma="compliment" tags="n.*"><select lemma="osservanza"/></match>
+  </rule>
+
+  <!-- edició > edizione, stampa, editing -->
+  <rule weight="0.6">
+     <match ploma="edició" tags="n.*"><select lemma="edizione"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.ord.*"/>
+     <match ploma="edició" tags="n.*"><select lemma="stampa"/></match>
   </rule>
 
   <!-- correu > posta, corriere -->
