@@ -423,6 +423,16 @@
 
 <!-- **************** N **************** -->
 
+  <!-- influenza > influència, grip -->
+  <rule weight="0.6">
+     <match ploma="influenza" tags="n.m.*"><select lemma="influència"/></match>
+  </rule>
+
+  <!-- saggio > assaig, savi -->
+  <rule weight="0.6">
+     <match ploma="saggio" tags="n.m.*"><select lemma="assaig"/></match>
+  </rule>
+
   <!-- stampa > premsa, impremta, edició -->
   <rule weight="0.6">
      <match ploma="stampa" tags="n.*"><select lemma="premsa"/></match>
@@ -760,6 +770,16 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- intendere > tenir# la intenció, tenir# la intenció de, entendre -->
+  <macro name="verb_nopron_pron" p1="intendere" p2="tenir# la intenció" p3="entendre"/>
+  <rule weight="1.2">
+    <match lemma="intendere" tags="vblex.*"><select lemma="tenir# la intenció de" tags="vblex.*"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.inf"/>
+  </rule>
+
   <!-- diventare > esdevenir, tornar -->
   <macro name="verb_nopron_pron" p1="diventare" p2="esdevenir" p3="tornar"/>
 

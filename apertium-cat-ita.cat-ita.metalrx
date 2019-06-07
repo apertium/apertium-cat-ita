@@ -1930,6 +1930,16 @@
      <match tags="np.ant.f.sg"/>
   </rule>
 
+  <!-- girar > girare, voltare -->
+  <rule weight="0.8">
+    <match lemma="girar" tags="vblex.*"><select lemma="girare" tags="vblex.*"/></match>
+  </rule>
+
+  <!-- entendre > capire, intendere -->
+  <rule weight="0.8">
+    <match lemma="entendre" tags="vblex.*"><select lemma="capire" tags="vblex.*"/></match>
+  </rule>
+
   <!-- limitar > limitare, confinare -->
   <rule weight="0.8">
     <match lemma="limitar" tags="vblex.*"><select lemma="limitare" tags="vblex.*"/></match>
@@ -1943,7 +1953,6 @@
   </rule>
   
   <!-- ensenyar > insegnare, mustrare --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="insingiare"/></match>
   </rule>
@@ -1988,8 +1997,7 @@
      </or>
   </rule>
 
-  <!-- aconseguir > otènnere, resèssere, resèssere a --> <!-- srd -->
-
+  <!-- aconseguir > otènnere, resèssere, resèssere a, riuscire, conseguire --> <!-- srd -->
   <rule weight="0.6">
      <match lemma="aconseguir" tags="vblex.*"><select lemma="otènnere"/></match>
   </rule>
@@ -2003,7 +2011,6 @@
   </rule>
 
   <!-- desitjar > disigiare, augurare --> <!-- srd -->
-
   <rule weight="0.6">
      <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
   </rule>
