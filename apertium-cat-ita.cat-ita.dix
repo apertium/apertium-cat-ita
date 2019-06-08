@@ -629,7 +629,6 @@
 <e>       <p><l>diminut</l>                            <r>minuto</r></p><par n="adj_sup"/></e>
 <e>       <p><l>dinovè<s n="adj"/></l>                 <r>diciannovesimo<s n="adj"/></r></p></e>
 <e>       <p><l>dinàmic</l>                            <r>dinamico</r></p><par n="adj_sup"/></e>
-<e>       <p><l>diplomàtic</l>                         <r>laureato</r></p><par n="adj_sup"/></e>
 <e>       <p><l>diplomàtic</l>                         <r>diplomatico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>directe<s n="adj"/></l>                <r>diretto<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
 <e>       <p><l>directe<s n="adj"/><s n="sup"/></l>    <r>diretto<s n="adj"/><s n="sup"/></r></p></e>
@@ -693,7 +692,7 @@
 <e>       <p><l>energètic</l>                          <r>energetico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>ennuvolat<s n="adj"/></l>              <r>nuvoloso<s n="adj"/></r></p></e>
 <e>       <p><l>enorme</l>                             <r>enorme</r></p><par n="adj_sup2"/></e>
-<e r="LR"><p><l>enter<s n="adj"/></l>                  <r>intero<s n="adj"/></r></p></e>
+<e>       <p><l>enter</l>                              <r>intero</r></p><par n="adj_sup"/></e>
 <e>       <p><l>enèsim</l>                             <r>ennesimo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>equivalent<s n="adj"/></l>             <r>equivalente<s n="adj"/></r></p></e>
 <e>       <p><l>erudit</l>                             <r>erudito</r></p><par n="adj_sup"/></e>
@@ -891,6 +890,7 @@
 <e>       <p><l>hereditari<s n="adj"/></l>             <r>ereditario<s n="adj"/></r></p></e>
 <e>       <p><l>hermètic</l>                           <r>ermetico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>bisexual</l>                           <r>bisessuale</r></p><par n="adj_sup2"/></e>
+<e r="RL"><p><l>bisexual<s n="adj"/><s n="mf"/></l>    <r>bisex<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>heterosexual</l>                       <r>eterosessuale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>hipòcrita<s n="adj"/></l>              <r>ipocrita<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>històric</l>                           <r>storico</r></p><par n="adj_sup"/></e>
@@ -2324,6 +2324,7 @@
 <e r="LR" a="hector"><p><l>rocallós</l><r>roccioso</r></p><par n="adj_sup"/></e>
 <e a="hector"><p><l>mercant<s n="adj"/></l><r>mercantile<s n="adj"/></r></p></e>
 <e a="hector"><p><l>mercantil<s n="adj"/></l><r>mercantile<s n="adj"/></r></p></e>
+<e a="hector"><p><l>s.l.m.<s n="adj"/></l><r>per<b/>sobre<b/>el<b/>nivell<b/>del<b/>mar<s n="adj"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -4267,6 +4268,7 @@
 <e>       <p><l>allotjament<s n="n"/></l>              <r>alloggio<s n="n"/></r></p></e>
 <e>       <p><l>almanac<s n="n"/></l>                  <r>almanacco<s n="n"/></r></p></e>
 <e>       <p><l>almirall<s n="n"/><s n="mf"/></l>      <r>ammiraglio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>vaixell<g><b/>almirall</g><s n="n"/><s n="m"/></l><r>ammiraglia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>almoina<s n="n"/></l>                  <r>elemosina<s n="n"/></r></p></e>
 <e>       <p><l>alpinisme<s n="n"/></l>                <r>alpinismo<s n="n"/></r></p></e>
 <e>       <p><l>alquimista<s n="n"/></l>               <r>alchimista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -4769,6 +4771,9 @@
 <e>       <p><l>bony<s n="n"/></l>                     <r>bernoccolo<s n="n"/></r></p></e>
 <e>       <p><l>borratxera<s n="n"/></l>               <r>ubriachezza<s n="n"/></r></p></e>
 <e>       <p><l>borratxo<s n="n"/></l>                 <r>ubriaco<s n="n"/></r></p></e>
+<e r="LR"><p><l>embriac<s n="n"/></l>                  <r>ubriaco<s n="n"/></r></p></e>
+<e>       <p><l>borratxo</l>                 <r>ubriaco</r></p><par n="adj_sup"/></e>
+<e r="LR"><p><l>embriac</l>                  <r>ubriaco</r></p><par n="adj_sup"/></e>
 <e>       <p><l>borsa<s n="n"/></l>                    <r>borsa<s n="n"/></r></p></e>
 <e>       <p><l>bosc<s n="n"/></l>                     <r>bosco<s n="n"/></r></p></e>
 <e>       <p><l>bosc<s n="n"/><s n="m"/></l>           <r>foresta<s n="n"/><s n="f"/></r></p></e>
@@ -4783,11 +4788,10 @@
 <e>       <p><l>botànic<s n="n"/><s n="m"/></l>        <r>botanico<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>botànica<s n="n"/><s n="f"/></l>       <r>botanica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>botí<s n="n"/></l>                     <r>bottino<s n="n"/></r></p></e>
-<e>       <p><l>bou<s n="n"/></l>                      <r>toro<s n="n"/></r></p></e>
+<e i="yes"><p><l>bou<s n="n"/></l>                      <r>toro<s n="n"/></r></p></e>
 <e>       <p><l>bou<s n="n"/></l>                      <r>bue<s n="n"/></r></p></e>
-<e r="LR"><p><l>boxador<s n="n"/><s n="m"/></l>        <r>pugile<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>boxador<s n="n"/><s n="f"/></l>        <r>pugile<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>boxador<s n="n"/><s n="GD"/></l>       <r>pugile<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>boxador<s n="n"/></l>                  <r>pugile<s n="n"/></r></p><par n="GD_m"/></e>
+<e r="LR"><p><l>boxejador<s n="n"/></l>                <r>pugile<s n="n"/></r></p><par n="GD_m"/></e>
 <e>       <p><l>branc<s n="n"/><s n="m"/></l>          <r>diramazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>brasa<s n="n"/></l>                    <r>brace<s n="n"/></r></p></e>
 <e>       <p><l>braç<s n="n"/><s n="m"/><s n="sg"/></l><r>braccio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4974,7 +4978,8 @@
 <e>       <p><l>carruatge<s n="n"/></l>                <r>calesse<s n="n"/></r></p></e>
 <e>       <p><l>carta<s n="n"/></l>                    <r>carta<s n="n"/></r></p></e>
 <e>       <p><l>carta<s n="n"/></l>                    <r>lettera<s n="n"/></r></p></e>
-<e>       <p><l>cartell<s n="n"/></l>                  <r>poster<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>càrtel<s n="n"/><s n="m"/></l>         <r>cartello<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cartell<s n="n"/><s n="m"/></l>        <r>poster<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e r="LR"><p><l>carter<s n="n"/><s n="m"/></l>         <r>postino<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>carter<s n="n"/><s n="f"/></l>         <r>postino<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>carter<s n="n"/><s n="GD"/></l>        <r>postino<s n="n"/><s n="m"/></r></p></e>
@@ -5168,7 +5173,6 @@
 <e>       <p><l>col·lonialista<s n="n"/></l>           <r>collonialista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>col·lonialista<s n="adj"/></l>         <r>collonialista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>color<s n="n"/></l>                    <r>colore<s n="n"/></r></p></e>
-<e r="LR"><p><l>colp<s n="n"/></l>                     <r>colpo<s n="n"/></r></p></e>
 <e>       <p><l>coltell<s n="n"/></l>                  <r>coltello<s n="n"/></r></p></e>
 <e>       <p><l>columna<s n="n"/></l>                  <r>colonna<s n="n"/></r></p></e>
 <e>       <p><l>colze<s n="n"/></l>                    <r>gomito<s n="n"/></r></p></e>
@@ -5368,7 +5372,10 @@
 <e>       <p><l>cooperativa<s n="n"/></l>              <r>cooperativa<s n="n"/></r></p></e>
 <e>       <p><l>coordinació<s n="n"/></l>              <r>coordinazione<s n="n"/></r></p></e>
 <e>       <p><l>coordinació<s n="n"/><s n="f"/></l>    <r>coordinamento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>cop<s n="n"/></l>                      <r>colpo<s n="n"/></r></p></e>
+<e>       <p><l>cop<s n="n"/><s n="m"/></l>            <r>colpo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cop<s n="n"/><s n="m"/></l>            <r>volta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>colp<s n="n"/><s n="m"/></l>           <r>colpo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>colp<s n="n"/><s n="m"/></l>           <r>volta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>copa<s n="n"/></l>                     <r>coppa<s n="n"/></r></p></e>
 <e>       <p><l>copyright<s n="n"/><s n="m"/></l>      <r>copyright<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>cor<s n="n"/></l>                      <r>cuore<s n="n"/></r></p></e>
@@ -6936,11 +6943,23 @@
 <e r="LR"><p><l>jutge<s n="n"/></l>                    <r>magistrato<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jutjat<s n="n"/></l>                   <r>tribunale<s n="n"/></r></p></e>
 <e r="LR"><p><l>juí<s n="n"/></l>                      <r>giudizio<s n="n"/></r></p></e>
-<e>       <p><l>kg<s n="n"/></l>                       <r>kg<s n="n"/></r></p></e>
 <e>       <p><l>kilocaloria<s n="n"/></l>              <r>chilocaloria<s n="n"/></r></p></e>
 <e>       <p><l>kilowatt<s n="n"/><s n="m"/></l>       <r>kilowatt<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>kilòmetre<s n="n"/></l>                <r>chilometro<s n="n"/></r></p></e>
-<e>       <p><l>km<s n="n"/></l>                       <r>km<s n="n"/></r></p></e>
+<e>       <p><l>km<s n="n"/><s n="acr"/></l>           <r>km<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>km<s n="n"/><s n="acr"/></l>       <r>km<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>m<s n="n"/><s n="acr"/></l>       <r>m<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>cm<s n="n"/><s n="acr"/></l>       <r>cm<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>mm<s n="n"/><s n="acr"/></l>       <r>mm<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>kg<s n="n"/><s n="acr"/></l>       <r>kg<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>g<s n="n"/><s n="acr"/></l>       <r>g<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>mg<s n="n"/><s n="acr"/></l>       <r>mg<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>l<s n="n"/><s n="acr"/></l>       <r>l<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>dl<s n="n"/><s n="acr"/></l>       <r>dl<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>cl<s n="n"/><s n="acr"/></l>       <r>cl<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>ml<s n="n"/><s n="acr"/></l>       <r>ml<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>s<s n="n"/><s n="acr"/></l>       <r>s<s n="n"/><s n="acr"/></r></p></e>
+<e a="hector"><p><l>S.p.A.<s n="n"/><s n="acr"/></l>   <r>S.A.<s n="n"/><s n="acr"/></r></p></e>
 <e>       <p><l>kurd<s n="n"/></l>                     <r>curdo<s n="n"/></r></p></e>
 <e>       <p><l>laberint<s n="n"/></l>                 <r>labirinto<s n="n"/></r></p></e>
 <e>       <p><l>labor<s n="n"/><s n="f"/></l>          <r>lavoro<s n="n"/><s n="m"/></r></p></e>
@@ -7330,7 +7349,7 @@
 <e>       <p><l>mitjà<s n="n"/><s n="m"/></l>          <r>mezzo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>mitjó<s n="n"/></l>                    <r>calzino<s n="n"/></r></p></e>
 <e>       <p><l>mitologia<s n="n"/></l>                <r>mitologia<s n="n"/></r></p></e>
-<e r="LR"><p><l>mm<s n="n"/></l>                       <r>millimetro<s n="n"/></r></p></e>
+<e>       <p><l>kilòmetre<s n="n"/></l>                <r>chilometro<s n="n"/></r></p></e>
 <e>       <p><l>mobiliari<s n="n"/></l>                <r>arredo<s n="n"/></r></p></e>
 <e>       <p><l>moble<s n="n"/></l>                    <r>mobile<s n="n"/></r></p></e>
 <e>       <p><l>mocador<s n="n"/></l>                  <r>fazzoletto<s n="n"/></r></p></e>
@@ -8423,7 +8442,8 @@
 <e r="RL"><p><l>rodamón<s n="n"/><s n="mf"/></l>       <r>vagabondo<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>rodamón<s n="n"/><s n="mf"/></l>       <r>vagabondo<s n="n"/><s n="GD"/></r></p></e>
 <e>       <p><l>roig<s n="n"/></l>                     <r>rosso<s n="n"/></r></p></e>
-<e>       <p><l>rol<s n="n"/></l>                      <r>ruolo<s n="n"/></r></p></e>
+<e r="LR"><p><l>rol<s n="n"/><s n="m"/></l>            <r>ruolo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>paper<s n="n"/><s n="m"/></l>          <r>ruolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>romanticisme<s n="n"/></l>             <r>romanticismo<s n="n"/></r></p></e>
 <e>       <p><l>romaní<s n="n"/></l>                   <r>rosmarino<s n="n"/></r></p></e>
 <e>       <p><l>rombe<s n="n"/></l>                    <r>rombo<s n="n"/></r></p></e>
@@ -8827,7 +8847,11 @@
 <e>       <p><l>titlla<s n="n"/><s n="f"/></l>         <r>tilde<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>titulació<s n="n"/></l>                <r>titolazione<s n="n"/></r></p></e>
 <e>       <p><l>titular<s n="n"/><s n="mf"/></l>       <r>intestatario<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>titulat<s n="n"/></l>                  <r>titolato<s n="n"/></r></p></e>
+<e>       <p><l>titulat</l>                            <r>laureato</r></p><par n="adj_sup"/></e>
+<e>       <p><l>titulat<s n="n"/></l>                  <r>laureato<s n="n"/></r></p></e>
+<e>       <p><l>diplomar<s n="vblex"/></l>             <r>diplomare<s n="vblex"/></r></p></e>
+<e>       <p><l>graduar<s n="vblex"/></l>              <r>diplomare<s n="vblex"/></r></p></e>
+<e>       <p><l>graduar<s n="vblex"/></l>              <r>graduare<s n="vblex"/></r></p></e>
 <e>       <p><l>to<s n="n"/></l>                       <r>tono<s n="n"/></r></p></e>
 <e>       <p><l>toga<s n="n"/></l>                     <r>toga<s n="n"/></r></p></e>
 <e>       <p><l>toll<s n="n"/></l>                     <r>pozzanghera<s n="n"/><s n="f"/></r></p></e>
@@ -8965,7 +8989,7 @@
 <e>       <p><l>vasectomia<s n="n"/></l>               <r>vasectomia<s n="n"/></r></p></e>
 <e>       <p><l>vector<s n="n"/></l>                   <r>vettore<s n="n"/></r></p></e>
 <e>       <p><l>vedat<s n="n"/></l>                    <r>moncone<s n="n"/></r></p></e>
-<e>       <p><l>vegada<s n="n"/></l>                   <r>volta<s n="n"/></r></p></e>
+<e>       <p><l>vegada<s n="n"/><s n="f"/></l>         <r>volta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>vegetació<s n="n"/></l>                <r>vegetazione<s n="n"/></r></p></e>
 <e>       <p><l>vegetal<s n="n"/></l>                  <r>vegetale<s n="n"/></r></p></e>
 <e>       <p><l>vehicle<s n="n"/></l>                  <r>veicolo<s n="n"/></r></p></e>
@@ -16244,7 +16268,7 @@
 <e>       <p><l>Ciccone<s n="np"/><s n="cog"/></l>     <r>Ciccone<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Ciceró<s n="np"/><s n="ant"/></l>      <r>Cicerone<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Tales<s n="np"/><s n="ant"/></l>       <r>Tales<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Tales<b/>de<b/>Milet<s n="np"/><s n="ant"/></l><r>Tales<b/>di<b/>Mileto<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Tales<b/>de<b/>Milet<s n="np"/><s n="ant"/></l><r>Talete<b/>di<b/>Mileto<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cidoncha<s n="np"/><s n="cog"/></l>    <r>Cidoncha<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Cifuentes<s n="np"/><s n="cog"/></l>   <r>Cifuentes<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Cigarrán<s n="np"/><s n="cog"/></l>    <r>Cigarrán<s n="np"/><s n="cog"/></r></p></e>
@@ -27950,6 +27974,8 @@
 <e>       <p><l>cobrar<s n="vblex"/></l>               <r>riscuotere<s n="vblex"/></r></p></e>
 <e>       <p><l>cobrir<s n="vblex"/></l>               <r>coprire<s n="vblex"/></r></p></e>
 <e>       <p><l>recobrir<s n="vblex"/></l>             <r>ricoprire<s n="vblex"/></r></p></e>
+<e>       <p><l>cobrir<s n="vblex"/></l>               <r>ricoprire<s n="vblex"/></r></p></e>
+<e>       <p><l>exercir<s n="vblex"/></l>              <r>ricoprire<s n="vblex"/></r></p></e>
 <e>       <p><l>colar<s n="vblex"/></l>                <r>colare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>colgar<s n="vblex"/></l>               <r>coprire<s n="vblex"/></r></p></e>
 <e>       <p><l>colorir<s n="vblex"/></l>              <r>colorare<s n="vblex"/></r></p></e>
@@ -28379,6 +28405,8 @@
 <e>       <p><l>invocar<s n="vblex"/></l>              <r>invocare<s n="vblex"/></r></p></e>
 <e>       <p><l>irritar<s n="vblex"/></l>              <r>irritare<s n="vblex"/></r></p></e>
 <e>       <p><l>jugar<s n="vblex"/></l>                <r>giocare<s n="vblex"/></r></p></e>
+<e>       <p><l>tenir<s n="vblex"/></l>                <r>giocare<s n="vblex"/></r></p></e>
+<e>       <p><l>fer<s n="vblex"/></l>                  <r>giocare<s n="vblex"/></r></p></e>
 <e>       <p><l>jurar<s n="vblex"/></l>                <r>giurare<s n="vblex"/></r></p></e>
 <e>       <p><l>lamentar<s n="vblex"/></l>             <r>lamentare<s n="vblex"/></r></p></e>
 <e>       <p><l>legitimar<s n="vblex"/></l>            <r>legittimare<s n="vblex"/></r></p></e>
@@ -28394,6 +28422,7 @@
 <e r="LR"><p><l>llençar<s n="vblex"/></l>              <r>lanciare<s n="vblex"/></r></p></e>
 <e>       <p><l>llevar<s n="vblex"/></l>               <r>togliere<s n="vblex"/></r></p></e>
 <e>       <p><l>llicenciar<s n="vblex"/></l>           <r>licenziare<s n="vblex"/></r></p></e>
+<e>       <p><l>llicenciar<s n="vblex"/></l>           <r>laureare<s n="vblex"/></r></p></e>
 <e>       <p><l>llistar<s n="vblex"/></l>              <r>listare<s n="vblex"/></r></p></e>
 <e>       <p><l>lliurar<s n="vblex"/></l>              <r>consegnare<s n="vblex"/></r></p></e>
 <e>       <p><l>lluitar<s n="vblex"/></l>              <r>combattere<s n="vblex"/></r></p></e>
@@ -29128,7 +29157,6 @@
 <e a="wiktionary"><p><l>exaltar<s n="vblex"/></l><r>esaltare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>examinar<s n="vblex"/></l><r>esaminare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>excitar<s n="vblex"/></l><r>eccitare<s n="vblex"/></r></p></e>
-<e r="LR" a="wiktionary"><p><l>exercir<s n="vblex"/></l><r>esercitare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>exercir<s n="vblex"/></l><r>esercire<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>exercitar<s n="vblex"/></l><r>esercitare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>exigir<s n="vblex"/></l><r>esigere<s n="vblex"/></r></p></e>

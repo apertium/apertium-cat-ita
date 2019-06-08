@@ -1176,7 +1176,7 @@
       <match lemma="aterrar" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
-      <match tags="adv.*"/>
+      <match tags="adv"/>
     </repeat>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
@@ -1210,7 +1210,7 @@
       <match lemma="correspondre" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
-      <match tags="adv.*"/>
+      <match tags="adv"/>
     </repeat>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -1262,18 +1262,14 @@
     <match lemma="en" tags="pr"><select lemma="in"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="pensar"/>
+    <or>
+      <match lemma="pensar"/>
+      <match lemma="participar"/>
+    </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
     <match lemma="en" tags="pr"><select lemma="a"/></match>
-  </rule>
-
-  <rule weight="0.8">
-    <match lemma="pagar" tags="vblex.*"><select lemma="payer"/></match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="canviar" tags="vblex.*"><select lemma="changer"/></match>
   </rule>
 
   <!-- davant > in antis, in antis de --> <!-- srd -->
@@ -1854,6 +1850,17 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- canviar > cambiare... -->
+  <rule weight="0.8">
+    <match lemma="canviar" tags="vblex.*"><select lemma="cambiare"/></match>
+  </rule>
+
+  <!-- llicenciar > licenziare, laureare -->
+  <macro name="verb_nopron_pron" p1="llicenciar" p2="licenziare" p3="laureare"/>
+
+  <!-- graduar > graduare, diplomare -->
+  <macro name="verb_nopron_pron" p1="graduar" p2="graduare" p3="diplomare"/>
+  
   <!-- donar > dare, donare -->
   <rule weight="0.6">
      <match ploma="donar" tags="vblex.*"><select lemma="dare"/></match>
@@ -1943,9 +1950,36 @@
      <match lemma="marxar" tags="vblex.*"><select lemma="partire"/></match>
   </rule>
 
-  <!-- tenir > avere, tenere -->
+  <!-- tenir > avere, tenere, giocare -->
+  <!-- fer > fare giocare -->
   <rule weight="0.6">
      <match lemma="tenir" tags="vblex.*"><select lemma="avere"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="fer" tags="vblex.*"><select lemma="fare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tenir" tags="vblex.*"><select lemma="giocare"/></match>
+      <match lemma="fer" tags="vblex.*"><select lemma="giocare"/></match>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="paper" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tenir" tags="vblex.*"><select lemma="giocare"/></match>
+      <match lemma="fer" tags="vblex.*"><select lemma="giocare"/></match>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match tags="adj.*"/>
+    <match lemma="paper" tags="n.*"/>
   </rule>
 
   <!-- abrigar > proteggere, coprire -->
@@ -1960,26 +1994,31 @@
      <match tags="np.ant.f.sg"/>
   </rule>
 
+  <!-- cobrir > coprire, ricoprire -->
+  <rule weight="0.8">
+    <match lemma="cobrir" tags="vblex.*"><select lemma="coprire"/></match>
+  </rule>
+
   <!-- girar > girare, voltare -->
   <rule weight="0.8">
-    <match lemma="girar" tags="vblex.*"><select lemma="girare" tags="vblex.*"/></match>
+    <match lemma="girar" tags="vblex.*"><select lemma="girare"/></match>
   </rule>
 
   <!-- entendre > capire, intendere -->
   <rule weight="0.8">
-    <match lemma="entendre" tags="vblex.*"><select lemma="capire" tags="vblex.*"/></match>
+    <match lemma="entendre" tags="vblex.*"><select lemma="capire"/></match>
   </rule>
 
   <!-- limitar > limitare, confinare -->
   <rule weight="0.8">
-    <match lemma="limitar" tags="vblex.*"><select lemma="limitare" tags="vblex.*"/></match>
+    <match lemma="limitar" tags="vblex.*"><select lemma="limitare"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
      </repeat>
-    <match lemma="limitar" tags="vblex.pp.*"><select lemma="confinare" tags="vblex.*"/></match>
+    <match lemma="limitar" tags="vblex.pp.*"><select lemma="confinare"/></match>
   </rule>
   
   <!-- ensenyar > insegnare, mustrare --> <!-- srd -->
@@ -3157,43 +3196,106 @@
 # cops forts, cop molt dur, cops al pit
 -->
 
-  <!-- cop > corfu, bia --> <!-- srd -->
+  <!-- cop, colp > colpo, volta -->
   <rule weight="0.6">
-     <match lemma="cop" tags="n.*"><select lemma="bia"/></match>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="volta"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="volta"/></match>
+     </or>
   </rule>
   <rule weight="1.0">
-     <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
+     </or>
      <match lemma="de" tags="pr"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
+     </or>
      <match lemma="a" tags="pr"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
+     </or>
+     <repeat from="0" upto="1">
+       <or>
+         <match tags="preadv"/>
+         <match tags="adv"/>
+       </or>
+     </repeat>
      <match tags="adj.*"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
-     <match tags="adv"/>
+     <or>
+       <match lemma="donar" tags="vblex.*"/>
+       <match lemma="clavar" tags="vblex.*"/>
+       <match lemma="rebre" tags="vblex.*"/>
+     </or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="donar" tags="vblex.*"/>
+       <match lemma="clavar" tags="vblex.*"/>
+       <match lemma="rebre" tags="vblex.*"/>
+     </or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match tags="det.*"/>
      <match tags="adj.*"/>
+     <or>
+       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
+       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
+     </or>
   </rule>
 
-  <!-- paper > pabiru, ruolu --> <!-- srd -->
+  <!-- paper > carta, ruolo -->
   <rule weight="0.6">
      <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
-     <match tags="adj.*"/>
+     <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+  <rule weight="1.0">
+    <match lemma="giocare" tags="vblex.*"><select lemma="tenir"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match tags="det.*"/>
+    <match lemma="ruolo" tags="n.*"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
-     <match tags="adv.*"/>
+    <match lemma="giocare" tags="vblex.*"><select lemma="tenir"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match tags="det.*"/>
+    <match tags="adj.*"/>
+    <match lemma="ruolo" tags="n.*"/>
+  </rule>
+       <or>
+         <match tags="preadv"/>
+         <match tags="adv"/>
+       </or>
+     </repeat>
      <match tags="adj.*"/>
   </rule>
   <rule weight="1.2">
-     <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
+     <match lemma="paper" tags="n.*"><select lemma="carta"/></match>
      <or>
        <match lemma="blanc" tags="adj.*"/>
        <match lemma="groc" tags="adj.*"/>
@@ -3205,12 +3307,13 @@
   </rule>
   <rule weight="1.0">
      <match tags="adj.*"/>
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
   </rule>
   <rule weight="1.0">
      <or>
        <match lemma="tenir" tags="vblex.*"/>
        <match lemma="fer" tags="vblex.*"/>
+       <match lemma="interpretar" tags="vblex.*"/>
        <match lemma="jugar" tags="vblex.*"/>
 
        <match lemma="entendre" tags="vblex.*"/>
@@ -3219,20 +3322,23 @@
        <match lemma="conèixer" tags="vblex.*"/>
      </or>
      <match tags="det.*"/>
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adj.*"/>
+     </repeat>
+     <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
      <match lemma="de" tags="pr"/>
   </rule>
   <rule weight="1.2">
-     <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
+     <match lemma="paper" tags="n.*"><select lemma="carta"/></match>
      <match lemma="de" tags="pr"/>
      <match lemma="estrassa" tags="n.*"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
-     <match lemma="com"/>
+     <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
+     <or><match lemma="com"/><match lemma="com a"/></or>
   </rule>
 
   <!-- recurs > risorsa, ricursu --> <!-- srd -->

@@ -395,6 +395,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- intero > sencer, enter -->
+  <rule weight="0.6">
+    <match lemma="intero" tags="adj.*"><select lemma="sencer"/></match>
+  </rule>
+
   <!-- mercantile > mercantil, mercant -->
   <rule weight="0.6">
     <match lemma="mercantile" tags="adj.*"><select lemma="mercantil"/></match>
@@ -693,6 +698,11 @@
     <match lemma="cerniera" tags="n.*"><select lemma="cremallera"/></match>
   </rule>
 
+  <!-- volta > vegada, cop, colp -->
+  <rule weight="0.6">
+    <match lemma="volta" tags="n.*"><select lemma="vegada"/></match>
+  </rule>
+
   <!-- giro > volta, gir -->
   <rule weight="0.6">
     <match lemma="giro" tags="n.*"><select lemma="volta" tags="n.*"/></match>
@@ -786,20 +796,60 @@
   </rule>
   <rule weight="1.0">
     <match lemma="preoccupare" tags="vblex.*"><select lemma="encarregar"/></match>
-     <repeat from="0" upto="1">
-       <match tags="adv"/>
-     </repeat>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="di" tags="pr"/>
     <match tags="vblex.inf"/>
   </rule>
   <rule weight="1.0">
     <match lemma="preoccupare" tags="vblex.*"><select lemma="encarregar"/></match>
     <match tags="prn.enc.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"/>
+    <match tags="vblex.inf"/>
+  </rule>
+
+  <!-- giocare > jugar, tenir -->
+  <rule weight="0.6">
+    <match lemma="giocare" tags="vblex.*"><select lemma="jugar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="giocare" tags="vblex.*"><select lemma="tenir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="ruolo" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="giocare" tags="vblex.*"><select lemma="tenir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match tags="adj.*"/>
+    <match lemma="ruolo" tags="n.*"/>
+  </rule>
+
+  <!-- ricoprire > recobrir, cobrir, exercir -->
+  <rule weight="0.6">
+    <match lemma="ricoprire" tags="vblex.*"><select lemma="cobrir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ricoprire" tags="vblex.*"><select lemma="cobrir"/></match>
      <repeat from="0" upto="1">
        <match tags="adv"/>
      </repeat>
-    <match lemma="di" tags="pr"/>
-    <match tags="vblex.inf"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="ruolo" tags="n.*"/>
+      <match lemma="carica" tags="n.*"/>
+      <match lemma="incarico" tags="n.*"/>
+      <match lemma="funzione" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- gestire > administrar, gestionar -->
@@ -828,9 +878,9 @@
   </rule>
   <rule weight="1.0">
     <match lemma="confinare" tags="vblex.pp.*"><select lemma="limitar" tags="vblex.*"/></match>
-     <repeat from="0" upto="1">
-       <match tags="adv"/>
-     </repeat>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="con" tags="pr"/>
   </rule>
   
@@ -849,11 +899,11 @@
      <match lemma="curare" tags="vblex.*"><select lemma="curar"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="curare" tags="vblex.*"><select lemma="ocupar"/></match>
-     <repeat from="0" upto="2">
-       <match tags="prn.enc.*"/>
-     </repeat>
-     <match lemma="di" tags="pr"/>
+    <match lemma="curare" tags="vblex.*"><select lemma="ocupar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match lemma="di" tags="pr"/>
   </rule>
 
   <!-- stampare > imprimir, editar, estampar -->
@@ -863,7 +913,7 @@
 
   <!-- nominare > nomenar, nominar -->
   <rule weight="0.6">
-     <match lemma="nominare" tags="vblex.*"><select lemma="nomenar"/></match>
+    <match lemma="nominare" tags="vblex.*"><select lemma="nomenar"/></match>
   </rule>
 
   <!-- disciplinare > disciplinar, reglamentar -->
@@ -874,6 +924,9 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- diplomare > diplomar, graduar -->
+  <macro name="verb_nopron_pron" p1="diplomare" p2="diplomar" p3="graduar"/>
   
   <!-- intendere > tenir# la intenció, tenir# la intenció de, entendre -->
   <macro name="verb_nopron_pron" p1="intendere" p2="tenir# la intenció" p3="entendre"/>
@@ -979,7 +1032,10 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="pensare"/>
+    <or>
+      <match lemma="pensare"/>
+      <match lemma="partecipare"/>
+    </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
