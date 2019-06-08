@@ -1854,18 +1854,38 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- preocupar > preoccupare, encarregar -->
+  <rule weight="0.6">
+     <match ploma="preocupar" tags="vblex.*"><select lemma="preoccupare"/></match>
+  </rule>
+
+  <!-- administrar > amministrare, gestire -->
+  <rule weight="0.6">
+     <match ploma="administrar" tags="vblex.*"><select lemma="amministrare"/></match>
+  </rule>
+
+  <!-- clarificar > chiarificare, chiarire -->
+  <rule weight="0.6">
+     <match ploma="clarificar" tags="vblex.*"><select lemma="chiarificare"/></match>
+  </rule>
+
+  <!-- aclarir > chiarificare, chiarire -->
+  <rule weight="0.6">
+     <match ploma="clarificar" tags="vblex.*"><select lemma="chiarire"/></match>
+  </rule>
+
   <!-- posar > mettere, porre, posare -->
   <rule weight="0.6">
-     <match ploma="posar" tags="n.*"><select lemma="mettere"/></match>
+     <match ploma="posar" tags="vblex.*"><select lemma="mettere"/></match>
   </rule>
 
   <!-- editar > editare, stampare -->
   <rule weight="0.6">
-     <match ploma="editar" tags="n.*"><select lemma="editare"/></match>
+     <match ploma="editar" tags="vblex.*"><select lemma="editare"/></match>
   </rule>
   <!-- reeditar > rieditare, ristampare -->
   <rule weight="0.6">
-     <match ploma="reeditar" tags="n.*"><select lemma="ristampare"/></match>
+     <match ploma="reeditar" tags="vblex.*"><select lemma="ristampare"/></match>
   </rule>
 
   <!-- anomenar > nominare, chiamare, denominare -->
@@ -2650,6 +2670,20 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- fila > fila, riga -->
+  <rule weight="0.6">
+    <match lemma="fila" tags="n.*"><select lemma="fila"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fila" tags="n.*"><select lemma="riga"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="taula" tags="n.*"/>
+      <match lemma="matriu" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- competició > competizione, gara -->
   <rule weight="0.6">
@@ -3475,14 +3509,13 @@
      <match lemma="a" tags="pr"/>
   </rule>
 
-  <!-- taula > caraterìstica, tabella --> <!-- srd -->
+  <!-- taula > tavola, tavolo, tabella -->
   <rule weight="0.6">
-     <match lemma="taula" tags="n.*"><select lemma="mesa"/></match>
+     <match lemma="taula" tags="n.*"><select lemma="tavola"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
+     <match lemma="taula" tags="n.*"><select lemma="tavola"/></match>
      <match lemma="de" tags="pr"/>
-<!--
      <or>
        <match lemma="multiplicar" tags="n.*"/>
        <match lemma="dada" tags="n.*"/>
@@ -3495,22 +3528,9 @@
        <match lemma="Mendeléiev" tags="np.*"/>
        <match lemma="Huffman" tags="np.*"/>
      </or>
--->
   </rule>
   <rule weight="1.0">
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
-     <match lemma="que"/>
-  </rule>
-  <rule weight="1.2">
-     <match lemma="taula" tags="n.*"><select lemma="mesa"/></match>
-     <match lemma="de" tags="pr"/>
-     <or>
-       <match lemma="treball" tags="n.*"/>
-       <match lemma="nit" tags="n.*"/>
-     </or>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
+     <match lemma="taula" tags="n.*"><select lemma="tavola"/></match>
      <or>
        <match lemma="periòdic" tags="adj.*"/>
        <match lemma="astronòmic" tags="adj.*"/>
@@ -3524,30 +3544,6 @@
        <match lemma="núm."/>
        <match lemma="no."/>
        <match tags="num"/>
-     </or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <match lemma="següent" tags="adj.*"/>
-       <match lemma="anterior" tags="adj.*"/>
-     </or>
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
-     <or>
-       <match lemma="mostrar" tags="vblex.*"/>
-       <match lemma="resumir" tags="vblex.*"/>
-     </or>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
-     <!-- <match lemma="es" tags="prn.pro.ref.*"/> -->
-     <match tags="*"/> <!-- prn, adv, adj, num -->
-     <or>
-       <match lemma="mostrar" tags="vblex.*"/>
-       <match lemma="veure" tags="vblex.*"/>
-       <match lemma="resumir" tags="vblex.*"/>
      </or>
   </rule>
 

@@ -395,6 +395,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- mercantile > mercantil, mercant -->
+  <rule weight="0.6">
+    <match lemma="mercantile" tags="adj.*"><select lemma="mercantil"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="marina" tags="n.*"/>
+    <match lemma="mercantile" tags="adj.*"><select lemma="mercant"/></match>
+  </rule>
+
   <!-- democratico > democràtic, demòcrata -->
   <rule weight="0.6">
     <match lemma="democratico" tags="adj.*"><select lemma="democràtic"/></match>
@@ -423,9 +432,27 @@
 
 <!-- **************** N **************** -->
 
+  <!-- aria > aire, ària -->
+  <rule weight="0.6">
+     <match ploma="aria" tags="n.*"><select lemma="aire"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="cantare" tags="vblex.*"/>
+       <match lemma="ascoltare" tags="vblex.*"/>
+     </or>
+     <match tags="det.*"/>
+     <match ploma="aria" tags="n.*"><select lemma="ària"/></match>
+  </rule>
+
+  <!-- attacante > atacant, davanter -->
+  <rule weight="0.6">
+     <match ploma="attacante" tags="n.*"><select lemma="atacant"/></match>
+  </rule>
+
   <!-- influenza > influència, grip -->
   <rule weight="0.6">
-     <match ploma="influenza" tags="n.m.*"><select lemma="influència"/></match>
+     <match ploma="influenza" tags="n.*"><select lemma="influència"/></match>
   </rule>
 
   <!-- saggio > assaig, savi -->
@@ -526,6 +553,21 @@
        <match lemma="riu" tags="n.*"/>
        <match tags="np.*"/>
      </or>
+  </rule>
+
+  <!-- riga > ratlla, fila -->
+  <rule weight="0.6">
+    <match lemma="riga" tags="n.*"><select lemma="ratlla"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="riga" tags="n.*"><select lemma="fila"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="tavola" tags="n.*"/>
+      <match lemma="tabella" tags="n.*"/>
+      <match lemma="matrice" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- piattaforma > plataforma, andana -->
@@ -711,6 +753,43 @@
   </rule>
 
 <!-- **************** V **************** -->
+
+  <!-- preoccupare > preocupar, encarregar, ocupar  -->
+  <rule weight="0.6">
+    <match lemma="preoccupare" tags="vblex.*"><select lemma="preocupar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="preoccupare" tags="vblex.*"><select lemma="encarregar"/></match>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match lemma="di" tags="pr"/>
+    <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="preoccupare" tags="vblex.*"><select lemma="encarregar"/></match>
+    <match tags="prn.enc.*"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+    <match lemma="di" tags="pr"/>
+    <match tags="vblex.inf"/>
+  </rule>
+
+  <!-- gestire > administrar, gestionar -->
+  <rule weight="0.6">
+    <match lemma="gestire" tags="vblex.*"><select lemma="administrar"/></match>
+  </rule>
+
+  <!-- chiarificare > clarificar, aclarir -->
+  <rule weight="0.6">
+    <match lemma="chiarificare" tags="vblex.*"><select lemma="clarificar"/></match>
+  </rule>
+
+  <!-- chiarire > aclarir, clarificar -->
+  <rule weight="0.6">
+    <match lemma="chiarire" tags="vblex.*"><select lemma="aclarir"/></match>
+  </rule>
 
   <!-- cancellare > esborrar, cancel·lar -->
   <rule weight="0.6">
