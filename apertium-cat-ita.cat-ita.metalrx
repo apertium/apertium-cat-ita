@@ -1854,6 +1854,11 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- donar > dare, donare -->
+  <rule weight="0.6">
+     <match ploma="donar" tags="vblex.*"><select lemma="dare"/></match>
+  </rule>
+
   <!-- preocupar > preoccupare, encarregar -->
   <rule weight="0.6">
      <match ploma="preocupar" tags="vblex.*"><select lemma="preoccupare"/></match>
@@ -1872,6 +1877,11 @@
   <!-- aclarir > chiarificare, chiarire -->
   <rule weight="0.6">
      <match ploma="clarificar" tags="vblex.*"><select lemma="chiarire"/></match>
+  </rule>
+
+  <!-- proveir > fornire, provvedere, rifornire -->
+  <rule weight="0.6">
+     <match ploma="proveir" tags="vblex.*"><select lemma="fornire"/></match>
   </rule>
 
   <!-- posar > mettere, porre, posare -->
@@ -2613,6 +2623,16 @@
      <match lemma="croat" tags="adj.*"><select lemma="crociato"/></match>
   </rule>
 
+  <!-- mancat > mancato, privo -->
+  <rule weight="0.6">
+     <match lemma="mancat" tags="adj.*"><select lemma="mancato"/></match>
+  </rule>
+
+  <!-- desproveït > sprovvisto, privo -->
+  <rule weight="0.6">
+     <match lemma="desproveït" tags="adj.*"><select lemma="sprovvisto"/></match>
+  </rule>
+
   <!-- anomenat > denominare, cosiddeto -->
   <rule weight="0.6">
      <match lemma="anomenat" tags="adj.*"><select lemma="denominare.vblex.pp.*"/></match>
@@ -2670,6 +2690,58 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- fracàs > fallimento, insuccesso -->
+  <rule weight="0.6">
+    <match lemma="fracàs" tags="n.*"><select lemma="fallimento"/></match>
+  </rule>
+
+  <!-- llum > luce, lampada -->
+  <rule weight="0.6">
+    <match lemma="llum" tags="n.m.*"><select lemma="luce"/></match>
+  </rule>
+
+  <!-- panteó > pantheon, tomba -->
+  <rule weight="0.6">
+    <match lemma="panteó" tags="n.*"><select lemma="pantheon"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="panteó" tags="n.*"><select lemma="tomba"/></match>
+    <match lemma="familiar" tags="adj.*"/>
+  </rule>
+
+  <!-- vedella > vitella, vitello -->
+  <rule weight="0.6">
+    <match lemma="vedell" tags="n.f.*"><select lemma="vitello" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="de" tags="pr"/>
+    <match lemma="vedell" tags="n.f.sg"><select lemma="vitello" tags="n.m.*"/></match>
+  </rule>
+
+  <!-- joc > gioco, game -->
+  <rule weight="0.6">
+     <match lemma="joc" tags="n.*"><select lemma="gioco"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="num"/><match tags="num.*"/></or>
+     <match lemma="joc" tags="n.*"><select lemma="game"/></match>
+  </rule>
+
+  <!-- ratolí > topo, topolino -->
+  <rule weight="0.6">
+    <match lemma="ratolí" tags="n.*"><select lemma="topo"/></match>
+  </rule>
+
+  <!-- prec > richiesta, supplica -->
+  <rule weight="0.6">
+    <match lemma="prec" tags="n.*"><select lemma="richiesta"/></match>
+  </rule>
+
+  <!-- poltre > puledro, cavalletto -->
+  <rule weight="0.6">
+    <match lemma="poltre" tags="n.*"><select lemma="puledro"/></match>
+  </rule>
 
   <!-- fila > fila, riga -->
   <rule weight="0.6">
@@ -3577,6 +3649,7 @@
      <match tags=""/>
   </rule>
 
+  <macro name="noms_propis" p1="Adrià" p2="Adriano" />
   <macro name="noms_propis" p1="Albert" p2="Alberto" />
   <macro name="noms_propis" p1="Alexandre" p2="Alessandro" />
   <macro name="noms_propis" p1="Alfons" p2="Alfonso" />

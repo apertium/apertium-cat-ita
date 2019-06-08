@@ -434,7 +434,7 @@
 
   <!-- aria > aire, ària -->
   <rule weight="0.6">
-     <match ploma="aria" tags="n.*"><select lemma="aire"/></match>
+     <match lemma="aria" tags="n.*"><select lemma="aire"/></match>
   </rule>
   <rule weight="1.0">
      <or>
@@ -442,42 +442,68 @@
        <match lemma="ascoltare" tags="vblex.*"/>
      </or>
      <match tags="det.*"/>
-     <match ploma="aria" tags="n.*"><select lemma="ària"/></match>
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+  </rule>
+
+  <!-- set > set, plató -->
+  <rule weight="0.6">
+     <match lemma="set" tags="n.*"><select lemma="set"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="set" tags="n.*"><select lemma="plató"/></match>
+     <or>
+       <match lemma="cinematografico" tags="adj.*"/>
+       <match lemma="televisivo" tags="adj.*"/>
+     </or>
   </rule>
 
   <!-- attacante > atacant, davanter -->
   <rule weight="0.6">
-     <match ploma="attacante" tags="n.*"><select lemma="atacant"/></match>
+     <match lemma="attacante" tags="n.*"><select lemma="atacant"/></match>
   </rule>
 
   <!-- influenza > influència, grip -->
   <rule weight="0.6">
-     <match ploma="influenza" tags="n.*"><select lemma="influència"/></match>
+     <match lemma="influenza" tags="n.*"><select lemma="influència"/></match>
   </rule>
 
   <!-- saggio > assaig, savi -->
   <rule weight="0.6">
-     <match ploma="saggio" tags="n.m.*"><select lemma="assaig"/></match>
+     <match lemma="saggio" tags="n.m.*"><select lemma="assaig"/></match>
+  </rule>
+
+  <!-- luce > llum f, llum m -->
+  <rule weight="0.6">
+     <match lemma="luce" tags="n.*"><select lemma="llum" tags="n.f.*"/></match>
+  </rule>
+
+  <!-- vitello > vedella, vedell -->
+  <rule weight="0.6">
+    <match lemma="vitello" tags="n.m.*"><select lemma="vedell" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="di" tags="pr"/>
+    <match lemma="vitello" tags="n.m.sg"><select lemma="vedell" tags="n.f.*"/></match>
   </rule>
 
   <!-- stampa > premsa, impremta, edició -->
   <rule weight="0.6">
-     <match ploma="stampa" tags="n.*"><select lemma="premsa"/></match>
+     <match lemma="stampa" tags="n.*"><select lemma="premsa"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="macchina" tags="n.*"/>
      <match lemma="di" tags="pr"/>
-     <match ploma="stampa" tags="n.*"><select lemma="premsa"/></match>
+     <match lemma="stampa" tags="n.*"><select lemma="premsa"/></match>
   </rule>
 
   <!-- codice > codi, còdex -->
   <rule weight="0.6">
-     <match ploma="codice" tags="n.*"><select lemma="codi"/></match>
+     <match lemma="codice" tags="n.*"><select lemma="codi"/></match>
   </rule>
 
   <!-- vaso > gerro, test -->
   <rule weight="0.6">
-     <match ploma="vaso" tags="n.*"><select lemma="gerro"/></match>
+     <match lemma="vaso" tags="n.*"><select lemma="gerro"/></match>
   </rule>
 
   <!-- stagione > estació, temporada -->
@@ -577,31 +603,31 @@
 
   <!-- camera > cambra, habitació, càmera -->
   <rule weight="0.6">
-     <match ploma="camera" tags="n.*"><select lemma="cambra"/></match>
+     <match lemma="camera" tags="n.*"><select lemma="cambra"/></match>
   </rule>
   <rule weight="0.6">
      <match lemma="di" tags="pr"/>
-     <match ploma="camera" tags="n.*"><select lemma="cambra"/></match>
+     <match lemma="camera" tags="n.*"><select lemma="cambra"/></match>
   </rule>
 
   <!-- costume > costum, banyador, disfressa -->
   <rule weight="0.6">
-     <match ploma="costume" tags="n.*"><select lemma="costum"/></match>
+     <match lemma="costume" tags="n.*"><select lemma="costum"/></match>
   </rule>
 
   <!-- maschera > disfressa, màscara -->
   <rule weight="0.6">
-     <match ploma="maschera" tags="n.*"><select lemma="disfressa"/></match>
+     <match lemma="maschera" tags="n.*"><select lemma="disfressa"/></match>
   </rule>
 
   <!-- cubo > cub, galleda -->
   <rule weight="0.6">
-     <match ploma="cubo" tags="n.*"><select lemma="cub"/></match>
+     <match lemma="cubo" tags="n.*"><select lemma="cub"/></match>
   </rule>
 
   <!-- posta > correu, posta-->
   <rule weight="0.6">
-     <match ploma="posta" tags="n.*"><select lemma="correu"/></match>
+     <match lemma="posta" tags="n.*"><select lemma="correu"/></match>
   </rule>
 
   <!-- fonte > font, pica -->
@@ -968,6 +994,18 @@
   <rule weight="0.6">
     <match lemma="in" tags="pr"><select lemma="en"/></match>
   </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="in" tags="pr"><select lemma="a"/></match>
     <repeat from="0" upto="1">
@@ -1065,6 +1103,7 @@
 
 <!-- **************** NP **************** -->
 
+  <macro name="noms_propis" p1="Adriano" p2="Adrià" />
   <macro name="noms_propis" p1="Alberto" p2="Albert" />
   <macro name="noms_propis" p1="Alessandro" p2="Alexandre" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
