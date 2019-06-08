@@ -723,7 +723,7 @@ aglomerant
 aglomerat	
 aglutinable	
 aglutinador	
-aglutinant	
+aglutinant	agglutinante	hector
 aglutinatiu	
 agminat	
 àgnat	
@@ -3181,8 +3181,6 @@ autunià
 auversià	
 auxiliable	
 auxiliador	
-auxiliar	assistente
-auxiliar	soccorrere
 auxínic	
 auxocròmic	
 auxològic	
@@ -3534,7 +3532,7 @@ basquetbolístic
 basquista	
 bast	
 bastant	piuttosto
-bastard	
+bastard	bastardo	hector
 bastetà	
 bastidenc	
 bastillat	
@@ -4599,7 +4597,6 @@ cabrilenc
 cabriter	
 cabriu	
 cabró	cornuto
-cabró	bastardo
 cabrú	
 cabussador	
 cabussaire	
@@ -5677,7 +5674,7 @@ cirriforme
 cirrós	
 cirròtic	
 cisador	
-cisalpí	
+cisalpí	cisalpino	hector
 cisellat	
 cisgangètic	
 cisjordà	
@@ -7058,7 +7055,6 @@ culpabilitzador
 culpable	colpevole
 culpable	colpevole
 culpós	
-culte	culto
 culte	colto
 culterà	
 cultivable	
@@ -7875,6 +7871,7 @@ desmitificador
 desmodat	
 desmoderat	
 desmodròmic	
+desmoralitzat	demoralizzato	hector	
 desmoralitzador	
 desmorrellat	
 desmotador	
@@ -9601,7 +9598,7 @@ equisetiforme
 equisonant	
 equitable	
 equitant	
-equitatiu	
+equitatiu	equo	hector
 equivalent	
 equívoc	
 equivocat	
@@ -9630,7 +9627,7 @@ eritreu
 eritrocitari	
 eritrocític	
 eritroide	
-erm	terra incolta
+erm	incolto	hector
 erminiat	
 ermós	
 erogen	
@@ -10320,7 +10317,7 @@ estufadís
 estugós	
 estult	stolto
 estupefacte	sbalordito
-estupefaent	
+estupefaent	stupefacente	hector
 estupend	
 estupent	
 estúpid	stupido
@@ -10375,7 +10372,7 @@ etoli
 etològic	
 etrusc	
 euàntic	
-eucariota	eukaryota
+eucariota	eucariote	hector
 eucariòtic	
 eucarístic	
 euclideà	
@@ -12855,7 +12852,6 @@ heretable
 herètic	
 heretical	
 hereu	erede
-hereu	primogenito
 hermafrodita	
 hermenèutic	
 hermètic	
@@ -13419,7 +13415,7 @@ idempotent
 idèntic	identico
 identificable	
 identificador	
-identificatiu	
+identificatiu	identificativo	hector
 identitari	
 ideogènic	
 ideogràfic	
@@ -14048,7 +14044,7 @@ inculpable
 inculpat	
 inculpatori	
 incult	
-inculte	
+inculte	incolto	hector
 incultivable	
 incultivat	
 incumbent	
@@ -14503,7 +14499,7 @@ inoculable
 inoculador	
 inocupat	
 inodor	
-inofensiu	
+inofensiu	inoffensivo	hector
 inoficial	
 inoficiós	
 inoïble	
@@ -15089,7 +15085,7 @@ irregenerable
 irregular	
 irreivindicable	
 irreligiós	
-irrellevant	
+irrellevant	irrilevante	hector
 irremeiable	
 irremissible	
 irremovible	
@@ -15721,7 +15717,7 @@ levorotatori
 levuriforme	
 lexemàtic	
 lèxic	lessico
-lexical	
+lexical	lessicale	hector
 lexicogràfic	
 lexicogramatical	
 lexicològic	
@@ -16156,7 +16152,7 @@ longànime
 longeu	
 longilini	
 longistil	
-longitudinal	
+longitudinal	longitudinale	hector
 longobard	
 loquaç	verboso
 lorenès	
@@ -17264,8 +17260,8 @@ mímic
 minable	
 minador	
 mindelià	
-miner	
-mineral	
+miner	minerario	hector
+mineral	minerale	hector
 mineralitzable	
 mineralitzador	
 mineralitzant	
@@ -17390,7 +17386,7 @@ mitjancer
 mitocondrial	
 mitogen	
 mitogràfic	
-mitològic	
+mitològic	mitologico	hector
 mitologitzant	
 mitòman	
 mitòtic	
@@ -18074,7 +18070,7 @@ nanomètric
 nanoscòpic	
 nansat	
 napiforme	
-napoleònic	
+napoleònic	napoleonico
 napolità	napoletano
 napolità	napoletano
 naquerà	
@@ -18872,7 +18868,7 @@ ofegatiu
 ofegós	
 ofenedor	
 ofenós	
-ofensiu	
+ofensiu	offensivo	hector
 ofensor	
 oferent	
 oferidor	
@@ -19359,14 +19355,14 @@ ozenós
 ozonitzador	
 ozonomètric	
 paçanenc	
-pacient	
+pacient	paziente	hector
 pacífic	pacifico
 pacificable	
 pacificador	
 pacífid	
 pacifista	
 pactista	
-padà	
+padà	padano	hector
 p-àdic	
 padronal	
 paduà	
@@ -19683,7 +19679,7 @@ paridor
 parietal	
 parió	pari
 paripinnat	
-parisenc	
+parisenc	parigino	hector
 parisil·làbic	
 paritari	
 parkinsonià	
@@ -19789,7 +19785,7 @@ patognòmic
 patognomònic	
 patològic	
 patrenc	
-patriarcal	
+patriarcal	patriarcale	hector
 patriarcalista	
 patrici	
 patricià	
@@ -20886,7 +20882,7 @@ pontsicà
 pop	polpo
 poper	
 popliti	
-popular	
+popular	popolare	hector
 popularista	
 popularitzable	
 populatxer	
@@ -21406,7 +21402,7 @@ probe
 probiòtic	
 problemàtic	
 procaç	
-procariota	
+procariota	procariote	hector
 procariòtic	
 procedent	proveniente
 procedimental	
@@ -21939,7 +21935,7 @@ quallador
 quallat	
 qualsevol	
 quant	quanto
-quàntic	
+quàntic	quantistico	hector
 quantificable	
 quantiós	
 quantitatiu	
@@ -22622,7 +22618,7 @@ rellentós
 rellépol	
 relleuer	
 rellevador	
-rellevant	
+rellevant	rilevante	hector
 relligador	
 rellinassenc	
 relliscós	
@@ -22675,7 +22671,7 @@ renadiu
 renadívol	
 renaixent	
 renaixentista	
-renal	
+renal	renale	hector
 renauenc	
 rendal	
 rendible	redditizio
@@ -23134,7 +23130,6 @@ romeuenc
 rompedor	
 ronc	rauco
 ronc	affiocato
-ronc	russo
 roncador	pesce arabo
 roncaire	
 rondador	
@@ -24556,7 +24551,7 @@ soneixí
 sònic	
 sonillós	
 sonomètric	
-sonor	
+sonor	sonoro	hector
 sonoreductor	
 sonoritzador	
 sonorós	
@@ -25923,7 +25918,7 @@ tranquil·litzador
 tranquil·litzant	
 trans	
 transaccional	
-transalpí	
+transalpí	transalpino	hector
 transandí	
 transatlàntic	
 transbordador	
@@ -26735,7 +26730,7 @@ utilitzable
 utilitzador	
 utilitzat	
 utilós	
-utòpic	
+utòpic	utopistico	hector
 utraquista	
 utricular	
 uveal	

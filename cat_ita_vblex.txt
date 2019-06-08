@@ -63,9 +63,6 @@ abrasar	abbruciare
 abrasar	inaridire
 abreujar	abbreviare
 abrigallar	
-abrigar	riparare
-abrigar	difendere
-abrigar	ricoprire
 abrillantar	brillantare
 abrogar	abrogare
 abromar	
@@ -123,11 +120,6 @@ acidificar	acidificare
 acidular	acidulare
 aclamar	acclamare
 aclaparar	infievolire
-aclarir	schiarare
-aclarir	diradare
-aclarir	schiarire
-aclarir	chisciare
-aclarir	dilucidare
 aclimatar	acclimatare
 acoblar	accoppiare
 acollar	
@@ -360,7 +352,6 @@ aixafar	schiacciare
 aixafar la guitarra	
 aixecar	alzare
 aixecar sospites	
-aixoplugar	rifugiare
 ajeure	convenirsi
 ajornar	aggiornare
 ajudar	aiutare
@@ -1102,7 +1093,7 @@ cerndre
 certificar	certificare
 cessar	cessare
 ciavogar	
-cicatritzar	
+cicatritzar	cicatrizzare	hector
 cimentar	
 cinematografiar	
 circuir	
@@ -1110,8 +1101,9 @@ circular
 circumcidar	circoncidere
 circumdar	
 circumferir	
-circumscriure	
-circumval·lar	
+circumnavigar	circumnavigare	hector	
+circumscriure	circoscrivere	hector
+circumval·lar	circonvallare	hector
 circundar	
 cisallar	
 cisar	
@@ -1121,7 +1113,7 @@ citar	citare
 citar	citare
 civilitzar	civilizzare
 clacar	
-clamar	
+clamar	reclamare	hector
 clapejar	
 clarejar	
 clarificar	
@@ -1290,7 +1282,7 @@ confederar
 conferenciar	
 conferir	conferire
 conferir	conferire
-confessar	
+confessar	confessare	hector
 confiar	
 configurar	
 confinar	
@@ -1891,7 +1883,7 @@ desmitificar
 desmobilitzar	
 desmoblar	
 desmodular	
-desmoralitzar	
+desmoralitzar	demoralizzare	vblex
 desmotivar	
 desmultiplicar	
 desmuntar	
@@ -2130,7 +2122,7 @@ editar
 editorialitzar	
 educar	
 edulcorar	
-efectuar	
+efectuar	effettuare	hector
 efeminar	effeminare
 egressar	
 eixamplar	ampliare
@@ -2266,7 +2258,7 @@ emportar
 emprar	
 emprendre	
 emprenyar	arrabbiato
-empresonar	
+empresonar	imprigionare	hector
 empunyar	
 emular	
 emulsionar	
@@ -2824,7 +2816,7 @@ etiquetar
 etzibar	
 europeïtzar	
 evacuar	
-evadir	
+evadir	evadere	hector
 evangelitzar	evangelizzare
 evaporar	
 evidenciar	
@@ -2832,7 +2824,7 @@ evitar	evitare
 evocar	
 evolucionar	evolvere
 exacerbar	
-exagerar	
+exagerar	esagerare	hector
 exalçar	
 exaltar	esaltare
 exaltar	encomiare
@@ -3534,7 +3526,6 @@ interceptar	intercettare
 interceptar	intercettare
 intercomunicar	
 interconnectar	
-interessar	lucrare
 interessar	interessare
 interferir	interferire
 interfoliar	interfogliare
@@ -3677,9 +3668,7 @@ llevar	toggliere
 llevar acta	
 llibertar	affrancare
 llicenciar	licenziare
-llicenciar	licenziare
-llicenciar	licenziare
-llicenciar	licenziare
+llicenciar	laureare
 lligar	
 llimar	limare
 llimar	limare
@@ -4155,7 +4144,7 @@ pixelar	pixellizzare
 placar	
 plagiar	
 planejar	
-planificar	
+planificar	pianificare	hector
 plantar	piantare
 plantar	piantare
 plantar	plantare
@@ -4406,7 +4395,7 @@ putejar
 quadrar	
 quadricular	
 quadruplicar	quadruplicare
-qualificar	
+qualificar	qualificare
 quallar	coagulare
 quantificar	
 quarterar	
@@ -4573,8 +4562,7 @@ reduir	ridurre
 reduir a la meitat	
 redundar	
 reedificar	riedificare
-reeditar	
-reeducar	
+reeducar	rieducare	hector
 reeestablir	
 reeixir	riuscire
 reeixir	riuscire
@@ -4770,7 +4758,7 @@ requerir
 requisar	
 resar	
 rescabalar	
-rescatar	
+rescatar	riscattare	hector
 rescindir	
 resemantitzar	
 reservar	
@@ -5117,7 +5105,7 @@ subjugar
 sublevar	
 sublimar	
 submergir	
-subministrar	
+subministrar	somministrare	hector
 subordinar	
 subornar	
 subratllar	

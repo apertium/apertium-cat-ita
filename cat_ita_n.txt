@@ -34,7 +34,7 @@ abelleta
 abellot	
 aberració	
 abertzalisme	
-abeurador	bbevatoio
+abeurador	abbeveratoio	hector
 abillament	
 abisme	abisso
 abjecció	
@@ -110,8 +110,6 @@ abvolt
 AC	
 acaballes	
 acabament	
-acabat	perfetto
-acabat	perfetto
 acabat	finitura
 acaçament	
 acàcia	
@@ -266,7 +264,6 @@ acromi	acromio
 acromia	
 àcron	
 acrònim	acronimo
-acrònim	parola macedonia
 acronímia	
 acroparestèsia	
 acròpoli	
@@ -594,7 +591,7 @@ agarosa
 agave	
 agençament	
 agència	
-agenda	﻿agenda
+agenda	agenda
 agenesi	
 agenollador	
 agenollament	
@@ -670,7 +667,6 @@ agrupació
 agrupament	
 aguait	agguato
 aguant	vigore
-aguant	pazienzia
 agudesa	
 agudització	
 aguerriment	
@@ -678,8 +674,7 @@ aguerriment
 aguileta	
 aguiló	
 agulla	ago
-agulla	agughia
-agulla de cap	
+agulla de cap	spillo	hector
 agulla de metall	
 agulló	pungiglione
 agustí	
@@ -856,7 +851,6 @@ aleatorització
 àlef	
 alegalitat	
 alegria	allegrezza
-alegria	giuggiolena
 alemany	tedesco
 alemany suís	
 alena	lesina
@@ -888,7 +882,7 @@ alfènid
 alferes	
 alfil	alfiere
 alfolba	
-alga	alga marina
+alga	alga	hector
 algara	
 algaravia	
 àlgebra	algebra
@@ -974,7 +968,7 @@ al·ligàtor
 allioli	aïoli
 allisada de trànsit	
 allistament	
-al·literació	alliterazione
+al·literació	allitterazione
 al·litització	
 al·locució	
 al·lòfon	
@@ -1104,7 +1098,6 @@ amarant
 amaratge	
 amargor	
 amarguesa	
-amarra	gomona
 amarrador	
 amarratge	
 amàs	
@@ -1722,12 +1715,10 @@ aparell	pompa
 aparell	arnese
 aparell	apparecchio
 aparell	paranco
-aparell	mestica
 aparellador	
 aparellament	
 aparellatge	
 aparença	apparenza
-aparença	aparência
 apariament	
 apariat	
 aparició	
@@ -1871,7 +1862,7 @@ aqueni
 aqüicultor	
 aqüicultura	
 aquiescència	
-aqüífer	falda aquifera
+aqüífer	falda acquifera
 aquilègia	
 aquília	
 aquiló	
@@ -1954,10 +1945,8 @@ ardor
 àrea	ara
 àrea	area
 arefacció	
-areflèxia	areflessia
 arena	
 arenal	
-areng	arinca
 arenga	arringa
 arenícola	
 arenisca	
@@ -2763,7 +2752,7 @@ AVT
 avulsió	
 axil·la	
 axiologia	
-axioma	axioma
+axioma	assioma	hector
 axiomatització	
 axis	
 axó	assone
@@ -2853,6 +2842,7 @@ balada	ballata
 baladre	oleandro
 balafiament	
 balalaica	balalaica
+balalaica	balalaika
 balanç	dondolio
 balança	bilancia
 balanceig	
@@ -3060,7 +3050,7 @@ basquetbol	pallacanestro
 bassa	
 bassal	
 basseta	
-bastard	
+bastard	bastardo	hector
 bastardia	
 bastarna	
 baster	
@@ -3202,7 +3192,6 @@ berenador
 berenar	merendare
 bergamota	
 bergant	briccone
-bergant	baroncio
 beril	
 beril·li	berillio
 berkeli	berkelio
@@ -3223,9 +3212,7 @@ bescuit
 bé seent	
 beset	
 besllum	
-besoncle	prozio
 bessó	gemello
-bestia	zia nonna
 bèstia	
 bestialitat	
 bestiar	bestiame
@@ -3501,7 +3488,6 @@ bodeguer
 bodi	
 BOE	
 bòfia	buco
-boga	buga
 bogeria	
 bohemi	
 boia	boa
@@ -3538,7 +3524,7 @@ bomba de raïm
 bombament	
 bombardeig	
 bombardeig de Guernica	
-bombarder	
+bombarder	bombardiere	hector
 bombardí	bombardino
 bombardó	bombardone
 bomber	pompiere
@@ -3594,7 +3580,6 @@ bornita
 borrall	
 borrasca	
 borrascall	
-borratja	borrana
 borratxera	
 borratxo	ubriacone
 borratxo	inzuppato
@@ -3670,14 +3655,13 @@ botswanès
 botulisme	
 botxí	boia
 botzina	
-bou	toro
-bou	bue
 boutique	
 bovalar	
 bovarisme	
 bòvid	
 box	
 boxa	pugilato
+boxa	boxe	hector
 boxador	
 boxejador	
 boxes	
@@ -3919,7 +3903,7 @@ butlletí	bolletino
 butllofa	bolla
 butxaca	tasca
 bypass	
-byte	
+byte	byte	hector
 c	
 CA	
 CAB	
@@ -3971,7 +3955,7 @@ cabussament
 CAC	
 caça	caccia
 caça	caccia
-caça bombarder	
+caça bombarder	cacciabombardiere	hector
 caçador	
 caçador furtiu	
 caça furtiva	
@@ -3990,8 +3974,6 @@ cadàver	cadavere
 cadell	
 cadell d'ós	
 cadena	catena
-cadena	vincolo
-cadena	seguito
 cadena de televisió	
 cadena nacional	
 cadena perpètua	
@@ -4479,7 +4461,6 @@ cardan
 cardatge	
 cardenal	cardinale
 cardenalat	
-càrdies	cardia
 cardinalitat	
 cardiografia	
 cardiograma	
@@ -4898,7 +4879,6 @@ ceratòpsid
 cerç	
 cerca	
 cercador	cercadore
-cercador	motore di ricerca
 cercapersones	
 cerca-raons	
 cercavila	
@@ -5013,7 +4993,7 @@ cigar
 cigarret	
 cigarreta	
 cigne	cigno
-cigonya	cigogna
+cigonya	cicogna	hector
 cigonyal	
 cigró	
 cili	
@@ -5080,11 +5060,11 @@ circumferència	circonferenza
 circumflex	
 circumlocució	
 circumloqui	
-circumnavegació	
+circumnavegació	circumnavigazione	hector
 circumscripció	circoscrizione
-circumspecció	
+circumspecció	circospezione	hector
 circumstància	circostanza
-circumval·lació	
+circumval·lació	circonvallazione	hector
 circumvolució	circonvoluzione
 circunscripció	
 cirera	ciliegia
@@ -5332,7 +5312,6 @@ coberteria
 cobertor	
 cobertura	
 cobertura radiofònica	
-cobla	cobla
 cobra	
 cobrabilitat	
 cobrador	
@@ -5382,7 +5361,7 @@ codony
 codonyer	
 coedició	
 coeducació	
-coeficient	
+coeficient	coefficiente	hector
 coentor	
 coenzim	
 coercibilitat	
@@ -5460,7 +5439,6 @@ col·laboració
 col·laboracionisme	
 col·laboracionista	
 col·laborador	
-col·lació	confronto
 collage	
 col·lagen	
 col·lapse	collasso
@@ -5520,7 +5498,7 @@ còlon	colon
 colònia	colonia
 colonialisme	
 colonialista	
-colonització	
+colonització	colonizzazione	hector
 colonitzador	
 colonoscòpia	
 color	colore
@@ -6497,9 +6475,8 @@ creixença
 créixens	
 crema	crema
 crema	crema
-crema	bruciatua
 cremació	
-cremada	bruciata
+cremada	bruciatura	hector
 cremador	
 cremallera	cerniera
 crematori	
@@ -6714,13 +6691,12 @@ cullerada rasa
 cullera de fusta	
 cullereta	
 cullerot	cucchiaione
-culminació	
+culminació	culmine	hector
 culot	
 culpa	colpa
 culpabilitat	colpevolezza
 culpabilització	
 culte	culto
-culte	colto
 culteranisme	
 cultisme	
 cultiu	
@@ -6805,7 +6781,6 @@ daga
 daguerreotip	
 daguerreotípia	
 daina	
-dalai-lama	dalai-lama
 dalek	
 dàlia	
 dàlit	
@@ -6828,7 +6803,7 @@ dàrsena	darsena
 darwinisme	
 darwinista	
 daspletosaure	
-data	dataa
+data	data
 datació	
 datador	
 datagrama	
@@ -7230,7 +7205,7 @@ descripció
 descriptor	
 descruatge	
 descuit	
-desdejuni	prima colazione
+desdejuni	colazione
 desdeny	
 desdibuixament	
 desdoblament	
@@ -7575,7 +7550,7 @@ diàmetre
 diana	
 dia natural	
 diapasó	diapason
-diapositiva	
+diapositiva	diapositiva	hector
 diari	quotidiano
 diarrea	diarrea
 diàspora	
@@ -7658,7 +7633,6 @@ dígraf
 digressió	
 dihidrat	
 dijous	giovedì
-dijous	jovidìa
 diktat	
 dilació	
 dilapidació	
@@ -7843,7 +7817,7 @@ dissensió
 dissentiment	
 disseny	
 dissenyador	
-dissertació	dissertzione
+dissertació	dissertazione	hector
 dissidència	
 dissident	
 dissimetria	
@@ -9207,8 +9181,7 @@ esmeril
 esmerilament	
 esmòquing	
 esmorteïment	
-esmorzar	prima colazione
-esmorzar	prima colazione
+esmorzar	colazione
 esnob	snob
 esnobisme	
 ESO	
@@ -9439,7 +9412,7 @@ estació de policia
 estació de treball	
 estació de tren	
 estacionalitat	
-estacionament	
+estacionament	stazionamenti	hector
 estada	
 estadi	
 estadista	
@@ -9631,7 +9604,7 @@ estricció
 estricnina	
 estridència	
 estrip	
-estrofa	stroffa
+estrofa	strofa	hector
 estrofa	briccone
 estrofa	birbante
 estrogen	
@@ -9661,7 +9634,7 @@ estufa
 estufament	
 estultícia	
 estupefacció	
-estupefaent	
+estupefaent	stupefacente	hector
 estúpid	stupido
 estupidesa	 
 estupor	
@@ -9705,7 +9678,7 @@ etologia
 etopeia	
 etrusc	
 eucaliptus	
-eucariota	eukaryota
+eucariota	eucariote	hector
 eucaristia	
 eufemisme	
 eufoni	
@@ -9754,7 +9727,7 @@ evacuació
 evaluació	
 evanescència	
 evangeli	vangelo
-evangelista	evangelistaaa
+evangelista	evangelista
 evangelització	
 evaporació	
 evaporador	
@@ -9910,7 +9883,7 @@ expenedor
 expenedor de gasolinera	
 expenedoria	
 expenses	
-experiència	perienza
+experiència	esperienza	hector
 experiment	esperimento
 experimentació	
 experimentalisme	
@@ -10550,11 +10523,10 @@ flegma
 flegmó	
 fleix	
 flequer	
-fletxa	frecchia
+fletxa	freccia	hector
 flexibilitat	
 flexibilització	
 flexió	
-flexiseguretat	flessicurezza
 flexo	
 flexografia	
 flexuositat	
@@ -10585,7 +10557,7 @@ floriment
 florista	
 floristeria	
 floritura	
-flota	
+flota	flotta	hector
 flotabilitat	
 flotació	
 flotador	
@@ -10760,7 +10732,7 @@ fornícula
 forqueta	
 forquilla	forchetta
 forrellat	
-fort	
+fort	forte	hector
 fortalesa	forza
 fortalesa	fortezza
 fortí	
@@ -10769,7 +10741,8 @@ fortuna
 fòrum	foro
 fosa	
 fosca	
-foscor	buoio
+foscor	oscurità	hector
+foscor	buio	hector
 fosfat	
 fosfatasa	
 fosfina	
@@ -11211,7 +11184,7 @@ garrotada
 garrotxa	
 garsa	
 gas	gas
-gasa	garsa
+gasa	garza	hector
 gas amb efecte d'hivernacle	
 gas d'efecte d'hivernacle	
 gasejat	
@@ -11411,7 +11384,7 @@ gibraltareny
 gibrell	terrina
 gibrell	terrina
 giga	giga
-gigabit	
+gigabit	gigabit	hector
 gigantisme	
 gigantografia	
 gigaoctet	
@@ -11492,7 +11465,6 @@ glòbul blanc
 globulina	
 glòbul vermell	
 globus	globo
-globus	mongolfiera
 glop	
 glopada	
 glòria	gloria
@@ -11545,7 +11517,6 @@ golejador
 golf	golfo
 golfa	soffitta
 golfista	
-golfo	bandella
 goll	
 golosia	
 golut	
@@ -11687,7 +11658,7 @@ gratuïtat
 grau	
 graula	
 grauvaca	
-grava	hiaia
+grava	ghiaia	hector
 gravació	
 gravador	incisore
 gravadora	
@@ -11864,7 +11835,7 @@ habitació número
 habitacle	
 habitant	abitante
 hàbitat	
-habitatge	allogio
+habitatge	alloggio	hector
 habitatge protegit	
 habituació	
 habitud	
@@ -11895,7 +11866,7 @@ halogenur
 halterofília	
 halterofilista	
 halur	
-ham	amo de pesca
+ham	amo
 hamaca	
 hamburguesa	
 hamburgueseria	
@@ -12473,11 +12444,11 @@ il·lusió	illusione
 il·lusionisme	
 il·lusionista	illusionista
 il·lustració	illustrazione
-il·lustració	Illuminismo
+il·lustració	illuminismo
 il·lustrador	
 il·luviació	
 imaginació	immaginazione
-imaginari	imaginario
+imaginari	immaginario	hector
 imaginer	
 imaginisme	
 imamat	
@@ -12530,7 +12501,7 @@ immunologia
 immunosupressió	
 immunoteràpia	
 immunotransferència	
-impaciència	impacienzia
+impaciència	impazienza	hector
 impacte	
 impagament	
 impagament de prima	
@@ -12577,12 +12548,12 @@ impietat
 implacabilitat	
 implant	implianto
 implantació	
-implementació	
+implementació	implementazione	hector
 implicació	
 implosió	
 imponderabilitat	
 impopularitat	
-import	suma
+import	summa
 importació	importazione
 importador	
 importància	importanza
@@ -12741,7 +12712,6 @@ incredibilitat
 incrèdul	
 incredulitat	
 increment	incremento
-increpació	increpazione
 incriminació	
 incrustació	
 íncub	
@@ -12752,12 +12722,11 @@ inculpabilitat
 inculpació	
 inculpat	
 incultura	
-incumbència	incumbenza
 incunable	incunabulo
 incurabilitat	
 incúria	
 incursió	
-indagació	indagazione
+indagació	indagine
 indecència	
 indecisió	
 indefectibilitat	
@@ -12799,8 +12768,7 @@ indisciplina
 indiscreció	
 indispensabilitat	
 indisponibilitat	
-indisposició	indispozione
-indisposició	infirmità
+indisposició	indisposizione	hector
 indisputabilitat	
 indissolubilitat	
 individu	individuo
@@ -12853,7 +12821,7 @@ inextensibilitat
 infal·libilitat	
 infamació	infamamento
 infàmia	infamia
-infància	infanza
+infància	infanzia	hector
 infant	
 infantat	
 infanteria	
@@ -13235,7 +13203,7 @@ invencibilitat
 invenció	
 invent	
 inventari	inventario
-inventiva	
+inventiva	inventiva	hector
 inventor	
 inversemblança	
 inversió	inversione
@@ -13375,7 +13343,6 @@ IVAJ
 ivori	
 ivorià	
 j	
-jaç	coucetta
 jaciment	
 jacint	
 jack	
@@ -13450,7 +13417,6 @@ jordà
 jornada	
 jornal	giornata
 jornaler	bracciante
-jota	i lunga
 jou	giogo
 joule	
 jove	giovane
@@ -13543,8 +13509,8 @@ KGB
 khmer	
 kHz	
 kick-boxing	
-kilobit	
-kilobyte	
+kilobit	kilobit	hector
+kilobyte	kilobyte	hector
 kilòmetre	
 kilooctet	
 kilotona	
@@ -13794,8 +13760,8 @@ levodopa
 lexema	
 lèxic	lessico
 lexicalització	lessicalizzazione
-lexicògraf	
-lexicografia	lexicografia
+lexicògraf	lessicografo	hector
+lexicografia	lessicografia	hector
 lexicologia	
 LGBT	
 liana	
@@ -14018,7 +13984,6 @@ llenceria
 llençol	lenzuolo
 llengua	lingua
 llengua	lingua
-llenguado	sagliola
 llengua franca	
 llengua materna	
 llenguatge	
@@ -14387,11 +14352,11 @@ magnicidi
 magnificació	
 magníficat	
 magnificència	
-magnitud	grandeza
-magnòlia	
-magrana	
+magnitud	grandezza	hector
+magnòlia	magnolia	hector
+magrana	melagrana	hector
 magraner	
-magrebí	
+magrebí	magrebino
 magret	
 magribí	magrebino
 magribí	magrebino
@@ -14440,6 +14405,7 @@ mala jugada
 mala lluna	
 malalt	malato
 malaltia	malattia
+malaltia	infermità	hector
 mala notícia	
 mala olor	
 malaptesa	
@@ -14611,7 +14577,8 @@ mantra
 manual	manuale
 manual	manuale
 manualitat	mestiere
-manufactura	manufattura
+manufactura	manifattura	hector
+manufactura	manufatto	hector
 manufacturació	
 manumissió	
 manuscrit	manoscritto
@@ -14706,7 +14673,7 @@ mariner
 marineria	
 marioneta	
 marisc	
-mariscal	
+mariscal	maresciallo	hector
 marisqueig	
 marisquer	
 marit	marito
@@ -14898,9 +14865,11 @@ meditació	meditazione
 medul·la	
 medusa	medusa
 mega	
-megabit	
+megabit	megabit	hector
 megabotiga	
-megabyte	
+megabyte	megabyte	hector
+gigabyte	gigabyte	hector
+terabyte	terabyte	hector
 megacariòcit	
 megacòlon	
 megafauna	
@@ -15247,7 +15216,6 @@ microxip
 mida	misura
 mida	misura
 mida	lungo
-mida	circonspezione
 mida	misura
 mida	più
 mida	bastonare
@@ -15325,7 +15293,7 @@ min.
 mina	miniera
 minaret	
 miner	
-mineral	
+mineral	minerale	hector
 mineralització	
 mineralogia	
 mineria	
@@ -15544,7 +15512,7 @@ molinet	mulinello
 molinet	argano
 molinet	girandola
 moll	molo
-moll	triglia di scoglio
+moll	triglia# di scoglio
 molla	briciola
 molla	molla
 mol·lície	
@@ -15692,7 +15660,6 @@ morralla
 morrena	
 morrió	
 morro	muso
-morro	labbra
 morro	muso
 morrut roig	
 morsa	
@@ -16016,7 +15983,6 @@ naturalisme
 naturalista	
 naturalitat	
 naturalització	
-natura morta	natura morta
 naturisme	
 naturista	
 naturòpata	
@@ -16344,14 +16310,10 @@ nonagenari
 no necessitat	
 nònius	
 nontronita	
-nora	nora
+nora	nuora	hector
 norantena	
 nord	nord
 nord-africà	
-nord-americà	nordamericano
-nord-americà	nordamericano
-nord-americà	nordamericano
-nord-americà	statunitense
 nord-coreà	
 nord-est	nord-est
 nòrdic	
@@ -16598,7 +16560,7 @@ oest	ovest
 ofec	
 ofegament	
 ofensa	offesa
-ofensiva	
+ofensiva	offensiva	hector
 oferent	
 oferiment	
 oferta	
@@ -16760,7 +16722,6 @@ opuscle
 or	oro
 oració	
 oracle	
-orada	oraga
 orador	oratore
 oralitat	
 orangutan	
@@ -16781,7 +16742,6 @@ ordi
 ordinador	
 ordinador central	
 ordinal	ordinale
-ordinari	ordinario
 ordit	ordito
 ordit	trama
 ordre	
@@ -16963,16 +16923,14 @@ pa	pane
 PA	
 paca	
 pacana	
-paciència	pazienzia
-paciència	pazienzia
+paciència	pazienza	hector
 pacient	
 pacificació	
 pacificador	
 pacifisme	
 pacifista	
 pacte	patto
-padà	
-pàdel	
+padà	padano	hector
 padrastre	patrigno
 padrí	padrino
 padrina	madrina
@@ -17114,8 +17072,6 @@ panòplia
 panorama	panorama
 panoràmica	
 panotxa	
-pansa	uva passa
-pansa	febbre
 pansiment	
 pantà	
 pantaix	
@@ -17280,10 +17236,9 @@ paret
 pària	
 paridora	
 parificació	
-parisenc	
+parisenc	parigino	hector
 paritat	
 parkerització	
-parla	parla
 parlament	parlamento
 parlamentari	
 parlamentarisme	
@@ -17721,7 +17676,7 @@ periodisme
 periodista	
 periodització	
 periodontitis	
-peripècia	peipetia
+peripècia	peripezia	hector
 periple	
 periquito	
 periscopi	
@@ -18108,7 +18063,7 @@ planetari
 planetesimal	
 planetologia	
 planícia	
-planificació	planificazione
+planificació	pianificazione	hector
 planificador	
 planificiació	
 planímetre	
@@ -18498,7 +18453,6 @@ porter
 porteria	
 porteta	
 pòrtic	
-porticó	porticella
 pòrtland	
 porto	
 porto-riqueny	
@@ -18665,7 +18619,7 @@ predel·la
 predestinació	
 predeterminació	
 prèdica	predica
-predicació	predicanza
+predicació	predicazione	hector
 predicador	predicatore
 predicat	
 predicció	predizione
@@ -18686,8 +18640,8 @@ preexplotació
 prefabricació	
 prefaci	
 prefactor	
-prefecte	
-prefectura	
+prefecte	prefetto	hector
+prefectura	prefettura	hector
 preferència	
 prefiguració	
 prefinançament	
@@ -19065,7 +19019,7 @@ propagandista
 propè	
 propensió	
 propiciació	
-propietari	propietario
+propietari	proprietario	hector
 propietat	
 propietat ocupada	
 propilè	
@@ -19679,8 +19633,9 @@ rasclet	rastrello
 raspa	
 raspador	
 raspadura	
-raspall	spazola
-raspall de dents	
+raspall	spazzola	hector
+raspall# de dents	spazzolino	hector
+raspall# de dents	spazzolino# da denti	hector
 raspatge	
 raspera	
 rasquet	
@@ -20210,7 +20165,7 @@ reordenació
 reordenament	
 reorganització	
 reorientació	
-reparació	
+reparació	riparazione	hector
 reparador	
 reparcel·lació	
 repartició	
@@ -20223,7 +20178,7 @@ repel·lent
 repercussió	
 repertori	
 repertorització	
-repesca	
+repesca	ripescaggio	hector
 repetició	
 repetició de trucada	
 repetidor	
@@ -20260,8 +20215,7 @@ reprecipitació
 reprensió	
 represa	
 represàlia	
-representació	rappresentazzione
-representació	rappresentazzione
+representació	rappresentazione	hector
 representació	raffigurazione
 representant	
 representativitat	
@@ -20379,7 +20333,7 @@ restricció de trànsit
 resulta	
 resultant	
 resultat	risultato
-resum	
+resum	riassunto	hector
 resurrecció	risurrezione
 retall	
 retallada	ritaglio
@@ -20637,7 +20591,6 @@ rompent
 rompiment	
 ronc	rauco
 ronc	affiocato
-ronc	russo
 roncopatia	
 ronda	
 rondalla	
@@ -20956,8 +20909,7 @@ sarraí
 sàrria	
 sarró	cartella
 sarsa	
-sarsuela	asseruola
-sarsuela	zarzuelac
+sarsuela	zarzuela
 sa senyoria	
 sassànida	sasanide
 sasserès	sassarese
@@ -20984,7 +20936,7 @@ saurí
 sauròpode	
 sautor	
 savi	saggio
-saviesa	sagezza
+saviesa	saggezza	hector
 savina	
 savina de muntanya	
 savina turífera	
@@ -21057,7 +21009,7 @@ segon d'arc
 segregació	
 segregacionisme	
 segregacionista	
-segrest	
+segrest	rapimento	hector
 segrestador	
 segrestant	
 seguici	seguito
@@ -21327,7 +21279,7 @@ sierraleonès
 sífilis	
 sifó	
 sifonòfor	
-sigil	secretezza
+sigil	segretezza
 sigil·lografia	
 sigla	
 siglatge	
@@ -21368,7 +21320,7 @@ simbolista
 simbolització	
 simbologia	
 simbomba	
-simetria	simetria
+simetria	simmetria	hector
 simfonia	sinfonia
 simi	
 símil	
@@ -21781,6 +21733,7 @@ subapartat
 subàrea	
 subarrendament	
 subbase	
+subbranca	sottoramo	hector	
 subcadena	
 subcampió	
 subcampionat	
@@ -21789,7 +21742,7 @@ subcategoria
 subclasse	
 subcomandant	
 subcomissari	
-subcomissió	
+subcomissió	sottomissione	hector
 subcomitè	
 subcompte	
 subconjunt	
@@ -21804,11 +21757,11 @@ subcultura
 subdelegació	
 subdelegat	
 subdesenvolupament	
-subdialecte	
+subdialecte	sottospecie	hector
 subdirecció	
 subdirector	
 subdirectori	
-súbdit	
+súbdit	suddito	hector
 subdivisió	suddivisione
 subdomini	
 subducció	
@@ -21816,14 +21769,14 @@ subelement
 subepígraf	
 subescala	
 subespai	
-subespècie	
+subespècie	sottospecie	hector
 subestació	
 subestimació	
 subestructura	
 subfamília	
 subfusell	
 subgènere	
-subgrup	
+subgrup		sottogruppo	hector
 subhasta	asta
 subhastador	
 subíndex	
@@ -21846,7 +21799,7 @@ submarinista
 submersió	
 submesura	
 subministrador	
-subministrament	
+subministrament	somministrazione	hector
 submissió	
 submòdul	
 submón	sottobosco
@@ -21864,9 +21817,10 @@ subprefecte
 subprefectura	
 subproblema	
 subproducció	
-subproducte	
+subproducte	sottoprodotto	hector
 subprograma	
 subprojecte	
+subproletariat	sottoproletariato	hector	
 subpunt	
 subratllat	
 subregió	
@@ -22217,7 +22171,6 @@ taquifilàxia
 taquígraf	
 taquigrafia	
 taquilla	
-taquiller	di cassetta
 taquiller	bigliettaio
 taquilló	
 taquimecanografia	
@@ -22673,7 +22626,7 @@ timorenc
 timorès	
 timpà	
 timus	
-tina	tina
+tina	tinozza	hector
 tinció	
 tindal·lització	
 tinença	
@@ -22982,7 +22935,7 @@ trama
 tramada	
 tramat	
 tramesa	
-tràmit	
+tràmit	tramite	hector
 tramitació	
 tramoia	attrezzatura
 tramoista	
@@ -23342,7 +23295,7 @@ truncament
 trupial	
 trust	
 TS	
-tsar	
+tsar	zar	hector
 tsarina	
 tsarisme	
 TSE	
@@ -23781,7 +23734,7 @@ vegetarià
 vegetarianisme	
 veguer	
 vegueria	
-vehemència	vehemenza
+vehemència	veemenza	hector
 vehicle	
 vehiculació	
 veí	vicino
@@ -23925,7 +23878,8 @@ veterinari	veterinario
 vetlada	
 vetlla	
 vetllada	
-veto	
+vet	veto	hector
+veto	veto	hector
 vetustat	
 veu	voce
 veuassa	
@@ -24068,7 +24022,6 @@ vinyer
 vinyeta	vignetta
 violació	
 violació de domicili	
-viola de gamba	viola da gamba
 violador	
 violat	
 violència	violenza
@@ -24384,7 +24337,7 @@ xic
 xica bonica	
 xicalla	
 xic bonic	
-xiclet	gomma americana
+xiclet	gomma# da masticare
 xicoira	
 xicot	ragazzo
 xicot	ragazzo
