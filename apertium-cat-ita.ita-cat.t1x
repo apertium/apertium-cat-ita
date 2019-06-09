@@ -4,12 +4,17 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-    <def-cat n="adjec">
+    <def-cat n="adj">
       <cat-item tags="adj.m.*"/>
       <cat-item tags="adj.f.*"/>
       <cat-item tags="adj.mf.*"/>
       <cat-item tags="adj.itg.mf.*"/>
       <cat-item tags="adj.GD.*"/>
+      <cat-item tags="adj.pos.*"/>
+    </def-cat>
+    <def-cat n="adjec">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.pp.*"/>
     </def-cat>
 
     <def-cat n="adv_preadv">
@@ -334,7 +339,10 @@
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj.qnt"/>
+      <attr-item tags="adj.sup"/>
+      <attr-item tags="adj.ind.sup"/>
       <attr-item tags="det.ind"/> <!-- poco / poc -->
+      <attr-item tags="vblex.pp"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -3973,11 +3981,10 @@
     </rule>
 
 
-
     <rule comment="REGLA: NOM ADJ">
       <pattern>
         <pattern-item n="nom"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -4021,7 +4028,7 @@
 
     <rule comment="REGLA: ADJ NOM">
       <pattern>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -4068,7 +4075,7 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="adv_preadv"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -4232,7 +4239,7 @@
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4288,7 +4295,7 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4343,7 +4350,7 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="top"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4397,7 +4404,7 @@
     <rule comment="REGLA: DET ADJ">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -4758,7 +4765,7 @@
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="nom"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4814,7 +4821,7 @@
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
         <pattern-item n="adv_preadv"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4873,7 +4880,7 @@
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="adv_preadv"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -4923,7 +4930,7 @@
         <pattern-item n="num"/>
         <pattern-item n="nom"/>
         <pattern-item n="adv_preadv"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="firstWord">
@@ -4983,7 +4990,7 @@
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
         <pattern-item n="cnjcoo"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -5045,7 +5052,7 @@
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
         <pattern-item n="cnjcoo"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -5610,7 +5617,7 @@
 
     <rule comment="REGLA: ADJECTIU (quan no acompanya res o va amb desconeguda)">
       <pattern>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action>
         <call-macro n="f_concord1">
