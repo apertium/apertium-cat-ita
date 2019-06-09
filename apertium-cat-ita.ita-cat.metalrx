@@ -459,6 +459,26 @@
 
 <!-- **************** N **************** -->
 
+  <!-- coro > cor, coral -->
+  <rule weight="0.6">
+    <match lemma="coro" tags="n.*"><select lemma="cor"/></match>
+  </rule>
+
+  <!-- scherzo > broma, scherzo -->
+  <rule weight="0.6">
+    <match lemma="scherzo" tags="n.*"><select lemma="broma"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="scherzo" tags="n.*"><select lemma="scherzo"/></match>
+     <match lemma="di" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="sinfonia" tags="n.*"/>
+       <match lemma="concerto" tags="n.*"/>
+       <match lemma="sonata" tags="n.*"/>
+     </or>
+  </rule>
+
   <!-- lega > lliga, llegua -->
   <rule weight="0.6">
     <match lemma="lega" tags="n.*"><select lemma="lliga"/></match>
@@ -651,7 +671,7 @@
   </rule>
   <rule weight="1.0">
      <match lemma="ansa" tags="n.*"><select lemma="meandre"/></match>
-     <match lemma="de" tags="pr"/>
+     <match lemma="di" tags="pr"/>
      <match tags="det.*"/>
      <or>
        <match lemma="riu" tags="n.*"/>

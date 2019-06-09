@@ -2816,6 +2816,26 @@
 
 <!-- **************** N **************** -->
 
+  <!-- cor > cuore, cor -->
+  <rule weight="0.6">
+    <match lemma="cor" tags="n.*"><select lemma="cuore"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cor" tags="n.*"><select lemma="coro"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="catedral" tags="n.*"/>
+      <match lemma="església" tags="n.*"/>
+      <match lemma="capella" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cor" tags="n.*"><select lemma="coro"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
+
   <!-- fracàs > fallimento, insuccesso -->
   <rule weight="0.6">
     <match lemma="fracàs" tags="n.*"><select lemma="fallimento"/></match>
