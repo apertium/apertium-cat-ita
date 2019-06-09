@@ -15,11 +15,8 @@
     </def-cat>
 
     <def-cat n="top_ant">
-      <cat-item tags="np.top.*"/>
-      <cat-item tags="np.hyd.*"/>
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.cog.*"/>
-      <cat-item tags="np.al.*"/>
     </def-cat>
 
     <def-cat n="adjec">
@@ -271,6 +268,7 @@
       <attr-item tags="np.cog"/>
       <attr-item tags="np.loc"/>
       <attr-item tags="np.al"/>
+      <attr-item tags="np.org"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -1359,28 +1357,60 @@
             </let>
           </when>
         </choose>
-        <out>
-          <chunk name="pronom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
-              <tag><clip pos="1" side="tl" part="pers"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-              <let>
-                <var n="genero"/>
-                <clip pos="1" side="tl" part="gen"/>
-              </let>
-              <let>
-                <var n="numero"/>
-                <clip pos="1" side="tl" part="nbr"/>
-              </let>
+        <choose> <!-- en el cas de vostè (sg) hem de mantenir la majúscula a la traducció (Lei) -->
+          <when>
+            <test>
+              <and>
+              <equal>
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="vostè"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+              </and>
+            </test>
+            <out>
+              <chunk name="pronom">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="gen"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="pronom" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="gen"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <let>
+          <var n="genero"/>
+          <clip pos="1" side="tl" part="gen"/>
+        </let>
+        <let>
+          <var n="numero"/>
+          <clip pos="1" side="tl" part="nbr"/>
+        </let>
       </action>
     </rule>
 

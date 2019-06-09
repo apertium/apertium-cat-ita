@@ -752,7 +752,7 @@
     </def-macro>
 
 
-    <def-macro n="f_pretind" npar="1"><!--Para traducir el pretérito indefinido por la forma perifrástica (dije - vaig dir) y enviar el verbo. Debe ponerse en todas las reglas en las que aparezca un verbo vblex, vbmod o vbser -->
+    <def-macro n="f_pretind" npar="2"><!--Para traducir el pretérito indefinido por la forma perifrástica (dije - vaig dir) y enviar el verbo. Debe ponerse en todas las reglas en las que aparezca un verbo vblex, vbmod o vbser --> <!-- El segundo parámetro es sólo para coger la mayúscula/minúscula (habitualmente es el mismo parámetro que el primero -->
       <let>
         <var n="verbfinal"/>
         <lit v=""/>
@@ -768,7 +768,7 @@
           <let>
             <var n="verbfinal"/>
               <concat>
-              <get-case-from pos="1">
+              <get-case-from pos="2">
                   <lit v="anar"/>
               </get-case-from>
               <lit-tag v="vaux"/>
@@ -781,16 +781,20 @@
             <when>
               <test>
                 <equal>
-                  <case-of pos="1" side="sl" part="lemh"/>
+                  <case-of pos="2" side="sl" part="lemh"/>
                   <lit v="Aa"/>
                 </equal>
               </test>
               <modify-case>
-                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="2" side="tl" part="lemh"/> 
                 <lit v="aa"/>
               </modify-case>
             </when>
           </choose>
+          <modify-case>
+            <clip pos="1" side="tl" part="lemh"/>
+            <lit v="aa"/>
+          </modify-case>
           <let>
             <var n="verbfinal"/>
             <concat>
@@ -807,7 +811,7 @@
             <var n="verbfinal"/>
             <concat>
               <var n="verbfinal"/>
-                <get-case-from pos="1">
+                <get-case-from pos="2">
               <clip pos="1" side="tl" part="lemh"/>
                 </get-case-from>
               <clip pos="1" side="tl" part="a_verb"/>
@@ -5718,9 +5722,62 @@
         </call-macro>
         <call-macro n="f_pretind">
           <with-param pos="1"/>
+          <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ifi loro.prn > els vfin (permisse loro > els va permetre)">
+      <pattern>
+        <pattern-item n="pretind"/>
+        <pattern-item n="lui_mf_pl"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="pronom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="tipus_prn"/></tag>
+              <tag><clip pos="2" side="tl" part="pers"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tipus_prn"/>
+              <clip pos="2" side="tl" part="pers"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
           <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
@@ -5749,6 +5806,7 @@
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_pretind">
+          <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -5787,6 +5845,7 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_pretind">
+          <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -5838,6 +5897,7 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_pretind">
+          <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -5897,6 +5957,7 @@
         </call-macro>
         <call-macro n="f_pretind">
           <with-param pos="2"/>
+          <with-param pos="2"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
@@ -5942,6 +6003,7 @@
           <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_pretind">
+          <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
@@ -6018,6 +6080,7 @@
         </call-macro>
         <call-macro n="f_pretind">
           <with-param pos="1"/>
+          <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
@@ -6089,6 +6152,7 @@
           <with-param pos="4"/>
         </call-macro>
         <call-macro n="f_pretind">
+          <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
