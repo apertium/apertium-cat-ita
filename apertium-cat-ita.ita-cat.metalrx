@@ -345,6 +345,15 @@
     </def-macro>
   </def-macros>
 
+  <def-seqs>
+    <def-seq n="distanza">
+      <match lemma="metro"/>
+      <match lemma="chilometro"/>
+      <match lemma="miglio"/>
+      <match lemma="lega"/>
+    </def-seq>
+
+  </def-seqs>
   <rules>
 
 <!-- **************** DET **************** -->
@@ -393,6 +402,19 @@
     <match lemma="un altro" tags="prn.ind.f.pl"><select lemma="altre" tags="prn.*"/></match>
   </rule>
 
+  <!-- loro > ell, els, los -->
+  <rule weight="0.6">
+     <match lemma="lui" tags="prn.tn.p3.mf.*"><select lemma="ell" tags="prn.tn.p3.*"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="vblex.*"/>
+     <match lemma="lui" tags="prn.tn.p3.mf.pl"><select lemma="li" tags="prn.pro.p3.mf.pl"/></match>
+  </rule>
+  <rule weight="1.2">
+     <or><match tags="vblex.inf"/><match tags="vblex.ger"/></or>
+     <match lemma="lui" tags="prn.tn.p3.mf.pl"><select lemma="li" tags="prn.enc.p3.mf.pl"/></match>
+  </rule>
+
 <!-- **************** ADJ **************** -->
 
   <!-- intero > sencer, enter -->
@@ -436,6 +458,57 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- lega > lliga, llegua -->
+  <rule weight="0.6">
+    <match lemma="lega" tags="n.*"><select lemma="lliga"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="lega" tags="n.m.pl"><select lemma="llegua"/></match>
+  </rule>
+
+  <!-- carica > càrrec, càrrega -->
+  <rule weight="0.6">
+    <match lemma="carica" tags="n.*"><select lemma="càrrega"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="uscire" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"/>
+    <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ricoprive" tags="vblex.*"/>
+      <match lemma="rivestire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
+  </rule>
+
+  <!-- squadra > equip, esquadra, escaire -->
+  <rule weight="0.6">
+     <match lemma="squadra" tags="n.*"><select lemma="equip"/></match>
+  </rule>
+
+  <!-- sposo > espòs, nuvi -->
+  <rule weight="0.6">
+     <match lemma="sposo" tags="n.*"><select lemma="espòs"/></match>
+  </rule>
+
+  <!-- ragazzo > xicot... -->
+  <rule weight="0.6">
+     <match lemma="ragazzo" tags="n.*"><select lemma="xicot"/></match>
+  </rule>
 
   <!-- aria > aire, ària -->
   <rule weight="0.6">
@@ -1013,6 +1086,24 @@
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+
+  <!-- tra, fra > entre, a -->
+  <rule weight="0.6">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="entre" tags="pr"/></match>
+      <match lemma="fra" tags="pr"><select lemma="entre" tags="pr"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="a" tags="pr"/></match>
+      <match lemma="fra" tags="pr"><select lemma="a" tags="pr"/></match>
+    </or>
+    <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
+    <or>
+      <seq n="distanza"/>
+    </or>
   </rule>
 
   <!-- su > sobre, de -->
