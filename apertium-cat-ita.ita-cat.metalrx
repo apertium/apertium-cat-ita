@@ -417,6 +417,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- sinistro > esquerre, sinistre -->
+  <rule weight="0.6">
+    <match lemma="sinistro" tags="adj.*"><select lemma="esquerre"/></match>
+  </rule>
+
   <!-- intero > sencer, enter -->
   <rule weight="0.6">
     <match lemma="intero" tags="adj.*"><select lemma="sencer"/></match>
@@ -459,9 +464,38 @@
 
 <!-- **************** N **************** -->
 
+  <!-- giornata > jornada, jornal -->
+  <rule weight="0.6">
+    <match lemma="giornata" tags="n.*"><select lemma="jornada"/></match>
+  </rule>
+
+  <!-- conflitto > conflicte, altercat -->
+  <rule weight="0.6">
+    <match lemma="conflitto" tags="n.*"><select lemma="conflicte"/></match>
+  </rule>
+
   <!-- coro > cor, coral -->
   <rule weight="0.6">
     <match lemma="coro" tags="n.*"><select lemma="cor"/></match>
+  </rule>
+
+  <!-- dimostrazione > manifestació, demostració -->
+  <rule weight="0.6">
+    <match lemma="dimostrazione" tags="n.*"><select lemma="manifestació"/></match>
+  </rule>
+
+  <!-- partita > partit, partida -->
+  <rule weight="0.6">
+    <match lemma="partita" tags="n.*"><select lemma="partit"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="partita" tags="n.*"><select lemma="partida"/></match>
+    <match tags="pr"/>
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="scacchi" tags="n.*"/>
+      <match lemma="domino" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- scherzo > broma, scherzo -->
@@ -470,13 +504,13 @@
   </rule>
   <rule weight="1.0">
     <match lemma="scherzo" tags="n.*"><select lemma="scherzo"/></match>
-     <match lemma="di" tags="pr"/>
-     <match tags="det.*"/>
-     <or>
-       <match lemma="sinfonia" tags="n.*"/>
-       <match lemma="concerto" tags="n.*"/>
-       <match lemma="sonata" tags="n.*"/>
-     </or>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="sinfonia" tags="n.*"/>
+      <match lemma="concerto" tags="n.*"/>
+      <match lemma="sonata" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- lega > lliga, llegua -->
@@ -1018,6 +1052,9 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- affrontare > afrontar, enfrontar -->
+  <macro name="verb_nopron_pron" p1="affrontare" p2="afrontar" p3="enfrontar"/>
+  
   <!-- diplomare > diplomar, graduar -->
   <macro name="verb_nopron_pron" p1="diplomare" p2="diplomar" p3="graduar"/>
   
@@ -1275,10 +1312,11 @@
   <macro name="noms_propis" p1="Alessandro" p2="Alexandre" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
   <macro name="noms_propis" p1="Andrea" p2="Andreu" />
-  <macro name="noms_propis" p1="Benedeto" p2="Benet" />
+  <macro name="noms_propis" p1="Benedetto" p2="Benet" />
   <macro name="noms_propis" p1="Berengario" p2="Berenguer" />
   <macro name="noms_propis" p1="Bernardo" p2="Bernat" />
   <macro name="noms_propis" p1="Bianca" p2="Blanca" />
+  <macro name="noms_propis" p1="Bonifacio" p2="Bonifaci" />
   <macro name="noms_propis" p1="Carlo" p2="Carles" />
   <macro name="noms_propis" p1="Celestino" p2="Celestí" />
   <macro name="noms_propis" p1="Clemente" p2="Climent" />
@@ -1316,7 +1354,7 @@
   <macro name="noms_propis" p1="Pietro" p2="Pere" />
   <macro name="noms_propis" p1="Ramiro" p2="Ramir" />
   <macro name="noms_propis" p1="Raimondo" p2="Ramon" />
-  <macro name="noms_propis" p1="Ricardo" p2="Ricard" />
+  <macro name="noms_propis" p1="Riccardo" p2="Ricard" />
   <macro name="noms_propis" p1="Roberto" p2="Robert" />
   <macro name="noms_propis" p1="Ruggero" p2="Roger" />
   <macro name="noms_propis" p1="Sisto" p2="Sixt" />

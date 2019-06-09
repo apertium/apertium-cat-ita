@@ -986,6 +986,19 @@
       <match lemma="vora de" tags="pr"/>
     </def-seq>
 
+    <def-seq n="esports">
+      <match lemma="futbol" tags="n.*"/>
+      <match lemma="bàsquet" tags="n.*"/>
+      <match lemma="basquetbol" tags="n.*"/>
+      <match lemma="handbol" tags="n.*"/>
+      <match lemma="voleibol" tags="n.*"/>
+      <match lemma="rugbi" tags="n.*"/>
+      <match lemma="hoquei" tags="n.*"/>
+      <match lemma="hoquei# sobre patins" tags="n.*"/>
+      <match lemma="hoquei# sobre herba" tags="n.*"/>
+      <match lemma="hoquei# sobre gel" tags="n.*"/>
+      <match lemma="waterpolo" tags="n.*"/>
+    </def-seq>
   </def-seqs>
 
 <rules>
@@ -1912,6 +1925,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- substituir > sostituire, rimpiazzare -->
+  <rule weight="0.6">
+     <match lemma="substituir" tags="vblex.*"><select lemma="sostituire"/></match>
+  </rule>
+
   <!-- inspirar > ispirare, inspirare -->
   <rule weight="0.6">
      <match lemma="inspirar" tags="vblex.*"><select lemma="ispirare"/></match>
@@ -2816,6 +2834,29 @@
 
 <!-- **************** N **************** -->
 
+  <!-- partit > partito, partita -->
+  <rule weight="0.6">
+    <match lemma="partit" tags="n.*"><select lemma="partito"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="partit" tags="n.*"><select lemma="partida"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+       <seq n="esports"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="jugar" tags="vblex.*"/>
+      <match lemma="fer" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="partit" tags="n.*"><select lemma="partida"/></match>
+  </rule>
+
   <!-- cor > cuore, cor -->
   <rule weight="0.6">
     <match lemma="cor" tags="n.*"><select lemma="cuore"/></match>
@@ -2834,6 +2875,25 @@
     <match lemma="cor" tags="n.*"><select lemma="coro"/></match>
     <match lemma="de" tags="pr"/>
     <match tags="np.*"/>
+  </rule>
+
+  <!-- ronda > ronda, girone -->
+  <rule weight="0.6">
+    <match lemma="ronda" tags="n.*"><select lemma="ronda"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="adj.ord.*"/>
+    <match lemma="ronda" tags="n.*"><select lemma="girone"/></match>
+  </rule>
+
+  <!-- manifestació > dimostrazione, manifestazione -->
+  <rule weight="0.6">
+    <match lemma="manifestació" tags="n.*"><select lemma="dimostrazione"/></match>
+  </rule>
+
+  <!-- joventut > gioventù, giovinezza -->
+  <rule weight="0.6">
+    <match lemma="joventut" tags="n.*"><select lemma="gioventù"/></match>
   </rule>
 
   <!-- fracàs > fallimento, insuccesso -->
@@ -2918,9 +2978,9 @@
   <rule weight="1.0">
     <match lemma="pica" tags="n.*"><select lemma="acquaio"/></match>
     <match lemma="de" tags="pr"/>
-     <repeat from="0" upto="1">
-       <match tags="det.*"/>
-     </repeat>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <or>
       <match lemma="cuina" tags="n.*"/>
       <match lemma="lavabo" tags="n.*"/>
@@ -3718,12 +3778,12 @@
     <match lemma="xicot" tags="n.*"><select lemma="fidanzato"/></match>
   </rule>
 
-  <!-- edat mitjana >> moyen âge, âge moyen --> <!-- cat > fra -->
+  <!-- edat mitjana >> medioevo, età media -->
   <rule weight="0.8">
-    <match lemma="edat mitjana" tags="n.*"><select lemma="moyen âge"/></match>
+    <match lemma="edat mitjana" tags="n.*"><select lemma="medioevo"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="edat mitjana" tags="n.*"><select lemma="âge moyen"/></match>
+    <match lemma="edat mitjana" tags="n.*"><select lemma="età media"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
 
@@ -3952,10 +4012,11 @@
   <macro name="noms_propis" p1="Alexandre" p2="Alessandro" />
   <macro name="noms_propis" p1="Alfons" p2="Alfonso" />
   <macro name="noms_propis" p1="Andreu" p2="Andrea" />
-  <macro name="noms_propis" p1="Benet" p2="Benedeto" />
+  <macro name="noms_propis" p1="Benet" p2="Benedetto" />
   <macro name="noms_propis" p1="Berenguer" p2="Berengario" />
   <macro name="noms_propis" p1="Bernat" p2="Bernardo" />
   <macro name="noms_propis" p1="Blanca" p2="Bianca" />
+  <macro name="noms_propis" p1="Bonifaci" p2="Bonifacio" />
   <macro name="noms_propis" p1="Carles" p2="Carlo" />
   <macro name="noms_propis" p1="Celestí" p2="Celestino" />
   <macro name="noms_propis" p1="Climent" p2="Clemente" />
@@ -3995,7 +4056,7 @@
   <macro name="noms_propis" p1="Pere" p2="Pietro" />
   <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
   <macro name="noms_propis" p1="Ramon" p2="Raimondo" />
-  <macro name="noms_propis" p1="Ricard" p2="Ricardo" />
+  <macro name="noms_propis" p1="Ricard" p2="Riccardo" />
   <macro name="noms_propis" p1="Robert" p2="Roberto" />
   <macro name="noms_propis" p1="Roger" p2="Ruggero" />
   <macro name="noms_propis" p1="Sixt" p2="Sisto" />
