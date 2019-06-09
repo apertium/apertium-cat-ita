@@ -1142,6 +1142,19 @@
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"/>
+    <match lemma="il" tags="det.def.*"/>
+    <match tags="num"/>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
 
@@ -1163,7 +1176,7 @@
     </or>
   </rule>
 
-  <!-- su > sobre, de -->
+  <!-- su > sobre, de, en -->
   <rule weight="0.6">
     <match lemma="su" tags="pr"><select lemma="sobre" tags="pr"/></match>
   </rule>
@@ -1173,6 +1186,23 @@
     <match lemma="volta" tags="n.*"/>
     <match lemma="su" tags="pr"><select lemma="de"/></match>
     <match tags="num.*"/>
+  </rule>
+
+  <!-- basarsi su >> basar-se en -->
+  <rule weight="1.0">
+    <match lemma="basare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match lemma="su" tags="pr"><select lemma="en" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="basare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match tags="adv"/>
+    <match lemma="su" tags="pr"><select lemma="en" tags="pr"/></match>
   </rule>
 
   <!-- a >> a, en, de -->

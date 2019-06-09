@@ -1329,7 +1329,7 @@
     </or>
   </rule>
 
-  <!-- en >> in, a -->
+  <!-- en >> in, a, su -->
   <rule weight="0.8">
     <match lemma="en" tags="pr"><select lemma="in"/></match>
   </rule>
@@ -1344,12 +1344,30 @@
     <match lemma="en" tags="pr"><select lemma="a"/></match>
   </rule>
 
-  <!-- davant > in antis, in antis de --> <!-- srd -->
-  <rule weight="0.6">
-    <match lemma="davant" tags="pr"><select lemma="in antis" tags="pr"/></match>
+  <!-- basar-se en >> basarsi si -->
+  <rule weight="1.0">
+    <match lemma="basar" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="su"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="davant" tags="pr"><select lemma="in antis de" tags="pr"/></match>
+    <match lemma="basar" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match tags="adv"/>
+    <match lemma="en" tags="pr"><select lemma="su"/></match>
+  </rule>
+
+
+  <!-- davant > davanti, davanti a -->
+  <rule weight="0.6">
+    <match lemma="davant" tags="pr"><select lemma="davanti" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="davant" tags="pr"><select lemma="davanti a" tags="pr"/></match>
     <match tags="det.*"/>
     <or>
       <match lemma="policia" tags="n.*"/>
@@ -1364,23 +1382,27 @@
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
-  <rule weight="1.0"> <!-- complement agent introduït per "da" en sard -->
+  <rule weight="1.0"> <!-- complement agent introduït per "da" -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
      <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.0"> <!-- complement agent introduït per "da" -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match tags="adv"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match tags="det.def.*"/>
+     <match tags="num"/>
      <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
-  <rule weight="1.2">
+  <rule weight="1.2">	<!-- cat > srd -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.2">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match tags="adv"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
      <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
@@ -1924,6 +1946,11 @@
   </rule>
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- representar > rappresentare, raffigurare -->
+  <rule weight="0.6">
+     <match lemma="representar" tags="vblex.*"><select lemma="rappresentare"/></match>
+  </rule>
 
   <!-- substituir > sostituire, rimpiazzare -->
   <rule weight="0.6">
@@ -2855,6 +2882,16 @@
     </repeat>
     <match tags="det.*"/>
     <match lemma="partit" tags="n.*"><select lemma="partida"/></match>
+  </rule>
+
+  <!-- èxit > successo, riuscita, essito -->
+  <rule weight="0.6">
+    <match lemma="èxit" tags="n.*"><select lemma="successo"/></match>
+  </rule>
+
+  <!-- pintura > pittura, dipinto -->
+  <rule weight="0.6">
+    <match lemma="pintura" tags="n.*"><select lemma="pittura"/></match>
   </rule>
 
   <!-- cor > cuore, cor -->
