@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metalrx>
-
   <def-macros>
     <def-macro name="noms_propis">
       <rule weight="0.6">
@@ -1947,6 +1946,37 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- llançar > lanciare, gettare, sferrare -->
+  <rule weight="0.6">
+     <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+  </rule>
+
+  <!-- llençar > gettare, lanciare, buttare, buttare via -->
+  <rule weight="0.6">
+     <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+  </rule>
+
+  <!-- tirar > gettare, tirare -->
+  <rule weight="0.6">
+     <match lemma="tirar" tags="vblex.*"><select lemma="gettare"/></match>
+  </rule>
+
+  <!-- albergar > albergare, ospitare -->
+  <rule weight="0.6">
+     <match lemma="albergar" tags="vblex.*"><select lemma="albergare"/></match>
+  </rule>
+
+  <!-- trucar > telefonare, bussare -->
+  <rule weight="0.6">
+     <match lemma="trucar" tags="vblex.*"><select lemma="telefonare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="trucar" tags="vblex.*"><select lemma="bussare"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match lemma="porta" tags="n.*"/>
+  </rule>
+
   <!-- representar > rappresentare, raffigurare -->
   <rule weight="0.6">
      <match lemma="representar" tags="vblex.*"><select lemma="rappresentare"/></match>
@@ -2866,6 +2896,77 @@
 
 <!-- **************** N **************** -->
 
+  <!-- relació > relazione, rapporto -->
+  <rule weight="0.6">
+    <match lemma="relació" tags="n.*"><select lemma="relazione"/></match>
+  </rule>
+
+  <!-- cep > ceppo, tagliola -->
+  <rule weight="0.6">
+    <match lemma="cep" tags="n.*"><select lemma="ceppo"/></match>
+  </rule>
+
+  <!-- firma > firma, ditta -->
+  <rule weight="0.6">
+    <match lemma="firma" tags="n.*"><select lemma="firma"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="firma" tags="n.*"><select lemma="firma"/></match>
+    <match lemma="comercial" tags="adj.*"/>
+  </rule>
+
+  <!-- passeig > passeggiata, corso -->
+  <rule weight="0.6">
+    <match lemma="passeig" tags="n.*"><select lemma="passeggiata"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="passeig" tags="n.*"><select lemma="corso"/></match>
+    <repeat from="0" upto="1">
+      <match lemma="de" tags="pr"/>
+    </repeat>
+    <match tags="np.*"/>
+  </rule>
+
+  <!-- volva > fiocco, volva -->
+  <rule weight="0.6">
+    <match lemma="volva" tags="n.*"><select lemma="fiocco"/></match>
+  </rule>
+
+  <!-- permís > permesso, licenza -->
+  <rule weight="0.6">
+    <match lemma="permís" tags="n.*"><select lemma="permesso"/></match>
+  </rule>
+
+  <!-- puntuació > punteggio, punteggiatura -->
+  <rule weight="0.6">
+    <match lemma="puntuació" tags="n.*"><select lemma="punteggio"/></match>
+  </rule>
+
+  <!-- diccionari > dizionario, vocabolario -->
+  <rule weight="0.6">
+    <match lemma="diccionari" tags="n.*"><select lemma="dizionario"/></match>
+  </rule>
+
+  <!-- esment > riferimento, attenzione -->
+  <rule weight="0.6">
+    <match lemma="esment" tags="n.*"><select lemma="riferimento"/></match>
+  </rule>
+
+  <!-- presa > preda, presa -->
+  <rule weight="0.6">
+    <match lemma="presa" tags="n.*"><select lemma="preda"/></match>
+  </rule>
+
+  <!-- endoll > spina, presa -->
+  <rule weight="0.6">
+    <match lemma="endoll" tags="n.*"><select lemma="spina"/></match>
+  </rule>
+
+  <!-- ús > uso, impiego, utilizzo -->
+  <rule weight="0.6">
+    <match lemma="ús" tags="n.*"><select lemma="uso"/></match>
+  </rule>
+
   <!-- partit > partito, partita -->
   <rule weight="0.6">
     <match lemma="partit" tags="n.*"><select lemma="partito"/></match>
@@ -2887,6 +2988,11 @@
     </repeat>
     <match tags="det.*"/>
     <match lemma="partit" tags="n.*"><select lemma="partida"/></match>
+  </rule>
+
+  <!-- hotel > albergo, hotel -->
+  <rule weight="0.6">
+    <match lemma="hotel" tags="n.*"><select lemma="albergo"/></match>
   </rule>
 
   <!-- èxit > successo, riuscita, essito -->
@@ -3972,12 +4078,12 @@
      <or><match tags="np.cog.*"/><match tags="np.al.*"/></or> <!-- Philips, Allen, etc. -->
   </rule>
 
-  <!-- tret > caraterìstica, disparu --> <!-- srd -->
+  <!-- tret > caratteristica, sparo -->
   <rule weight="0.6">
-     <match lemma="tret" tags="n.*"><select lemma="caraterìstica"/></match>
+     <match lemma="tret" tags="n.*"><select lemma="caratteristica"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="tret" tags="n.*"><select lemma="disparu"/></match>
+     <match lemma="tret" tags="n.*"><select lemma="sparo"/></match>
      <match lemma="a" tags="pr"/>
   </rule>
 

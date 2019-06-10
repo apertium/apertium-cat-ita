@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metalrx>
-
   <def-macros>
     <def-macro name="noms_propis">
       <rule weight="0.6">
@@ -417,6 +416,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- ampio > ample, ampli -->
+  <rule weight="0.6">
+    <match lemma="ampio" tags="adj.*"><select lemma="ample"/></match>
+  </rule>
+
   <!-- sinistro > esquerre, sinistre -->
   <rule weight="0.6">
     <match lemma="sinistro" tags="adj.*"><select lemma="esquerre"/></match>
@@ -464,9 +468,93 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pollice > polze, polzada -->
+  <rule weight="0.6">
+    <match lemma="pollice" tags="n.*"><select lemma="polze"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="num"/><match tags="num.*"/></or>
+     <match lemma="pollice" tags="n.m.pl"><select lemma="polzada"/></match>
+  </rule>
+
+  <!-- tratto > tret, tram, traç, tracte -->
+  <rule weight="0.6">
+    <match lemma="tratto" tags="n.*"><select lemma="tret"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tratto" tags="n.*"><select lemma="tracte"/></match>
+    <or>
+      <match lemma="respiratorio" tags="adj.*"/>
+      <match lemma="gastrointestinale" tags="adj.*"/>
+      <match lemma="genitourinario" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tratto" tags="n.*"><select lemma="tram"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="strada" tags="n.*"/>
+      <match lemma="tangenziale" tags="n.*"/>
+      <match lemma="via" tags="n.*"/>
+      <match lemma="viale" tags="n.*"/>
+      <match lemma="corso" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- rapporto > relació, informe -->
+  <rule weight="0.6">
+    <match lemma="rapporto" tags="n.*"><select lemma="relació"/></match>
+  </rule>
+
+  <!-- licenzia > llicència, permís -->
+  <rule weight="0.6">
+    <match lemma="licenzia" tags="n.*"><select lemma="llicència"/></match>
+  </rule>
+
+  <!-- vocabolario > vocabulari, diccionari -->
+  <rule weight="0.6">
+    <match lemma="vocabolario" tags="n.*"><select lemma="vocabulari"/></match>
+  </rule>
+
+  <!-- significato > significat, significació -->
+  <rule weight="0.6">
+    <match lemma="significato" tags="n.*"><select lemma="significat"/></match>
+  </rule>
+
+  <!-- utilizzo > ús, utilització -->
+  <rule weight="0.6">
+    <match lemma="utilizzo" tags="n.*"><select lemma="ús"/></match>
+  </rule>
+
   <!-- opera > obra, opera -->
   <rule weight="0.6">
     <match lemma="opera" tags="n.*"><select lemma="obra"/></match>
+  </rule>
+
+  <!-- seno > si, pit, sinus -->
+  <rule weight="0.6">
+    <match lemma="seno" tags="n.*"><select lemma="si"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="adj.*"/>
+    <match lemma="seno" tags="n.*"><select lemma="pit"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="seno" tags="n.*"><select lemma="pit"/></match>
+    <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="seno" tags="n.*"><select lemma="sinus"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="seno" tags="n.*"><select lemma="sinus"/></match>
+    <match tags="cnjcoo"/>
+    <match lemma="coseno" tags="n.*"/>
   </rule>
 
   <!-- giornata > jornada, jornal -->
@@ -894,7 +982,7 @@
     <match lemma="piano" tags="n.*"><select lemma="pis" tags="n.*"/></match>
   </rule>
 
-  <!-- corso > carrer, cors -->
+  <!-- corso > passeig, curs, cors -->
   <rule weight="0.6">
     <match lemma="corso" tags="n.m.sg"><select lemma="curs" tags="n.m.sg"/></match>
   </rule>
@@ -917,10 +1005,40 @@
 
   <!-- paese > país, poble -->
   <rule weight="0.6">
-    <match lemma="paese" tags="n.*"><select lemma="país" tags="n.*"/></match>
+    <match lemma="paese" tags="n.*"><select lemma="país"/></match>
   </rule>
 
+  <!-- albergo > hotel, alberg -->
+  <rule weight="0.6">
+    <match lemma="albergo" tags="n.*"><select lemma="hotel"/></match>
+  </rule>
+
+  <!-- miglio > mill, milla -->
+  <rule weight="0.6">
+    <match lemma="miglio" tags="n.m.sg"><select lemma="mill"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="num"/><match tags="num.*"/><match tags="det.ind.m.sg"/></or>
+    <match lemma="miglio" tags="n.m.sg"><select lemma="milla"/></match>
+  </rule>
+
+
 <!-- **************** V **************** -->
+
+  <!-- lanciare > llançar, llençar  -->
+  <rule weight="0.6">
+    <match lemma="lanciare" tags="vblex.*"><select lemma="llançar"/></match>
+  </rule>
+
+  <!-- gettare > llençar, llançar, tirar  -->
+  <rule weight="0.6">
+    <match lemma="gettare" tags="vblex.*"><select lemma="llençar"/></match>
+  </rule>
+
+  <!-- ospitare > albergar, hostatjar  -->
+  <rule weight="0.6">
+    <match lemma="ospitare" tags="vblex.*"><select lemma="albergar"/></match>
+  </rule>
 
   <!-- preoccupare > preocupar, encarregar, ocupar  -->
   <rule weight="0.6">
@@ -1141,7 +1259,7 @@
 
 <!-- **************** PR **************** -->
 
-  <!-- da > de, per -->
+  <!-- da > de, per, des de -->
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
@@ -1161,6 +1279,11 @@
     <match lemma="il" tags="det.def.*"/>
     <match tags="num"/>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="per" tags="des de"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
   </rule>
 
   <!-- tra, fra > entre, a -->
