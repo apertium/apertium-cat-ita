@@ -2764,7 +2764,7 @@
      <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
   </rule>
 
-<!-- més > prus, de prus --> <!-- srd -->
+  <!-- més > prus, de prus --> <!-- srd -->
   <rule weight="0.6">
      <match lemma="més" tags="adv"><select lemma="prus"/></match>
   </rule>
@@ -2775,6 +2775,11 @@
        <match lemma="més" tags="adj.*"><select lemma="de prus"/></match>
      </or>
      <match tags="n.*"/>
+  </rule>
+
+  <!-- només > solo, soltanto, solamente -->
+  <rule weight="0.6">
+     <match lemma="només" tags="adv"><select lemma="solo"/></match>
   </rule>
 
 <!-- **************** ADJ **************** -->

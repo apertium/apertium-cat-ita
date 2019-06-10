@@ -464,6 +464,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- opera > obra, opera -->
+  <rule weight="0.6">
+    <match lemma="opera" tags="n.*"><select lemma="obra"/></match>
+  </rule>
+
   <!-- giornata > jornada, jornal -->
   <rule weight="0.6">
     <match lemma="giornata" tags="n.*"><select lemma="jornada"/></match>
