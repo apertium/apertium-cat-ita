@@ -2348,6 +2348,7 @@
 <e a="hector"><p><l>noucentista<s n="adj"/></l><r>noucentista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="hector"><p><l>noucentista<s n="n"/></l><r>noucentista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e a="hector"><p><l>noucentisme<s n="n"/><s n="m"/><s n="sg"/></l><r>noucentisme<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="hector"><p><l>boxa<s n="n"/><s n="f"/><s n="sg"/></l><r>pugilato<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 <e a="hector"><p><l>aglutinant<s n="adj"/></l><r>agglutinante<s n="adj"/></r></p></e>
 <e r="RL" a="hector"><p><l>aglutinant<s n="adj"/></l><r>agglutinante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -11352,7 +11353,7 @@
 <e>       <p><l>Manuel<s n="np"/><s n="ant"/></l>      <r>Emanuele<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Emanuele<s n="np"/><s n="ant"/></l>    <r>Emanuele<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Alemanya<s n="np"/><s n="top"/></l>    <r>Germania<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l><r>Alessandria<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l><r>Alessandria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Alfaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Alfaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Alfons<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12156,9 +12157,9 @@
 <e>       <p><l>Thomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Thomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Tito<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Tito<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Toledo<s n="np"/><s n="top"/></l>      <r>Toledo<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Torreblanca<s n="np"/><s n="top"/><s n="f"/></l><r>Torreblanca<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Torreblanca<s n="np"/><s n="top"/><s n="f"/></l><r>Torreblanca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Torrent<s n="np"/><s n="top"/></l>     <r>Torrent<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Torrevella<s n="np"/><s n="top"/><s n="f"/></l><r>Torrevieja<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Torrevella<s n="np"/><s n="top"/><s n="f"/></l><r>Torrevieja<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Torrijos<s n="np"/><s n="top"/></l>    <r>Torrijos<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Torí<s n="np"/><s n="top"/></l>        <r>Torino<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Tremp<s n="np"/><s n="top"/></l>       <r>Tremp<s n="np"/><s n="top"/></r></p></e>
@@ -28386,6 +28387,52 @@
       <e><p><l>Las<b/>Vegas<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Las<b/>Vegas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Los<b/>Angeles<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Los<b/>Angeles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Vanuatu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vanuatu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>Aquitània<s n="np"/><s n="top"/></l><r>Aquitania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Aràbia<b/>Saudita<s n="np"/><s n="top"/></l><r>Arabia<b/>Saudita<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Birmània<s n="np"/><s n="top"/></l><r>Birmania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Dàcia<s n="np"/><s n="top"/></l><r>Dacia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Gàmbia<s n="np"/><s n="top"/></l><r>Gambia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Groenlàndia<s n="np"/><s n="top"/></l><r>Groenlandia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Mauritània<s n="np"/><s n="top"/></l><r>Mauritania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Mesopotàmia<s n="np"/><s n="top"/></l><r>Mesopotamia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Moràvia<s n="np"/><s n="top"/></l><r>Moravia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Pomerània<s n="np"/><s n="top"/></l><r>Pomerania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Renània<s n="np"/><s n="top"/></l><r>Renania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Somàlia<s n="np"/><s n="top"/></l><r>Somalia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Tanzània<s n="np"/><s n="top"/></l><r>Tanzania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Tasmània<s n="np"/><s n="top"/></l><r>Tasmania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Zàmbia<s n="np"/><s n="top"/></l><r>Zambia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Catània<s n="np"/><s n="top"/></l><r>Catania<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Alvèrnia<s n="np"/><s n="top"/></l><r>Alvernia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Armènia<s n="np"/><s n="top"/></l><r>Armenia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Filadèlfia<s n="np"/><s n="top"/></l><r>Filadelfia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Libèria<s n="np"/><s n="top"/></l><r>Liberia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Messènia<s n="np"/><s n="top"/></l><r>Messenia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Pèrsia<s n="np"/><s n="top"/></l><r>Persia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Sibèria<s n="np"/><s n="top"/></l><r>Siberia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Cracòvia<s n="np"/><s n="top"/></l><r>Cracovia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Mòdena<s n="np"/><s n="top"/></l><r>Modena<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Mongòlia<s n="np"/><s n="top"/></l><r>Mongolia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Pretòria<s n="np"/><s n="top"/></l><r>Pretoria<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Victòria<s n="np"/><s n="top"/></l><r>Victoria<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Abissínia<s n="np"/><s n="top"/></l><r>Abissinia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Benín<s n="np"/><s n="top"/></l><r>Benin<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Bielorússia<s n="np"/><s n="top"/></l><r>Bielorussia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Brasília<s n="np"/><s n="top"/></l><r>Brasilia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Líbia<s n="np"/><s n="top"/></l><r>Libia<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Ligúria<s n="np"/><s n="top"/></l><r>Liguria<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Mississippí<s n="np"/><s n="top"/><s n="m"/></l><r>Mississippi<s n="np"/><s n="hyd"/><s n="m"/></r></p></e>
+      <e><p><l>Níger<s n="np"/><s n="top"/></l><r>Niger<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>República<b/>Dominicana<s n="np"/><s n="top"/></l><r>Republica<b/>Dominicana<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Rímini<s n="np"/><s n="top"/><s n="m"/></l><r>Rimini<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+      <e><p><l>Turíngia<s n="np"/><s n="top"/></l><r>Turingia<s n="np"/><s n="top"/></r></p></e>
+      <e r="LR"><p><l>Cheste<s n="np"/><s n="top"/></l><r>Cheste<s n="np"/><s n="top"/></r></p></e>
+      <e r="LR"><p><l>Cofrentes<s n="np"/><s n="top"/></l><r>Cofrentes<s n="np"/><s n="top"/></r></p></e>
+      <e r="LR"><p><l>Germània<s n="np"/><s n="top"/></l><r>Germania<s n="np"/><s n="top"/></r></p></e>
+      <e r="LR"><p><l>Torrevieja<s n="np"/><s n="top"/><s n="f"/></l><r>Torrevieja<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+
+<!-- xxxx -->
 
 
 <!-- SECTION: Numerals -->
