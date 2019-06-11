@@ -1101,7 +1101,7 @@ circular
 circumcidar	circoncidere
 circumdar	
 circumferir	
-circumnavigar	circumnavigare	hector	
+circumnavegar	circumnavigare	hector	
 circumscriure	circoscrivere	hector
 circumval·lar	circonvallare	hector
 circundar	
@@ -1310,7 +1310,7 @@ conjuminar
 conjunyir	unificarsi
 conjurar	
 connectar	
-connotar	
+connotar	connotare	hector
 conquerir	conquistare
 conquistar	conquistare
 conrear	coltivare
@@ -1565,7 +1565,7 @@ demandar
 demarcar	
 democratitzar	
 demolir	abbattere
-demonitzar	
+demonitzar	demonizzare
 demorar	
 demostrar	dimostrare
 demostrar	dimostrare
@@ -1854,7 +1854,7 @@ desinflar
 desinhibir	
 desinstal·lar	
 desintegrar	
-desinteressar	
+desinteressar	disinteressare	hector
 desintoxicar	
 desionitzar	
 desistir	desistere
@@ -1873,7 +1873,7 @@ desmaiar	svenire
 desmantellar	smantellare
 desmaquillar	
 desmarcar	
-desmembrar	
+desmembrar	smembrare	hector
 desmentir	
 desmerèixer	
 desmilitaritzar	
@@ -1883,7 +1883,7 @@ desmitificar
 desmobilitzar	
 desmoblar	
 desmodular	
-desmoralitzar	demoralizzare	vblex
+desmoralitzar	demoralizzare	hector
 desmotivar	
 desmultiplicar	
 desmuntar	
@@ -1923,7 +1923,7 @@ despoblar	spopolare
 despolaritzar	
 despolititzar	
 desposseir	espropriare
-desprendre	
+desprendre	staccare	hector
 despreocupar	
 desprestigiar	
 desproveir	
@@ -1999,7 +1999,7 @@ diftongar
 difuminar	
 digerir	digerire
 digitalitzar	
-dignar	
+dignar	degnar	hector
 dignificar	
 dilapidar	
 dilatar	
@@ -2060,7 +2060,7 @@ dissuadir	dissuadere
 distanciar	
 distar	
 distendre	distendere
-distingir	
+distingir	distinguere	hector
 distorsionar	
 distreure	
 distribuir	distribuire
@@ -2256,7 +2256,7 @@ empolsar
 empolvorar	
 emportar	
 emprar	
-emprendre	
+emprendre	intraprendere	hector
 emprenyar	arrabbiato
 empresonar	imprigionare	hector
 empunyar	
@@ -2331,7 +2331,7 @@ encolomar
 encomanar	
 encomiar	
 encongir	restringersi
-encoratjar	
+encoratjar	incoraggiare	hector
 encorbar	
 encordonar	
 encotillar	
@@ -2434,7 +2434,7 @@ ennuegar	ingolfare
 ennuvolar	
 enorgullir	
 enquadernar	
-enquadrar	
+enquadrar	inquadrare	hector
 enquestar	
 enquistar	
 enquitranar	
@@ -2799,7 +2799,7 @@ estrebar
 estremir	
 estrenar	
 estrènyer	restringere
-estrènyer	stringersi
+estrènyer	stringere
 estressar	
 estriar	
 estripar	
@@ -2807,7 +2807,7 @@ estroncar
 estructurar	
 estucar	
 estudiar	studiare
-esvair	
+esvair	svanire	hector
 esvalotar	
 esvarar	
 eteritzar	
@@ -3521,6 +3521,7 @@ interactuar
 intercalar	intercalare
 intercalar	intercalare
 intercanviar	scambiare
+intercanviar	interscambiare
 intercedir	intercedere
 interceptar	intercettare
 interceptar	intercettare
@@ -4167,7 +4168,7 @@ plorinyar
 ploriquejar	
 plotejar	
 ploure	piovere
-ploure a bots i barrals	piovere a catinelle
+ploure# a bots i barrals	piovere# a catinelle
 ploure a semalades	
 plovisquejar	
 poblar	popolare
@@ -4518,8 +4519,7 @@ reconcentrar
 reconciliar	
 reconduir	
 reconèixer	riconoscere
-reconèixer	riconoscere
-reconèixer	riconoscere
+reconèixer	ravvisare	hector
 reconfigurar	
 reconfirmar	
 reconfortar	
@@ -4689,7 +4689,7 @@ remugar
 remuguejar	
 remullar	
 remunerar	
-remuntar	
+remuntar	rimontare	hector
 renacionalitzar	
 rendibilitzar	
 rendir	rendere
@@ -4940,6 +4940,7 @@ secretar
 sectoritzar	
 secularitzar	secolarizzare
 secundar	assecondare
+secundar	secondare	hector
 sedar	
 sedassar	
 sedentaritzar	
@@ -5314,7 +5315,7 @@ transcendir	trascendere
 transcendir	trascendere
 transcórrer	trascorrere
 transcriure	trascrivere
-transferir	transferire
+transferir	trasferire
 transfigurar	trasfigurare
 transfondre	
 transformar	trasformare

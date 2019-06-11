@@ -1032,7 +1032,6 @@ alforgenc
 alforgetà	
 alforiner	
 alforrador	
-alforre	liberto
 alforro	
 algaidí	
 algal	
@@ -1086,7 +1085,6 @@ aliforme
 alíger	
 alimentable	
 alimentador	
-alimentari	alimentario
 alimentós	
 alineat	
 alionenc	
@@ -1346,7 +1344,6 @@ amerindi
 amerístic	
 amesurat	
 ametàbol	
-ametista	ametista
 ametlat	
 ametllat	
 ametllatà	
@@ -2386,7 +2383,7 @@ aptià
 aptitudinal	
 aptòtic	
 apuntador	
-aquàtic	acqutico
+aquàtic	acquatico	hector
 aquemènida	achemenide
 aqueniforme	
 aqueu	
@@ -2883,7 +2880,7 @@ asturianolleonès
 asturlleonès	
 astut	
 atabalador	
-atacable	
+atacable	attaccabile	hector
 atacador	
 atacant	
 atàctic	
@@ -3953,7 +3950,7 @@ biliari
 bilífer	
 bilineal	
 bilinear	
-bilingüe	
+bilingüe	bilingue	hector
 bilionari	
 bilionèsim	
 biliós	
@@ -4249,7 +4246,6 @@ bondadós
 bonegador	
 bonent	
 bonhomiós	
-bonic	bello
 bonidor	
 bonifaci	
 bonificable	
@@ -6640,11 +6636,6 @@ coquí
 coquitzable	
 coracoidal	
 coracoide	
-coral	coro
-coral	corale
-coral	corallo
-coral	cordiale
-coral	corale
 coral·lí	
 coral·lífer	
 coral·liforme	
@@ -6663,7 +6654,7 @@ corcat
 corcovat	
 corcuitós	
 cordat	
-cordial	
+cordial	cordiale	hector
 cordiforme	
 cordimarià	
 cordòfon	
@@ -6887,7 +6878,6 @@ cretès
 cretí	
 cretós	
 creuclavat	
-creuerista	crocerista
 creuetí	
 crevillentí	
 criador	
@@ -7098,7 +7088,7 @@ curricular
 curro	
 cursi	
 cursiu	
-curt	
+curt	corto	hector
 curtet	
 curtterminista	
 curul	
@@ -8216,7 +8206,8 @@ digitàlic
 digitalitzador	
 digitígrad	
 diglòssic	
-digne	
+digne	degno	hector
+digne	meritevole	hector
 dignificador	
 dihexagonal	
 dilapidador	
@@ -8484,7 +8475,6 @@ divulgat
 divulgatiu	
 dizigòtic	
 djiboutià	
-doble	grosso
 doblegable	
 doblegadís	
 doblenc	
@@ -8733,7 +8723,7 @@ eduardià
 educable	
 educacional	
 educador	
-educatiu	
+educatiu	educativo	adj
 eductiu	
 edul	
 edulcorant	
@@ -9436,7 +9426,7 @@ entufat
 entusiasmadís	
 entusiasmador	
 entusiasmat	
-entusiasta	
+entusiasta	entusiasta	hector
 entusiàstic	
 enumerable	
 enumeratiu	
@@ -10525,7 +10515,7 @@ execrable
 execratori	
 executable	
 executant	
-executiu	ssecutivo
+executiu	essecutivo	hector
 executor	essecutore
 executori	
 executorial	
@@ -10909,8 +10899,6 @@ farratger
 farrerenc	
 farsaire	
 farsant	
-fart	ghiotto
-fart	stufo
 fartador	
 fartaner	
 fartís	
@@ -12049,7 +12037,6 @@ gavetà
 gaznèvida	
 gebrador	
 gedinnià	
-gegant	gigantesco
 geganta	
 geganter	
 gegantesc	
@@ -12409,7 +12396,7 @@ gorromí
 gosolà	
 got	
 gotejador	
-gòtic	
+gòtic	gotico	hector
 goticista	
 goticitzant	
 goticorenaixentista	
@@ -12579,9 +12566,6 @@ groguís
 groguissó	
 groller	
 gronxadís	
-gros	grande
-gros	grosso
-gros	grosso
 grossal	
 grosser	
 grotesc	grottesco
@@ -13518,7 +13502,6 @@ il·lusionable
 il·lusionador	
 il·lusionant	
 il·lusionat	
-il·lusionista	illusionista
 il·lusori	
 il·lustrador	
 il·lustrat	
@@ -13592,7 +13575,6 @@ immobiliari
 immobilista	
 immobilitzador	
 immobilitzat	
-immoble	propietà
 immoderat	
 immodest	
 immòdic	
@@ -13854,7 +13836,7 @@ inassequible
 inassimilable	
 inassolible	
 inassumible	
-inatacable	
+inatacable	inattaccabile	hector
 inaturable	
 inaudible	
 inaudit	
@@ -14206,7 +14188,7 @@ industriós
 induvial	
 induviat	
 inebriatiu	
-inèdit	
+inèdit	inedito	hector
 ineditable	
 ineducable	
 ineducat	
@@ -14324,7 +14306,6 @@ inferencial
 inferent	
 inferible	
 inferior	inferiore
-infernal	infiernale
 infèrtil	
 infertilitzable	
 infest	
@@ -14404,7 +14385,7 @@ infusible
 ingarantible	
 ingenerable	
 ingènit	
-ingent	
+ingent	ingente	hector
 ingenu	
 ingerible	
 ingloriós	
@@ -14511,7 +14492,7 @@ inoperatiu
 inoperculat	
 inopinable	
 inopinat	
-inoportú	
+inoportú	inopportuno	hector
 inopugnable	
 inordenat	
 inordinat	
@@ -14693,7 +14674,8 @@ intercalar	intercalare
 intercalar	intercalare
 intercalat	
 intercameral	
-intercanviable	
+intercanviable	interscambiabile	hector
+intercanviable	scambiabile	hector
 intercel·lular	
 intercentres	
 interceptable	
@@ -15441,7 +15423,6 @@ jut
 juter	
 jutjable	
 jutjador	
-jutjat	tribunale
 juvenil	
 juxtaglomerular	
 juxtalineal	
@@ -16348,11 +16329,6 @@ majorant
 majorista	
 majoritari	
 majúscul	
-mal	male
-mal	male
-mal	male
-mal	brutto
-mal	male
 malabar	
 malabàric	
 malacarós	
@@ -17576,7 +17552,7 @@ monogramàtic
 monohíbrid	
 monoic	
 monoinsaturat	
-monolingüe	
+monolingüe	monolingue	hector
 monolític	
 monomaníac	
 monomaterial	
@@ -17779,8 +17755,6 @@ mostrador
 mostral	
 motejador	
 motejaire	
-motiu	motivo
-motiu	soprannome
 motivacional	
 motivador	
 motívic	
@@ -19309,7 +19283,7 @@ otacústic
 otàrid	
 òtic	
 otològic	
-otomà	
+otomà	ottomano	hector
 otònic	
 otosí	
 ouat	
@@ -20264,8 +20238,6 @@ picadís
 picador	
 picaforter	
 picallós	
-picant	piccante
-picant	mordace
 picanyer	
 picard	
 picardiós	
@@ -20883,7 +20855,8 @@ pop	polpo
 poper	
 popliti	
 popular	popolare	hector
-popularista	
+populista	populista	hector
+populista	populistico	hector
 popularitzable	
 populatxer	
 populista	
@@ -20892,7 +20865,6 @@ poquet
 poquíssim	
 poral	
 porat	
-porc	maiale
 porc	porco
 porcellànic	
 porcí	
@@ -21536,7 +21508,6 @@ propici
 propiciable	
 propiciador	
 propiciatori	
-propietari	propietario
 propílic	
 propinc	
 propioceptiu	
@@ -22351,7 +22322,7 @@ reconduïble
 reconegut	
 reconeixedor	
 reconeixent	
-reconeixible	
+reconeixible	ravvisabile	hector
 reconfigurable	
 reconfortador	
 reconfortant	
@@ -22473,7 +22444,7 @@ refinançable
 refinat	
 refistolat	
 refixat	
-reflectant	
+reflectant	riflettente	hector
 reflectiu	
 reflector	
 reflex	
@@ -23038,7 +23009,7 @@ riudecolenc
 riudellotenc	
 riudomenc	
 riumossenc	
-rival	
+rival	rivale	hector
 rivetejador	
 rivular	
 rizocàrpic	
@@ -23111,7 +23082,7 @@ romand
 romandalusí	
 romanent	
 romanès	rumeno
-romànic	
+romànic	romanico	hector
 romanista	
 romanístic	
 romanitzador	
@@ -23130,7 +23101,6 @@ romeuenc
 rompedor	
 ronc	rauco
 ronc	affiocato
-roncador	pesce arabo
 roncaire	
 rondador	
 rondaire	
@@ -25093,7 +25063,6 @@ tahitià	tahitiano
 tai	
 tailandès	
 taiwanès	
-tal	certo
 tal	tale
 talador	
 talaiòtic	
@@ -25245,7 +25214,7 @@ taxador
 taxatiu	
 taxidèrmic	
 taxodont	
-taxonòmic	assonomico
+taxonòmic	tassonomico	hector
 teàndric	
 teantròpic	
 teatí	
@@ -26195,7 +26164,7 @@ trihemímera
 trihídric	
 trilateral	
 trilineal	
-trilingüe	
+trilingüe	trilingue	hector
 trilionèsim	
 triliteral	
 trilític	
