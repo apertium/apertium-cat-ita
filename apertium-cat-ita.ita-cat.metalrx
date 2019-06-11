@@ -416,6 +416,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- successivo > següent, successiu -->
+  <rule weight="0.6">
+    <match lemma="successivo" tags="adj.*"><select lemma="següent"/></match>
+  </rule>
+
   <!-- ampio > ample, ampli -->
   <rule weight="0.6">
     <match lemma="ampio" tags="adj.*"><select lemma="ample"/></match>

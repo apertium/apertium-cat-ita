@@ -1467,7 +1467,7 @@
 <e>       <p><l>secular</l>                            <r>secolare</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>sedentari<s n="adj"/></l>              <r>sedentario<s n="adj"/></r></p></e>
 <e>       <p><l>segon<s n="adj"/></l>                  <r>secondo<s n="adj"/></r></p></e>
-<e r="RL"><p><l>següent</l>                            <r>seguente</r></p><par n="adj_sup2"/></e>
+<e>       <p><l>següent</l>                            <r>seguente</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>següent<s n="adj"/></l>                <r>successivo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>seixantè<s n="adj"/></l>               <r>sessantesimo<s n="adj"/></r></p></e>
 <e>       <p><l>semblant<s n="adj"/><s n="mf"/></l>    <r>simile<s n="adj"/><s n="mf"/></r></p></e>
@@ -4982,7 +4982,8 @@
 <e>       <p><l>bitllet<s n="n"/><s n="m"/></l>        <r>banconota<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>biòleg<s n="n"/></l>                   <r>biologo<s n="n"/></r></p></e>
 <e>       <p><l>biòpsia<s n="n"/></l>                  <r>biopsia<s n="n"/></r></p></e>
-<e>       <p><l>blanc<s n="n"/></l>                    <r>bianco<s n="n"/></r></p></e>
+<e>       <p><l>blanc<s n="n"/></l>                    <r>bianco<s n="n"/></r></p><par n="mf_mf"/></e>
+<e>       <p><l>blanc<s n="n"/><s n="m"/></l>          <r>bersaglio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>blasó<s n="n"/></l>                    <r>blasone<s n="n"/></r></p></e>
 <e>       <p><l>blat<s n="n"/></l>                     <r>frumento<s n="n"/></r></p></e>
 <e>       <p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/></l><r>mais<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -9079,8 +9080,7 @@
 <e>       <p><l>tasca<s n="n"/></l>                    <r>lavoro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tascó<s n="n"/><s n="m"/></l>          <r>cuneo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavolo<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>taula<s n="n"/><s n="f"/></l>          <r>tavola<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>tavola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>tabella<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>taula<g><b/>de<b/>multipliar</g><s n="n"/><s n="f"/><s n="pl"/></l><r>tabelline<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>tauró<s n="n"/></l>                    <r>squalo<s n="n"/></r></p></e>
@@ -30973,6 +30973,7 @@
 <e>       <p><l>usar<s n="vblex"/></l>                 <r>usare<s n="vblex"/></r></p></e>
 <e>       <p><l>usurpar<s n="vblex"/></l>              <r>usurpare<s n="vblex"/></r></p></e>
 <e>       <p><l>utilitzar<s n="vblex"/></l>            <r>utilizzare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>emprar<s n="vblex"/></l>               <r>utilizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>valer<s n="vblex"/></l>                <r>valere<s n="vblex"/></r></p></e>
 <e>       <p><l>validar<s n="vblex"/></l>              <r>convalidare<s n="vblex"/></r></p></e>
 <e>       <p><l>validar<s n="vblex"/></l>              <r>validare<s n="vblex"/></r></p></e>

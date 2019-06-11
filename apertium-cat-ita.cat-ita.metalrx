@@ -2814,6 +2814,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- següent > seguente, successivo -->
+  <rule weight="0.6">
+     <match lemma="següent" tags="adj.*"><select lemma="seguente"/></match>
+  </rule>
+
   <!-- seu > suo, loro -->
   <rule weight="0.6">
     <match lemma="seu" tags="adj.pos.*"><select lemma="suo" tags="adj.pos.*"/></match>
@@ -2895,6 +2900,41 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- blanc > bianco, bersaglio -->
+  <rule weight="0.6">
+    <match lemma="blanc" tags="n.*"><select lemma="bianco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="fer" tags="vblex.*"/>
+      <match tags="vbser.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="blanc" tags="n.m.*"><select lemma="bersaglio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="fer" tags="vblex.*"/>
+      <match tags="vbser.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="blanc" tags="n.m.*"><select lemma="bersaglio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tirar" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv.*"/>
+    </repeat>
+    <match tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="blanc" tags="n.m.*"><select lemma="bersaglio"/></match>
+  </rule>
 
   <!-- relació > relazione, rapporto -->
   <rule weight="0.6">
