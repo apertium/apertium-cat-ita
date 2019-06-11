@@ -1516,6 +1516,7 @@
   <macro name="noms_propis" p1="Roberto" p2="Robert" />
   <macro name="noms_propis" p1="Ruggero" p2="Roger" />
   <macro name="noms_propis" p1="Sisto" p2="Sixt" />
+  <macro name="noms_propis" p1="Vittoria" p2="Víctòria" />
   <macro name="noms_propis" p1="Vittorio" p2="Víctor" />
   <macro name="noms_propis" p1="Vittorio Emanuele" p2="Víctor Manuel" />
 
