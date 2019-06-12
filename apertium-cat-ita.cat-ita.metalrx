@@ -2001,6 +2001,11 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
+  <!-- estimar > amare, stimare -->
+  <rule weight="0.8">
+    <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
+  </rule>
+
   <!-- expandir > espandere, spandere -->
   <rule weight="0.8">
     <match lemma="expandir" tags="vblex.*"><select lemma="espandere"/></match>
@@ -2010,6 +2015,9 @@
   <rule weight="0.8">
     <match lemma="canviar" tags="vblex.*"><select lemma="cambiare"/></match>
   </rule>
+
+  <!-- llevar > llevare, alzare, togliere -->
+  <macro name="verb_nopron_pron" p1="llevar" p2="licenziare" p3="alzare"/>
 
   <!-- llicenciar > licenziare, laureare -->
   <macro name="verb_nopron_pron" p1="llicenciar" p2="licenziare" p3="laureare"/>

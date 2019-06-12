@@ -1185,6 +1185,9 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- levare > llevar, alçar -->
+  <macro name="verb_nopron_pron" p1="levare" p2="llevar" p3="alçar"/>
+  
   <!-- affrontare > afrontar, enfrontar -->
   <macro name="verb_nopron_pron" p1="affrontare" p2="afrontar" p3="enfrontar"/>
   
