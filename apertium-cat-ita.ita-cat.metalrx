@@ -1040,6 +1040,22 @@
     <match lemma="lanciare" tags="vblex.*"><select lemma="llançar"/></match>
   </rule>
 
+  <!-- sposare > casar-se, casar-se amb  -->
+  <rule weight="0.6">
+    <match lemma="sposare" tags="vblex.*"><select lemma="casar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sposare" tags="vblex.*"><select lemma="casar# amb"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+      <match tags="prn.tn.*"/>
+    </or>
+  </rule>
+
   <!-- gettare > llençar, llançar, tirar  -->
   <rule weight="0.6">
     <match lemma="gettare" tags="vblex.*"><select lemma="llençar"/></match>

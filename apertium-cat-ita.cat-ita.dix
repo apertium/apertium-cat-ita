@@ -15,6 +15,7 @@
     <sdef n="predet" /> 
     <sdef n="p3" /> 
     <sdef n="vblex" /> 
+    <sdef n="pron" /> 
     <sdef n="np" /> 
     <sdef n="p2" /> 
     <sdef n="p1" /> 
@@ -11586,7 +11587,8 @@
 <e>       <p><l>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>dei<b/>Caraibi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>mar<b/>Mediterrani<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Mediterrani<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Mediterraneo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Mediterrània<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Mediterraneo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>mar<b/>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>mar<b/>Egea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -33489,7 +33491,12 @@
 <e>       <p><l>captar<s n="vblex"/></l>               <r>captare<s n="vblex"/></r></p></e>
 <e>       <p><l>capturar<s n="vblex"/></l>             <r>catturare<s n="vblex"/></r></p></e>
 <e>       <p><l>caracteritzar<s n="vblex"/></l>        <r>caratterizzare<s n="vblex"/></r></p></e>
-<e>       <p><l>casar<s n="vblex"/></l>                <r>sposare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>casar<s n="vblex"/><s n="pron"/></l>   <r>sposare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>casar<g><b/>amb</g><s n="vblex"/><s n="pron"/></l><r>sposare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>casar<s n="vblex"/></l>   <r>sposare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>casar<g><b/>amb</g><s n="vblex"/></l><r>sposare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>divorciar<s n="vblex"/><s n="pron"/></l><r>divorziare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>divorciar<s n="vblex"/></l><r>divorziare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>maridar<s n="vblex"/></l>              <r>sposare<s n="vblex"/></r></p></e>
 <e>       <p><l>castigar<s n="vblex"/></l>             <r>castigare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>castigar<s n="vblex"/></l>             <r>punire<s n="vblex"/></r></p></e>

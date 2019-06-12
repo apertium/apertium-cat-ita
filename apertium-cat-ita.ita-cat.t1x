@@ -325,7 +325,15 @@
   <section-def-attrs>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
+    <def-attr n="a_verb_pron">
       <attr-item tags="vblex"/>
+      <attr-item tags="vblex.pron"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbmod"/>
@@ -458,6 +466,7 @@
     <def-var n="concSegundo"/>
     <def-var n="concTercero"/>
     <def-var n="lemma"/>
+    <def-var n="pronom"/>
     <def-var n="EOS" v="&lt;true&gt;"/>
 
     <def-var n="numero" v="&lt;sg&gt;"/>
@@ -465,6 +474,9 @@
     <def-var n="numero_aux" v="&lt;sg&gt;"/>
     <def-var n="genero_aux" v="&lt;m&gt;"/>
 
+    <def-var n="debug1"/>
+    <def-var n="debug2"/>
+    <def-var n="debug3"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -3212,6 +3224,124 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_set_pron" npar="2"> <!-- posa a la variable 'pronom' el pronom reflexiu que calgui si el verb és reflexiu. El segon paramàtre és la repetició del primer, si és una forma conjugada (personal) del verb, altrament és l'auxiliar-->
+      <let>
+	<var n="pronom"/>
+	<lit v=""/>
+      </let>
+<let><var n="debug1"/><lit v="0"/></let>
+      <choose>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+	  </test>
+	  <let>
+            <var n="pronom"/>
+            <get-case-from pos="1">
+              <lit v="pronom"/>
+            </get-case-from>
+	  </let>
+	  <append n="pronom">
+	    <lit-tag v="SN.prn.pro.ref.p3.mf.sp"/>
+	    <lit v="{^"/>
+          </append>
+          <choose>
+<!-- ^pronom<SN><prn><tn><p3><m><sg>{^ell<prn><tn><p3><m><sg>$}$ ^es<prn><pro><ref><p3><mf><sp>$ -->
+	    <when>
+	      <test>
+	        <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+	      </test>
+	      <append n="pronom">
+                <get-case-from pos="1">
+                  <lit v="es"/>
+                </get-case-from>
+              </append>
+	      <append n="pronom">
+	        <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+	        <lit v="$^}"/>
+	      </append>	
+<let><var n="debug1"/><lit v="1"/></let>
+	    </when>
+	    <otherwise>
+	      <append n="pronom">
+                <get-case-from pos="1">
+                  <lit v="prpers"/>
+                </get-case-from>
+              </append>
+	      <append n="pronom">
+	        <lit-tag v="prn.pro"/>
+                <clip pos="2" side="tl" part="pers"/>
+	        <lit-tag v="mf"/>
+	        <clip pos="1" side="tl" part="nbr"/>
+	        <lit v="$^}^"/>
+	      </append>	
+<let><var n="debug1"/><lit v="2"/></let>
+	    </otherwise>
+          </choose>
+          <!-- ara arreglem la majúscula del verb, si cal -->
+          <choose>
+            <when>
+              <test>
+                <equal>
+                   <case-of pos="1" side="sl" part="lem"/>
+                   <lit v="Aa"/>
+                 </equal>
+              </test>
+              <modify-case>
+                <clip pos="1" side="tl" part="lemh"/>
+                <lit v="aa"/>
+              </modify-case>
+            </when>
+          </choose>
+	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+	</when>
+	<otherwise>
+<let><var n="debug1"/><lit v="3"/></let>
+	</otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_set_pron_enc" npar="1"> <!-- posa a la variable 'pronom' el pronom reflexiu enclític 'es´ si el verb és reflexiu -->
+      <let>
+	<var n="pronom"/>
+	<lit v=""/>
+      </let>
+      <choose>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+	  </test>
+	  <let><var n="pronom"/><lit v="es"/></let>
+	  <append n="pronom">
+	    <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+	  </append>	
+	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="print_pron" npar="0"> <!-- escriu la variable 'pronom' -->
+        <choose>
+	  <when>
+	    <test>
+	      <not><equal><var n="pronom"/><lit v=""/></equal></not>
+	    </test>
+            <out>
+              <lu>
+	        <var n="pronom"/>
+              </lu>
+              <b/>
+            </out>
+	  </when>
+        </choose>
+<!--
+            <out>
+              <lu>
+	        <var n="debug1"/>
+              </lu>
+            </out>
+-->
+    </def-macro>
 
   </section-def-macros>
 
@@ -6024,8 +6154,8 @@
              <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-        <b pos="1"/>
-           <lu>
+            <b pos="1"/>
+            <lu>
               <var n="verbfinal"/>
             </lu>
             <b pos="2"/>
@@ -6202,6 +6332,14 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+<!--
+        <call-macro n="f_set_pron">
+          <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="print_pron">
+        </call-macro>
+-->
         <out>
           <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
