@@ -2675,6 +2675,7 @@
 <e r="RL"><p><l>al<b/>voltant<s n="adv"/></l>          <r>attorno<s n="adv"/></r></p></e>
 <e i="yes"><p><l>al<b/>voltant<s n="adv"/></l>         <r>circa<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>l'entorn<s n="adv"/></l>          <r>intorno<s n="adv"/></r></p></e>
+<e r="LR"><p><l>als<b/>voltants<s n="adv"/></l>        <r>intorno<s n="adv"/></r></p></e>
 <e>       <p><l>alegrement<s n="adv"/></l>             <r>allegramente<s n="adv"/></r></p></e>
 <e>       <p><l>alerta<s n="adv"/></l>                 <r>avvisatamente<s n="adv"/></r></p></e>
 <e>       <p><l>alerta<s n="adv"/></l>                 <r>occhio<b/>vigile<s n="adv"/></r></p></e>
@@ -8160,15 +8161,12 @@
 <e r="RL"><p><l>pel·lícula<s n="n"/></l>               <r>pellicola<s n="n"/></r></p></e>
 <e>       <p><l>pel·lícula<s n="n"/><s n="f"/></l>     <r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>pena<s n="n"/></l>                     <r>pena<s n="n"/></r></p></e>
-<e>       <p><l>pendant<s n="n"/></l>                  <r>orecchino<s n="n"/></r></p></e>
-<e>       <p><l>pendent<s n="n"/><s n="m"/></l>        <r>orecchino<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pendent<s n="n"/><s n="m"/></l>        <r>pendio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>penetració<s n="n"/></l>               <r>penetrazione<s n="n"/></r></p></e>
 <e>       <p><l>penicil·lina<s n="n"/></l>             <r>penicillina<s n="n"/></r></p></e>
-<e>       <p><l>penis<s n="n"/><s n="m"/><s n="sp"/></l><r>pene<s n="n"/></r></p></e>
-<e r="LR"><p><l>penis<s n="n"/><s n="m"/><s n="sp"/></l><r>pene<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>penis<s n="n"/><s n="m"/><s n="sp"/></l><r>pene<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>penis<s n="n"/><s n="m"/><s n="sp"/></l><r>pene<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>penjoll<s n="n"/></l>                  <r>grappolo<s n="n"/></r></p></e>
+<e>       <p><l>penis<s n="n"/><s n="m"/></l>          <r>pene<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>carràs<s n="n"/></l>                   <r>grappolo<s n="n"/></r></p></e>
+<e>       <p><l>penjoll<s n="n"/><s n="m"/></l>        <r>pendente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pensament<s n="n"/><s n="m"/></l>      <r>pensiero<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pensionista<s n="n"/><s n="mf"/></l>   <r>pensionato<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pensió<s n="n"/></l>                   <r>pensione<s n="n"/></r></p></e>
@@ -10855,7 +10853,8 @@
 <e a="hector"><p><l>gènesi<s n="n"/><s n="f"/></l>     <r>genesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e a="hector"><p><l>salutació<s n="n"/><s n="f"/></l>  <r>saluto<s n="n"/><s n="m"/></r></p></e>
 <e a="hector"><p><l>rodalia<s n="n"/><s n="f"/></l>    <r>vicinanza<s n="n"/><s n="f"/></r></p></e>
-<e a="hector"><p><l>voltants<s n="n"/><s n="f"/><s n="pl"/></l><r>dintorni<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" a="hector"><p><l>voltant<s n="n"/><s n="m"/><s n="sg"/></l><r>dintorni<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="hector"><p><l>voltants<s n="n"/><s n="m"/><s n="pl"/></l><r>dintorni<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e a="hector"><p><l>vacances<s n="n"/><s n="f"/><s n="pl"/></l><r>vacanza<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e a="hector"><p><l>alberg<s n="n"/><s n="m"/></l>     <r>albergo<s n="n"/><s n="m"/></r></p></e>
 <e a="hector"><p><l>hotel<s n="n"/><s n="m"/></l>      <r>albergo<s n="n"/><s n="m"/></r></p></e>
@@ -11211,8 +11210,10 @@
 <e r="RL" a="wiktionary"><p><l>utilitari<s n="n"/><s n="m"/></l><r>utilitario<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>vessant<s n="n"/><s n="m"/></l><r>versante<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>volant<s n="n"/><s n="m"/></l><r>volano<s n="n"/><s n="m"/></r></p></e>
-<e a="hector"><p><l>faig<s n="n"/><s n="m"/></l>       <r>faggio<s n="n"/><s n="m"/></r></p></e>
-<e a="hector"><p><l>destinatari<s n="n"/></l>          <r>destinatario<s n="n"/></r></p></e>
+<e a="hector"><p><l>faig<s n="n"/><s n="m"/></l><r>faggio<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>destinatari<s n="n"/></l><r>destinatario<s n="n"/></r></p></e>
+<e a="hector"><p><l>retorn<s n="n"/></l><r>ritorno<s n="n"/></r></p></e>
+<e a="hector"><p><l>escriptura<s n="n"/></l><r>scrittura<s n="n"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -11410,8 +11411,40 @@
 <e>       <p><l>Caracas<s n="np"/><s n="top"/></l>     <r>Caracas<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Antilles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Antille<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Caribi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-<e>       <p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Carballo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mar<b/>Carib<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>dei<b/>Caraibi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Mediterrani<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Egea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Adriàtic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Adriàtica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Adriàtic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Jònic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Ionio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Jònica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Ionio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Jònic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ionio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Jonia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ionia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Tirrè<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Tirreno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Tirrena<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Tirreno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Tirrè<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tirreno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Caspi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Caspio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Càspia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Caspio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Caspi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Caspio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Bàltic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Baltico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Bàltica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Baltico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Bàltic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Baltico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Roig<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Rosso<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Negre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Neo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Blanc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Bianco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>d'Azov<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>d'Azov<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>de<b/>Barentsz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>di<b/>Barents<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>de<b/>Beaufort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>di<b/>Beaufort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>del<b/>Nord<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>del<b/>Nord<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mar<b/>Cantàbric<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Cantabrico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mar<b/>Cantàbrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Cantabrico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Cantàbric<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cantabrico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>oceà<b/>Glacial<b/>Àrtic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Glaciale<b/>Artico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Carlo<s n="np"/><s n="ant"/></l>       <r>Carlo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carles<s n="np"/><s n="ant"/></l>      <r>Carles<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carles<s n="np"/><s n="ant"/></l>      <r>Carlo<s n="np"/><s n="ant"/></r></p></e>
@@ -11662,6 +11695,9 @@
 <e>       <p><l>Inés<s n="np"/><s n="ant"/></l>        <r>Inés<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bordeus<s n="np"/><s n="top"/></l>     <r>Bordeaux<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Iran<s n="np"/><s n="top"/></l>        <r>Iran<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Bizanci<s n="np"/><s n="top"/></l>     <r>Bisanzio<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Bòsfor<s n="np"/><s n="top"/></l>      <r>Bosforo<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Constantinoble<s n="np"/><s n="top"/></l><r>Costantinopoli<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Bari<s n="np"/><s n="top"/></l>        <r>Bari<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Regne<b/>Unit<s n="np"/><s n="top"/></l><r>Regno<b/>Unito<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Iraq<s n="np"/><s n="top"/></l>        <r>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -28070,6 +28106,7 @@
 <e>       <p><l>Nil<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nilo<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Rin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Reno<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Po<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Po<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Adige<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Adige<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Tíber<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tevere<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Adige<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Adige<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Roine<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rodano<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
@@ -32720,6 +32757,7 @@
 <e><p><l>Yahoo<s n="np"/><s n="al"/></l><r>Yahoo<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Yamaha<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Yamaha<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Zeta<s n="np"/><s n="al"/></l><r>Zeta<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+
 <!-- xxxx -->
 
 
@@ -32805,6 +32843,7 @@
 <e>       <p><l>al<b/>voltant<b/>de<s n="pr"/></l>     <r>intorno<b/>a<s n="pr"/></r></p></e>
 <e r="RL"><p><l>al<b/>voltant<b/>de<s n="pr"/></l>     <r>attorno<b/>a<s n="pr"/></r></p></e>
 <e r="LR"><p><l>a<b/>l'entorn<b/>de<s n="adv"/></l>    <r>intorno<b/>a<s n="adv"/></r></p></e>
+<e r="LR"><p><l>als<b/>voltants<b/>de<s n="pr"/></l>   <r>intorno<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>amb<s n="pr"/></l>                     <r>con<s n="pr"/></r></p></e>
 <e>       <p><l>cap<b/>a<s n="pr"/></l>                <r>verso<s n="pr"/></r></p></e>
 <e r="LR"><p><l>cap<b/>a<s n="pr"/></l>                <r>per<s n="pr"/></r></p></e>
@@ -33861,6 +33900,7 @@
 <e i="yes"><p><l>pondre<s n="vblex"/></l>              <r>mettere<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>pondre<s n="vblex"/></l>               <r>porre<s n="vblex"/></r></p></e>
 <e>       <p><l>portar<s n="vblex"/></l>               <r>portare<s n="vblex"/></r></p></e>
+<e>       <p><l>submetre<s n="vblex"/></l>             <r>sottomettere<s n="vblex"/></r></p></e>
 <e>       <p><l>posar<s n="vblex"/></l>                <r>mettere<s n="vblex"/></r></p></e>
 <e>       <p><l>posar<s n="vblex"/></l>                <r>porre<s n="vblex"/></r></p></e>
 <e>       <p><l>posar<s n="vblex"/></l>                <r>posare<s n="vblex"/></r></p></e>
