@@ -920,6 +920,7 @@
 <e>       <p><l>idiota<s n="adj"/></l>                 <r>idiota<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>idèntic</l>                            <r>identico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>igual</l>                              <r>uguale</r></p><par n="adj_sup2"/></e>
+<e r="RL"><p><l>igual</l>                              <r>eguale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>il·legal</l>                           <r>illegale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>il·legítim</l>                         <r>illegittimo</r></p><par n="adj_sup"/></e>
 <e>       <p><l>il·luminat<s n="adj"/></l>             <r>illuminato<s n="adj"/></r></p></e>
@@ -10839,6 +10840,7 @@
 <e r="RL" a="hector"><p><l>magrana<s n="n"/><s n="f"/></l><r>melagrana<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="hector"><p><l>malaltia<s n="n"/><s n="f"/></l><r>infermità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e a="hector"><p><l>mariscal<s n="n"/><s n="m"/></l>   <r>maresciallo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>mariscal<g><b/>de<b/>camp</g><s n="n"/><s n="m"/></l><r>feldmaresciallo<s n="n"/><s n="m"/></r></p></e>
 <e a="hector"><p><l>parisenc<s n="n"/></l>             <r>parigino<s n="n"/></r></p></e>
 <e a="hector"><p><l>prefectura<s n="n"/><s n="f"/></l> <r>prefettura<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>reparació<s n="n"/><s n="f"/></l>  <r>riparazione<s n="n"/><s n="f"/></r></p></e>
@@ -32581,6 +32583,143 @@
 <e>       <p><l>Wladimiro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Wladimiro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Yoram<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yoram<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
+<e><p><l>Ajmone<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ajmone<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Amaele<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Amaele<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Agata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Agata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Alba<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alba<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Alberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Aura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Barbara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Barbara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bruna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Bruna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Camille<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Camille<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Cara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Danila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Danila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Delia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Delia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Diana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Diana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Dominica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dominica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Dominique<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dominique<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Elda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Elvira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elvira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ester<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ester<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Fedele<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Fedele<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Fiorenza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Fiorenza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e i="yes"><p><l>Galilea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Galilea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Gea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Gigi<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gigi<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Giuditta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Giuditta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Grazia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Grazia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Julia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Julia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Kim<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Kim<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Marian<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marian<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Martina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Martina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Milla<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Milla<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Miracle<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Miracle<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Miranda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Miranda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Montserrat<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Montserrat<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Natale<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Natale<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nicola<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nicola<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Oda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Oda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Oliva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Oliva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Paris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Paris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Petra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Petra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Piera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Piera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Pina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Pina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Rina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Rosa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rosa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Rosario<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rosario<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sabina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sabina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Salvia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Salvia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Santa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Santa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Saura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Saura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Selma<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Selma<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Selva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Selva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Serena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Serena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Taylor<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Taylor<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Toni<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Toni<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Vega<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vega<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Vera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Verona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Verona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Whitney<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Whitney<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e><p><l>Al<b/>Qaida<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Al<b/>Qaida<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al<b/>Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Al<b/>Qaida<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al-Qaeda<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Al<b/>Qaida<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al<b/>Qaeda<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Al-Qaida<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Al<b/>Qaeda<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Al-Qaeda<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Stato<b/>Islamico<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>Estat<b/>Islàmic<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>BSCH<s n="np"/><s n="al"/></l><r>BSCH<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Batasuna<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Batasuna<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Beatles<s n="np"/><s n="al"/><s n="m"/><s n="pl"/></l><r>Beatles<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bloomberg<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Bloomberg<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bundesliga<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Bundesliga<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Champions<b/>League<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Champions<b/>League<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Chevrolet<s n="np"/><s n="al"/></l><r>Chevrolet<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Citroën<s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></l><r>Citroën<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Coca-Cola<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Coca-Cola<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Columbia<s n="np"/><s n="al"/></l><r>Columbia<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Disney<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Disney<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ducati<s n="np"/><s n="al"/></l><r>Ducati<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ecofin<s n="np"/><s n="al"/></l><r>Ecofin<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ferrari<s n="np"/><s n="al"/></l><r>Ferrari<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Fortis<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Fortis<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Generalitat<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Generalitat<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Genoa<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Genoa<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Greenpeace<s n="np"/><s n="al"/></l><r>Greenpeace<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hamas<s n="np"/><s n="al"/></l><r>Hamas<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Herrero<s n="np"/><s n="al"/></l><r>Herrero<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hezbollah<s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></l><r>Hezbollah<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Honda<s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></l><r>Honda<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>IU<s n="np"/><s n="al"/></l><r>IU<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Intel<s n="np"/><s n="al"/></l><r>Intel<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Juve<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Juve<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Juventus<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Juventus<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lazio<s n="np"/><s n="al"/></l><r>Lazio<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Life<s n="np"/><s n="al"/></l><r>Life<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>MTV<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>MTV<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>McLaren<s n="np"/><s n="al"/></l><r>McLaren<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mercedes-Benz<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Mercedes-Benz<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mestre<s n="np"/><s n="al"/></l><r>Mestre<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Metro-Goldwyn-Mayer<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Metro-Goldwyn-Mayer<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Montiel<s n="np"/><s n="al"/></l><r>Montiel<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Motorola<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Motorola<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Movistar<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Movistar<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mozilla<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Mozilla<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nadal<s n="np"/><s n="al"/></l><r>Nadal<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nature<s n="np"/><s n="al"/></l><r>Nature<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nintendo<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Nintendo<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nokia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Nokia<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nvidia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Nvidia<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>ONG<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>ONG<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Paramount<s n="np"/><s n="al"/></l><r>Paramount<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Perales<s n="np"/><s n="al"/></l><r>Perales<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Peugeot<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Peugeot<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Porsche<s n="np"/><s n="al"/></l><r>Porsche<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>RTVE<s n="np"/><s n="al"/></l><r>RTVE<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Renault<s n="np"/><s n="al"/></l><r>Renault<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Renfe<s n="np"/><s n="al"/></l><r>Renfe<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Repsol<s n="np"/><s n="al"/></l><r>Repsol<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ribes<s n="np"/><s n="al"/></l><r>Ribes<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rivera<s n="np"/><s n="al"/></l><r>Rivera<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rolling<s n="np"/><s n="al"/></l><r>Rolling<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>San<s n="np"/><s n="al"/></l><r>San<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Skoda<s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></l><r>Skoda<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Société<b/>Générale<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Société<b/>Générale<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sony<s n="np"/><s n="al"/></l><r>Sony<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>TVE<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>TVE<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Telecinco<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Telecinco<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Toyota<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Toyota<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Unix<s n="np"/><s n="al"/></l><r>Unix<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Wehrmacht<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Wehrmacht<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Yahoo<s n="np"/><s n="al"/></l><r>Yahoo<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Yamaha<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Yamaha<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Zeta<s n="np"/><s n="al"/></l><r>Zeta<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <!-- xxxx -->
 
 
@@ -34427,6 +34566,7 @@
 <e a="wiktionary"><p><l>horroritzar<s n="vblex"/></l>  <r>spaventare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>hostilitzar<s n="vblex"/></l>  <r>osteggiare<s n="vblex"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>igualar<s n="vblex"/></l><r>agguagliare<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>igualar<s n="vblex"/></l>   <r>eguagliare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>igualar<s n="vblex"/></l>      <r>uguagliare<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>il·lusionar<s n="vblex"/></l>  <r>illudere<s n="vblex"/></r></p></e>
 <e a="wiktionary"><p><l>imaginar<s n="vblex"/></l>     <r>immaginare<s n="vblex"/></r></p></e>
