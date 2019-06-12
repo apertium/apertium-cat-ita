@@ -416,6 +416,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- potente > potent, poderós -->
+  <rule weight="0.6">
+    <match lemma="potente" tags="adj.*"><select lemma="potent"/></match>
+  </rule>
+
   <!-- successivo > següent, successiu -->
   <rule weight="0.6">
     <match lemma="successivo" tags="adj.*"><select lemma="següent"/></match>

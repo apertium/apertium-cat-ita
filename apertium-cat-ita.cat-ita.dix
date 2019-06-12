@@ -209,7 +209,7 @@
   <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="veloç_velocissimo">
+<pardef n="veloç_rapido">
   <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l><s n="mf"/><s n="sg"/></l><r><s n="GD"/><s n="sg"/></r></p></e>
@@ -300,6 +300,7 @@
 <e r="LR"><p><l>altre<s n="adj"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>altro<s n="adj"/><s n="ind"/><s n="GD"/><s n="pl"/></r></p></e>
 <e>       <p><l>altre<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>altro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>altre<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>altro<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>ambdos<s n="adj"/><s n="ind"/></l>     <r>ambedue<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>altruista<s n="adj"/></l>              <r>altruista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>al·lèrgic</l>                          <r>allergico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>amant<s n="adj"/></l>                  <r>amante<s n="adj"/></r></p></e>
@@ -375,7 +376,7 @@
 <e>       <p><l>atòmic</l>                             <r>atomico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>atònit</l>                             <r>attonito</r></p><par n="adj_sup"/></e>
 <e>       <p><l>audaç<s n="adj"/></l>                  <r>audace<s n="adj"/></r></p><par n="veloç_veloce"/></e>
-<e r="RL"><p><l>audaç<s n="adj"/></l>                  <r>audace<s n="adj"/><s n="sup"/></r></p><par n="veloç_velocissimo"/></e>
+<e r="RL"><p><l>audaç<s n="adj"/></l>                  <r>audace<s n="adj"/><s n="sup"/></r></p><par n="veloç_rapido"/></e>
 <e>       <p><l>audiovisual<s n="adj"/></l>            <r>audiovisivo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>audiovisual<s n="adj"/></l>            <r>audiovisivo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>australià</l>                          <r>australiano</r></p><par n="adj_sup"/></e>
@@ -844,6 +845,7 @@
 <e>       <p><l>futbolístic</l>                        <r>calcistico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>futur</l>                              <r>futuro</r></p><par n="adj_sup"/></e>
 <e>       <p><l>fàcil</l>                              <r>facile</r></p><par n="adj_sup2"/></e>
+<e r="RL"><p><l>fàcil</l>                              <r>agevole</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>fèrtil</l>                             <r>fertile</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>físic</l>                              <r>fisico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>fútil</l>                              <r>futile</r></p><par n="adj_sup2"/></e>
@@ -2412,27 +2414,29 @@
 <e r="RL" a="wiktionary"><p><l>amhàric<s n="adj"/></l> <r>amarico<s n="adj"/><s n="sup"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>ample<s n="adj"/></l>   <r>ampio<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
 <e r="LR" a="wiktionary"><p><l>ample<s n="adj"/><s n="sup"/></l><r>ampio<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>ample<s n="adj"/></l><r>largo<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
+<e r="RL" a="wiktionary"><p><l>ample<s n="adj"/><s n="sup"/></l><r>largo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>anyal<s n="adj"/></l>          <r>annuo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>anyal<s n="adj"/></l>   <r>annuo<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>anyal<s n="adj"/></l>   <r>annuo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>arameu<s n="adj"/></l>         <r>aramaico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>arameu<s n="adj"/></l>  <r>aramaico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>arribista<s n="adj"/></l>      <r>arrivista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>arsènic<s n="adj"/></l>        <r>arsenico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>arsènic<s n="adj"/></l> <r>arsenico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>articular<s n="adj"/></l>      <r>articolare<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>articular<s n="adj"/></l><r>articolare<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>articular<s n="adj"/></l><r>articolare<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>artista<s n="adj"/></l>        <r>artista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>autista<s n="adj"/></l>        <r>autista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>avèstic<s n="adj"/></l>        <r>avestico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>avèstic<s n="adj"/></l> <r>avestico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>àzeri<s n="adj"/></l>          <r>azero<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>àzeri<s n="adj"/></l>   <r>azero<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>àzeri<s n="adj"/></l>   <r>azero<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>bacteriostàtic<s n="adj"/></l> <r>batteriostatico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>bacteriostàtic<s n="adj"/></l><r>batteriostatico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>benèfic<s n="adj"/></l>        <r>benefico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>benèfic<s n="adj"/></l> <r>benefico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>berber<s n="adj"/></l>         <r>berbero<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>berber<s n="adj"/></l>  <r>berbero<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>berber<s n="adj"/></l>  <r>berbero<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>bonapartista<s n="adj"/></l>   <r>bonapartista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="LR" a="wiktionary"><p><l>cabal<s n="adj"/></l>   <r>completo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>ciclista<s n="adj"/></l>       <r>ciclista<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -2445,9 +2449,9 @@
 <e a="wiktionary"><p><l>escàs<s n="adj"/></l>          <r>scarso<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>escàs<s n="adj"/></l>   <r>scarso<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>estival<s n="adj"/></l>        <r>estivo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>estival<s n="adj"/></l> <r>estivo<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>estival<s n="adj"/></l> <r>estivo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>fantasmal<s n="adj"/></l>      <r>fantasmatico<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>fantasmal<s n="adj"/></l><r>fantasmatico<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>fantasmal<s n="adj"/></l><r>fantasmatico<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>gai<s n="adj"/></l>     <r>gaio<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>holístic<s n="adj"/></l>       <r>olistico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>holístic<s n="adj"/></l><r>olistico<s n="adj"/><s n="sup"/></r></p></e>
@@ -2456,7 +2460,7 @@
 <e a="wiktionary"><p><l>iàmbic<s n="adj"/></l>         <r>giambico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>iàmbic<s n="adj"/></l>  <r>giambico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>iconoclasta<s n="adj"/></l>    <r>iconoclasta<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>iconoclasta<s n="adj"/></l><r>iconoclasta<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>iconoclasta<s n="adj"/></l><r>iconoclasta<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>idiopàtic<s n="adj"/></l>      <r>idiopatico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>idiopàtic<s n="adj"/></l><r>idiopatico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="hector"><p><l>inatacable<s n="adj"/></l>         <r>inattaccabile<s n="adj"/></r></p></e>
@@ -2464,9 +2468,9 @@
 <e a="hector"><p><l>inoportú<s n="adj"/></l>           <r>inopportuno<s n="adj"/></r></p></e>
 <e r="RL" a="hector"><p><l>inoportú<s n="adj"/></l>    <r>inopportuno<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>insultant<s n="adj"/></l>      <r>ingiurioso<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>insultant<s n="adj"/></l><r>ingiurioso<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>insultant<s n="adj"/></l><r>ingiurioso<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>interrogant<s n="adj"/></l>    <r>interrogativo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>interrogant<s n="adj"/></l><r>interrogativo<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>interrogant<s n="adj"/></l><r>interrogativo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>isotèrmic<s n="adj"/></l>      <r>isotermico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>isotèrmic<s n="adj"/></l><r>isotermico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>lèxic<s n="adj"/></l>          <r>lessico<s n="adj"/></r></p></e>
@@ -2487,25 +2491,26 @@
 <e a="wiktionary"><p><l>perifràstic<s n="adj"/></l>    <r>perifrastico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>perifràstic<s n="adj"/></l><r>perifrastico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>pessimista<s n="adj"/></l>     <r>pessimistico<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>pessimista<s n="adj"/></l><r>pessimistico<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>pessimista<s n="adj"/></l><r>pessimistico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>pírric<s n="adj"/></l>         <r>pirrico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>pírric<s n="adj"/></l>  <r>pirrico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>politeista<s n="adj"/></l>     <r>politeista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>monoteista<s n="adj"/></l>     <r>monoteista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="LR" a="wiktionary"><p><l>rendible<s n="adj"/></l><r>redditizio<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="hector"><p><l>rival<s n="adj"/></l>              <r>rivale<s n="adj"/></r></p></e>
 <e r="RL" a="hector"><p><l>rival<s n="adj"/></l>       <r>rivale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>supervivent<s n="adj"/></l>    <r>sopravvissuto<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>supervivent<s n="adj"/></l><r>sopravvissuto<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>supervivent<s n="adj"/></l><r>sopravvissuto<s n="adj"/><s n="sup"/></r></p></e>
 <e a="hector"><p><l>taxonòmic<s n="adj"/></l>          <r>tassonomico<s n="adj"/></r></p></e>
 <e r="RL" a="hector"><p><l>taxonòmic<s n="adj"/></l>   <r>tassonomico<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>temporal<s n="adj"/></l><r>temporaneo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>temporal<s n="adj"/></l><r>temporaneo<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>temporal<s n="adj"/></l><r>temporaneo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>tísic<s n="adj"/></l>          <r>tisico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>tísic<s n="adj"/></l>   <r>tisico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>vaccínic<s n="adj"/></l>       <r>vaccinico<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>vaccínic<s n="adj"/></l><r>vaccinico<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>víking<s n="adj"/></l>         <r>vichingo<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="wiktionary"><p><l>víking<s n="adj"/></l>  <r>vichingo<s n="adj"/><s n="sup"/>></r></p></e>
+<e r="RL" a="wiktionary"><p><l>víking<s n="adj"/></l>  <r>vichingo<s n="adj"/><s n="sup"/></r></p></e>
 <e a="wiktionary"><p><l>abacial<s n="adj"/></l>        <r>abbaziale<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>abacial<s n="adj"/></l> <r>abbaziale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e r="LR" a="wiktionary"><p><l>abadal<s n="adj"/></l>  <r>abbaziale<s n="adj"/></r></p></e>
@@ -2568,6 +2573,70 @@
 <e a="wiktionary"><p><l>vocatiu<s n="adj"/></l>        <r>vocativo<s n="adj"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>vocatiu<s n="adj"/></l> <r>vocativo<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>instrumental<s n="adj"/></l><r>strumentario<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>adenoide<s n="adj"/></l><r>adenoide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>adenoide<s n="adj"/></l><r>adenoide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>alcaloide<s n="adj"/></l><r>alcaloide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>alcaloide<s n="adj"/></l><r>alcaloide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>amigdaloide<s n="adj"/></l><r>amigdaloide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>amigdaloide<s n="adj"/></l><r>amigdaloide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>androide<s n="adj"/></l><r>androide<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>digne<s n="adj"/></l><r>meritevole<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
+<e r="RL" a="hector"><p><l>digne<s n="adj"/><s n="sup"/></l><r>meritevole<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>expansionista<s n="adj"/></l><r>espansionistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>expansionista<s n="adj"/></l><r>espansionistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>neorealista<s n="adj"/></l><r>neorealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>neozelandès<s n="adj"/></l><r>neozelandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>nepalès<s n="adj"/></l><r>nepalese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>ovoide<s n="adj"/></l><r>ovoide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>ovoide<s n="adj"/></l><r>ovoide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>populista<s n="adj"/></l><r>populista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>populista<s n="adj"/></l><r>populistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>populista<s n="adj"/></l><r>populistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>realista<s n="adj"/></l><r>realista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>realista<s n="adj"/></l><r>realistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>realista<s n="adj"/></l><r>realistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>reflectant<s n="adj"/></l><r>riflettente<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>reflectant<s n="adj"/></l><r>riflettente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="hector"><p><l>reialista<s n="adj"/></l><r>monarchico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>monàrquic<s n="adj"/></l><r>monarchico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>monàrquic<s n="adj"/></l><r>monarchico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>surrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>tahitià<s n="adj"/></l><r>tahitiano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>viatger<s n="adj"/></l><r>viaggiatore<s n="adj"/></r></p></e>
+<e a="hector"><p><l>júnior<s n="adj"/><s n="mf"/></l><r>junior<s n="adj"/><s n="mf"/></r></p></e>
+<e a="hector"><p><l>sènior<s n="adj"/><s n="mf"/></l><r>senior<s n="adj"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>adenoide<s n="adj"/></l><r>adenoide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>adenoide<s n="adj"/></l><r>adenoide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>alcaloide<s n="adj"/></l><r>alcaloide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>alcaloide<s n="adj"/></l><r>alcaloide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>amigdaloide<s n="adj"/></l><r>amigdaloide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>amigdaloide<s n="adj"/></l><r>amigdaloide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>androide<s n="adj"/></l><r>androide<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>digne<s n="adj"/></l><r>meritevole<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
+<e r="RL" a="hector"><p><l>digne<s n="adj"/><s n="sup"/></l><r>meritevole<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>expansionista<s n="adj"/></l><r>espansionistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>expansionista<s n="adj"/></l><r>espansionistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>neorealista<s n="adj"/></l><r>neorealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>neozelandès<s n="adj"/></l><r>neozelandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>nepalès<s n="adj"/></l><r>nepalese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="wiktionary"><p><l>ovoide<s n="adj"/></l><r>ovoide<s n="adj"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>ovoide<s n="adj"/></l><r>ovoide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>populista<s n="adj"/></l><r>populista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>populista<s n="adj"/></l><r>populistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>populista<s n="adj"/></l><r>populistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>realista<s n="adj"/></l><r>realista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>realista<s n="adj"/></l><r>realistico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>realista<s n="adj"/></l><r>realistico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>reflectant<s n="adj"/></l><r>riflettente<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>reflectant<s n="adj"/></l><r>riflettente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="hector"><p><l>reialista<s n="adj"/></l><r>monarchico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>monàrquic<s n="adj"/></l><r>monarchico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>monàrquic<s n="adj"/></l><r>monarchico<s n="adj"/><s n="sup"/></r></p></e>
+<e a="hector"><p><l>surrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>tahitià<s n="adj"/></l><r>tahitiano<s n="adj"/></r></p></e>
+<e a="wiktionary"><p><l>viatger<s n="adj"/></l><r>viaggiatore<s n="adj"/></r></p></e>
+
+<e a="hector"><p><l>mar<b/>endins<s n="adv"/></l><r>al<b/>largo<s n="adv"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -10653,6 +10722,7 @@
 <e a="hector"><p><l>set<s n="n"/><s n="m"/></l>        <r>set<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e a="wiktionary"><p><l>plor<s n="n"/><s n="m"/></l>   <r>pianto<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>politeista<s n="n"/></l>       <r>politeista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>monoteista<s n="n"/></l>       <r>monoteista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e a="wiktionary"><p><l>poltre<s n="n"/><s n="m"/></l> <r>cavalletto<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>poltre<s n="n"/><s n="m"/></l> <r>puledro<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>porro<s n="n"/><s n="m"/></l>  <r>porro<s n="n"/><s n="m"/></r></p></e>
@@ -11214,6 +11284,97 @@
 <e a="hector"><p><l>destinatari<s n="n"/></l><r>destinatario<s n="n"/></r></p></e>
 <e a="hector"><p><l>retorn<s n="n"/></l><r>ritorno<s n="n"/></r></p></e>
 <e a="hector"><p><l>escriptura<s n="n"/></l><r>scrittura<s n="n"/></r></p></e>
+<e a="hector"><p><l>amansiment<s n="n"/><s n="m"/></l><r>dimenticamento<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>bilingüe<s n="n"/><s n="mf"/></l><r>bilingue<s n="n"/><s n="mf"/></r></p></e>
+<e a="hector"><p><l>indignitat<s n="n"/><s n="f"/></l><r>indegnità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="hector"><p><l>neorealisme<s n="n"/><s n="m"/></l><r>neorealismo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>neorealista<s n="n"/></l><r>neorealista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>neozelandès<s n="n"/></l><r>neozelandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>nepalès<s n="n"/></l><r>nepalese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>surrealista<s n="n"/></l><r>surrealista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>trilingüe<s n="n"/><s n="mf"/></l><r>trilingue<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>adoctrinament<s n="n"/><s n="m"/></l><r>indottrinamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>albinisme<s n="n"/><s n="m"/></l><r>albinismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>antropocentrisme<s n="n"/><s n="m"/></l><r>antropocentrismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>assertivitat<s n="n"/><s n="f"/></l><r>assertività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>calcigament<s n="n"/><s n="m"/></l><r>calpestamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>catalanisme<s n="n"/><s n="m"/></l><r>catalanismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>detriment<s n="n"/><s n="m"/></l><r>detrimento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>ecoturisme<s n="n"/><s n="m"/></l><r>ecoturismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>espiritisme<s n="n"/><s n="m"/></l><r>spiritismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>esvaïment<s n="n"/><s n="m"/></l><r>svanimento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>exaltació<s n="n"/><s n="f"/></l><r>esaltamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>excursionisme<s n="n"/><s n="m"/></l><r>escursionismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>impregnació<s n="n"/><s n="f"/></l><r>impregnamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>infestació<s n="n"/><s n="f"/></l><r>infestamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>mentalisme<s n="n"/><s n="m"/></l><r>mentalismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>metamorfisme<s n="n"/><s n="m"/></l><r>metamorfismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>patogenicitat<s n="n"/><s n="f"/></l><r>patogenicità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>polimorfisme<s n="n"/><s n="m"/></l><r>polimorfismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>politeisme<s n="n"/><s n="m"/></l><r>politeismo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>monoteisme<s n="n"/><s n="m"/></l><r>monoteismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>realista<s n="n"/></l><r>realista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>recursivitat<s n="n"/><s n="f"/></l><r>ricorsività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>saturnisme<s n="n"/><s n="m"/></l><r>saturnismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>senderisme<s n="n"/><s n="m"/></l><r>escursionismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>sil·logisme<s n="n"/><s n="m"/></l><r>sillogismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>somnambulisme<s n="n"/><s n="m"/></l><r>sonnambulismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>tahitià<s n="n"/></l><r>tahitiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>veganisme<s n="n"/><s n="m"/></l><r>veganismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>veracitat<s n="n"/><s n="f"/></l><r>veracità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>viatger<s n="n"/></l><r>viaggiatore<s n="n"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tirada<s n="n"/><s n="f"/></l><r>tiro<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>tirada<s n="n"/><s n="f"/></l><r>tratto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="hector"><p><l>xerradissa<s n="n"/><s n="f"/></l><r>chiacchierio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="hector"><p><l>xerradissa<s n="n"/><s n="f"/></l><r>parlottio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>adob<s n="n"/><s n="m"/></l><r>racconciamento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>aglomeració<s n="n"/><s n="f"/></l><r>agglomeramento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>començament<s n="n"/><s n="m"/></l><r>cominciamento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>crescuda<s n="n"/><s n="f"/></l><r>crescimento<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>amansiment<s n="n"/><s n="m"/></l><r>dimenticamento<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>bilingüe<s n="n"/><s n="mf"/></l><r>bilingue<s n="n"/><s n="mf"/></r></p></e>
+<e a="hector"><p><l>indignitat<s n="n"/><s n="f"/></l><r>indegnità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="hector"><p><l>neorealisme<s n="n"/><s n="m"/></l><r>neorealismo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>neorealista<s n="n"/></l><r>neorealista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>neozelandès<s n="n"/></l><r>neozelandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>nepalès<s n="n"/></l><r>nepalese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e a="hector"><p><l>surrealista<s n="n"/></l><r>surrealista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>trilingüe<s n="n"/><s n="mf"/></l><r>trilingue<s n="n"/><s n="mf"/></r></p></e>
+<e a="wiktionary"><p><l>adoctrinament<s n="n"/><s n="m"/></l><r>indottrinamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>albinisme<s n="n"/><s n="m"/></l><r>albinismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>antropocentrisme<s n="n"/><s n="m"/></l><r>antropocentrismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>assertivitat<s n="n"/><s n="f"/></l><r>assertività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>calcigament<s n="n"/><s n="m"/></l><r>calpestamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>catalanisme<s n="n"/><s n="m"/></l><r>catalanismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>detriment<s n="n"/><s n="m"/></l><r>detrimento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>ecoturisme<s n="n"/><s n="m"/></l><r>ecoturismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>espiritisme<s n="n"/><s n="m"/></l><r>spiritismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>esvaïment<s n="n"/><s n="m"/></l><r>svanimento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>exaltació<s n="n"/><s n="f"/></l><r>esaltamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>excursionisme<s n="n"/><s n="m"/></l><r>escursionismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>impregnació<s n="n"/><s n="f"/></l><r>impregnamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>infestació<s n="n"/><s n="f"/></l><r>infestamento<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>mentalisme<s n="n"/><s n="m"/></l><r>mentalismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>metamorfisme<s n="n"/><s n="m"/></l><r>metamorfismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>patogenicitat<s n="n"/><s n="f"/></l><r>patogenicità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>polimorfisme<s n="n"/><s n="m"/></l><r>polimorfismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>politeisme<s n="n"/><s n="m"/></l><r>politeismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>realista<s n="n"/></l><r>realista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="wiktionary"><p><l>recursivitat<s n="n"/><s n="f"/></l><r>ricorsività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>saturnisme<s n="n"/><s n="m"/></l><r>saturnismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>senderisme<s n="n"/><s n="m"/></l><r>escursionismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>sil·logisme<s n="n"/><s n="m"/></l><r>sillogismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>somnambulisme<s n="n"/><s n="m"/></l><r>sonnambulismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>tahitià<s n="n"/></l><r>tahitiano<s n="n"/></r></p></e>
+<e a="wiktionary"><p><l>veganisme<s n="n"/><s n="m"/></l><r>veganismo<s n="n"/><s n="m"/></r></p></e>
+<e a="wiktionary"><p><l>veracitat<s n="n"/><s n="f"/></l><r>veracità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="wiktionary"><p><l>viatger<s n="n"/></l><r>viaggiatore<s n="n"/></r></p></e>
+<e r="RL" a="hector"><p><l>xerradissa<s n="n"/><s n="f"/></l><r>chiacchierio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="hector"><p><l>xerradissa<s n="n"/><s n="f"/></l><r>parlottio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>adob<s n="n"/><s n="m"/></l><r>racconciamento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>aglomeració<s n="n"/><s n="f"/></l><r>agglomeramento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>començament<s n="n"/><s n="m"/></l><r>cominciamento<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="wiktionary"><p><l>crescuda<s n="n"/><s n="f"/></l><r>crescimento<s n="n"/><s n="m"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -11417,7 +11578,7 @@
 <e>       <p><l>mar<b/>Mediterrani<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mare<b/>Caraibico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>mar<b/>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>mar<b/>Egea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Egeu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Egeo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>mar<b/>Adriàtic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>mar<b/>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>mar<b/>Adriàtica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>mar<b/>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Adriàtic<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Adriatico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11695,6 +11856,9 @@
 <e>       <p><l>Inés<s n="np"/><s n="ant"/></l>        <r>Inés<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bordeus<s n="np"/><s n="top"/></l>     <r>Bordeaux<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Iran<s n="np"/><s n="top"/></l>        <r>Iran<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Sacre<b/>Imperi<b/>Romanogermànic<s n="np"/><s n="top"/></l><r>Sacro<b/>Impero<b/>Germanico<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>Sacre<b/>Imperi<b/>Romanogermànic<s n="np"/><s n="top"/></l><r>Sacro<b/>Romano<b/>Impero<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Sacre<b/>Imperi<s n="np"/><s n="top"/></l><r>Sacro<b/>Impero<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Bizanci<s n="np"/><s n="top"/></l>     <r>Bisanzio<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Bòsfor<s n="np"/><s n="top"/></l>      <r>Bosforo<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Constantinoble<s n="np"/><s n="top"/></l><r>Costantinopoli<s n="np"/><s n="top"/></r></p></e>
