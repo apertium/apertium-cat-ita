@@ -1810,7 +1810,7 @@ anticarros
 anticaspa	
 anticastrista	
 anticatalà	
-anticatalanista	
+anticatalanista	anticatalanista
 anticatarral	
 anticatòlic	
 anticel·lulític	
@@ -5255,7 +5255,7 @@ català	catalano
 català	catalano
 catalanesc	
 catalànic	
-catalanista	
+catalanista	catalanista
 catalanitzador	
 catalanoaragonès	
 catalanobalear	
@@ -10587,7 +10587,7 @@ exotèric
 exotèrmic	
 exòtic	esotique
 expansible	
-expansionista	
+expansionista	espansionistico	hector
 expansiu	
 expatriat	
 expectant	
@@ -18258,7 +18258,7 @@ neopopularista
 neopositivista	
 neoprotozoic	
 neopúnic	
-neorealista	
+neorealista	neorealista	hector
 neoromànic	
 neoromàntic	
 neorural	
@@ -18268,8 +18268,8 @@ neotestamentari
 neotomista	
 neotradicionalista	
 neotropical	
-neozelandès	
-nepalès	
+neozelandès	neozelandese	hector
+nepalès	nepalese	hector
 neperià	
 neptunià	
 neptúnic	
@@ -22234,8 +22234,9 @@ reagrupant
 real	
 realçable	
 realer	
-realista	
-realístic	
+realista	realista	hector
+realista	realistico	hector
+realístic	realistico	hector
 realitzable	
 realitzador	realizzatore
 realitzatiu	
@@ -22545,7 +22546,7 @@ regulatori
 rehabilitable	
 rehabilitador	
 reial	reale
-reialista	
+reialista	monarchico	hector
 reimprès	
 reimprimible	
 reincident	
@@ -24996,7 +24997,7 @@ surià
 surienc	
 surinamès	
 surós	
-surrealista	
+surrealista	surrealista	hector
 susannenc	
 susceptible	
 susceptible de suport	
@@ -26639,7 +26640,6 @@ urbícola
 urceïforme	
 urceolat	
 urdú	urdu
-urdú	urdu
 ureic	
 urèmic	
 urent	
@@ -27079,7 +27079,7 @@ vexil·lològic
 VI	
 viable	
 viari	
-viatger	viaggatore
+viatger	viaggiatore
 viatjador	
 vibracional	
 vibrador	
@@ -27708,5 +27708,5 @@ zootècnic
 zoroastrià	
 zoroàstric	
 zosteriforme	
-zulú	
+zulú	zulu
 zuriquès	

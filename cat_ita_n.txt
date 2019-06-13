@@ -4654,13 +4654,13 @@ cat.
 catabolisme	
 catabòlit	
 catabolitzador	
-cataclisme	cataclismo
+cataclisme	cataclisma	hector
 catacumba	
 catacumbes	
 català	catalano
 català	catalano
 catalanisme	catalanismo
-catalanista	
+catalanista	catalanista
 catalanitat	
 catalanòfon	
 catalanoparlant	
@@ -12073,7 +12073,7 @@ hilaritat
 himen	
 himenòpter	
 himne	inno
-hindi	
+hindi	hindi
 hindú	
 hinduisme	
 hinduista	
@@ -16066,12 +16066,12 @@ neoplasticisme
 neoplatonisme	
 neopositivismo	
 neoprè	
-neorealisme	
-neorealista	
+neorealisme	neorealismo	hector
+neorealista	neorealista	hector
 neosiberià	
 neotradicionalisme	
-neozelandès	
-nepalès	
+neozelandès	neozelandese	hector
+nepalès	nepalese	hector
 nepotisme	
 neptuni	nettunio
 nero	
@@ -19669,8 +19669,8 @@ realç
 realçament	
 realineació	
 realineament	
-realisme	
-realista	
+realisme	realismo	hector
+realista	realista
 realitat	realtà
 realització	realizzazione
 realitzador	realizzatore
@@ -20003,7 +20003,7 @@ rehidratació
 rei	re
 rei	re
 reialesa	
-reialisme	
+reialista	monarchico	hector
 reialme	regno
 reial orde	
 reietó	
@@ -21280,7 +21280,7 @@ silicosi
 síliqua	
 síl·laba	
 sil·labari	
-sil·logisme	syllogismo
+sil·logisme	sillogismo
 silueta	
 silur	
 silvicultor	
@@ -21997,8 +21997,8 @@ suricata
 surinamès	
 suro	sughero
 surra	
-surrealisme	
-surrealista	
+surrealisme	surrealismo	hector
+surrealista	surrealista	hector
 susceptància	
 susceptibilitat	
 susdit	
@@ -23500,7 +23500,6 @@ urbanitzador
 urbícola	
 urbs	
 urdú	urdu
-urdú	urdu
 urea	
 urèter	
 uretra	
@@ -23874,7 +23873,7 @@ viarany
 viatge	viaggio
 viatge	viaggio
 viatge inaugural	
-viatger	viaggatore
+viatger	viaggiatore
 viàtic	
 viatjant	
 vibració	
@@ -24433,6 +24432,6 @@ zoonosi
 zootècnia	
 zòster	
 zulo	
-zulú	
+zulú	zulu
 zumba	
 ZX	
