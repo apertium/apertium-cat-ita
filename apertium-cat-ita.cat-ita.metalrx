@@ -1438,6 +1438,7 @@
        <match lemma="dependre" tags="vblex.*"/>
        <match lemma="separar" tags="vblex.*"/>
        <match lemma="resultar" tags="vblex.*"/>
+       <match lemma="divorciar" tags="vblex.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1470,6 +1471,7 @@
        <match lemma="dependre" tags="vblex.*"/>
        <match lemma="separar" tags="vblex.*"/>
        <match lemma="resultar" tags="vblex.*"/>
+       <match lemma="divorciar" tags="vblex.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -4198,10 +4200,12 @@
      <match lemma="Jesús" tags="np.*"><select lemma="Jesús"/></match>
      <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
+<!--
   <rule weight="1.0">
      <match lemma="Jesús" tags="np.*"><select lemma="Jesús"/></match>
      <match tags=""/>
   </rule>
+-->
 
   <macro name="noms_propis" p1="Adrià" p2="Adriano" />
   <macro name="noms_propis" p1="Albert" p2="Alberto" />

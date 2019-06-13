@@ -1232,6 +1232,14 @@
       <match tags="apos"/>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="lo" tags="prn.pro.p3.*"/>
+    <match lemma="chiamare" tags="vblex.*"><select lemma="anomenar"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="apos"/>
+    </or>
+  </rule>
 
   <!-- tentare > temptar, intentar -->
   <rule weight="0.6">
