@@ -184,6 +184,10 @@
     <def-cat n="lui_mf_pl">
       <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>
     </def-cat>
+    <def-cat n="quello">
+      <cat-item lemma="quello" tags="prn.tn.*"/>
+      <cat-item lemma="quello" tags="det.dem.*"/>
+    </def-cat>
 
     <def-cat n="np">
       <cat-item tags="np.*"/>
@@ -3664,7 +3668,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: pr">
+    <rule comment="REGLA: PREP">
       <pattern>
         <pattern-item n="pr"/>
       </pattern>
@@ -3708,6 +3712,61 @@
               <clip pos="1" side="tl" part="whole"/> 
             </lu> 
             <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: QUELLO PREP (quello di > el de)">
+      <pattern>
+        <pattern-item n="quello"/>
+        <pattern-item n="pr"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="nt"/></equal>
+            </test>
+            <let><var n="genero"/><lit-tag v="m"/></let>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="pronom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="prn.tn"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="el"/>
+              <lit-tag v="det.def"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+        </out>
+        <call-macro n="firstWord">
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
             <lu>
               <clip pos="2" side="tl" part="whole"/> 
             </lu>

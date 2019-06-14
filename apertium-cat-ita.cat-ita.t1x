@@ -74,6 +74,9 @@
       <cat-item tags="det.*"/>
       <cat-item tags="predet.*"/>
     </def-cat>
+    <def-cat n="el">          
+      <cat-item lemma="el" tags="det.def.*"/>
+    </def-cat>
 
     <def-cat n="num">
       <cat-item tags="num.*"/>
@@ -1981,6 +1984,54 @@
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="tags"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- fi REGLES data -->
+
+    <rule comment="REGLA: EL PREP (el de > quello di)">
+      <pattern>
+        <pattern-item n="el"/>
+        <pattern-item n="de"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="pronom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="prn.tn"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="quello"/>
+              <lit-tag v="prn.tn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+        </out>
+        <call-macro n="firstWord">
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
             </lu>
           </chunk>
         </out>
