@@ -2951,6 +2951,11 @@
     <match tags="np.*"/>
   </rule>
 
+  <!-- implantació > instaurazione, impianto -->
+  <rule weight="0.6">
+    <match lemma="implantació" tags="n.*"><select lemma="instaurazione"/></match>
+  </rule>
+
   <!-- planxa > ferro# da stiro, lamiera -->
   <rule weight="0.6">
     <match lemma="planxa" tags="n.*"><select lemma="ferro# da stiro"/></match>

@@ -3432,6 +3432,1650 @@
 <e r="RL"><p><l>ribonucleic<s n="adj"/></l><r>ribonucleico<s n="adj"/><s n="sup"/></r></p></e>
 <e><p><l>mixt<s n="adj"/></l><r>misto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>mixt<s n="adj"/></l><r>misto<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>acre<s n="adj"/></l><r>acre<s n="adj"/></r></p></e>
+<e><p><l>afro<s n="adj"/><s n="mf"/></l><r>afro<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>agro<s n="adj"/></l><r>agro<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
+<e><p><l>alpestre<s n="adj"/></l><r>alpestre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>alpestre<s n="adj"/></l><r>alpestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>anticrisi<s n="adj"/><s n="mf"/><s n="sp"/></l><r>anticrisi<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>antropoide<s n="adj"/></l><r>antropoide<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antropoide<s n="adj"/></l><r>antropoide<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>bantu<s n="adj"/><s n="mf"/></l><r>bantu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>bivalve<s n="adj"/></l><r>bivalve<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
+<e r="RL"><p><l>bivalve<s n="adj"/></l><r>bivalve<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>campestre<s n="adj"/></l><r>campestre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>campestre<s n="adj"/></l><r>campestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>celeste<s n="adj"/></l><r>celeste<s n="adj"/></r></p></e>
+<e r="RL"><p><l>celeste<s n="adj"/></l><r>celeste<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>circense<s n="adj"/></l><r>circense<s n="adj"/></r></p></e>
+<e r="RL"><p><l>circense<s n="adj"/></l><r>circense<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cruciforme<s n="adj"/></l><r>cruciforme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cruciforme<s n="adj"/></l><r>cruciforme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>deforme<s n="adj"/></l><r>deforme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>deforme<s n="adj"/></l><r>deforme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>discorde<s n="adj"/></l><r>discorde<s n="adj"/></r></p></e>
+<e r="RL"><p><l>discorde<s n="adj"/></l><r>discorde<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>filiforme<s n="adj"/></l><r>filiforme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filiforme<s n="adj"/></l><r>filiforme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>freelance<s n="adj"/><s n="mf"/><s n="sp"/></l><r>freelance<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>imberbe<s n="adj"/></l><r>imberbe<s n="adj"/></r></p></e>
+<e r="RL"><p><l>imberbe<s n="adj"/></l><r>imberbe<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>immune<s n="adj"/></l><r>immune<s n="adj"/></r></p></e>
+<e r="RL"><p><l>immune<s n="adj"/></l><r>immune<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>impune<s n="adj"/></l><r>impune<s n="adj"/></r></p></e>
+<e><p><l>inerme<s n="adj"/></l><r>inerme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inerme<s n="adj"/></l><r>inerme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lacustre<s n="adj"/></l><r>lacustre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lacustre<s n="adj"/></l><r>lacustre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>light<s n="adj"/><s n="mf"/><s n="sp"/></l><r>light<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>mediocre<s n="adj"/></l><r>mediocre<s n="adj"/></r></p></e>
+<e><p><l>merino<s n="adj"/></l><r>merino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>merino<s n="adj"/></l><r>merino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>multiforme<s n="adj"/></l><r>multiforme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>multiforme<s n="adj"/></l><r>multiforme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>omanita<s n="adj"/></l><r>omanita<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>on-line<s n="adj"/><s n="mf"/><s n="sp"/></l><r>on-line<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>online<s n="adj"/><s n="mf"/><s n="sp"/></l><r>online<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>pedestre<s n="adj"/></l><r>pedestre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pedestre<s n="adj"/></l><r>pedestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>perenne<s n="adj"/></l><r>perenne<s n="adj"/></r></p></e>
+<e r="RL"><p><l>perenne<s n="adj"/></l><r>perenne<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pirata<s n="adj"/><s n="mf"/></l><r>pirata<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>pop<s n="adj"/><s n="mf"/><s n="sp"/></l><r>pop<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>punk<s n="adj"/><s n="mf"/><s n="sp"/></l><r>punk<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>rock<s n="adj"/><s n="mf"/><s n="sp"/></l><r>rock<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>rosa<s n="adj"/><s n="mf"/><s n="sp"/></l><r>rosa<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>rupestre<s n="adj"/></l><r>rupestre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rupestre<s n="adj"/></l><r>rupestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>salubre<s n="adj"/></l><r>salubre<s n="adj"/></r></p></e>
+<e><p><l>saudita<s n="adj"/></l><r>saudita<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sexy<s n="adj"/><s n="mf"/></l><r>sexy<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>silvestre<s n="adj"/></l><r>silvestre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>silvestre<s n="adj"/></l><r>silvestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>soprano<s n="adj"/></l><r>soprano<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>soprano<s n="adj"/></l><r>soprano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ultra<s n="adj"/><s n="mf"/></l><r>ultra<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>uniforme<s n="adj"/></l><r>uniforme<s n="adj"/></r></p></e>
+<e r="RL"><p><l>uniforme<s n="adj"/></l><r>uniforme<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vice<s n="adj"/><s n="mf"/><s n="sp"/></l><r>vice<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>vietnamita<s n="adj"/></l><r>vietnamita<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>xhosa<s n="adj"/><s n="mf"/></l><r>xhosa<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>abelià<s n="adj"/></l><r>abeliano<s n="adj"/></r></p></e>
+<e><p><l>abortiu<s n="adj"/></l><r>abortivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abortiu<s n="adj"/></l><r>abortivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>abrasiu<s n="adj"/></l><r>abrasivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abrasiu<s n="adj"/></l><r>abrasivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>abrogatiu<s n="adj"/></l><r>abrogativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abrogatiu<s n="adj"/></l><r>abrogativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>abusiu<s n="adj"/></l><r>abusivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abusiu<s n="adj"/></l><r>abusivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>abúlic<s n="adj"/></l><r>abulico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abúlic<s n="adj"/></l><r>abulico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>accusatiu<s n="adj"/></l><r>accusativo<s n="adj"/></r></p></e>
+<e><p><l>acrobàtic<s n="adj"/></l><r>acrobatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>acrobàtic<s n="adj"/></l><r>acrobatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>acrític<s n="adj"/></l><r>acritico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>acrític<s n="adj"/></l><r>acritico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>acètic<s n="adj"/></l><r>acetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>acètic<s n="adj"/></l><r>acetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>adamantí<s n="adj"/></l><r>adamantino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>adamantí<s n="adj"/></l><r>adamantino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>adamític<s n="adj"/></l><r>adamitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>adamític<s n="adj"/></l><r>adamitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>additiu<s n="adj"/></l><r>additivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>additiu<s n="adj"/></l><r>additivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>adriàtic<s n="adj"/></l><r>adriatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>adriàtic<s n="adj"/></l><r>adriatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>adulterí<s n="adj"/></l><r>adulterino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>adulterí<s n="adj"/></l><r>adulterino<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>aeròbic<s n="adj"/></l><r>aerobico<s n="adj"/></r></p></e>
+<e><p><l>afgà<s n="adj"/></l><r>afgano<s n="adj"/></r></p></e>
+<e><p><l>afroamericà<s n="adj"/></l><r>afroamericano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>afroamericà<s n="adj"/></l><r>afroamericano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>agonístic<s n="adj"/></l><r>agonistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>agonístic<s n="adj"/></l><r>agonistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>agronòmic<s n="adj"/></l><r>agronomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>agronòmic<s n="adj"/></l><r>agronomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>albí<s n="adj"/></l><r>albino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>albí<s n="adj"/></l><r>albino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aldí<s n="adj"/></l><r>aldino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aldí<s n="adj"/></l><r>aldino<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>algerí<s n="adj"/></l><r>algerino<s n="adj"/></r></p></e>
+<e r="LR"><p><l>algorítmic<s n="adj"/></l><r>algoritmico<s n="adj"/></r></p></e>
+<e><p><l>algèbric<s n="adj"/></l><r>algebrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>algèbric<s n="adj"/></l><r>algebrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>almodovarià<s n="adj"/></l><r>almodovariano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>almodovarià<s n="adj"/></l><r>almodovariano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>altimètric<s n="adj"/></l><r>altimetrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>altimètric<s n="adj"/></l><r>altimetrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ambrosià<s n="adj"/></l><r>ambrosiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ambrosià<s n="adj"/></l><r>ambrosiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>amniòtic<s n="adj"/></l><r>amniotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>amniòtic<s n="adj"/></l><r>amniotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>anacolútic<s n="adj"/></l><r>anacolutico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anacolútic<s n="adj"/></l><r>anacolutico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>analgèsic<s n="adj"/></l><r>analgesico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>analgèsic<s n="adj"/></l><r>analgesico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>analògic<s n="adj"/></l><r>analogico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>analògic<s n="adj"/></l><r>analogico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>anatomopatològic<s n="adj"/></l><r>anatomopatologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anatomopatològic<s n="adj"/></l><r>anatomopatologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>andí<s n="adj"/></l><r>andino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>andí<s n="adj"/></l><r>andino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>angolès<s n="adj"/></l><r>angolese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>angèlic<s n="adj"/></l><r>angelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>angèlic<s n="adj"/></l><r>angelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>anodí<s n="adj"/></l><r>anodino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anodí<s n="adj"/></l><r>anodino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antiamericà<s n="adj"/></l><r>antiamericano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiamericà<s n="adj"/></l><r>antiamericano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antiasmàtic<s n="adj"/></l><r>antiasmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiasmàtic<s n="adj"/></l><r>antiasmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antiatòmic<s n="adj"/></l><r>antiatomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiatòmic<s n="adj"/></l><r>antiatomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antibiòtic<s n="adj"/></l><r>antibiotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antibiòtic<s n="adj"/></l><r>antibiotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antidemocràtic<s n="adj"/></l><r>antidemocratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antidemocràtic<s n="adj"/></l><r>antidemocratico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antidepressiu<s n="adj"/></l><r>antidepressivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antidepressiu<s n="adj"/></l><r>antidepressivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antidogmàtic<s n="adj"/></l><r>antidogmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antidogmàtic<s n="adj"/></l><r>antidogmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antieconòmic<s n="adj"/></l><r>antieconomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antieconòmic<s n="adj"/></l><r>antieconomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antiestètic<s n="adj"/></l><r>antiestetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiestètic<s n="adj"/></l><r>antiestetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antimetafísic<s n="adj"/></l><r>antimetafisico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antimetafísic<s n="adj"/></l><r>antimetafisico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antimàfia<s n="adj"/><s n="mf"/><s n="sp"/></l><r>antimafia<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>antisísmic<s n="adj"/></l><r>antisismico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antisísmic<s n="adj"/></l><r>antisismico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antitètic<s n="adj"/></l><r>antitetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antitètic<s n="adj"/></l><r>antitetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antològic<s n="adj"/></l><r>antologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antològic<s n="adj"/></l><r>antologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antropofàgic<s n="adj"/></l><r>antropofagico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antropofàgic<s n="adj"/></l><r>antropofagico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antropogènic<s n="adj"/></l><r>antropogenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antropogènic<s n="adj"/></l><r>antropogenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antropològic<s n="adj"/></l><r>antropologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antropològic<s n="adj"/></l><r>antropologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antropomòrfic<s n="adj"/></l><r>antropomorfico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antropomòrfic<s n="adj"/></l><r>antropomorfico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antròpic<s n="adj"/></l><r>antropico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antròpic<s n="adj"/></l><r>antropico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>antàrtic<s n="adj"/></l><r>antartico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antàrtic<s n="adj"/></l><r>antartico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>anèmic<s n="adj"/></l><r>anemico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anèmic<s n="adj"/></l><r>anemico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apodíctic<s n="adj"/></l><r>apodittico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apodíctic<s n="adj"/></l><r>apodittico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apologètic<s n="adj"/></l><r>apologetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apologètic<s n="adj"/></l><r>apologetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apolític<s n="adj"/></l><r>apolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apolític<s n="adj"/></l><r>apolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apoplèctic<s n="adj"/></l><r>apoplettico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apoplèctic<s n="adj"/></l><r>apoplettico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apostòlic<s n="adj"/></l><r>apostolico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apostòlic<s n="adj"/></l><r>apostolico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apoteòsic<s n="adj"/></l><r>apoteosico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apoteòsic<s n="adj"/></l><r>apoteosico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>apriorístic<s n="adj"/></l><r>aprioristico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apriorístic<s n="adj"/></l><r>aprioristico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aquilí<s n="adj"/></l><r>aquilino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aquilí<s n="adj"/></l><r>aquilino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>arbustiu<s n="adj"/></l><r>arbustivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>arbustiu<s n="adj"/></l><r>arbustivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>arcàdic<s n="adj"/></l><r>arcadico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>arcàdic<s n="adj"/></l><r>arcadico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aristotèlic<s n="adj"/></l><r>aristotelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aristotèlic<s n="adj"/></l><r>aristotelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aritmètic<s n="adj"/></l><r>aritmetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aritmètic<s n="adj"/></l><r>aritmetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>arià<s n="adj"/></l><r>ariano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>arià<s n="adj"/></l><r>ariano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aromàtic<s n="adj"/></l><r>aromatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aromàtic<s n="adj"/></l><r>aromatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>arpità<s n="adj"/></l><r>arpitano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>arpità<s n="adj"/></l><r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>aràbic<s n="adj"/></l><r>arabico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aràbic<s n="adj"/></l><r>arabico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ascètic<s n="adj"/></l><r>ascetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ascètic<s n="adj"/></l><r>ascetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>asfíctic<s n="adj"/></l><r>asfittico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asfíctic<s n="adj"/></l><r>asfittico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>asiní<s n="adj"/></l><r>asinino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asiní<s n="adj"/></l><r>asinino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>asiàtic<s n="adj"/></l><r>asiatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asiàtic<s n="adj"/></l><r>asiatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>asmàtic<s n="adj"/></l><r>asmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asmàtic<s n="adj"/></l><r>asmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>associatiu<s n="adj"/></l><r>associativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>associatiu<s n="adj"/></l><r>associativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>astrofísic<s n="adj"/></l><r>astrofisico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astrofísic<s n="adj"/></l><r>astrofisico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>astrològic<s n="adj"/></l><r>astrologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astrològic<s n="adj"/></l><r>astrologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>astronàutic<s n="adj"/></l><r>astronautico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astronàutic<s n="adj"/></l><r>astronautico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>astronòmic<s n="adj"/></l><r>astronomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astronòmic<s n="adj"/></l><r>astronomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>atmosfèric<s n="adj"/></l><r>atmosferico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atmosfèric<s n="adj"/></l><r>atmosferico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>atròfic<s n="adj"/></l><r>atrofico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atròfic<s n="adj"/></l><r>atrofico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>atàvic<s n="adj"/></l><r>atavico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atàvic<s n="adj"/></l><r>atavico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>atípic<s n="adj"/></l><r>atipico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atípic<s n="adj"/></l><r>atipico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>autobiogràfic<s n="adj"/></l><r>autobiografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>autobiogràfic<s n="adj"/></l><r>autobiografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>autocràtic<s n="adj"/></l><r>autocratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>autocràtic<s n="adj"/></l><r>autocratico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>autocrític<s n="adj"/></l><r>autocritico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>autocrític<s n="adj"/></l><r>autocritico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>automobilístic<s n="adj"/></l><r>automobilistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>automobilístic<s n="adj"/></l><r>automobilistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>autístic<s n="adj"/></l><r>autistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>autístic<s n="adj"/></l><r>autistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ayurvèdic<s n="adj"/></l><r>ayurvedico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ayurvèdic<s n="adj"/></l><r>ayurvedico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bacteriològic<s n="adj"/></l><r>batteriologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bacteriològic<s n="adj"/></l><r>batteriologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bahamià<s n="adj"/></l><r>bahamiano<s n="adj"/></r></p></e>
+<e r="LR"><p><l>baleàric<s n="adj"/></l><r>balearico<s n="adj"/></r></p></e>
+<e><p><l>balsàmic<s n="adj"/></l><r>balsamico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>balsàmic<s n="adj"/></l><r>balsamico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>bantú<s n="adj"/><s n="mf"/></l><r>bantu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>barbadià<s n="adj"/></l><r>barbadiano<s n="adj"/></r></p></e>
+<e><p><l>barbàric<s n="adj"/></l><r>barbarico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>barbàric<s n="adj"/></l><r>barbarico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bavarès<s n="adj"/></l><r>bavarese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>beckettià<s n="adj"/></l><r>beckettiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>beckettià<s n="adj"/></l><r>beckettiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>beduí<s n="adj"/></l><r>beduino<s n="adj"/></r></p></e>
+<e><p><l>beninès<s n="adj"/></l><r>beninese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bergmanià<s n="adj"/></l><r>bergmaniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bergmanià<s n="adj"/></l><r>bergmaniano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>berlinès<s n="adj"/></l><r>berlinese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bermudià<s n="adj"/></l><r>bermudiano<s n="adj"/></r></p></e>
+<e><p><l>bibliogràfic<s n="adj"/></l><r>bibliografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bibliogràfic<s n="adj"/></l><r>bibliografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bicilíndric<s n="adj"/></l><r>bicilindrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bicilíndric<s n="adj"/></l><r>bicilindrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bimà<s n="adj"/></l><r>bimano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bimà<s n="adj"/></l><r>bimano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>biogràfic<s n="adj"/></l><r>biografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>biogràfic<s n="adj"/></l><r>biografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>biomèdic<s n="adj"/></l><r>biomedico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>biomèdic<s n="adj"/></l><r>biomedico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>biotecnològic<s n="adj"/></l><r>biotecnologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>biotecnològic<s n="adj"/></l><r>biotecnologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bisbètic<s n="adj"/></l><r>bisbetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bisbètic<s n="adj"/></l><r>bisbetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bizantí<s n="adj"/></l><r>bizantino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bizantí<s n="adj"/></l><r>bizantino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>biònic<s n="adj"/></l><r>bionico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>biònic<s n="adj"/></l><r>bionico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bolivià<s n="adj"/></l><r>boliviano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bolivià<s n="adj"/></l><r>boliviano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>borbònic<s n="adj"/></l><r>borbonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>borbònic<s n="adj"/></l><r>borbonico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>borsístic<s n="adj"/></l><r>borsistico<s n="adj"/></r></p></e>
+<e><p><l>botswanès<s n="adj"/></l><r>botswanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bruneiès<s n="adj"/></l><r>bruneiese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bulímic<s n="adj"/></l><r>bulimico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bulímic<s n="adj"/></l><r>bulimico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>burkinès<s n="adj"/></l><r>burkinese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>burundès<s n="adj"/></l><r>burundese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bàltic<s n="adj"/></l><r>baltico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bàltic<s n="adj"/></l><r>baltico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bàric<s n="adj"/></l><r>barico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bàric<s n="adj"/></l><r>barico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>bípede<s n="adj"/></l><r>bipede<s n="adj"/></r></p><par n="esquerre_sinistro"/></e>
+<e r="RL"><p><l>bípede<s n="adj"/></l><r>bipede<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cabalístic<s n="adj"/></l><r>cabalistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cabalístic<s n="adj"/></l><r>cabalistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cacofònic<s n="adj"/></l><r>cacofonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cacofònic<s n="adj"/></l><r>cacofonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cadavèric<s n="adj"/></l><r>cadaverico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cadavèric<s n="adj"/></l><r>cadaverico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>calcogràfic<s n="adj"/></l><r>calcografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>calcogràfic<s n="adj"/></l><r>calcografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>californià<s n="adj"/></l><r>californiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>californià<s n="adj"/></l><r>californiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>calòric<s n="adj"/></l><r>calorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>calòric<s n="adj"/></l><r>calorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>camerunès<s n="adj"/></l><r>camerunese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>campidanès<s n="adj"/></l><r>campidanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>caní<s n="adj"/></l><r>canino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caní<s n="adj"/></l><r>canino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>canònic<s n="adj"/></l><r>canonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>canònic<s n="adj"/></l><r>canonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>capitolí<s n="adj"/></l><r>capitolino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>capitolí<s n="adj"/></l><r>capitolino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>caprí<s n="adj"/></l><r>caprino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caprí<s n="adj"/></l><r>caprino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>carbònic<s n="adj"/></l><r>carbonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>carbònic<s n="adj"/></l><r>carbonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>carismàtic<s n="adj"/></l><r>carismatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>carismàtic<s n="adj"/></l><r>carismatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>carmelità<s n="adj"/></l><r>carmelitano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>carmelità<s n="adj"/></l><r>carmelitano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cartesià<s n="adj"/></l><r>cartesiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cartesià<s n="adj"/></l><r>cartesiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cartogràfic<s n="adj"/></l><r>cartografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cartogràfic<s n="adj"/></l><r>cartografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>catalític<s n="adj"/></l><r>catalitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>catalític<s n="adj"/></l><r>catalitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>categòric<s n="adj"/></l><r>categorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>categòric<s n="adj"/></l><r>categorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>catàrtic<s n="adj"/></l><r>catartico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>catàrtic<s n="adj"/></l><r>catartico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>catòdic<s n="adj"/></l><r>catodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>catòdic<s n="adj"/></l><r>catodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>caucàsic<s n="adj"/></l><r>caucasico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caucàsic<s n="adj"/></l><r>caucasico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>caudí<s n="adj"/></l><r>caudino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caudí<s n="adj"/></l><r>caudino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cavallí<s n="adj"/></l><r>cavallino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cavallí<s n="adj"/></l><r>cavallino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>caòtic<s n="adj"/></l><r>caotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caòtic<s n="adj"/></l><r>caotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>celebratiu<s n="adj"/></l><r>celebrativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>celebratiu<s n="adj"/></l><r>celebrativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>celestí<s n="adj"/></l><r>celestino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>celestí<s n="adj"/></l><r>celestino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cerví<s n="adj"/></l><r>cervino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cerví<s n="adj"/></l><r>cervino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cianòtic<s n="adj"/></l><r>cianotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cianòtic<s n="adj"/></l><r>cianotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cibernètic<s n="adj"/></l><r>cibernetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cibernètic<s n="adj"/></l><r>cibernetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ciclònic<s n="adj"/></l><r>ciclonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ciclònic<s n="adj"/></l><r>ciclonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cilíndric<s n="adj"/></l><r>cilindrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cilíndric<s n="adj"/></l><r>cilindrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cingalès<s n="adj"/></l><r>cingalese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>cispadà<s n="adj"/></l><r>cispadano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cispadà<s n="adj"/></l><r>cispadano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>claustrofòbic<s n="adj"/></l><r>claustrofobico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>claustrofòbic<s n="adj"/></l><r>claustrofobico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>climatològic<s n="adj"/></l><r>climatologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>climatològic<s n="adj"/></l><r>climatologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cloròtic<s n="adj"/></l><r>clorotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cloròtic<s n="adj"/></l><r>clorotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>clínic<s n="adj"/></l><r>clinico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>clínic<s n="adj"/></l><r>clinico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>coactiu<s n="adj"/></l><r>coattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>coactiu<s n="adj"/></l><r>coattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>coercitiu<s n="adj"/></l><r>coercitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>coercitiu<s n="adj"/></l><r>coercitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>colorístic<s n="adj"/></l><r>coloristico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>colorístic<s n="adj"/></l><r>coloristico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>colèric<s n="adj"/></l><r>colerico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>colèric<s n="adj"/></l><r>colerico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>commemoratiu<s n="adj"/></l><r>commemorativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>commemoratiu<s n="adj"/></l><r>commemorativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>commutatiu<s n="adj"/></l><r>commutativo<s n="adj"/></r></p></e>
+<e><p><l>comorià<s n="adj"/></l><r>comoriano<s n="adj"/></r></p></e>
+<e><p><l>comparatiu<s n="adj"/></l><r>comparativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>comparatiu<s n="adj"/></l><r>comparativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>compositiu<s n="adj"/></l><r>compositivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>compositiu<s n="adj"/></l><r>compositivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>comprensiu<s n="adj"/></l><r>comprensivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>comprensiu<s n="adj"/></l><r>comprensivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>compulsiu<s n="adj"/></l><r>compulsivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>compulsiu<s n="adj"/></l><r>compulsivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>comunicatiu<s n="adj"/></l><r>comunicativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>comunicatiu<s n="adj"/></l><r>comunicativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>concertístic<s n="adj"/></l><r>concertistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>concertístic<s n="adj"/></l><r>concertistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>conclusiu<s n="adj"/></l><r>conclusivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>conclusiu<s n="adj"/></l><r>conclusivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>concèntric<s n="adj"/></l><r>concentrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>concèntric<s n="adj"/></l><r>concentrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>confucià<s n="adj"/></l><r>confuciano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>confucià<s n="adj"/></l><r>confuciano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>connectiu<s n="adj"/></l><r>connettivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>connectiu<s n="adj"/></l><r>connettivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>consecutiu<s n="adj"/></l><r>consecutivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>consecutiu<s n="adj"/></l><r>consecutivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>conservatiu<s n="adj"/></l><r>conservativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>conservatiu<s n="adj"/></l><r>conservativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>contemplatiu<s n="adj"/></l><r>contemplativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>contemplatiu<s n="adj"/></l><r>contemplativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>continuatiu<s n="adj"/></l><r>continuativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>continuatiu<s n="adj"/></l><r>continuativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>contributiu<s n="adj"/></l><r>contributivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>contributiu<s n="adj"/></l><r>contributivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cooperatiu<s n="adj"/></l><r>cooperativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cooperatiu<s n="adj"/></l><r>cooperativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>copernicà<s n="adj"/></l><r>copernicano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>copernicà<s n="adj"/></l><r>copernicano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>coreogràfic<s n="adj"/></l><r>coreografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>coreogràfic<s n="adj"/></l><r>coreografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>corporatiu<s n="adj"/></l><r>corporativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>corporatiu<s n="adj"/></l><r>corporativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>correctiu<s n="adj"/></l><r>correttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>correctiu<s n="adj"/></l><r>correttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>correlatiu<s n="adj"/></l><r>correlativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>correlatiu<s n="adj"/></l><r>correlativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cortès<s n="adj"/></l><r>cortese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>cosmològic<s n="adj"/></l><r>cosmologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cosmològic<s n="adj"/></l><r>cosmologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cretí<s n="adj"/></l><r>cretino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cretí<s n="adj"/></l><r>cretino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>criminològic<s n="adj"/></l><r>criminologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>criminològic<s n="adj"/></l><r>criminologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cristològic<s n="adj"/></l><r>cristologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cristològic<s n="adj"/></l><r>cristologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cromosòmic<s n="adj"/></l><r>cromosomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cromosòmic<s n="adj"/></l><r>cromosomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cronomètric<s n="adj"/></l><r>cronometrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cronomètric<s n="adj"/></l><r>cronometrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cronístic<s n="adj"/></l><r>cronistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cronístic<s n="adj"/></l><r>cronistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>críptic<s n="adj"/></l><r>criptico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>críptic<s n="adj"/></l><r>criptico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cumulatiu<s n="adj"/></l><r>cumulativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cumulatiu<s n="adj"/></l><r>cumulativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>curatiu<s n="adj"/></l><r>curativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>curatiu<s n="adj"/></l><r>curativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>càustic<s n="adj"/></l><r>caustico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>càustic<s n="adj"/></l><r>caustico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cèltic<s n="adj"/></l><r>celtico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cèltic<s n="adj"/></l><r>celtico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cíclic<s n="adj"/></l><r>ciclico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cíclic<s n="adj"/></l><r>ciclico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cínic<s n="adj"/></l><r>cinico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cínic<s n="adj"/></l><r>cinico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cístic<s n="adj"/></l><r>cistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cístic<s n="adj"/></l><r>cistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cívic<s n="adj"/></l><r>civico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cívic<s n="adj"/></l><r>civico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>còsmic<s n="adj"/></l><r>cosmico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>còsmic<s n="adj"/></l><r>cosmico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>cúbic<s n="adj"/></l><r>cubico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cúbic<s n="adj"/></l><r>cubico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dactílic<s n="adj"/></l><r>dattilico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dactílic<s n="adj"/></l><r>dattilico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>daltònic<s n="adj"/></l><r>daltonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>daltònic<s n="adj"/></l><r>daltonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>darwinià<s n="adj"/></l><r>darwiniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>darwinià<s n="adj"/></l><r>darwiniano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>decoratiu<s n="adj"/></l><r>decorativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>decoratiu<s n="adj"/></l><r>decorativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>deductiu<s n="adj"/></l><r>deduttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>deductiu<s n="adj"/></l><r>deduttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>degeneratiu<s n="adj"/></l><r>degenerativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>degeneratiu<s n="adj"/></l><r>degenerativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>deliberatiu<s n="adj"/></l><r>deliberativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>deliberatiu<s n="adj"/></l><r>deliberativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>demagògic<s n="adj"/></l><r>demagogico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demagògic<s n="adj"/></l><r>demagogico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>demiúrgic<s n="adj"/></l><r>demiurgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demiúrgic<s n="adj"/></l><r>demiurgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>demogràfic<s n="adj"/></l><r>demografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demogràfic<s n="adj"/></l><r>demografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>demoscòpic<s n="adj"/></l><r>demoscopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demoscòpic<s n="adj"/></l><r>demoscopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>deontològic<s n="adj"/></l><r>deontologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>deontològic<s n="adj"/></l><r>deontologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>depressiu<s n="adj"/></l><r>depressivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>depressiu<s n="adj"/></l><r>depressivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>derivatiu<s n="adj"/></l><r>derivativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>derivatiu<s n="adj"/></l><r>derivativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dermatològic<s n="adj"/></l><r>dermatologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dermatològic<s n="adj"/></l><r>dermatologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>desèrtic<s n="adj"/></l><r>desertico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>desèrtic<s n="adj"/></l><r>desertico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>determinatiu<s n="adj"/></l><r>determinativo<s n="adj"/></r></p></e>
+<e><p><l>detersiu<s n="adj"/></l><r>detersivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>detersiu<s n="adj"/></l><r>detersivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>diabetològic<s n="adj"/></l><r>diabetologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diabetològic<s n="adj"/></l><r>diabetologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dialèctic<s n="adj"/></l><r>dialettico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dialèctic<s n="adj"/></l><r>dialettico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dialític<s n="adj"/></l><r>dialitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dialític<s n="adj"/></l><r>dialitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dialògic<s n="adj"/></l><r>dialogico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dialògic<s n="adj"/></l><r>dialogico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>diatònic<s n="adj"/></l><r>diatonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diatònic<s n="adj"/></l><r>diatonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dicotòmic<s n="adj"/></l><r>dicotomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dicotòmic<s n="adj"/></l><r>dicotomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>didascàlic<s n="adj"/></l><r>didascalico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>didascàlic<s n="adj"/></l><r>didascalico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>didàctic<s n="adj"/></l><r>didattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>didàctic<s n="adj"/></l><r>didattico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dietètic<s n="adj"/></l><r>dietetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dietètic<s n="adj"/></l><r>dietetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dilatatiu<s n="adj"/></l><r>dilatativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dilatatiu<s n="adj"/></l><r>dilatativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dinàstic<s n="adj"/></l><r>dinastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dinàstic<s n="adj"/></l><r>dinastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>diocesà<s n="adj"/></l><r>diocesano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diocesà<s n="adj"/></l><r>diocesano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>directiu<s n="adj"/></l><r>direttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>directiu<s n="adj"/></l><r>direttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>discogràfic<s n="adj"/></l><r>discografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>discogràfic<s n="adj"/></l><r>discografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dispersiu<s n="adj"/></l><r>dispersivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dispersiu<s n="adj"/></l><r>dispersivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dispositiu<s n="adj"/></l><r>dispositivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dispositiu<s n="adj"/></l><r>dispositivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dissuasiu<s n="adj"/></l><r>dissuasivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dissuasiu<s n="adj"/></l><r>dissuasivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>distorsiu<s n="adj"/></l><r>distorsivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>distorsiu<s n="adj"/></l><r>distorsivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>distributiu<s n="adj"/></l><r>distributivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>distributiu<s n="adj"/></l><r>distributivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>diversiu<s n="adj"/></l><r>diversivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diversiu<s n="adj"/></l><r>diversivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>diví<s n="adj"/></l><r>divino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diví<s n="adj"/></l><r>divino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dodecafònic<s n="adj"/></l><r>dodecafonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dodecafònic<s n="adj"/></l><r>dodecafonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dogmàtic<s n="adj"/></l><r>dogmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dogmàtic<s n="adj"/></l><r>dogmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dolomític<s n="adj"/></l><r>dolomitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dolomític<s n="adj"/></l><r>dolomitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dominicà<s n="adj"/></l><r>dominicano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dominicà<s n="adj"/></l><r>dominicano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>draconià<s n="adj"/></l><r>draconiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>draconià<s n="adj"/></l><r>draconiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>druídic<s n="adj"/></l><r>druidico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>druídic<s n="adj"/></l><r>druidico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dràstic<s n="adj"/></l><r>drastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dràstic<s n="adj"/></l><r>drastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dubitatiu<s n="adj"/></l><r>dubitativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dubitatiu<s n="adj"/></l><r>dubitativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>dòric<s n="adj"/></l><r>dorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dòric<s n="adj"/></l><r>dorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ecumènic<s n="adj"/></l><r>ecumenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ecumènic<s n="adj"/></l><r>ecumenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>edènic<s n="adj"/></l><r>edenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>edènic<s n="adj"/></l><r>edenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>edípic<s n="adj"/></l><r>edipico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>edípic<s n="adj"/></l><r>edipico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>egoístic<s n="adj"/></l><r>egoistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>egoístic<s n="adj"/></l><r>egoistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electiu<s n="adj"/></l><r>elettivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electiu<s n="adj"/></l><r>elettivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electroacústic<s n="adj"/></l><r>elettroacustico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electroacústic<s n="adj"/></l><r>elettroacustico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electrodinàmic<s n="adj"/></l><r>elettrodinamico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electrodinàmic<s n="adj"/></l><r>elettrodinamico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electrolític<s n="adj"/></l><r>elettrolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electrolític<s n="adj"/></l><r>elettrolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electromagnètic<s n="adj"/></l><r>elettromagnetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electromagnètic<s n="adj"/></l><r>elettromagnetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>electrotècnic<s n="adj"/></l><r>elettrotecnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>electrotècnic<s n="adj"/></l><r>elettrotecnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>elusiu<s n="adj"/></l><r>elusivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>elusiu<s n="adj"/></l><r>elusivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>elàstic<s n="adj"/></l><r>elastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>elàstic<s n="adj"/></l><r>elastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>emblemàtic<s n="adj"/></l><r>emblematico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>emblemàtic<s n="adj"/></l><r>emblematico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>emotiu<s n="adj"/></l><r>emotivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>emotiu<s n="adj"/></l><r>emotivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>enciclopèdic<s n="adj"/></l><r>enciclopedico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>enciclopèdic<s n="adj"/></l><r>enciclopedico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>encomiàstic<s n="adj"/></l><r>encomiastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>encomiàstic<s n="adj"/></l><r>encomiastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>encíclic<s n="adj"/></l><r>enciclico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>encíclic<s n="adj"/></l><r>enciclico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>endocrí<s n="adj"/></l><r>endocrino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>endocrí<s n="adj"/></l><r>endocrino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>enigmístic<s n="adj"/></l><r>enigmistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>enigmístic<s n="adj"/></l><r>enigmistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>enològic<s n="adj"/></l><r>enologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>enològic<s n="adj"/></l><r>enologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>entomològic<s n="adj"/></l><r>entomologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>entomològic<s n="adj"/></l><r>entomologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>entusiàstic<s n="adj"/></l><r>entusiastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>entusiàstic<s n="adj"/></l><r>entusiastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>enzimàtic<s n="adj"/></l><r>enzimatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>enzimàtic<s n="adj"/></l><r>enzimatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>epidemiològic<s n="adj"/></l><r>epidemiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epidemiològic<s n="adj"/></l><r>epidemiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>epidèmic<s n="adj"/></l><r>epidemico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epidèmic<s n="adj"/></l><r>epidemico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>epidèrmic<s n="adj"/></l><r>epidermico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epidèrmic<s n="adj"/></l><r>epidermico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>epistemològic<s n="adj"/></l><r>epistemologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epistemològic<s n="adj"/></l><r>epistemologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>episòdic<s n="adj"/></l><r>episodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>episòdic<s n="adj"/></l><r>episodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>epizoòtic<s n="adj"/></l><r>epizootico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epizoòtic<s n="adj"/></l><r>epizootico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>equànime<s n="adj"/></l><r>equanime<s n="adj"/></r></p></e>
+<e r="RL"><p><l>equànime<s n="adj"/></l><r>equanime<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>equí<s n="adj"/></l><r>equino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>equí<s n="adj"/></l><r>equino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>erosiu<s n="adj"/></l><r>erosivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>erosiu<s n="adj"/></l><r>erosivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>eròtic<s n="adj"/></l><r>erotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>eròtic<s n="adj"/></l><r>erotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>escatològic<s n="adj"/></l><r>escatologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>escatològic<s n="adj"/></l><r>escatologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>esotèric<s n="adj"/></l><r>esoterico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>esotèric<s n="adj"/></l><r>esoterico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>etiòpic<s n="adj"/></l><r>etiopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>etiòpic<s n="adj"/></l><r>etiopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>etnogràfic<s n="adj"/></l><r>etnografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>etnogràfic<s n="adj"/></l><r>etnografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>etnològic<s n="adj"/></l><r>etnologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>etnològic<s n="adj"/></l><r>etnologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>etològic<s n="adj"/></l><r>etologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>etològic<s n="adj"/></l><r>etologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>etílic<s n="adj"/></l><r>etilico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>etílic<s n="adj"/></l><r>etilico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>eucarístic<s n="adj"/></l><r>eucaristico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>eucarístic<s n="adj"/></l><r>eucaristico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>eufemístic<s n="adj"/></l><r>eufemistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>eufemístic<s n="adj"/></l><r>eufemistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>eufòric<s n="adj"/></l><r>euforico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>eufòric<s n="adj"/></l><r>euforico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>eurocèntric<s n="adj"/></l><r>eurocentrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>eurocèntric<s n="adj"/></l><r>eurocentrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>evasiu<s n="adj"/></l><r>evasivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>evasiu<s n="adj"/></l><r>evasivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>evocatiu<s n="adj"/></l><r>evocativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>evocatiu<s n="adj"/></l><r>evocativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>factiu<s n="adj"/></l><r>fattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>factiu<s n="adj"/></l><r>fattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>famèlic<s n="adj"/></l><r>famelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>famèlic<s n="adj"/></l><r>famelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fantasmagòric<s n="adj"/></l><r>fantasmagorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fantasmagòric<s n="adj"/></l><r>fantasmagorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fanàtic<s n="adj"/></l><r>fanatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fanàtic<s n="adj"/></l><r>fanatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>faraònic<s n="adj"/></l><r>faraonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>faraònic<s n="adj"/></l><r>faraonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>farmacològic<s n="adj"/></l><r>farmacologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>farmacològic<s n="adj"/></l><r>farmacologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>federatiu<s n="adj"/></l><r>federativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>federatiu<s n="adj"/></l><r>federativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>felí<s n="adj"/></l><r>felino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>felí<s n="adj"/></l><r>felino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fenomenològic<s n="adj"/></l><r>fenomenologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fenomenològic<s n="adj"/></l><r>fenomenologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fenomènic<s n="adj"/></l><r>fenomenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fenomènic<s n="adj"/></l><r>fenomenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>feroès<s n="adj"/></l><r>feroese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>ferrarès<s n="adj"/></l><r>ferrarese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>ferí<s n="adj"/></l><r>ferino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ferí<s n="adj"/></l><r>ferino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fescenní<s n="adj"/></l><r>fescennino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fescenní<s n="adj"/></l><r>fescennino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>festiu<s n="adj"/></l><r>festivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>festiu<s n="adj"/></l><r>festivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fijià<s n="adj"/></l><r>fijiano<s n="adj"/></r></p></e>
+<e><p><l>filantròpic<s n="adj"/></l><r>filantropico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filantròpic<s n="adj"/></l><r>filantropico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>filatèlic<s n="adj"/></l><r>filatelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filatèlic<s n="adj"/></l><r>filatelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>filològic<s n="adj"/></l><r>filologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filològic<s n="adj"/></l><r>filologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fisiocràtic<s n="adj"/></l><r>fisiocratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fisiocràtic<s n="adj"/></l><r>fisiocratico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fisiològic<s n="adj"/></l><r>fisiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fisiològic<s n="adj"/></l><r>fisiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fisionòmic<s n="adj"/></l><r>fisionomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fisionòmic<s n="adj"/></l><r>fisionomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fisioteràpic<s n="adj"/></l><r>fisioterapico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fisioteràpic<s n="adj"/></l><r>fisioterapico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fonogràfic<s n="adj"/></l><r>fonografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fonogràfic<s n="adj"/></l><r>fonografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fonètic<s n="adj"/></l><r>fonetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fonètic<s n="adj"/></l><r>fonetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>formatiu<s n="adj"/></l><r>formativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>formatiu<s n="adj"/></l><r>formativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fotoelèctric<s n="adj"/></l><r>fotoelettrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fotoelèctric<s n="adj"/></l><r>fotoelettrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fotogènic<s n="adj"/></l><r>fotogenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fotogènic<s n="adj"/></l><r>fotogenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>freudià<s n="adj"/></l><r>freudiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>freudià<s n="adj"/></l><r>freudiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>freàtic<s n="adj"/></l><r>freatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>freàtic<s n="adj"/></l><r>freatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>furlà<s n="adj"/></l><r>furlano<s n="adj"/></r></p></e>
+<e><p><l>furtiu<s n="adj"/></l><r>furtivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>furtiu<s n="adj"/></l><r>furtivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fílmic<s n="adj"/></l><r>filmico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fílmic<s n="adj"/></l><r>filmico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fòbic<s n="adj"/></l><r>fobico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fòbic<s n="adj"/></l><r>fobico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fònic<s n="adj"/></l><r>fonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fònic<s n="adj"/></l><r>fonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fòrmic<s n="adj"/></l><r>formico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fòrmic<s n="adj"/></l><r>formico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>fúnebre<s n="adj"/></l><r>funebre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fúnebre<s n="adj"/></l><r>funebre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>gabonès<s n="adj"/></l><r>gabonese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>galvànic<s n="adj"/></l><r>galvanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>galvànic<s n="adj"/></l><r>galvanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>galàctic<s n="adj"/></l><r>galattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>galàctic<s n="adj"/></l><r>galattico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gambià<s n="adj"/></l><r>gambiano<s n="adj"/></r></p></e>
+<e><p><l>garibaldí<s n="adj"/></l><r>garibaldino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>garibaldí<s n="adj"/></l><r>garibaldino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gastroentèric<s n="adj"/></l><r>gastroenterico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gastroentèric<s n="adj"/></l><r>gastroenterico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gastronòmic<s n="adj"/></l><r>gastronomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gastronòmic<s n="adj"/></l><r>gastronomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gaèlic<s n="adj"/></l><r>gaelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gaèlic<s n="adj"/></l><r>gaelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>genealògic<s n="adj"/></l><r>genealogico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>genealògic<s n="adj"/></l><r>genealogico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>genèric<s n="adj"/></l><r>generico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>genèric<s n="adj"/></l><r>generico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>genòmic<s n="adj"/></l><r>genomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>genòmic<s n="adj"/></l><r>genomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geocèntric<s n="adj"/></l><r>geocentrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geocèntric<s n="adj"/></l><r>geocentrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geofísic<s n="adj"/></l><r>geofisico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geofísic<s n="adj"/></l><r>geofisico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geognòstic<s n="adj"/></l><r>geognostico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geognòstic<s n="adj"/></l><r>geognostico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geopolític<s n="adj"/></l><r>geopolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geopolític<s n="adj"/></l><r>geopolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>georgià<s n="adj"/></l><r>georgiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>georgià<s n="adj"/></l><r>georgiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geotèrmic<s n="adj"/></l><r>geotermico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geotèrmic<s n="adj"/></l><r>geotermico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>germà<s n="adj"/></l><r>germano<s n="adj"/></r></p></e>
+<e><p><l>germànic<s n="adj"/></l><r>germanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>germànic<s n="adj"/></l><r>germanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gerontològic<s n="adj"/></l><r>gerontologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gerontològic<s n="adj"/></l><r>gerontologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>geòrgic<s n="adj"/></l><r>georgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>geòrgic<s n="adj"/></l><r>georgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ghanès<s n="adj"/></l><r>ghanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>giulià<s n="adj"/></l><r>giuliano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>giulià<s n="adj"/></l><r>giuliano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gnòmic<s n="adj"/></l><r>gnomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gnòmic<s n="adj"/></l><r>gnomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gnòstic<s n="adj"/></l><r>gnostico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gnòstic<s n="adj"/></l><r>gnostico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>goliàrdic<s n="adj"/></l><r>goliardico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>goliàrdic<s n="adj"/></l><r>goliardico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gordià<s n="adj"/></l><r>gordiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gordià<s n="adj"/></l><r>gordiano<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>governatiu<s n="adj"/></l><r>governativo<s n="adj"/></r></p></e>
+<e><p><l>granític<s n="adj"/></l><r>granitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>granític<s n="adj"/></l><r>granitico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>grassó<s n="adj"/></l><r>grasso<s n="adj"/></r></p></e>
+<e><p><l>gregorià<s n="adj"/></l><r>gregoriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gregorià<s n="adj"/></l><r>gregoriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>grenadí<s n="adj"/></l><r>grenadino<s n="adj"/></r></p></e>
+<e><p><l>guaianès<s n="adj"/></l><r>guaianese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>guamès<s n="adj"/></l><r>guamese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>guardià<s n="adj"/></l><r>guardiano<s n="adj"/></r></p></e>
+<e><p><l>guineà<s n="adj"/></l><r>guineano<s n="adj"/></r></p></e>
+<e><p><l>gustatiu<s n="adj"/></l><r>gustativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gustatiu<s n="adj"/></l><r>gustativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gàstric<s n="adj"/></l><r>gastrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gàstric<s n="adj"/></l><r>gastrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>gènic<s n="adj"/></l><r>genico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gènic<s n="adj"/></l><r>genico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>haitià<s n="adj"/></l><r>haitiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>haitià<s n="adj"/></l><r>haitiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>hegelià<s n="adj"/></l><r>hegeliano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hegelià<s n="adj"/></l><r>hegeliano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>hitlerià<s n="adj"/></l><r>hitleriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hitlerià<s n="adj"/></l><r>hitleriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>hollywoodià<s n="adj"/></l><r>hollywoodiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hollywoodià<s n="adj"/></l><r>hollywoodiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>iconogràfic<s n="adj"/></l><r>iconografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>iconogràfic<s n="adj"/></l><r>iconografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>icònic<s n="adj"/></l><r>iconico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>icònic<s n="adj"/></l><r>iconico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ideològic<s n="adj"/></l><r>ideologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ideològic<s n="adj"/></l><r>ideologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>imitatiu<s n="adj"/></l><r>imitativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>imitatiu<s n="adj"/></l><r>imitativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>immunològic<s n="adj"/></l><r>immunologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>immunològic<s n="adj"/></l><r>immunologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>impolític<s n="adj"/></l><r>impolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>impolític<s n="adj"/></l><r>impolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>impositiu<s n="adj"/></l><r>impositivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>impositiu<s n="adj"/></l><r>impositivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>improductiu<s n="adj"/></l><r>improduttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>improductiu<s n="adj"/></l><r>improduttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>impúdic<s n="adj"/></l><r>impudico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>impúdic<s n="adj"/></l><r>impudico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>inactiu<s n="adj"/></l><r>inattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inactiu<s n="adj"/></l><r>inattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>inclusiu<s n="adj"/></l><r>inclusivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inclusiu<s n="adj"/></l><r>inclusivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>incòlume<s n="adj"/></l><r>incolume<s n="adj"/></r></p></e>
+<e r="RL"><p><l>incòlume<s n="adj"/></l><r>incolume<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>indià<s n="adj"/></l><r>indiano<s n="adj"/></r></p></e>
+<e><p><l>inductiu<s n="adj"/></l><r>induttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inductiu<s n="adj"/></l><r>induttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>infectiu<s n="adj"/></l><r>infettivo<s n="adj"/></r></p></e>
+<e><p><l>informàtic<s n="adj"/></l><r>informatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>informàtic<s n="adj"/></l><r>informatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>inorgànic<s n="adj"/></l><r>inorganico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inorgànic<s n="adj"/></l><r>inorganico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>insà<s n="adj"/></l><r>insano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>insà<s n="adj"/></l><r>insano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>integratiu<s n="adj"/></l><r>integrativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>integratiu<s n="adj"/></l><r>integrativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>intempestiu<s n="adj"/></l><r>intempestivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intempestiu<s n="adj"/></l><r>intempestivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>intensiu<s n="adj"/></l><r>intensivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intensiu<s n="adj"/></l><r>intensivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>interactiu<s n="adj"/></l><r>interattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interactiu<s n="adj"/></l><r>interattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>intergovernatiu<s n="adj"/></l><r>intergovernativo<s n="adj"/></r></p></e>
+<e><p><l>interpretatiu<s n="adj"/></l><r>interpretativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interpretatiu<s n="adj"/></l><r>interpretativo<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>interrogatiu<s n="adj"/></l><r>interrogativo<s n="adj"/></r></p></e>
+<e><p><l>interurbà<s n="adj"/></l><r>interurbano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interurbà<s n="adj"/></l><r>interurbano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>interètnic<s n="adj"/></l><r>interetnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interètnic<s n="adj"/></l><r>interetnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>introductiu<s n="adj"/></l><r>introduttivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>introductiu<s n="adj"/></l><r>introduttivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>introspectiu<s n="adj"/></l><r>introspettivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>introspectiu<s n="adj"/></l><r>introspettivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>inurbà<s n="adj"/></l><r>inurbano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inurbà<s n="adj"/></l><r>inurbano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>invasiu<s n="adj"/></l><r>invasivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>invasiu<s n="adj"/></l><r>invasivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>inventiu<s n="adj"/></l><r>inventivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inventiu<s n="adj"/></l><r>inventivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>investigatiu<s n="adj"/></l><r>investigativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>investigatiu<s n="adj"/></l><r>investigativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>involutiu<s n="adj"/></l><r>involutivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>involutiu<s n="adj"/></l><r>involutivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>irànic<s n="adj"/></l><r>iranico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>irànic<s n="adj"/></l><r>iranico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>islandès<s n="adj"/></l><r>islandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>israelític<s n="adj"/></l><r>israelitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>israelític<s n="adj"/></l><r>israelitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>italoamericà<s n="adj"/></l><r>italoamericano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>italoamericà<s n="adj"/></l><r>italoamericano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>iteratiu<s n="adj"/></l><r>iterativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>iteratiu<s n="adj"/></l><r>iterativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>itàlic<s n="adj"/></l><r>italico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>itàlic<s n="adj"/></l><r>italico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ivorià<s n="adj"/></l><r>ivoriano<s n="adj"/></r></p></e>
+<e><p><l>iònic<s n="adj"/></l><r>ionico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>iònic<s n="adj"/></l><r>ionico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>jazzístic<s n="adj"/></l><r>jazzistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>jazzístic<s n="adj"/></l><r>jazzistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>kantià<s n="adj"/></l><r>kantiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>kantià<s n="adj"/></l><r>kantiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>kenià<s n="adj"/></l><r>keniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>kenià<s n="adj"/></l><r>keniano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>keynesià<s n="adj"/></l><r>keynesiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>keynesià<s n="adj"/></l><r>keynesiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>kuwaitià<s n="adj"/></l><r>kuwaitiano<s n="adj"/></r></p></e>
+<e><p><l>lacònic<s n="adj"/></l><r>laconico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lacònic<s n="adj"/></l><r>laconico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ladí<s n="adj"/></l><r>ladino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ladí<s n="adj"/></l><r>ladino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>laosià<s n="adj"/></l><r>laosiano<s n="adj"/></r></p></e>
+<e><p><l>laparoscòpic<s n="adj"/></l><r>laparoscopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>laparoscòpic<s n="adj"/></l><r>laparoscopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lasciu<s n="adj"/></l><r>lascivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lasciu<s n="adj"/></l><r>lascivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lesiu<s n="adj"/></l><r>lesivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lesiu<s n="adj"/></l><r>lesivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lesothià<s n="adj"/></l><r>lesothiano<s n="adj"/></r></p></e>
+<e><p><l>letàrgic<s n="adj"/></l><r>letargico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>letàrgic<s n="adj"/></l><r>letargico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>leucèmic<s n="adj"/></l><r>leucemico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>leucèmic<s n="adj"/></l><r>leucemico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>libanès<s n="adj"/></l><r>libanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>liberià<s n="adj"/></l><r>liberiano<s n="adj"/></r></p></e>
+<e><p><l>limitatiu<s n="adj"/></l><r>limitativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>limitatiu<s n="adj"/></l><r>limitativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>litogràfic<s n="adj"/></l><r>litografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>litogràfic<s n="adj"/></l><r>litografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>litúrgic<s n="adj"/></l><r>liturgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>litúrgic<s n="adj"/></l><r>liturgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>locatiu<s n="adj"/></l><r>locativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>locatiu<s n="adj"/></l><r>locativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>logudorès<s n="adj"/></l><r>logudorese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>longànime<s n="adj"/></l><r>longanime<s n="adj"/></r></p></e>
+<e r="RL"><p><l>longànime<s n="adj"/></l><r>longanime<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lucà<s n="adj"/></l><r>lucano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lucà<s n="adj"/></l><r>lucano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lusità<s n="adj"/></l><r>lusitano<s n="adj"/></r></p></e>
+<e><p><l>luterà<s n="adj"/></l><r>luterano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>luterà<s n="adj"/></l><r>luterano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>luzonià<s n="adj"/></l><r>luzoniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>làctic<s n="adj"/></l><r>lattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>làctic<s n="adj"/></l><r>lattico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lèsbic<s n="adj"/></l><r>lesbico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lèsbic<s n="adj"/></l><r>lesbico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>líbic<s n="adj"/></l><r>libico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>líbic<s n="adj"/></l><r>libico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>líric<s n="adj"/></l><r>lirico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>líric<s n="adj"/></l><r>lirico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lúbric<s n="adj"/></l><r>lubrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lúbric<s n="adj"/></l><r>lubrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lúdic<s n="adj"/></l><r>ludico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lúdic<s n="adj"/></l><r>ludico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>lúgubre<s n="adj"/></l><r>lugubre<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lúgubre<s n="adj"/></l><r>lugubre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>macrobiòtic<s n="adj"/></l><r>macrobiotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>macrobiòtic<s n="adj"/></l><r>macrobiotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>macroeconòmic<s n="adj"/></l><r>macroeconomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>macroeconòmic<s n="adj"/></l><r>macroeconomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>magmàtic<s n="adj"/></l><r>magmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>magmàtic<s n="adj"/></l><r>magmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>magnífic<s n="adj"/></l><r>magnifico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>magnífic<s n="adj"/></l><r>magnifico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>malawià<s n="adj"/></l><r>malawiano<s n="adj"/></r></p></e>
+<e><p><l>maldivià<s n="adj"/></l><r>maldiviano<s n="adj"/></r></p></e>
+<e><p><l>malià<s n="adj"/></l><r>maliano<s n="adj"/></r></p></e>
+<e><p><l>malsà<s n="adj"/></l><r>malsano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>malsà<s n="adj"/></l><r>malsano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>maltès<s n="adj"/></l><r>maltese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>malèfic<s n="adj"/></l><r>malefico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>malèfic<s n="adj"/></l><r>malefico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>marià<s n="adj"/></l><r>mariano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>marià<s n="adj"/></l><r>mariano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>marshallès<s n="adj"/></l><r>marshallese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>marxià<s n="adj"/></l><r>marxiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>marxià<s n="adj"/></l><r>marxiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>marí<s n="adj"/></l><r>marino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>marí<s n="adj"/></l><r>marino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>massiu<s n="adj"/></l><r>massivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>massiu<s n="adj"/></l><r>massivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mastodòntic<s n="adj"/></l><r>mastodontico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mastodòntic<s n="adj"/></l><r>mastodontico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>matèric<s n="adj"/></l><r>materico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>matèric<s n="adj"/></l><r>materico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>maurità<s n="adj"/></l><r>mauritano<s n="adj"/></r></p></e>
+<e><p><l>meditatiu<s n="adj"/></l><r>meditativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>meditatiu<s n="adj"/></l><r>meditativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>medià<s n="adj"/></l><r>mediano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>medià<s n="adj"/></l><r>mediano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mediàtic<s n="adj"/></l><r>mediatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mediàtic<s n="adj"/></l><r>mediatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mefític<s n="adj"/></l><r>mefitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mefític<s n="adj"/></l><r>mefitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>megalític<s n="adj"/></l><r>megalitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>megalític<s n="adj"/></l><r>megalitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>melòdic<s n="adj"/></l><r>melodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>melòdic<s n="adj"/></l><r>melodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>meritocràtic<s n="adj"/></l><r>meritocratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>meritocràtic<s n="adj"/></l><r>meritocratico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>merí<s n="adj"/></l><r>merino<s n="adj"/></r></p></e>
+<e><p><l>messiànic<s n="adj"/></l><r>messianico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>messiànic<s n="adj"/></l><r>messianico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>metabòlic<s n="adj"/></l><r>metabolico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>metabòlic<s n="adj"/></l><r>metabolico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>metafísic<s n="adj"/></l><r>metafisico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>metafísic<s n="adj"/></l><r>metafisico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>metafòric<s n="adj"/></l><r>metaforico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>metafòric<s n="adj"/></l><r>metaforico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>metílic<s n="adj"/></l><r>metilico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>metílic<s n="adj"/></l><r>metilico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>microbiològic<s n="adj"/></l><r>microbiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>microbiològic<s n="adj"/></l><r>microbiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>micronesià<s n="adj"/></l><r>micronesiano<s n="adj"/></r></p></e>
+<e><p><l>microscòpic<s n="adj"/></l><r>microscopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>microscòpic<s n="adj"/></l><r>microscopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>misantròpic<s n="adj"/></l><r>misantropico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>misantròpic<s n="adj"/></l><r>misantropico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>missilístic<s n="adj"/></l><r>missilistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>missilístic<s n="adj"/></l><r>missilistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mnemònic<s n="adj"/></l><r>mnemonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mnemònic<s n="adj"/></l><r>mnemonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>modenès<s n="adj"/></l><r>modenese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>monocromàtic<s n="adj"/></l><r>monocromatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monocromàtic<s n="adj"/></l><r>monocromatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>monogràfic<s n="adj"/></l><r>monografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monogràfic<s n="adj"/></l><r>monografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>monolític<s n="adj"/></l><r>monolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monolític<s n="adj"/></l><r>monolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>monopolístic<s n="adj"/></l><r>monopolistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monopolístic<s n="adj"/></l><r>monopolistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>montà<s n="adj"/></l><r>montano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>montà<s n="adj"/></l><r>montano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>monàstic<s n="adj"/></l><r>monastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monàstic<s n="adj"/></l><r>monastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>monòdic<s n="adj"/></l><r>monodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monòdic<s n="adj"/></l><r>monodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>morfològic<s n="adj"/></l><r>morfologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>morfològic<s n="adj"/></l><r>morfologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mossó<s n="adj"/></l><r>mosso<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mossó<s n="adj"/></l><r>mosso<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>motonàutic<s n="adj"/></l><r>motonautico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>motonàutic<s n="adj"/></l><r>motonautico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mozartià<s n="adj"/></l><r>mozartiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mozartià<s n="adj"/></l><r>mozartiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>multiètnic<s n="adj"/></l><r>multietnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>multiètnic<s n="adj"/></l><r>multietnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>musicològic<s n="adj"/></l><r>musicologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>musicològic<s n="adj"/></l><r>musicologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>musiu<s n="adj"/></l><r>musivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>musiu<s n="adj"/></l><r>musivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>musulmà<s n="adj"/></l><r>musulmano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>musulmà<s n="adj"/></l><r>musulmano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mètric<s n="adj"/></l><r>metrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mètric<s n="adj"/></l><r>metrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mímic<s n="adj"/></l><r>mimico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mímic<s n="adj"/></l><r>mimico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mític<s n="adj"/></l><r>mitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mític<s n="adj"/></l><r>mitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mòdic<s n="adj"/></l><r>modico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mòdic<s n="adj"/></l><r>modico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>músic<s n="adj"/></l><r>musico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>músic<s n="adj"/></l><r>musico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>namibià<s n="adj"/></l><r>namibiano<s n="adj"/></r></p></e>
+<e><p><l>narcòtic<s n="adj"/></l><r>narcotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>narcòtic<s n="adj"/></l><r>narcotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>narratiu<s n="adj"/></l><r>narrativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>narratiu<s n="adj"/></l><r>narrativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>naturalístic<s n="adj"/></l><r>naturalistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>naturalístic<s n="adj"/></l><r>naturalistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>necroscòpic<s n="adj"/></l><r>necroscopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>necroscòpic<s n="adj"/></l><r>necroscopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>negatiu<s n="adj"/></l><r>negativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>negatiu<s n="adj"/></l><r>negativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neocaledonià<s n="adj"/></l><r>neocaledoniano<s n="adj"/></r></p></e>
+<e><p><l>neoclàssic<s n="adj"/></l><r>neoclassico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neoclàssic<s n="adj"/></l><r>neoclassico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neogòtic<s n="adj"/></l><r>neogotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neogòtic<s n="adj"/></l><r>neogotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neolític<s n="adj"/></l><r>neolitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neolític<s n="adj"/></l><r>neolitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nerví<s n="adj"/></l><r>nervino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nerví<s n="adj"/></l><r>nervino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neurobiològic<s n="adj"/></l><r>neurobiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neurobiològic<s n="adj"/></l><r>neurobiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neurofisiològic<s n="adj"/></l><r>neurofisiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neurofisiològic<s n="adj"/></l><r>neurofisiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neurològic<s n="adj"/></l><r>neurologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neurològic<s n="adj"/></l><r>neurologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>neurovegetatiu<s n="adj"/></l><r>neurovegetativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neurovegetatiu<s n="adj"/></l><r>neurovegetativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nigerí<s n="adj"/></l><r>nigerino<s n="adj"/></r></p></e>
+<e><p><l>nociu<s n="adj"/></l><r>nocivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nociu<s n="adj"/></l><r>nocivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>norfolkès<s n="adj"/></l><r>norfolkese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>nostàlgic<s n="adj"/></l><r>nostalgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nostàlgic<s n="adj"/></l><r>nostalgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>numèric<s n="adj"/></l><r>numerico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>numèric<s n="adj"/></l><r>numerico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nuorès<s n="adj"/></l><r>nuorese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>nuràgic<s n="adj"/></l><r>nuragico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nuràgic<s n="adj"/></l><r>nuragico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nutritiu<s n="adj"/></l><r>nutritivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nutritiu<s n="adj"/></l><r>nutritivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nàutic<s n="adj"/></l><r>nautico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nàutic<s n="adj"/></l><r>nautico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nítric<s n="adj"/></l><r>nitrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nítric<s n="adj"/></l><r>nitrico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>nòmade<s n="adj"/></l><r>nomade<s n="adj"/></r></p></e>
+<e><p><l>nòrdic<s n="adj"/></l><r>nordico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nòrdic<s n="adj"/></l><r>nordico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oceanogràfic<s n="adj"/></l><r>oceanografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oceanogràfic<s n="adj"/></l><r>oceanografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oceànic<s n="adj"/></l><r>oceanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oceànic<s n="adj"/></l><r>oceanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oftalmològic<s n="adj"/></l><r>oftalmologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oftalmològic<s n="adj"/></l><r>oftalmologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oftàlmic<s n="adj"/></l><r>oftalmico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oftàlmic<s n="adj"/></l><r>oftalmico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oleogràfic<s n="adj"/></l><r>oleografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oleogràfic<s n="adj"/></l><r>oleografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oligopolístic<s n="adj"/></l><r>oligopolistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oligopolístic<s n="adj"/></l><r>oligopolistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oncològic<s n="adj"/></l><r>oncologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oncològic<s n="adj"/></l><r>oncologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>onomàstic<s n="adj"/></l><r>onomastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>onomàstic<s n="adj"/></l><r>onomastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ontològic<s n="adj"/></l><r>ontologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ontològic<s n="adj"/></l><r>ontologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>operatiu<s n="adj"/></l><r>operativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>operatiu<s n="adj"/></l><r>operativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>operístic<s n="adj"/></l><r>operistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>operístic<s n="adj"/></l><r>operistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ordinatiu<s n="adj"/></l><r>ordinativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ordinatiu<s n="adj"/></l><r>ordinativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>organístic<s n="adj"/></l><r>organistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>organístic<s n="adj"/></l><r>organistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>orgiàstic<s n="adj"/></l><r>orgiastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orgiàstic<s n="adj"/></l><r>orgiastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>orgànic<s n="adj"/></l><r>organico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orgànic<s n="adj"/></l><r>organico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>orientatiu<s n="adj"/></l><r>orientativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orientatiu<s n="adj"/></l><r>orientativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ornitològic<s n="adj"/></l><r>ornitologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ornitològic<s n="adj"/></l><r>ornitologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>orogràfic<s n="adj"/></l><r>orografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orogràfic<s n="adj"/></l><r>orografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ortogràfic<s n="adj"/></l><r>ortografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ortogràfic<s n="adj"/></l><r>ortografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ortopèdic<s n="adj"/></l><r>ortopedico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ortopèdic<s n="adj"/></l><r>ortopedico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ovoidal<s n="adj"/></l><r>ovoidale<s n="adj"/></r></p></e>
+<e><p><l>oví<s n="adj"/></l><r>ovino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oví<s n="adj"/></l><r>ovino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>oxfordià<s n="adj"/></l><r>oxfordiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>oxfordià<s n="adj"/></l><r>oxfordiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>palatí<s n="adj"/></l><r>palatino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>palatí<s n="adj"/></l><r>palatino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>palauà<s n="adj"/></l><r>palauano<s n="adj"/></r></p></e>
+<e><p><l>paleontològic<s n="adj"/></l><r>paleontologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paleontològic<s n="adj"/></l><r>paleontologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>palès<s n="adj"/></l><r>palese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>panoràmic<s n="adj"/></l><r>panoramico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>panoràmic<s n="adj"/></l><r>panoramico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pantagruèlic<s n="adj"/></l><r>pantagruelico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pantagruèlic<s n="adj"/></l><r>pantagruelico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pantomímic<s n="adj"/></l><r>pantomimico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pantomímic<s n="adj"/></l><r>pantomimico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>parabòlic<s n="adj"/></l><r>parabolico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>parabòlic<s n="adj"/></l><r>parabolico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paradigmàtic<s n="adj"/></l><r>paradigmatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paradigmàtic<s n="adj"/></l><r>paradigmatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paraguaià<s n="adj"/></l><r>paraguaiano<s n="adj"/></r></p></e>
+<e><p><l>paralític<s n="adj"/></l><r>paralitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paralític<s n="adj"/></l><r>paralitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paramèdic<s n="adj"/></l><r>paramedico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paramèdic<s n="adj"/></l><r>paramedico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paraplègic<s n="adj"/></l><r>paraplegico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paraplègic<s n="adj"/></l><r>paraplegico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>parió<s n="adj"/></l><r>pario<s n="adj"/></r></p></e>
+<e><p><l>partenogenètic<s n="adj"/></l><r>partenogenetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>partenogenètic<s n="adj"/></l><r>partenogenetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>patarí<s n="adj"/></l><r>patarino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>patarí<s n="adj"/></l><r>patarino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>patològic<s n="adj"/></l><r>patologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>patològic<s n="adj"/></l><r>patologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paulatí<s n="adj"/></l><r>paulatino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paulatí<s n="adj"/></l><r>paulatino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pediàtric<s n="adj"/></l><r>pediatrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pediàtric<s n="adj"/></l><r>pediatrico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="RL"><p><l>peregrí<s n="adj"/></l><r>peregrino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>peregrí<s n="adj"/></l><r>peregrino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>peripatètic<s n="adj"/></l><r>peripatetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>peripatètic<s n="adj"/></l><r>peripatetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>permissiu<s n="adj"/></l><r>permissivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>permissiu<s n="adj"/></l><r>permissivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>persuasiu<s n="adj"/></l><r>persuasivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>persuasiu<s n="adj"/></l><r>persuasivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pianístic<s n="adj"/></l><r>pianistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pianístic<s n="adj"/></l><r>pianistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>picassià<s n="adj"/></l><r>picassiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>picassià<s n="adj"/></l><r>picassiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pirotècnic<s n="adj"/></l><r>pirotecnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pirotècnic<s n="adj"/></l><r>pirotecnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pitagòric<s n="adj"/></l><r>pitagorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pitagòric<s n="adj"/></l><r>pitagorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>planimètric<s n="adj"/></l><r>planimetrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>planimètric<s n="adj"/></l><r>planimetrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>platònic<s n="adj"/></l><r>platonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>platònic<s n="adj"/></l><r>platonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pleonàstic<s n="adj"/></l><r>pleonastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pleonàstic<s n="adj"/></l><r>pleonastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pletòric<s n="adj"/></l><r>pletorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pletòric<s n="adj"/></l><r>pletorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pluviomètric<s n="adj"/></l><r>pluviometrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pluviomètric<s n="adj"/></l><r>pluviometrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>plàstic<s n="adj"/></l><r>plastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>plàstic<s n="adj"/></l><r>plastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pneumàtic<s n="adj"/></l><r>pneumatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pneumàtic<s n="adj"/></l><r>pneumatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>podològic<s n="adj"/></l><r>podologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>podològic<s n="adj"/></l><r>podologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>policromàtic<s n="adj"/></l><r>policromatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>policromàtic<s n="adj"/></l><r>policromatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>policèntric<s n="adj"/></l><r>policentrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>policèntric<s n="adj"/></l><r>policentrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>polifònic<s n="adj"/></l><r>polifonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>polifònic<s n="adj"/></l><r>polifonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>poligràfic<s n="adj"/></l><r>poligrafico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>poligràfic<s n="adj"/></l><r>poligrafico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>polimèric<s n="adj"/></l><r>polimerico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>polimèric<s n="adj"/></l><r>polimerico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>politològic<s n="adj"/></l><r>politologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>politològic<s n="adj"/></l><r>politologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>polièdric<s n="adj"/></l><r>poliedrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>polièdric<s n="adj"/></l><r>poliedrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>porcí<s n="adj"/></l><r>porcino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>porcí<s n="adj"/></l><r>porcino<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>porcó<s n="adj"/></l><r>porco<s n="adj"/></r></p></e>
+<e><p><l>pornogràfic<s n="adj"/></l><r>pornografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pornogràfic<s n="adj"/></l><r>pornografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>possessiu<s n="adj"/></l><r>possessivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>possessiu<s n="adj"/></l><r>possessivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>poètic<s n="adj"/></l><r>poetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>poètic<s n="adj"/></l><r>poetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>preclusiu<s n="adj"/></l><r>preclusivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preclusiu<s n="adj"/></l><r>preclusivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>preparatiu<s n="adj"/></l><r>preparativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preparatiu<s n="adj"/></l><r>preparativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>preromànic<s n="adj"/></l><r>preromanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preromànic<s n="adj"/></l><r>preromanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>presbiterià<s n="adj"/></l><r>presbiteriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>presbiterià<s n="adj"/></l><r>presbiteriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>preservatiu<s n="adj"/></l><r>preservativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preservatiu<s n="adj"/></l><r>preservativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pretorià<s n="adj"/></l><r>pretoriano<s n="adj"/></r></p></e>
+<e><p><l>preventiu<s n="adj"/></l><r>preventivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preventiu<s n="adj"/></l><r>preventivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>primitiu<s n="adj"/></l><r>primitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>primitiu<s n="adj"/></l><r>primitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pristí<s n="adj"/></l><r>pristino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pristí<s n="adj"/></l><r>pristino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>probabilístic<s n="adj"/></l><r>probabilistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>probabilístic<s n="adj"/></l><r>probabilistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>problemàtic<s n="adj"/></l><r>problematico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>problemàtic<s n="adj"/></l><r>problematico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>profilàctic<s n="adj"/></l><r>profilattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>profilàctic<s n="adj"/></l><r>profilattico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>profà<s n="adj"/></l><r>profano<s n="adj"/></r></p></e>
+<e><p><l>profètic<s n="adj"/></l><r>profetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>profètic<s n="adj"/></l><r>profetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>progressiu<s n="adj"/></l><r>progressivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>progressiu<s n="adj"/></l><r>progressivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>prolífic<s n="adj"/></l><r>prolifico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prolífic<s n="adj"/></l><r>prolifico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>propagandístic<s n="adj"/></l><r>propagandistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>propagandístic<s n="adj"/></l><r>propagandistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>propedèutic<s n="adj"/></l><r>propedeutico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>propedèutic<s n="adj"/></l><r>propedeutico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>propositiu<s n="adj"/></l><r>propositivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>propositiu<s n="adj"/></l><r>propositivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>propulsiu<s n="adj"/></l><r>propulsivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>propulsiu<s n="adj"/></l><r>propulsivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>prospectiu<s n="adj"/></l><r>prospettivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prospectiu<s n="adj"/></l><r>prospettivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>prostàtic<s n="adj"/></l><r>prostatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prostàtic<s n="adj"/></l><r>prostatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>prussià<s n="adj"/></l><r>prussiano<s n="adj"/></r></p></e>
+<e><p><l>psicofísic<s n="adj"/></l><r>psicofisico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicofísic<s n="adj"/></l><r>psicofisico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>psicològic<s n="adj"/></l><r>psicologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicològic<s n="adj"/></l><r>psicologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>psicopàtic<s n="adj"/></l><r>psicopatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicopàtic<s n="adj"/></l><r>psicopatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>psicosomàtic<s n="adj"/></l><r>psicosomatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicosomàtic<s n="adj"/></l><r>psicosomatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>psicoterapèutic<s n="adj"/></l><r>psicoterapeutico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicoterapèutic<s n="adj"/></l><r>psicoterapeutico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>psicòtic<s n="adj"/></l><r>psicotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>psicòtic<s n="adj"/></l><r>psicotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pugilístic<s n="adj"/></l><r>pugilistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pugilístic<s n="adj"/></l><r>pugilistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>punitiu<s n="adj"/></l><r>punitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>punitiu<s n="adj"/></l><r>punitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>purità<s n="adj"/></l><r>puritano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>purità<s n="adj"/></l><r>puritano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>putatiu<s n="adj"/></l><r>putativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>putatiu<s n="adj"/></l><r>putativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pànic<s n="adj"/></l><r>panico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pànic<s n="adj"/></l><r>panico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>píric<s n="adj"/></l><r>pirico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>píric<s n="adj"/></l><r>pirico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>púdic<s n="adj"/></l><r>pudico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>púdic<s n="adj"/></l><r>pudico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>púnic<s n="adj"/></l><r>punico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>púnic<s n="adj"/></l><r>punico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>qatarià<s n="adj"/></l><r>qatariano<s n="adj"/></r></p></e>
+<e><p><l>qualitatiu<s n="adj"/></l><r>qualitativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>qualitatiu<s n="adj"/></l><r>qualitativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radioactiu<s n="adj"/></l><r>radioattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radioactiu<s n="adj"/></l><r>radioattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radioelèctric<s n="adj"/></l><r>radioelettrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radioelèctric<s n="adj"/></l><r>radioelettrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radiofònic<s n="adj"/></l><r>radiofonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radiofònic<s n="adj"/></l><r>radiofonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radiogràfic<s n="adj"/></l><r>radiografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radiogràfic<s n="adj"/></l><r>radiografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radiològic<s n="adj"/></l><r>radiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radiològic<s n="adj"/></l><r>radiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radiotelevisiu<s n="adj"/></l><r>radiotelevisivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radiotelevisiu<s n="adj"/></l><r>radiotelevisivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>radiotècnic<s n="adj"/></l><r>radiotecnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>radiotècnic<s n="adj"/></l><r>radiotecnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>rapsòdic<s n="adj"/></l><r>rapsodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rapsòdic<s n="adj"/></l><r>rapsodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>reactiu<s n="adj"/></l><r>reattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>reactiu<s n="adj"/></l><r>reattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>recessiu<s n="adj"/></l><r>recessivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>recessiu<s n="adj"/></l><r>recessivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>recitatiu<s n="adj"/></l><r>recitativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>recitatiu<s n="adj"/></l><r>recitativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>rediviu<s n="adj"/></l><r>redivivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rediviu<s n="adj"/></l><r>redivivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>regressiu<s n="adj"/></l><r>regressivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>regressiu<s n="adj"/></l><r>regressivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>relativístic<s n="adj"/></l><r>relativistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>relativístic<s n="adj"/></l><r>relativistico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>remissiu<s n="adj"/></l><r>remissivo<s n="adj"/></r></p></e>
+<e><p><l>remuneratiu<s n="adj"/></l><r>remunerativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>remuneratiu<s n="adj"/></l><r>remunerativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>renà<s n="adj"/></l><r>renano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>renà<s n="adj"/></l><r>renano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>repressiu<s n="adj"/></l><r>repressivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>repressiu<s n="adj"/></l><r>repressivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>retributiu<s n="adj"/></l><r>retributivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>retributiu<s n="adj"/></l><r>retributivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>retroactiu<s n="adj"/></l><r>retroattivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>retroactiu<s n="adj"/></l><r>retroattivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>retòric<s n="adj"/></l><r>retorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>retòric<s n="adj"/></l><r>retorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>reumàtic<s n="adj"/></l><r>reumatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>reumàtic<s n="adj"/></l><r>reumatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>robòtic<s n="adj"/></l><r>robotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>robòtic<s n="adj"/></l><r>robotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>romàntic<s n="adj"/></l><r>romantico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>romàntic<s n="adj"/></l><r>romantico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ruandès<s n="adj"/></l><r>ruandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>rètic<s n="adj"/></l><r>retico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rètic<s n="adj"/></l><r>retico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>rítmic<s n="adj"/></l><r>ritmico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rítmic<s n="adj"/></l><r>ritmico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>rúnic<s n="adj"/></l><r>runico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rúnic<s n="adj"/></l><r>runico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>rústic<s n="adj"/></l><r>rustico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rústic<s n="adj"/></l><r>rustico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>saharià<s n="adj"/></l><r>sahariano<s n="adj"/></r></p></e>
+<e><p><l>salernità<s n="adj"/></l><r>salernitano<s n="adj"/></r></p></e>
+<e><p><l>salesià<s n="adj"/></l><r>salesiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>salesià<s n="adj"/></l><r>salesiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>salomonès<s n="adj"/></l><r>salomonese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>salvífic<s n="adj"/></l><r>salvifico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>salvífic<s n="adj"/></l><r>salvifico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>samarità<s n="adj"/></l><r>samaritano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>samarità<s n="adj"/></l><r>samaritano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>santalucià<s n="adj"/></l><r>santaluciano<s n="adj"/></r></p></e>
+<e><p><l>sanvincentí<s n="adj"/></l><r>sanvincentino<s n="adj"/></r></p></e>
+<e><p><l>sarcàstic<s n="adj"/></l><r>sarcastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sarcàstic<s n="adj"/></l><r>sarcastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sardònic<s n="adj"/></l><r>sardonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sardònic<s n="adj"/></l><r>sardonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>satànic<s n="adj"/></l><r>satanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>satànic<s n="adj"/></l><r>satanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>satíric<s n="adj"/></l><r>satirico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>satíric<s n="adj"/></l><r>satirico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sedatiu<s n="adj"/></l><r>sedativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sedatiu<s n="adj"/></l><r>sedativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>selectiu<s n="adj"/></l><r>selettivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>selectiu<s n="adj"/></l><r>selettivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>selvàtic<s n="adj"/></l><r>selvatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>selvàtic<s n="adj"/></l><r>selvatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>semafòric<s n="adj"/></l><r>semaforico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semafòric<s n="adj"/></l><r>semaforico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>semiautomàtic<s n="adj"/></l><r>semiautomatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semiautomàtic<s n="adj"/></l><r>semiautomatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>semidesèrtic<s n="adj"/></l><r>semidesertico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semidesèrtic<s n="adj"/></l><r>semidesertico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>semiològic<s n="adj"/></l><r>semiologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semiològic<s n="adj"/></l><r>semiologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>semític<s n="adj"/></l><r>semitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semític<s n="adj"/></l><r>semitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>senegalès<s n="adj"/></l><r>senegalese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sensitiu<s n="adj"/></l><r>sensitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sensitiu<s n="adj"/></l><r>sensitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>senès<s n="adj"/></l><r>senese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>serpentí<s n="adj"/></l><r>serpentino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>serpentí<s n="adj"/></l><r>serpentino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>seràfic<s n="adj"/></l><r>serafico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>seràfic<s n="adj"/></l><r>serafico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>seychellès<s n="adj"/></l><r>seychellese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>siamès<s n="adj"/></l><r>siamese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>siberià<s n="adj"/></l><r>siberiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>siberià<s n="adj"/></l><r>siberiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>siderúrgic<s n="adj"/></l><r>siderurgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>siderúrgic<s n="adj"/></l><r>siderurgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sierraleonès<s n="adj"/></l><r>sierraleonese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sifilític<s n="adj"/></l><r>sifilitico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sifilític<s n="adj"/></l><r>sifilitico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>simbòlic<s n="adj"/></l><r>simbolico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>simbòlic<s n="adj"/></l><r>simbolico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>singalès<s n="adj"/></l><r>singalese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>singaporià<s n="adj"/></l><r>singaporiano<s n="adj"/></r></p></e>
+<e><p><l>sintàctic<s n="adj"/></l><r>sintattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sintàctic<s n="adj"/></l><r>sintattico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sintètic<s n="adj"/></l><r>sintetico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sintètic<s n="adj"/></l><r>sintetico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sinusoidal<s n="adj"/></l><r>sinusoidale<s n="adj"/></r></p></e>
+<e><p><l>sinèrgic<s n="adj"/></l><r>sinergico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sinèrgic<s n="adj"/></l><r>sinergico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>siracusà<s n="adj"/></l><r>siracusano<s n="adj"/></r></p></e>
+<e><p><l>sirià<s n="adj"/></l><r>siriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sirià<s n="adj"/></l><r>siriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sismològic<s n="adj"/></l><r>sismologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sismològic<s n="adj"/></l><r>sismologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sistèmic<s n="adj"/></l><r>sistemico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sistèmic<s n="adj"/></l><r>sistemico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>socioeconòmic<s n="adj"/></l><r>socioeconomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>socioeconòmic<s n="adj"/></l><r>socioeconomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>socràtic<s n="adj"/></l><r>socratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>socràtic<s n="adj"/></l><r>socratico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sofístic<s n="adj"/></l><r>sofistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sofístic<s n="adj"/></l><r>sofistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>somàtic<s n="adj"/></l><r>somatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>somàtic<s n="adj"/></l><r>somatico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>sordó<s n="adj"/></l><r>sordo<s n="adj"/></r></p></e>
+<e><p><l>sorià<s n="adj"/></l><r>soriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sorià<s n="adj"/></l><r>soriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>soviètic<s n="adj"/></l><r>sovietico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>soviètic<s n="adj"/></l><r>sovietico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>subalpí<s n="adj"/></l><r>subalpino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subalpí<s n="adj"/></l><r>subalpino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>subsaharià<s n="adj"/></l><r>subsahariano<s n="adj"/></r></p></e>
+<e><p><l>subsònic<s n="adj"/></l><r>subsonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subsònic<s n="adj"/></l><r>subsonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>suburbà<s n="adj"/></l><r>suburbano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>suburbà<s n="adj"/></l><r>suburbano<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>sudafricà<s n="adj"/></l><r>sudafricano<s n="adj"/></r></p></e>
+<e><p><l>sudanès<s n="adj"/></l><r>sudanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>suggestiu<s n="adj"/></l><r>suggestivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>suggestiu<s n="adj"/></l><r>suggestivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>supersònic<s n="adj"/></l><r>supersonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>supersònic<s n="adj"/></l><r>supersonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>surinamès<s n="adj"/></l><r>surinamese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sàdic<s n="adj"/></l><r>sadico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sàdic<s n="adj"/></l><r>sadico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sàlic<s n="adj"/></l><r>salico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sàlic<s n="adj"/></l><r>salico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sèric<s n="adj"/></l><r>serico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sèric<s n="adj"/></l><r>serico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sísmic<s n="adj"/></l><r>sismico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sísmic<s n="adj"/></l><r>sismico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sòdic<s n="adj"/></l><r>sodico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sòdic<s n="adj"/></l><r>sodico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>sònic<s n="adj"/></l><r>sonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sònic<s n="adj"/></l><r>sonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>súper<s n="adj"/><s n="mf"/><s n="sp"/></l><r>super<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>taiwanès<s n="adj"/></l><r>taiwanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>tardogòtic<s n="adj"/></l><r>tardogotico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tardogòtic<s n="adj"/></l><r>tardogotico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tardoromànic<s n="adj"/></l><r>tardoromanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tardoromànic<s n="adj"/></l><r>tardoromanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tasmanià<s n="adj"/></l><r>tasmaniano<s n="adj"/></r></p></e>
+<e><p><l>taumatúrgic<s n="adj"/></l><r>taumaturgico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>taumatúrgic<s n="adj"/></l><r>taumaturgico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>taurí<s n="adj"/></l><r>taurino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>taurí<s n="adj"/></l><r>taurino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tautològic<s n="adj"/></l><r>tautologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tautològic<s n="adj"/></l><r>tautologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>telegràfic<s n="adj"/></l><r>telegrafico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>telegràfic<s n="adj"/></l><r>telegrafico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>telegènic<s n="adj"/></l><r>telegenico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>telegènic<s n="adj"/></l><r>telegenico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>telemàtic<s n="adj"/></l><r>telematico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>telemàtic<s n="adj"/></l><r>telematico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>telepàtic<s n="adj"/></l><r>telepatico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>telepàtic<s n="adj"/></l><r>telepatico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>telescòpic<s n="adj"/></l><r>telescopico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>telescòpic<s n="adj"/></l><r>telescopico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tempestiu<s n="adj"/></l><r>tempestivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tempestiu<s n="adj"/></l><r>tempestivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>temàtic<s n="adj"/></l><r>tematico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>temàtic<s n="adj"/></l><r>tematico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teocràtic<s n="adj"/></l><r>teocratico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teocràtic<s n="adj"/></l><r>teocratico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teològic<s n="adj"/></l><r>teologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teològic<s n="adj"/></l><r>teologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teorètic<s n="adj"/></l><r>teoretico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teorètic<s n="adj"/></l><r>teoretico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teosòfic<s n="adj"/></l><r>teosofico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teosòfic<s n="adj"/></l><r>teosofico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>terminològic<s n="adj"/></l><r>terminologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>terminològic<s n="adj"/></l><r>terminologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>termodinàmic<s n="adj"/></l><r>termodinamico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>termodinàmic<s n="adj"/></l><r>termodinamico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>termoelèctric<s n="adj"/></l><r>termoelettrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>termoelèctric<s n="adj"/></l><r>termoelettrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>termoplàstic<s n="adj"/></l><r>termoplastico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>termoplàstic<s n="adj"/></l><r>termoplastico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teutònic<s n="adj"/></l><r>teutonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teutònic<s n="adj"/></l><r>teutonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>texà<s n="adj"/></l><r>texano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>texà<s n="adj"/></l><r>texano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>teòric<s n="adj"/></l><r>teorico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teòric<s n="adj"/></l><r>teorico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tiberí<s n="adj"/></l><r>tiberino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tiberí<s n="adj"/></l><r>tiberino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>timorès<s n="adj"/></l><r>timorese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>timpànic<s n="adj"/></l><r>timpanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>timpànic<s n="adj"/></l><r>timpanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tipogràfic<s n="adj"/></l><r>tipografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tipogràfic<s n="adj"/></l><r>tipografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tipològic<s n="adj"/></l><r>tipologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tipològic<s n="adj"/></l><r>tipologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tirolès<s n="adj"/></l><r>tirolese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>titànic<s n="adj"/></l><r>titanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>titànic<s n="adj"/></l><r>titanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>togolès<s n="adj"/></l><r>togolese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>topogràfic<s n="adj"/></l><r>topografico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>topogràfic<s n="adj"/></l><r>topografico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>toràcic<s n="adj"/></l><r>toracico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>toràcic<s n="adj"/></l><r>toracico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>totèmic<s n="adj"/></l><r>totemico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>totèmic<s n="adj"/></l><r>totemico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tragicòmic<s n="adj"/></l><r>tragicomico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tragicòmic<s n="adj"/></l><r>tragicomico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>transitiu<s n="adj"/></l><r>transitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>transitiu<s n="adj"/></l><r>transitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>transoceànic<s n="adj"/></l><r>transoceanico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>transoceànic<s n="adj"/></l><r>transoceanico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>traumatològic<s n="adj"/></l><r>traumatologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>traumatològic<s n="adj"/></l><r>traumatologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>trentí<s n="adj"/></l><r>trentino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>trentí<s n="adj"/></l><r>trentino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>triestí<s n="adj"/></l><r>triestino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>triestí<s n="adj"/></l><r>triestino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tràgic<s n="adj"/></l><r>tragico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tràgic<s n="adj"/></l><r>tragico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tuvalià<s n="adj"/></l><r>tuvaliano<s n="adj"/></r></p></e>
+<e><p><l>tàctic<s n="adj"/></l><r>tattico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tàctic<s n="adj"/></l><r>tattico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tènue<s n="adj"/></l><r>tenue<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tènue<s n="adj"/></l><r>tenue<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tèrmic<s n="adj"/></l><r>termico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tèrmic<s n="adj"/></l><r>termico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tímbric<s n="adj"/></l><r>timbrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tímbric<s n="adj"/></l><r>timbrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>típic<s n="adj"/></l><r>tipico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>típic<s n="adj"/></l><r>tipico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>tònic<s n="adj"/></l><r>tonico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tònic<s n="adj"/></l><r>tonico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ugandès<s n="adj"/></l><r>ugandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>urbanístic<s n="adj"/></l><r>urbanistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>urbanístic<s n="adj"/></l><r>urbanistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>urdú<s n="adj"/><s n="mf"/></l><r>urdu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>urològic<s n="adj"/></l><r>urologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>urològic<s n="adj"/></l><r>urologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>uruguaià<s n="adj"/></l><r>uruguaiano<s n="adj"/></r></p></e>
+<e><p><l>valdès<s n="adj"/></l><r>valdese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>vandàlic<s n="adj"/></l><r>vandalico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vandàlic<s n="adj"/></l><r>vandalico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vaticà<s n="adj"/></l><r>vaticano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vaticà<s n="adj"/></l><r>vaticano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vegetarià<s n="adj"/></l><r>vegetariano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vegetarià<s n="adj"/></l><r>vegetariano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vegetatiu<s n="adj"/></l><r>vegetativo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vegetatiu<s n="adj"/></l><r>vegetativo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>venusià<s n="adj"/></l><r>venusiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>venusià<s n="adj"/></l><r>venusiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>verginià<s n="adj"/></l><r>verginiano<s n="adj"/></r></p></e>
+<e><p><l>veronès<s n="adj"/></l><r>veronese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>verídic<s n="adj"/></l><r>veridico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>verídic<s n="adj"/></l><r>veridico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vespertí<s n="adj"/></l><r>vespertino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vespertí<s n="adj"/></l><r>vespertino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vesuvià<s n="adj"/></l><r>vesuviano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vesuvià<s n="adj"/></l><r>vesuviano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>veterà<s n="adj"/></l><r>veterano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>veterà<s n="adj"/></l><r>veterano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vicentí<s n="adj"/></l><r>vicentino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vicentí<s n="adj"/></l><r>vicentino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>victorià<s n="adj"/></l><r>vittoriano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>victorià<s n="adj"/></l><r>vittoriano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>violinístic<s n="adj"/></l><r>violinistico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>violinístic<s n="adj"/></l><r>violinistico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>viperí<s n="adj"/></l><r>viperino<s n="adj"/></r></p></e>
+<e r="RL"><p><l>viperí<s n="adj"/></l><r>viperino<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>virològic<s n="adj"/></l><r>virologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>virològic<s n="adj"/></l><r>virologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>visiu<s n="adj"/></l><r>visivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>visiu<s n="adj"/></l><r>visivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vitamínic<s n="adj"/></l><r>vitaminico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vitamínic<s n="adj"/></l><r>vitaminico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vocàlic<s n="adj"/></l><r>vocalico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vocàlic<s n="adj"/></l><r>vocalico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>volitiu<s n="adj"/></l><r>volitivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>volitiu<s n="adj"/></l><r>volitivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>voltairià<s n="adj"/></l><r>voltairiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>voltairià<s n="adj"/></l><r>voltairiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>volumètric<s n="adj"/></l><r>volumetrico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>volumètric<s n="adj"/></l><r>volumetrico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>votiu<s n="adj"/></l><r>votivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>votiu<s n="adj"/></l><r>votivo<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>vulcanològic<s n="adj"/></l><r>vulcanologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vulcanològic<s n="adj"/></l><r>vulcanologico<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR"><p><l>vulcànic<s n="adj"/></l><r>vulcanico<s n="adj"/></r></p></e>
+<e><p><l>vèlic<s n="adj"/></l><r>velico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vèlic<s n="adj"/></l><r>velico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>weberià<s n="adj"/></l><r>weberiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>weberià<s n="adj"/></l><r>weberiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>whitmanià<s n="adj"/></l><r>whitmaniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>whitmanià<s n="adj"/></l><r>whitmaniano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>zairès<s n="adj"/></l><r>zairese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>zambià<s n="adj"/></l><r>zambiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zambià<s n="adj"/></l><r>zambiano<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>zoològic<s n="adj"/></l><r>zoologico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zoològic<s n="adj"/></l><r>zoologico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>zoomòrfic<s n="adj"/></l><r>zoomorfico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zoomòrfic<s n="adj"/></l><r>zoomorfico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>zootècnic<s n="adj"/></l><r>zootecnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zootècnic<s n="adj"/></l><r>zootecnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>zulú<s n="adj"/><s n="mf"/></l><r>zulu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>àrtic<s n="adj"/></l><r>artico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>àrtic<s n="adj"/></l><r>artico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>àulic<s n="adj"/></l><r>aulico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>àulic<s n="adj"/></l><r>aulico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ètnic<s n="adj"/></l><r>etnico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ètnic<s n="adj"/></l><r>etnico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>íctic<s n="adj"/></l><r>ittico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>íctic<s n="adj"/></l><r>ittico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>índic<s n="adj"/></l><r>indico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>índic<s n="adj"/></l><r>indico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ístmic<s n="adj"/></l><r>istmico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ístmic<s n="adj"/></l><r>istmico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>òrfic<s n="adj"/></l><r>orfico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>òrfic<s n="adj"/></l><r>orfico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>úric<s n="adj"/></l><r>urico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>úric<s n="adj"/></l><r>urico<s n="adj"/><s n="sup"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -6729,7 +8373,6 @@
 <e>       <p><l>desastre<s n="n"/><s n="m"/></l>       <r>disastro<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>desballestament<s n="n"/><s n="m"/></l><r>demolizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>descens<s n="n"/><s n="m"/></l>        <r>retrocessione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>descentralització<s n="n"/></l>        <r>devoluzione<s n="n"/></r></p></e>
 <e>       <p><l>descentralització<s n="n"/></l>        <r>decentralizzazione<s n="n"/></r></p></e>
 <e>       <p><l>descomposició<s n="n"/></l>            <r>decomposizione<s n="n"/></r></p></e>
 <e>       <p><l>desconfiança<s n="n"/></l>             <r>diffidenza<s n="n"/></r></p></e>
@@ -6786,7 +8429,7 @@
 <e>       <p><l>deute<s n="n"/><s n="m"/></l>          <r>debito<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>devessall<s n="n"/><s n="m"/></l>      <r>valanga<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>devoció<s n="n"/></l>                  <r>devozione<s n="n"/></r></p></e>
-<e r="LR"><p><l>devolució<s n="n"/><s n="f"/></l>      <r>rimborso<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>remborsament<s n="n"/><s n="m"/></l>   <r>rimborso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>dia<s n="n"/></l>                      <r>giorno<s n="n"/></r></p></e>
 <e r="RL"><p><l>bon<b/>dia<s n="ij"/></l>              <r>buongiorno<s n="ij"/></r></p></e>
 <e r="LR"><p><l>diable<s n="n"/><s n="f"/></l>         <r>diavolo<s n="n"/><s n="m"/></r></p></e>
@@ -6846,7 +8489,6 @@
 <e r="RL"><p><l>subdirectori<s n="n"/><s n="m"/></l>   <r>subdirectory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>subdirectori<s n="n"/><s n="m"/></l>   <r>sottodirectory<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>directriu<s n="n"/></l>                <r>direttrice<s n="n"/></r></p></e>
-<e>       <p><l>directriu<s n="n"/><s n="f"/></l>      <r>direttiva<s n="n"/></r></p></e>
 <e>       <p><l>dirigent<s n="n"/></l>                 <r>dirigente<s n="n"/></r></p></e>
 <e>       <p><l>dirigible<s n="n"/></l>                <r>dirigibile<s n="n"/></r></p></e>
 <e>       <p><l>disc<s n="n"/></l>                     <r>disco<s n="n"/></r></p></e>
@@ -7250,7 +8892,7 @@
 <e>       <p><l>estàndard<s n="n"/><s n="m"/></l>      <r>standard<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>estàtua<s n="n"/></l>                  <r>statua<s n="n"/></r></p></e>
 <e>       <p><l>estètica<s n="n"/></l>                 <r>estetica<s n="n"/></r></p></e>
-<e>       <p><l>estímul<s n="n"/><s n="m"/></l>        <r>incentivazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>estímul<s n="n"/><s n="m"/></l>        <r>stimolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>estómac<s n="n"/></l>                  <r>stomaco<s n="n"/></r></p></e>
 <e>       <p><l>estómec<s n="n"/></l>                  <r>stomaco<s n="n"/></r></p></e>
 <e>       <p><l>etapa<s n="n"/></l>                    <r>tappa<s n="n"/></r></p></e>
@@ -9354,7 +10996,7 @@
 <e>       <p><l>progrés<s n="n"/></l>                  <r>progresso<s n="n"/></r></p></e>
 <e>       <p><l>prohibició<s n="n"/><s n="f"/></l>     <r>divieto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>projecció<s n="n"/></l>                <r>proiezione<s n="n"/></r></p></e>
-<e>       <p><l>implantació<s n="n"/><s n="f"/></l>    <r>instaurazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>implantació<s n="n"/><s n="f"/></l>    <r>instaurazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>implantació<s n="n"/><s n="f"/></l>    <r>impianto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>projecte<s n="n"/></l>                 <r>progetto<s n="n"/></r></p></e>
 <e>       <p><l>projectil<s n="n"/></l>                <r>proiettile<s n="n"/></r></p></e>
@@ -9525,7 +11167,7 @@
 <e>       <p><l>refracció<s n="n"/></l>                <r>rifrazione<s n="n"/></r></p></e>
 <e>       <p><l>refredat<s n="n"/></l>                 <r>raffreddore<s n="n"/></r></p></e>
 <e>       <p><l>refrigeració<s n="n"/></l>             <r>refrigerazione<s n="n"/></r></p></e>
-<e>       <p><l>reg<s n="n"/><s n="m"/></l>            <r>irrigazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>reg<s n="n"/><s n="m"/></l>            <r>irrigazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>regal<s n="n"/></l>                    <r>dono<s n="n"/></r></p></e>
 <e>       <p><l>regata<s n="n"/></l>                   <r>regata<s n="n"/></r></p></e>
 <e r="LR"><p><l>regatge<s n="n"/><s n="m"/></l>        <r>irrigazione<s n="n"/><s n="f"/></r></p></e>
@@ -11554,7 +13196,7 @@
 <e r="LR" a="hector"><p><l>prec<s n="n"/><s n="m"/></l><r>supplica<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>requeriment<s n="n"/><s n="m"/></l><r>richiesta<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>requeriment<b/>judicial<s n="n"/><s n="m"/></l><r>ingiunzione<s n="n"/><s n="f"/></r></p></e>
-<e a="wiktionary"><p><l>pregó<s n="n"/><s n="m"/></l>  <r>proclamazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="wiktionary"><p><l>pregó<s n="n"/><s n="m"/></l>  <r>proclamazione<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>pressentiment<s n="n"/><s n="m"/></l><r>presentimento<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>préstec<s n="n"/><s n="m"/></l><r>prestito<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>primogènit<s n="n"/><s n="m"/></l><r>primogenito<s n="n"/><s n="m"/></r></p></e>
@@ -12036,7 +13678,6 @@
 <e r="RL" a="wiktionary"><p><l>cordó<s n="n"/><s n="m"/></l><r>cordellina<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>disfressa<s n="n"/><s n="f"/></l><r>travestimento<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>enginy<s n="n"/><s n="m"/></l><r>arguzia<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="wiktionary"><p><l>enumeració<s n="n"/><s n="f"/></l><r>numerazione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>escac<s n="n"/><s n="m"/></l><r>scacco<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>esquirol<s n="n"/><s n="m"/></l><r>crumiro<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="wiktionary"><p><l>esquí<s n="n"/><s n="m"/></l><r>pattino<s n="n"/><s n="m"/></r></p></e>
@@ -12738,6 +14379,435 @@
 <e><p><l>sushi<s n="n"/><s n="m"/><s n="sg"/></l><r>sushi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>webcam<s n="n"/><s n="f"/></l><r>webcam<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunità<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>abrogació<s n="n"/><s n="f"/></l><r>abrogazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>accentuació<s n="n"/><s n="f"/></l><r>accentuazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>acrimònia<s n="n"/><s n="f"/></l><r>acrimonia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>activació<s n="n"/><s n="f"/></l><r>attivazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>aeronàutica<s n="n"/><s n="f"/></l><r>aeronautica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>aeroplà<s n="n"/><s n="m"/></l><r>aeroplano<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>aerostació<s n="n"/><s n="f"/></l><r>aerostazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>afgà<s n="n"/></l><r>afgano<s n="n"/></r></p></e>
+<e><p><l>afroamericà<s n="n"/></l><r>afroamericano<s n="n"/></r></p></e>
+<e r="LR"><p><l>algerí<s n="n"/></l><r>algerino<s n="n"/></r></p></e>
+<e><p><l>alíquota<s n="n"/><s n="f"/></l><r>aliquota<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ambientació<s n="n"/><s n="f"/></l><r>ambientazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>amplificació<s n="n"/><s n="f"/></l><r>amplificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>amputació<s n="n"/><s n="f"/></l><r>amputazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>analgèsic<s n="n"/><s n="m"/></l><r>analgesico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anglicà<s n="n"/></l><r>anglicano<s n="n"/></r></p></e>
+<e><p><l>anglofília<s n="n"/><s n="f"/></l><r>anglofilia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>angolès<s n="n"/></l><r>angolese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>antidepressiu<s n="n"/><s n="m"/></l><r>antidepressivo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arca<s n="n"/><s n="f"/></l><r>arca<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>arpità<s n="n"/></l><r>arpitano<s n="n"/></r></p></e>
+<e><p><l>asserció<s n="n"/><s n="f"/></l><r>asserzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>astrofísic<s n="n"/></l><r>astrofisico<s n="n"/></r></p></e>
+<e><p><l>astrofísica<s n="n"/><s n="f"/></l><r>astrofisica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>atlàntic<s n="n"/></l><r>atlantico<s n="n"/></r></p></e>
+<e><p><l>audàcia<s n="n"/><s n="f"/></l><r>audacia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>autenticació<s n="n"/><s n="f"/></l><r>autenticazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>autoanàlisi<s n="n"/><s n="f"/></l><r>autoanalisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>autodeterminació<s n="n"/><s n="f"/></l><r>autodeterminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>autolimitació<s n="n"/><s n="f"/></l><r>autolimitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>automació<s n="n"/><s n="f"/></l><r>automazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>aviació<s n="n"/><s n="f"/></l><r>aviazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>avocació<s n="n"/><s n="f"/></l><r>avocazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>bahamià<s n="n"/></l><r>bahamiano<s n="n"/></r></p></e>
+<e><p><l>balística<s n="n"/><s n="f"/></l><r>balistica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>barbadià<s n="n"/></l><r>barbadiano<s n="n"/></r></p></e>
+<e><p><l>bavarès<s n="n"/></l><r>bavarese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>beatificació<s n="n"/><s n="f"/></l><r>beatificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>beduí<s n="n"/></l><r>beduino<s n="n"/></r></p></e>
+<e><p><l>beninès<s n="n"/></l><r>beninese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>berlinès<s n="n"/></l><r>berlinese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bermudià<s n="n"/></l><r>bermudiano<s n="n"/></r></p></e>
+<e><p><l>bimotor<s n="n"/><s n="m"/></l><r>bimotore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bizantí<s n="n"/></l><r>bizantino<s n="n"/></r></p></e>
+<e><p><l>bordó<s n="n"/><s n="m"/></l><r>bordone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>botswanès<s n="n"/></l><r>botswanese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>bruneiès<s n="n"/></l><r>bruneiese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>burkinès<s n="n"/></l><r>burkinese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>burundès<s n="n"/></l><r>burundese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>calcificació<s n="n"/><s n="f"/></l><r>calcificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>californià<s n="n"/></l><r>californiano<s n="n"/></r></p></e>
+<e><p><l>camerunès<s n="n"/></l><r>camerunese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>cantautor<s n="n"/></l><r>cantautore<s n="n"/></r></p></e>
+<e><p><l>deliberació<s n="n"/><s n="f"/></l><r>deliberazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>delimitació<s n="n"/><s n="f"/></l><r>delimitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>denigració<s n="n"/><s n="f"/></l><r>denigrazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dentició<s n="n"/><s n="f"/></l><r>dentizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>deportació<s n="n"/><s n="f"/></l><r>deportazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>deposició<s n="n"/><s n="f"/></l><r>deposizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>derivació<s n="n"/><s n="f"/></l><r>derivazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>desertificació<s n="n"/><s n="f"/></l><r>desertificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>designació<s n="n"/><s n="f"/></l><r>designazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>desolació<s n="n"/><s n="f"/></l><r>desolazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>detentor<s n="n"/></l><r>detentore<s n="n"/></r></p></e>
+<e><p><l>detonació<s n="n"/><s n="f"/></l><r>detonazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>detractor<s n="n"/></l><r>detrattore<s n="n"/></r></p></e>
+<e><p><l>devastació<s n="n"/><s n="f"/></l><r>devastazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>devolució<s n="n"/><s n="f"/></l><r>devoluzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dialectologia<s n="n"/><s n="f"/></l><r>dialettologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>digestiu<s n="n"/><s n="m"/></l><r>digestivo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>digitació<s n="n"/><s n="f"/></l><r>digitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dilació<s n="n"/><s n="f"/></l><r>dilazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dilatació<s n="n"/><s n="f"/></l><r>dilatazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dinàmica<s n="n"/><s n="f"/></l><r>dinamica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>directiva<s n="n"/><s n="f"/></l><r>direttiva<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>disgregació<s n="n"/><s n="f"/></l><r>disgregazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>disquisició<s n="n"/><s n="f"/></l><r>disquisizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dissimulació<s n="n"/><s n="f"/></l><r>dissimulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dissipació<s n="n"/><s n="f"/></l><r>dissipazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dissociació<s n="n"/><s n="f"/></l><r>dissociazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>distinció<s n="n"/><s n="f"/></l><r>distinzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>divagació<s n="n"/><s n="f"/></l><r>divagazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>diversificació<s n="n"/><s n="f"/></l><r>diversificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>divulgació<s n="n"/><s n="f"/></l><r>divulgazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>diàlisi<s n="n"/><s n="f"/></l><r>dialisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>dièsel<s n="n"/><s n="m"/></l><r>diesel<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>domesticació<s n="n"/><s n="f"/></l><r>domesticazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dominació<s n="n"/><s n="f"/></l><r>dominazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dominicà<s n="n"/></l><r>dominicano<s n="n"/></r></p></e>
+<e r="LR"><p><l>dominó<s n="n"/><s n="m"/></l><r>domino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>domèstic<s n="n"/></l><r>domestico<s n="n"/></r></p></e>
+<e><p><l>duplicació<s n="n"/><s n="f"/></l><r>duplicazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>elector<s n="n"/></l><r>elettore<s n="n"/></r></p></e>
+<e><p><l>electrònica<s n="n"/><s n="f"/></l><r>elettronica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>elevació<s n="n"/><s n="f"/></l><r>elevazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>emanació<s n="n"/><s n="f"/></l><r>emanazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>emigració<s n="n"/><s n="f"/></l><r>emigrazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>emulació<s n="n"/><s n="f"/></l><r>emulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>encíclica<s n="n"/><s n="f"/></l><r>enciclica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>enunciació<s n="n"/><s n="f"/></l><r>enunciazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>equació<s n="n"/><s n="f"/></l><r>equazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>equiparació<s n="n"/><s n="f"/></l><r>equiparazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>equitació<s n="n"/><s n="f"/></l><r>equitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>erudició<s n="n"/><s n="f"/></l><r>erudizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>esca<s n="n"/><s n="f"/></l><r>esca<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>eufòria<s n="n"/><s n="f"/></l><r>euforia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>euríbor<s n="n"/><s n="m"/><s n="sg"/></l><r>euribor<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>fabulació<s n="n"/><s n="f"/></l><r>fabulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>facilitació<s n="n"/><s n="f"/></l><r>facilitazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>factoria<s n="n"/><s n="f"/></l><r>fattoria<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>facturació<s n="n"/><s n="f"/></l><r>fatturazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>falsificació<s n="n"/><s n="f"/></l><r>falsificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fanal<s n="n"/><s n="m"/></l><r>fanale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>fascinació<s n="n"/><s n="f"/></l><r>fascinazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fermió<s n="n"/><s n="m"/></l><r>fermione<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>feroès<s n="n"/></l><r>feroese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>festí<s n="n"/><s n="m"/></l><r>festino<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>fidúcia<s n="n"/><s n="f"/></l><r>fiducia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>figuració<s n="n"/><s n="f"/></l><r>figurazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fijià<s n="n"/></l><r>fijiano<s n="n"/></r></p></e>
+<e><p><l>filatèlia<s n="n"/><s n="f"/></l><r>filatelia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>filiació<s n="n"/><s n="f"/></l><r>filiazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>flebòclisi<s n="n"/><s n="f"/></l><r>fleboclisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>fonètica<s n="n"/><s n="f"/></l><r>fonetica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>forestació<s n="n"/><s n="f"/></l><r>forestazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>formulació<s n="n"/><s n="f"/></l><r>formulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fortí<s n="n"/><s n="m"/></l><r>fortino<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>fàscia<s n="n"/><s n="f"/></l><r>fascia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gabonès<s n="n"/></l><r>gabonese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>gambià<s n="n"/></l><r>gambiano<s n="n"/></r></p></e>
+<e><p><l>geminació<s n="n"/><s n="f"/></l><r>geminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>genòmica<s n="n"/><s n="f"/></l><r>genomica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>georgià<s n="n"/></l><r>georgiano<s n="n"/></r></p></e>
+<e><p><l>germinació<s n="n"/><s n="f"/></l><r>germinazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gestor<s n="n"/></l><r>gestore<s n="n"/></r></p></e>
+<e><p><l>ghanès<s n="n"/></l><r>ghanese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>glaciació<s n="n"/><s n="f"/></l><r>glaciazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>glorificació<s n="n"/><s n="f"/></l><r>glorificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gradació<s n="n"/><s n="f"/></l><r>gradazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>graduació<s n="n"/><s n="f"/></l><r>graduazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gratificació<s n="n"/><s n="f"/></l><r>gratificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gravitació<s n="n"/><s n="f"/></l><r>gravitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>grenadí<s n="n"/></l><r>grenadino<s n="n"/></r></p></e>
+<e><p><l>gràfica<s n="n"/><s n="f"/></l><r>grafica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>guaianès<s n="n"/></l><r>guaianese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>guamès<s n="n"/></l><r>guamese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>guineà<s n="n"/></l><r>guineano<s n="n"/></r></p></e>
+<e><p><l>haitià<s n="n"/></l><r>haitiano<s n="n"/></r></p></e>
+<e r="LR"><p><l>hàndicap<s n="n"/><s n="m"/></l><r>handicap<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>hòlding<s n="n"/><s n="m"/></l><r>holding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>ideació<s n="n"/><s n="f"/></l><r>ideazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>impostor<s n="n"/><s n="m"/></l><r>impostore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>inactivació<s n="n"/><s n="f"/></l><r>inattivazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>incentivació<s n="n"/><s n="f"/></l><r>incentivazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>incriminació<s n="n"/><s n="f"/></l><r>incriminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>incubació<s n="n"/><s n="f"/></l><r>incubazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>incògnita<s n="n"/><s n="f"/></l><r>incognita<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>indeterminació<s n="n"/><s n="f"/></l><r>indeterminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>indiscreció<s n="n"/><s n="f"/></l><r>indiscrezione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>infeudació<s n="n"/><s n="f"/></l><r>infeudazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>informàtic<s n="n"/></l><r>informatico<s n="n"/></r></p></e>
+<e><p><l>informàtica<s n="n"/><s n="f"/></l><r>informatica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>innervació<s n="n"/><s n="f"/></l><r>innervazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>inquilí<s n="n"/></l><r>inquilino<s n="n"/></r></p></e>
+<e><p><l>inquisició<s n="n"/><s n="f"/></l><r>inquisizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>inseminació<s n="n"/><s n="f"/></l><r>inseminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>insinuació<s n="n"/><s n="f"/></l><r>insinuazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>insolació<s n="n"/><s n="f"/></l><r>insolazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>instauració<s n="n"/><s n="f"/></l><r>instaurazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>insubordinació<s n="n"/><s n="f"/></l><r>insubordinazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>intensificació<s n="n"/><s n="f"/></l><r>intensificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>intepretació<s n="n"/><s n="f"/></l><r>intepretazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>intermediació<s n="n"/><s n="f"/></l><r>intermediazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>interpolació<s n="n"/><s n="f"/></l><r>interpolazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>interposició<s n="n"/><s n="f"/></l><r>interposizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>interrelació<s n="n"/><s n="f"/></l><r>interrelazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>intimació<s n="n"/><s n="f"/></l><r>intimazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>invenció<s n="n"/><s n="f"/></l><r>invenzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>inventor<s n="n"/></l><r>inventore<s n="n"/></r></p></e>
+<e><p><l>invocació<s n="n"/><s n="f"/></l><r>invocazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>involució<s n="n"/><s n="f"/></l><r>involuzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>irradiació<s n="n"/><s n="f"/></l><r>irradiazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>irrigació<s n="n"/><s n="f"/></l><r>irrigazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>islandès<s n="n"/></l><r>islandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>italoamericà<s n="n"/></l><r>italoamericano<s n="n"/></r></p></e>
+<e><p><l>iteració<s n="n"/><s n="f"/></l><r>iterazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ivorià<s n="n"/></l><r>ivoriano<s n="n"/></r></p></e>
+<e><p><l>kenià<s n="n"/></l><r>keniano<s n="n"/></r></p></e>
+<e><p><l>kuwaitià<s n="n"/></l><r>kuwaitiano<s n="n"/></r></p></e>
+<e r="LR"><p><l>lactació<s n="n"/><s n="f"/></l><r>lattazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ladí<s n="n"/></l><r>ladino<s n="n"/></r></p></e>
+<e><p><l>laosià<s n="n"/></l><r>laosiano<s n="n"/></r></p></e>
+<e><p><l>lapidació<s n="n"/><s n="f"/></l><r>lapidazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>lateral<s n="n"/><s n="m"/></l><r>laterale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lavandí<s n="n"/><s n="m"/></l><r>lavandino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>legació<s n="n"/><s n="f"/></l><r>legazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>lesothià<s n="n"/></l><r>lesothiano<s n="n"/></r></p></e>
+<e><p><l>levitació<s n="n"/><s n="f"/></l><r>levitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>libanès<s n="n"/></l><r>libanese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>liberià<s n="n"/></l><r>liberiano<s n="n"/></r></p></e>
+<e><p><l>licitació<s n="n"/><s n="f"/></l><r>licitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>lionès<s n="n"/></l><r>lionese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>liquidació<s n="n"/><s n="f"/></l><r>liquidazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>loció<s n="n"/><s n="f"/></l><r>lozione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>locomoció<s n="n"/><s n="f"/></l><r>locomozione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>locutor<s n="n"/><s n="m"/></l><r>locutore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>logudorès<s n="n"/></l><r>logudorese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>lusità<s n="n"/></l><r>lusitano<s n="n"/></r></p></e>
+<e><p><l>luterà<s n="n"/></l><r>luterano<s n="n"/></r></p></e>
+<e><p><l>luzonià<s n="n"/></l><r>luzoniano<s n="n"/></r></p></e>
+<e><p><l>lírica<s n="n"/><s n="f"/></l><r>lirica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>maceració<s n="n"/><s n="f"/></l><r>macerazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>macrobiòtica<s n="n"/><s n="f"/></l><r>macrobiotica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>madrigal<s n="n"/><s n="m"/></l><r>madrigale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>malawià<s n="n"/></l><r>malawiano<s n="n"/></r></p></e>
+<e><p><l>maldivià<s n="n"/></l><r>maldiviano<s n="n"/></r></p></e>
+<e><p><l>malfactor<s n="n"/></l><r>malfattore<s n="n"/></r></p></e>
+<e><p><l>malià<s n="n"/></l><r>maliano<s n="n"/></r></p></e>
+<e><p><l>malnutrició<s n="n"/><s n="f"/></l><r>malnutrizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>maltès<s n="n"/></l><r>maltese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>malversació<s n="n"/><s n="f"/></l><r>malversazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>malària<s n="n"/><s n="f"/></l><r>malaria<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>manutenció<s n="n"/><s n="f"/></l><r>sostentamento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>marshallès<s n="n"/></l><r>marshallese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>massificació<s n="n"/><s n="f"/></l><r>massificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mastí<s n="n"/><s n="m"/></l><r>mastino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>maurità<s n="n"/></l><r>mauritano<s n="n"/></r></p></e>
+<e><p><l>medicació<s n="n"/><s n="f"/></l><r>medicazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>memorial<s n="n"/><s n="m"/></l><r>memoriale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>menció<s n="n"/><s n="f"/></l><r>menzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mentor<s n="n"/></l><r>mentore<s n="n"/></r></p></e>
+<e><p><l>mesoteràpia<s n="n"/><s n="f"/></l><r>mesoterapia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>metafísica<s n="n"/><s n="f"/></l><r>metafisica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>metropolità<s n="n"/><s n="m"/></l><r>metropolitano<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>micronesià<s n="n"/></l><r>micronesiano<s n="n"/></r></p></e>
+<e><p><l>minisèrie<s n="n"/><s n="f"/></l><r>miniserie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>minoració<s n="n"/><s n="f"/></l><r>minorazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>misericòrdia<s n="n"/><s n="f"/></l><r>misericordia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mistificació<s n="n"/><s n="f"/></l><r>mistificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>misèria<s n="n"/><s n="f"/></l><r>miseria<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mocassí<s n="n"/><s n="m"/></l><r>mocassino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>moció<s n="n"/><s n="f"/></l><r>mozione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>moderació<s n="n"/><s n="f"/></l><r>moderazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>modulació<s n="n"/><s n="f"/></l><r>modulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mortificació<s n="n"/><s n="f"/></l><r>mortificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>màster<s n="n"/><s n="m"/></l><r>master<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>móra<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>namibià<s n="n"/></l><r>namibiano<s n="n"/></r></p></e>
+<e><p><l>negatiu<s n="n"/><s n="m"/></l><r>negativo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>neocaledonià<s n="n"/></l><r>neocaledoniano<s n="n"/></r></p></e>
+<e><p><l>neoformació<s n="n"/><s n="f"/></l><r>neoformazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>neurogènesi<s n="n"/><s n="f"/></l><r>neurogenesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>nidificació<s n="n"/><s n="f"/></l><r>nidificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nigerí<s n="n"/></l><r>nigerino<s n="n"/></r></p></e>
+<e><p><l>noció<s n="n"/><s n="f"/></l><r>nozione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>norfolkès<s n="n"/></l><r>norfolkese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>numeració<s n="n"/><s n="f"/></l><r>numerazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>numismàtica<s n="n"/><s n="f"/></l><r>numismatica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nèmesi<s n="n"/><s n="m"/></l><r>nemesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>oblació<s n="n"/><s n="f"/></l><r>oblazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ondulació<s n="n"/><s n="f"/></l><r>ondulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>opció<s n="n"/><s n="f"/></l><r>opzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>oració<s n="n"/><s n="f"/></l><r>orazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ostentació<s n="n"/><s n="f"/></l><r>ostentazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ovació<s n="n"/><s n="f"/></l><r>ovazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>oval<s n="n"/><s n="m"/></l><r>ovale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ovulació<s n="n"/><s n="f"/></l><r>ovulazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pacificació<s n="n"/><s n="f"/></l><r>pacificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>paladí<s n="n"/><s n="m"/></l><r>paladino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>palauà<s n="n"/></l><r>palauano<s n="n"/></r></p></e>
+<e><p><l>palpitació<s n="n"/><s n="f"/></l><r>palpitazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pandèmia<s n="n"/><s n="f"/></l><r>pandemia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>parificació<s n="n"/><s n="f"/></l><r>parificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>partició<s n="n"/><s n="f"/></l><r>partizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>paràfrasi<s n="n"/><s n="f"/></l><r>parafrasi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>passiu<s n="n"/><s n="m"/></l><r>passivo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pavimentació<s n="n"/><s n="f"/></l><r>pavimentazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pedal<s n="n"/><s n="m"/></l><r>pedale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>perdició<s n="n"/><s n="f"/></l><r>perdizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perequació<s n="n"/><s n="f"/></l><r>perequazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perifèria<s n="n"/><s n="f"/></l><r>periferia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>peroració<s n="n"/><s n="f"/></l><r>perorazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perpetuació<s n="n"/><s n="f"/></l><r>perpetuazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perífrasi<s n="n"/><s n="f"/></l><r>perifrasi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>pigmentació<s n="n"/><s n="f"/></l><r>pigmentazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>plètora<s n="n"/><s n="f"/></l><r>pletora<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>poció<s n="n"/><s n="f"/></l><r>pozione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>politècnic<s n="n"/><s n="m"/></l><r>politecnico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>poliuretà<s n="n"/><s n="m"/></l><r>poliuretano<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ponderació<s n="n"/><s n="f"/></l><r>ponderazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>portal<s n="n"/><s n="m"/></l><r>portale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pragmàtica<s n="n"/><s n="f"/></l><r>pragmatica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>precaució<s n="n"/><s n="f"/></l><r>precauzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>precondició<s n="n"/><s n="f"/></l><r>precondizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>predeterminació<s n="n"/><s n="f"/></l><r>predeterminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>prefiguració<s n="n"/><s n="f"/></l><r>prefigurazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>prelació<s n="n"/><s n="f"/></l><r>prelazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>premeditació<s n="n"/><s n="f"/></l><r>premeditazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>premonició<s n="n"/><s n="f"/></l><r>premonizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>preparació<s n="n"/><s n="f"/></l><r>preparazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>preparatiu<s n="n"/><s n="m"/></l><r>preparativo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>prestació<s n="n"/><s n="f"/></l><r>prestazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>prevaricació<s n="n"/><s n="f"/></l><r>prevaricazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>proclamació<s n="n"/><s n="f"/></l><r>proclamazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>procreació<s n="n"/><s n="f"/></l><r>procreazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>profanació<s n="n"/><s n="f"/></l><r>profanazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>progenitor<s n="n"/></l><r>progenitore<s n="n"/></r></p></e>
+<e><p><l>progènie<s n="n"/><s n="f"/></l><r>progenie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>promotor<s n="n"/></l><r>promotore<s n="n"/></r></p></e>
+<e><p><l>promulgació<s n="n"/><s n="f"/></l><r>promulgazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pronòstic<s n="n"/><s n="m"/></l><r>pronostico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>propagació<s n="n"/><s n="f"/></l><r>propagazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>prostració<s n="n"/><s n="f"/></l><r>prostrazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>protector<s n="n"/></l><r>protettore<s n="n"/></r></p></e>
+<e><p><l>provocació<s n="n"/><s n="f"/></l><r>provocazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>prussià<s n="n"/></l><r>prussiano<s n="n"/></r></p></e>
+<e><p><l>prèdica<s n="n"/><s n="f"/></l><r>predica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pròstata<s n="n"/><s n="f"/></l><r>prostata<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>psicoanàlisi<s n="n"/><s n="f"/></l><r>psicoanalisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>pulsació<s n="n"/><s n="f"/></l><r>pulsazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>punició<s n="n"/><s n="f"/></l><r>punizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>purificació<s n="n"/><s n="f"/></l><r>purificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>purità<s n="n"/></l><r>puritano<s n="n"/></r></p></e>
+<e><p><l>píxel<s n="n"/><s n="m"/></l><r>pixel<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>pòlio<s n="n"/><s n="f"/></l><r>polio<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>pòrtic<s n="n"/><s n="m"/></l><r>portico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>qatarià<s n="n"/></l><r>qatariano<s n="n"/></r></p></e>
+<e><p><l>quadratí<s n="n"/><s n="m"/></l><r>quadratino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>quadrúpede<s n="n"/><s n="m"/></l><r>quadrupede<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>qualificació<s n="n"/><s n="f"/></l><r>qualificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quantificació<s n="n"/><s n="f"/></l><r>quantificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ració<s n="n"/><s n="f"/></l><r>razione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>radicació<s n="n"/><s n="f"/></l><r>radicazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>radical<s n="n"/><s n="m"/></l><r>radicale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ramificació<s n="n"/><s n="f"/></l><r>ramificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reclamació<s n="n"/><s n="f"/></l><r>reclamazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>recriminació<s n="n"/><s n="f"/></l><r>recriminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>redactor<s n="n"/></l><r>redattore<s n="n"/></r></p></e>
+<e><p><l>redistribució<s n="n"/><s n="f"/></l><r>redistribuzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reintegració<s n="n"/><s n="f"/></l><r>reintegrazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reinterpretació<s n="n"/><s n="f"/></l><r>reinterpretazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reinvenció<s n="n"/><s n="f"/></l><r>reinvenzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reiteració<s n="n"/><s n="f"/></l><r>reiterazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>replicació<s n="n"/><s n="f"/></l><r>replicazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>requisició<s n="n"/><s n="f"/></l><r>requisizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>restauració<s n="n"/><s n="f"/></l><r>restaurazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>restitució<s n="n"/><s n="f"/></l><r>restituzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>retribució<s n="n"/><s n="f"/></l><r>retribuzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>robòtica<s n="n"/><s n="f"/></l><r>robotica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>romàntic<s n="n"/></l><r>romantico<s n="n"/></r></p></e>
+<e><p><l>rotor<s n="n"/><s n="m"/></l><r>rotore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ruandès<s n="n"/></l><r>ruandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>ràting<s n="n"/><s n="m"/></l><r>rating<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>saharià<s n="n"/></l><r>sahariano<s n="n"/></r></p></e>
+<e><p><l>salomonès<s n="n"/></l><r>salomonese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>santalucià<s n="n"/></l><r>santaluciano<s n="n"/></r></p></e>
+<e><p><l>santificació<s n="n"/><s n="f"/></l><r>santificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sanvincentí<s n="n"/></l><r>sanvincentino<s n="n"/></r></p></e>
+<e><p><l>saturació<s n="n"/><s n="f"/></l><r>saturazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>secreció<s n="n"/><s n="f"/></l><r>secrezione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sedatiu<s n="n"/><s n="m"/></l><r>sedativo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sedimentació<s n="n"/><s n="f"/></l><r>sedimentazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>seductor<s n="n"/></l><r>seduttore<s n="n"/></r></p></e>
+<e><p><l>segmentació<s n="n"/><s n="f"/></l><r>segmentazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>segregació<s n="n"/><s n="f"/></l><r>segregazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>semiconductor<s n="n"/><s n="m"/></l><r>semiconduttore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>senegalès<s n="n"/></l><r>senegalese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>seychellès<s n="n"/></l><r>seychellese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>siderúrgia<s n="n"/><s n="f"/></l><r>siderurgia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sierraleonès<s n="n"/></l><r>sierraleonese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sinestèsia<s n="n"/><s n="f"/></l><r>sinestesia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>singalès<s n="n"/></l><r>singalese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>singaporià<s n="n"/></l><r>singaporiano<s n="n"/></r></p></e>
+<e><p><l>sirià<s n="n"/></l><r>siriano<s n="n"/></r></p></e>
+<e><p><l>sofisticació<s n="n"/><s n="f"/></l><r>sofisticazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>solidificació<s n="n"/><s n="f"/></l><r>solidificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sublimació<s n="n"/><s n="f"/></l><r>sublimazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>subordinació<s n="n"/><s n="f"/></l><r>subordinazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>sudafricà<s n="n"/></l><r>sudafricano<s n="n"/></r></p></e>
+<e><p><l>sudanès<s n="n"/></l><r>sudanese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>sudoració<s n="n"/><s n="f"/></l><r>sudorazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>superconductor<s n="n"/><s n="m"/></l><r>superconduttore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>surinamès<s n="n"/></l><r>surinamese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>síncope<s n="n"/><s n="f"/></l><r>sincope<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>taiwanès<s n="n"/></l><r>taiwanese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>temporal<s n="n"/><s n="m"/></l><r>temporale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>terapèutica<s n="n"/><s n="f"/></l><r>terapeutica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tergiversació<s n="n"/><s n="f"/></l><r>tergiversazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>terminació<s n="n"/><s n="f"/></l><r>terminazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>texà<s n="n"/></l><r>texano<s n="n"/></r></p></e>
+<e><p><l>timorès<s n="n"/></l><r>timorese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>tirolès<s n="n"/></l><r>tirolese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>tità<s n="n"/><s n="m"/></l><r>titano<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>togolès<s n="n"/></l><r>togolese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>toponomàstica<s n="n"/><s n="f"/></l><r>toponomastica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>torrefactor<s n="n"/></l><r>torrefattore<s n="n"/></r></p></e>
+<e><p><l>total<s n="n"/><s n="m"/></l><r>totale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>transistor<s n="n"/><s n="m"/></l><r>transistore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>trasposició<s n="n"/><s n="f"/></l><r>trasposizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>travertí<s n="n"/><s n="m"/></l><r>travertino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>trepidació<s n="n"/><s n="f"/></l><r>trepidazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>trípode<s n="n"/><s n="m"/></l><r>tripode<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tròpic<s n="n"/><s n="m"/></l><r>tropico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tuvalià<s n="n"/></l><r>tuvaliano<s n="n"/></r></p></e>
+<e><p><l>tònic<s n="n"/><s n="m"/></l><r>tonico<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ubicació<s n="n"/><s n="f"/></l><r>ubicazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ugandès<s n="n"/></l><r>ugandese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>unció<s n="n"/><s n="f"/></l><r>unzione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>urdú<s n="n"/><s n="m"/><s n="sg"/></l><r>urdu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>uruguaià<s n="n"/></l><r>uruguaiano<s n="n"/></r></p></e>
+<e><p><l>usurpació<s n="n"/><s n="f"/></l><r>usurpazione<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>vaccinació<s n="n"/><s n="f"/></l><r>vaccinazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>validació<s n="n"/><s n="f"/></l><r>validazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>variació<s n="n"/><s n="f"/></l><r>variazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>vegetarià<s n="n"/></l><r>vegetariano<s n="n"/></r></p></e>
+<e><p><l>veneració<s n="n"/><s n="f"/></l><r>venerazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>verginià<s n="n"/></l><r>verginiano<s n="n"/></r></p></e>
+<e><p><l>veterà<s n="n"/></l><r>veterano<s n="n"/></r></p></e>
+<e r="LR"><p><l>vial<s n="n"/><s n="m"/></l><r>viale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vicedirector<s n="n"/></l><r>vicedirettore<s n="n"/></r></p></e>
+<e><p><l>vinificació<s n="n"/><s n="f"/></l><r>vinificazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>vociferació<s n="n"/><s n="f"/></l><r>vociferazione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>volantí<s n="n"/><s n="m"/></l><r>volantino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>zairès<s n="n"/></l><r>zairese<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>zambià<s n="n"/></l><r>zambiano<s n="n"/></r></p></e>
+<e><p><l>àudio<s n="n"/><s n="m"/></l><r>audio<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ègida<s n="n"/><s n="f"/></l><r>egida<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ébola<s n="n"/><s n="f"/><s n="sg"/></l><r>ebola<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>índole<s n="n"/><s n="f"/></l><r>indole<s n="n"/><s n="f"/></r></p></e>
 
 <!-- xxxx -->
 
