@@ -1405,6 +1405,13 @@
      <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="creuar" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
 
   <!-- de > da, di, su a -->
   <rule weight="0.6">
@@ -1956,6 +1963,24 @@
   <!-- llençar > gettare, lanciare, buttare, buttare via -->
   <rule weight="0.6">
      <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+  </rule>
+
+  <!-- limitar > limitare, confinare -->
+  <rule weight="0.6">
+     <match lemma="limitar" tags="vblex.*"><select lemma="limitare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
+     <match lemma="amb" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
+     <or>
+       <match lemma="al nord"/>
+       <match lemma="al sud"/>
+       <match lemma="a l'est"/>
+       <match lemma="a l'oest"/>
+     </or>
   </rule>
 
   <!-- tirar > gettare, tirare -->
@@ -2946,14 +2971,29 @@
     <match lemma="blanc" tags="n.m.*"><select lemma="bersaglio"/></match>
   </rule>
 
+  <!-- despatx > ufficio, gabinetto -->
+  <rule weight="0.6">
+    <match lemma="despatx" tags="n.*"><select lemma="ufficio"/></match>
+  </rule>
+
   <!-- relació > relazione, rapporto -->
   <rule weight="0.6">
     <match lemma="relació" tags="n.*"><select lemma="relazione"/></match>
   </rule>
 
+  <!-- conductor > conduttore, autista -->
+  <rule weight="0.6">
+    <match lemma="conductor" tags="n.*"><select lemma="conduttore"/></match>
+  </rule>
+
   <!-- cep > ceppo, tagliola -->
   <rule weight="0.6">
     <match lemma="cep" tags="n.*"><select lemma="ceppo"/></match>
+  </rule>
+
+  <!-- moral > morale f, morale m -->
+  <rule weight="0.6">
+    <match lemma="moral" tags="n.*"><select lemma="morale" tags="n.f.*"/></match>
   </rule>
 
   <!-- firma > firma, ditta -->

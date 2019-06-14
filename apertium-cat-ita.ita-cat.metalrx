@@ -416,6 +416,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- comunale > municipal, comunal -->
+  <rule weight="0.6">
+    <match lemma="comunale" tags="adj.*"><select lemma="municipal"/></match>
+  </rule>
+
   <!-- potente > potent, poderós -->
   <rule weight="0.6">
     <match lemma="potente" tags="adj.*"><select lemma="potent"/></match>
@@ -477,6 +482,76 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- gabinetto > despatx, lavabo -->
+  <rule weight="0.6">
+    <match lemma="gabinetto" tags="n.*"><select lemma="despatx"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="su" tags="pr"><select lemma="en"/></match>
+    <match tags="det.*"/>
+    <match lemma="gabinetto" tags="n.*"><select lemma="lavabo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="gabinetto" tags="n.*"><select lemma="lavabo"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="donna" tags="n.*"/>
+  </rule>
+
+  <!-- assessore > assessor, regidor -->
+  <rule weight="0.6">
+    <match lemma="assessore" tags="n.*"><select lemma="assessor"/></match>
+  </rule>
+
+  <!-- ufficio > oficina, despatx -->
+  <rule weight="0.6">
+    <match lemma="ufficio" tags="n.*"><select lemma="oficina"/></match>
+  </rule>
+
+  <!-- cubo > cub, galleta -->
+  <rule weight="0.6">
+    <match lemma="cubo" tags="n.*"><select lemma="cub"/></match>
+  </rule>
+
+  <!-- autista > conductor, autista -->
+  <rule weight="0.6">
+    <match lemma="autista" tags="n.*"><select lemma="conductor"/></match>
+  </rule>
+
+  <!-- fuoco > foc, focus -->
+  <rule weight="0.6">
+    <match lemma="fuoco" tags="n.*"><select lemma="foc"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fuoco" tags="n.*"><select lemma="focus"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="ellisse" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fuoco" tags="n.*"><select lemma="focus"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="interesse" tags="n.*"/>
+      <match lemma="atenzione" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- pesca > pesca, préssec -->
+  <rule weight="0.6">
+    <match lemma="pesca" tags="n.*"><select lemma="pesca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="pesca" tags="n.f.pl"><select lemma="préssec"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="un" tags="det.ind.*"/>
+     <match lemma="pesca" tags="n.*"><select lemma="préssec"/></match>
+  </rule>
 
   <!-- pollice > polze, polzada -->
   <rule weight="0.6">
@@ -1035,6 +1110,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- scanviare > intercanviar, bescanviar, baratar  -->
+  <rule weight="0.6">
+    <match lemma="scanviare" tags="vblex.*"><select lemma="intercanviar"/></match>
+  </rule>
+
   <!-- lanciare > llançar, llençar  -->
   <rule weight="0.6">
     <match lemma="lanciare" tags="vblex.*"><select lemma="llançar"/></match>
@@ -1150,15 +1230,25 @@
 
   <!-- confinare > confinar, limitar -->
   <rule weight="0.6">
-    <match lemma="confinare" tags="vblex.*"><select lemma="confinar" tags="vblex.*"/></match>
+    <match lemma="confinare" tags="vblex.*"><select lemma="confinar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="confinare" tags="vblex.pp.*"><select lemma="limitar" tags="vblex.*"/></match>
+    <match lemma="confinare" tags="vblex.*"><select lemma="limitar"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
     <match lemma="con" tags="pr"/>
   </rule>
+  <rule weight="1.0">
+     <match lemma="confinare" tags="vblex.*"><select lemma="limitar"/></match>
+     <or>
+       <match lemma="a nord"/>
+       <match lemma="a sud"/>
+       <match lemma="a est"/>
+       <match lemma="a ovest"/>
+     </or>
+  </rule>
+
   
   <!-- guidare > guiar, conduir -->
   <rule weight="0.6">
@@ -1200,6 +1290,9 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- fare# venire > fer# venir, fer# portar -->
+  <macro name="verb_nopron_pron" p1="fare# venire" p2="fer# venir" p3="fer# portar"/>
   
   <!-- levare > llevar, alçar -->
   <macro name="verb_nopron_pron" p1="levare" p2="llevar" p3="alçar"/>
@@ -1294,6 +1387,15 @@
      <match lemma="cui" tags="rel.*"><select lemma="qual"/></match>
   </rule>
 
+  <!-- quale > com, qual -->
+  <rule weight="0.6">
+     <match lemma="quale" tags="rel.*"><select lemma="com"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.def.*"/>
+     <match lemma="quale" tags="rel.*"><select lemma="qual"/></match>
+  </rule>
+
 <!-- **************** PR **************** -->
 
   <!-- da > de, per, des de -->
@@ -1321,6 +1423,13 @@
     <match lemma="da" tags="pr"><select lemma="per" tags="des de"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="attraversare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
 
   <!-- tra, fra > entre, a -->
