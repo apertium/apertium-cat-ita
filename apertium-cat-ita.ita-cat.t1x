@@ -4079,7 +4079,18 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        
+        <choose> <!-- 1,158 millione > 1,158 milions -->
+          <when>
+            <test>
+              <and>
+                <not><equal><clip pos="1" side="sl" part="lem"/><lit v="1"/></equal></not>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="milione"/></equal>
+              </and>
+            </test>
+            <let><var n="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+          </when>
+        </choose>
         <out>  
           <chunk name="num_nom" case="caseFirstWord">
             <tags>
@@ -4906,6 +4917,18 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <choose> <!-- 1,158 millione > 1,158 milions -->
+          <when>
+            <test>
+              <and>
+                <not><equal><clip pos="1" side="sl" part="lem"/><lit v="1"/></equal></not>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="milione"/></equal>
+              </and>
+            </test>
+            <let><var n="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+          </when>
+        </choose>
         <out>
           <chunk name="num_nom_adj" case="caseFirstWord">
             <tags>
@@ -5070,7 +5093,19 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
           <with-param pos="4"/>
-        </call-macro>        
+        </call-macro>
+        <choose> <!-- 1,158 millione > 1,158 milions -->
+          <when>
+            <test>
+              <and>
+                <not><equal><clip pos="1" side="sl" part="lem"/><lit v="1"/></equal></not>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="milione"/></equal>
+              </and>
+            </test>
+            <let><var n="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+          </when>
+        </choose>
         <out>
           <chunk name="num_nom_adv_adj" case="caseFirstWord">
             <tags>
