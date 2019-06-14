@@ -483,6 +483,16 @@
 
 <!-- **************** N **************** -->
 
+  <!-- palma > palma, palmera -->
+  <rule weight="0.6">
+    <match lemma="palma" tags="n.*"><select lemma="palma"/></match>
+  </rule>
+
+  <!-- dispensa > dispensa, rebost -->
+  <rule weight="0.6">
+    <match lemma="dispensa" tags="n.*"><select lemma="dispensa"/></match>
+  </rule>
+
   <!-- gabinetto > despatx, lavabo -->
   <rule weight="0.6">
     <match lemma="gabinetto" tags="n.*"><select lemma="despatx"/></match>
@@ -587,6 +597,11 @@
       <match lemma="viale" tags="n.*"/>
       <match lemma="corso" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- cronista > periodista, cronista -->
+  <rule weight="0.6">
+    <match lemma="cronista" tags="n.*"><select lemma="periodista"/></match>
   </rule>
 
   <!-- rapporto > relació, informe -->

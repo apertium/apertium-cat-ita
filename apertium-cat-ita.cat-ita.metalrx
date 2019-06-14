@@ -2849,6 +2849,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- conegut > conosciuto, noto -->
+  <rule weight="0.6">
+     <match lemma="conegut" tags="adj.*"><select lemma="conosciuto"/></match>
+  </rule>
+
   <!-- següent > seguente, successivo -->
   <rule weight="0.6">
      <match lemma="següent" tags="adj.*"><select lemma="seguente"/></match>
@@ -2936,6 +2941,44 @@
 
 <!-- **************** N **************** -->
 
+  <!-- font > fonte, fontana -->
+  <rule weight="0.6">
+    <match lemma="font" tags="n.*"><select lemma="fonte"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="font" tags="n.*"><select lemma="fontana"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
+
+  <!-- planxa > ferro# da stiro, lamiera -->
+  <rule weight="0.6">
+    <match lemma="planxa" tags="n.*"><select lemma="ferro# da stiro"/></match>
+  </rule>
+
+  <!-- morter > mortaio, malta -->
+  <rule weight="0.6">
+    <match lemma="morter" tags="n.*"><select lemma="mortaio"/></match>
+  </rule>
+
+  <!-- falla > faglia, mancanza -->
+  <rule weight="0.6">
+    <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+  </rule>
+
+  <!-- cultiu > coltura, coltivazione -->
+  <rule weight="0.6">
+    <match lemma="cultiu" tags="n.*"><select lemma="coltura"/></match>
+  </rule>
+
+  <!-- dictamen > opinione, dettame -->
+  <rule weight="0.6">
+    <match lemma="dictamen" tags="n.*"><select lemma="opinione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dictamen" tags="n.m.pl"><select lemma="dettame"/></match>
+  </rule>
+
   <!-- blanc > bianco, bersaglio -->
   <rule weight="0.6">
     <match lemma="blanc" tags="n.*"><select lemma="bianco"/></match>
@@ -2984,6 +3027,11 @@
   <!-- conductor > conduttore, autista -->
   <rule weight="0.6">
     <match lemma="conductor" tags="n.*"><select lemma="conduttore"/></match>
+  </rule>
+
+  <!-- periodista > giornalista, cronista -->
+  <rule weight="0.6">
+    <match lemma="periodista" tags="n.*"><select lemma="giornalista"/></match>
   </rule>
 
   <!-- cep > ceppo, tagliola -->

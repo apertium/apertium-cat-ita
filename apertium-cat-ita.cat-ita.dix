@@ -480,7 +480,7 @@
 <e>       <p><l>centígrad</l>                          <r>centigrado</r></p><par n="adj_sup"/></e>
 <e>       <p><l>cerebral</l>                           <r>cerebrale</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>ceràmic</l>                            <r>ceramico</r></p><par n="adj_sup"/></e>
-<e>       <p><l>científic</l>                          <r>scienziato</r></p><par n="adj_sup"/></e>
+<e>       <p><l>científic</l>                          <r>scientifico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>cinematogràfic</l>                     <r>cinematografico</r></p><par n="adj_sup"/></e>
 <e>       <p><l>cinquè<s n="adj"/></l>                 <r>quinto<s n="adj"/></r></p></e>
 <e r="LR"><p><l>quint<s n="adj"/></l>                  <r>quinto<s n="adj"/></r></p></e>
@@ -520,7 +520,9 @@
 <e>       <p><l>concorde</l>                           <r>conforme</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>concorde</l>                           <r>concorde</r></p><par n="adj_sup2"/></e>
 <e>       <p><l>condicional</l>                        <r>condizionale</r></p><par n="adj_sup2"/></e>
-<e>       <p><l>conegut<s n="adj"/></l>                <r>conosciuto<s n="adj"/></r></p></e>
+<e>       <p><l>conegut<s n="adj"/></l>                <r>conosciuto<s n="adj"/></r></p><par n="mf_mf"/></e>
+<e>       <p><l>conegut<s n="adj"/><s n="sup"/></l>    <r>conosciuto<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>conegut</l>                            <r>noto</r></p><par n="adj_sup"/></e>
 <e>       <p><l>conegut<s n="n"/></l>                  <r>conoscente<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>desconegut<s n="adj"/></l>             <r>sconosciuto<s n="adj"/></r></p></e>
 <e>       <p><l>desconegut<s n="n"/></l>               <r>sconosciuto<s n="n"/></r></p></e>
@@ -2643,6 +2645,793 @@
 <e r="LR" a="hector"><p><l>prenyat<s n="adj"/><s n="f"/></l><r>incinto<s n="adj"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>costaner</l><r>costiero</r></p><par n="adj_sup"/></e>
 <e a="hector"><p><l>absent<s n="adj"/><s n="mf"/></l><r>assente<s n="adj"/><s n="mf"/></r></p></e>
+<e a="hector"><p><l>colpista<s n="adj"/></l><r>golpista<s n="adj"/></r></p><par n="mf_GD"/></e>
+
+<e><p><l>antagonista<s n="adj"/></l><r>antagonista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>anticapitalista<s n="adj"/></l><r>anticapitalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>anticatalanista<s n="adj"/></l><r>anticatalanista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antimarxista<s n="adj"/></l><r>antimarxista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antimilitarista<s n="adj"/></l><r>antimilitarista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antisionista<s n="adj"/></l><r>antisionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antisocialista<s n="adj"/></l><r>antisocialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antiterrorista<s n="adj"/></l><r>antiterrorista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>autonomista<s n="adj"/></l><r>autonomista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>calvinista<s n="adj"/></l><r>calvinista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>capitalista<s n="adj"/></l><r>capitalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>castrista<s n="adj"/></l><r>castrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>catalanista<s n="adj"/></l><r>catalanista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centralista<s n="adj"/></l><r>centralista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centrista<s n="adj"/></l><r>centrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>classista<s n="adj"/></l><r>classista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>colonialista<s n="adj"/></l><r>colonialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>conformista<s n="adj"/></l><r>conformista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>consumista<s n="adj"/></l><r>consumista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cubista<s n="adj"/></l><r>cubista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dadaista<s n="adj"/></l><r>dadaista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dirigista<s n="adj"/></l><r>dirigista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ecologista<s n="adj"/></l><r>ecologista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>esperantista<s n="adj"/></l><r>esperantista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>europeista<s n="adj"/></l><r>europeista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>evangelista<s n="adj"/></l><r>evangelista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>fatalista<s n="adj"/></l><r>fatalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>federalista<s n="adj"/></l><r>federalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>finalista<s n="adj"/></l><r>finalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>futurista<s n="adj"/></l><r>futurista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>generalista<s n="adj"/></l><r>generalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>idealista<s n="adj"/></l><r>idealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>impressionista<s n="adj"/></l><r>impressionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>individualista<s n="adj"/></l><r>individualista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>integrista<s n="adj"/></l><r>integrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interclassista<s n="adj"/></l><r>interclassista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intimista<s n="adj"/></l><r>intimista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>leninista<s n="adj"/></l><r>leninista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>manierista<s n="adj"/></l><r>manierista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>maoista<s n="adj"/></l><r>maoista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>marxista<s n="adj"/></l><r>marxista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>materialista<s n="adj"/></l><r>materialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>milanista<s n="adj"/></l><r>milanista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>militarista<s n="adj"/></l><r>militarista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>minimalista<s n="adj"/></l><r>minimalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>modernista<s n="adj"/></l><r>modernista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>monopolista<s n="adj"/></l><r>monopolista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>moralista<s n="adj"/></l><r>moralista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>naturalista<s n="adj"/></l><r>naturalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>naturista<s n="adj"/></l><r>naturista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neocapitalista<s n="adj"/></l><r>neocapitalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neocomunista<s n="adj"/></l><r>neocomunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neutralista<s n="adj"/></l><r>neutralista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nordista<s n="adj"/></l><r>nordista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nudista<s n="adj"/></l><r>nudista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pacifista<s n="adj"/></l><r>pacifista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>peronista<s n="adj"/></l><r>peronista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pinochetista<s n="adj"/></l><r>pinochetista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pluralista<s n="adj"/></l><r>pluralista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>positivista<s n="adj"/></l><r>positivista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>possibilista<s n="adj"/></l><r>possibilista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postcomunista<s n="adj"/></l><r>postcomunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>progressista<s n="adj"/></l><r>progressista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>purista<s n="adj"/></l><r>purista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>regionalista<s n="adj"/></l><r>regionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>revisionista<s n="adj"/></l><r>revisionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sandinista<s n="adj"/></l><r>sandinista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>secessionista<s n="adj"/></l><r>secessionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>separatista<s n="adj"/></l><r>separatista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>simbolista<s n="adj"/></l><r>simbolista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sionista<s n="adj"/></l><r>sionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>solista<s n="adj"/></l><r>solista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sudista<s n="adj"/></l><r>sudista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>trotskista<s n="adj"/></l><r>trotskista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>unionista<s n="adj"/></l><r>unionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>verista<s n="adj"/></l><r>verista<s n="adj"/></r></p><par n="mf_GD"/></e>
+
+<e><p><l>abissal<s n="adj"/></l><r>abissale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abissal<s n="adj"/></l><r>abissale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>actitudinal<s n="adj"/></l><r>attitudinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>actitudinal<s n="adj"/></l><r>attitudinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>actuarial<s n="adj"/></l><r>attuariale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>actuarial<s n="adj"/></l><r>attuariale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>aeronaval<s n="adj"/></l><r>aeronavale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aeronaval<s n="adj"/></l><r>aeronavale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>aeropostal<s n="adj"/></l><r>aeropostale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aeropostal<s n="adj"/></l><r>aeropostale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>agroindustrial<s n="adj"/></l><r>agroindustriale<s n="adj"/></r></p></e>
+<e><p><l>amoral<s n="adj"/></l><r>amorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>amoral<s n="adj"/></l><r>amorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antisocial<s n="adj"/></l><r>antisociale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antisocial<s n="adj"/></l><r>antisociale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antiviral<s n="adj"/></l><r>antivirale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiviral<s n="adj"/></l><r>antivirale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>apical<s n="adj"/></l><r>apicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apical<s n="adj"/></l><r>apicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>areal<s n="adj"/></l><r>areale<s n="adj"/></r></p></e>
+<e><p><l>ascensional<s n="adj"/></l><r>ascensionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ascensional<s n="adj"/></l><r>ascensionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>asocial<s n="adj"/></l><r>asociale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asocial<s n="adj"/></l><r>asociale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>astral<s n="adj"/></l><r>astrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astral<s n="adj"/></l><r>astrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>atemporal<s n="adj"/></l><r>atemporale<s n="adj"/></r></p></e>
+<e><p><l>atonal<s n="adj"/></l><r>atonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atonal<s n="adj"/></l><r>atonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>augural<s n="adj"/></l><r>augurale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>augural<s n="adj"/></l><r>augurale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>auroral<s n="adj"/></l><r>aurorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>auroral<s n="adj"/></l><r>aurorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>austral<s n="adj"/></l><r>australe<s n="adj"/></r></p></e>
+<e r="RL"><p><l>austral<s n="adj"/></l><r>australe<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>baritonal<s n="adj"/></l><r>baritonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>baritonal<s n="adj"/></l><r>baritonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>bicameral<s n="adj"/></l><r>bicamerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bicameral<s n="adj"/></l><r>bicamerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>biennal<s n="adj"/></l><r>biennale<s n="adj"/></r></p></e>
+<e><p><l>bimestral<s n="adj"/></l><r>bimestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bimestral<s n="adj"/></l><r>bimestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>boreal<s n="adj"/></l><r>boreale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>boreal<s n="adj"/></l><r>boreale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cameral<s n="adj"/></l><r>camerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cameral<s n="adj"/></l><r>camerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>campal<s n="adj"/></l><r>campale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>campal<s n="adj"/></l><r>campale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cantonal<s n="adj"/></l><r>cantonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cantonal<s n="adj"/></l><r>cantonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>causal<s n="adj"/></l><r>causale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>causal<s n="adj"/></l><r>causale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>celestial<s n="adj"/></l><r>celestiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>celestial<s n="adj"/></l><r>celestiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centesimal<s n="adj"/></l><r>centesimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>centesimal<s n="adj"/></l><r>centesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cerimonial<s n="adj"/></l><r>cerimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cerimonial<s n="adj"/></l><r>cerimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cervical<s n="adj"/></l><r>cervicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cervical<s n="adj"/></l><r>cervicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>circuital<s n="adj"/></l><r>circuitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>circuital<s n="adj"/></l><r>circuitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>claustral<s n="adj"/></l><r>claustrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>claustral<s n="adj"/></l><r>claustrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>coital<s n="adj"/></l><r>coitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>coital<s n="adj"/></l><r>coitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>colonial<s n="adj"/></l><r>coloniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>colonial<s n="adj"/></l><r>coloniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>comportamental<s n="adj"/></l><r>comportamentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>comportamental<s n="adj"/></l><r>comportamentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>confederal<s n="adj"/></l><r>confederale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>confederal<s n="adj"/></l><r>confederale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>confessional<s n="adj"/></l><r>confessionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>confessional<s n="adj"/></l><r>confessionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>conflictual<s n="adj"/></l><r>conflittuale<s n="adj"/></r></p></e>
+<e><p><l>congenial<s n="adj"/></l><r>congeniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>congenial<s n="adj"/></l><r>congeniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>congressual<s n="adj"/></l><r>congressuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>congressual<s n="adj"/></l><r>congressuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>connatural<s n="adj"/></l><r>connaturale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>connatural<s n="adj"/></l><r>connaturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>consensual<s n="adj"/></l><r>consensuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>consensual<s n="adj"/></l><r>consensuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>conventual<s n="adj"/></l><r>conventuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>conventual<s n="adj"/></l><r>conventuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cortical<s n="adj"/></l><r>corticale<s n="adj"/></r></p></e>
+<e><p><l>cubital<s n="adj"/></l><r>cubitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cubital<s n="adj"/></l><r>cubitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>curial<s n="adj"/></l><r>curiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>curial<s n="adj"/></l><r>curiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>decennal<s n="adj"/></l><r>decennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>decennal<s n="adj"/></l><r>decennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>demanial<s n="adj"/></l><r>demaniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demanial<s n="adj"/></l><r>demaniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dental<s n="adj"/></l><r>dentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dental<s n="adj"/></l><r>dentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>diagonal<s n="adj"/></l><r>diagonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diagonal<s n="adj"/></l><r>diagonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>diametral<s n="adj"/></l><r>diametrale<s n="adj"/></r></p></e>
+<e><p><l>dictatorial<s n="adj"/></l><r>dittatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dictatorial<s n="adj"/></l><r>dittatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>directorial<s n="adj"/></l><r>direttoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>directorial<s n="adj"/></l><r>direttoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>divisional<s n="adj"/></l><r>divisionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>divisional<s n="adj"/></l><r>divisionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>doctrinal<s n="adj"/></l><r>dottrinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>doctrinal<s n="adj"/></l><r>dottrinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>editorial<s n="adj"/></l><r>editoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>editorial<s n="adj"/></l><r>editoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>embrional<s n="adj"/></l><r>embrionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>embrional<s n="adj"/></l><r>embrionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>episcopal<s n="adj"/></l><r>episcopale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>episcopal<s n="adj"/></l><r>episcopale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>epitelial<s n="adj"/></l><r>epiteliale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epitelial<s n="adj"/></l><r>epiteliale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>equatorial<s n="adj"/></l><r>equatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>equatorial<s n="adj"/></l><r>equatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extracontractual<s n="adj"/></l><r>extracontrattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extracontractual<s n="adj"/></l><r>extracontrattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extralegal<s n="adj"/></l><r>extralegale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extralegal<s n="adj"/></l><r>extralegale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extramatrimonial<s n="adj"/></l><r>extramatrimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extramatrimonial<s n="adj"/></l><r>extramatrimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extrasensorial<s n="adj"/></l><r>extrasensoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extrasensorial<s n="adj"/></l><r>extrasensoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>factual<s n="adj"/></l><r>fattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>factual<s n="adj"/></l><r>fattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>femoral<s n="adj"/></l><r>femorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>femoral<s n="adj"/></l><r>femorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>feral<s n="adj"/></l><r>ferale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>feral<s n="adj"/></l><r>ferale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ferial<s n="adj"/></l><r>feriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ferial<s n="adj"/></l><r>feriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>fetal<s n="adj"/></l><r>fetale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fetal<s n="adj"/></l><r>fetale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>filosofal<s n="adj"/></l><r>filosofale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filosofal<s n="adj"/></l><r>filosofale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>focal<s n="adj"/></l><r>focale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>focal<s n="adj"/></l><r>focale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>frontal<s n="adj"/></l><r>frontale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>frontal<s n="adj"/></l><r>frontale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>gastrointestinal<s n="adj"/></l><r>gastrointestinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gastrointestinal<s n="adj"/></l><r>gastrointestinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>germinal<s n="adj"/></l><r>germinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>germinal<s n="adj"/></l><r>germinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>inactual<s n="adj"/></l><r>inattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inactual<s n="adj"/></l><r>inattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>incidental<s n="adj"/></l><r>incidentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>incidental<s n="adj"/></l><r>incidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>infinitesimal<s n="adj"/></l><r>infinitesimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>infinitesimal<s n="adj"/></l><r>infinitesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>inguinal<s n="adj"/></l><r>inguinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inguinal<s n="adj"/></l><r>inguinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intercomarcal<s n="adj"/></l><r>intercomarcale<s n="adj"/></r></p></e>
+<e><p><l>interconfederal<s n="adj"/></l><r>interconfederale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interconfederal<s n="adj"/></l><r>interconfederale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interconfessional<s n="adj"/></l><r>interconfessionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interconfessional<s n="adj"/></l><r>interconfessionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intercontinental<s n="adj"/></l><r>intercontinentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intercontinental<s n="adj"/></l><r>intercontinentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interministerial<s n="adj"/></l><r>interministeriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interministerial<s n="adj"/></l><r>interministeriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intermodal<s n="adj"/></l><r>intermodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intermodal<s n="adj"/></l><r>intermodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interpersonal<s n="adj"/></l><r>interpersonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interpersonal<s n="adj"/></l><r>interpersonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interprovincial<s n="adj"/></l><r>interprovinciale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interprovincial<s n="adj"/></l><r>interprovinciale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interregional<s n="adj"/></l><r>interregionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interregional<s n="adj"/></l><r>interregionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intestinal<s n="adj"/></l><r>intestinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intestinal<s n="adj"/></l><r>intestinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intramural<s n="adj"/></l><r>intramurale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intramural<s n="adj"/></l><r>intramurale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lacrimal<s n="adj"/></l><r>lacrimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lacrimal<s n="adj"/></l><r>lacrimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>laical<s n="adj"/></l><r>laicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>laical<s n="adj"/></l><r>laicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>larval<s n="adj"/></l><r>larvale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>larval<s n="adj"/></l><r>larvale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lustral<s n="adj"/></l><r>lustrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lustral<s n="adj"/></l><r>lustrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>marsupial<s n="adj"/></l><r>marsupiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>marsupial<s n="adj"/></l><r>marsupiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>matriarcal<s n="adj"/></l><r>matriarcale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>matriarcal<s n="adj"/></l><r>matriarcale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>matronal<s n="adj"/></l><r>matronale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>matronal<s n="adj"/></l><r>matronale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>medial<s n="adj"/></l><r>mediale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>medial<s n="adj"/></l><r>mediale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>medical<s n="adj"/></l><r>medicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>medical<s n="adj"/></l><r>medicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mercurial<s n="adj"/></l><r>mercuriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mercurial<s n="adj"/></l><r>mercuriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>minimal<s n="adj"/></l><r>minimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>minimal<s n="adj"/></l><r>minimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>monacal<s n="adj"/></l><r>monacale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monacal<s n="adj"/></l><r>monacale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>multifocal<s n="adj"/></l><r>multifocale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>multifocal<s n="adj"/></l><r>multifocale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mutual<s n="adj"/></l><r>mutuale<s n="adj"/></r></p></e>
+<e><p><l>nasal<s n="adj"/></l><r>nasale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nasal<s n="adj"/></l><r>nasale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neonatal<s n="adj"/></l><r>neonatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neonatal<s n="adj"/></l><r>neonatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neural<s n="adj"/></l><r>neurale<s n="adj"/></r></p></e>
+<e><p><l>neuronal<s n="adj"/></l><r>neuronale<s n="adj"/></r></p></e>
+<e><p><l>neutral<s n="adj"/></l><r>neutrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neutral<s n="adj"/></l><r>neutrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nodal<s n="adj"/></l><r>nodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nodal<s n="adj"/></l><r>nodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nominal<s n="adj"/></l><r>nominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nominal<s n="adj"/></l><r>nominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>octagonal<s n="adj"/></l><r>ottagonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>octagonal<s n="adj"/></l><r>ottagonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ogival<s n="adj"/></l><r>ogivale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ogival<s n="adj"/></l><r>ogivale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>orbital<s n="adj"/></l><r>orbitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orbital<s n="adj"/></l><r>orbitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ornamental<s n="adj"/></l><r>ornamentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ornamental<s n="adj"/></l><r>ornamentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ortogonal<s n="adj"/></l><r>ortogonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ortogonal<s n="adj"/></l><r>ortogonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>padronal<s n="adj"/></l><r>padronale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>padronal<s n="adj"/></l><r>padronale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>paranormal<s n="adj"/></l><r>paranormale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paranormal<s n="adj"/></l><r>paranormale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>parental<s n="adj"/></l><r>parentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>parental<s n="adj"/></l><r>parentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pasqual<s n="adj"/></l><r>pasquale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pasqual<s n="adj"/></l><r>pasquale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pectoral<s n="adj"/></l><r>pettorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pectoral<s n="adj"/></l><r>pettorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pentecostal<s n="adj"/></l><r>pentecostale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pentecostal<s n="adj"/></l><r>pentecostale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>perimetral<s n="adj"/></l><r>perimetrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>perimetral<s n="adj"/></l><r>perimetrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>perinatal<s n="adj"/></l><r>perinatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>perinatal<s n="adj"/></l><r>perinatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>piramidal<s n="adj"/></l><r>piramidale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>piramidal<s n="adj"/></l><r>piramidale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pluridimensional<s n="adj"/></l><r>pluridimensionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pluridimensional<s n="adj"/></l><r>pluridimensionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>pluriennal<s n="adj"/></l><r>pluriennale<s n="adj"/></r></p></e>
+<e><p><l>plurinominal<s n="adj"/></l><r>plurinominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>plurinominal<s n="adj"/></l><r>plurinominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postindustrial<s n="adj"/></l><r>postindustriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>postindustrial<s n="adj"/></l><r>postindustriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postprandial<s n="adj"/></l><r>postprandiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>postprandial<s n="adj"/></l><r>postprandiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>preelectoral<s n="adj"/></l><r>preelettorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preelectoral<s n="adj"/></l><r>preelettorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prefrontal<s n="adj"/></l><r>prefrontale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prefrontal<s n="adj"/></l><r>prefrontale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prematrimonial<s n="adj"/></l><r>prematrimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prematrimonial<s n="adj"/></l><r>prematrimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prenatal<s n="adj"/></l><r>prenatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prenatal<s n="adj"/></l><r>prenatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>previsional<s n="adj"/></l><r>previsionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>previsional<s n="adj"/></l><r>previsionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>processual<s n="adj"/></l><r>processuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>processual<s n="adj"/></l><r>processuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>professoral<s n="adj"/></l><r>professorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>professoral<s n="adj"/></l><r>professorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pronominal<s n="adj"/></l><r>pronominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pronominal<s n="adj"/></l><r>pronominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>puberal<s n="adj"/></l><r>puberale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>puberal<s n="adj"/></l><r>puberale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>puerperal<s n="adj"/></l><r>puerperale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>puerperal<s n="adj"/></l><r>puerperale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quadriennal<s n="adj"/></l><r>quadriennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quadriennal<s n="adj"/></l><r>quadriennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quadrimestral<s n="adj"/></l><r>quadrimestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quadrimestral<s n="adj"/></l><r>quadrimestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quinquennal<s n="adj"/></l><r>quinquennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quinquennal<s n="adj"/></l><r>quinquennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>rectal<s n="adj"/></l><r>rettale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rectal<s n="adj"/></l><r>rettale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sacramental<s n="adj"/></l><r>sacramentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sacramental<s n="adj"/></l><r>sacramentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sectorial<s n="adj"/></l><r>settoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sectorial<s n="adj"/></l><r>settoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semestral<s n="adj"/></l><r>semestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semestral<s n="adj"/></l><r>semestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semifinal<s n="adj"/></l><r>semifinale<s n="adj"/></r></p></e>
+<e><p><l>seminal<s n="adj"/></l><r>seminale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>seminal<s n="adj"/></l><r>seminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>senatorial<s n="adj"/></l><r>senatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>senatorial<s n="adj"/></l><r>senatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>serial<s n="adj"/></l><r>seriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>serial<s n="adj"/></l><r>seriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sideral<s n="adj"/></l><r>siderale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sideral<s n="adj"/></l><r>siderale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sinodal<s n="adj"/></l><r>sinodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sinodal<s n="adj"/></l><r>sinodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sociocultural<s n="adj"/></l><r>socioculturale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sociocultural<s n="adj"/></l><r>socioculturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>subliminal<s n="adj"/></l><r>subliminale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subliminal<s n="adj"/></l><r>subliminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>subnormal<s n="adj"/></l><r>subnormale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subnormal<s n="adj"/></l><r>subnormale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>suborbital<s n="adj"/></l><r>suborbitale<s n="adj"/></r></p></e>
+<e><p><l>subtropical<s n="adj"/></l><r>subtropicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subtropical<s n="adj"/></l><r>subtropicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>teologal<s n="adj"/></l><r>teologale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teologal<s n="adj"/></l><r>teologale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>testimonial<s n="adj"/></l><r>testimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>testimonial<s n="adj"/></l><r>testimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tombal<s n="adj"/></l><r>tombale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tombal<s n="adj"/></l><r>tombale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tonal<s n="adj"/></l><r>tonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tonal<s n="adj"/></l><r>tonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>transcontinental<s n="adj"/></l><r>transcontinentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>transcontinental<s n="adj"/></l><r>transcontinentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tribal<s n="adj"/></l><r>tribale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tribal<s n="adj"/></l><r>tribale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>triennal<s n="adj"/></l><r>triennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>triennal<s n="adj"/></l><r>triennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>trilateral<s n="adj"/></l><r>trilaterale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>trilateral<s n="adj"/></l><r>trilaterale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tumoral<s n="adj"/></l><r>tumorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tumoral<s n="adj"/></l><r>tumorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>unicameral<s n="adj"/></l><r>unicamerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>unicameral<s n="adj"/></l><r>unicamerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>uninominal<s n="adj"/></l><r>uninominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>uninominal<s n="adj"/></l><r>uninominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>urogenital<s n="adj"/></l><r>urogenitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>urogenital<s n="adj"/></l><r>urogenitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vectorial<s n="adj"/></l><r>vettoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vectorial<s n="adj"/></l><r>vettoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>venal<s n="adj"/></l><r>venale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>venal<s n="adj"/></l><r>venale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>venial<s n="adj"/></l><r>veniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>venial<s n="adj"/></l><r>veniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ventral<s n="adj"/></l><r>ventrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ventral<s n="adj"/></l><r>ventrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vertebral<s n="adj"/></l><r>vertebrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vertebral<s n="adj"/></l><r>vertebrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>zodiacal<s n="adj"/></l><r>zodiacale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zodiacal<s n="adj"/></l><r>zodiacale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>zonal<s n="adj"/></l><r>zonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zonal<s n="adj"/></l><r>zonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>abissal<s n="adj"/></l><r>abissale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>abissal<s n="adj"/></l><r>abissale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>actitudinal<s n="adj"/></l><r>attitudinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>actitudinal<s n="adj"/></l><r>attitudinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>actuarial<s n="adj"/></l><r>attuariale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>actuarial<s n="adj"/></l><r>attuariale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>aeronaval<s n="adj"/></l><r>aeronavale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aeronaval<s n="adj"/></l><r>aeronavale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>aeropostal<s n="adj"/></l><r>aeropostale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>aeropostal<s n="adj"/></l><r>aeropostale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>agroindustrial<s n="adj"/></l><r>agroindustriale<s n="adj"/></r></p></e>
+<e><p><l>amoral<s n="adj"/></l><r>amorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>amoral<s n="adj"/></l><r>amorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antisocial<s n="adj"/></l><r>antisociale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antisocial<s n="adj"/></l><r>antisociale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antiviral<s n="adj"/></l><r>antivirale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>antiviral<s n="adj"/></l><r>antivirale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>apical<s n="adj"/></l><r>apicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apical<s n="adj"/></l><r>apicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>areal<s n="adj"/></l><r>areale<s n="adj"/></r></p></e>
+<e><p><l>ascensional<s n="adj"/></l><r>ascensionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ascensional<s n="adj"/></l><r>ascensionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>asocial<s n="adj"/></l><r>asociale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>asocial<s n="adj"/></l><r>asociale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>astral<s n="adj"/></l><r>astrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>astral<s n="adj"/></l><r>astrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>atemporal<s n="adj"/></l><r>atemporale<s n="adj"/></r></p></e>
+<e><p><l>atonal<s n="adj"/></l><r>atonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>atonal<s n="adj"/></l><r>atonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>augural<s n="adj"/></l><r>augurale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>augural<s n="adj"/></l><r>augurale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>auroral<s n="adj"/></l><r>aurorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>auroral<s n="adj"/></l><r>aurorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>austral<s n="adj"/></l><r>australe<s n="adj"/></r></p></e>
+<e r="RL"><p><l>austral<s n="adj"/></l><r>australe<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>baritonal<s n="adj"/></l><r>baritonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>baritonal<s n="adj"/></l><r>baritonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>bicameral<s n="adj"/></l><r>bicamerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bicameral<s n="adj"/></l><r>bicamerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>biennal<s n="adj"/></l><r>biennale<s n="adj"/></r></p></e>
+<e><p><l>bimestral<s n="adj"/></l><r>bimestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bimestral<s n="adj"/></l><r>bimestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>boreal<s n="adj"/></l><r>boreale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>boreal<s n="adj"/></l><r>boreale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cameral<s n="adj"/></l><r>camerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cameral<s n="adj"/></l><r>camerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>campal<s n="adj"/></l><r>campale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>campal<s n="adj"/></l><r>campale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cantonal<s n="adj"/></l><r>cantonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cantonal<s n="adj"/></l><r>cantonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>causal<s n="adj"/></l><r>causale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>causal<s n="adj"/></l><r>causale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>celestial<s n="adj"/></l><r>celestiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>celestial<s n="adj"/></l><r>celestiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centesimal<s n="adj"/></l><r>centesimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>centesimal<s n="adj"/></l><r>centesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cerimonial<s n="adj"/></l><r>cerimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cerimonial<s n="adj"/></l><r>cerimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cervical<s n="adj"/></l><r>cervicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cervical<s n="adj"/></l><r>cervicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>circuital<s n="adj"/></l><r>circuitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>circuital<s n="adj"/></l><r>circuitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>claustral<s n="adj"/></l><r>claustrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>claustral<s n="adj"/></l><r>claustrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>coital<s n="adj"/></l><r>coitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>coital<s n="adj"/></l><r>coitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>colonial<s n="adj"/></l><r>coloniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>colonial<s n="adj"/></l><r>coloniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>comportamental<s n="adj"/></l><r>comportamentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>comportamental<s n="adj"/></l><r>comportamentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>confederal<s n="adj"/></l><r>confederale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>confederal<s n="adj"/></l><r>confederale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>confessional<s n="adj"/></l><r>confessionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>confessional<s n="adj"/></l><r>confessionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>conflictual<s n="adj"/></l><r>conflittuale<s n="adj"/></r></p></e>
+<e><p><l>congenial<s n="adj"/></l><r>congeniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>congenial<s n="adj"/></l><r>congeniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>congressual<s n="adj"/></l><r>congressuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>congressual<s n="adj"/></l><r>congressuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>connatural<s n="adj"/></l><r>connaturale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>connatural<s n="adj"/></l><r>connaturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>consensual<s n="adj"/></l><r>consensuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>consensual<s n="adj"/></l><r>consensuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>conventual<s n="adj"/></l><r>conventuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>conventual<s n="adj"/></l><r>conventuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cortical<s n="adj"/></l><r>corticale<s n="adj"/></r></p></e>
+<e><p><l>cubital<s n="adj"/></l><r>cubitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cubital<s n="adj"/></l><r>cubitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>curial<s n="adj"/></l><r>curiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>curial<s n="adj"/></l><r>curiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>decennal<s n="adj"/></l><r>decennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>decennal<s n="adj"/></l><r>decennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>demanial<s n="adj"/></l><r>demaniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>demanial<s n="adj"/></l><r>demaniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dental<s n="adj"/></l><r>dentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dental<s n="adj"/></l><r>dentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>diagonal<s n="adj"/></l><r>diagonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>diagonal<s n="adj"/></l><r>diagonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>diametral<s n="adj"/></l><r>diametrale<s n="adj"/></r></p></e>
+<e><p><l>dictatorial<s n="adj"/></l><r>dittatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dictatorial<s n="adj"/></l><r>dittatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>directorial<s n="adj"/></l><r>direttoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>directorial<s n="adj"/></l><r>direttoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>divisional<s n="adj"/></l><r>divisionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>divisional<s n="adj"/></l><r>divisionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>doctrinal<s n="adj"/></l><r>dottrinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>doctrinal<s n="adj"/></l><r>dottrinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>editorial<s n="adj"/></l><r>editoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>editorial<s n="adj"/></l><r>editoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>embrional<s n="adj"/></l><r>embrionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>embrional<s n="adj"/></l><r>embrionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>episcopal<s n="adj"/></l><r>episcopale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>episcopal<s n="adj"/></l><r>episcopale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>epitelial<s n="adj"/></l><r>epiteliale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>epitelial<s n="adj"/></l><r>epiteliale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>equatorial<s n="adj"/></l><r>equatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>equatorial<s n="adj"/></l><r>equatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extracontractual<s n="adj"/></l><r>extracontrattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extracontractual<s n="adj"/></l><r>extracontrattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extralegal<s n="adj"/></l><r>extralegale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extralegal<s n="adj"/></l><r>extralegale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extramatrimonial<s n="adj"/></l><r>extramatrimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extramatrimonial<s n="adj"/></l><r>extramatrimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>extrasensorial<s n="adj"/></l><r>extrasensoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>extrasensorial<s n="adj"/></l><r>extrasensoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>factual<s n="adj"/></l><r>fattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>factual<s n="adj"/></l><r>fattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>femoral<s n="adj"/></l><r>femorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>femoral<s n="adj"/></l><r>femorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>feral<s n="adj"/></l><r>ferale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>feral<s n="adj"/></l><r>ferale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ferial<s n="adj"/></l><r>feriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ferial<s n="adj"/></l><r>feriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>fetal<s n="adj"/></l><r>fetale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fetal<s n="adj"/></l><r>fetale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>filosofal<s n="adj"/></l><r>filosofale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>filosofal<s n="adj"/></l><r>filosofale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>focal<s n="adj"/></l><r>focale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>focal<s n="adj"/></l><r>focale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>frontal<s n="adj"/></l><r>frontale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>frontal<s n="adj"/></l><r>frontale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>gastrointestinal<s n="adj"/></l><r>gastrointestinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gastrointestinal<s n="adj"/></l><r>gastrointestinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>germinal<s n="adj"/></l><r>germinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>germinal<s n="adj"/></l><r>germinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>inactual<s n="adj"/></l><r>inattuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inactual<s n="adj"/></l><r>inattuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>incidental<s n="adj"/></l><r>incidentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>incidental<s n="adj"/></l><r>incidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>infinitesimal<s n="adj"/></l><r>infinitesimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>infinitesimal<s n="adj"/></l><r>infinitesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>inguinal<s n="adj"/></l><r>inguinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inguinal<s n="adj"/></l><r>inguinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intercomarcal<s n="adj"/></l><r>intercomarcale<s n="adj"/></r></p></e>
+<e><p><l>interconfederal<s n="adj"/></l><r>interconfederale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interconfederal<s n="adj"/></l><r>interconfederale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interconfessional<s n="adj"/></l><r>interconfessionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interconfessional<s n="adj"/></l><r>interconfessionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intercontinental<s n="adj"/></l><r>intercontinentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intercontinental<s n="adj"/></l><r>intercontinentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interministerial<s n="adj"/></l><r>interministeriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interministerial<s n="adj"/></l><r>interministeriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intermodal<s n="adj"/></l><r>intermodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intermodal<s n="adj"/></l><r>intermodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interpersonal<s n="adj"/></l><r>interpersonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interpersonal<s n="adj"/></l><r>interpersonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interprovincial<s n="adj"/></l><r>interprovinciale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interprovincial<s n="adj"/></l><r>interprovinciale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>interregional<s n="adj"/></l><r>interregionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>interregional<s n="adj"/></l><r>interregionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intestinal<s n="adj"/></l><r>intestinale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intestinal<s n="adj"/></l><r>intestinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>intramural<s n="adj"/></l><r>intramurale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>intramural<s n="adj"/></l><r>intramurale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lacrimal<s n="adj"/></l><r>lacrimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lacrimal<s n="adj"/></l><r>lacrimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>laical<s n="adj"/></l><r>laicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>laical<s n="adj"/></l><r>laicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>larval<s n="adj"/></l><r>larvale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>larval<s n="adj"/></l><r>larvale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>lustral<s n="adj"/></l><r>lustrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>lustral<s n="adj"/></l><r>lustrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>marsupial<s n="adj"/></l><r>marsupiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>marsupial<s n="adj"/></l><r>marsupiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>matriarcal<s n="adj"/></l><r>matriarcale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>matriarcal<s n="adj"/></l><r>matriarcale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>matronal<s n="adj"/></l><r>matronale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>matronal<s n="adj"/></l><r>matronale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>medial<s n="adj"/></l><r>mediale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>medial<s n="adj"/></l><r>mediale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>medical<s n="adj"/></l><r>medicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>medical<s n="adj"/></l><r>medicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mercurial<s n="adj"/></l><r>mercuriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mercurial<s n="adj"/></l><r>mercuriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>minimal<s n="adj"/></l><r>minimale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>minimal<s n="adj"/></l><r>minimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>monacal<s n="adj"/></l><r>monacale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>monacal<s n="adj"/></l><r>monacale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>multifocal<s n="adj"/></l><r>multifocale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>multifocal<s n="adj"/></l><r>multifocale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mutual<s n="adj"/></l><r>mutuale<s n="adj"/></r></p></e>
+<e><p><l>nasal<s n="adj"/></l><r>nasale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nasal<s n="adj"/></l><r>nasale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neonatal<s n="adj"/></l><r>neonatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neonatal<s n="adj"/></l><r>neonatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>neural<s n="adj"/></l><r>neurale<s n="adj"/></r></p></e>
+<e><p><l>neuronal<s n="adj"/></l><r>neuronale<s n="adj"/></r></p></e>
+<e><p><l>neutral<s n="adj"/></l><r>neutrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>neutral<s n="adj"/></l><r>neutrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nodal<s n="adj"/></l><r>nodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nodal<s n="adj"/></l><r>nodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>nominal<s n="adj"/></l><r>nominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nominal<s n="adj"/></l><r>nominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>octagonal<s n="adj"/></l><r>ottagonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>octagonal<s n="adj"/></l><r>ottagonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ogival<s n="adj"/></l><r>ogivale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ogival<s n="adj"/></l><r>ogivale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>orbital<s n="adj"/></l><r>orbitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>orbital<s n="adj"/></l><r>orbitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ornamental<s n="adj"/></l><r>ornamentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ornamental<s n="adj"/></l><r>ornamentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ortogonal<s n="adj"/></l><r>ortogonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ortogonal<s n="adj"/></l><r>ortogonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>padronal<s n="adj"/></l><r>padronale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>padronal<s n="adj"/></l><r>padronale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>paranormal<s n="adj"/></l><r>paranormale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paranormal<s n="adj"/></l><r>paranormale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>parental<s n="adj"/></l><r>parentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>parental<s n="adj"/></l><r>parentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pasqual<s n="adj"/></l><r>pasquale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pasqual<s n="adj"/></l><r>pasquale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pectoral<s n="adj"/></l><r>pettorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pectoral<s n="adj"/></l><r>pettorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pentecostal<s n="adj"/></l><r>pentecostale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pentecostal<s n="adj"/></l><r>pentecostale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>perimetral<s n="adj"/></l><r>perimetrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>perimetral<s n="adj"/></l><r>perimetrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>perinatal<s n="adj"/></l><r>perinatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>perinatal<s n="adj"/></l><r>perinatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>piramidal<s n="adj"/></l><r>piramidale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>piramidal<s n="adj"/></l><r>piramidale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pluridimensional<s n="adj"/></l><r>pluridimensionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pluridimensional<s n="adj"/></l><r>pluridimensionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>pluriennal<s n="adj"/></l><r>pluriennale<s n="adj"/></r></p></e>
+<e><p><l>plurinominal<s n="adj"/></l><r>plurinominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>plurinominal<s n="adj"/></l><r>plurinominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postindustrial<s n="adj"/></l><r>postindustriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>postindustrial<s n="adj"/></l><r>postindustriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postprandial<s n="adj"/></l><r>postprandiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>postprandial<s n="adj"/></l><r>postprandiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>preelectoral<s n="adj"/></l><r>preelettorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>preelectoral<s n="adj"/></l><r>preelettorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prefrontal<s n="adj"/></l><r>prefrontale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prefrontal<s n="adj"/></l><r>prefrontale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prematrimonial<s n="adj"/></l><r>prematrimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prematrimonial<s n="adj"/></l><r>prematrimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>prenatal<s n="adj"/></l><r>prenatale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prenatal<s n="adj"/></l><r>prenatale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>previsional<s n="adj"/></l><r>previsionale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>previsional<s n="adj"/></l><r>previsionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>processual<s n="adj"/></l><r>processuale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>processual<s n="adj"/></l><r>processuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>professoral<s n="adj"/></l><r>professorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>professoral<s n="adj"/></l><r>professorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pronominal<s n="adj"/></l><r>pronominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pronominal<s n="adj"/></l><r>pronominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>puberal<s n="adj"/></l><r>puberale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>puberal<s n="adj"/></l><r>puberale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>puerperal<s n="adj"/></l><r>puerperale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>puerperal<s n="adj"/></l><r>puerperale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quadriennal<s n="adj"/></l><r>quadriennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quadriennal<s n="adj"/></l><r>quadriennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quadrimestral<s n="adj"/></l><r>quadrimestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quadrimestral<s n="adj"/></l><r>quadrimestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quinquennal<s n="adj"/></l><r>quinquennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>quinquennal<s n="adj"/></l><r>quinquennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>rectal<s n="adj"/></l><r>rettale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rectal<s n="adj"/></l><r>rettale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sacramental<s n="adj"/></l><r>sacramentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sacramental<s n="adj"/></l><r>sacramentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sectorial<s n="adj"/></l><r>settoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sectorial<s n="adj"/></l><r>settoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semestral<s n="adj"/></l><r>semestrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>semestral<s n="adj"/></l><r>semestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semifinal<s n="adj"/></l><r>semifinale<s n="adj"/></r></p></e>
+<e><p><l>seminal<s n="adj"/></l><r>seminale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>seminal<s n="adj"/></l><r>seminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>senatorial<s n="adj"/></l><r>senatoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>senatorial<s n="adj"/></l><r>senatoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>serial<s n="adj"/></l><r>seriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>serial<s n="adj"/></l><r>seriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sideral<s n="adj"/></l><r>siderale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sideral<s n="adj"/></l><r>siderale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sinodal<s n="adj"/></l><r>sinodale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sinodal<s n="adj"/></l><r>sinodale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sociocultural<s n="adj"/></l><r>socioculturale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sociocultural<s n="adj"/></l><r>socioculturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>subliminal<s n="adj"/></l><r>subliminale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subliminal<s n="adj"/></l><r>subliminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>subnormal<s n="adj"/></l><r>subnormale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subnormal<s n="adj"/></l><r>subnormale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>suborbital<s n="adj"/></l><r>suborbitale<s n="adj"/></r></p></e>
+<e><p><l>subtropical<s n="adj"/></l><r>subtropicale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>subtropical<s n="adj"/></l><r>subtropicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>teologal<s n="adj"/></l><r>teologale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>teologal<s n="adj"/></l><r>teologale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>testimonial<s n="adj"/></l><r>testimoniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>testimonial<s n="adj"/></l><r>testimoniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tombal<s n="adj"/></l><r>tombale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tombal<s n="adj"/></l><r>tombale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tonal<s n="adj"/></l><r>tonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tonal<s n="adj"/></l><r>tonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>transcontinental<s n="adj"/></l><r>transcontinentale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>transcontinental<s n="adj"/></l><r>transcontinentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tribal<s n="adj"/></l><r>tribale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tribal<s n="adj"/></l><r>tribale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>triennal<s n="adj"/></l><r>triennale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>triennal<s n="adj"/></l><r>triennale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>trilateral<s n="adj"/></l><r>trilaterale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>trilateral<s n="adj"/></l><r>trilaterale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tumoral<s n="adj"/></l><r>tumorale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tumoral<s n="adj"/></l><r>tumorale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>unicameral<s n="adj"/></l><r>unicamerale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>unicameral<s n="adj"/></l><r>unicamerale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>uninominal<s n="adj"/></l><r>uninominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>uninominal<s n="adj"/></l><r>uninominale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>urogenital<s n="adj"/></l><r>urogenitale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>urogenital<s n="adj"/></l><r>urogenitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vectorial<s n="adj"/></l><r>vettoriale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vectorial<s n="adj"/></l><r>vettoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>venal<s n="adj"/></l><r>venale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>venal<s n="adj"/></l><r>venale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>venial<s n="adj"/></l><r>veniale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>venial<s n="adj"/></l><r>veniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ventral<s n="adj"/></l><r>ventrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ventral<s n="adj"/></l><r>ventrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vertebral<s n="adj"/></l><r>vertebrale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vertebral<s n="adj"/></l><r>vertebrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>zodiacal<s n="adj"/></l><r>zodiacale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zodiacal<s n="adj"/></l><r>zodiacale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>zonal<s n="adj"/></l><r>zonale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>zonal<s n="adj"/></l><r>zonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e><p><l>apotropaic<s n="adj"/></l><r>apotropaico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>apotropaic<s n="adj"/></l><r>apotropaico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>minoic<s n="adj"/></l><r>minoico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>minoic<s n="adj"/></l><r>minoico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>nucleic<s n="adj"/></l><r>nucleico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>nucleic<s n="adj"/></l><r>nucleico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>onomatopeic<s n="adj"/></l><r>onomatopeico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>onomatopeic<s n="adj"/></l><r>onomatopeico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>paranoic<s n="adj"/></l><r>paranoico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>paranoic<s n="adj"/></l><r>paranoico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>pirenaic<s n="adj"/></l><r>pirenaico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pirenaic<s n="adj"/></l><r>pirenaico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>prosaic<s n="adj"/></l><r>prosaico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>prosaic<s n="adj"/></l><r>prosaico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>proteic<s n="adj"/></l><r>proteico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>proteic<s n="adj"/></l><r>proteico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>ribonucleic<s n="adj"/></l><r>ribonucleico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ribonucleic<s n="adj"/></l><r>ribonucleico<s n="adj"/><s n="sup"/></r></p></e>
+<e><p><l>mixt<s n="adj"/></l><r>misto<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mixt<s n="adj"/></l><r>misto<s n="adj"/><s n="sup"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -3223,6 +4012,7 @@
 <e>       <p><l>ricament<s n="adv"/></l>               <r>riccamente<s n="adv"/></r></p></e>
 <e r="LR"><p><l>rotundament<s n="adv"/></l>            <r>completamente<s n="adv"/></r></p></e>
 <e>       <p><l>ràpidament<s n="adv"/></l>             <r>rapidamente<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ràpidament<s n="adv"/></l>             <r>velocemente<s n="adv"/></r></p></e>
 <e>       <p><l>segur<s n="adv"/></l>                  <r>sicuro<s n="adv"/></r></p></e>
 <e>       <p><l>segurament<s n="adv"/></l>             <r>sicuramente<s n="adv"/></r></p></e>
 <e>       <p><l>sempre<s n="adv"/></l>                 <r>sempre<s n="adv"/></r></p></e>
@@ -3335,6 +4125,7 @@
 <e r="RL"><p><l>davant<s n="adv"/></l>                 <r>di<b/>contro<s n="adv"/></r></p></e>
 <e r="RL"><p><l>al<b/>contrari<s n="adv"/></l>         <r>per<b/>contro<s n="adv"/></r></p></e>
 <e r="RL"><p><l>potser<s n="adv"/></l>                 <r>talvolta<s n="adv"/></r></p></e>
+<e r="RL"><p><l>potser<s n="adv"/></l>                 <r>talora<s n="adv"/></r></p></e>
 <e r="RL"><p><l>justament<s n="adv"/></l>              <r>appunto<s n="adv"/></r></p></e>
 <e r="RL"><p><l>precisament<s n="adv"/></l>            <r>appunto<s n="adv"/></r></p></e>
 <e>       <p><l>és<b/>clar<s n="adv"/></l>             <r>per<b/>l'apppunto<s n="adv"/></r></p></e>
@@ -4116,6 +4907,8 @@
 <e r="RL"><p><l>a<b/>condició<b/>que<s n="cnjadv"/></l><r>a<b/>patto<b/>che<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>segons<b/>sembla<s n="cnjadv"/></l>    <r>a<b/>quanto<b/>pare<s n="cnjadv"/></r></p></e>
 <e>       <p><l>des<b/>que<s n="cnjadv"/></l>          <r>da<b/>quando<s n="cnjadv"/></r></p></e>
+<e>       <p><l>quan<s n="cnjsub"/></l>                <r>quando<s n="cnjsub"/></r></p></e>
+<e r="RL"><p><l>quan<s n="cnjsub"/></l>                <r>allorché<s n="cnjsub"/></r></p></e>
 
 <e>       <p><l>que<s n="cnjsub"/></l>                 <r>che<s n="cnjsub"/></r></p></e>
 
@@ -5826,7 +6619,8 @@
 <e>       <p><l>cul<s n="n"/></l>                      <r>culo<s n="n"/></r></p></e>
 <e>       <p><l>cullera<s n="n"/><s n="f"/></l>        <r>cucchiaio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>culte<s n="n"/></l>                    <r>culto<s n="n"/></r></p></e>
-<e>       <p><l>cultiu<s n="n"/></l>                   <r>coltivazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cultiu<s n="n"/><s n="m"/></l>         <r>coltivazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cultiu<s n="n"/><s n="m"/></l>         <r>coltura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cultura<s n="n"/></l>                  <r>cultura<s n="n"/></r></p></e>
 <e>       <p><l>cura<s n="n"/><s n="f"/></l>           <r>cura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>currículum<s n="n"/></l>               <r>curriculum<s n="n"/></r></p></e>
@@ -6108,9 +6902,8 @@
 <e>       <p><l>diòcesi<s n="n"/><s n="f"/></l>        <r>diocesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>arxidiòcesi<s n="n"/><s n="f"/></l>    <r>arcidiocesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>doblatge<s n="n"/></l>                 <r>doppiaggio<s n="n"/></r></p></e>
-<e r="LR"><p><l>doble<s n="n"/><s n="m"/></l>          <r>doppio<s n="n"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>doble<s n="n"/><s n="m"/></l>          <r>doppio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>doble<s n="n"/><s n="m"/></l>          <r>doppio<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dopatge<s n="n"/><s n="m"/></l>        <r>doping<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>doble<s n="n"/><s n="m"/></l>          <r>doppio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>docent<s n="n"/></l>                   <r>docente<s n="n"/></r></p></e>
 <e>       <p><l>doctor<s n="n"/></l>                   <r>dottore<s n="n"/></r></p></e>
 <e>       <p><l>doctorat<s n="n"/></l>                 <r>dottorato<s n="n"/></r></p></e>
@@ -6145,7 +6938,7 @@
 <e>       <p><l>droga<s n="n"/></l>                    <r>droga<s n="n"/></r></p></e>
 <e r="LR"><p><l>drogoaddicció<s n="n"/></l>            <r>tossicodipendenza<s n="n"/></r></p></e>
 <e>       <p><l>drogodependència<s n="n"/></l>         <r>tossicodipendenza<s n="n"/></r></p></e>
-<e>       <p><l>dualitat<s n="n"/><s n="f"/></l>       <r>dualismo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>dualitat<s n="n"/><s n="f"/></l>       <r>dualismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>duana<s n="n"/></l>                    <r>dogana<s n="n"/></r></p></e>
 <e>       <p><l>dubte<s n="n"/><s n="m"/></l>          <r>dubbio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>duc<s n="n"/></l>                      <r>duca<s n="n"/></r></p></e>
@@ -6538,7 +7331,7 @@
 <e>       <p><l>faldilla<s n="n"/></l>                 <r>gonna<s n="n"/></r></p></e>
 <e>       <p><l>fallada<s n="n"/><s n="f"/></l>        <r>fallo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>fallida<s n="n"/><s n="f"/></l>        <r>fallimento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>falta<s n="n"/></l>                    <r>mancanza<s n="n"/></r></p></e>
+<e r="LR"><p><l>falta<s n="n"/></l>                    <r>mancanza<s n="n"/></r></p></e>
 <e>       <p><l>fam<s n="n"/><s n="f"/></l>            <r>fame<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>fam<s n="n"/><s n="f"/></l>            <r>carestia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fama<s n="n"/></l>                     <r>fama<s n="n"/></r></p></e>
@@ -6664,7 +7457,7 @@
 <e>       <p><l>focus<s n="n"/><s n="m"/></l>          <r>fuoco<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>fogó<s n="n"/></l>                     <r>fornello<s n="n"/></r></p></e>
 <e>       <p><l>folklore<s n="n"/></l>                 <r>folclore<s n="n"/></r></p></e>
-<e r="LR"><p><l>follia<s n="n"/></l>                   <r>pazzia<s n="n"/></r></p></e>
+<e>       <p><l>follia<s n="n"/></l>                   <r>follia<s n="n"/></r></p></e>
 <e r="LR"><p><l>foment<s n="n"/><s n="m"/></l>         <r>promozione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fonament<s n="n"/><s n="m"/></l>       <r>fondazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fonamentalista<s n="n"/></l>           <r>fondamentalista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -6679,6 +7472,7 @@
 <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>sfondo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>fons<s n="n"/><s n="m"/><s n="sp"/></l><r>sfondo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>font<s n="n"/><s n="f"/></l>           <r>fonte<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>font<s n="n"/><s n="f"/></l>           <r>fontana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>forma<s n="n"/><s n="f"/></l>          <r>veste<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>forma<s n="n"/></l>                    <r>forma<s n="n"/></r></p></e>
 <e>       <p><l>formació<s n="n"/></l>                 <r>formazione<s n="n"/></r></p></e>
@@ -7916,6 +8710,7 @@
 <e>       <p><l>notificació<s n="n"/></l>              <r>notifica<s n="n"/></r></p></e>
 <e>       <p><l>notícia<s n="n"/></l>                  <r>notizia<s n="n"/></r></p></e>
 <e>       <p><l>nou<s n="n"/></l>                      <r>noce<s n="n"/></r></p></e>
+<e>       <p><l>novetat<s n="n"/><s n="f"/></l>        <r>novità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>romà<s n="n"/></l>                     <r>romano<s n="n"/></r></p></e>
 <e>       <p><l>romà<s n="adj"/></l>                   <r>romano<s n="adj"/></r></p></e>
 <e>       <p><l>toscà<s n="n"/></l>                    <r>toscano<s n="n"/></r></p></e>
@@ -8122,8 +8917,8 @@
 <e>       <p><l>paleta<s n="n"/></l>                   <r>paletta<s n="n"/></r></p></e>
 <e>       <p><l>palla<s n="n"/></l>                    <r>paglia<s n="n"/></r></p></e>
 <e>       <p><l>pallasso<s n="n"/></l>                 <r>pagliaccio<s n="n"/></r></p></e>
-<e>       <p><l>palmell<s n="n"/><s n="m"/></l>        <r>palma<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>palmera<s n="n"/></l>                  <r>palma<s n="n"/></r></p></e>
+<e r="LR"><p><l>palmell<s n="n"/><s n="m"/></l>        <r>palma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>palmera<s n="n"/><s n="f"/></l>        <r>palma<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>palometa<s n="n"/></l>                 <r>farfalla<s n="n"/></r></p></e>
 <e>       <p><l>pam<s n="n"/></l>                      <r>palmo<s n="n"/></r></p></e>
 <e>       <p><l>pamflet<s n="n"/></l>                  <r>opuscolo<s n="n"/></r></p></e>
@@ -8380,7 +9175,11 @@
 <e>       <p><l>plantació<s n="n"/></l>                <r>impianto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>plantilla<s n="n"/></l>                <r>maestranze<s n="n"/></r></p></e>
 <e r="LR"><p><l>planura<s n="n"/></l>                  <r>pianura<s n="n"/></r></p></e>
-<e>       <p><l>planxa<s n="n"/></l>                   <r>asse<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>làmina<s n="n"/></l>                   <r>lamiera<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>làmina<s n="n"/></l>                   <r>lastra<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>planxa<s n="n"/></l>                   <r>lamiera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>planxa<s n="n"/></l>                   <r>ferro<g><b/>da<b/>stiro</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>planxar<s n="vblex"/></l>              <r>stirare<s n="vblex"/></r></p></e>
 <e>       <p><l>plat<s n="n"/></l>                     <r>piatto<s n="n"/></r></p></e>
 <e>       <p><l>plata<s n="n"/><s n="f"/></l>          <r>argento<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>platerets<s n="n"/><s n="m"/><s n="pl"/></l><r>piatto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -8637,7 +9436,7 @@
 <e>       <p><l>quall<s n="n"/></l>                    <r>caglio<s n="n"/></r></p></e>
 <e>       <p><l>quantitat<s n="n"/><s n="f"/></l>      <r>quantità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>quantitat<s n="n"/><s n="f"/></l>      <r>quantitativo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>quarentena<s n="n"/></l>               <r>quarantena<s n="n"/></r></p></e>
+<e>       <p><l>quarantena<s n="n"/></l>               <r>quarantena<s n="n"/></r></p></e>
 <e>       <p><l>quaresma<s n="n"/><s n="f"/><s n="sg"/></l><r>quaresima<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>quaresma<s n="n"/><s n="f"/><s n="sg"/></l><r>quaresima<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>querubí<s n="n"/></l>                  <r>cherubino<s n="n"/></r></p></e>
@@ -9968,7 +10767,7 @@
 <e a="wiktionary"><p><l>madrastra<s n="n"/><s n="f"/></l><r>matrigna<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>maionesa<s n="n"/><s n="f"/></l><r>maionese<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>malenconia<s n="n"/><s n="f"/></l><r>malinconia<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="wiktionary"><p><l>mancança<s n="n"/><s n="f"/></l><r>mancanza<s n="n"/><s n="f"/></r></p></e>
+<e a="wiktionary"><p><l>mancança<s n="n"/><s n="f"/></l><r>mancanza<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>mandra<s n="n"/><s n="f"/></l> <r>pigrizia<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>maneta<s n="n"/><s n="f"/></l> <r>lancetta<s n="n"/><s n="f"/></r></p></e>
 <e a="wiktionary"><p><l>maneta<s n="n"/><s n="f"/></l> <r>maniglia<s n="n"/><s n="f"/></r></p></e>
@@ -11150,7 +11949,8 @@
 <e a="wiktionary"><p><l>despatx<s n="n"/><s n="m"/></l><r>gabinetto<s n="n"/><s n="m"/></r></p></e>
 <e a="hector"><p><l>despatx<s n="n"/><s n="m"/></l><r>ufficio<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>diagnosi<s n="n"/><s n="f"/></l><r>diagnosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e r="LR" a="wiktionary"><p><l>dictamen<s n="n"/><s n="m"/></l><r>giudizio<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="hector"><p><l>dictamen<s n="n"/><s n="m"/></l><r>opinione<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>dictamen<s n="n"/><s n="m"/>></l><r>dettame<s n="n"/><s n="m"/>></r></p></e>
 <e r="LR" a="wiktionary"><p><l>dosser<s n="n"/><s n="m"/></l><r>baldacchino<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>empara<s n="n"/><s n="f"/></l><r>asilo<s n="n"/><s n="m"/></r></p></e>
 <e a="wiktionary"><p><l>endevinalla<s n="n"/><s n="f"/></l><r>indovinello<s n="n"/><s n="m"/></r></p></e>
@@ -11170,7 +11970,7 @@
 <e r="LR" a="wiktionary"><p><l>fuet<s n="n"/><s n="m"/></l><r>frusta<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>galtada<s n="n"/><s n="f"/></l><r>schiaffo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>gimnàs<s n="n"/><s n="m"/></l><r>palestra<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="wiktionary"><p><l>guisa<s n="n"/><s n="f"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
+<e i="yes" a="wiktionary"><p><l>guisa<s n="n"/><s n="f"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="wiktionary"><p><l>hostatge<s n="n"/><s n="m"/></l><r>alloggio<s n="n"/><s n="m"/></r></p></e>
 <e a="hector"><p><l>igualtat<s n="n"/><s n="f"/></l>   <r>uguaglianza<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>desigualtat<s n="n"/><s n="f"/></l><r>disuguaglianza<s n="n"/><s n="f"/></r></p></e>
@@ -11415,6 +12215,529 @@
 <e a="hector"><p><l>correspondència<s n="n"/><s n="f"/></l><r>corrispondenza<s n="n"/><s n="f"/></r></p></e>
 <e a="hector"><p><l>profunditat<s n="n"/><s n="f"/></l><r>profondità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e a="hector"><p><l>regularitat<s n="n"/><s n="f"/></l><r>regolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="hector"><p><l>colpista<s n="n"/></l><r>golpista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>modista<s n="n"/><s n="mf"/></l><r>modista<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>llibreter<s n="n"/></l><r>libraio<s n="n"/></r></p></e>
+<e a="hector"><p><l>convicció<s n="n"/><s n="f"/></l><r>convinzione<s n="n"/><s n="f"/></r></p></e>
+
+<e><p><l>agonista<s n="n"/></l><r>agonista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>alpinista<s n="n"/></l><r>alpinista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>anestesista<s n="n"/></l><r>anestesista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antagonista<s n="n"/></l><r>antagonista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>antimilitarista<s n="n"/></l><r>antimilitarista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>automobilista<s n="n"/></l><r>automobilista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>autonomista<s n="n"/></l><r>autonomista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>borsista<s n="n"/></l><r>borsista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>calvinista<s n="n"/></l><r>calvinista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>caricaturista<s n="n"/></l><r>caricaturista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>castrista<s n="n"/></l><r>castrista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>catalanista<s n="n"/></l><r>catalanista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centralista<s n="n"/></l><r>centralista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>centrista<s n="n"/></l><r>centrista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ceramista<s n="n"/></l><r>ceramista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cicloturista<s n="n"/></l><r>cicloturista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>colonialista<s n="n"/></l><r>colonialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>colorista<s n="n"/></l><r>colorista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>concertista<s n="n"/></l><r>concertista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>conformista<s n="n"/></l><r>conformista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>congressista<s n="n"/></l><r>congressista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>copista<s n="n"/></l><r>copista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>corista<s n="n"/></l><r>corista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>costumista<s n="n"/></l><r>costumista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cronista<s n="n"/></l><r>cronista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cubista<s n="n"/></l><r>cubista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>culturista<s n="n"/></l><r>culturista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dadaista<s n="n"/></l><r>dadaista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ecologista<s n="n"/></l><r>ecologista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>editorialista<s n="n"/></l><r>editorialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>electricista<s n="n"/></l><r>elettricista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>esperantista<s n="n"/></l><r>esperantista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>falangista<s n="n"/></l><r>falangista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>federalista<s n="n"/></l><r>federalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>finalista<s n="n"/></l><r>finalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>flautista<s n="n"/></l><r>flautista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>fondista<s n="n"/></l><r>fondista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>formalista<s n="n"/></l><r>formalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>futurista<s n="n"/></l><r>futurista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>genetista<s n="n"/></l><r>genetista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>golfista<s n="n"/></l><r>golfista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>idealista<s n="n"/></l><r>idealista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>impressionista<s n="n"/></l><r>impressionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>imprevista<s n="n"/><s n="f"/></l><r>imprevista<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>individualista<s n="n"/></l><r>individualista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>integrista<s n="n"/></l><r>integrista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>jihadista<s n="n"/></l><r>jihadista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>maoista<s n="n"/></l><r>maoista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>marxista<s n="n"/></l><r>marxista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>materialista<s n="n"/></l><r>materialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>memorialista<s n="n"/></l><r>memorialista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>metodista<s n="n"/></l><r>metodista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>milanista<s n="n"/></l><r>milanista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>militarista<s n="n"/></l><r>militarista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>minimalista<s n="n"/></l><r>minimalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>modernista<s n="n"/></l><r>modernista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>monopolista<s n="n"/></l><r>monopolista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>moralista<s n="n"/></l><r>moralista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>motociclista<s n="n"/></l><r>motociclista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>motorista<s n="n"/></l><r>motorista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>narcisista<s n="n"/></l><r>narcisista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>naturalista<s n="n"/></l><r>naturalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>naturista<s n="n"/></l><r>naturista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>organista<s n="n"/></l><r>organista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>orientalista<s n="n"/></l><r>orientalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>percussionista<s n="n"/></l><r>percussionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>peronista<s n="n"/></l><r>peronista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>postcomunista<s n="n"/></l><r>postcomunista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pragmatista<s n="n"/></l><r>pragmatista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>progressista<s n="n"/></l><r>progressista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>propagandista<s n="n"/></l><r>propagandista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>psicoanalista<s n="n"/></l><r>psicoanalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>purista<s n="n"/></l><r>purista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>regionalista<s n="n"/></l><r>regionalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>revisionista<s n="n"/></l><r>revisionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>romanista<s n="n"/></l><r>romanista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sandinista<s n="n"/></l><r>sandinista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>secessionista<s n="n"/></l><r>secessionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semifinalista<s n="n"/></l><r>semifinalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>seminarista<s n="n"/></l><r>seminarista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>separatista<s n="n"/></l><r>separatista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>simbolista<s n="n"/></l><r>simbolista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sofista<s n="n"/></l><r>sofista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>solista<s n="n"/></l><r>solista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>surfista<s n="n"/></l><r>surfista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>telefonista<s n="n"/></l><r>telefonista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>trotskista<s n="n"/></l><r>trotskista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>unionista<s n="n"/></l><r>unionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>urbanista<s n="n"/></l><r>urbanista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>velocista<s n="n"/></l><r>velocista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>videoartista<s n="n"/></l><r>videoartista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>violinista<s n="n"/></l><r>violinista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>vocalista<s n="n"/></l><r>vocalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>zapatista<s n="n"/></l><r>zapatista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>amoralisme<s n="n"/><s n="m"/></l><r>amoralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>analfabetisme<s n="n"/><s n="m"/></l><r>analfabetismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anglicisme<s n="n"/><s n="m"/></l><r>anglicismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antagonisme<s n="n"/><s n="m"/></l><r>antagonismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anticlericalisme<s n="n"/><s n="m"/></l><r>anticlericalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anticomunisme<s n="n"/><s n="m"/></l><r>anticomunismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antimilitarisme<s n="n"/><s n="m"/></l><r>antimilitarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antisemitisme<s n="n"/><s n="m"/></l><r>antisemitismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antiterrorisme<s n="n"/><s n="m"/><s n="sg"/></l><r>antiterrorismo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>ateisme<s n="n"/><s n="m"/></l><r>ateismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>automatisme<s n="n"/><s n="m"/></l><r>automatismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>autonomisme<s n="n"/><s n="m"/></l><r>autonomismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bicameralisme<s n="n"/><s n="m"/></l><r>bicameralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bizantinisme<s n="n"/><s n="m"/></l><r>bizantinismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bovarisme<s n="n"/><s n="m"/></l><r>bovarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>castrisme<s n="n"/><s n="m"/></l><r>castrismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>catastrofisme<s n="n"/><s n="m"/></l><r>catastrofismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>centralisme<s n="n"/><s n="m"/></l><r>centralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>centrisme<s n="n"/><s n="m"/></l><r>centrismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cinisme<s n="n"/><s n="m"/></l><r>cinismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>classicisme<s n="n"/><s n="m"/></l><r>classicismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>clericalisme<s n="n"/><s n="m"/></l><r>clericalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>clientelisme<s n="n"/><s n="m"/></l><r>clientelismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>conformisme<s n="n"/><s n="m"/></l><r>conformismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>contorsionisme<s n="n"/><s n="m"/></l><r>contorsionismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>corporativisme<s n="n"/><s n="m"/></l><r>corporativismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cosmopolitisme<s n="n"/><s n="m"/></l><r>cosmopolitismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cromatisme<s n="n"/><s n="m"/></l><r>cromatismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cultisme<s n="n"/><s n="m"/></l><r>cultismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dadaisme<s n="n"/><s n="m"/></l><r>dadaismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>darwinisme<s n="n"/><s n="m"/></l><r>darwinismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>decadentisme<s n="n"/><s n="m"/></l><r>decadentismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>determinisme<s n="n"/><s n="m"/></l><r>determinismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dirigisme<s n="n"/><s n="m"/></l><r>dirigismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dogmatisme<s n="n"/><s n="m"/></l><r>dogmatismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dualisme<s n="n"/><s n="m"/></l><r>dualismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>electoralisme<s n="n"/><s n="m"/></l><r>elettoralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>endemisme<s n="n"/><s n="m"/></l><r>endemismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>equilibrisme<s n="n"/><s n="m"/></l><r>equilibrismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>esoterisme<s n="n"/><s n="m"/></l><r>esoterismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>favoritisme<s n="n"/><s n="m"/></l><r>favoritismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>federalisme<s n="n"/><s n="m"/></l><r>federalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>folklorisme<s n="n"/><s n="m"/></l><r>folklorismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>formalisme<s n="n"/><s n="m"/></l><r>formalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>futurisme<s n="n"/><s n="m"/></l><r>futurismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gangsterisme<s n="n"/><s n="m"/></l><r>gangsterismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>geocentrisme<s n="n"/><s n="m"/></l><r>geocentrismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gigantisme<s n="n"/><s n="m"/></l><r>gigantismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gnosticisme<s n="n"/><s n="m"/></l><r>gnosticismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gradualisme<s n="n"/><s n="m"/></l><r>gradualismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>immobilisme<s n="n"/><s n="m"/></l><r>immobilismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>impressionisme<s n="n"/><s n="m"/></l><r>impressionismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>individualisme<s n="n"/><s n="m"/></l><r>individualismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>infantilisme<s n="n"/><s n="m"/></l><r>infantilismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>integrisme<s n="n"/><s n="m"/></l><r>integrismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>intimisme<s n="n"/><s n="m"/></l><r>intimismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lirisme<s n="n"/><s n="m"/></l><r>lirismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>localisme<s n="n"/><s n="m"/></l><r>localismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>maoisme<s n="n"/><s n="m"/></l><r>maoismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>megalitisme<s n="n"/><s n="m"/></l><r>megalitismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>messianisme<s n="n"/><s n="m"/></l><r>messianismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>microorganisme<s n="n"/><s n="m"/></l><r>microorganismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>minimalisme<s n="n"/><s n="m"/></l><r>minimalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>misticisme<s n="n"/><s n="m"/></l><r>misticismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>modernisme<s n="n"/><s n="m"/></l><r>modernismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>monetarisme<s n="n"/><s n="m"/></l><r>monetarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>moralisme<s n="n"/><s n="m"/></l><r>moralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>multiculturalisme<s n="n"/><s n="m"/></l><r>multiculturalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mutisme<s n="n"/><s n="m"/></l><r>mutismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>narcisisme<s n="n"/><s n="m"/></l><r>narcisismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>naturalisme<s n="n"/><s n="m"/></l><r>naturalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>naturisme<s n="n"/><s n="m"/></l><r>naturismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>neoclassicisme<s n="n"/><s n="m"/></l><r>neoclassicismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>neonazisme<s n="n"/><s n="m"/></l><r>neonazismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nepotisme<s n="n"/><s n="m"/></l><r>nepotismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>neutralisme<s n="n"/><s n="m"/></l><r>neutralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nomadisme<s n="n"/><s n="m"/></l><r>nomadismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nominalisme<s n="n"/><s n="m"/></l><r>nominalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>orientalisme<s n="n"/><s n="m"/></l><r>orientalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ostracisme<s n="n"/><s n="m"/></l><r>ostracismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>parlamentarisme<s n="n"/><s n="m"/></l><r>parlamentarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>paternalisme<s n="n"/><s n="m"/></l><r>paternalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>patetisme<s n="n"/><s n="m"/></l><r>patetismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pauperisme<s n="n"/><s n="m"/></l><r>pauperismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>peronisme<s n="n"/><s n="m"/></l><r>peronismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>personalisme<s n="n"/><s n="m"/></l><r>personalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>platonisme<s n="n"/><s n="m"/></l><r>platonismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pluralisme<s n="n"/><s n="m"/></l><r>pluralismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>positivisme<s n="n"/><s n="m"/></l><r>positivismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pragmatisme<s n="n"/><s n="m"/></l><r>pragmatismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>proselitisme<s n="n"/><s n="m"/></l><r>proselitismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>protagonisme<s n="n"/><s n="m"/></l><r>protagonismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>provincialisme<s n="n"/><s n="m"/></l><r>provincialismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>purisme<s n="n"/><s n="m"/></l><r>purismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>radicalisme<s n="n"/><s n="m"/></l><r>radicalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>regionalisme<s n="n"/><s n="m"/></l><r>regionalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>relativisme<s n="n"/><s n="m"/></l><r>relativismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>revisionisme<s n="n"/><s n="m"/></l><r>revisionismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rigorisme<s n="n"/><s n="m"/></l><r>rigorismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>satanisme<s n="n"/><s n="m"/></l><r>satanismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>secessionisme<s n="n"/><s n="m"/></l><r>secessionismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sectarisme<s n="n"/><s n="m"/></l><r>settarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sentimentalisme<s n="n"/><s n="m"/></l><r>sentimentalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>separatisme<s n="n"/><s n="m"/></l><r>separatismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>servilisme<s n="n"/><s n="m"/></l><r>servilismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sincretisme<s n="n"/><s n="m"/></l><r>sincretismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sincronisme<s n="n"/><s n="m"/></l><r>sincronismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sionisme<s n="n"/><s n="m"/></l><r>sionismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sociologisme<s n="n"/><s n="m"/></l><r>sociologismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tecnicisme<s n="n"/><s n="m"/></l><r>tecnicismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>totalitarisme<s n="n"/><s n="m"/></l><r>totalitarismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tribalisme<s n="n"/><s n="m"/></l><r>tribalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>trotskisme<s n="n"/><s n="m"/></l><r>trotskismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>unanimisme<s n="n"/><s n="m"/></l><r>unanimismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>verisme<s n="n"/><s n="m"/></l><r>verismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>victimisme<s n="n"/><s n="m"/></l><r>vittimismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>virtuosisme<s n="n"/><s n="m"/></l><r>virtuosismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vitalisme<s n="n"/><s n="m"/></l><r>vitalismo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>voyeurisme<s n="n"/><s n="m"/><s n="sg"/></l><r>voyeurismo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>semblança<s n="n"/><s n="f"/></l><r>somiglianza<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>llop<s n="n"/></l><r>lupo<s n="n"/></r></p></e>
+<e><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/></l><r>DNA<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/></l><r>ADN<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>DNA<s n="n"/><s n="acr"/><s n="m"/></l><r>DNA<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>CD<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>CD<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>CV<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>CV<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>DJ<s n="n"/><s n="acr"/><s n="mf"/></l><r>DJ<s n="n"/><s n="acr"/><s n="mf"/></r></p></e>
+<e><p><l>DVD<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DVD<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>FC<s n="n"/><s n="acr"/><s n="m"/></l><r>FC<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>FSB<s n="n"/><s n="acr"/><s n="m"/></l><r>FSB<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>GPRS<s n="n"/><s n="acr"/><s n="m"/></l><r>GPRS<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>HIV<s n="n"/><s n="acr"/><s n="m"/></l><r>HIV<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>LP<s n="n"/><s n="acr"/><s n="m"/></l><r>LP<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>MIT<s n="n"/><s n="acr"/><s n="m"/></l><r>MIT<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>PS<s n="n"/><s n="acr"/><s n="m"/></l><r>PS<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e><p><l>acme<s n="n"/><s n="f"/></l><r>acme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>afta<s n="n"/><s n="f"/></l><r>afta<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>aggiornamento<s n="n"/><s n="m"/></l><r>aggiornamento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>albatros<s n="n"/><s n="m"/></l><r>albatros<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>alfa<s n="n"/><s n="f"/></l><r>alfa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>allegro<s n="n"/><s n="m"/></l><r>allegro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anatomopatologia<s n="n"/><s n="f"/></l><r>anatomopatologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>andante<s n="n"/><s n="m"/></l><r>andante<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>andrologia<s n="n"/><s n="f"/></l><r>andrologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>antologia<s n="n"/><s n="f"/></l><r>antologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>aporia<s n="n"/><s n="f"/></l><r>aporia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>apoteosi<s n="n"/><s n="f"/></l><r>apoteosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>app<s n="n"/><s n="f"/></l><r>app<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>artrosi<s n="n"/><s n="f"/></l><r>artrosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>azimut<s n="n"/><s n="m"/></l><r>azimut<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>baia<s n="n"/><s n="f"/></l><r>baia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>banana<s n="n"/><s n="f"/></l><r>banana<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>baronia<s n="n"/><s n="f"/></l><r>baronia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>batata<s n="n"/><s n="f"/></l><r>batata<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>belga<s n="n"/></l><r>belga<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>berlina<s n="n"/><s n="f"/></l><r>berlina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>beta<s n="n"/><s n="f"/></l><r>beta<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>bibliografia<s n="n"/><s n="f"/></l><r>bibliografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>bidet<s n="n"/><s n="m"/></l><r>bidet<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>biomassa<s n="n"/><s n="f"/></l><r>biomassa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>biosfera<s n="n"/><s n="f"/></l><r>biosfera<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>bit<s n="n"/><s n="m"/></l><r>bit<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>boa<s n="n"/><s n="f"/></l><r>boa<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>bonobo<s n="n"/><s n="m"/></l><r>bonobo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>boom<s n="n"/><s n="m"/></l><r>boom<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>bugia<s n="n"/><s n="f"/></l><r>bugia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>caldo<s n="n"/><s n="m"/></l><r>caldo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>calma<s n="n"/><s n="f"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cameo<s n="n"/><s n="m"/></l><r>cameo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>camerino<s n="n"/><s n="m"/></l><r>camerino<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>cantina<s n="n"/><s n="f"/></l><r>cantina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>carambola<s n="n"/><s n="f"/></l><r>carambola<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cardiologia<s n="n"/><s n="f"/></l><r>cardiologia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>carestia<s n="n"/><s n="f"/></l><r>carestia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cartografia<s n="n"/><s n="f"/></l><r>cartografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>casella<s n="n"/><s n="f"/></l><r>casella<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>catena<s n="n"/><s n="f"/></l><r>catena<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cautela<s n="n"/><s n="f"/></l><r>cautela<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cinematografia<s n="n"/><s n="f"/></l><r>cinematografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cinta<s n="n"/><s n="f"/></l><r>nastro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cirrosi<s n="n"/><s n="f"/></l><r>cirrosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>clic<s n="n"/><s n="m"/></l><r>clic<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>clip<s n="n"/><s n="m"/></l><r>clip<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>coala<s n="n"/><s n="m"/></l><r>coala<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>coda<s n="n"/><s n="f"/></l><r>coda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>comandament<s n="n"/><s n="m"/></l><r>comando<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cometa<s n="n"/><s n="m"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cometa<s n="n"/><s n="f"/><s n="pl"/></l><r>vigolette<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>compare<s n="n"/><s n="m"/></l><r>compare<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>conclave<s n="n"/><s n="m"/></l><r>conclave<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>contesa<s n="n"/><s n="f"/></l><r>contesa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cosmologia<s n="n"/><s n="f"/></l><r>cosmologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cosmonauta<s n="n"/></l><r>cosmonauta<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>croma<s n="n"/><s n="m"/></l><r>croma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>debacle<s n="n"/><s n="f"/></l><r>debacle<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>deontologia<s n="n"/><s n="f"/></l><r>deontologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dermatologia<s n="n"/><s n="f"/></l><r>dermatologia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dictamen<s n="n"/><s n="m"/></l><r>dictamen<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>disciplina<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>discografia<s n="n"/><s n="f"/></l><r>discografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dispensa<s n="n"/><s n="f"/></l><r>dispensa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>display<s n="n"/><s n="m"/></l><r>display<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>divertimento<s n="n"/><s n="m"/></l><r>divertimento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>divo<s n="n"/><s n="m"/></l><r>divo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dopamina<s n="n"/><s n="f"/></l><r>dopamina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dossier<s n="n"/><s n="m"/></l><r>dossier<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>drone<s n="n"/><s n="m"/></l><r>drone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>duro<s n="n"/><s n="m"/></l><r>duro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dvd<s n="n"/><s n="m"/></l><r>dvd<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>elegia<s n="n"/><s n="f"/></l><r>elegia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>enologia<s n="n"/><s n="f"/></l><r>enologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>entomologia<s n="n"/><s n="f"/></l><r>entomologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>entropia<s n="n"/><s n="f"/></l><r>entropia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>entusiasta<s n="n"/></l><r>entusiasta<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>epidemiologia<s n="n"/><s n="f"/></l><r>epidemiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>èxtasi<s n="n"/><s n="f"/></l><r>estasi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>etnologia<s n="n"/><s n="f"/></l><r>etnologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>etologia<s n="n"/><s n="f"/></l><r>etologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>eurozona<s n="n"/><s n="f"/></l><r>eurozona<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>falla<s n="n"/><s n="f"/></l><r>mancanza<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>falla<s n="n"/><s n="f"/></l><r>faglia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>farmacologia<s n="n"/><s n="f"/></l><r>farmacologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>feedback<s n="n"/><s n="m"/></l><r>feedback<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>fenomenologia<s n="n"/><s n="f"/></l><r>fenomenologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fibrosi<s n="n"/><s n="f"/></l><r>fibrosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>ficus<s n="n"/><s n="m"/></l><r>ficus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>filantropia<s n="n"/><s n="f"/></l><r>filantropia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>finta<s n="n"/><s n="f"/></l><r>finta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fisiologia<s n="n"/><s n="f"/></l><r>fisiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>foie<b/>gras<s n="n"/><s n="m"/></l><r>foie<b/>gras<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>folk<s n="n"/><s n="m"/></l><r>folk<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>fontana<s n="n"/><s n="f"/></l><r>fontana<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>futurologia<s n="n"/><s n="f"/></l><r>futurologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>galera<s n="n"/><s n="f"/></l><r>galera<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gelosia<s n="n"/><s n="f"/></l><r>gelosia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>geologia<s n="n"/><s n="f"/></l><r>geologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gerontologia<s n="n"/><s n="f"/></l><r>gerontologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>guisa<s n="n"/><s n="f"/></l><r>guisa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>hall<s n="n"/><s n="m"/></l><r>hall<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>harem<s n="n"/><s n="m"/></l><r>harem<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>hijab<s n="n"/><s n="m"/></l><r>hijab<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>ictus<s n="n"/><s n="m"/></l><r>ictus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>immunologia<s n="n"/><s n="f"/></l><r>immunologia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>imposta<s n="n"/><s n="f"/></l><r>imposta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>input<s n="n"/><s n="m"/></l><r>input<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>interlingua<s n="n"/><s n="f"/></l><r>interlingua<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>internauta<s n="n"/></l><r>internauta<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>jet<s n="n"/><s n="m"/></l><r>jet<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>kebab<s n="n"/><s n="m"/></l><r>kebab<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>kit<s n="n"/><s n="m"/></l><r>kit<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>koiné<s n="n"/><s n="f"/></l><r>koiné<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>leitmotiv<s n="n"/><s n="m"/></l><r>leitmotiv<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>link<s n="n"/><s n="m"/></l><r>link<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>lobby<s n="n"/><s n="m"/></l><r>lobby<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>logo<s n="n"/><s n="m"/></l><r>logo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>macroeconomia<s n="n"/><s n="f"/></l><r>macroeconomia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>madame<s n="n"/><s n="f"/></l><r>madame<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>magistratura<s n="n"/><s n="f"/></l><r>magistratura<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>morter<s n="n"/><s n="f"/></l><r>malta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mambo<s n="n"/><s n="m"/></l><r>mambo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>mandorla<s n="n"/><s n="f"/></l><r>mandorla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>manga<s n="n"/><s n="m"/></l><r>manga<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>mango<s n="n"/><s n="m"/></l><r>mango<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mantra<s n="n"/><s n="m"/></l><r>mantra<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>mascarpone<s n="n"/><s n="m"/></l><r>mascarpone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>masia<s n="n"/><s n="f"/></l><r>masia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>metodologia<s n="n"/><s n="f"/></l><r>metodologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>micro<s n="n"/><s n="m"/></l><r>micro<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>microbiologia<s n="n"/><s n="f"/></l><r>microbiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>min.<s n="n"/><s n="m"/></l><r>min.<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>mescla<s n="n"/><s n="f"/></l><r>misto<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mufla<s n="n"/><s n="f"/></l><r>mufla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>musicologia<s n="n"/><s n="f"/></l><r>musicologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nanotecnologia<s n="n"/><s n="f"/></l><r>nanotecnologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>narrativa<s n="n"/><s n="f"/></l><r>narrativa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>neurofisiologia<s n="n"/><s n="f"/></l><r>neurofisiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>neuropatia<s n="n"/><s n="f"/></l><r>neuropatia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>neutrino<s n="n"/><s n="m"/></l><r>neutrino<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>normativa<s n="n"/><s n="f"/></l><r>normativa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nova<s n="n"/><s n="f"/></l><r>nova<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>oftalmologia<s n="n"/><s n="f"/></l><r>oftalmologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>omanita<s n="n"/></l><r>omanita<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>opa<s n="n"/><s n="f"/></l><r>opa<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>ornitologia<s n="n"/><s n="f"/></l><r>ornitologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>paleontologia<s n="n"/><s n="f"/></l><r>paleontologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>palma<s n="n"/><s n="f"/></l><r>palma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>palmarès<s n="n"/><s n="m"/></l><r>palmarès<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>parapsicologia<s n="n"/><s n="f"/></l><r>parapsicologia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>parentela<s n="n"/><s n="f"/></l><r>parentela<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>patriota<s n="n"/></l><r>patriota<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>pausa<s n="n"/><s n="f"/></l><r>pausa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>permuta<s n="n"/><s n="f"/></l><r>permuta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>piastra<s n="n"/><s n="f"/></l><r>piastra<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>placebo<s n="n"/><s n="m"/></l><r>placebo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>planetologia<s n="n"/><s n="f"/></l><r>planetologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>plastilina<s n="n"/><s n="f"/></l><r>plastilina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>platea<s n="n"/><s n="f"/></l><r>platea<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>podologia<s n="n"/><s n="f"/></l><r>podologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>polpa<s n="n"/><s n="f"/></l><r>polpa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>psicopatologia<s n="n"/><s n="f"/></l><r>psicopatologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>psicoterapeuta<s n="n"/></l><r>psicoterapeuta<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>puma<s n="n"/><s n="m"/></l><r>puma<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>expedició<s n="n"/><s n="f"/></l><r>spedizione<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quota<s n="n"/><s n="f"/></l><r>quota<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>radiografia<s n="n"/><s n="f"/></l><r>radiografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>radiologia<s n="n"/><s n="f"/></l><r>radiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rap<s n="n"/><s n="m"/></l><r>rap<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>recidiva<s n="n"/><s n="f"/></l><r>recidiva<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>regina<s n="n"/><s n="f"/></l><r>regina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>resina<s n="n"/><s n="f"/></l><r>resina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ring<s n="n"/><s n="m"/></l><r>ring<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>risotto<s n="n"/><s n="m"/></l><r>risotto<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rupia<s n="n"/><s n="f"/></l><r>rupia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>samba<s n="n"/><s n="f"/></l><r>samba<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>saudita<s n="n"/></l><r>saudita<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>scherzo<s n="n"/><s n="m"/></l><r>scherzo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>semestre<s n="n"/><s n="m"/></l><r>semestre<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>semiologia<s n="n"/><s n="f"/></l><r>semiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sequoia<s n="n"/><s n="f"/></l><r>sequoia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>serotonina<s n="n"/><s n="f"/></l><r>serotonina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>simbologia<s n="n"/><s n="f"/></l><r>simbologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sinapsi<s n="n"/><s n="f"/></l><r>sinapsi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>sincronia<s n="n"/><s n="f"/></l><r>sincronia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sinusoide<s n="n"/><s n="m"/></l><r>sinusoide<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sismologia<s n="n"/><s n="f"/></l><r>sismologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sociobiologia<s n="n"/><s n="f"/></l><r>sociobiologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sodomia<s n="n"/><s n="f"/></l><r>sodomia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>sprint<s n="n"/><s n="m"/></l><r>sprint<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>start-up<s n="n"/><s n="f"/></l><r>start-up<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>stop<s n="n"/><s n="m"/></l><r>stop<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>supernova<s n="n"/><s n="f"/></l><r>supernova<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>surf<s n="n"/><s n="m"/></l><r>surf<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>tautologia<s n="n"/><s n="f"/></l><r>tautologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tele<s n="n"/><s n="f"/></l><r>tele<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>tempo<s n="n"/><s n="m"/></l><r>tempo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>terrina<s n="n"/><s n="f"/></l><r>scodellina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tipografia<s n="n"/><s n="f"/></l><r>tipografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tipologia<s n="n"/><s n="f"/></l><r>tipologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tomografia<s n="n"/><s n="f"/></l><r>tomografia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tondo<s n="n"/><s n="m"/></l><r>tondo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tour<s n="n"/><s n="m"/></l><r>tour<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>trimestre<s n="n"/><s n="m"/></l><r>trimestre<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>tromba<s n="n"/><s n="f"/></l><r>tromba<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>trombosi<s n="n"/><s n="f"/></l><r>trombosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>trust<s n="n"/><s n="m"/></l><r>trust<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>tsunami<s n="n"/><s n="m"/></l><r>tsunami<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>tutela<s n="n"/><s n="f"/></l><r>tutela<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>tweet<s n="n"/><s n="m"/></l><r>tweet<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>urologia<s n="n"/><s n="f"/></l><r>urologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>videoclip<s n="n"/><s n="m"/></l><r>videoclip<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>vietnamita<s n="n"/></l><r>vietnamita<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>virologia<s n="n"/><s n="f"/></l><r>virologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>vulcanologia<s n="n"/><s n="f"/></l><r>vulcanologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>vuvuzela<s n="n"/><s n="f"/></l><r>vuvuzela<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>watt<s n="n"/><s n="m"/></l><r>watt<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>zoo<s n="n"/><s n="m"/></l><r>zoo<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>zoologia<s n="n"/><s n="f"/></l><r>zoologia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>apartheid<s n="n"/><s n="m"/></l><r>apartheid<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>gag<s n="n"/><s n="m"/></l><r>gag<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>giga<s n="n"/><s n="m"/></l><r>giga<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>label<s n="n"/><s n="m"/></l><r>label<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>metà<s n="n"/><s n="m"/></l><r>metano<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>mini<s n="n"/><s n="m"/></l><r>mini<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>output<s n="n"/><s n="m"/></l><r>output<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>password<s n="n"/><s n="m"/></l><r>password<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>prognosi<s n="n"/><s n="f"/></l><r>prognosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>reporter<s n="n"/><s n="m"/></l><r>reporter<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>tac<s n="n"/><s n="m"/></l><r>tac<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>top<s n="n"/><s n="m"/></l><r>top<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>val<s n="n"/><s n="m"/></l><r>val<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e><p><l>jihad<s n="n"/><s n="mf"/></l><r>jihad<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>jeans<s n="n"/><s n="m"/><s n="sp"/></l><r>jeans<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>texans<s n="n"/><s n="m"/><s n="pl"/></l><r>jeans<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>ATP<s n="n"/><s n="acr"/><s n="f"/></l><r>ATP<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>BBC<s n="n"/><s n="acr"/><s n="f"/></l><r>BBC<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>CA<s n="n"/><s n="acr"/><s n="f"/></l><r>CA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>CAM<s n="n"/><s n="acr"/><s n="f"/></l><r>CAM<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>CGT<s n="n"/><s n="acr"/><s n="f"/></l><r>CGT<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>CIA<s n="n"/><s n="acr"/><s n="f"/></l><r>CIA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>CNN<s n="n"/><s n="acr"/><s n="f"/></l><r>CNN<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>DP<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DP<s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>EMT<s n="n"/><s n="acr"/><s n="f"/></l><r>EMT<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>FBI<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>FBI<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>FIFA<s n="n"/><s n="acr"/><s n="f"/></l><r>FIFA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>HD<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>HD<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>MTV<s n="n"/><s n="acr"/><s n="f"/></l><r>MTV<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>NASA<s n="n"/><s n="acr"/><s n="f"/></l><r>NASA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>NBA<s n="n"/><s n="acr"/><s n="f"/></l><r>NBA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>NFL<s n="n"/><s n="acr"/><s n="f"/></l><r>NFL<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e><p><l>PC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>PC<s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>SMS<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>SMS<s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>UVA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>UVA<s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>alzheimer<s n="n"/><s n="m"/><s n="sg"/></l><r>alzheimer<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>citoplasma<s n="n"/><s n="m"/></l><r>citoplasma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>diadema<s n="n"/><s n="f"/></l><r>diadema<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>euribor<s n="n"/><s n="m"/><s n="sg"/></l><r>euribor<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>fonema<s n="n"/><s n="m"/></l><r>fonema<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forca<s n="n"/><s n="f"/></l><r>forca<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>genoma<s n="n"/><s n="m"/></l><r>genoma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>glasnost<s n="n"/><s n="f"/><s n="sg"/></l><r>glasnost<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>grafema<s n="n"/><s n="m"/></l><r>grafema<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hindi<s n="n"/><s n="m"/><s n="sg"/></l><r>hindi<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>hobby<s n="n"/><s n="m"/></l><r>hobby<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>impasse<s n="n"/><s n="m"/><s n="sg"/></l><r>impasse<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>islam<s n="n"/><s n="m"/><s n="sg"/></l><r>islam<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>karate<s n="n"/><s n="m"/><s n="sg"/></l><r>karate<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>maraca<s n="n"/><s n="f"/></l><r>maraca<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nord-est<s n="n"/><s n="m"/><s n="sg"/></l><r>nord-est<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>paga<s n="n"/><s n="f"/></l><r>paga<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pesticida<s n="n"/><s n="m"/></l><r>pesticida<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>plasma<s n="n"/><s n="m"/></l><r>plasma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>polis<s n="n"/><s n="f"/><s n="sp"/></l><r>polis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>prisma<s n="n"/><s n="m"/></l><r>prisma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>protoplasma<s n="n"/><s n="m"/></l><r>protoplasma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>purga<s n="n"/><s n="f"/></l><r>purga<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>realpolitik<s n="n"/><s n="f"/><s n="sg"/></l><r>realpolitik<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>rugby<s n="n"/><s n="m"/><s n="sg"/></l><r>rugby<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>saga<s n="n"/><s n="f"/></l><r>saga<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sofisma<s n="n"/><s n="m"/></l><r>sofisma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sud-est<s n="n"/><s n="m"/><s n="sg"/></l><r>sud-est<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sushi<s n="n"/><s n="m"/><s n="sg"/></l><r>sushi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>webcam<s n="n"/><s n="f"/></l><r>webcam<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunità<s n="n"/><s n="f"/></r></p></e>
 
 <!-- xxxx -->
 
@@ -11588,6 +12911,7 @@
 <e>       <p><l>Bush<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Bush<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Bàssora<s n="np"/><s n="top"/><s n="f"/></l><r>Bàssora<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Bèlgica<s n="np"/><s n="top"/><s n="f"/></l><r>Belgio<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Holanda<s n="np"/><s n="top"/><s n="f"/></l><r>Olanda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Flandes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Fiandre<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Anvers<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Anversa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Bétera<s n="np"/><s n="top"/><s n="f"/></l><r>Bétera<s n="np"/><s n="top"/><s n="m"/></r></p></e>
@@ -33381,6 +34705,7 @@
 <e r="LR"><p><l>acostumar<g><b/>a</g><s n="vblex"/></l><r>solere<s n="vblex"/></r></p></e>
 <e>       <p><l>acreditar<s n="vblex"/></l>            <r>accreditare<s n="vblex"/></r></p></e>
 <e>       <p><l>activar<s n="vblex"/></l>              <r>attivare<s n="vblex"/></r></p></e>
+<e>       <p><l>reactivar<s n="vblex"/></l>            <r>riattivare<s n="vblex"/></r></p></e>
 <e>       <p><l>actualitzar<s n="vblex"/></l>          <r>aggiornare<s n="vblex"/></r></p></e>
 <e>       <p><l>actuar<s n="vblex"/></l>               <r>attuare<s n="vblex"/></r></p></e>
 <e>       <p><l>acumular<s n="vblex"/></l>             <r>accumulare<s n="vblex"/></r></p></e>
@@ -34064,6 +35389,7 @@
 <e>       <p><l>negar<s n="vblex"/></l>                <r>negare<s n="vblex"/></r></p></e>
 <e>       <p><l>negociar<s n="vblex"/></l>             <r>negoziare<s n="vblex"/></r></p></e>
 <e>       <p><l>nomenar<s n="vblex"/></l>              <r>nominare<s n="vblex"/></r></p></e>
+<e>       <p><l>reanomenar<s n="vblex"/></l>           <r>rinominare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>nominar<s n="vblex"/></l>              <r>nominare<s n="vblex"/></r></p></e>
 <e>       <p><l>notar<s n="vblex"/></l>                <r>notare<s n="vblex"/></r></p></e>
 <e>       <p><l>notificar<s n="vblex"/></l>            <r>notificare<s n="vblex"/></r></p></e>
@@ -34551,9 +35877,12 @@
 <e a="hector"><p><l>resumir<s n="vblex"/></l><r>riassumere<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>coincidir<s n="vblex"/></l><r>coincidere<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>teclejar<s n="vblex"/></l><r>digitare<s n="vblex"/></r></p></e>
-<e a="hector"><p><l>concretare<s n="vblex"/></l><r>concretizzare<s n="vblex"/></r></p></e>
+<e r="RL" a="hector"><p><l>concretar<s n="vblex"/></l><r>concretizzare<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>estranyar<s n="vblex"/></l><r>stupire<s n="vblex"/></r></p></e>
 <e a="hector"><p><l>meravellar<s n="vblex"/></l><r>meravigliare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>enamorar<s n="vblex"/></l><r>innamorare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>estructurar<s n="vblex"/></l><r>strutturare<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>reestructurar<s n="vblex"/></l><r>ristrutturare<s n="vblex"/></r></p></e>
 
 <!-- xxxx -->
 
