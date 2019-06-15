@@ -416,6 +416,16 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- immobile > immòbil, immoble -->
+  <rule weight="0.6">
+    <match lemma="immobile" tags="adj.*"><select lemma="immòbil"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="bene" tags="n.*"/>
+    <match lemma="immobile" tags="adj.*"><select lemma="immoble"/></match>
+  </rule>
+
+
   <!-- comunale > municipal, comunal -->
   <rule weight="0.6">
     <match lemma="comunale" tags="adj.*"><select lemma="municipal"/></match>
@@ -482,6 +492,16 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- spuma > espuma, escuma -->
+  <rule weight="0.6">
+    <match lemma="spuma" tags="n.*"><select lemma="espuma"/></match>
+  </rule>
+
+  <!-- schiuma > escuma, espuma -->
+  <rule weight="0.6">
+    <match lemma="schiuma" tags="n.*"><select lemma="escuma"/></match>
+  </rule>
 
   <!-- palma > palma, palmera -->
   <rule weight="0.6">
@@ -1305,6 +1325,9 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- trasferire > transferir, traslladar -->
+  <macro name="verb_nopron_pron" p1="trasferire" p2="transferir" p3="traslladar"/>
   
   <!-- fare# venire > fer# venir, fer# portar -->
   <macro name="verb_nopron_pron" p1="fare# venire" p2="fer# venir" p3="fer# portar"/>

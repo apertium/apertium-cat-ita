@@ -2941,6 +2941,49 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pinya > pigna, ananas -->
+  <rule weight="0.6">
+    <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
+  </rule>
+
+  <!-- escuma > schiuma, spuma -->
+  <rule weight="0.6">
+    <match lemma="escuma" tags="n.*"><select lemma="schiuma"/></match>
+  </rule>
+
+  <!-- espuma > spuma, schiuma -->
+  <rule weight="0.6">
+    <match lemma="espuma" tags="n.*"><select lemma="spuma"/></match>
+  </rule>
+
+  <!-- escriptori > scrivania, scritoio, desktop -->
+  <rule weight="0.6">
+    <match lemma="escriptori" tags="n.*"><select lemma="scrivania"/></match>
+  </rule>
+
+  <!-- col·legi > scuola, collegio -->
+  <rule weight="0.6">
+    <match lemma="col·legi" tags="n.*"><select lemma="scuola"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="col·legi" tags="n.*"><select lemma="collegio"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="metge" tags="n.*"/>
+      <match lemma="advocat" tags="n.*"/>
+      <match lemma="arquitecte" tags="n.*"/>
+      <match lemma="aparellador" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="col·legi" tags="n.*"><select lemma="collegio"/></match>
+    <or>
+      <match lemma="electoral" tags="adj.*"/>
+      <match lemma="cardenalici" tags="adj.*"/>
+      <match lemma="major" tags="adj.*"/>
+    </or>
+  </rule>
+
   <!-- font > fonte, fontana -->
   <rule weight="0.6">
     <match lemma="font" tags="n.*"><select lemma="fonte"/></match>
