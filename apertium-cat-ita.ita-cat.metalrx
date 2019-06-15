@@ -425,6 +425,19 @@
     <match lemma="immobile" tags="adj.*"><select lemma="immoble"/></match>
   </rule>
 
+  <!-- bello > bonic, bell -->
+  <rule weight="0.6">
+    <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*"/>
+    <match lemma="bello" tags="adj.*"><select lemma="bell"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match tags="det.*"/>
+    <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- comunale > municipal, comunal -->
   <rule weight="0.6">
@@ -492,6 +505,16 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- viola > violeta, viola -->
+  <rule weight="0.6">
+    <match lemma="viola" tags="n.*"><select lemma="violeta"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="violino" tags="n.*"/>
+    <match tags=""/>
+    <match lemma="viola" tags="n.*"><select lemma="viola"/></match>
+  </rule>
 
   <!-- spuma > espuma, escuma -->
   <rule weight="0.6">
@@ -1145,17 +1168,27 @@
 
 <!-- **************** V **************** -->
 
-  <!-- scanviare > intercanviar, bescanviar, baratar  -->
+  <!-- salvare > salvar, desar -->
+  <rule weight="0.6">
+    <match lemma="salvare" tags="vblex.*"><select lemma="salvar"/></match>
+  </rule>
+
+  <!-- bagnare > banyar, mullar -->
+  <rule weight="0.6">
+    <match lemma="bagnare" tags="vblex.*"><select lemma="banyar"/></match>
+  </rule>
+
+  <!-- scanviare > intercanviar, bescanviar, baratar -->
   <rule weight="0.6">
     <match lemma="scanviare" tags="vblex.*"><select lemma="intercanviar"/></match>
   </rule>
 
-  <!-- lanciare > llançar, llençar  -->
+  <!-- lanciare > llançar, llençar -->
   <rule weight="0.6">
     <match lemma="lanciare" tags="vblex.*"><select lemma="llançar"/></match>
   </rule>
 
-  <!-- sposare > casar-se, casar-se amb  -->
+  <!-- sposare > casar-se, casar-se amb -->
   <rule weight="0.6">
     <match lemma="sposare" tags="vblex.*"><select lemma="casar"/></match>
   </rule>
@@ -1171,17 +1204,17 @@
     </or>
   </rule>
 
-  <!-- gettare > llençar, llançar, tirar  -->
+  <!-- gettare > llençar, llançar, tirar -->
   <rule weight="0.6">
     <match lemma="gettare" tags="vblex.*"><select lemma="llençar"/></match>
   </rule>
 
-  <!-- ospitare > albergar, hostatjar  -->
+  <!-- ospitare > albergar, hostatjar -->
   <rule weight="0.6">
     <match lemma="ospitare" tags="vblex.*"><select lemma="albergar"/></match>
   </rule>
 
-  <!-- preoccupare > preocupar, encarregar, ocupar  -->
+  <!-- preoccupare > preocupar, encarregar, ocupar -->
   <rule weight="0.6">
     <match lemma="preoccupare" tags="vblex.*"><select lemma="preocupar"/></match>
   </rule>
@@ -1312,6 +1345,21 @@
      <match lemma="stampare" tags="vblex.*"><select lemma="imprimir"/></match>
   </rule>
 
+  <!-- segare > serrar, segar  -->
+  <rule weight="0.6">
+    <match lemma="segare" tags="vblex.*"><select lemma="serrar"/></match>
+  </rule>
+
+  <!-- vincere > guanyar, vèncer -->
+  <rule weight="0.6">
+    <match lemma="vincere" tags="vblex.*"><select lemma="guanyar"/></match>
+  </rule>
+
+  <!-- troncare > truncar, troncare -->
+  <rule weight="0.6">
+    <match lemma="troncare" tags="vblex.*"><select lemma="truncar"/></match>
+  </rule>
+
   <!-- nominare > nomenar, nominar -->
   <rule weight="0.6">
     <match lemma="nominare" tags="vblex.*"><select lemma="nomenar"/></match>
@@ -1325,6 +1373,15 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- sollevare > plantejar, aixecar -->
+  <macro name="verb_nopron_pron" p1="sollevare" p2="plantejar" p3="aixecar"/>
+  
+  <!-- accomodare > arranjar, acomodar -->
+  <macro name="verb_nopron_pron" p1="accomodare" p2="arranjar" p3="acomodar"/>
+  
+  <!-- guardare > mirar, guardar -->
+  <macro name="verb_nopron_pron" p1="guardare" p2="mirar" p3="guardar"/>
   
   <!-- trasferire > transferir, traslladar -->
   <macro name="verb_nopron_pron" p1="trasferire" p2="transferir" p3="traslladar"/>

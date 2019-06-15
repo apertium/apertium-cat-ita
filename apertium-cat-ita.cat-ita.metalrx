@@ -1446,6 +1446,7 @@
        <match lemma="separar" tags="vblex.*"/>
        <match lemma="resultar" tags="vblex.*"/>
        <match lemma="divorciar" tags="vblex.*"/>
+       <match lemma="allunyar" tags="vblex.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1479,6 +1480,7 @@
        <match lemma="separar" tags="vblex.*"/>
        <match lemma="resultar" tags="vblex.*"/>
        <match lemma="divorciar" tags="vblex.*"/>
+       <match lemma="allunyar" tags="vblex.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1486,6 +1488,39 @@
      <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
      <match tags="np.*"/>
      <match tags="cnjcoo"/>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="treure" tags="vblex.*"/>
+       <match lemma="esborrar" tags="vblex.*"/>
+       <match lemma="anar" tags="vblex.*"/>
+       <match lemma="tornar" tags="vblex.*"/>
+       <match lemma="divorciar" tags="vblex.*"/>
+       <match lemma="allunyar" tags="vblex.*"/>
+     </or>
+     <match tags="prn.enc.*"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="treure" tags="vblex.*"/>
+       <match lemma="esborrar" tags="vblex.*"/>
+       <match lemma="anar" tags="vblex.*"/>
+       <match lemma="tornar" tags="vblex.*"/>
+       <match lemma="divorciar" tags="vblex.*"/>
+       <match lemma="allunyar" tags="vblex.*"/>
+     </or>
+     <match tags="prn.enc.*"/>
+     <match tags="prn.enc.*"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
      <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
 
@@ -1955,6 +1990,21 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- desenrotllar > sviluppare, srotolare -->
+  <rule weight="0.6">
+     <match lemma="desenrotllar" tags="vblex.*"><select lemma="sviluppare"/></match>
+  </rule>
+
+  <!-- desar > mettere, salvare -->
+  <rule weight="0.6">
+     <match lemma="desar" tags="vblex.*"><select lemma="mettere"/></match>
+  </rule>
+
+  <!-- enviar > inviare, mandare -->
+  <rule weight="0.6">
+     <match lemma="enviar" tags="vblex.*"><select lemma="inviare"/></match>
+  </rule>
+
   <!-- llançar > lanciare, gettare, sferrare -->
   <rule weight="0.6">
      <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
@@ -2033,6 +2083,11 @@
     <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
   </rule>
 
+  <!-- segar > mietere, falciare, segare -->
+  <rule weight="0.8">
+    <match lemma="segar" tags="vblex.*"><select lemma="mietere"/></match>
+  </rule>
+
   <!-- expandir > espandere, spandere -->
   <rule weight="0.8">
     <match lemma="expandir" tags="vblex.*"><select lemma="espandere"/></match>
@@ -2042,6 +2097,18 @@
   <rule weight="0.8">
     <match lemma="canviar" tags="vblex.*"><select lemma="cambiare"/></match>
   </rule>
+
+  <!-- acomodar > arrangiare, accomodare -->
+  <macro name="verb_nopron_pron" p1="acomodar" p2="arrangiare" p3="accomodare"/>
+
+  <!-- immutar > immutare, perturbare -->
+  <macro name="verb_nopron_pron" p1="immutar" p2="immutare" p3="perturbare"/>
+
+  <!-- guardar > conservare, guardare -->
+  <macro name="verb_nopron_pron" p1="guardar" p2="conservare" p3="guardare"/>
+
+  <!-- absentar > llevare, allontanare, assentare -->
+  <macro name="verb_nopron_pron" p1="absentar" p2="allontanare" p3="assentare"/>
 
   <!-- llevar > llevare, alzare, togliere -->
   <macro name="verb_nopron_pron" p1="llevar" p2="licenziare" p3="alzare"/>
@@ -2188,6 +2255,29 @@
   <!-- cobrir > coprire, ricoprire -->
   <rule weight="0.8">
     <match lemma="cobrir" tags="vblex.*"><select lemma="coprire"/></match>
+  </rule>
+
+  <!-- guanyar > guadagnare, vincere -->
+  <rule weight="0.8">
+    <match lemma="guanyar" tags="vblex.*"><select lemma="guadagnare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guanyar" tags="vblex.*"><select lemma="vincere"/></match>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="premi" tags="n.*"/>
+      <match lemma="oposició" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guanyar" tags="vblex.*"><select lemma="vincere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemm="a" tags="pr"/>
   </rule>
 
   <!-- girar > girare, voltare -->
@@ -3055,7 +3145,7 @@
   <rule weight="1.0">
     <match lemma="tirar" tags="vblex.*"/>
     <repeat from="0" upto="1">
-      <match tags="adv.*"/>
+      <match tags="adv"/>
     </repeat>
     <match tags="pr"/>
     <match tags="det.*"/>
@@ -3823,7 +3913,7 @@
        <match lemma="conèixer" tags="vblex.*"/>
        <match lemma="assumir" tags="vblex.*"/>
      </or>
-     <match tags="adv.*"/>
+     <match tags="adv"/>
      <match tags="det.*"/>
      <repeat from="0" upto="1">
        <match tags="adj.*"/>
