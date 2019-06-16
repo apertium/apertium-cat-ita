@@ -211,6 +211,9 @@
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
     </def-cat>
+    <def-cat n="det_def">          
+      <cat-item tags="det.def.*"/>
+    </def-cat>
     <def-cat n="il_msg">          
       <cat-item tags="det.def.m.sg"/>
     </def-cat>
@@ -693,6 +696,249 @@
       <list-item v="toccare"/>
       <list-item v="trascorrere"/>
       <list-item v="variare"/>
+    </def-list>
+
+    <def-list n="paisos_regions">
+      <list-item v="Europa"/>
+      <list-item v="Asia"/>
+      <list-item v="Africa"/>
+      <list-item v="Africa del Sud"/>
+      <list-item v="America"/>
+      <list-item v="America Centrale"/>
+      <list-item v="America del Nord"/>
+      <list-item v="America del Sud"/>
+      <list-item v="Oceania"/>
+      <list-item v="Scandinavia"/>
+      <list-item v="Afganistan"/>
+      <list-item v="Algeria"/>
+      <list-item v="Angola"/>
+      <list-item v="Antigua e Barbuda"/>
+      <list-item v="Arabia Saudita"/>
+      <list-item v="Argentina"/>
+      <list-item v="Armenia"/>
+      <list-item v="Australia"/>
+      <list-item v="Austria"/>
+      <list-item v="Azerbaigian"/>
+      <list-item v="Bahamas"/>
+      <list-item v="Bahrain"/>
+      <list-item v="Bangladesh"/>
+      <list-item v="Barbados"/>
+      <list-item v="Belize"/>
+      <list-item v="Benin"/>
+      <list-item v="Bhutan"/>
+      <list-item v="Bielorussia"/>
+      <list-item v="Bolivia"/>
+      <list-item v="Borneo"/>
+      <list-item v="Botswana"/>
+      <list-item v="Brasile"/>
+      <list-item v="Gran Bretagna"/>
+      <list-item v="Brunei"/>
+      <list-item v="Bulgaria"/>
+      <list-item v="Burkina Faso"/>
+      <list-item v="Burundi"/>
+      <list-item v="Capo Verde"/>
+      <list-item v="Nuova Caledonia"/>
+      <list-item v="Camerun"/>
+      <list-item v="Canada"/>
+      <list-item v="Sulawesi"/>
+<!--      <list-item v="Ciad"/> -->
+      <list-item v="Colombia"/>
+      <list-item v="Comore"/>
+<!--      <list-item v="Congo"/> -->
+      <list-item v="Corea"/>
+      <list-item v="Corea del Nord"/>
+      <list-item v="Corea del Sud"/>
+      <list-item v="Costa d'Avorio"/>
+      <list-item v="Costa Rica"/>
+      <list-item v="Cuba"/>
+      <list-item v="Danimarca"/>
+      <list-item v="Devon"/>
+      <list-item v="Dominica"/>
+      <list-item v="Ecuador"/>
+      <list-item v="Egitto"/>
+      <list-item v="Ellesmere"/>
+      <list-item v="El Salvador"/>
+      <list-item v="Eritrea"/>
+      <list-item v="Estonia"/>
+      <list-item v="Etiopia"/>
+      <list-item v="Fær Øer"/>
+      <list-item v="Filippine"/>
+      <list-item v="Finlandia"/>
+      <list-item v="Francia"/>
+      <list-item v="Gabon"/>
+      <list-item v="Gambia"/>
+      <list-item v="Georgia"/>
+      <list-item v="Germania"/>
+      <list-item v="Ghana"/>
+      <list-item v="Nuova Guinea"/>
+      <list-item v="Giamaica"/>
+      <list-item v="Giappone"/>
+      <list-item v="Giava"/>
+      <list-item v="Gibuti"/>
+      <list-item v="Giordania"/>
+      <list-item v="Grenada"/>
+      <list-item v="Grecia"/>
+      <list-item v="Groenlandia"/>
+      <list-item v="Guadalupa"/>
+      <list-item v="Guyana francese"/>
+      <list-item v="Guam"/>
+      <list-item v="Guatemala"/>
+      <list-item v="Guinea"/>
+      <list-item v="Guinea Bissau"/>
+      <list-item v="Guinea Equatoriale"/>
+      <list-item v="Guyana"/>
+      <list-item v="Haiti"/>
+      <list-item v="Honduras"/>
+      <list-item v="Indonesia"/>
+      <list-item v="Iran"/>
+      <list-item v="Iraq"/>
+      <list-item v="Irlanda"/>
+      <list-item v="Islanda"/>
+      <list-item v="Spagna"/>
+      <list-item v="Israele"/>
+      <list-item v="Svezia"/>
+      <list-item v="Svizzera"/>
+      <list-item v="Italia"/>
+      <list-item v="Yemen"/>
+      <list-item v="Kazakistan"/>
+      <list-item v="Kenya"/>
+      <list-item v="Kirghizistan"/>
+      <list-item v="Kiribati"/>
+      <list-item v="Kuwait"/>
+      <list-item v="Laos"/>
+      <list-item v="Lesotho"/>
+      <list-item v="Lettonia"/>
+      <list-item v="Libano"/>
+      <list-item v="Liberia"/>
+      <list-item v="Libia"/>
+      <list-item v="Lituania"/>
+      <list-item v="Luzon"/>
+      <list-item v="Madagascar"/>
+      <list-item v="Malesia"/>
+      <list-item v="Malawi"/>
+      <list-item v="Maldive"/>
+      <list-item v="Mali"/>
+      <list-item v="Malpelo"/>
+      <list-item v="Malta"/>
+      <list-item v="Marocco"/>
+      <list-item v="Mauritania"/>
+      <list-item v="Mauritius"/>
+      <list-item v="Melville"/>
+      <list-item v="Messico"/>
+      <list-item v="Mindanao"/>
+      <list-item v="Mongolia"/>
+      <list-item v="Mozambico"/>
+      <list-item v="Myanmar"/>
+      <list-item v="Birmania"/>
+      <list-item v="Namibia"/>
+      <list-item v="Nauru"/>
+      <list-item v="Nepal"/>
+      <list-item v="Nicaragua"/>
+      <list-item v="Niger"/>
+      <list-item v="Nigeria"/>
+      <list-item v="Norfolk"/>
+      <list-item v="Norvegia"/>
+      <list-item v="Oman"/>
+      <list-item v="Pakistan"/>
+      <list-item v="Panama"/>
+      <list-item v="Papua"/>
+      <list-item v="Paraguay"/>
+      <list-item v="Perù"/>
+      <list-item v="Polonia"/>
+      <list-item v="Portogallo"/>
+      <list-item v="Puerto Rico"/>
+      <list-item v="Qatar"/>
+      <list-item v="Romania"/>
+      <list-item v="Ruanda"/>
+      <list-item v="Russia"/>
+      <list-item v="Sahara Occidentale"/>
+      <list-item v="Santa Lucia"/>
+      <list-item v="São Tomé e Príncipe"/>
+      <list-item v="Saint Vincent e Grenadine"/>
+      <list-item v="Senegal"/>
+      <list-item v="Serbia"/>
+      <list-item v="Nuova Siberia"/>
+      <list-item v="Sierra Leone"/>
+      <list-item v="Singapore"/>
+      <list-item v="Siria"/>
+      <list-item v="Somalia"/>
+      <list-item v="Somerset"/>
+      <list-item v="Southampton"/>
+      <list-item v="Sri Lanka"/>
+      <list-item v="Saint-Pierre e Miquelon"/>
+      <list-item v="Sudan"/>
+      <list-item v="Sumatra"/>
+      <list-item v="Suriname"/>
+      <list-item v="Swaziland"/>
+      <list-item v="Tagikistan"/>
+      <list-item v="Tailandia"/>
+      <list-item v="Taiwan"/>
+      <list-item v="Tanzania"/>
+      <list-item v="Tasmania"/>
+      <list-item v="Terranova"/>
+      <list-item v="Timor"/>
+      <list-item v="Togo "/>
+      <list-item v="Trinidad e Tobago"/>
+      <list-item v="Tunisia"/>
+      <list-item v="Turchia"/>
+      <list-item v="Turkmenistan"/>
+      <list-item v="Tuvalu"/>
+      <list-item v="Cile"/>
+      <list-item v="Cina"/>
+      <list-item v="Cipro"/>
+      <list-item v="Ucraina"/>
+      <list-item v="E.a.u."/>
+      <list-item v="Uganda"/>
+      <list-item v="Ungheria"/>
+      <list-item v="Uruguay"/>
+      <list-item v="Uzbekistan"/>
+      <list-item v="Vanuatu"/>
+      <list-item v="Venezuela"/>
+      <list-item v="Vietnam"/>
+      <list-item v="Zambia"/>
+      <list-item v="Nuova Zelanda"/>
+      <list-item v="Zimbawe"/>
+      <list-item v="Piemonte"/>
+      <list-item v="Liguria"/>
+      <list-item v="Lombardia"/>
+      <list-item v="Trentino-Alto Adige"/>
+      <list-item v="Trentino"/>
+<!--      <list-item v="Veneto"/> -->
+      <list-item v="Friuli"/>
+      <list-item v="Friuli-Venezia Giulia"/>
+      <list-item v="Emilia-Romagna"/>
+      <list-item v="Emilia"/>
+      <list-item v="Romagna"/>
+      <list-item v="Toscana"/>
+      <list-item v="Umbria"/>
+<!--      <list-item v="Lazio"/> -->
+      <list-item v="Abruzzo"/>
+      <list-item v="Molise"/>
+      <list-item v="Campania"/>
+      <list-item v="Basilicata"/>
+      <list-item v="Puglia"/>
+      <list-item v="Calabria"/>
+      <list-item v="Sicilia"/>
+      <list-item v="Sardegna"/>
+      <list-item v="Catalogna"/>
+      <list-item v="Aragona"/>
+      <list-item v="Castiglia"/>
+      <list-item v="Andalusia"/>
+      <list-item v="Galizia"/>
+      <list-item v="Bretagna"/>
+      <list-item v="Occitania"/>
+      <list-item v="Normandia"/>
+      <list-item v="Scozia"/>
+      <list-item v="Galles"/>
+      <list-item v="Fiandra"/>
+      <list-item v="Fiandre"/>
+      <list-item v="Sassonia"/>
+      <list-item v="Alaska"/>
+      <list-item v="California"/>
+      <list-item v="Oklahoma"/>
+      <list-item v="Ohio"/>
+      <list-item v="Texas"/>
+      <list-item v="Rio Grande do Sul"/>
     </def-list>
   </section-def-lists>
 
@@ -3949,7 +4195,7 @@
 
     <rule comment="REGLA: DET TOP">
       <pattern>
-        <pattern-item n="det"/>
+        <pattern-item n="det_def"/>
         <pattern-item n="top"/>
       </pattern>
       <action>
@@ -3960,33 +4206,64 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-        <out>
-          <chunk name="det_top" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="genero"/></tag>
-              <tag><var n="numero"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/> 
-              <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
-              <clip pos="1" side="tl" part="gen_mf"/>         
-              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
-              <clip pos="1" side="tl" part="nbr_sp"/>         
-            </lu> 
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/> 
-              <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
-              <clip pos="2" side="tl" part="gen_mf"/>         
-              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
-              <clip pos="2" side="tl" part="nbr_sp"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <in>
+                <clip pos="2" side="sl" part="lem"/>
+                <list n="paisos_regions"/>
+              </in>
+            </test>
+            <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+            <out>
+              <chunk name="top" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="gen_mf"/>         
+                  <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="det_top" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/> 
+                  <clip pos="1" side="tl" part="a_det"/>
+                  <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="gen_mf"/>         
+                  <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="nbr_sp"/>         
+                </lu> 
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="gen_mf"/>         
+                  <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
