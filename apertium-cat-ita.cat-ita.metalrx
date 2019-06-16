@@ -3036,6 +3036,15 @@
     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
   </rule>
 
+  <!-- munt > mucchio, montagna -->
+  <rule weight="0.6">
+    <match lemma="munt" tags="n.*"><select lemma="mucchio"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.def.*"/>
+    <match lemma="munt" tags="n.*"><select lemma="montagna"/></match>
+  </rule>
+
   <!-- escuma > schiuma, spuma -->
   <rule weight="0.6">
     <match lemma="escuma" tags="n.*"><select lemma="schiuma"/></match>

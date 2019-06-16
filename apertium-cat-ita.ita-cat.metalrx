@@ -1168,6 +1168,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- rimuovere > remoure, treure -->
+  <rule weight="0.6">
+    <match lemma="rimuovere" tags="vblex.*"><select lemma="remoure"/></match>
+  </rule>
+
   <!-- salvare > salvar, desar -->
   <rule weight="0.6">
     <match lemma="salvare" tags="vblex.*"><select lemma="salvar"/></match>
