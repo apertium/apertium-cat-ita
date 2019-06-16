@@ -34,7 +34,7 @@
 
    <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
-    </def-cat>
+   </def-cat>
    <def-cat n="vbaux">
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/>
@@ -3454,22 +3454,48 @@
               <list n="vbambser"/>
             </in>
           </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="haver"/>
-          </let>
-          <let>
-            <clip pos="1" side="tl" part="a_verb"/>
-            <lit-tag v="vaux"/>
-          </let>
-          <let> 
-            <clip pos="2" side="tl" part="gen"/>
-            <lit-tag v="m"/>
-          </let>
-          <let>
-            <clip pos="2" side="tl" part="nbr"/>
-            <lit-tag v="sg"/>
-          </let>
+          <let><clip pos="1" side="tl" part="lem"/><lit v="haver"/></let>
+          <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+          <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_vauxiliar_pron" npar="3">
+      <choose>
+        <when>
+          <test> <!-- comprovem si és un pronom reflexiu (formalment: la persona i el nombre corresponen amb el verb) -->
+            <and>
+	      <equal><clip pos="1" side="tl" part="pers"/><clip pos="2" side="tl" part="pers"/></equal>
+              <or>
+                <and>
+	          <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+	          <equal><clip pos="1" side="tl" part="tipus_prn"/><lit-tag v="prn.pro.ref"/></equal>
+                </and>
+                <and>
+	        <equal><clip pos="1" side="tl" part="tipus_prn"/><lit-tag v="prn.pro"/></equal>
+	        <equal><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></equal>
+                </and>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="2" side="tl" part="lem"/><lit v="haver"/></let>
+          <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+          <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+        <when>
+          <test>
+            <in caseless="yes"> <!-- comprovem si el vblex s a la llista-->
+              <clip pos="3" side="sl" part="lem"/>
+              <list n="vbambser"/>
+            </in>
+          </test>
+          <let><clip pos="2" side="tl" part="lem"/><lit v="haver"/></let>
+          <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+          <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></let>
         </when>
       </choose>
     </def-macro>
@@ -6472,7 +6498,7 @@
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_verbcj" case="caseFirstWord">
+          <chunk name="prnpro_verbcj1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -6499,7 +6525,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: prnpro + vbaux + pp"> <!-- no aconsegueixo que m'agafi el verb ser com a vbser-->
+  <rule comment="REGLA: prnpro + vbaux + pp">
       <pattern>
         <pattern-item n="prnpro"/>
         <pattern-item n="vbaux"/>
@@ -6509,7 +6535,8 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_vauxiliar">
+        <call-macro n="f_vauxiliar_pron">
+          <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
@@ -6519,7 +6546,7 @@
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_verbcj" case="caseFirstWord">
+          <chunk name="prnpro_verbcj2" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
