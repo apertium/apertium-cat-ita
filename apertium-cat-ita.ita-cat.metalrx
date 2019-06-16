@@ -1173,6 +1173,15 @@
     <match lemma="rimuovere" tags="vblex.*"><select lemma="remoure"/></match>
   </rule>
 
+  <!-- venire > venir, ser -->
+  <rule weight="0.6">
+    <match lemma="venire" tags="vblex.*"><select lemma="venir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="venire" tags="vblex.*"><select lemma="ser"/></match>
+    <match tags="vblex.pp.*"/>
+  </rule>
+
   <!-- salvare > salvar, desar -->
   <rule weight="0.6">
     <match lemma="salvare" tags="vblex.*"><select lemma="salvar"/></match>
