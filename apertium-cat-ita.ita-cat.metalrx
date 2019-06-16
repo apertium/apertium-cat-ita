@@ -1173,7 +1173,7 @@
     <match lemma="rimuovere" tags="vblex.*"><select lemma="remoure"/></match>
   </rule>
 
-  <!-- venire > venir, ser -->
+  <!-- venire > venir, ser, estar -->
   <rule weight="0.6">
     <match lemma="venire" tags="vblex.*"><select lemma="venir"/></match>
   </rule>
