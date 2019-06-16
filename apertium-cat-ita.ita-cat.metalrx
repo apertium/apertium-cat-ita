@@ -1374,6 +1374,21 @@
     <match lemma="troncare" tags="vblex.*"><select lemma="truncar"/></match>
   </rule>
 
+  <!-- sbandare > derrapar, escorar -->
+  <rule weight="0.6">
+    <match lemma="sbandare" tags="vblex.*"><select lemma="derrapar"/></match>
+  </rule>
+
+  <!-- confrontare > confrontar, comparar, acarar -->
+  <rule weight="0.6">
+    <match lemma="confrontare" tags="vblex.*"><select lemma="confrontar"/></match>
+  </rule>
+
+  <!-- fallire > fracassar (intr), fallar (tr), fallir -->
+  <rule weight="0.6">
+    <match lemma="fallir" tags="vblex.*"><select lemma="fracassar"/></match>
+  </rule>
+
   <!-- nominare > nomenar, nominar -->
   <rule weight="0.6">
     <match lemma="nominare" tags="vblex.*"><select lemma="nomenar"/></match>
@@ -1387,6 +1402,9 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- accertare > constatar, assegurar -->
+  <macro name="verb_nopron_pron" p1="accertare" p2="constatar" p3="assegurar"/>
   
   <!-- sollevare > plantejar, aixecar -->
   <macro name="verb_nopron_pron" p1="sollevare" p2="plantejar" p3="aixecar"/>

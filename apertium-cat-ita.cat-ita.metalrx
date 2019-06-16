@@ -1990,6 +1990,21 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- vessar > versare (tr), traboccare (intr) -->
+  <rule weight="0.6">
+     <match lemma="vessar" tags="vblex.*"><select lemma="versare"/></match>
+  </rule>
+
+  <!-- gravar > registrare, gravare (amb un impost) -->
+  <rule weight="0.6">
+     <match lemma="gravar" tags="vblex.*"><select lemma="registrare"/></match>
+  </rule>
+
+  <!-- comparar > confrontare, comparare, paragonare -->
+  <rule weight="0.6">
+     <match lemma="comparar" tags="vblex.*"><select lemma="confrontare"/></match>
+  </rule>
+
   <!-- desenrotllar > sviluppare, srotolare -->
   <rule weight="0.6">
      <match lemma="desenrotllar" tags="vblex.*"><select lemma="sviluppare"/></match>
@@ -3031,6 +3046,16 @@
 
 <!-- **************** N **************** -->
 
+  <!-- classificació > classificazione, classifica -->
+  <rule weight="0.6">
+    <match lemma="classificació" tags="n.*"><select lemma="classificazione"/></match>
+  </rule>
+
+  <!-- sortida > uscita, partenza -->
+  <rule weight="0.6">
+    <match lemma="sortida" tags="n.*"><select lemma="uscita"/></match>
+  </rule>
+
   <!-- pinya > pigna, ananas -->
   <rule weight="0.6">
     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
@@ -3393,6 +3418,11 @@
       <match lemma="taula" tags="n.*"/>
       <match lemma="matriu" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- competència > concorrenza, competenza -->
+  <rule weight="0.6">
+    <match lemma="competència" tags="n.*"><select lemma="concorrenza"/></match>
   </rule>
 
   <!-- competició > competizione, gara -->
