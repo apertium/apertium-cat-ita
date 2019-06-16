@@ -799,7 +799,7 @@
       <list-item v="Svezia"/>
       <list-item v="Svizzera"/>
       <list-item v="Italia"/>
-      <list-item v="Yemen"/>
+<!--      <list-item v="Yemen"/> -->
       <list-item v="Kazakistan"/>
       <list-item v="Kenya"/>
       <list-item v="Kirghizistan"/>
@@ -808,7 +808,7 @@
       <list-item v="Laos"/>
       <list-item v="Lesotho"/>
       <list-item v="Lettonia"/>
-      <list-item v="Libano"/>
+<!--      <list-item v="Libano"/> -->
       <list-item v="Liberia"/>
       <list-item v="Libia"/>
       <list-item v="Lituania"/>
@@ -816,7 +816,6 @@
       <list-item v="Madagascar"/>
       <list-item v="Malesia"/>
       <list-item v="Malawi"/>
-      <list-item v="Maldive"/>
       <list-item v="Mali"/>
       <list-item v="Malpelo"/>
       <list-item v="Malta"/>
@@ -832,7 +831,7 @@
       <list-item v="Birmania"/>
       <list-item v="Namibia"/>
       <list-item v="Nauru"/>
-      <list-item v="Nepal"/>
+<!--      <list-item v="Nepal"/> -->
       <list-item v="Nicaragua"/>
       <list-item v="Niger"/>
       <list-item v="Nigeria"/>
@@ -851,7 +850,7 @@
       <list-item v="Romania"/>
       <list-item v="Ruanda"/>
       <list-item v="Russia"/>
-      <list-item v="Sahara Occidentale"/>
+<!--      <list-item v="Sahara Occidentale"/> -->
       <list-item v="Santa Lucia"/>
       <list-item v="São Tomé e Príncipe"/>
       <list-item v="Saint Vincent e Grenadine"/>
@@ -932,6 +931,7 @@
       <list-item v="Galles"/>
       <list-item v="Fiandra"/>
       <list-item v="Fiandre"/>
+      <list-item v="Baviera"/>
       <list-item v="Sassonia"/>
       <list-item v="Alaska"/>
       <list-item v="California"/>
@@ -939,6 +939,8 @@
       <list-item v="Ohio"/>
       <list-item v="Texas"/>
       <list-item v="Rio Grande do Sul"/>
+      <list-item v="Prussia"/>
+      <list-item v="Persia"/>
     </def-list>
   </section-def-lists>
 
