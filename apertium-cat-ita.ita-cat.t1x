@@ -3933,6 +3933,9 @@
             </lu>
           </chunk>
         </out>
+        <!-- després de preposició no té sentit "coordinar" genère i nombre: "endeveninem" que coses com "abilità" seran en singular -->
+        <let><var n="genero"/><lit-tag v="m"/></let>
+        <let><var n="numero"/><lit-tag v="sg"/></let>
       </action>
     </rule>
 
