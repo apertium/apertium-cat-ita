@@ -1005,6 +1005,11 @@
      </or>
   </rule>
 
+  <!-- matrimonio > matrimoni, casament -->
+  <rule weight="0.6">
+    <match lemma="matrimonio" tags="n.*"><select lemma="matrimoni"/></match>
+  </rule>
+
   <!-- riga > ratlla, fila -->
   <rule weight="0.6">
     <match lemma="riga" tags="n.*"><select lemma="ratlla"/></match>

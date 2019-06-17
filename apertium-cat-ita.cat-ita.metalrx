@@ -1990,6 +1990,16 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- segellar > suggellare, timbrar -->
+  <rule weight="0.6">
+     <match lemma="segellar" tags="vblex.*"><select lemma="suggellare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="segellar" tags="vblex.*"><select lemma="timbrare"/></match>
+     <match tags="det.*"/>
+     <match lemma="carta" tags="n.*"/>
+  </rule>
+
   <!-- intervenir > intervenire, commissariare -->
   <rule weight="0.6">
      <match lemma="intervenir" tags="vblex.*"><select lemma="intervenire"/></match>
@@ -3091,6 +3101,132 @@
 
 <!-- **************** N **************** -->
 
+  <!-- avançament > avanzata, anticipo, sorpasso -->
+  <rule weight="0.6">
+    <match lemma="avançament" tags="n.*"><select lemma="avanzata"/></match>
+  </rule>
+  <rule weight="0.6">
+    <or>
+      <match lemma="rebre" tags="vblex.*"/>
+      <match lemma="demanar" tags="vblex.*"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="avançament" tags="n.*"><select lemma="anticipo"/></match>
+  </rule>
+
+  <!-- audiència > udienza, audience, tribunale -->
+  <rule weight="0.6">
+    <match lemma="audiència" tags="n.*"><select lemma="udienza"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="audiència" tags="n.*"><select lemma="tribunale"/></match>
+     <or>
+       <match lemma="nacional" tags="adj.*"/>
+       <match lemma="provincial" tags="adj.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="audiència" tags="n.*"><select lemma="audience"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="televisió" tags="n.*"/>
+      <match lemma="ràdio" tags="n.*"/>
+      <match lemma="programa" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="audiència" tags="n.*"><select lemma="audience"/></match>
+    <repeat from="0" upto="1">
+      <match tags="vbhaver.*"/>
+    </repeat>
+    <or>
+      <match lemma="pujar" tags="vblex.*"/>
+      <match lemma="baixar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dada" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match lemma="audiència" tags="n.*"><select lemma="audience"/></match>
+  </rule>
+
+  <!-- tanc > carro armato, serbatoio -->
+  <rule weight="0.6">
+    <match lemma="tanc" tags="n.*"><select lemma="carro armato"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tanc" tags="n.*"><select lemma="serbatoio"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <!-- cantó > angolo, lato, cantone -->
+  <rule weight="0.6">
+    <match lemma="cantó" tags="n.*"><select lemma="angolo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cantó" tags="n.*"><select lemma="cantone"/></match>
+    <match lemma="suís" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cantó" tags="n.*"><select lemma="cantone"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.top.*"/>
+  </rule>
+
+  <!-- clausura > chiusura, clausura -->
+  <rule weight="0.6">
+    <match lemma="clausura" tags="n.*"><select lemma="chiusura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="monjo" tags="n.*"/>
+      <match lemma="convent" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match lemma="clausura" tags="n.*"><select lemma="clausura"/></match>
+  </rule>
+
+  <!-- coca > coca, torta -->
+  <rule weight="0.6">
+    <match lemma="coca" tags="n.*"><select lemma="coca"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="menjar" tags="vblex.*"/>
+    <match lemma="coca" tags="n.*"><select lemma="torta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="coca" tags="n.*"><select lemma="torta"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="llardó" tags="n.*"/>
+      <match lemma="fruita" tags="n.*"/>
+      <match lemma="pastisser" tags="n.*"/>
+      <match lemma="pastisseria" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- confort > comfort, conforto -->
+  <rule weight="0.6">
+    <match lemma="confort" tags="n.*"><select lemma="comfort"/></match>
+  </rule>
+
+  <!-- auditori > auditorium, auditorio, uditorio -->
+  <rule weight="0.6">
+    <match lemma="auditori" tags="n.*"><select lemma="auditorium"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="davant" tags="pr"/>
+      <match lemma="davant de" tags="pr"/>
+      <match lemma="per a" tags="pr"/>
+    </or>
+    <match tags="det.def.*"/>
+    <match lemma="auditori" tags="n.*"><select lemma="auditorium"/></match>
+  </rule>
+
   <!-- coronació > incoronazione, coronazione -->
   <rule weight="0.6">
     <match lemma="coronació" tags="n.*"><select lemma="incoronazione"/></match>
@@ -3586,13 +3722,18 @@
 
   <!-- ploma > penna, pioma -->
   <rule weight="0.6">
-     <match ploma="nau" tags="n.*"><select lemma="penna"/></match>
+     <match ploma="ploma" tags="n.*"><select lemma="penna"/></match>
   </rule>
 
-  <!-- nau > nave, capannone -->
+  <!-- nau > nave, capannone, navicella -->
   <rule weight="0.6">
      <match lemma="nau" tags="n.*"><select lemma="nave"/></match>
   </rule>
+  <rule weight="1.0">
+     <match lemma="nau" tags="n.*"><select lemma="navicella"/></match>
+     <match lemma="espacial" tags="adj.*"/>
+  </rule>
+
   <rule weight="1.0">
      <match lemma="nau" tags="n.*"><select lemma="capannone"/></match>
      <match lemma="industrial" tags="adj.*"/>
