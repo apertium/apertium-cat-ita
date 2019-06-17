@@ -352,6 +352,18 @@
       <match lemma="lega"/>
     </def-seq>
 
+    <def-seq n="periodo">
+      <match lemma="minuto" tags="n.*"/>
+      <match lemma="ora" tags="n.*"/>
+      <match lemma="giorno" tags="n.*"/>
+      <match lemma="settimana" tags="n.*"/>
+      <match lemma="mese" tags="n.*"/>
+      <match lemma="anno" tags="n.*"/>
+      <match lemma="decennio" tags="n.*"/>
+      <match lemma="secolo" tags="n.*"/>
+      <match lemma="millennio" tags="n.*"/>
+    </def-seq>
+
   </def-seqs>
   <rules>
 
@@ -415,6 +427,11 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- vero > veritable, vertader -->
+  <rule weight="0.6">
+    <match lemma="vero" tags="adj.*"><select lemma="veritable"/></match>
+  </rule>
 
   <!-- immobile > immòbil, immoble -->
   <rule weight="0.6">
@@ -501,10 +518,49 @@
     <match lemma="amico" tags="n.*"/>
   </rule>
 
+  <!-- alterno > altern, molt -->
+  <rule weight="0.6">
+    <match lemma="alterno" tags="adj.*"><select lemma="altern"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="alterno" tags="adj.*.pl"><select lemma="molt"/></match>
+    <match tags="n.*"/>
+  </rule>
+
 <!-- **************** ADV **************** -->
 
+  <!-- a vicenda > per torns, recíprocament -->
+  <rule weight="0.6">
+    <match lemma="a vicenda" tags="n.*"><select lemma="per torns"/></match>
+  </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- punto > punt, interrogant -->
+  <rule weight="0.6">
+    <match lemma="punto" tags="n.*"><select lemma="punt"/></match>
+  </rule>
+
+  <!-- attaccante > atacant, davanter -->
+  <rule weight="0.6">
+    <match lemma="attaccante" tags="n.*"><select lemma="atacant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="attaccante" tags="n.mf.sg"><select lemma="davanter"/></match>
+  </rule>
+
+  <!-- ruolo > paper, rol -->
+  <rule weight="0.6">
+    <match lemma="ruolo" tags="n.*"><select lemma="paper"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="gioco" tags="n.*"/>
+      <match lemma="videogioco" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match lemma="ruolo" tags="n.*"><select lemma="rol"/></match>
+  </rule>
 
   <!-- viola > violeta, viola -->
   <rule weight="0.6">
@@ -1403,6 +1459,9 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- strappare > arrencar, trencar (+ intr: trencar) -->
+  <macro name="verb_nopron_pron" p1="strappare" p2="arrencar" p3="trencar"/>
+
   <!-- accertare > constatar, assegurar -->
   <macro name="verb_nopron_pron" p1="accertare" p2="constatar" p3="assegurar"/>
   
@@ -1524,6 +1583,22 @@
   </rule>
 
 <!-- **************** PR **************** -->
+
+  <!-- oltre > més enllà de, més de -->
+  <rule weight="0.6">
+    <match lemma="oltre" tags="pr"><select lemma="més enllà de" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="oltre" tags="pr"><select lemma="més de" tags="pr"/></match>
+    <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="oltre" tags="pr"><select lemma="més de" tags="pr"/></match>
+    <match tags="det.def.*"/>
+    <or>
+      <seq n="periodo"/>
+    </or>
+  </rule>
 
   <!-- da > de, per, des de -->
   <rule weight="0.6">

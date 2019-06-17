@@ -514,7 +514,7 @@
       <match lemma="any" tags="n.*"/>
       <match lemma="dècada" tags="n.*"/>
       <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="mil·lenni" tags="n.*"/>
       <match lemma="període" tags="n.*"/>
       <match lemma="etapa" tags="n.*"/>
       <match lemma="infantesa" tags="n.*"/>
@@ -1990,6 +1990,21 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- intervenir > intervenire, commissariare -->
+  <rule weight="0.6">
+     <match lemma="intervenir" tags="vblex.*"><select lemma="intervenire"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="intervenir" tags="vblex.*"><select lemma="commissariare"/></match>
+     <match tags="det.*"/>
+     <match lemma="banc" tags="n.*"/>
+  </rule>
+
+  <!-- coronar > incoronare, coronare -->
+  <rule weight="0.6">
+     <match lemma="coronar" tags="vblex.*"><select lemma="incoronare"/></match>
+  </rule>
+
   <!-- vessar > versare (tr), traboccare (intr) -->
   <rule weight="0.6">
      <match lemma="vessar" tags="vblex.*"><select lemma="versare"/></match>
@@ -2952,7 +2967,37 @@
      <match lemma="només" tags="adv"><select lemma="solo"/></match>
   </rule>
 
+  <!-- enllà > in là, in puoi -->
+  <rule weight="0.6">
+     <match lemma="enllà" tags="adv"><select lemma="in là"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
+     <or>
+       <match tags="n.*"/>
+       <match tags="adv"/>
+     </or>
+     <match lemma="enllà" tags="adv"><select lemma="in puoi"/></match>
+  </rule>
+
 <!-- **************** ADJ **************** -->
+
+  <!-- habitual > abituale, solito -->
+  <rule weight="0.6">
+     <match lemma="habitual" tags="adj.*"><select lemma="abituale"/></match>
+  </rule>
+
+  <!-- altern > altern, alternato -->
+  <rule weight="0.6">
+     <match lemma="altern" tags="adj.*"><select lemma="alterno"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="corrent" tags="n.*"/>
+       <match lemma="electricitat" tags="n.*"/>
+     </or>
+     <match lemma="altern" tags="adj.*"><select lemma="alternato"/></match>
+  </rule>
 
   <!-- conegut > conosciuto, noto -->
   <rule weight="0.6">
@@ -3045,6 +3090,21 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- coronació > incoronazione, coronazione -->
+  <rule weight="0.6">
+    <match lemma="coronació" tags="n.*"><select lemma="incoronazione"/></match>
+  </rule>
+
+  <!-- implicació > implicazione, coinvolgimento -->
+  <rule weight="0.6">
+    <match lemma="implicació" tags="n.*"><select lemma="implicazione"/></match>
+  </rule>
+
+  <!-- escut > scudo, stemma -->
+  <rule weight="0.6">
+    <match lemma="escut" tags="n.*"><select lemma="scudo"/></match>
+  </rule>
 
   <!-- classificació > classificazione, classifica -->
   <rule weight="0.6">
