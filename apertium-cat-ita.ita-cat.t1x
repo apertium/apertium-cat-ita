@@ -16,6 +16,9 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="solito">
+      <cat-item lemma="solito" tags="adj.*"/>
+    </def-cat>
 
     <def-cat n="adv_preadv">
       <cat-item tags="adv"/>
@@ -772,7 +775,7 @@
       <list-item v="Ghana"/>
       <list-item v="Nuova Guinea"/>
       <list-item v="Giamaica"/>
-      <list-item v="Giappone"/>
+<!--      <list-item v="Giappone"/> -->
       <list-item v="Giava"/>
       <list-item v="Gibuti"/>
       <list-item v="Giordania"/>
@@ -883,7 +886,7 @@
       <list-item v="Turkmenistan"/>
       <list-item v="Tuvalu"/>
       <list-item v="Cile"/>
-      <list-item v="Cina"/>
+<!--      <list-item v="Cina"/> -->
       <list-item v="Cipro"/>
       <list-item v="Ucraina"/>
       <list-item v="E.a.u."/>
@@ -4952,6 +4955,62 @@
       </action>
     </rule>
     
+    <rule comment="REGLA: DET solito NOM (il solito partito > el partit habitual)">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="solito"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord3">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>        
+        <out>
+          <chunk name="det_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/> 
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="3" side="tl" part="gen_mf"/>         
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>         
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>         
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>         
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu> 
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+
     <rule comment="REGLA: DET ADJ NOM">
       <pattern>
         <pattern-item n="det"/>
