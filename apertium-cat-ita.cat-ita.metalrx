@@ -998,6 +998,21 @@
       <match lemma="hoquei# sobre gel" tags="n.*"/>
       <match lemma="waterpolo" tags="n.*"/>
     </def-seq>
+
+    <def-seq n="mes">
+      <match lemma="gener" tags="n.*"/>
+      <match lemma="febrer" tags="n.*"/>
+      <match lemma="març" tags="n.*"/>
+      <match lemma="abril" tags="n.*"/>
+      <match lemma="maig" tags="n.*"/>
+      <match lemma="juny" tags="n.*"/>
+      <match lemma="juliol" tags="n.*"/>
+      <match lemma="agost" tags="n.*"/>
+      <match lemma="setembre" tags="n.*"/>
+      <match lemma="octubre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="desembre" tags="n.*"/>
+    </def-seq>
   </def-seqs>
 
 <rules>
@@ -1382,20 +1397,60 @@
     <match lemma="per" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
   <rule weight="1.0"> <!-- complement agent introduït per "da" -->
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <repeat from="0" upto="1">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+     <or>
        <match tags="adv"/>
-     </repeat>
-     <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+       <match tags="cnjadv"/>
+     </or>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
   <rule weight="1.0"> <!-- complement agent introduït per "da" -->
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <repeat from="0" upto="1">
-       <match tags="adv"/>
-     </repeat>
-     <match tags="det.def.*"/>
-     <match tags="num"/>
-     <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.def.*"/>
+    <match tags="num"/>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="el" tags="det.def.*"/>
+    <match tags="num"/>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <seq n="mes"/>
+    </or>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="el" tags="det.def.*"/>
+    <match tags="num"/>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <seq n="mes"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="num"/>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
   <rule weight="1.2">	<!-- cat > srd -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1975,6 +2030,11 @@
 
 <!-- **************** PRN **************** -->
 
+  <!-- hi > ci, vi -->
+  <rule weight="0.6">
+    <match lemma="hi" tags="prn.pro.adv"><select lemma="ci" tags="prn.*"/></match>
+  </rule>
+
   <!-- altre > altro, un altro -->
   <rule weight="0.6">
     <match lemma="altre" tags="prn.*"><select lemma="altro" tags="prn.*"/></match>
@@ -1989,6 +2049,16 @@
   </rule>
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- viure > vivere, abitare, dimorare -->
+  <rule weight="0.6">
+     <match lemma="viure" tags="vblex.*"><select lemma="vivere"/></match>
+  </rule>
+
+  <!-- comprometre > compromettere, impegnare -->
+  <rule weight="0.6">
+     <match lemma="comprometre" tags="vblex.*"><select lemma="compromettere"/></match>
+  </rule>
 
   <!-- segellar > suggellare, timbrar -->
   <rule weight="0.6">
@@ -3100,6 +3170,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- esdeveniment > avvenimento, evento -->
+  <rule weight="0.6">
+    <match lemma="esdeveniment" tags="n.*"><select lemma="avvenimento"/></match>
+  </rule>
 
   <!-- avançament > avanzata, anticipo, sorpasso -->
   <rule weight="0.6">

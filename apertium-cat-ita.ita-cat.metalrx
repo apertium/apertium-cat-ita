@@ -364,6 +364,21 @@
       <match lemma="millennio" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="mese">
+      <match lemma="gennaio" tags="n.*"/>
+      <match lemma="febbraio" tags="n.*"/>
+      <match lemma="marzo" tags="n.*"/>
+      <match lemma="aprile" tags="n.*"/>
+      <match lemma="maggio" tags="n.*"/>
+      <match lemma="giugno" tags="n.*"/>
+      <match lemma="luglio" tags="n.*"/>
+      <match lemma="agosto" tags="n.*"/>
+      <match lemma="settembre" tags="n.*"/>
+      <match lemma="ottobre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="dicembre" tags="n.*"/>
+    </def-seq>
+
   </def-seqs>
   <rules>
 
@@ -534,7 +549,17 @@
     <match lemma="a vicenda" tags="n.*"><select lemma="per torns"/></match>
   </rule>
 
+  <!-- subito > de seguida, immediatament -->
+  <rule weight="0.6">
+    <match lemma="subito" tags="n.*"><select lemma="de seguida"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
+
+  <!-- maturazione > maduresa, maduració -->
+  <rule weight="0.6">
+    <match lemma="maturazione" tags="n.*"><select lemma="maduresa"/></match>
+  </rule>
 
   <!-- punto > punt, interrogant -->
   <rule weight="0.6">
@@ -1229,6 +1254,21 @@
 
 <!-- **************** V **************** -->
 
+  <!-- avanzare > avançar, sobrar -->
+  <rule weight="0.6">
+    <match lemma="avanzare" tags="vblex.*"><select lemma="avançar"/></match>
+  </rule>
+
+  <!-- rimanere > quedar, romandre -->
+  <rule weight="0.6">
+    <match lemma="rimanere" tags="vblex.*"><select lemma="quedar"/></match>
+  </rule>
+
+  <!-- impegnare > comprometre, engatjar, empenyora -->
+  <rule weight="0.6">
+    <match lemma="impegnare" tags="vblex.*"><select lemma="comprometre"/></match>
+  </rule>
+
   <!-- rimuovere > remoure, treure -->
   <rule weight="0.6">
     <match lemma="rimuovere" tags="vblex.*"><select lemma="remoure"/></match>
@@ -1589,6 +1629,15 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- come > com, com a -->
+  <rule weight="0.6">
+    <match lemma="come" tags="pr"><select lemma="com" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="come" tags="pr"><select lemma="com a" tags="pr"/></match>
+     <match tags="n.*"/>
+  </rule>
+
   <!-- oltre > més enllà de, més de -->
   <rule weight="0.6">
     <match lemma="oltre" tags="pr"><select lemma="més enllà de" tags="pr"/></match>
@@ -1612,17 +1661,54 @@
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
     </repeat>
     <match lemma="in" tags="pr"/>
     <match lemma="il" tags="det.def.*"/>
+    <match tags="num"/>
+    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="il" tags="det.def.*"/>
+    <match tags="num"/>
+    <or>
+      <seq n="mese"/>
+    </or>
+    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="il" tags="det.def.*"/>
+    <match tags="num"/>
+    <or>
+      <seq n="mese"/>
+    </or>
     <match tags="num"/>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
