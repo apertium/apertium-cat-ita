@@ -556,6 +556,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- rotta > ruta, rumb -->
+  <rule weight="0.6">
+    <match lemma="rotta" tags="n.*"><select lemma="ruta"/></match>
+  </rule>
+
   <!-- maturazione > maduresa, maduració -->
   <rule weight="0.6">
     <match lemma="maturazione" tags="n.*"><select lemma="maduresa"/></match>

@@ -1013,6 +1013,27 @@
       <match lemma="novembre" tags="n.*"/>
       <match lemma="desembre" tags="n.*"/>
     </def-seq>
+
+    <def-seq n="noble">
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="patriarca" tags="n.*"/>
+      <match lemma="bisbe" tags="n.*"/>
+      <match lemma="arquebisbe" tags="n.*"/>
+      <match lemma="emperador" tags="n.*"/>
+      <match lemma="rei" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="virrei" tags="n.*"/>
+      <match lemma="regent" tags="n.*"/>
+      <match lemma="príncep" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="delfí" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="vescomte" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="arxiduc" tags="n.*"/>
+      <match lemma="marquès" tags="n.*"/>
+      <match lemma="baró" tags="n.*"/>
+    </def-seq>
   </def-seqs>
 
 <rules>
@@ -2050,97 +2071,119 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- executar > eseguire, giustiziare -->
+  <rule weight="0.6">
+    <match lemma="executar" tags="vblex.*"><select lemma="eseguire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="executar" tags="vblex.*"><select lemma="giustiziare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+     <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="executar" tags="vblex.*"><select lemma="giustiziare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <seq n="noble"/>
+    </or>
+  </rule>
+
   <!-- viure > vivere, abitare, dimorare -->
   <rule weight="0.6">
-     <match lemma="viure" tags="vblex.*"><select lemma="vivere"/></match>
+    <match lemma="viure" tags="vblex.*"><select lemma="vivere"/></match>
   </rule>
 
   <!-- comprometre > compromettere, impegnare -->
   <rule weight="0.6">
-     <match lemma="comprometre" tags="vblex.*"><select lemma="compromettere"/></match>
+    <match lemma="comprometre" tags="vblex.*"><select lemma="compromettere"/></match>
   </rule>
 
   <!-- segellar > suggellare, timbrar -->
   <rule weight="0.6">
-     <match lemma="segellar" tags="vblex.*"><select lemma="suggellare"/></match>
+    <match lemma="segellar" tags="vblex.*"><select lemma="suggellare"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="segellar" tags="vblex.*"><select lemma="timbrare"/></match>
-     <match tags="det.*"/>
-     <match lemma="carta" tags="n.*"/>
+    <match lemma="segellar" tags="vblex.*"><select lemma="timbrare"/></match>
+    <match tags="det.*"/>
+    <match lemma="carta" tags="n.*"/>
   </rule>
 
   <!-- intervenir > intervenire, commissariare -->
   <rule weight="0.6">
-     <match lemma="intervenir" tags="vblex.*"><select lemma="intervenire"/></match>
+    <match lemma="intervenir" tags="vblex.*"><select lemma="intervenire"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="intervenir" tags="vblex.*"><select lemma="commissariare"/></match>
-     <match tags="det.*"/>
-     <match lemma="banc" tags="n.*"/>
+    <match lemma="intervenir" tags="vblex.*"><select lemma="commissariare"/></match>
+    <match tags="det.*"/>
+    <match lemma="banc" tags="n.*"/>
   </rule>
 
   <!-- coronar > incoronare, coronare -->
   <rule weight="0.6">
-     <match lemma="coronar" tags="vblex.*"><select lemma="incoronare"/></match>
+    <match lemma="coronar" tags="vblex.*"><select lemma="incoronare"/></match>
   </rule>
 
   <!-- vessar > versare (tr), traboccare (intr) -->
   <rule weight="0.6">
-     <match lemma="vessar" tags="vblex.*"><select lemma="versare"/></match>
+    <match lemma="vessar" tags="vblex.*"><select lemma="versare"/></match>
   </rule>
 
   <!-- gravar > registrare, gravare (amb un impost) -->
   <rule weight="0.6">
-     <match lemma="gravar" tags="vblex.*"><select lemma="registrare"/></match>
+    <match lemma="gravar" tags="vblex.*"><select lemma="registrare"/></match>
   </rule>
 
   <!-- comparar > confrontare, comparare, paragonare -->
   <rule weight="0.6">
-     <match lemma="comparar" tags="vblex.*"><select lemma="confrontare"/></match>
+    <match lemma="comparar" tags="vblex.*"><select lemma="confrontare"/></match>
   </rule>
 
   <!-- desenrotllar > sviluppare, srotolare -->
   <rule weight="0.6">
-     <match lemma="desenrotllar" tags="vblex.*"><select lemma="sviluppare"/></match>
+    <match lemma="desenrotllar" tags="vblex.*"><select lemma="sviluppare"/></match>
   </rule>
 
   <!-- desar > mettere, salvare -->
   <rule weight="0.6">
-     <match lemma="desar" tags="vblex.*"><select lemma="mettere"/></match>
+    <match lemma="desar" tags="vblex.*"><select lemma="mettere"/></match>
   </rule>
 
   <!-- enviar > inviare, mandare -->
   <rule weight="0.6">
-     <match lemma="enviar" tags="vblex.*"><select lemma="inviare"/></match>
+    <match lemma="enviar" tags="vblex.*"><select lemma="inviare"/></match>
   </rule>
 
   <!-- llançar > lanciare, gettare, sferrare -->
   <rule weight="0.6">
-     <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+    <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
   </rule>
 
   <!-- llençar > gettare, lanciare, buttare, buttare via -->
   <rule weight="0.6">
-     <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+    <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
   </rule>
 
   <!-- limitar > limitare, confinare -->
   <rule weight="0.6">
-     <match lemma="limitar" tags="vblex.*"><select lemma="limitare"/></match>
+    <match lemma="limitar" tags="vblex.*"><select lemma="limitare"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
-     <match lemma="amb" tags="pr"/>
+    <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
+    <match lemma="amb" tags="pr"/>
   </rule>
   <rule weight="1.0">
-     <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
-     <or>
-       <match lemma="al nord"/>
-       <match lemma="al sud"/>
-       <match lemma="a l'est"/>
-       <match lemma="a l'oest"/>
-     </or>
+    <match lemma="limitar" tags="vblex.*"><select lemma="confinare"/></match>
+    <or>
+      <match lemma="al nord"/>
+      <match lemma="al sud"/>
+      <match lemma="a l'est"/>
+      <match lemma="a l'oest"/>
+    </or>
   </rule>
 
   <!-- tirar > gettare, tirare -->
@@ -3171,9 +3214,19 @@
 
 <!-- **************** N **************** -->
 
+  <!-- escala > scala, scalo -->
+  <rule weight="0.6">
+    <match lemma="escala" tags="n.*"><select lemma="scala"/></match>
+  </rule>
+
   <!-- esdeveniment > avvenimento, evento -->
   <rule weight="0.6">
     <match lemma="esdeveniment" tags="n.*"><select lemma="avvenimento"/></match>
+  </rule>
+
+  <!-- front > fronte n.m, fronte n.f -->
+  <rule weight="0.6">
+    <match lemma="front" tags="n.*"><select lemma="fronte" tags="n.m.*"/></match>
   </rule>
 
   <!-- avançament > avanzata, anticipo, sorpasso -->

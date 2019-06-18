@@ -890,7 +890,7 @@
       <list-item v="Turkmenistan"/>
       <list-item v="Tuvalu"/>
       <list-item v="Cile"/>
-<!--      <list-item v="Cina"/> -->
+      <list-item v="Cina"/>
       <list-item v="Cipro"/>
       <list-item v="Ucraina"/>
       <list-item v="E.a.u."/>
@@ -904,7 +904,7 @@
       <list-item v="Zambia"/>
       <list-item v="Nuova Zelanda"/>
       <list-item v="Zimbawe"/>
-      <list-item v="Piemonte"/>
+<!--      <list-item v="Piemonte"/> -->
       <list-item v="Liguria"/>
       <list-item v="Lombardia"/>
       <list-item v="Trentino-Alto Adige"/>
@@ -915,7 +915,7 @@
       <list-item v="Emilia-Romagna"/>
       <list-item v="Emilia"/>
       <list-item v="Romagna"/>
-      <list-item v="Toscana"/>
+<!--      <list-item v="Toscana"/> -->
       <list-item v="Umbria"/>
 <!--      <list-item v="Lazio"/> -->
       <list-item v="Abruzzo"/>
