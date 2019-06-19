@@ -767,8 +767,10 @@
       <match lemma="tornar" tags="vblex.*"/>
       <match lemma="regressar" tags="vblex.*"/>
       <match lemma="arribar" tags="vblex.*"/>
-      <match lemma="aparèixer" tags="vblex.*"/>
       <match lemma="marxar" tags="vblex.*"/>
+
+      <match lemma="aparèixer" tags="vblex.*"/>
+      <match lemma="treure" tags="vblex.*"/>	<!-- ha tret de la novel·la -->
     </def-seq>
 
     <def-seq n="ordinals">
@@ -2071,6 +2073,16 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- extreure > estrarre, ricavare -->
+  <rule weight="0.6">
+    <match lemma="extreure" tags="vblex.*"><select lemma="estrarre"/></match>
+  </rule>
+
+  <!-- extrapolar > ricavare, etc. -->
+  <rule weight="0.6">
+    <match lemma="extrapolar" tags="vblex.*"><select lemma="ricavare"/></match>
+  </rule>
+
   <!-- executar > eseguire, giustiziare -->
   <rule weight="0.6">
     <match lemma="executar" tags="vblex.*"><select lemma="eseguire"/></match>
@@ -3213,6 +3225,46 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- servidor > server, servo -->
+  <rule weight="0.6">
+    <match lemma="servidor" tags="n.*"><select lemma="server"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="servidor" tags="n.*"><select lemma="servo"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <seq n="noble"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="servidor" tags="n.*"><select lemma="servo"/></match>
+    <match lemma="di" tags="pr"/>
+    <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+
+  <!-- frontera > fontiera, confine -->
+  <rule weight="0.6">
+    <match lemma="frontera" tags="n.*"><select lemma="fontiera"/></match>
+  </rule>
+
+  <!-- posada > locanda, messa -->
+  <rule weight="0.6">
+    <match lemma="posada" tags="n.*"><select lemma="locanda"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="posada" tags="n.*"><select lemma="messa"/></match>
+    <or>
+      <match lemma="a" tags="pr"/>
+      <match lemma="en" tags="pr"/>
+    </or>
+  </rule>
+
+  <!-- límit > limite, confine -->
+  <rule weight="0.6">
+    <match lemma="límit" tags="n.*"><select lemma="limite"/></match>
+  </rule>
 
   <!-- escala > scala, scalo -->
   <rule weight="0.6">

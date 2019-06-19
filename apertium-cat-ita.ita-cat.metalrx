@@ -379,7 +379,35 @@
       <match lemma="dicembre" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="verbi_da">
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="spostare" tags="vblex.*"/>
+      <match lemma="viaggiare" tags="vblex.*"/>
+      <match lemma="emigrare" tags="vblex.*"/>
+      <match lemma="inmigrar" tags="vblex.*"/>
+      <match lemma="muovere" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="camminare" tags="vblex.*"/>
+      <match lemma="dirigere" tags="vblex.*"/>
+      <match lemma="apropar" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="andare via" tags="vblex.*"/>
+
+      <match lemma="apparire" tags="vblex.*"/>
+      <match lemma="portare" tags="vblex.*"/>
+      <match lemma="togliere" tags="vblex.*"/>
+      <match lemma="trarre" tags="vblex.*"/>
+    </def-seq>
   </def-seqs>
+
   <rules>
 
 <!-- **************** DET **************** -->
@@ -439,6 +467,11 @@
   <rule weight="1.2">
      <or><match tags="vblex.inf"/><match tags="vblex.ger"/></or>
      <match lemma="lui" tags="prn.tn.p3.mf.pl"><select lemma="li" tags="prn.enc.p3.mf.pl"/></match>
+  </rule>
+
+  <!-- gli > li, els (cas especial amb "glielo" que no entenc gaire perquè està definit així a apertium-ita) -->
+  <rule weight="0.6">
+     <match lemma="gli" tags="prn.pro.p3.mf.sp"><select lemma="li" tags="prn.pro.p3.mf.sg"/></match>
   </rule>
 
 <!-- **************** ADJ **************** -->
@@ -556,14 +589,74 @@
 
 <!-- **************** N **************** -->
 
+  <!-- blocco > bloc, bloqueig, blocatge -->
+  <rule weight="0.6">
+    <match lemma="blocco" tags="n.*"><select lemma="bloc"/></match>
+  </rule>
+
+  <!-- brano > cançó, fragment -->
+  <rule weight="0.6">
+    <match lemma="brano" tags="n.*"><select lemma="cançó"/></match>
+  </rule>
+
+  <!-- scoppio > esclat, rebentament -->
+  <rule weight="0.6">
+    <match lemma="scoppio" tags="n.*"><select lemma="esclat"/></match>
+  </rule>
+
   <!-- rotta > ruta, rumb -->
   <rule weight="0.6">
     <match lemma="rotta" tags="n.*"><select lemma="ruta"/></match>
   </rule>
 
+  <!-- messa > missa, posada -->
+  <rule weight="0.6">
+    <match lemma="messa" tags="n.*"><select lemma="missa"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="messa" tags="n.*"><select lemma="posada"/></match>
+    <or>
+      <match lemma="a" tags="pr"/>
+      <match lemma="in" tags="pr"/>
+    </or>
+  </rule>
+
+  <!-- tratta > lliurament, tràfic -->
+  <rule weight="0.6">
+    <match lemma="tratta" tags="n.*"><select lemma="lliurament"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tratta" tags="n.*"><select lemma="tràfic"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="il" tags="det.def.*"/>
+  </rule>
+
+  <!-- confine > límit, frontera -->
+  <rule weight="0.6">
+    <match lemma="confine" tags="n.*"><select lemma="límit"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="confine" tags="n.*"><select lemma="frontera"/></match>
+    <match tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match tags="np.top.*"/>
+  </rule>
+
+  <!-- incidente > accident, incident -->
+  <rule weight="0.6">
+    <match lemma="incidente" tags="n.*"><select lemma="accident"/></match>
+  </rule>
+
   <!-- maturazione > maduresa, maduració -->
   <rule weight="0.6">
     <match lemma="maturazione" tags="n.*"><select lemma="maduresa"/></match>
+  </rule>
+
+  <!-- guida > guia mf, guia f -->
+  <rule weight="0.6">
+    <match lemma="guida" tags="n.*"><select lemma="guia" tags="n.mf.*"/></match>
   </rule>
 
   <!-- punto > punt, interrogant -->
@@ -1259,9 +1352,36 @@
 
 <!-- **************** V **************** -->
 
+  <!-- ricavare > extreure, extrapolar -->
+  <rule weight="0.6">
+    <match lemma="ricavare" tags="vblex.*"><select lemma="extreure"/></match>
+  </rule>
+
   <!-- avanzare > avançar, sobrar -->
   <rule weight="0.6">
     <match lemma="avanzare" tags="vblex.*"><select lemma="avançar"/></match>
+  </rule>
+
+  <!-- ingaggiare > contractar, fitxar -->
+  <rule weight="0.6">
+    <match lemma="ingaggiare" tags="vblex.*"><select lemma="contractar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ingaggiare" tags="vblex.*"><select lemma="fitxar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ingaggiare" tags="vblex.*"><select lemma="fitxar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="jugador" tags="n.*"/>
   </rule>
 
   <!-- rimanere > quedar, romandre -->
@@ -1728,6 +1848,18 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <seq n="verbi_da"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
   <!-- tra, fra > entre, a -->
