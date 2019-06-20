@@ -231,6 +231,7 @@
     </def-cat>
     <def-cat n="giorno">
       <cat-item tags="num"/>
+      <cat-item lemma="1º" tags="adj.ord.m.sg"/>
     </def-cat>
     <def-cat n="anno">
       <cat-item tags="num"/>
@@ -475,6 +476,7 @@
 
   <section-def-vars>
     <def-var n="verbfinal"/>
+    <def-var n="numerodia"/>
     <def-var n="caseFirstWord"/>
     <def-var n="concPrimero"/>
     <def-var n="concSegundo"/>
@@ -3628,6 +3630,34 @@
 -->
     </def-macro>
 
+    <def-macro n="f_giorno" npar="1"> <!-- per a convertir els 1º en 1 -->
+      <let>
+        <var n="numerodia"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="lem"/><lit v="1º"/></equal>
+          </test>
+          <let><var n="numerodia"/>
+              <concat>
+              <lit v="1"/>
+              <lit-tag v="num"/>
+              <lit v="$^"/>
+            </concat>
+          </let> 
+        </when>
+        <otherwise>
+          <let><var n="numerodia"/>
+              <concat>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </concat>
+          </let> 
+        </otherwise>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
   <section-rules>
@@ -4411,6 +4441,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="dia-de-mes">
             <tags>
@@ -4419,9 +4450,7 @@
               <tag><var n="numero"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
@@ -4657,6 +4686,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes">
             <tags>
@@ -4674,9 +4704,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
@@ -5856,6 +5884,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="3"/></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes">
@@ -5874,9 +5903,7 @@
             </lu>
             <b pos="2"/>
             <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="tags"/>
-              <clip pos="3" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
@@ -5905,6 +5932,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="dia-de-mes-de-any">
             <tags>
@@ -5913,9 +5941,7 @@
               <tag><var n="numero"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
@@ -5957,6 +5983,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes-de-any">
             <tags>
@@ -5974,9 +6001,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
@@ -6018,6 +6043,7 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_giorno"><with-param pos="3"/></call-macro>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes-de-any">
@@ -6037,9 +6063,7 @@
             </lu>
             <b pos="2"/>
             <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="tags"/>
-              <clip pos="3" side="tl" part="lemq"/>
+              <var n="numerodia"/>
             </lu>
             <b/>
             <lu>
