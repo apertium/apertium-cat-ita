@@ -3439,6 +3439,16 @@
     <match lemma="mar" tags="n.*"/>
   </rule>
 
+  <!-- segell > sigillo, francobollo, bollo -->
+  <rule weight="0.6">
+    <match lemma="segell" tags="n.*"><select lemma="sigillo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="segell" tags="n.*"><select lemma="francobollo"/></match>
+    <match tags="pr"/>
+    <match lemma="correu" tags="n.*"/>
+  </rule>
+
   <!-- pinya > pigna, ananas -->
   <rule weight="0.6">
     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>

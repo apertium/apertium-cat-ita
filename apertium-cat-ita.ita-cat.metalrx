@@ -589,6 +589,21 @@
 
 <!-- **************** N **************** -->
 
+  <!-- vincitore > vencedor, guanyador -->
+  <rule weight="0.6">
+    <match lemma="vincitore" tags="n.*"><select lemma="vencedor"/></match>
+  </rule>
+
+  <!-- rilascio > entrega, lliurament -->
+  <rule weight="0.6">
+    <match lemma="rilascio" tags="n.*"><select lemma="entrega"/></match>
+  </rule>
+
+  <!-- soccorso > auxili, socors -->
+  <rule weight="0.6">
+    <match lemma="soccorso" tags="n.*"><select lemma="auxili"/></match>
+  </rule>
+
   <!-- conoscenza > coneixement, coneixença -->
   <rule weight="0.6">
     <match lemma="conoscenza" tags="n.*"><select lemma="coneixement"/></match>
