@@ -589,6 +589,28 @@
 
 <!-- **************** N **************** -->
 
+  <!-- conoscenza > coneixement, coneixença -->
+  <rule weight="0.6">
+    <match lemma="conoscenza" tags="n.*"><select lemma="coneixement"/></match>
+  </rule>
+
+  <!-- sbocco > desembocadura, sortida -->
+  <rule weight="0.6">
+    <match lemma="sbocco" tags="n.*"><select lemma="desembocadura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="senza" tags="pr"/>
+    <match lemma="sbocco" tags="n.*"><select lemma="sortida"/></match>
+    <match tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="mare" tags="n.*"/>
+  </rule>
+
+  <!-- mandarino > mandarina, mandariner, mandarí -->
+  <rule weight="0.6">
+    <match lemma="mandarino" tags="n.*"><select lemma="mandarina"/></match>
+  </rule>
+
   <!-- blocco > bloc, bloqueig, blocatge -->
   <rule weight="0.6">
     <match lemma="blocco" tags="n.*"><select lemma="bloc"/></match>
@@ -1352,6 +1374,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- sfogliare > fullejar, esfullar, desfullar -->
+  <rule weight="0.6">
+    <match lemma="sfogliare" tags="vblex.*"><select lemma="fullejar"/></match>
+  </rule>
+
   <!-- ricavare > extreure, extrapolar -->
   <rule weight="0.6">
     <match lemma="ricavare" tags="vblex.*"><select lemma="extreure"/></match>
@@ -1629,6 +1656,12 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
+  <!-- avvicinare > apropar, assemblar -->
+  <!-- <macro name="verb_nopron_pron" p1="avvicinare" p2="apropar" p3="assemblar"/> -->
+  <rule weight="0.6">
+    <match lemma="avvicinare" tags="vblex.*"><select lemma="apropar"/></match>
+  </rule>
+  
   <!-- strappare > arrencar, trencar (+ intr: trencar) -->
   <macro name="verb_nopron_pron" p1="strappare" p2="arrencar" p3="trencar"/>
 
@@ -1676,10 +1709,12 @@
   <macro name="verb_nopron_pron" p1="chiamare" p2="cridar" p3="dir"/>
   <rule weight="1.0">
     <match lemma="chiamare" tags="vblex.pp.*"><select lemma="anomenar"/></match>
+<!--
     <or>
       <match tags="n.*"/>
       <match tags="apos"/>
     </or>
+-->
   </rule>
   <rule weight="1.0">
     <match lemma="lo" tags="prn.pro.p3.*"/>

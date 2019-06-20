@@ -3427,9 +3427,16 @@
     <match lemma="classificació" tags="n.*"><select lemma="classificazione"/></match>
   </rule>
 
-  <!-- sortida > uscita, partenza -->
+  <!-- sortida > uscita, partenza, sbocco -->
   <rule weight="0.6">
     <match lemma="sortida" tags="n.*"><select lemma="uscita"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sense" tags="pr"/>
+    <match lemma="sortida" tags="n.*"><select lemma="sbocco"/></match>
+    <match tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="mar" tags="n.*"/>
   </rule>
 
   <!-- pinya > pigna, ananas -->
