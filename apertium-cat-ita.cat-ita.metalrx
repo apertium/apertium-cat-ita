@@ -2078,6 +2078,18 @@
     <match lemma="extreure" tags="vblex.*"><select lemma="estrarre"/></match>
   </rule>
 
+  <!-- trobar > trovare, incontrare, pensare, credere, giudicare -->
+  <rule weight="0.6">
+    <match lemma="trobar" tags="vblex.*"><select lemma="trovare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="trobar" tags="vblex.*"><select lemma="pensare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="cnjsub"/>
+  </rule>
+
   <!-- extrapolar > ricavare, etc. -->
   <rule weight="0.6">
     <match lemma="extrapolar" tags="vblex.*"><select lemma="ricavare"/></match>
@@ -2341,6 +2353,15 @@
   <rule weight="1.0">
     <match lemma="anomenar" tags="vblex.pp.*"><select lemma="denominare"/></match>
     <match tags="apos"/>
+  </rule>
+
+  <!-- continuar > continuare, rimanere -->
+  <rule weight="0.6">
+     <match ploma="continuar" tags="vblex.*"><select lemma="continuare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="continuar" tags="vblex.*"><select lemma="rimanere"/></match>
+     <match tags="adj.*"/>
   </rule>
 
   <!-- tornar > tornare, ritornare, diventare -->
@@ -3225,6 +3246,26 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- alzina > leccio, elce, rovere -->
+  <rule weight="0.6">
+    <match lemma="alzina" tags="n.*"><select lemma="leccio"/></match>
+  </rule>
+
+  <!-- suborn > tangente, bustarella -->
+  <rule weight="0.6">
+    <match lemma="suborn" tags="n.*"><select lemma="tangente"/></match>
+  </rule>
+
+  <!-- diari > giornale, diario -->
+  <rule weight="0.6">
+    <match lemma="diari" tags="n.*"><select lemma="giornale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="diari" tags="n.*"><select lemma="giornale"/></match>
+    <match lemma="di" tags="pr"/>
+    <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
 
   <!-- frontera > fontiera, confine -->
   <rule weight="0.6">
@@ -4486,7 +4527,7 @@
      </or>
   </rule>
 
-  <!-- càrrec > carica, carico, funzionario -->
+  <!-- càrrec > carica, carico, incarico, funzionario -->
   <rule weight="0.6">
      <match lemma="càrrec" tags="n.*"><select lemma="carica"/></match>
   </rule>

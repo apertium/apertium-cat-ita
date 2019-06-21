@@ -405,6 +405,14 @@
       <match lemma="portare" tags="vblex.*"/>
       <match lemma="togliere" tags="vblex.*"/>
       <match lemma="trarre" tags="vblex.*"/>
+      <match lemma="dimettire" tags="vblex.*"/>
+    </def-seq>
+
+    <def-seq n="incarico">
+      <match lemma="capo" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="responsabile" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
     </def-seq>
   </def-seqs>
 
@@ -589,9 +597,46 @@
 
 <!-- **************** N **************** -->
 
+  <!-- arancio > taronja, taronger -->
+  <rule weight="0.6">
+    <match lemma="arancio" tags="n.*"><select lemma="taronja"/></match>
+  </rule>
+
+  <!-- quercia > roure, alzina -->
+  <rule weight="0.6">
+    <match lemma="quercia" tags="n.*"><select lemma="roure"/></match>
+  </rule>
+
   <!-- vincitore > vencedor, guanyador -->
   <rule weight="0.6">
     <match lemma="vincitore" tags="n.*"><select lemma="vencedor"/></match>
+  </rule>
+
+  <!-- incarico > encàrrec, càrrec -->
+  <rule weight="0.6">
+    <match lemma="incarico" tags="n.*"><select lemma="encàrrec"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="incarico" tags="n.*"><select lemma="encàrrec"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <seq n="incarico"/>
+    </or>
+  </rule>
+
+  <!-- tangente > suborn, tangent -->
+  <rule weight="0.6">
+    <match lemma="tangente" tags="n.*"><select lemma="suborn"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tangente" tags="n.*"><select lemma="tangent"/></match>
+    <match lemma="trigonometrico" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tangente" tags="n.*"><select lemma="tangent"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="angolo" tags="n.*"/>
   </rule>
 
   <!-- mandato > mandat, ordre -->
@@ -1399,6 +1444,30 @@
 
 <!-- **************** V **************** -->
 
+  <!-- giudicare > jutjar, considerar, trobar -->
+  <rule weight="0.6">
+    <match lemma="giudicare" tags="vblex.*"><select lemma="jutjar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="giudicare" tags="vblex.*"><select lemma="considerar"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
+  <!-- riternere > retenir, considerar, trobar -->
+  <rule weight="0.6">
+    <match lemma="riternere" tags="vblex.*"><select lemma="retenir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="riternere" tags="vblex.*"><select lemma="considerar"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
   <!-- sfogliare > fullejar, esfullar, desfullar -->
   <rule weight="0.6">
     <match lemma="sfogliare" tags="vblex.*"><select lemma="fullejar"/></match>
@@ -1411,7 +1480,7 @@
   <rule weight="1.0">
     <match lemma="rendere" tags="vblex.*"><select lemma="fer# posar"/></match>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
+      <or><match tags="adv"/><match tags="preadv"/></or>
     </repeat>
     <match tags="adj.*"/>
   </rule>
@@ -1456,7 +1525,7 @@
     <match lemma="jugador" tags="n.*"/>
   </rule>
 
-  <!-- rimanere > quedar, romandre -->
+  <!-- rimanere > quedar, continuar, romandre -->
   <rule weight="0.6">
     <match lemma="rimanere" tags="vblex.*"><select lemma="quedar"/></match>
   </rule>
@@ -1477,6 +1546,9 @@
   </rule>
   <rule weight="1.0">
     <match lemma="venire" tags="vblex.*"><select lemma="ser"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match tags="vblex.pp.*"/>
   </rule>
 
