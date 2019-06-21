@@ -1864,6 +1864,7 @@
       <match lemma="situare" tags="vblex.pp.*"/>
       <match lemma="dividire" tags="vblex.pp.*"/>
       <match lemma="subdividire" tags="vblex.pp.*"/>
+      <match lemma="sposare" tags="vblex.pp.*"/>
     </or>
   </rule>
 
