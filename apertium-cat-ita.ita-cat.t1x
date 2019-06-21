@@ -277,6 +277,14 @@
        <cat-item lemma="novembre" tags="n.*"/>
        <cat-item lemma="dicembre" tags="n.*"/>
     </def-cat>
+
+    <def-cat n="stagione">
+       <cat-item lemma="primavera" tags="n.*"/>
+       <cat-item lemma="estate" tags="n.*"/>
+       <cat-item lemma="autunno" tags="n.*"/>
+       <cat-item lemma="inverno" tags="n.*"/>
+    </def-cat>
+
     <def-cat n="secolo">
        <cat-item lemma="secolo" tags="n.*"/>
     </def-cat>
@@ -859,6 +867,7 @@
       <list-item v="Romania"/>
       <list-item v="Ruanda"/>
       <list-item v="Russia"/>
+      <list-item v="Siberia"/>
 <!--      <list-item v="Sahara Occidentale"/> -->
       <list-item v="Santa Lucia"/>
       <list-item v="São Tomé e Príncipe"/>
@@ -941,15 +950,20 @@
       <list-item v="Fiandra"/>
       <list-item v="Fiandre"/>
       <list-item v="Baviera"/>
+      <list-item v="Brandenburgo"/>
       <list-item v="Sassonia"/>
       <list-item v="Alaska"/>
       <list-item v="California"/>
+      <list-item v="New England"/>
+      <list-item v="New Hampshire"/>
+      <list-item v="New Jersey"/>
       <list-item v="Oklahoma"/>
       <list-item v="Ohio"/>
       <list-item v="Texas"/>
       <list-item v="Rio Grande do Sul"/>
       <list-item v="Prussia"/>
       <list-item v="Persia"/>
+      <list-item v="Jugoslavia"/>
     </def-list>
   </section-def-lists>
 
@@ -6256,6 +6270,81 @@
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="tags"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in mese: in giugno el juny">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="mese"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="det-nom">
+            <tags>
+              <tag><lit-tag v="adv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="el"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: in mese: in estate > a l'estiu">
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="stagione"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="det-nom">
+            <tags>
+              <tag><lit-tag v="adv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="a"/>
+              </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="el"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
