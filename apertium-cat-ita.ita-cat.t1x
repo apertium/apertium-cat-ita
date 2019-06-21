@@ -6952,11 +6952,12 @@
         <pattern-item n="adv_preadv"/>
         <pattern-item n="pp"/>
       </pattern>
+<!-- sortida: adverbi a l'inici.
       <action>
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <out> <!-- aquest ordre estrany s per les maj-->
+        <out> aquest ordre estrany s per les maj
         <chunk name="Sadv" case="caseFirstWord">
           <tags>
             <tag><clip pos="2" side="tl" part="a_adv"/></tag>
@@ -7013,6 +7014,48 @@
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
 
+          </chunk>
+        </out>
+      </action>
+    </rule>
+-->
+
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_vauxiliar">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="verbcj">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <var n="verbfinal"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/> 
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
           </chunk>
         </out>
       </action>
