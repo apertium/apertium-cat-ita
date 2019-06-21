@@ -2092,7 +2092,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-     <match tags="np.*"/>
+    <match tags="np.*"/>
   </rule>
   <rule weight="1.0">
     <match lemma="executar" tags="vblex.*"><select lemma="giustiziare"/></match>
@@ -2374,7 +2374,7 @@
   </rule>
 
   <!-- tenir > avere, tenere, giocare -->
-  <!-- fer > fare giocare -->
+  <!-- fer > fare, giocare -->
   <rule weight="0.6">
      <match lemma="tenir" tags="vblex.*"><select lemma="avere"/></match>
   </rule>
@@ -3226,6 +3226,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- frontera > fontiera, confine -->
+  <rule weight="0.6">
+    <match lemma="frontera" tags="n.*"><select lemma="fontiera"/></match>
+  </rule>
+
   <!-- servidor > server, servo -->
   <rule weight="0.6">
     <match lemma="servidor" tags="n.*"><select lemma="server"/></match>
@@ -3244,9 +3249,17 @@
     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
-  <!-- frontera > fontiera, confine -->
+  <!-- ordre f > ordine, mandato -->
   <rule weight="0.6">
-    <match lemma="frontera" tags="n.*"><select lemma="fontiera"/></match>
+    <match lemma="ordre" tags="n.f.*"><select lemma="ordine"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ordre" tags="n.f.*"><select lemma="mandato"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="recerca" tags="n.*"/>
+      <match lemma="captura" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- posada > locanda, messa -->

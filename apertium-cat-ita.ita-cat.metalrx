@@ -594,6 +594,16 @@
     <match lemma="vincitore" tags="n.*"><select lemma="vencedor"/></match>
   </rule>
 
+  <!-- mandato > mandat, ordre -->
+  <rule weight="0.6">
+    <match lemma="mandato" tags="n.*"><select lemma="mandat"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="mandato" tags="n.*"><select lemma="ordre"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="cattura" tags="n.*"/>
+  </rule>
+
   <!-- rilascio > entrega, lliurament -->
   <rule weight="0.6">
     <match lemma="rilascio" tags="n.*"><select lemma="entrega"/></match>
@@ -1392,6 +1402,26 @@
   <!-- sfogliare > fullejar, esfullar, desfullar -->
   <rule weight="0.6">
     <match lemma="sfogliare" tags="vblex.*"><select lemma="fullejar"/></match>
+  </rule>
+
+  <!-- rendere > tornar, fer# posar, retre -->
+  <rule weight="0.6">
+    <match lemma="rendere" tags="vblex.*"><select lemma="tornar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rendere" tags="vblex.*"><select lemma="fer# posar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rendere" tags="vblex.*"><select lemma="retre"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="omaggio" tags="n.*"/>
   </rule>
 
   <!-- ricavare > extreure, extrapolar -->
