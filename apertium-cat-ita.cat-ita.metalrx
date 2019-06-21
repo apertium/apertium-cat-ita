@@ -3971,6 +3971,11 @@
      <match ploma="clau" tags="n.*"><select lemma="chiave"/></match>
   </rule>
 
+  <!-- navegador > navigatore, browser -->
+  <rule weight="0.6">
+     <match ploma="navegador" tags="n.*"><select lemma="navigatore"/></match>
+  </rule>
+
   <!-- ploma > penna, pioma -->
   <rule weight="0.6">
      <match ploma="ploma" tags="n.*"><select lemma="penna"/></match>
