@@ -406,6 +406,7 @@
       <match lemma="togliere" tags="vblex.*"/>
       <match lemma="trarre" tags="vblex.*"/>
       <match lemma="dimettire" tags="vblex.*"/>
+      <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
     </def-seq>
 
     <def-seq n="incarico">
@@ -596,6 +597,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- soggetto > subjecte, tema -->
+  <rule weight="0.6">
+    <match lemma="soggetto" tags="n.*"><select lemma="subjecte"/></match>
+  </rule>
 
   <!-- arancio > taronja, taronger -->
   <rule weight="0.6">
@@ -1819,6 +1825,9 @@
     <match tags="vblex.inf"/>
   </rule>
 
+  <!-- rovesciare > tombar, derrocar, bolcar, capgirar -->
+  <macro name="verb_nopron_pron" p1="rovesciare" p2="tombar" p3="capgirar"/>
+
   <!-- diventare > esdevenir, tornar -->
   <macro name="verb_nopron_pron" p1="diventare" p2="esdevenir" p3="tornar"/>
 
@@ -1909,23 +1918,23 @@
 
   <!-- come > com, com a -->
   <rule weight="0.6">
-    <match lemma="come" tags="pr"><select lemma="com" tags="pr"/></match>
+    <match lemma="come" tags="pr"><select lemma="com"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="come" tags="pr"><select lemma="com a" tags="pr"/></match>
+    <match lemma="come" tags="pr"><select lemma="com a"/></match>
      <match tags="n.*"/>
   </rule>
 
   <!-- oltre > més enllà de, més de -->
   <rule weight="0.6">
-    <match lemma="oltre" tags="pr"><select lemma="més enllà de" tags="pr"/></match>
+    <match lemma="oltre" tags="pr"><select lemma="més enllà de"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="oltre" tags="pr"><select lemma="més de" tags="pr"/></match>
+    <match lemma="oltre" tags="pr"><select lemma="més de"/></match>
     <or><match tags="num"/><match tags="num.*"/></or>
   </rule>
   <rule weight="1.0">
-    <match lemma="oltre" tags="pr"><select lemma="més de" tags="pr"/></match>
+    <match lemma="oltre" tags="pr"><select lemma="més de"/></match>
     <match tags="det.def.*"/>
     <or>
       <seq n="periodo"/>
@@ -1934,7 +1943,7 @@
 
   <!-- da > de, per, des de -->
   <rule weight="0.6">
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1944,7 +1953,7 @@
         <match tags="cnjadv"/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1957,7 +1966,7 @@
     <match lemma="in" tags="pr"/>
     <match lemma="il" tags="det.def.*"/>
     <match tags="num"/>
-    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1972,7 +1981,7 @@
     <or>
       <seq n="mese"/>
     </or>
-    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1988,10 +1997,10 @@
       <seq n="mese"/>
     </or>
     <match tags="num"/>
-    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
   </rule>
   <rule weight="1.2">
-    <match lemma="da" tags="pr"><select lemma="per" tags="des de"/></match>
+    <match lemma="da" tags="pr"><select lemma="des de"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
   </rule>
@@ -2000,7 +2009,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
   </rule>
   <rule weight="1.2">
     <or>
@@ -2012,20 +2021,20 @@
         <match tags="adv"/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
 
   <!-- tra, fra > entre, a -->
   <rule weight="0.6">
     <or>
-      <match lemma="tra" tags="pr"><select lemma="entre" tags="pr"/></match>
-      <match lemma="fra" tags="pr"><select lemma="entre" tags="pr"/></match>
+      <match lemma="tra" tags="pr"><select lemma="entre"/></match>
+      <match lemma="fra" tags="pr"><select lemma="entre"/></match>
     </or>
   </rule>
   <rule weight="1.0">
     <or>
-      <match lemma="tra" tags="pr"><select lemma="a" tags="pr"/></match>
-      <match lemma="fra" tags="pr"><select lemma="a" tags="pr"/></match>
+      <match lemma="tra" tags="pr"><select lemma="a"/></match>
+      <match lemma="fra" tags="pr"><select lemma="a"/></match>
     </or>
     <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
     <or>
@@ -2033,9 +2042,35 @@
     </or>
   </rule>
 
+  <!-- a > a, fins -->
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <match tags="num"/>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+    <match lemma="a" tags="pr"><select lemma="fins"/></match>
+    <match tags="adv"/>
+  </rule>
+
   <!-- su > sobre, de, en -->
   <rule weight="0.6">
-    <match lemma="su" tags="pr"><select lemma="sobre" tags="pr"/></match>
+    <match lemma="su" tags="pr"><select lemma="sobre"/></match>
   </rule>
   <!-- due volte su cinque >> dues vegades DE cinc -->
   <rule weight="1.0">
@@ -2051,7 +2086,7 @@
     <repeat from="0" upto="1">
       <match tags="prn.enc.*"/>
     </repeat>
-    <match lemma="su" tags="pr"><select lemma="en" tags="pr"/></match>
+    <match lemma="su" tags="pr"><select lemma="en"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="basare" tags="vblex.*"/>
@@ -2059,14 +2094,14 @@
       <match tags="prn.enc.*"/>
     </repeat>
     <match tags="adv"/>
-    <match lemma="su" tags="pr"><select lemma="en" tags="pr"/></match>
+    <match lemma="su" tags="pr"><select lemma="en"/></match>
   </rule>
 
   <!-- a >> a, en, de -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.4">
     <or>
       <match lemma="pensare"/>
       <match lemma="partecipare"/>
@@ -2076,9 +2111,9 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="en"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.4">
     <match lemma="addetto" tags="n.*"/>
-    <match lemma="a" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
   </rule>
 
   <!-- in >> en, a -->
@@ -2090,6 +2125,7 @@
     <or>
       <match lemma="arrivare" tags="vblex.*"/>
       <match lemma="venire" tags="vblex.*"/>
+      <match lemma="andare" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>

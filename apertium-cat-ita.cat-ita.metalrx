@@ -2241,6 +2241,11 @@
      <match lemma="substituir" tags="vblex.*"><select lemma="sostituire"/></match>
   </rule>
 
+  <!-- emetre > emettere, andare in onda -->
+  <rule weight="0.6">
+     <match lemma="emetre" tags="vblex.*"><select lemma="emettere"/></match>
+  </rule>
+
   <!-- inspirar > ispirare, inspirare -->
   <rule weight="0.6">
      <match lemma="inspirar" tags="vblex.*"><select lemma="ispirare"/></match>
