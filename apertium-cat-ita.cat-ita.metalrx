@@ -3143,6 +3143,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- tard > tardi, in ritardo -->
+  <rule weight="0.6">
+     <match lemma="tard" tags="adj.*"><select lemma="tardi"/></match>
+  </rule>
+
   <!-- habitual > abituale, solito -->
   <rule weight="0.6">
      <match lemma="habitual" tags="adj.*"><select lemma="abituale"/></match>
@@ -3232,13 +3237,13 @@
      <match lemma="sospitós" tags="adj.*"><select lemma="suspetosu"/></match>
   </rule>
 
-  <!-- romànic > romànicu, romantzu --> <!-- srd -->
+  <!-- romànic > romanico, romanzo -->
   <rule weight="0.6">
-     <match lemma="romànic" tags="adj.*"><select lemma="romànicu"/></match>
+     <match lemma="romànic" tags="adj.*"><select lemma="romanico"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="llengua" tags="n.f.*"/>
-     <match lemma="romànic" tags="adj.*"><select lemma="romantzu"/></match>
+     <match lemma="romànic" tags="adj.*"><select lemma="romanzo"/></match>
   </rule>
 
   <!-- presumpte > presumidu, crètidu --> <!-- srd -->
@@ -3255,6 +3260,24 @@
   <!-- alzina > leccio, elce, rovere -->
   <rule weight="0.6">
     <match lemma="alzina" tags="n.*"><select lemma="leccio"/></match>
+  </rule>
+
+  <!-- turó > collina, colle -->
+  <rule weight="0.6">
+    <match lemma="turó" tags="n.*"><select lemma="collina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="set" tags="num.*"/>
+    <match lemma="turó" tags="n.*"><select lemma="colle"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="turó" tags="n.*"><select lemma="colle"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="turó" tags="n.*"><select lemma="colle"/></match>
+    <match tags="pr"/>
+    <match tags="np.*"/>
   </rule>
 
   <!-- suborn > tangente, bustarella -->

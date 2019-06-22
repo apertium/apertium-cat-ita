@@ -410,10 +410,17 @@
     </def-seq>
 
     <def-seq n="incarico">
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
+      <match lemma="direttore" tags="n.*"/>
+      <match lemma="responsabile" tags="n.*"/>
       <match lemma="capo" tags="n.*"/>
       <match lemma="ministro" tags="n.*"/>
-      <match lemma="responsabile" tags="n.*"/>
-      <match lemma="segretario" tags="n.*"/>
+      <match lemma="ambasciatore" tags="n.*"/>
+      <match lemma="osservatore" tags="n.*"/>
+      <match lemma="vescovo" tags="n.*"/>
+      <match lemma="arcivescovo" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
     </def-seq>
   </def-seqs>
 
@@ -598,6 +605,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- consiglio > consell, junta -->
+  <rule weight="0.6">
+    <match lemma="consiglio" tags="n.*"><select lemma="consell"/></match>
+  </rule>
+
   <!-- soggetto > subjecte, tema -->
   <rule weight="0.6">
     <match lemma="soggetto" tags="n.*"><select lemma="subjecte"/></match>
@@ -618,16 +630,44 @@
     <match lemma="vincitore" tags="n.*"><select lemma="vencedor"/></match>
   </rule>
 
+  <!-- bilancio > balanç, pressupost -->
+  <rule weight="0.6">
+    <match lemma="bilancio" tags="n.*"><select lemma="balanç"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="ministero" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="bilancio" tags="n.*"><select lemma="pressupost"/></match>
+  </rule>
+
+  <!-- affare > negoci, afer -->
+  <rule weight="0.6">
+    <match lemma="affare" tags="n.*"><select lemma="negoci"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="affare" tags="n.*"><select lemma="afer"/></match>
+    <match lemma="estero" tags="adj.*"/>
+  </rule>
+
+
   <!-- incarico > encàrrec, càrrec -->
   <rule weight="0.6">
     <match lemma="incarico" tags="n.*"><select lemma="encàrrec"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="incarico" tags="n.*"><select lemma="encàrrec"/></match>
+    <match lemma="incarico" tags="n.*"><select lemma="càrrec"/></match>
     <match lemma="di" tags="pr"/>
     <or>
       <seq n="incarico"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="incarico" tags="n.*"><select lemma="càrrec"/></match>
+    <match lemma="governativo" tags="adj.*"/>
   </rule>
 
   <!-- tangente > suborn, tangent -->
@@ -1061,6 +1101,20 @@
     </repeat>
     <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
+    <or>
+      <match lemma="vacante" tags="adj.*"/>
+      <match lemma="governativo" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="carica" tags="n.*"><select lemma="càrrec"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <seq n="incarico"/>
+    </or>
+  </rule>
 
   <!-- squadra > equip, esquadra, escaire -->
   <rule weight="0.6">
@@ -1171,6 +1225,11 @@
     <match lemma="stagione" tags="n.*"><select lemma="temporada" tags="n.*"/></match>
   </rule>
 
+  <!-- investimento > inversió, investidura, capgirament -->
+  <rule weight="0.6">
+     <match lemma="investimento" tags="n.*"><select lemma="inversió"/></match>
+  </rule>
+
   <!-- banco > banc, banca -->
   <rule weight="0.6">
      <match lemma="banco" tags="n.*"><select lemma="banc"/></match>
@@ -1179,6 +1238,21 @@
   <!-- banca > banca, banc -->
   <rule weight="0.6">
      <match lemma="banca" tags="n.*"><select lemma="banca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="banca" tags="n.f.pl"><select lemma="banc"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="banca" tags="n.*"><select lemma="banc"/></match>
+     <match lemma="centrale" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="banca" tags="n.*"><select lemma="banc"/></match>
+     <match lemma="di" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <match tags="np.*"/>
   </rule>
 
   <!-- entrata > entrada, ingrés -->
@@ -1449,6 +1523,53 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- eleggere > escollir, triar, elegir -->
+  <rule weight="0.6">
+    <match lemma="eleggere" tags="vblex.*"><select lemma="triar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="eleggere" tags="vblex.*"><select lemma="elegir"/></match>
+    <match lemma="direttamente" tags="adv"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="eleggere" tags="vblex.*"><select lemma="elegir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"/>
+    <match lemma="cittadino" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parlamento" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="eleggere" tags="vblex.*"><select lemma="elegir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="eleggere" tags="vblex.*"><select lemma="elegir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="parlamento" tags="n.*"/>
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="eleggere" tags="vblex.*"><select lemma="elegir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="parlamento" tags="n.*"/>
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- giudicare > jutjar, considerar, trobar -->
   <rule weight="0.6">
@@ -1853,19 +1974,19 @@
 
   <!-- tentare > temptar, intentar -->
   <rule weight="0.6">
-    <match lemma="tentare" tags="vblex.*"><select lemma="temptar" tags="vblex.*"/></match>
+    <match lemma="tentare" tags="vblex.*"><select lemma="temptar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="tentare" tags="vblex.*"><select lemma="intentar" tags="vblex.*"/></match>
+    <match lemma="tentare" tags="vblex.*"><select lemma="intentar"/></match>
     <match lemma="di" tags="pr"/>
   </rule>
   
   <!-- essere > ser, estar -->
   <rule weight="0.6">
-    <match lemma="essere" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
+    <match lemma="essere" tags="vbser.*"><select lemma="ser"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="essere" tags="vbser.*"><select lemma="estar" tags="vbser.*"/></match>
+    <match lemma="essere" tags="vbser.*"><select lemma="estar"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -1874,6 +1995,7 @@
       <match lemma="dividire" tags="vblex.pp.*"/>
       <match lemma="subdividire" tags="vblex.pp.*"/>
       <match lemma="sposare" tags="vblex.pp.*"/>
+      <match lemma="comporre" tags="vblex.pp.*"/>
     </or>
   </rule>
 
