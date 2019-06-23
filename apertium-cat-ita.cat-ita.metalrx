@@ -1372,13 +1372,21 @@
   </rule>
   <rule weight="1.0">
     <or>
-      <match lemma="pensar"/>
-      <match lemma="participar"/>
+      <match lemma="pensar" tags="vblex.*"/>
+      <match lemma="participar" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
     <match lemma="en" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"><select lemma="su"/></match>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="diari" tags="n.*"/>
   </rule>
 
   <!-- basar-se en >> basarsi si -->
@@ -3143,6 +3151,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- conservador > conservatore, conservativo -->
+  <rule weight="0.6">
+     <match lemma="conservador" tags="adj.*"><select lemma="conservatore"/></match>
+  </rule>
+
   <!-- tard > tardi, in ritardo -->
   <rule weight="0.6">
      <match lemma="tard" tags="adj.*"><select lemma="tardi"/></match>
@@ -3698,6 +3711,11 @@
   <!-- conductor > conduttore, autista -->
   <rule weight="0.6">
     <match lemma="conductor" tags="n.*"><select lemma="conduttore"/></match>
+  </rule>
+
+  <!-- derrota > sconfitta, disfatta -->
+  <rule weight="0.6">
+    <match lemma="derrota" tags="n.*"><select lemma="sconfitta"/></match>
   </rule>
 
   <!-- construcció > costruzione, edilizia -->

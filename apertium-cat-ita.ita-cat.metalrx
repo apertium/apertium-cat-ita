@@ -500,9 +500,16 @@
 
 <!-- **************** ADJ **************** -->
 
-  <!-- vero > veritable, vertader -->
+  <!-- vero > veritable, vertader, cert -->
   <rule weight="0.6">
     <match lemma="vero" tags="adj.*"><select lemma="veritable"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match lemma="vero" tags="adj.*"><select lemma="cert"/></match>
   </rule>
 
   <!-- ulteriore > ulterior, addicional -->
@@ -626,6 +633,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- bolla > butlla, bombolla -->
+  <rule weight="0.6">
+    <match lemma="bolla" tags="n.*"><select lemma="butlla"/></match>
+  </rule>
 
   <!-- lineetta > guionet, guió -->
   <rule weight="0.6">
@@ -1238,6 +1250,10 @@
   <rule weight="1.0">
      <match lemma="prospetto" tags="n.*"><select lemma="vista"/></match>
      <match lemma="su" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="prospetto" tags="n.*"><select lemma="façana"/></match>
+     <match lemma="principale" tags="adj.*"/>
   </rule>
   <rule weight="1.0">
      <match lemma="prospetto" tags="n.*"><select lemma="façana"/></match>
@@ -2292,6 +2308,14 @@
     <match lemma="volta" tags="n.*"/>
     <match lemma="su" tags="pr"><select lemma="de"/></match>
     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="su" tags="pr"><select lemma="en"/></match>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="giornale" tags="n.*"/>
   </rule>
 
   <!-- basarsi su >> basar-se en -->
