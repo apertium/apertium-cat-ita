@@ -3237,6 +3237,15 @@
      <match lemma="sospitós" tags="adj.*"><select lemma="suspetosu"/></match>
   </rule>
 
+  <!-- revista > rivista, rassegna -->
+  <rule weight="0.6">
+     <match lemma="revista" tags="adj.*"><select lemma="rivista"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="passar" tags="vblex.*"/>
+     <match lemma="revista" tags="adj.*"><select lemma="rassegna"/></match>
+  </rule>
+
   <!-- romànic > romanico, romanzo -->
   <rule weight="0.6">
      <match lemma="romànic" tags="adj.*"><select lemma="romanico"/></match>
@@ -3256,6 +3265,21 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- guionet > trattino, lineetta -->
+  <rule weight="0.6">
+    <match lemma="guionet" tags="n.*"><select lemma="trattino"/></match>
+  </rule>
+
+  <!-- guió > sceneggiatura, copione, trattino, lineetta -->
+  <rule weight="0.6">
+    <match lemma="guió" tags="n.*"><select lemma="sceneggiatura, trattino"/></match>
+  </rule>
+
+  <!-- aparició > apparizione, comparsa -->
+  <rule weight="0.6">
+    <match lemma="aparició" tags="n.*"><select lemma="apparizione"/></match>
+  </rule>
 
   <!-- alzina > leccio, elce, rovere -->
   <rule weight="0.6">
@@ -3676,14 +3700,19 @@
     <match lemma="conductor" tags="n.*"><select lemma="conduttore"/></match>
   </rule>
 
+  <!-- construcció > costruzione, edilizia -->
+  <rule weight="0.6">
+    <match lemma="construcció" tags="n.*"><select lemma="costruzione"/></match>
+  </rule>
+
   <!-- periodista > giornalista, cronista -->
   <rule weight="0.6">
     <match lemma="periodista" tags="n.*"><select lemma="giornalista"/></match>
   </rule>
 
-  <!-- cep > ceppo, tagliola -->
+  <!-- cep > tagliola (parany), vite (vinya), porcino (bolet) -->
   <rule weight="0.6">
-    <match lemma="cep" tags="n.*"><select lemma="ceppo"/></match>
+    <match lemma="cep" tags="n.*"><select lemma="vite"/></match>
   </rule>
 
   <!-- moral > morale f, morale m -->

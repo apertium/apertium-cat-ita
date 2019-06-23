@@ -379,6 +379,28 @@
       <match lemma="dicembre" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="incarico">
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
+      <match lemma="direttore" tags="n.*"/>
+      <match lemma="responsabile" tags="n.*"/>
+      <match lemma="capo" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="ambasciatore" tags="n.*"/>
+      <match lemma="osservatore" tags="n.*"/>
+      <match lemma="vescovo" tags="n.*"/>
+      <match lemma="arcivescovo" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="costruzione">
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="chiesa" tags="n.*"/>
+      <match lemma="duomo" tags="n.*"/>
+      <match lemma="palazzo" tags="n.*"/>
+      <match lemma="banca" tags="n.*"/>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
@@ -407,20 +429,6 @@
       <match lemma="trarre" tags="vblex.*"/>
       <match lemma="dimettire" tags="vblex.*"/>
       <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
-    </def-seq>
-
-    <def-seq n="incarico">
-      <match lemma="presidente" tags="n.*"/>
-      <match lemma="segretario" tags="n.*"/>
-      <match lemma="direttore" tags="n.*"/>
-      <match lemma="responsabile" tags="n.*"/>
-      <match lemma="capo" tags="n.*"/>
-      <match lemma="ministro" tags="n.*"/>
-      <match lemma="ambasciatore" tags="n.*"/>
-      <match lemma="osservatore" tags="n.*"/>
-      <match lemma="vescovo" tags="n.*"/>
-      <match lemma="arcivescovo" tags="n.*"/>
-      <match lemma="papa" tags="n.*"/>
     </def-seq>
   </def-seqs>
 
@@ -495,6 +503,15 @@
   <!-- vero > veritable, vertader -->
   <rule weight="0.6">
     <match lemma="vero" tags="adj.*"><select lemma="veritable"/></match>
+  </rule>
+
+  <!-- ulteriore > ulterior, addicional -->
+  <rule weight="0.6">
+    <match lemma="ulteriore" tags="adj.*"><select lemma="ulterior"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ulteriore" tags="adj.*"><select lemma="addicional"/></match>
+    <match tags="n.*"/>
   </rule>
 
   <!-- immobile > immòbil, immoble -->
@@ -603,7 +620,27 @@
     <match lemma="subito" tags="n.*"><select lemma="de seguida"/></match>
   </rule>
 
+  <!-- sregolatamente > desordenadament, etc. -->
+  <rule weight="0.6">
+    <match lemma="sregolatamente" tags="n.*"><select lemma="desordenadament"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
+
+  <!-- lineetta > guionet, guió -->
+  <rule weight="0.6">
+    <match lemma="lineetta" tags="n.*"><select lemma="guionet"/></match>
+  </rule>
+
+  <!-- trattino > guionet, guió -->
+  <rule weight="0.6">
+    <match lemma="trattino" tags="n.*"><select lemma="guionet"/></match>
+  </rule>
+
+  <!-- comparsa > aparició, compareixença, comparsa -->
+  <rule weight="0.6">
+    <match lemma="comparsa" tags="n.*"><select lemma="aparició"/></match>
+  </rule>
 
   <!-- consiglio > consell, junta -->
   <rule weight="0.6">
@@ -623,6 +660,34 @@
   <!-- quercia > roure, alzina -->
   <rule weight="0.6">
     <match lemma="quercia" tags="n.*"><select lemma="roure"/></match>
+  </rule>
+
+  <!-- lavoro > treball, feina, faena, tasca, labor -->
+  <rule weight="0.6">
+    <match lemma="lavoro" tags="n.*"><select lemma="treball"/></match>
+  </rule>
+
+  <!-- esordio > debut, inici, exordi -->
+  <rule weight="0.6">
+    <match lemma="esordio" tags="n.*"><select lemma="debut"/></match>
+  </rule>
+
+  <!-- scioglimento > desenllaç, dissolució -->
+  <rule weight="0.6">
+    <match lemma="scioglimento" tags="n.*"><select lemma="desenllaç"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="scioglimento" tags="n.*"><select lemma="dissolució"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="partito" tags="n.*"/>
+      <match lemma="coalizione" tags="n.*"/>
+      <match tags="np.org.*"/>
+      <match tags="np.al.*"/>
+      <match tags="np.al"/>
+      <match tags="n.acr.*"/>
+    </or>
   </rule>
 
   <!-- vincitore > vencedor, guanyador -->
@@ -1166,6 +1231,28 @@
      <match lemma="influenza" tags="n.*"><select lemma="influència"/></match>
   </rule>
 
+  <!-- prospetto > prospecte, vista, façana -->
+  <rule weight="0.6">
+     <match lemma="prospetto" tags="n.*"><select lemma="prospecte"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="prospetto" tags="n.*"><select lemma="vista"/></match>
+     <match lemma="su" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="prospetto" tags="n.*"><select lemma="façana"/></match>
+     <match lemma="di" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+      <seq n="costruzione"/>
+     </or>
+  </rule>
+
+  <!-- vite > caragol, cargol, cep -->
+  <rule weight="0.6">
+     <match lemma="vite" tags="n.*"><select lemma="caragol"/></match>
+  </rule>
+
   <!-- saggio > assaig, savi -->
   <rule weight="0.6">
      <match lemma="saggio" tags="n.m.*"><select lemma="assaig"/></match>
@@ -1523,6 +1610,11 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- radicare > desarrelar, arrabassar, etc. -->
+  <rule weight="0.6">
+    <match lemma="radicare" tags="vblex.*"><select lemma="desarrelar"/></match>
+  </rule>
 
   <!-- eleggere > escollir, triar, elegir -->
   <rule weight="0.6">
@@ -1992,8 +2084,8 @@
     </repeat>
     <or>
       <match lemma="situare" tags="vblex.pp.*"/>
-      <match lemma="dividire" tags="vblex.pp.*"/>
-      <match lemma="subdividire" tags="vblex.pp.*"/>
+      <match lemma="dividere" tags="vblex.pp.*"/>
+      <match lemma="subdividere" tags="vblex.pp.*"/>
       <match lemma="sposare" tags="vblex.pp.*"/>
       <match lemma="comporre" tags="vblex.pp.*"/>
     </or>
