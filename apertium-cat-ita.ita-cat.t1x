@@ -736,6 +736,7 @@
       <list-item v="Algeria"/>
       <list-item v="Angola"/>
       <list-item v="Antigua e Barbuda"/>
+      <list-item v="Arabia"/>
       <list-item v="Arabia Saudita"/>
       <list-item v="Argentina"/>
       <list-item v="Armenia"/>
@@ -956,24 +957,31 @@
       <list-item v="Fiandra"/>
       <list-item v="Fiandre"/>
       <list-item v="Baviera"/>
-      <list-item v="Brandenburgo"/>
+      <list-item v="Brandeburgo"/>
       <list-item v="Renania"/>
 <!--      <list-item v="Palatinato"/> -->
       <list-item v="Renania-Palatinato"/>
       <list-item v="Vestfalia"/>
       <list-item v="Renania Settentrionale-Vestfalia"/>
       <list-item v="Sassonia"/>
+      <list-item v="Boemia"/>
+      <list-item v="Moravia"/>
+      <list-item v="Slesia"/>
       <list-item v="Alaska"/>
       <list-item v="California"/>
+      <list-item v="Idaho"/>
       <list-item v="New England"/>
       <list-item v="New Hampshire"/>
       <list-item v="New Jersey"/>
       <list-item v="Oklahoma"/>
       <list-item v="Ohio"/>
       <list-item v="Texas"/>
+      <list-item v="Wyoming"/>
+      <list-item v="Wisconsin"/>
       <list-item v="Rio Grande do Sul"/>
       <list-item v="Prussia"/>
       <list-item v="Persia"/>
+      <list-item v="Cecoslovacchia"/>
       <list-item v="Jugoslavia"/>
     </def-list>
   </section-def-lists>

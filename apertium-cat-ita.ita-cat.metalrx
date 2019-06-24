@@ -139,6 +139,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
          </or>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -163,6 +164,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
          </or>
          <match tags="np.ant.*"/>
@@ -190,6 +192,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
          </or>
       </rule>
@@ -216,6 +219,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
          </or>
       </rule>
@@ -414,7 +418,7 @@
       <match lemma="salire" tags="vblex.*"/>
       <match lemma="scendere" tags="vblex.*"/>
       <match lemma="camminare" tags="vblex.*"/>
-      <match lemma="dirigere" tags="vblex.*"/>
+      <!-- <match lemma="dirigere" tags="vblex.*"/> -->
       <match lemma="apropar" tags="vblex.*"/>
       <match lemma="correre" tags="vblex.*"/>
       <match lemma="passare" tags="vblex.*"/>
@@ -422,6 +426,7 @@
       <match lemma="ritornare" tags="vblex.*"/>
       <match lemma="arrivare" tags="vblex.*"/>
       <match lemma="andare via" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
 
       <match lemma="apparire" tags="vblex.*"/>
       <match lemma="portare" tags="vblex.*"/>
@@ -633,6 +638,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- gola > gorja, gola, congost -->
+  <rule weight="0.6">
+    <match lemma="gola" tags="n.*"><select lemma="gorja"/></match>
+  </rule>
+
+  <!-- tassa > impost, taxa -->
+  <rule weight="0.6">
+    <match lemma="tassa" tags="n.*"><select lemma="impost"/></match>
+  </rule>
 
   <!-- bolla > butlla, bombolla -->
   <rule weight="0.6">
@@ -1571,7 +1586,12 @@
     <match lemma="stella" tags="n.*"><select lemma="estrella" tags="n.*"/></match>
   </rule>
 
-  <!-- piano > pla, pis -->
+  <!-- impianto > instal·lació, implantació -->
+  <rule weight="0.6">
+    <match lemma="impianto" tags="n.*"><select lemma="instal·lació" tags="n.*"/></match>
+  </rule>
+
+  <!-- piano > pla, plànol, pis, plata -->
   <rule weight="0.6">
     <match lemma="piano" tags="n.*"><select lemma="pla" tags="n.*"/></match>
   </rule>
@@ -1582,6 +1602,14 @@
       <match tags="num.*"/>
     </or>
     <match lemma="piano" tags="n.*"><select lemma="pis" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="piano" tags="n.*"><select lemma="pis" tags="n.*"/></match>
+    <or>
+      <match tags="adj.ord.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
   </rule>
 
   <!-- corso > passeig, curs, cors -->
@@ -2101,9 +2129,10 @@
     <or>
       <match lemma="situare" tags="vblex.pp.*"/>
       <match lemma="dividere" tags="vblex.pp.*"/>
-      <match lemma="subdividere" tags="vblex.pp.*"/>
+      <match lemma="suddividere" tags="vblex.pp.*"/>
       <match lemma="sposare" tags="vblex.pp.*"/>
       <match lemma="comporre" tags="vblex.pp.*"/>
+      <match lemma="decorare" tags="vblex.pp.*"/>
     </or>
   </rule>
 
@@ -2272,9 +2301,13 @@
     </or>
   </rule>
 
-  <!-- a > a, fins -->
+  <!-- a > a, fins, de, en -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <match lemma="vapore" tags="n.*"/>
   </rule>
   <rule weight="1.2">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
@@ -2296,6 +2329,13 @@
     <match tags="num"/>
     <match lemma="a" tags="pr"><select lemma="fins"/></match>
     <match tags="adv"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ispirare" tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="en"/></match>
   </rule>
 
   <!-- su > sobre, de, en -->
@@ -2354,9 +2394,14 @@
     <match lemma="a" tags="pr"><select lemma="de"/></match>
   </rule>
 
-  <!-- in >> en, a -->
+  <!-- in > en, a, de -->
   <rule weight="0.6">
     <match lemma="in" tags="pr"><select lemma="en"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"><select lemma="de"/></match>
+    <match lemma="maniera" tags="n.*"/>
+    <match tags="adj.*"/>
   </rule>
 
   <rule weight="1.0">

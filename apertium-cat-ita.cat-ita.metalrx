@@ -130,6 +130,8 @@
            <match lemma="duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
+           <match lemma="marcgravi" tags="n.*"/>
+           <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
          </or>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -156,6 +158,8 @@
            <match lemma="duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
+           <match lemma="marcgravi" tags="n.*"/>
+           <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
          </or>
          <match tags="np.ant.*"/>
@@ -185,6 +189,8 @@
            <match lemma="duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
+           <match lemma="marcgravi" tags="n.*"/>
+           <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
          </or>
       </rule>
@@ -213,6 +219,8 @@
            <match lemma="duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
+           <match lemma="marcgravi" tags="n.*"/>
+           <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
          </or>
       </rule>
@@ -1034,6 +1042,8 @@
       <match lemma="duc" tags="n.*"/>
       <match lemma="arxiduc" tags="n.*"/>
       <match lemma="marquès" tags="n.*"/>
+      <match lemma="marcgravi" tags="n.*"/>
+      <match lemma="marcgravina" tags="n.*"/>
       <match lemma="baró" tags="n.*"/>
     </def-seq>
   </def-seqs>
@@ -1129,7 +1139,7 @@
 
 <!-- **************** PR **************** -->
 
-<!-- a > a, in, de, tra, fra -->
+  <!-- a > a, in, de, tra, fra -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -1366,7 +1376,7 @@
     </or>
   </rule>
 
-  <!-- en >> in, a, su -->
+  <!-- en > in, a, su -->
   <rule weight="0.8">
     <match lemma="en" tags="pr"><select lemma="in"/></match>
   </rule>
@@ -1375,6 +1385,13 @@
       <match lemma="pensar" tags="vblex.*"/>
       <match lemma="participar" tags="vblex.*"/>
     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="inspirar" tags="vblex.pp.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -1499,7 +1516,7 @@
     <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
   </rule>
 
-  <!-- de > da, di, su a -->
+  <!-- de > da, di, su, a, in -->
   <rule weight="0.6">
     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
   </rule>
@@ -1659,6 +1676,19 @@
   <rule weight="1.0">
     <match lemma="encarregat" tags="n.*"/>
     <match lemma="de" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="de" tags="pr"><select lemma="a"/></match>
+    <match lemma="vapor" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="de" tags="pr"><select lemma="in"/></match>
+    <or>
+      <match lemma="manera" tags="n.*"/>
+      <match lemma="forma" tags="n.*"/>
+    </or>
+    <match tags="adj.*"/>
   </rule>
 
   <!-- al llarg de > durante, lungo -->
@@ -2080,6 +2110,11 @@
   </rule>
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- implantar > introdurre, impiantare -->
+  <rule weight="0.6">
+    <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
+  </rule>
 
   <!-- extreure > estrarre, ricavare -->
   <rule weight="0.6">
@@ -3279,6 +3314,42 @@
 
 <!-- **************** N **************** -->
 
+  <!-- planta > pianta, piano -->
+  <rule weight="0.6">
+    <match lemma="planta" tags="n.*"><select lemma="pianta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="adj.ord.*"/>
+      <match lemma="'últim" tags="adj.*"/>
+    </or>
+    <match lemma="planta" tags="n.*"><select lemma="piano"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="planta" tags="n.*"><select lemma="piano"/></match>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+  </rule>
+
+  <!-- costat > lato, fianco -->
+  <rule weight="0.6">
+    <match lemma="costat" tags="n.*"><select lemma="lato"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*"/>
+    <match lemma="costat" tags="n.*"><select lemma="fianco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+    <match lemma="costat" tags="n.*"><select lemma="fianco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="costat" tags="n.*"><select lemma="fianco"/></match>
+    <match tags="adj.pos.*"/>
+  </rule>
+
   <!-- guionet > trattino, lineetta -->
   <rule weight="0.6">
     <match lemma="guionet" tags="n.*"><select lemma="trattino"/></match>
@@ -3539,6 +3610,11 @@
   <!-- escut > scudo, stemma -->
   <rule weight="0.6">
     <match lemma="escut" tags="n.*"><select lemma="scudo"/></match>
+  </rule>
+
+  <!-- impost > tassa, imposta -->
+  <rule weight="0.6">
+    <match lemma="impost" tags="n.*"><select lemma="tassa"/></match>
   </rule>
 
   <!-- classificació > classificazione, classifica -->
