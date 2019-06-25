@@ -141,6 +141,7 @@
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
@@ -166,6 +167,7 @@
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
          <match tags="np.ant.*"/>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -194,6 +196,7 @@
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -221,6 +224,7 @@
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -504,6 +508,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- single > solter, senzill -->
+  <rule weight="0.6">
+    <match lemma="single" tags="adj.*"><select lemma="solter"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="CD"/>
+    <match lemma="single" tags="adj.*"><select lemma="senzill"/></match>
+  </rule>
 
   <!-- vero > veritable, vertader, cert -->
   <rule weight="0.6">
@@ -1315,12 +1328,37 @@
 
   <!-- codice > codi, còdex -->
   <rule weight="0.6">
-     <match lemma="codice" tags="n.*"><select lemma="codi"/></match>
+    <match lemma="codice" tags="n.*"><select lemma="codi"/></match>
   </rule>
 
   <!-- vaso > gerro, test -->
   <rule weight="0.6">
-     <match lemma="vaso" tags="n.*"><select lemma="gerro"/></match>
+    <match lemma="vaso" tags="n.*"><select lemma="gerro"/></match>
+  </rule>
+
+  <!-- accensione > engegada, obertura -->
+  <rule weight="0.6">
+    <match lemma="accensione" tags="n.*"><select lemma="engegada"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="accensione" tags="n.*"><select lemma="obertura"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="conto" tags="n.*"/>
+  </rule>
+
+  <!-- single > solter, senzill -->
+  <rule weight="0.6">
+    <match lemma="single" tags="n.*"><select lemma="solter"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="adj.ord.*"/>
+      <match tags="adj.pos.*"/>
+    </or>
+    <match lemma="single" tags="n.*"><select lemma="senzill"/></match>
   </rule>
 
   <!-- stagione > estació, temporada -->

@@ -133,6 +133,7 @@
            <match lemma="marcgravi" tags="n.*"/>
            <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
@@ -161,6 +162,7 @@
            <match lemma="marcgravi" tags="n.*"/>
            <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
          <match tags="np.ant.*"/>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -192,6 +194,7 @@
            <match lemma="marcgravi" tags="n.*"/>
            <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -222,6 +225,7 @@
            <match lemma="marcgravi" tags="n.*"/>
            <match lemma="marcgravina" tags="n.*"/>
            <match lemma="baró" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -1045,6 +1049,9 @@
       <match lemma="marcgravi" tags="n.*"/>
       <match lemma="marcgravina" tags="n.*"/>
       <match lemma="baró" tags="n.*"/>
+      <match lemma="voivoda" tags="n.*"/>
+      <match lemma="cavaller" tags="n.*"/>
+      <match lemma="senyor" tags="n.*"/>
     </def-seq>
   </def-seqs>
 
