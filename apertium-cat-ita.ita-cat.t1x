@@ -160,6 +160,23 @@
       <cat-item lemma="fare" tags="vblex.pri.p3.sg"/>
     </def-cat>
 
+    <def-cat n="andare">
+      <cat-item lemma="andare" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="andare_no_ifi">
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.pii.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vblex.fti.*"/>
+      <cat-item tags="vblex.pis.*"/>
+      <cat-item tags="vblex.cni.*"/>
+    </def-cat>
+
+    <def-cat n="andare_ifi">
+      <cat-item tags="vblex.ifi.*"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -747,6 +764,7 @@
       <list-item v="Bahrain"/>
       <list-item v="Bangladesh"/>
       <list-item v="Barbados"/>
+      <list-item v="Belgio"/>
       <list-item v="Belize"/>
       <list-item v="Benin"/>
       <list-item v="Bhutan"/>
@@ -837,6 +855,7 @@
       <list-item v="Liberia"/>
       <list-item v="Libia"/>
       <list-item v="Lituania"/>
+      <list-item v="Lussemburgo"/>
       <list-item v="Luzon"/>
       <list-item v="Madagascar"/>
       <list-item v="Malesia"/>
@@ -863,6 +882,7 @@
       <list-item v="Nigeria"/>
       <list-item v="Norfolk"/>
       <list-item v="Norvegia"/>
+      <list-item v="Olanda"/>
       <list-item v="Oman"/>
       <list-item v="Pakistan"/>
       <list-item v="Palestina"/>
@@ -7561,6 +7581,45 @@
     </rule>
 
  
+<!-- malgrat el que digui el diccionari, la transformació no és encertada
+    <rule comment="REGLA: andare (no ifi) + pp">
+      <pattern>
+        <pattern-item n="andare_no_ifi"/>
+        <pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <lit v="haver"/>
+              <lit-tag v="vbmod"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit v="# de"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+-->
+
     <rule comment="REGLA: vfin (no ifi)">
       <pattern>
         <pattern-item n="vfin_no_ifi"/>
