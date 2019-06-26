@@ -509,6 +509,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- casuale > casual, aleatori -->
+  <rule weight="0.6">
+    <match lemma="casuale" tags="adj.*"><select lemma="casual"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="numero" tags="n.*"/>
+    <match lemma="casuale" tags="adj.*"><select lemma="aleatori"/></match>
+  </rule>
+
   <!-- single > solter, senzill -->
   <rule weight="0.6">
     <match lemma="single" tags="adj.*"><select lemma="solter"/></match>
@@ -637,20 +646,44 @@
 
   <!-- a vicenda > per torns, recíprocament -->
   <rule weight="0.6">
-    <match lemma="a vicenda" tags="n.*"><select lemma="per torns"/></match>
+    <match lemma="a vicenda" tags="adv.*"><select lemma="per torns"/></match>
+  </rule>
+
+  <!-- dove > on, a on -->
+  <rule weight="0.6">
+    <match lemma="dove" tags="adv.itg"><select lemma="on"/></match>
   </rule>
 
   <!-- subito > de seguida, immediatament -->
   <rule weight="0.6">
-    <match lemma="subito" tags="n.*"><select lemma="de seguida"/></match>
+    <match lemma="subito" tags="adv.*"><select lemma="de seguida"/></match>
   </rule>
 
   <!-- sregolatamente > desordenadament, etc. -->
   <rule weight="0.6">
-    <match lemma="sregolatamente" tags="n.*"><select lemma="desordenadament"/></match>
+    <match lemma="sregolatamente" tags="adv.*"><select lemma="desordenadament"/></match>
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- borsa > bossa, borsa -->
+  <rule weight="0.6">
+    <match lemma="borsa" tags="n.*"><select lemma="bossa"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="borsa" tags="n.*"><select lemma="bossa"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="np.top.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="giocare" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="borsa" tags="n.*"><select lemma="bossa"/></match>
+  </rule>
 
   <!-- gola > gorja, gola, congost -->
   <rule weight="0.6">
@@ -1698,6 +1731,18 @@
     <match lemma="radicare" tags="vblex.*"><select lemma="desarrelar"/></match>
   </rule>
 
+  <!-- supportare > donar# suport, recolzar -->
+  <rule weight="0.6">
+    <match lemma="supportare" tags="vblex.*"><select lemma="donar# suport"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="supportare" tags="vblex.pp.*"><select lemma="recolzar"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match tags="vbhaver.*"/>
+    <match lemma="supportare" tags="vblex.pp.*"><select lemma="donar# suport"/></match>
+  </rule>
+
   <!-- eleggere > escollir, triar, elegir -->
   <rule weight="0.6">
     <match lemma="eleggere" tags="vblex.*"><select lemma="triar"/></match>
@@ -2146,12 +2191,27 @@
     </or>
   </rule>
 
+  <!-- cercare > buscar, cercar, mirar -->
+  <rule weight="0.6">
+    <match lemma="cercare" tags="vblex.*"><select lemma="buscar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cercare" tags="vblex.*"><select lemma="mirar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"/>
+  </rule>
+
   <!-- tentare > temptar, intentar -->
   <rule weight="0.6">
     <match lemma="tentare" tags="vblex.*"><select lemma="temptar"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="tentare" tags="vblex.*"><select lemma="intentar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="di" tags="pr"/>
   </rule>
   
@@ -2171,6 +2231,7 @@
       <match lemma="sposare" tags="vblex.pp.*"/>
       <match lemma="comporre" tags="vblex.pp.*"/>
       <match lemma="decorare" tags="vblex.pp.*"/>
+      <match lemma="ispirare" tags="vblex.pp.*"/>
     </or>
   </rule>
 

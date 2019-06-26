@@ -2123,9 +2123,43 @@
     <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
   </rule>
 
+  <!-- datar > datare, risalire# a -->
+  <rule weight="0.6">
+    <match lemma="datar" tags="vblex.*"><select lemma="datare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="datar" tags="vblex.pp.*"><select lemma="risalire# a"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match tags="vbhaver.*"/>
+    <match lemma="datar" tags="vblex.pp.*"><select lemma="datar"/></match>
+  </rule>
+
   <!-- extreure > estrarre, ricavare -->
   <rule weight="0.6">
     <match lemma="extreure" tags="vblex.*"><select lemma="estrarre"/></match>
+  </rule>
+
+  <!-- mirar > guardare, cercare -->
+  <rule weight="0.6">
+    <match lemma="mirar" tags="vblex.*"><select lemma="guardare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="mirar" tags="vblex.*"><select lemma="cercare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"/>
+  </rule>
+
+  <!-- buscar > cercare, cercare# di -->
+  <rule weight="0.6">
+    <match lemma="buscar" tags="vblex.*"><select lemma="cercare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="buscar" tags="vblex.*"><select lemma="cercare# di"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="vblex.inf"/>
   </rule>
 
   <!-- trobar > trovare, incontrare, pensare, credere, giudicare -->
@@ -3320,6 +3354,21 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- bossa  > borsa, etc. -->
+  <rule weight="0.6">
+    <match lemma="bossa " tags="n.*"><select lemma="borsa"/></match>
+  </rule>
+
+  <!-- catedral > duomo, cattedrale -->
+  <rule weight="0.6">
+    <match lemma="catedral" tags="n.*"><select lemma="duomo"/></match>
+  </rule>
+
+  <!-- edificació > edificazione, edilizia -->
+  <rule weight="0.6">
+    <match lemma="edificació" tags="n.*"><select lemma="edificazione"/></match>
+  </rule>
 
   <!-- planta > pianta, piano -->
   <rule weight="0.6">
