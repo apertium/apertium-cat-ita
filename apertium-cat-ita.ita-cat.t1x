@@ -520,6 +520,8 @@
     <def-var n="genero" v="&lt;m&gt;"/>
     <def-var n="numero_aux" v="&lt;sg&gt;"/>
     <def-var n="genero_aux" v="&lt;m&gt;"/>
+    <def-var n="numero_sl" v="&lt;sg&gt;"/>
+    <def-var n="genero_sl" v="&lt;m&gt;"/>
 
     <def-var n="debug1"/>
     <def-var n="debug2"/>
@@ -1033,6 +1035,10 @@
       <list-item v="Rio Grande do Sul"/>
       <list-item v="Prussia"/>
       <list-item v="Persia"/>
+      <list-item v="Mesopotamia"/>
+      <list-item v="Babilonia"/>
+      <list-item v="Caldea"/>
+      <list-item v="Giudea"/>
       <list-item v="Cecoslovacchia"/>
       <list-item v="Jugoslavia"/>
     </def-list>
@@ -3743,6 +3749,85 @@
         </otherwise>
       </choose>
     </def-macro>
+
+    <def-macro n="f_chunk_tags_gen" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_m"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_f"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_mf"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags_nbr" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sg"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_pl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sp"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags" npar="1">
+      <call-macro n="f_chunk_tags_gen"><with-param pos="1"/></call-macro>
+      <call-macro n="f_chunk_tags_nbr"><with-param pos="1"/></call-macro>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags2" npar="2"> <!-- no sembla que calgui: al final no la crido, ni he provat la macro -->
+      <let><var n="genero_sl"/><lit-tag v=""/></let>
+      <call-macro n="f_chunk_tags_gen"><with-param pos="1"/></call-macro>
+      <let><var n="numero_sl"/><lit-tag v=""/></let>
+      <call-macro n="f_chunk_tags_nbr"><with-param pos="1"/></call-macro>
+      <!-- si el primer paràmetre no assigna gènere o nombre, provem amb el següent -->
+      <choose>
+        <when>
+          <test>
+            <equal><var n="genero_sl"/><lit-tag v=""/></equal>
+          </test>
+          <call-macro n="f_chunk_tags_gen">
+            <with-param pos="2"/>
+          </call-macro>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <equal><var n="numero_sl"/><lit-tag v=""/></equal>
+          </test>
+          <call-macro n="f_chunk_tags_nbr">
+            <with-param pos="2"/>
+          </call-macro>
+        </when>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
   <section-rules>
@@ -3901,6 +3986,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -3910,6 +3998,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -3935,12 +4025,17 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -4052,7 +4147,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="Sadv" case="caseFirstWord">
+          <chunk name="SAdv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="adv"/></tag>
             </tags>
@@ -4180,14 +4275,19 @@
         <pattern-item n="secolo_sg"/>
       </pattern>
       <action>
-        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="segle_num">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
@@ -4210,14 +4310,19 @@
         <pattern-item n="secolo_sg"/>
       </pattern>
       <action>
-        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <out>
           <chunk name="det_segle_num">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -4311,6 +4416,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -4321,6 +4429,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -4359,6 +4469,9 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <choose>
           <when>
             <test>
@@ -4374,6 +4487,8 @@
                   <tag><lit-tag v="SN"/></tag>
                   <tag><var n="genero"/></tag>
                   <tag><var n="numero"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
                 </tags>
                 <lu>
                   <clip pos="2" side="tl" part="lemh"/> 
@@ -4394,6 +4509,8 @@
                   <tag><lit-tag v="SN"/></tag>
                   <tag><var n="genero"/></tag>
                   <tag><var n="numero"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="lem"/> 
@@ -4434,12 +4551,17 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="det_org" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -4475,6 +4597,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="1"/>
@@ -4486,6 +4611,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -4528,6 +4655,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -4538,6 +4668,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -4604,11 +4736,14 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="firstWord">
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <choose> <!-- 1,158 millione > 1,158 milions -->
@@ -4629,6 +4764,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>   
               <clip pos="1" side="tl" part="lem"/> 
@@ -4660,20 +4797,24 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
-        
         <out>
           <chunk name="nom_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -4708,6 +4849,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -4718,6 +4862,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -4755,6 +4901,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="4"/>
           <with-param pos="3"/>
@@ -4766,6 +4915,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -4813,8 +4964,9 @@
       </pattern>
       <action>
         <call-macro n="f_salvar_gen_num"></call-macro>
-        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_chunk_tags"><with-param pos="1"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="f_giorno"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes">
@@ -4822,6 +4974,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -4862,6 +5016,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="1"/>
@@ -4873,6 +5030,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -4917,6 +5076,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="4"/>
           <with-param pos="1"/>
@@ -4929,6 +5091,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -4983,6 +5147,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="3"/>
           <with-param pos="1"/>
@@ -4995,6 +5162,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5046,20 +5215,25 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="nom_adj_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -5102,20 +5276,25 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="1"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_nom_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5158,21 +5337,26 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="4"/>
           <with-param pos="1"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_nom_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5224,20 +5408,25 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="1"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_top_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5280,21 +5469,26 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="4"/>
           <with-param pos="1"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_top_adj_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5345,19 +5539,24 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_adj" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SN"/></tag>			<!-- REVISAR -->
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5392,6 +5591,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -5403,6 +5605,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5448,6 +5652,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -5459,6 +5666,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5505,6 +5714,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -5517,6 +5729,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5574,6 +5788,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="5"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="5"/>
           <with-param pos="2"/>
@@ -5586,6 +5803,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5645,6 +5864,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="4"/>
           <with-param pos="1"/>
@@ -5656,6 +5878,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5704,6 +5928,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="1"/>
@@ -5715,6 +5942,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5758,13 +5987,16 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="5"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="5"/>
           <with-param pos="2"/>
           <with-param pos="4"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -5773,6 +6005,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5830,14 +6064,17 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <choose> <!-- 1,158 millione > 1,158 milions -->
           <when>
             <test>
@@ -5856,6 +6093,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5898,12 +6137,15 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="4"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -5912,6 +6154,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -5957,19 +6201,24 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_nom_adv_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -6010,6 +6259,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -6033,6 +6285,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -6079,20 +6333,25 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="4"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="nom_adj_cnjcoo_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/> 
@@ -6141,21 +6400,26 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="2"/>
           <with-param pos="1"/>
           <with-param pos="3"/>
           <with-param pos="5"/>
         </call-macro>        
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="det_nom_adj_cnjcoo_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/> 
@@ -6213,14 +6477,17 @@
       </pattern>
       <action>
         <call-macro n="f_salvar_gen_num"></call-macro>
-        <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_chunk_tags"><with-param pos="1"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="mes-de-any">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -6252,14 +6519,17 @@
       </pattern>
       <action>
         <call-macro n="f_salvar_gen_num"></call-macro>
-        <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_chunk_tags"><with-param pos="2"/></call-macro>
+        <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
           <chunk name="det-mes-de-any">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -6444,8 +6714,9 @@
       </pattern>
       <action>
         <call-macro n="f_salvar_gen_num"></call-macro>
-        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="f_chunk_tags"><with-param pos="1"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="3"/></call-macro>
         <call-macro n="f_giorno"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="det-dia-de-mes-de-any">
@@ -6453,6 +6724,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -6718,6 +6991,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
@@ -6727,6 +7003,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -6777,10 +7055,13 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <call-macro n="f_concord1">
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="firstWord">
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -6789,6 +7070,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -6843,10 +7126,13 @@
              </when>
              </choose>-->
 
-        <call-macro n="f_concord1">
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="firstWord">
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -6855,6 +7141,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -6924,7 +7212,7 @@
         <out>
           <chunk name="pronom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="tipus_prn"/></tag>
               <tag><clip pos="2" side="tl" part="pers"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -7414,7 +7702,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out> aquest ordre estrany s per les maj
-        <chunk name="Sadv" case="caseFirstWord">
+        <chunk name="SAdv" case="caseFirstWord">
           <tags>
             <tag><clip pos="2" side="tl" part="a_adv"/></tag>
           </tags>
@@ -7761,7 +8049,7 @@
         <out>
           <chunk name="pronom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="tipus_prn"/></tag>
               <tag><clip pos="2" side="tl" part="pers"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -8214,10 +8502,13 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
-        <call-macro n="f_concord1">
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="firstWord">
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -8227,6 +8518,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -8250,10 +8543,13 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
-        <call-macro n="f_concord1">
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="firstWord">
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -8263,6 +8559,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
