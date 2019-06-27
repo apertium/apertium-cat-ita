@@ -1146,9 +1146,14 @@
 
 <!-- **************** PR **************** -->
 
-  <!-- a > a, in, de, tra, fra -->
+  <!-- a > a, in, da, tra, fra -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="molt" tags="adv"/>
+    <match lemma="a" tags="pr"><select lemma="da" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
@@ -1346,7 +1351,7 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="en"/></match>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
     <match tags="det.def.*"/>
     <or>
       <seq n="paisos"/>
@@ -1410,10 +1415,14 @@
       <match tags="predet.*"/>
     </repeat>
     <match tags="det.*"/>
-    <match lemma="diari" tags="n.*"/>
+    <or>
+      <match lemma="diari" tags="n.*"/>
+      <match lemma="escena" tags="n.*"/>
+      <match lemma="escenari" tags="n.*"/>
+    </or>
   </rule>
 
-  <!-- basar-se en >> basarsi si -->
+  <!-- basar-se en > basarsi si -->
   <rule weight="1.0">
     <match lemma="basar" tags="vblex.*"/>
     <repeat from="0" upto="1">
@@ -1450,6 +1459,11 @@
   <!-- per > per, da -->
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="molt" tags="adv"/>
+    <match lemma="per" tags="pr"><select lemma="da" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
   <rule weight="1.0"> <!-- complement agent introduït per "da" -->
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -1672,7 +1686,7 @@
      </or>
   </rule>
 
-  <!-- dues vegades DE cinc >> due volte su cinque -->
+  <!-- dues vegades DE cinc > due volte su cinque -->
   <rule weight="1.0">
     <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
     <match lemma="vegada" tags="n.*"/>
@@ -1725,7 +1739,7 @@
      <match lemma="sobre" tags="pr"><select lemma="su"/></match>
   </rule>
 
-  <!-- entre >> tra, fra, tra di -->
+  <!-- entre > tra, fra, tra di -->
   <rule weight="0.8">
     <match lemma="entre" tags="pr"><select lemma="tra"/></match>
   </rule>
@@ -2335,13 +2349,41 @@
      <match lemma="inspirar" tags="vblex.*"><select lemma="ispirare"/></match>
   </rule>
 
-  <!-- estar > essere, stare -->
+  <!-- ser > essere, stare -->
+  <rule weight="0.6">
+    <match lemma="ser" tags="vbser.*"><select lemma="essere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ser" tags="vbser.*"><select lemma="stare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a punt de" tags="pr"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+  <!-- estar > essere, stare, andare -->
   <rule weight="0.6">
      <match lemma="estar" tags="vblex.*"><select lemma="essere"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="estar" tags="vblex.*"><select lemma="stare"/></match>
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estar" tags="vblex.*"><select lemma="stare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a punt de" tags="pr"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estar" tags="vblex.*"><select lemma="andare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.ger"/>
   </rule>
 
   <!-- estimar > amare, stimare -->
@@ -3227,6 +3269,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- mèdic > medico, persano -->
+  <rule weight="0.6">
+     <match lemma="mèdic" tags="adj.*"><select lemma="medico"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guerra" tags="n.*"/>
+     <match lemma="mèdic" tags="adj.*"><select lemma="medico"/></match>
+  </rule>
+
   <!-- conservador > conservatore, conservativo -->
   <rule weight="0.6">
      <match lemma="conservador" tags="adj.*"><select lemma="conservatore"/></match>
@@ -3354,6 +3405,20 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- cistella > cesta, rete (bàsquet) -->
+  <rule weight="0.6">
+    <match lemma="cistella" tags="n.*"><select lemma="cesta"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="cistella" tags="n.*"><select lemma="rete"/></match>
+  </rule>
+
+  <!-- immigrant  > immigrante, immigrato -->
+  <rule weight="0.6">
+    <match lemma="immigrant " tags="n.*"><select lemma="immigrante"/></match>
+  </rule>
 
   <!-- bossa  > borsa, etc. -->
   <rule weight="0.6">
@@ -4905,7 +4970,7 @@
     <match lemma="xicot" tags="n.*"><select lemma="fidanzato"/></match>
   </rule>
 
-  <!-- edat mitjana >> medioevo, età media -->
+  <!-- edat mitjana > medioevo, età media -->
   <rule weight="0.8">
     <match lemma="edat mitjana" tags="n.*"><select lemma="medioevo"/></match>
   </rule>
@@ -4914,12 +4979,12 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
-  <!-- vestit >> robe, costume --> <!-- cat > fra -->
+  <!-- vestit > robe, costume --> <!-- cat > fra -->
   <rule weight="0.8">
     <match lemma="vestit" tags="n.*"><select lemma="robe"/></match>
   </rule>
 
-  <!-- volt >> tour, volt --> <!-- cat > fra -->
+  <!-- volt > tour, volt --> <!-- cat > fra -->
   <rule weight="0.8">
     <match lemma="volt" tags="n.*"><select lemma="tour"/></match>
   </rule>
@@ -4972,7 +5037,7 @@
      <match tags="np.*"/>
   </rule>
 
-  <!-- cap >> capo, testa -->
+  <!-- cap > capo, testa -->
   <rule weight="0.8">
     <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
   </rule>
@@ -5005,7 +5070,7 @@
      <match lemma="població" tags="n.*"><select lemma="popolazione"/></match>
   </rule>
 
-  <!-- caragol >> chiocciola, vite -->
+  <!-- caragol > chiocciola, vite -->
   <rule weight="0.8">
     <match lemma="caragol" tags="n.*"><select lemma="chiocciola"/></match>
   </rule>

@@ -509,6 +509,50 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- persano > persa, mèdic -->
+  <rule weight="0.6">
+     <match lemma="persano" tags="adj.*"><select lemma="persa"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guerra" tags="n.*"/>
+     <match lemma="persano" tags="adj.*"><select lemma="mèdic"/></match>
+  </rule>
+
+  <!-- primaverile, > de primavera, primaveral -->
+  <!-- estivo, > d'estiu, estival -->
+  <!-- autunnale, > de tardor, tardorenc -->
+  <!-- invernale, > d'hivern, hivernal -->
+  <rule weight="0.6">
+    <or>
+      <match lemma="primaverile" tags="adj.*"><select lemma="de primavera"/></match>
+      <match lemma="estivo" tags="adj.*"><select lemma="d'estiu"/></match>
+      <match lemma="autunnale" tags="adj.*"><select lemma="de tardor"/></match>
+      <match lemma="invernale" tags="adj.*"><select lemma="d'hivern"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="primaverile" tags="adj.*"><select lemma="primaveral"/></match>
+      <match lemma="estivo" tags="adj.*"><select lemma="estival"/></match>
+      <match lemma="autunnale" tags="adj.*"><select lemma="tardorenc"/></match>
+      <match lemma="invernale" tags="adj.*"><select lemma="hivernal"/></match>
+    </or>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="temperatura" tags="n.*"/>
+    <or>
+      <match lemma="primaverile" tags="adj.*"><select lemma="primaveral"/></match>
+      <match lemma="estivo" tags="adj.*"><select lemma="estival"/></match>
+      <match lemma="invernale" tags="adj.*"><select lemma="hivernal"/></match>
+    </or>
+  </rule>
+
+  <!-- poliziesco > policial, policíac, detectivesc -->
+  <rule weight="0.6">
+    <match lemma="poliziesco" tags="adj.*"><select lemma="policial"/></match>
+  </rule>
+
   <!-- casuale > casual, aleatori -->
   <rule weight="0.6">
     <match lemma="casuale" tags="adj.*"><select lemma="casual"/></match>
@@ -665,6 +709,20 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- capocannoniere > màxim golejador, màxim anotador -->
+  <rule weight="0.6">
+    <match lemma="capocannoniere" tags="n.*"><select lemma="màxim golejador"/></match>
+  </rule>
+
+  <!-- rete > xarxa, cistella (bàsquet) -->
+  <rule weight="0.6">
+    <match lemma="rete" tags="n.*"><select lemma="xarxa"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="rete" tags="n.*"><select lemma="cistella"/></match>
+  </rule>
 
   <!-- borsa > bossa, borsa -->
   <rule weight="0.6">
@@ -1726,6 +1784,23 @@
 
 <!-- **************** V **************** -->
 
+  <!-- intitolar > titular, intitular -->
+  <rule weight="0.6">
+    <match lemma="intitolar" tags="vblex.*"><select lemma="titular"/></match>
+  </rule>
+
+  <!-- andare > anar, estar -->
+  <rule weight="0.6">
+    <match lemma="andare" tags="vblex.*"><select lemma="anar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="andare" tags="vblex.*"><select lemma="estar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.ger"/>
+  </rule>
+
   <!-- radicare > desarrelar, arrabassar, etc. -->
   <rule weight="0.6">
     <match lemma="radicare" tags="vblex.*"><select lemma="desarrelar"/></match>
@@ -2274,6 +2349,68 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- per > per, per a, a punt de -->
+  <rule weight="0.6">
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="stare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="a punt de"/></match>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+<!-- regles en el cas d'un possible canvi a "per a" com a traducció per defecte
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="vblex.inf"/><match tags="vbser.inf"/><match tags="vbhaver.inf"/><match tags="vbmod.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="prn.pro.*"/><match tags="prn.itg.*"/></or>
+    <or><match tags="vblex.inf"/><match tags="vbser.inf"/><match tags="vbhaver.inf"/><match tags="vbmod.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="prn.pro.*"/><match tags="prn.itg.*"/></or>
+    <match tags="prn.pro.*"/>
+    <or><match tags="vblex.inf"/><match tags="vbser.inf"/><match tags="vbhaver.inf"/><match tags="vbmod.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="avere" tags="*.ger"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="vblex.pp.*"/><match tags="vbser.pp.*"/><match tags="vbhaver.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="congratulare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="per"/></match>
+  </rule>
+-->
+
+
   <!-- come > com, com a -->
   <rule weight="0.6">
     <match lemma="come" tags="pr"><select lemma="com"/></match>
@@ -2302,6 +2439,11 @@
   <!-- da > de, per, des de -->
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="molto" tags="adv"/>
+    <match lemma="da" tags="pr"><select lemma="a" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -2441,7 +2583,7 @@
   <rule weight="0.6">
     <match lemma="su" tags="pr"><select lemma="sobre"/></match>
   </rule>
-  <!-- due volte su cinque >> dues vegades DE cinc -->
+  <!-- due volte su cinque > dues vegades DE cinc -->
   <rule weight="1.0">
     <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
     <match lemma="volta" tags="n.*"/>
@@ -2454,10 +2596,13 @@
       <match tags="predet.*"/>
     </repeat>
     <match tags="det.*"/>
-    <match lemma="giornale" tags="n.*"/>
+    <or>
+      <match lemma="giornale" tags="n.*"/>
+      <match lemma="scena" tags="n.*"/>
+    </or>
   </rule>
 
-  <!-- basarsi su >> basar-se en -->
+  <!-- basarsi su > basar-se en -->
   <rule weight="1.0">
     <match lemma="basare" tags="vblex.*"/>
     <repeat from="0" upto="1">
@@ -2474,7 +2619,7 @@
     <match lemma="su" tags="pr"><select lemma="en"/></match>
   </rule>
 
-  <!-- a >> a, en, de -->
+  <!-- a > a, en, de -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
