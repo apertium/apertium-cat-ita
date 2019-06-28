@@ -2132,6 +2132,19 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- rodar > rotare, girare -->
+  <rule weight="0.6">
+    <match lemma="rodar" tags="vblex.*"><select lemma="rotare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rodar" tags="vblex.*"><select lemma="girare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="pel·lícula" tags="n.*"/>
+  </rule>
+
   <!-- implantar > introdurre, impiantare -->
   <rule weight="0.6">
     <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
@@ -3442,6 +3455,16 @@
   <rule weight="1.0">
     <or><match tags="num"/><match tags="num.*"/></or>
     <match lemma="tap" tags="n.*"><select lemma="stoppata"/></match>
+  </rule>
+
+  <!-- serra > sega, sierra -->
+  <rule weight="0.6">
+    <match lemma="serra" tags="n.*"><select lemma="sega"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="serra" tags="n.*"><select lemma="sierra"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
   </rule>
 
   <!-- plantilla > sagoma, soleta, suoleta -->
