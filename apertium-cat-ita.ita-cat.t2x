@@ -32,6 +32,7 @@
     <def-cat n="verbs_de">
       <cat-item lemma="buscar" tags="SV.*"/>
       <cat-item lemma="intentar" tags="SV.*"/>
+      <cat-item lemma="decidir" tags="SV.*"/>
     </def-cat>
 
     <def-cat n="PREP">
@@ -49,7 +50,6 @@
   </section-def-cats>
 
   <section-def-attrs>
-
     <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
