@@ -37,6 +37,10 @@
     <def-cat n="gens">
       <cat-item lemma="gens" tags="adv"/>
     </def-cat>
+    <def-cat n="mes_menys">
+      <cat-item lemma="més" tags="adv"/>
+      <cat-item lemma="menys" tags="adv"/>
+    </def-cat>
 
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
@@ -97,6 +101,9 @@
 
     <def-cat n="cnjsub">
       <cat-item tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="que">
+      <cat-item lemma="que" tags="cnjsub"/>
     </def-cat>
 
     <def-cat n="pr">
@@ -396,8 +403,9 @@
     <def-var n="concPrimero"/>
     <def-var n="EOS"/>
     <def-var n="genero" v="&lt;m&gt;"/>
-    <def-var n="genero_pp" v="&lt;m&gt;"/>
     <def-var n="numero" v="&lt;sg&gt;"/>
+    <def-var n="numero_sl" v="&lt;sg&gt;"/>
+    <def-var n="genero_sl" v="&lt;m&gt;"/>
     <def-var n="lemma"/>
   </section-def-vars>
 
@@ -1298,6 +1306,57 @@
    </choose>
 </def-macro>
 
+    <def-macro n="f_chunk_tags_gen" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_m"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_f"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_mf"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags_nbr" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sg"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_pl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sp"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags" npar="1">
+      <call-macro n="f_chunk_tags_gen"><with-param pos="1"/></call-macro>
+      <call-macro n="f_chunk_tags_nbr"><with-param pos="1"/></call-macro>
+    </def-macro>
+
 <!--
     <def-macro n="f_set_sg1" npar="1">
       <choose>
@@ -1818,6 +1877,118 @@
       </action>
     </rule>
 
+    <!--  REGLES DE COMPARACIÓ -->
+
+    <rule comment="REGLA: més/menys adj que (més ràpid que > più veloce di)">
+      <pattern>
+        <pattern-item n="mes_menys"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="que"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="piu_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="di">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <lit v="di"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: més/menys adv que (més ràpid que > più veloce di)">
+      <pattern>
+        <pattern-item n="mes_menys"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="que"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="piu_adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="di">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <lit v="di"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <!--  FI REGLES DE COMPARACIÓ -->
+
     <rule comment="REGLA: DET NOM">
       <pattern>
         <pattern-item n="det"/>
@@ -2013,7 +2184,9 @@
               <tag><clip pos="1" side="sl" part="nbr"/></tag>
             </tags>
             <lu>
-              <lit v="quello"/>
+              <get-case-from pos="1">
+                <lit v="quello"/>
+              </get-case-from>
               <lit-tag v="prn.tn"/>
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="sl" part="nbr"/>

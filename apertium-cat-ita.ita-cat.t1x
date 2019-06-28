@@ -16,6 +16,15 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="adj_adv">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="adjec_adv">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="adv"/>
+    </def-cat>
     <def-cat n="solito">
       <cat-item lemma="solito" tags="adj.*"/>
     </def-cat>
@@ -26,6 +35,10 @@
     </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="piu_meno">
+      <cat-item lemma="più" tags="adv"/>
+      <cat-item lemma="meno" tags="adv"/>
     </def-cat>
 
     <def-cat n="pp">
@@ -208,7 +221,7 @@
     <def-cat n="lui_mf_pl">
       <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>
     </def-cat>
-    <def-cat n="quello">
+    <def-cat n="quello">			<!-- REVISAR -->
       <cat-item lemma="quello" tags="prn.tn.*"/>
       <cat-item lemma="quello" tags="det.dem.*"/>
     </def-cat>
@@ -277,6 +290,9 @@
     </def-cat>
     <def-cat n="da">
       <cat-item lemma="da" tags="pr"/>
+    </def-cat>
+    <def-cat n="di">
+      <cat-item lemma="di" tags="pr"/>
     </def-cat>
     <def-cat n="in">
       <cat-item lemma="in" tags="pr"/>
@@ -4184,36 +4200,6 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: DET REL">
-      <pattern>
-        <pattern-item n="det"/>
-        <pattern-item n="rel"/>
-      </pattern>
-      <action>
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_concord2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="rel" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="rel"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/> 
-            </lu> 
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/> 
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
     <rule comment="REGLA: QUELLO PREP (quello di > el de)">
       <pattern>
         <pattern-item n="quello"/>
@@ -4244,7 +4230,9 @@
               <tag><clip pos="1" side="sl" part="nbr"/></tag>
             </tags>
             <lu>
-              <lit v="el"/>
+              <get-case-from pos="1">
+                <lit v="el"/>
+              </get-case-from>
               <lit-tag v="det.def"/>
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="sl" part="nbr"/>
@@ -4261,6 +4249,94 @@
             <tags>
               <tag><lit-tag v="pr"/></tag>
             </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: QUELLO REL (quel che > el que)">
+      <pattern>
+        <pattern-item n="quello"/>
+        <pattern-item n="rel"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="nt"/></equal>
+            </test>
+            <let><var n="genero"/><lit-tag v="m"/></let>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="pronom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="prn.tn"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="el"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+        </out>
+        <call-macro n="firstWord">
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="rel"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET REL">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="rel"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="rel" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="rel"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu> 
+            <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/> 
             </lu>
@@ -7091,9 +7167,452 @@
       </action>
     </rule>
 
+    <!--  REGLES DE COMPARACIÓ -->
+
+    <rule comment="REGLA: più/meno adv di (più presto di > més ràpid que)">
+      <pattern>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="mes_adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="cnjsub">
+            <tags>
+              <tag><lit-tag v="cnjsub"/></tag>
+            </tags>
+            <lu>
+              <lit v="que"/>
+              <lit-tag v="cnjsub"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: più/meno adj di (più veloci di > més ràpid que)">
+      <pattern>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="mes_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="cnjsub">
+            <tags>
+              <tag><lit-tag v="cnjsub"/></tag>
+            </tags>
+            <lu>
+              <lit v="que"/>
+              <lit-tag v="cnjsub"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: il più/meno adj di (il più veloce di > el més ràpid de)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="4" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="el_mes_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu> 
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/> 
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="3" side="tl" part="gen_mf"/>
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="3"/>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: il NOM più/meno adj di (la macchina più veloce di > el cotxe més ràpid de)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord3">
+          <with-param pos="2"/>
+          <with-param pos="4"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="5" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="el_nom_mes_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu> 
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/> 
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_adj"/>
+              <clip pos="4" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="4" side="tl" part="gen_mf"/>
+              <clip pos="4" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="4" side="tl" part="nbr_sp"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="4"/>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: il ADJ NOM più/meno adj di (la seconda macchina più veloce di > el segon cotxe més ràpid de)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord4">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+          <with-param pos="5"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="6" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="el_adj_nom_mes_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu> 
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="3" side="tl" part="gen_mf"/>
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/> 
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="a_adj"/>
+              <clip pos="5" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="5" side="tl" part="gen_mf"/>
+              <clip pos="5" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="5" side="tl" part="nbr_sp"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="5"/>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: il NOM ADJ più/meno adj di (la macchina italiana più veloce di > el cotxe italià més ràpid de)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="piu_meno"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="di"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord4">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="5"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="6" side="tl" part="lem"/></let>
+        <out>
+          <chunk name="el_adj_nom_mes_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu> 
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="3" side="tl" part="gen_mf"/>
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/> 
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="a_adj"/>
+              <clip pos="5" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="5" side="tl" part="gen_mf"/>
+              <clip pos="5" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="5" side="tl" part="nbr_sp"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="5"/>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <!--  FI REGLES DE COMPARACIÓ -->
 
 
-    <!--      SINTAGMES VERBALS -->
+    <!--  SINTAGMES VERBALS -->
 
 
     <rule comment="REGLA: pp (quan no acompanya res o va amb desconeguda)">
