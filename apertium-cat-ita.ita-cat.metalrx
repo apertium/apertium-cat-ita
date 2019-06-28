@@ -1784,6 +1784,23 @@
 
 <!-- **************** V **************** -->
 
+  <!-- discendere > descendir, baixar -->
+  <rule weight="0.6">
+    <match lemma="discendere" tags="vblex.*"><select lemma="descendir"/></match>
+  </rule>
+
+  <!-- retroceder > retrocedir, baixar (de divisió) -->
+  <rule weight="0.6">
+    <match lemma="retroceder" tags="vblex.*"><select lemma="retrocedir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="retroceder" tags="vblex.*"><select lemma="baixar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+  </rule>
+
   <!-- girare > girar, rodar -->
   <rule weight="0.6">
     <match lemma="girare" tags="vblex.*"><select lemma="girar"/></match>

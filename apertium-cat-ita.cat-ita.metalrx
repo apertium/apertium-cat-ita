@@ -2132,6 +2132,24 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- implantar > introdurre, impiantare -->
+  <rule weight="0.6">
+    <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
+  </rule>
+
+  <!-- baixar > scendere, discendere, ritrocedere -->
+  <rule weight="0.6">
+    <match lemma="baixar" tags="vblex.*"><select lemma="scendere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="baixar" tags="vblex.*"><select lemma="ritrocedere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="adj.ord.*"/>
+  </rule>
+
   <!-- rodar > rotare, girare -->
   <rule weight="0.6">
     <match lemma="rodar" tags="vblex.*"><select lemma="rotare"/></match>
@@ -2143,11 +2161,6 @@
     </repeat>
     <match tags="det.*"/>
     <match lemma="pel·lícula" tags="n.*"/>
-  </rule>
-
-  <!-- implantar > introdurre, impiantare -->
-  <rule weight="0.6">
-    <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
   </rule>
 
   <!-- datar > datare, risalire# a -->
@@ -2176,7 +2189,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemma="di" tags="pr"/>
+    <match lemma="de" tags="pr"/>
   </rule>
 
   <!-- buscar > cercare, cercare# di -->
