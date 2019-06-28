@@ -2173,6 +2173,35 @@
   <rule weight="1.0">
     <match lemma="buscar" tags="vblex.*"><select lemma="cercare# di"/></match>
     <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.inf"/>
+  </rule>
+
+  <!-- intentar > tentare, cercare# di -->
+  <rule weight="0.6">
+    <match lemma="intentar" tags="vblex.*"><select lemma="tentare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="intentar" tags="vblex.*"><select lemma="cercare# di"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.inf"/>
+  </rule>
+
+  <!-- decidir > decidere, decidere# di -->
+  <rule weight="0.6">
+    <match lemma="decidir" tags="vblex.*"><select lemma="decidere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="decidir" tags="vblex.*"><select lemma="decidere# di"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match tags="vblex.inf"/>
   </rule>
 
@@ -3405,6 +3434,20 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- tap > tappo, stoppata (bàsquet) -->
+  <rule weight="0.6">
+    <match lemma="tap" tags="n.*"><select lemma="tappo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="tap" tags="n.*"><select lemma="stoppata"/></match>
+  </rule>
+
+  <!-- plantilla > sagoma, soleta, suoleta -->
+  <rule weight="0.6">
+    <match lemma="plantilla" tags="n.*"><select lemma="sagoma"/></match>
+  </rule>
 
   <!-- cistella > cesta, rete (bàsquet) -->
   <rule weight="0.6">
@@ -5216,6 +5259,7 @@
   <macro name="noms_propis" p1="Climent" p2="Clemente" />
   <macro name="noms_propis" p1="Cristià" p2="Cristiano" />
   <macro name="noms_propis" p1="Eduard" p2="Edoardo" />
+  <macro name="noms_propis" p1="Elionor" p2="Eleonora" />
   <macro name="noms_propis" p1="Elisabet" p2="Elisabetta" />
   <macro name="noms_propis" p1="Manuel" p2="Emanuele" />
   <macro name="noms_propis" p1="Enric" p2="Enrico" />

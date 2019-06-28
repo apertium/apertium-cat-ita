@@ -2266,12 +2266,12 @@
     </or>
   </rule>
 
-  <!-- cercare > buscar, cercar, mirar -->
+  <!-- cercare > buscar, cercar, intentar -->
   <rule weight="0.6">
     <match lemma="cercare" tags="vblex.*"><select lemma="buscar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="cercare" tags="vblex.*"><select lemma="mirar"/></match>
+    <match lemma="cercare" tags="vblex.*"><select lemma="intentar"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -2323,6 +2323,10 @@
   <rule weight="1.0">
      <match tags="det.*"/>
      <match lemma="che" tags="rel.*"><select lemma="qual"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="quello" tags="det.*"/>
+     <match lemma="che" tags="rel.*"><select lemma="que"/></match>
   </rule>
 
   <!-- cui > que, què, qual -->
@@ -2772,6 +2776,7 @@
   <macro name="noms_propis" p1="Clemente" p2="Climent" />
   <macro name="noms_propis" p1="Cristiano" p2="Cristià" />
   <macro name="noms_propis" p1="Edoardo" p2="Eduard" />
+  <macro name="noms_propis" p1="Eleonora" p2="Elionor" />
   <macro name="noms_propis" p1="Elisabetta" p2="Elisabet" />
   <macro name="noms_propis" p1="Emanuele" p2="Manuel" />
   <macro name="noms_propis" p1="Enrico" p2="Enric" />
