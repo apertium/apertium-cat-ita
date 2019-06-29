@@ -710,6 +710,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- foro > fòrum, forat, etc. -->
+  <rule weight="0.6">
+    <match lemma="foro" tags="n.*"><select lemma="fòrum"/></match>
+  </rule>
+
   <!-- fallo > falta, fallada, mancança, fal·lus -->
   <rule weight="0.6">
     <match lemma="fallo" tags="n.*"><select lemma="falta"/></match>
