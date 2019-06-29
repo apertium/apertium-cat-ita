@@ -710,6 +710,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- fallo > falta, fallada, mancança, fal·lus -->
+  <rule weight="0.6">
+    <match lemma="fallo" tags="n.*"><select lemma="falta"/></match>
+  </rule>
+
   <!-- capocannoniere > màxim golejador, màxim anotador -->
   <rule weight="0.6">
     <match lemma="capocannoniere" tags="n.*"><select lemma="màxim golejador"/></match>
@@ -1784,6 +1789,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- mescolare > barrejar, mesclar -->
+  <rule weight="0.6">
+    <match lemma="mescolare" tags="vblex.*"><select lemma="barrejar"/></match>
+  </rule>
+
   <!-- discendere > descendir, baixar -->
   <rule weight="0.6">
     <match lemma="discendere" tags="vblex.*"><select lemma="descendir"/></match>
@@ -2313,7 +2323,7 @@
     <match lemma="tentare" tags="vblex.*"><select lemma="temptar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="tentare" tags="vblex.*"><select lemma="intentar"/></match>
+    <match lemma="tentare" tags="vblex.*"><select lemma="tractar"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -2383,6 +2393,11 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- di > de, che (comparacions) -->
+  <rule weight="0.6">
+    <match lemma="di" tags="pr"><select lemma="de"/></match>
+  </rule>
+
   <!-- per > per, per a, a punt de -->
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="per"/></match>
@@ -2443,7 +2458,6 @@
     <match lemma="per" tags="pr"><select lemma="per"/></match>
   </rule>
 -->
-
 
   <!-- come > com, com a -->
   <rule weight="0.6">
