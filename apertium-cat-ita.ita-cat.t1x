@@ -190,6 +190,10 @@
       <cat-item tags="vblex.ifi.*"/>
     </def-cat>
 
+    <def-cat n="bisognare">
+      <cat-item lemma="bisognare" tags="vbmod.*"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -414,6 +418,7 @@
       <attr-item tags="det.ind"/> <!-- poco / poc -->
       <attr-item tags="vblex.pp"/>
     </def-attr>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
@@ -435,6 +440,7 @@
       <attr-item tags="adj.ind"/>
       <attr-item tags="predet"/>
     </def-attr>
+
     <def-attr n="a_adv">
       <attr-item tags="adv"/>
       <attr-item tags="preadv"/>
@@ -453,6 +459,9 @@
       <attr-item tags="prn.pro"/>
       <attr-item tags="prn.pro.adv"/>
       <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.adv"/>
+      <attr-item tags="prn.enc.ref"/>
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.pos"/>
@@ -8637,7 +8646,7 @@
 
     <rule comment="REGLA: inf loro.prn > inf li.enc (per proporre loro > per proposar-los)">
       <pattern>
-        <pattern-item n="inf"/>
+        <pattern-item n="inf_ger"/>
         <pattern-item n="lui_mf_pl"/>
       </pattern>
       <action>
@@ -8727,6 +8736,88 @@
       </action>
     </rule>
 
+    <rule comment="bisognare prnenc (eliminem els prnenc)">
+      <pattern>
+        <pattern-item n="bisognare"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <!--<call-macro n="tipus_verb">
+          <with-param pos="1"/>
+        </call-macro>-->
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+              <!--<tag><var n="tipusverb"/></tag>
+              <tag><var n="cv_verb"/></tag>-->
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="bisognare prnenc prnenc (eliminem els prnenc)">
+      <pattern>
+        <pattern-item n="bisognare"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <!--<call-macro n="tipus_verb">
+          <with-param pos="1"/>
+        </call-macro>-->
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="sl" part="temps"/></tag>
+              <!--<tag><var n="tipusverb"/></tag>
+              <tag><var n="cv_verb"/></tag>-->
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
     <rule comment="ger prnenc">
       <pattern>
         <pattern-item n="ger"/>
@@ -8794,6 +8885,7 @@
             <test>
               <and>
                 <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
+                <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
               </and>
             </test>
@@ -8926,6 +9018,7 @@
             <test>
               <and>
                 <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
+                <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
               </and>
             </test>
@@ -9065,6 +9158,7 @@
               <test>
                 <and>
                   <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
+                  <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
                   <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
                 </and>
               </test>

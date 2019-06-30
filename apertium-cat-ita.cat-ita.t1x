@@ -367,6 +367,9 @@
       <attr-item tags="prn.pro"/>
       <attr-item tags="prn.pro.adv"/>
       <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.adv"/>
+      <attr-item tags="prn.enc.ref"/>
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.pos"/>
@@ -2503,10 +2506,11 @@
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <choose>
           <when>
+            <!-- en + hi: cal canviar l'ordre -->
             <test>
               <and>
-                <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
-                <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
+                <equal><clip pos="2" side="sl" part="lem"/><lit v="en"/></equal>
+                <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
               </and>
             </test>
             <out>
@@ -2527,6 +2531,58 @@
                   </lu>
                   <lu>
                     <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- el + enc: cal eliminar el segon clític -->
+            <test>
+              <equal><clip pos="2" side="sl" part="lem"/><lit v="el"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- enc + li: cal eliminar el primer clític (posant-me-li, etc.) -->
+            <test>
+              <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
                     <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                 </mlu>
@@ -2635,10 +2691,11 @@
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <choose>
           <when>
+            <!-- en + hi: cal canviar l'ordre -->
             <test>
               <and>
-                <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
-                <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
+                <equal><clip pos="2" side="sl" part="lem"/><lit v="en"/></equal>
+                <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
               </and>
             </test>
             <out>
@@ -2665,6 +2722,70 @@
                   </lu>
                   <lu>
                     <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- el + enc: cal eliminar el segon clític -->
+            <test>
+              <equal><clip pos="2" side="sl" part="lem"/><lit v="el"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <!--<tag><var n="tipusverb"/></tag>
+                  <tag><var n="cv_verb"/></tag>-->
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <clip pos="1" side="tl" part="nbr"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- enc + li: cal eliminar el primer clític (posant-me-li, etc.) -->
+            <test>
+              <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <!--<tag><var n="tipusverb"/></tag>
+                  <tag><var n="cv_verb"/></tag>-->
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <clip pos="1" side="tl" part="nbr"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
                     <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                 </mlu>
@@ -2773,11 +2894,12 @@
           </call-macro>
           <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
           <choose>
+            <!-- en + hi: cal canviar l'ordre -->
             <when>
               <test>
                 <and>
-                  <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
-                  <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
+                  <equal><clip pos="2" side="sl" part="lem"/><lit v="en"/></equal>
+                  <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
                 </and>
               </test>
               <out>
@@ -2806,6 +2928,58 @@
                 </chunk>
               </out>
             </when>
+          <when>
+            <!-- el + enc: cal eliminar el segon clític -->
+            <test>
+              <equal><clip pos="2" side="sl" part="lem"/><lit v="el"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- enc + li: cal eliminar el primer clític (posant-me-li, etc.) -->
+            <test>
+              <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
             <otherwise>
               <out>
                 <chunk namefrom="lemma" case="caseFirstWord">
