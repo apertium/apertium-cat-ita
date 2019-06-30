@@ -2470,7 +2470,11 @@
   </rule>
   <rule weight="1.0">
     <match lemma="come" tags="pr"><select lemma="com a"/></match>
-     <match tags="n.*"/>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="come" tags="pr"><select lemma="com"/></match>
+    <match lemma="dio" tags="n.*"/>
   </rule>
 
   <!-- oltre > més enllà de, més de -->

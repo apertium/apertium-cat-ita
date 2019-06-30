@@ -2129,8 +2129,20 @@
   <rule weight="0.6">
      <match lemma="li" tags="prn.enc.p3.mf.sg"><select lemma="gli" tags="prn.enc.p3.m.sg"/></match>
   </rule>
+  <rule weight="0.6">
+     <match lemma="li" tags="prn.enc.p3.mf.pl"><select lemma="gli" tags="prn.enc.p3.mf.pl"/></match>
+  </rule>
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- necessitar > avere# bisogno di, avere# bisogno -->
+  <rule weight="0.6">
+    <match lemma="necessitar" tags="vblex.*"><select lemma="avere# bisogno di"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="prn.pro.*"/>
+    <match lemma="necessitar" tags="vblex.*"><select lemma="avere# bisogno"/></match>
+  </rule>
 
   <!-- morir > morire, decedere -->
   <rule weight="0.6">
