@@ -443,6 +443,8 @@
     <def-var n="numero_sl" v="&lt;sg&gt;"/>
     <def-var n="genero_sl" v="&lt;m&gt;"/>
     <def-var n="lemma"/>
+    <def-var n="aux1"/>
+    <def-var n="aux2"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -6542,32 +6544,92 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="sl" part="temps"/></tag>
-              <tag><clip pos="1" side="tl" part="pers"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <!--<tag><var n="tipusverb"/></tag>
-              <tag><var n="cv_verb"/></tag>-->
-            </tags>
-            <mlu>
-              <lu>
-                <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
-              </lu>
-              <lu>
-                <clip pos="2" side="tl" part="whole"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
-            </mlu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p3"/></equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+                </test>
+                <let><var n="aux1"/><lit-tag v="prn.pro.adv"/></let>
+              </when>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
+                </test>
+                <let><var n="aux1"/><lit-tag v="prn.pro.ref"/></let>
+              </when>
+              <otherwise>
+                <let><var n="aux1"/><lit-tag v="prn.pro"/></let>
+              </otherwise>
+            </choose>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <!--<tag><var n="tipusverb"/></tag>
+                  <tag><var n="cv_verb"/></tag>-->
+                </tags>
+                <lu>
+                  <lit v="che"/>
+                  <lit-tag v="cnjsub"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <var n="aux1"/>
+                  <clip pos="2" side="tl" part="pers"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <lit-tag v="prs"/>
+                  <clip pos="1" side="tl" part="pers"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <!--<tag><var n="tipusverb"/></tag>
+                  <tag><var n="cv_verb"/></tag>-->
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="pers"/>
+                    <clip pos="1" side="tl" part="nbr"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
         <let>
           <var n="caseFirstWord"/>
           <lit v="aa"/>
@@ -6593,6 +6655,87 @@
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p3"/></equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+                </test>
+                <let><var n="aux1"/><lit-tag v="prn.pro.adv"/></let>
+              </when>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
+                </test>
+                <let><var n="aux1"/><lit-tag v="prn.pro.ref"/></let>
+              </when>
+              <otherwise>
+                <let><var n="aux1"/><lit-tag v="prn.pro"/></let>
+              </otherwise>
+            </choose>
+            <choose>
+              <when>
+                <test>
+                  <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+                </test>
+                <let><var n="aux2"/><lit-tag v="prn.pro.adv"/></let>
+              </when>
+              <when>
+                <test>
+                  <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
+                </test>
+                <let><var n="aux2"/><lit-tag v="prn.pro.ref"/></let>
+              </when>
+              <otherwise>
+                <let><var n="aux2"/><lit-tag v="prn.pro"/></let>
+              </otherwise>
+            </choose>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                  <tag><clip pos="1" side="tl" part="pers"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <!--<tag><var n="tipusverb"/></tag>
+                  <tag><var n="cv_verb"/></tag>-->
+                </tags>
+                <lu>
+                  <lit v="che"/>
+                  <lit-tag v="cnjsub"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <var n="aux1"/>
+                  <clip pos="2" side="tl" part="pers"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="3" side="tl" part="lem"/>
+                  <var n="aux2"/>
+                  <clip pos="3" side="tl" part="pers"/>
+                  <clip pos="3" side="tl" part="gen"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <lit-tag v="prs"/>
+                  <clip pos="1" side="tl" part="pers"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
           <when>
             <!-- en + hi: cal canviar l'ordre -->
             <test>
