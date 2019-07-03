@@ -1105,7 +1105,7 @@
 
   <!-- el seu > il suo, suo, il loro, loro -->
   <rule weight="0.6">
-    <match lemma="el seu" tags="det.*"><select lemma="il suo" tags="det.*"/></match>
+    <match lemma="el seu" tags="det.*"><select lemma="il suo"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="el seu" tags="det.*"><select lemma="suo"/></match>
@@ -1116,21 +1116,26 @@
 
   <!-- cada > ogni, ciascun -->
   <rule weight="0.6">
-    <match lemma="cada" tags="det.*"><select lemma="ogni" tags="det.*"/></match>
+    <match lemma="cada" tags="det.*"><select lemma="ogni"/></match>
+  </rule>
+
+  <!-- tot > tutto, ogni -->
+  <rule weight="0.6">
+    <match lemma="tot" tags="det.*"><select lemma="tutto"/></match>
   </rule>
 
   <!-- altre > altro, un altro -->
   <rule weight="0.6">
-    <match lemma="altre" tags="det.*"><select lemma="altro" tags="det.*"/></match>
+    <match lemma="altre" tags="det.*"><select lemma="altro"/></match>
   </rule>
 
   <!-- cap > nessuno, alcun -->
   <rule weight="0.6">
-    <match lemma="cap" tags="det.*"><select lemma="nessuno" tags="det.*"/></match>
+    <match lemma="cap" tags="det.*"><select lemma="nessuno"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="sense" tags="pr"/>
-    <match lemma="cap" tags="det.*"><select lemma="alcun" tags="det.*"/></match>
+    <match lemma="cap" tags="det.*"><select lemma="alcun"/></match>
   </rule>
   <rule weight="1.0" c="no hi ha cap pressa">
     <match lemma="no" tags="adv"/>
@@ -1141,7 +1146,7 @@
        </or>
      </repeat>
     <or><match tags="vblex.*"/><match tags="vbmod.*"/><match tags="vbhaver.*"/><match tags="vbser.*"/></or>
-    <match lemma="cap" tags="det.*"><select lemma="alcun" tags="det.*"/></match>
+    <match lemma="cap" tags="det.*"><select lemma="alcun"/></match>
   </rule>
 
 <!-- **************** PR **************** -->
