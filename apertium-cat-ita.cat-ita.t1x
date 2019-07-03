@@ -100,7 +100,9 @@
       <cat-item tags="num.*"/>
       <cat-item tags="num"/>
     </def-cat>
-
+    <def-cat n="dia">
+      <cat-item tags="num"/>
+    </def-cat>
     <def-cat n="any">
       <cat-item tags="num"/>
     </def-cat>
@@ -6087,11 +6089,91 @@
 
     <!-- REGLES data -->
 
-    <rule comment="regla: mes de num: maig de 2017 > maggio 2017">
+    <rule comment="regla: dia de mes: 1 de maig > 1 maggio">
+      <pattern>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: dia de mes de any: 1 de maig de 2017 > 1 maggio 2017">
+      <pattern>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+        <pattern-item n="de"/>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lem"/>
+              <clip pos="5" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: mes de any: maig de 2017 > maggio 2017">
       <pattern>
         <pattern-item n="mes"/>
         <pattern-item n="de"/>
-        <pattern-item n="num"/>
+        <pattern-item n="any"/>
       </pattern>
       <action>
         <call-macro n="f_concord1">
@@ -6100,8 +6182,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
-          <chunk name="mese">
+          <chunk name="data">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
@@ -6112,19 +6195,350 @@
               <clip pos="1" side="tl" part="tags"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="tags"/>
+            </lu>
           </chunk>
         </out>
-        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: el dia de mes de any: l'1 de maig de 2017 > nell'1 maggio 2017">
+      <pattern>
+        <pattern-item n="el"/>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+        <pattern-item n="de"/>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+        <call-macro n="f_bcond"><with-param pos="4"/><with-param pos="5"/></call-macro>
         <out>
-          <b pos="2"/>
-          <chunk name="anno">
+          <chunk name="data">
             <tags>
-              <tag><lit-tag v="NUM"/></tag>
+              <tag><lit-tag v="SAdv"/></tag>
             </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="in"/>
+              </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="5"/>
+            <lu>
+              <clip pos="6" side="tl" part="lem"/>
+              <clip pos="6" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: el dia de mes: l'1 de maig> nell'1 maggio">
+      <pattern>
+        <pattern-item n="el"/>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="in"/>
+              </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: el mes de any: el maig de 2017 > nell maggio 2017">
+      <pattern>
+        <pattern-item n="el"/>
+        <pattern-item n="mes"/>
+        <pattern-item n="de"/>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="in"/>
+              </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prep el dia de mes de any: de l'1 de maig de 2017 > dell'1 maggio 2017">
+      <pattern>
+        <pattern-item n="pr"/>
+        <pattern-item n="el"/>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+        <pattern-item n="de"/>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="5"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <call-macro n="f_bcond"><with-param pos="5"/><with-param pos="6"/></call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="tags"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+            <b pos="6"/>
+            <lu>
+              <clip pos="7" side="tl" part="lem"/>
+              <clip pos="7" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prep el dia de mes: de l'1 de maig > dell'1 maggio">
+      <pattern>
+        <pattern-item n="pr"/>
+        <pattern-item n="el"/>
+        <pattern-item n="dia"/>
+        <pattern-item n="de"/>
+        <pattern-item n="mes"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="5"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="tags"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prep mes de any: del maig de 2017 > del maggio 2017">
+      <pattern>
+        <pattern-item n="pr"/>
+        <pattern-item n="el"/>
+        <pattern-item n="mes"/>
+        <pattern-item n="de"/>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="tags"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="lem"/>
+              <clip pos="5" side="tl" part="tags"/>
             </lu>
           </chunk>
         </out>
