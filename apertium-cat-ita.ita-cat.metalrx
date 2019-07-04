@@ -509,6 +509,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- buono > bo, bon -->
+  <rule weight="0.6">
+    <match lemma="buono" tags="adj.*"><select lemma="bo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="buono" tags="adj.*"><select lemma="bon"/></match>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- persano > persa, mèdic -->
   <rule weight="0.6">
      <match lemma="persano" tags="adj.*"><select lemma="persa"/></match>
@@ -709,6 +718,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- cannoniere > canoner, golejador -->
+  <rule weight="0.6">
+    <match lemma="cannoniere" tags="n.*"><select lemma="canoner"/></match>
+  </rule>
 
   <!-- foro > fòrum, forat, etc. -->
   <rule weight="0.6">

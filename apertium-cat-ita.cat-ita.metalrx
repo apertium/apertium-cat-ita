@@ -3328,6 +3328,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- anomenat > chiamato, cosiddetto -->
+  <rule weight="0.6">
+     <match lemma="anomenat" tags="adj.*"><select lemma="chiamato"/></match>
+  </rule>
+
   <!-- mèdic > medico, persano -->
   <rule weight="0.6">
      <match lemma="mèdic" tags="adj.*"><select lemma="medico"/></match>
