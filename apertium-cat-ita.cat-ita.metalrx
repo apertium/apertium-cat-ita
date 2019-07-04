@@ -2149,6 +2149,11 @@
     <match lemma="necessitar" tags="vblex.*"><select lemma="avere# bisogno"/></match>
   </rule>
 
+  <!-- començar > cominciare, iniziare, incominciare -->
+  <rule weight="0.6">
+    <match lemma="començar" tags="vblex.*"><select lemma="cominciare"/></match>
+  </rule>
+
   <!-- morir > morire, decedere -->
   <rule weight="0.6">
     <match lemma="morir" tags="vblex.*"><select lemma="morire"/></match>
@@ -5116,6 +5121,15 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
+  <!-- blau > azzurro, livido -->
+  <rule weight="0.6">
+     <match lemma="blau" tags="n.*"><select lemma="azzurro"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="un" tags="det.*"/>
+     <match lemma="blau" tags="n.*"><select lemma="livido"/></match>
+  </rule>
+
   <!-- guàrdia > guardia, poliziotto -->
   <rule weight="0.6">
      <match lemma="guàrdia" tags="n.*"><select lemma="guardia"/></match>
@@ -5169,7 +5183,23 @@
 
   <!-- població > popolazione, centro abitato -->
   <rule weight="0.6">
-     <match lemma="població" tags="n.*"><select lemma="popolazione"/></match>
+    <match lemma="població" tags="n.*"><select lemma="popolazione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="població" tags="n.*"><select lemma="centro abitato"/></match>
+    <or>
+      <match lemma="proper" tags="adj.*"/>
+      <match lemma="pròxim" tags="adj.*"/>
+      <match lemma="veí" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="proper" tags="adj.*"/>
+      <match lemma="pròxim" tags="adj.*"/>
+      <match lemma="veí" tags="adj.*"/>
+    </or>
+    <match lemma="població" tags="n.*"><select lemma="centro abitato"/></match>
   </rule>
 
   <!-- caragol > chiocciola, vite -->

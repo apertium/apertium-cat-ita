@@ -1808,6 +1808,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- avviare > iniciar, endegar -->
+  <rule weight="0.6">
+    <match lemma="avviare" tags="vblex.*"><select lemma="iniciar"/></match>
+  </rule>
+
   <!-- mescolare > barrejar, mesclar -->
   <rule weight="0.6">
     <match lemma="mescolare" tags="vblex.*"><select lemma="barrejar"/></match>
