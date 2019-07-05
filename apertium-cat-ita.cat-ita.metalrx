@@ -1129,6 +1129,11 @@
     <match lemma="altre" tags="det.*"><select lemma="altro"/></match>
   </rule>
 
+  <!-- cert > certo, taluno -->
+  <rule weight="0.6">
+     <match lemma="cert" tags="det.*"><select lemma="certo"/></match>
+  </rule>
+
   <!-- cap > nessuno, alcun -->
   <rule weight="0.6">
     <match lemma="cap" tags="det.*"><select lemma="nessuno"/></match>
@@ -1755,6 +1760,13 @@
   <!-- entre > tra, fra, tra di -->
   <rule weight="0.8">
     <match lemma="entre" tags="pr"><select lemma="tra"/></match>
+  </rule>
+
+<!-- **************** CNJCOO **************** -->
+
+  <!-- sinó > ma, bensi -->
+  <rule weight="0.6">
+     <match lemma="sinó" tags="cnjadv"><select lemma="ma"/></match>
   </rule>
 
 <!-- **************** CNJADV **************** -->
@@ -3475,6 +3487,15 @@
   <rule weight="1.0">
      <match lemma="llengua" tags="n.f.*"/>
      <match lemma="romànic" tags="adj.*"><select lemma="romanzo"/></match>
+  </rule>
+
+  <!-- cert > vero, certo -->
+  <rule weight="0.6">
+     <match lemma="cert" tags="adj.*"><select lemma="vero"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cert" tags="adj.*"><select lemma="certo"/></match>
+     <match tags="n.*"/>
   </rule>
 
   <!-- presumpte > presumidu, crètidu --> <!-- srd -->
