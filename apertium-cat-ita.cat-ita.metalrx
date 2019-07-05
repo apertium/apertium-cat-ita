@@ -1444,6 +1444,14 @@
     <match lemma="en" tags="pr"><select lemma="su"/></match>
   </rule>
 
+  <!-- fins > fino, fino a, a -->
+  <rule weight="0.8">
+    <match lemma="fins" tags="pr"><select lemma="fino"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fins" tags="pr"><select lemma="fino a"/></match>
+    <match lemma="fer" tags="vblex.pri.p3.sg"/>
+  </rule>
 
   <!-- davant > davanti, davanti a -->
   <rule weight="0.6">
@@ -3338,6 +3346,11 @@
      <match lemma="anomenat" tags="adj.*"><select lemma="chiamato"/></match>
   </rule>
 
+  <!-- manxú > mancese, manciù -->
+  <rule weight="0.6">
+     <match lemma="manxú" tags="adj.*"><select lemma="mancese"/></match>
+  </rule>
+
   <!-- mèdic > medico, persano -->
   <rule weight="0.6">
      <match lemma="mèdic" tags="adj.*"><select lemma="medico"/></match>
@@ -5119,6 +5132,36 @@
      <match lemma="got" tags="n.*"><select lemma="goto"/></match>
      <match lemma="de" tags="pr"/>
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
+  </rule>
+
+  <!-- manxú > manciù, mancese -->
+  <rule weight="0.6">
+     <match lemma="manxú" tags="n.*"><select lemma="manciù"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="en" tags="pr"/>
+     <match lemma="manxú" tags="n.mf.sg"><select lemma="mancese"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="el" tags="det.def.m.sg"/>
+     <match lemma="manxú" tags="n.mf.sg"><select lemma="mancese"/></match>
+  </rule>
+
+  <!-- estany > stagno, lago -->
+  <rule weight="0.6">
+     <match lemma="estany" tags="n.*"><select lemma="stagno"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="un" tags="det.*"/>
+     <match lemma="estany" tags="n.*"><select lemma="lago"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estany" tags="n.*"><select lemma="lago"/></match>
+     <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estany" tags="n.*"><select lemma="lago"/></match>
+     <match lemma="de" tags="pr"/>
   </rule>
 
   <!-- blau > azzurro, livido -->

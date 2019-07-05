@@ -2422,6 +2422,27 @@
     <match lemma="di" tags="pr"><select lemma="de"/></match>
   </rule>
 
+  <!-- fino > fins, fins a -->
+  <rule weight="0.8">
+    <match lemma="fino" tags="pr"><select lemma="fins"/></match>
+  </rule>
+
+  <!-- fino a > fins a, fins -->
+  <rule weight="0.8">
+    <match lemma="fino a" tags="pr"><select lemma="fins a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fino a" tags="pr"><select lemma="fins"/></match>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+      <match tags="det.*"/>
+      <match tags="adj.*"/>
+    </or>
+    <match tags="n.*"/>
+    <match lemma="fare" tags="vblex.pri.p3.sg"/>
+  </rule>
+
   <!-- per > per, per a, a punt de -->
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="per"/></match>
