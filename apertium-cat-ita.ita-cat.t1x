@@ -4191,9 +4191,9 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="SAdv" case="caseFirstWord">
+          <chunk name="adv" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="adv"/></tag>
+              <tag><lit-tag v="SAdv"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/> 
@@ -5705,7 +5705,7 @@
         <out>
           <chunk name="det_adj" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>			<!-- REVISAR -->
+              <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
               <tag><var n="genero_sl"/></tag>
@@ -5728,6 +5728,59 @@
               <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
               <clip pos="2" side="tl" part="nbr_sp"/>         
               <clip pos="2" side="tl" part="lemq"/>
+            </lu> 
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: DET ADV ADJ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>        
+        <out>
+          <chunk name="det_adv_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>         
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>         
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="3" side="tl" part="gen_mf"/>         
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>         
+              <clip pos="3" side="tl" part="lemq"/>
             </lu> 
           </chunk>
         </out>
@@ -7177,7 +7230,7 @@
       </action>
     </rule>
 
- <rule comment="REGLA: NUMERAL. Si pot ser 'm' o 'f', sortirà com a GD. Caldrà tractar-ho en interchunk o postchunk.">
+    <rule comment="REGLA: NUM. Si pot ser 'm' o 'f', sortirà com a GD. Caldrà tractar-ho en interchunk o postchunk.">
       <pattern>
         <pattern-item n="num"/>
       </pattern>
