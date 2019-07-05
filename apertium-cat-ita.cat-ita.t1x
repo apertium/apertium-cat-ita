@@ -97,6 +97,11 @@
     <def-cat n="el">          
       <cat-item lemma="el" tags="det.def.*"/>
     </def-cat>
+    <def-cat n="uns_propde">          
+      <cat-item lemma="un" tags="det.ind.m.pl"/>
+      <cat-item lemma="un" tags="det.ind.f.pl"/>
+      <cat-item lemma="prop de" tags="pr"/>
+    </def-cat>
     <def-cat n="predet">          
       <cat-item tags="predet.*"/>
     </def-cat>
@@ -110,6 +115,13 @@
     </def-cat>
     <def-cat n="any">
       <cat-item tags="num"/>
+    </def-cat>
+
+    <def-cat n="num_det_adj">
+      <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="adj.*"/>
     </def-cat>
 
     <def-cat n="cnjadv">
@@ -222,6 +234,9 @@
     <def-cat n="anar_pri">
        <cat-item lemma="anar" tags="vblex.pri.*"/>
     </def-cat>
+    <def-cat n="fa">
+      <cat-item lemma="fer" tags="vblex.pri.p3.sg"/>
+    </def-cat>
 
     <def-cat n="mes">
        <cat-item lemma="gener" tags="n.*"/>
@@ -274,8 +289,16 @@
        <cat-item lemma="segle" tags="n.m.sg"/>
     </def-cat>
     <def-cat n="periode">
-       <cat-item lemma="segle" tags="n.*"/>
+       <cat-item lemma="segon" tags="n.*"/>
+       <cat-item lemma="minut" tags="n.*"/>
+       <cat-item lemma="hora" tags="n.*"/>
+       <cat-item lemma="dia" tags="n.*"/>
+       <cat-item lemma="setmana" tags="n.*"/>
+       <cat-item lemma="mes" tags="n.*"/>
        <cat-item lemma="any" tags="n.*"/>
+       <cat-item lemma="lustre" tags="n.*"/>
+       <cat-item lemma="segle" tags="n.*"/>
+       <cat-item lemma="mil·lenni" tags="n.*"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -449,6 +472,8 @@
     <def-var n="numero" v="&lt;sg&gt;"/>
     <def-var n="numero_sl" v="&lt;sg&gt;"/>
     <def-var n="genero_sl" v="&lt;m&gt;"/>
+    <def-var n="numero_aux" v="&lt;sg&gt;"/>
+    <def-var n="genero_aux" v="&lt;m&gt;"/>
     <def-var n="lemma"/>
     <def-var n="aux1"/>
     <def-var n="aux2"/>
@@ -3421,6 +3446,18 @@
       <call-macro n="f_set_sg1"><with-param pos="2"/></call-macro>
     </def-macro>      
 -->
+
+    <def-macro n="f_salvar_gen_num" npar="0"> <!-- Per conservar les var genero i numero per restaurar-les després (per no expandir a l'esquerra aquests valors) -->
+      <let><var n="genero_aux"/><var n="genero"/></let>
+      <let><var n="numero_aux"/><var n="numero"/></let>
+    </def-macro>
+
+
+    <def-macro n="f_restaurar_gen_num" npar="0"> <!-- Per restaurar les var genero i numero i no expandir-ne a l'esquerra els valors -->
+      <let><var n="genero"/><var n="genero_aux"/></let>
+      <let><var n="numero"/><var n="numero_aux"/></let>
+    </def-macro>
+
 
   </section-def-macros>
 
@@ -6895,6 +6932,290 @@
     </rule>
 
     <!-- fi REGLES data -->
+
+    <rule comment="regla: fa num periode: fa tres anys > tre anni fa, fa alguns anys > alcuni anni fa, fa pocs anys > pochi anni fa">
+      <pattern>
+        <pattern-item n="fa"/>
+        <pattern-item n="num_det_adj"/>
+        <pattern-item n="periode"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="un"/></equal>
+                <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+              </and>
+            </test>
+            <let><clip pos="2" side="tl" part="lem"/><lit v="alcun"/></let>
+            <let><clip pos="2" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="num-n-fa">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <get-case-from pos="3">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: fa uns num periode: fa uns tres anys > circa tre anni fa">
+      <pattern>
+        <pattern-item n="fa"/>
+        <pattern-item n="uns_propde"/>
+        <pattern-item n="num"/>
+        <pattern-item n="periode"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord3"><with-param pos="4"/><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adv-num-n-fa">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="circa"/>
+              </get-case-from>
+              <lit-tag v="adv"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <get-case-from pos="4">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: fa nom de periode: fa milions d'anys > milioni di anni fa">
+      <pattern>
+        <pattern-item n="fa"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="de"/>
+        <pattern-item n="periode"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="4"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n-di-n-fa">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <get-case-from pos="4">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: fa num nom de periode: fa tres milions d'anys > tre milioni di anni fa, fa alguns milions d'anys > alcuni milioni di anni fa, fa pocs milions d'anys > pochi milioni di anni fa">
+      <pattern>
+        <pattern-item n="fa"/>
+        <pattern-item n="num_det_adj"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="de"/>
+        <pattern-item n="periode"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord2"><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="un"/></equal>
+                <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+              </and>
+            </test>
+            <let><clip pos="2" side="tl" part="lem"/><lit v="alcun"/></let>
+            <let><clip pos="2" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="num-n-di-n-fa">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <get-case-from pos="5">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="regla: fa uns num nom de periode: fa uns tres milions d'anys > circa tre milioni di anni fa">
+      <pattern>
+        <pattern-item n="fa"/>
+        <pattern-item n="uns_propde"/>
+        <pattern-item n="num_det_adj"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="de"/>
+        <pattern-item n="periode"/>
+      </pattern>
+      <action>
+        <call-macro n="f_salvar_gen_num"></call-macro>
+        <call-macro n="f_concord3"><with-param pos="4"/><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="firstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adv-num-n-di-n-fa">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="circa"/>
+              </get-case-from>
+              <lit-tag v="adv"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="5" side="tl" part="lemh"/>
+              <clip pos="5" side="tl" part="tags"/>
+              <clip pos="5" side="tl" part="lemq"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="6" side="tl" part="lemh"/>
+              <clip pos="6" side="tl" part="tags"/>
+              <clip pos="6" side="tl" part="lemq"/>
+            </lu>
+            <b pos="5"/>
+            <lu>
+              <get-case-from pos="6">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="f_restaurar_gen_num"></call-macro>
+      </action>
+    </rule>
+
+    <!-- fi REGLES fa -->
 
     <rule comment="REGLA: EL PREP (el de > quello di)">
       <pattern>

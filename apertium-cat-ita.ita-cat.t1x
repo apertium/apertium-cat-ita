@@ -25,6 +25,10 @@
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="soli">
+      <cat-item lemma="solo" tags="adj.m.pl"/>
+      <cat-item lemma="solo" tags="adj.f.pl"/>
+    </def-cat>
     <def-cat n="solito">
       <cat-item lemma="solito" tags="adj.*"/>
     </def-cat>
@@ -39,6 +43,8 @@
     <def-cat n="piu_meno">
       <cat-item lemma="più" tags="adv"/>
       <cat-item lemma="meno" tags="adv"/>
+      <cat-item lemma="molto più" tags="adv"/>
+      <cat-item lemma="molto meno" tags="adv"/>
     </def-cat>
 
     <def-cat n="pp">
@@ -277,6 +283,13 @@
       <cat-item tags="num"/>
     </def-cat>
 
+    <def-cat n="num_det_adj">
+      <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
@@ -376,6 +389,7 @@
        <cat-item lemma="mese" tags="n.*"/>
        <cat-item lemma="anno" tags="n.*"/>
        <cat-item lemma="secolo" tags="n.*"/>
+       <cat-item lemma="millennio" tags="n.*"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -1004,11 +1018,14 @@
       <list-item v="Aquitania"/>
       <list-item v="Guascogna"/>
       <list-item v="Normandia"/>
+      <list-item v="Corsica"/>
+<!--      <list-item v="Rossiglione"/> -->
       <list-item v="Scozia"/>
       <list-item v="Galles"/>
       <list-item v="Devon"/>
       <list-item v="Fiandra"/>
       <list-item v="Fiandre"/>
+      <list-item v="Baden-Württemberg"/>
       <list-item v="Baviera"/>
       <list-item v="Brandeburgo"/>
       <list-item v="Renania"/>
@@ -1022,6 +1039,7 @@
       <list-item v="Moravia"/>
       <list-item v="Slesia"/>
       <list-item v="Crimea"/>
+<!--      <list-item v="Tibet"/> -->
       <list-item v="Alabama"/>
       <list-item v="Alaska"/>
       <list-item v="Arizona"/>
@@ -1052,11 +1070,12 @@
       <list-item v="Wyoming"/>
       <list-item v="Wisconsin"/>
       <list-item v="Alberta"/>
+      <list-item v="Labrador"/>
       <list-item v="Manitoba"/>
       <list-item v="Ontario"/>
 <!--      <list-item v="Quebec"/> -->
       <list-item v="Saskatchewan"/>
-      <list-item v="Terranova"/>
+<!--      <list-item v="Terranova"/> -->
       <list-item v="Rio Grande do Sul"/>
       <list-item v="Prussia"/>
       <list-item v="Persia"/>
@@ -4778,6 +4797,55 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: soli NUM">
+      <pattern>
+        <pattern-item n="soli"/>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="només"/>
+              </get-case-from>
+              <lit-tag v="adv"/>
+            </lu> 
+          </chunk>
+          <b pos="1"/>
+          <chunk name="det_num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/> 
+              <clip pos="2" side="tl" part="a_num"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: giorno mese: 26 maggio > 26 de maig ">
       <pattern>
         <pattern-item n="giorno"/>
@@ -4831,7 +4899,7 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-        <choose> <!-- 1,158 millione > 1,158 milions -->
+        <choose> <!-- 1,158 milione > 1,158 milions -->
           <when>
             <test>
               <and>
@@ -6160,7 +6228,7 @@
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>        
-        <choose> <!-- 1,158 millione > 1,158 milions -->
+        <choose> <!-- 1,158 milione > 1,158 milions -->
           <when>
             <test>
               <and>
@@ -6352,7 +6420,7 @@
           <with-param pos="1"/>
           <with-param pos="4"/>
         </call-macro>
-        <choose> <!-- 1,158 millione > 1,158 milions -->
+        <choose> <!-- 1,158 milione > 1,158 milions -->
           <when>
             <test>
               <and>
@@ -7026,7 +7094,7 @@
 
     <rule comment="regla: num periodo fa: tre anni fa > fa tres anys">
       <pattern>
-        <pattern-item n="num"/>
+        <pattern-item n="num_det_adj"/>
         <pattern-item n="periodo"/>
         <pattern-item n="fa"/>
       </pattern>
@@ -7034,11 +7102,10 @@
         <call-macro n="f_salvar_gen_num"></call-macro>
         <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="firstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <out>
-          <chunk name="det-any">
+          <chunk name="fa-num-nom">
             <tags>
-              <tag><lit-tag v="adv"/></tag>
+              <tag><lit-tag v="SAdv"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
