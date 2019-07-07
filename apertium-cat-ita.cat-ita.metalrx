@@ -807,8 +807,25 @@
       <match lemma="Aragó"/>
       <match lemma="Castella"/>
       <match lemma="Andalusia"/>
+      <match lemma="Galícia"/>
+      <match lemma="Astúries"/>
+      <match lemma="País Valencià"/>
+      <match lemma="València"/>
+      <match lemma="Balears"/>
+      <match lemma="Mallorca"/>
+      <match lemma="Menorca"/>
+      <match lemma="Eivissa"/>
+      <match lemma="Formentera"/>
       <match lemma="Occitània"/>
+      <match lemma="Gasconya"/>
+      <match lemma="Aquitània"/>
+      <match lemma="Bearn"/>
+      <match lemma="Biscaia"/>
+      <match lemma="Guipúscoa"/>
       <match lemma="Provença"/>
+      <match lemma="Normandia"/>
+      <match lemma="Bretanya"/>
+      <match lemma="Còrsega"/>
       <match lemma="Espanya"/>
       <match lemma="França"/>
       <match lemma="Alemanya"/>
@@ -819,9 +836,11 @@
       <match lemma="Itàlia"/>
       <match lemma="Bèlgica"/>
       <match lemma="Holanda"/>
+      <match lemma="Països Baixos"/>
       <match lemma="Suïssa"/>
       <match lemma="Àustria"/>
       <match lemma="Hongria"/>
+      <match lemma="Txèquia"/>
       <match lemma="Eslovàquia"/>
       <match lemma="Polònia"/>
       <match lemma="Lituània"/>
@@ -830,6 +849,7 @@
       <match lemma="Bielorússia"/>
       <match lemma="Grècia"/>
       <match lemma="Xipre"/>
+      <match lemma="Gran Bretanya"/>
       <match lemma="Anglaterra"/>
       <match lemma="Gal·les"/>
       <match lemma="Irlanda"/>
@@ -1623,6 +1643,7 @@
        <match lemma="resultar" tags="vblex.*"/>
        <match lemma="divorciar" tags="vblex.*"/>
        <match lemma="allunyar" tags="vblex.*"/>
+       <match lemma="diferenciar" tags="vblex.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1641,6 +1662,7 @@
        <match lemma="tornar" tags="vblex.*"/>
        <match lemma="divorciar" tags="vblex.*"/>
        <match lemma="allunyar" tags="vblex.*"/>
+       <match lemma="diferenciar" tags="vblex.*"/>
      </or>
      <match tags="prn.enc.*"/>
      <repeat from="0" upto="1">
@@ -1657,6 +1679,7 @@
        <match lemma="tornar" tags="vblex.*"/>
        <match lemma="divorciar" tags="vblex.*"/>
        <match lemma="allunyar" tags="vblex.*"/>
+       <match lemma="diferenciar" tags="vblex.*"/>
      </or>
      <match tags="prn.enc.*"/>
      <match tags="prn.enc.*"/>
@@ -1668,10 +1691,11 @@
 
   <rule weight="1.0">
      <or>
-       <match lemma="procedent" tags="vblex.adj*"/>
-       <match lemma="provinent" tags="vblex.adj*"/>
-       <match lemma="sortint" tags="vblex.adj*"/>
-       <match lemma="resultant" tags="vblex.adj*"/>
+       <match lemma="procedent" tags="adj.*"/>
+       <match lemma="provinent" tags="adj.*"/>
+       <match lemma="sortint" tags="adj.*"/>
+       <match lemma="resultant" tags="adj.*"/>
+       <match lemma="diferenciat" tags="adj.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1681,10 +1705,11 @@
 
   <rule weight="1.0">
      <or>
-       <match lemma="procedent" tags="vblex.adj*"/>
-       <match lemma="provinent" tags="vblex.adj*"/>
-       <match lemma="sortint" tags="vblex.adj*"/>
-       <match lemma="resultant" tags="vblex.adj*"/>
+       <match lemma="procedent" tags="adj.*"/>
+       <match lemma="provinent" tags="adj.*"/>
+       <match lemma="sortint" tags="adj.*"/>
+       <match lemma="resultant" tags="adj.*"/>
+       <match lemma="diferenciat" tags="adj.*"/>
      </or>
      <repeat from="0" upto="1">
        <match tags="adv"/>
@@ -1693,6 +1718,18 @@
      <match tags="np.*"/>
      <match tags="cnjcoo"/>
      <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="diferent" tags="adj.*"/>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match lemma="de" tags="pr"><select lemma="da" tags="pr"/></match>
+     <or>
+       <match tags="det.def.*"/>
+       <match tags="np.*"/>
+     </or>
   </rule>
 
   <rule weight="1.0">
@@ -3353,6 +3390,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- tip > sazio, stufo -->
+  <rule weight="0.6">
+     <match lemma="tip" tags="adj.*"><select lemma="sazio"/></match>
+  </rule>
+
   <!-- anomenat > chiamato, cosiddetto -->
   <rule weight="0.6">
      <match lemma="anomenat" tags="adj.*"><select lemma="chiamato"/></match>
@@ -3508,6 +3550,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- samarreta > maglietta, canottiera, camiciola, maglia -->
+  <rule weight="0.6">
+    <match lemma="samarreta" tags="n.*"><select lemma="maglietta"/></match>
+  </rule>
 
   <!-- tap > tappo, stoppata (bàsquet) -->
   <rule weight="0.6">
@@ -5421,7 +5468,7 @@
   <macro name="noms_propis" p1="Francesc" p2="Francesco" />
   <macro name="noms_propis" p1="Frederic" p2="Federico" />
   <macro name="noms_propis" p1="Gregori" p2="Gregorio" />
-  <macro name="noms_propis" p1="Guifré" p2="Gofredo" />
+  <macro name="noms_propis" p1="Guifré" p2="Goffredo" />
   <macro name="noms_propis" p1="Guillem" p2="Guglielmo" />
   <macro name="noms_propis" p1="Humbert" p2="Umberto" />
   <macro name="noms_propis" p1="Innocenci" p2="Innocenzo" />

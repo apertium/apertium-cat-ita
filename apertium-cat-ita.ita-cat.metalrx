@@ -719,6 +719,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- maglia > samarreta, mallot, malla -->
+  <rule weight="0.6">
+    <match lemma="maglia" tags="n.*"><select lemma="samarreta"/></match>
+  </rule>
+
   <!-- cannoniere > canoner, golejador -->
   <rule weight="0.6">
     <match lemma="cannoniere" tags="n.*"><select lemma="canoner"/></match>
@@ -2767,13 +2772,19 @@
       <match lemma="Aragona"/>
       <match lemma="Castiglia"/>
       <match lemma="Andalusia"/>
+      <match lemma="Valenzia"/>
+      <match lemma="Baleari"/>
+      <match lemma="Maiorca"/>
+      <match lemma="Minorca"/>
       <match lemma="Occitania"/>
       <match lemma="Provenza"/>
       <match lemma="Aquitania"/>
+      <match lemma="Guascogna"/>
       <match lemma="Biscaglia"/>
       <match lemma="Normandia"/>
       <match lemma="Bretagna"/>
       <match lemma="Alsazia"/>
+      <match lemma="Corsica"/>
       <match lemma="Spagna"/>
       <match lemma="Francia"/>
       <match lemma="Germania"/>
@@ -2797,6 +2808,7 @@
       <match lemma="Sardinia"/>
       <match lemma="Belgio"/>
       <match lemma="Olanda"/>
+      <match lemma="Paesi Bassi"/>
       <match lemma="Svizzera"/>
       <match lemma="Austria"/>
       <match lemma="Ungheria"/>
@@ -2808,6 +2820,7 @@
       <match lemma="Bielorussia"/>
       <match lemma="Grecia"/>
       <match lemma="Cipro"/>
+      <match lemma="Gran Bretagna"/>
       <match lemma="Inghilterra"/>
       <match lemma="Scozia"/>
       <match lemma="Russia"/>
@@ -2878,7 +2891,7 @@
   <macro name="noms_propis" p1="Francesco" p2="Francesc" />
   <macro name="noms_propis" p1="Federico" p2="Frederic" />
   <macro name="noms_propis" p1="Gregorio" p2="Gregori" />
-  <macro name="noms_propis" p1="Gofredo" p2="Guifré" />
+  <macro name="noms_propis" p1="Goffredo" p2="Guifré" />
   <macro name="noms_propis" p1="Guglielmo" p2="Guillem" />
   <macro name="noms_propis" p1="Umberto" p2="Humbert" />
   <macro name="noms_propis" p1="Innocenzo" p2="Innocenci" />
