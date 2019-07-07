@@ -509,6 +509,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- carlista > carlí, carlista -->
+  <rule weight="0.6">
+    <match lemma="carlista" tags="adj.*"><select lemma="carlí"/></match>
+  </rule>
+
   <!-- buono > bo, bon -->
   <rule weight="0.6">
     <match lemma="buono" tags="adj.*"><select lemma="bo"/></match>
@@ -718,6 +723,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- carlista > carlí, carlista -->
+  <rule weight="0.6">
+    <match lemma="carlista" tags="n.*"><select lemma="carlí"/></match>
+  </rule>
 
   <!-- maglia > samarreta, mallot, malla -->
   <rule weight="0.6">

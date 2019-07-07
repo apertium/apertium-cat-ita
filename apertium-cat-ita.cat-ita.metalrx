@@ -2583,9 +2583,9 @@
      <match ploma="clarificar" tags="vblex.*"><select lemma="chiarificare"/></match>
   </rule>
 
-  <!-- aclarir > chiarificare, chiarire -->
+  <!-- aclarir > schiarire, chiarire, chiarificare -->
   <rule weight="0.6">
-     <match ploma="clarificar" tags="vblex.*"><select lemma="chiarire"/></match>
+     <match ploma="aclarir" tags="vblex.*"><select lemma="schiarire"/></match>
   </rule>
 
   <!-- proveir > fornire, provvedere, rifornire -->
