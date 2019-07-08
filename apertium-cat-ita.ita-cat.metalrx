@@ -2387,7 +2387,7 @@
   <rule weight="1.0">
     <match lemma="essere" tags="vbser.*"><select lemma="estar"/></match>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
+      <or><match tags="adv"/><match tags="preadv"/></or>
     </repeat>
     <or>
       <match lemma="situare" tags="vblex.pp.*"/>
@@ -2397,6 +2397,8 @@
       <match lemma="comporre" tags="vblex.pp.*"/>
       <match lemma="decorare" tags="vblex.pp.*"/>
       <match lemma="ispirare" tags="vblex.pp.*"/>
+      <match lemma="abituare" tags="vblex.pp.*"/>
+      <match lemma="abituato" tags="adj.*"/>
     </or>
   </rule>
 
@@ -2756,6 +2758,15 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="en"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"/>
+    <match lemma="parte" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="en"/></match>
+  </rule>
   <rule weight="1.4">
     <match lemma="addetto" tags="n.*"/>
     <match lemma="a" tags="pr"><select lemma="de"/></match>
@@ -2934,6 +2945,7 @@
   <macro name="noms_propis" p1="Nicola" p2="Nicolau" />
   <macro name="noms_propis" p1="Paolo" p2="Pau" />
   <macro name="noms_propis" p1="Pietro" p2="Pere" />
+  <macro name="noms_propis" p1="Rainieri" p2="Rainier" />
   <macro name="noms_propis" p1="Ramiro" p2="Ramir" />
   <macro name="noms_propis" p1="Raimondo" p2="Ramon" />
   <macro name="noms_propis" p1="Riccardo" p2="Ricard" />

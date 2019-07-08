@@ -835,7 +835,6 @@
       <list-item v="Costa Rica"/>
       <list-item v="Cuba"/>
       <list-item v="Danimarca"/>
-      <list-item v="Devon"/>
       <list-item v="Dominica"/>
       <list-item v="Ecuador"/>
       <list-item v="Egitto"/>
@@ -1024,6 +1023,7 @@
       <list-item v="Scozia"/>
       <list-item v="Galles"/>
       <list-item v="Devon"/>
+      <list-item v="Cornovaglia"/>
       <list-item v="Fiandra"/>
       <list-item v="Fiandre"/>
       <list-item v="Frisia"/>

@@ -1463,6 +1463,15 @@
     <match lemma="en" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="prendre" tags="vblex.*"/>
+    <match lemma="part" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="inspirar" tags="vblex.pp.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -2204,9 +2213,26 @@
 
 <!-- **************** PRN **************** -->
 
-  <!-- hi > ci, vi -->
+  <!-- hi > ci, vi, ce -->
   <rule weight="0.6">
     <match lemma="hi" tags="prn.pro.adv"><select lemma="ci" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="prn.pro.*"/>
+    <match lemma="hi" tags="prn.pro.adv"><select lemma="ce" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.*"/>
+    <match lemma="hi" tags="prn.pro.adv"><select lemma="ci" tags="prn.*"/></match>
+  </rule>
+
+  <!-- ens > ci, ce -->
+  <rule weight="0.6">
+    <match lemma="ens" tags="prn.pro.p1.mf.pl"><select lemma="ci" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ens" tags="prn.pro.p1.mf.pl"><select lemma="ce" tags="prn.*"/></match>
+    <match tags="prn.pro.*"/>
   </rule>
 
   <!-- altre > altro, un altro -->
@@ -5561,6 +5587,7 @@
   <macro name="noms_propis" p1="Nicolau" p2="Nicola" />
   <macro name="noms_propis" p1="Pau" p2="Paolo" />
   <macro name="noms_propis" p1="Pere" p2="Pietro" />
+  <macro name="noms_propis" p1="Rainier" p2="Rainieri" />
   <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
   <macro name="noms_propis" p1="Ramon" p2="Raimondo" />
   <macro name="noms_propis" p1="Ricard" p2="Riccardo" />
