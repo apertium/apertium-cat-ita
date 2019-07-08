@@ -373,6 +373,36 @@
       <match lemma="serp" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="flor">
+      <match lemma="rosa" tags="n.*"/>
+      <match lemma="margarida" tags="n.*"/>
+      <match lemma="violeta" tags="n.*"/>
+      <match lemma="clavell" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="arbre">
+      <match lemma="alzina" tags="n.*"/>
+      <match lemma="roure" tags="n.*"/>
+      <match lemma="surera" tags="n.*"/>
+      <match lemma="pi" tags="n.*"/>
+      <match lemma="pi pinyer" tags="n.*"/>
+      <match lemma="pi blanc" tags="n.*"/>
+      <match lemma="pi roig" tags="n.*"/>
+      <match lemma="pi negre" tags="n.*"/>
+      <match lemma="avet" tags="n.*"/>
+      <match lemma="olivera" tags="n.*"/>
+      <match lemma="llimoner" tags="n.*"/>
+      <match lemma="taronger" tags="n.*"/>
+      <match lemma="presseguer" tags="n.*"/>
+      <match lemma="ametller" tags="n.*"/>
+      <match lemma="prunera" tags="n.*"/>
+      <match lemma="pomer" tags="n.*"/>
+      <match lemma="pomera" tags="n.*"/>
+      <match lemma="perer" tags="n.*"/>
+      <match lemma="perera" tags="n.*"/>
+      <match lemma="figuera" tags="n.*"/>
+    </def-seq>
+
     <def-seq n="lloc_concret">
       <match lemma="parlament"/>
       <match lemma="congrés"/>
@@ -2197,6 +2227,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- amarar > inzuppare, macerare -->
+  <rule weight="0.6">
+    <match lemma="amarar" tags="vblex.*"><select lemma="inzuppare"/></match>
+  </rule>
+
   <!-- necessitar > avere# bisogno di, avere# bisogno -->
   <rule weight="0.6">
     <match lemma="necessitar" tags="vblex.*"><select lemma="avere# bisogno di"/></match>
@@ -2981,7 +3016,7 @@
      <match tags="vblex.inf"/>
   </rule>
 
-  <!-- arrencar > strappare, sradicare, mettere in moto -->
+  <!-- arrencar > strappare, sradicare, mettere in moto, cominciare -->
   <rule weight="0.6">
     <match lemma="arrencar" tags="vblex.*"><select lemma="strappare"/></match>
   </rule>
@@ -2991,7 +3026,41 @@
       <match tags="adv"/>
     </repeat>
     <match tags="det.*"/>
-    <or><match lemma="vehicle"/><match lemma="cotxe"/><match lemma="moto"/></or>
+    <or>
+      <match lemma="vehicle"/>
+      <match lemma="cotxe"/>
+      <match lemma="automòbil"/>
+      <match lemma="moto"/>
+      <match lemma="camió"/>
+      <match lemma="camioneta"/>
+      <match lemma="furgoneta"/>
+      <match lemma="llanxa"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="arrencar" tags="vblex.*"><select lemma="sradicare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="planta"/>
+      <match lemma="flor"/>
+      <seq n="flor"/>
+      <match lemma="arbre"/>
+      <seq n="arbre"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="arrencar" tags="vblex.*"><select lemma="cominciare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <or>
+      <match lemma="plorar"/>
+      <match lemma="riure"/>
+    </or>
   </rule>
 
   <!-- estimar > amare, stimare -->

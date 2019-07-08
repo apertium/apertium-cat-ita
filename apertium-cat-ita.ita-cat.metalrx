@@ -509,6 +509,12 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- terme > termes, balneari -->
+  <rule weight="0.6">
+    <match lemma="terme" tags="adj.*"><select lemma="termes"/></match>
+  </rule>
+
+  <!-- buono > bo, bon -->
   <!-- carlista > carlí, carlista -->
   <rule weight="0.6">
     <match lemma="carlista" tags="adj.*"><select lemma="carlí"/></match>
@@ -1822,6 +1828,11 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- macerare > macerar, amarar -->
+  <rule weight="0.6">
+    <match lemma="macerare" tags="vblex.*"><select lemma="macerar"/></match>
+  </rule>
 
   <!-- avviare > iniciar, endegar -->
   <rule weight="0.6">
