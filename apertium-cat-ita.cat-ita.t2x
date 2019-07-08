@@ -16,6 +16,12 @@
       <cat-item tags="NUM.*"/>
     </def-cat>
 
+    <def-cat n="SN_SA_NUM">
+      <cat-item tags="SN.*"/>
+      <cat-item tags="SA.*"/>
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+
     <def-cat n="SAdv">
       <cat-item tags="SAdv"/>
       <cat-item tags="SAdv.*"/>
@@ -33,6 +39,11 @@
     <def-cat n="SV_vbser">
       <cat-item tags="SV.vbser"/>
       <cat-item tags="SV.vbser.*"/>
+    </def-cat>
+
+    <def-cat n="hi_ha">
+      <cat-item lemma="hi_ha" tags="SV.*"/>
+      <cat-item lemma="n_hi_ha" tags="SV.*"/>
     </def-cat>
 
     <def-cat n="verbs_de">
@@ -76,8 +87,16 @@
       <attr-item tags="sl_m"/>
       <attr-item tags="sl_f"/>
       <attr-item tags="sl_mf"/>
-    </def-attr>
+   </def-attr>
 
+    <def-attr n="sintagma">
+      <attr-item tags="SN"/>
+      <attr-item tags="SA"/>
+      <attr-item tags="SAdv"/>
+      <attr-item tags="NUM"/>
+      <attr-item tags="SV"/>
+      <attr-item tags="pr"/> <!-- et al. -->
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -1122,6 +1141,46 @@
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
             <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: hi_ha SN_SA_NUM: hi ha persones > ce ne sono persone, n'hi ha quatre > ce ne sono quattro">
+      <pattern>
+        <pattern-item n="hi_ha"/>
+        <pattern-item n="SN_SA_NUM"/>
+      </pattern>
+      <action>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <and>
+                <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="2" part="nbr"/><lit-tag v="pl"/></equal>
+              </and>
+              <and>
+                <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="2" part="sintagma"/><lit-tag v="NUM"/></equal>
+                <equal><clip pos="2" part="nbr"/><lit-tag v="sp"/></equal>
+              </and>
+            </or>
+          </test>
+          <let><clip pos="1" part="nbr"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
       </action>
