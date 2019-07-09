@@ -1146,7 +1146,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: hi_ha SN_SA_NUM: hi ha persones > ce ne sono persone, n'hi ha quatre > ce ne sono quattro">
+    <rule comment="REGLA: hi_ha SN_SA_NUM: hi ha persones > ci sono persone, n'hi ha quatre > ce ne sono quattro, hi ha hagut quatre noies > ci sono state quattro ragazze">
       <pattern>
         <pattern-item n="hi_ha"/>
         <pattern-item n="SN_SA_NUM"/>
@@ -1168,6 +1168,23 @@
             </or>
           </test>
           <let><clip pos="1" part="nbr"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <and>
+                <equal><clip pos="1" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="2" part="gen"/><lit-tag v="f"/></equal>
+              </and>
+              <and>
+                <equal><clip pos="1" part="gen"/><lit-tag v="f"/></equal>
+                <equal><clip pos="2" part="gen"/><lit-tag v="m"/></equal>
+              </and>
+            </or>
+          </test>
+          <let><clip pos="1" part="gen"/><clip pos="2" part="gen"/></let>
         </when>
       </choose>
         <out>
