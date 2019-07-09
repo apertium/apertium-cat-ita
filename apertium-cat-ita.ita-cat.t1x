@@ -9710,8 +9710,8 @@
        <pattern-item n="final_sent"/>
      </pattern>
      <action>
-      <let> <var n="genero"/><lit v="m"/></let>
-      <let> <var n="numero"/><lit v="sg"/></let>
+      <let> <var n="genero"/><lit-tag v="m"/></let>
+      <let> <var n="numero"/><lit-tag v="sg"/></let>
       <let> <var n="EOS"/><lit v="false"/></let>
         <out>
           <chunk name="sent">
