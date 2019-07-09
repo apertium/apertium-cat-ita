@@ -1103,6 +1103,16 @@
       <match lemma="cavaller" tags="n.*"/>
       <match lemma="senyor" tags="n.*"/>
     </def-seq>
+
+    <def-seq n="verbs_reflexius">
+      <match lemma="agenollar" tags="vblex.*"/>
+      <match lemma="banyar" tags="vblex.*"/>
+      <match lemma="dutxar" tags="vblex.*"/>
+      <match lemma="implicar" tags="vblex.*"/>
+      <match lemma="pentinar" tags="vblex.*"/>
+      <match lemma="rentar" tags="vblex.*"/>
+      <match lemma="saludar" tags="vblex.*"/>
+    </def-seq>
   </def-seqs>
 
 <rules>
@@ -2235,6 +2245,71 @@
     <match tags="prn.pro.*"/>
   </rule>
 
+  <!-- es > si, se -->
+  <rule weight="0.6">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="si" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="se" tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_reflexius"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="se" tags="prn.*"/></match>
+    <match tags="vbhaver.*"/>
+    <repeat from="0" upto="1">
+      <or><match tags="preadv"/><match tags="adv"/></or>
+    </repeat>
+    <or>
+      <seq n="verbs_reflexius"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="si" tags="prn.*"/></match>
+    <match tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="si" tags="prn.*"/></match>
+    <match tags="vbhaver.*"/>
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+      <match lemma="ell" tags="prn.tn.*"/>
+    </or>
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="se" tags="prn.*"/></match>
+    <match tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+      <match lemma="ell" tags="prn.tn.*"/>
+    </or>
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="se" tags="prn.*"/></match>
+    <match tags="vbhaver.*"/>
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+
   <!-- altre > altro, un altro -->
   <rule weight="0.6">
     <match lemma="altre" tags="prn.*"><select lemma="altro" tags="prn.*"/></match>
@@ -2252,6 +2327,37 @@
   </rule>
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- prohibir > vietare, proibire, interdire -->
+  <rule weight="0.6">
+    <match lemma="prohibir" tags="vblex.*"><select lemma="vietare"/></match>
+  </rule>
+
+  <!-- convocar > convocare, indire -->
+  <rule weight="0.6">
+    <match lemma="convocar" tags="vblex.*"><select lemma="convocare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="convocar" tags="vblex.*"><select lemma="indire"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="elecció" tags="n.*"/>
+    <match lemma="manifestació" tags="n.*"/>
+    <match lemma="vaga" tags="n.*"/>
+    <match lemma="aturada" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="convocar" tags="vblex.*"><select lemma="indire"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="elecció" tags="n.*"/>
+    <match lemma="manifestació" tags="n.*"/>
+    <match lemma="vaga" tags="n.*"/>
+    <match lemma="aturada" tags="n.*"/>
+  </rule>
 
   <!-- amarar > inzuppare, macerare -->
   <rule weight="0.6">
@@ -2478,6 +2584,16 @@
   <!-- enviar > inviare, mandare -->
   <rule weight="0.6">
     <match lemma="enviar" tags="vblex.*"><select lemma="inviare"/></match>
+  </rule>
+
+  <!-- refusar > rifiutare, respingere -->
+  <rule weight="0.6">
+    <match lemma="refusar" tags="vblex.*"><select lemma="rifiutare"/></match>
+  </rule>
+
+  <!-- rebutjar > rifiutare, respingere -->
+  <rule weight="0.6">
+    <match lemma="rebutjar" tags="vblex.*"><select lemma="rifiutare"/></match>
   </rule>
 
   <!-- llançar > lanciare, gettare, sferrare -->
@@ -3432,6 +3548,11 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- bastant > abbastanza, piuttosto -->
+  <rule weight="0.6">
+     <match lemma="bastant" tags="adv"><select lemma="abbastanza"/></match>
+  </rule>
+
   <!-- no > no, non -->
   <rule weight="0.6">
      <match lemma="no" tags="adv"><select lemma="no"/></match>
@@ -3645,6 +3766,38 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- lloc > luogo, posto -->
+  <rule weight="0.6">
+    <match lemma="lloc" tags="n.*"><select lemma="luogo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="lloc" tags="n.*"><select lemma="posto"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="treball" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="lloc" tags="n.*"><select lemma="posto"/></match>
+    <match lemma="vacant" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"/>
+    <match lemma="el" tags="det.def.*"/>
+    <match lemma="lloc" tags="n.*"><select lemma="posto"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*"/>
+    <match lemma="lloc" tags="n.*"><select lemma="posto"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tenir" tags="vblex.*"/>
+      <match lemma="ocupar" tags="vblex.*"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="lloc" tags="n.*"><select lemma="posto"/></match>
+  </rule>
 
   <!-- samarreta > maglietta, canottiera, camiciola, maglia -->
   <rule weight="0.6">
@@ -4850,10 +5003,7 @@
        <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
      </or>
      <repeat from="0" upto="1">
-       <or>
-         <match tags="preadv"/>
-         <match tags="adv"/>
-       </or>
+       <or><match tags="preadv"/><match tags="adv"/></or>
      </repeat>
      <match tags="adj.*"/>
   </rule>
@@ -4896,10 +5046,7 @@
   <rule weight="1.0">
      <match lemma="paper" tags="n.*"><select lemma="ruolo"/></match>
      <repeat from="0" upto="1">
-       <or>
-         <match tags="preadv"/>
-         <match tags="adv"/>
-       </or>
+       <or><match tags="preadv"/><match tags="adv"/></or>
      </repeat>
      <match tags="adj.*"/>
   </rule>

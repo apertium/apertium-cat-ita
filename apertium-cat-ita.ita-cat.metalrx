@@ -730,6 +730,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- mossa > gest, moviment -->
+  <rule weight="0.6">
+    <match lemma="mossa" tags="n.*"><select lemma="moviment"/></match>
+  </rule>
+
   <!-- carlista > carlí, carlista -->
   <rule weight="0.6">
     <match lemma="carlista" tags="n.*"><select lemma="carlí"/></match>
@@ -1828,6 +1833,16 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- rifiutare > rebutjar, refusar -->
+  <rule weight="0.6">
+    <match lemma="rifiutare" tags="vblex.*"><select lemma="rebutjar"/></match>
+  </rule>
+
+  <!-- respingere > rebutjar, refusar -->
+  <rule weight="0.6">
+    <match lemma="respingere" tags="vblex.*"><select lemma="rebutjar"/></match>
+  </rule>
 
   <!-- macerare > macerar, amarar -->
   <rule weight="0.6">
