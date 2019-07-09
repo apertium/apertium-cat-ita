@@ -196,6 +196,9 @@
       <cat-item tags="vbhaver.inf"/>
       <cat-item tags="vbser.inf"/>
     </def-cat>
+    <def-cat n="haver_inf">
+      <cat-item tags="vbhaver.inf"/>
+    </def-cat>
 
     <def-cat n="imp">
       <cat-item tags="vblex.imp.*"/>
@@ -256,6 +259,9 @@
 
     <def-cat n="anar_pri">
        <cat-item lemma="anar" tags="vblex.pri.*"/>
+    </def-cat>
+    <def-cat n="anar_pri_p3">
+       <cat-item lemma="anar" tags="vblex.pri.p3.*"/>
     </def-cat>
     <def-cat n="fa">
       <cat-item lemma="fer" tags="vblex.pri.p3.sg"/>
@@ -508,6 +514,16 @@
       <list-item v="ser"/>
       <list-item v="quedar"/>
      </def-list>
+
+    <def-list n="verbs_reflexius">
+      <list-item v="agenollar"/>
+      <list-item v="banyar"/>
+      <list-item v="dutxar"/>
+      <list-item v="implicar"/>
+      <list-item v="pentinar"/>
+      <list-item v="rentar"/>
+      <list-item v="saludar"/>
+    </def-list>
 
     <def-list n="vbambser">
       <list-item v="accorrere"/>
@@ -3873,12 +3889,17 @@
             <test>
               <or>
                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="es"/></equal>
-                <and>
-                  <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="en"/></equal>
-                  <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="hi"/></equal>
-                </and>
+                <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="hi"/></equal>
               </or>
             </test>
+            <choose>
+              <when>
+                <test>
+                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="hi"/></equal>
+                </test>
+                <let><clip pos="2" side="tl" part="lem"/><lit v="ce"/></let>
+              </when>
+            </choose>
             <out>
               <chunk name="pronom" case="caseFirstWord">
                 <tags>
@@ -9173,6 +9194,7 @@
                  <tag><lit-tag v="SV"/></tag>
                  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
                  <tag><clip pos="2" side="tl" part="temps"/></tag>
+                 <tag><clip pos="3" side="tl" part="gen"/></tag>
                  <tag><var n="numero"/></tag>
                </tags>
                <lu>
@@ -9189,7 +9211,7 @@
                  <lit-tag v="vbser"/>
                  <clip pos="2" side="tl" part="temps"/>
                  <clip pos="2" side="tl" part="pers"/>
-                 <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+                 <clip pos="2" side="tl" part="nbr_sense_sp" link-to="5"/>
                  <clip pos="2" side="tl" part="lemq"/>
                </lu>
                <b pos="2"/>
@@ -9199,8 +9221,8 @@
                  </get-case-from>
                  <lit-tag v="vbser"/>
                  <clip pos="3" side="tl" part="temps"/>
-                 <clip pos="3" side="tl" part="gen"/>
-                 <clip pos="3" side="tl" part="nbr_sense_sp" link-to="4"/>
+                 <clip pos="3" side="tl" part="gen_sense_mf" link-to="4"/>
+                 <clip pos="3" side="tl" part="nbr_sense_sp" link-to="5"/>
                </lu>
              </chunk>
            </out>
@@ -9345,7 +9367,48 @@
      </action>
   </rule>
 
-  <rule comment="regla: anar_pri inf prnenc: vaig anar-hi > ci andai">
+  <rule comment="regla: hi va haver: hi va haver > ci fu">
+     <pattern>
+       <pattern-item n="hi"/>
+       <pattern-item n="anar_pri_p3"/>
+       <pattern-item n="haver_inf"/>
+
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="hi_ha" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><lit-tag v="vbser"/></tag>
+             <tag><lit-tag v="ifi"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <get-case-from pos="1">
+               <lit v="ci"/>
+             </get-case-from>
+             <lit-tag v="prn.pro.adv"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+               <lit v="essere"/>
+             </get-case-from>
+             <lit-tag v="vbser"/>
+             <lit-tag v="ifi"/>
+             <clip pos="2" side="tl" part="pers"/>
+             <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+           </lu>
+         </chunk>
+       </out>
+       <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+     </action>
+  </rule>
+
+  <rule comment="regla: anar_pri inf prnenc: vaig anar-hi > ci andai, va haver-hi > ci fu">
      <pattern>
        <pattern-item n="anar_pri"/>
        <pattern-item n="inf"/>
@@ -9367,6 +9430,43 @@
        <choose>
          <when>
            <test>
+             <and>
+               <equal><clip pos="2" side="sl" part="a_verb"/><lit-tag v="vbhaver"/></equal>
+               <equal caseless="yes"><clip pos="1" side="sl" part="pers"/><lit v="p3"/></equal>
+               <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
+             </and>
+           </test>
+           <out>
+             <chunk name="hi_ha" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SV"/></tag>
+                 <tag><lit-tag v="vbser"/></tag>
+                 <tag><lit-tag v="ifi"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="ci"/>
+                 </get-case-from>
+                 <lit-tag v="prn.pro.adv"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="essere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser"/>
+                 <lit-tag v="ifi"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+               </lu>
+             </chunk>
+           </out>
+         </when>
+         <otherwise>
+       <choose>
+         <when>
+           <test>
              <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
            </test>
            <let><var n="aux1"/><lit-tag v="prn.pro.adv"/></let>
@@ -9376,6 +9476,17 @@
              <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
            </test>
            <let><var n="aux1"/><lit-tag v="prn.pro.ref"/></let>
+           <choose>
+             <when>
+               <test>
+                 <in caseless="yes"><clip pos="2" side="sl" part="lem"/><list n="verbs_reflexius"/></in>
+               </test>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="se"/></let>
+             </when>
+             <otherwise>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="si"/></let>
+             </otherwise>
+           </choose>
          </when>
          <otherwise>
            <let><var n="aux1"/><lit-tag v="prn.pro"/></let>
@@ -9410,10 +9521,12 @@
              </lu>
          </chunk>
        </out>
+         </otherwise>
+       </choose>
      </action>
   </rule>
 
-  <rule comment="regla: anar_pri inf prnenc prnenc: vaig donar-n'hi > ci ne diedi">
+  <rule comment="regla: anar_pri inf prnenc prnenc: vaig donar-n'hi > ce ne diedi">
      <pattern>
        <pattern-item n="anar_pri"/>
        <pattern-item n="inf"/>
@@ -9445,6 +9558,17 @@
              <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
            </test>
            <let><var n="aux1"/><lit-tag v="prn.pro.ref"/></let>
+           <choose>
+             <when>
+               <test>
+                 <in caseless="yes"><clip pos="2" side="sl" part="lem"/><list n="verbs_reflexius"/></in>
+               </test>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="se"/></let>
+             </when>
+             <otherwise>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="si"/></let>
+             </otherwise>
+           </choose>
          </when>
          <otherwise>
            <let><var n="aux1"/><lit-tag v="prn.pro"/></let>
@@ -9462,6 +9586,7 @@
              <equal><clip pos="4" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
            </test>
            <let><var n="aux2"/><lit-tag v="prn.pro.ref"/></let>
+           <let><clip pos="4" side="tl" part="lem"/><lit v="se"/></let>
          </when>
          <otherwise>
            <let><var n="aux2"/><lit-tag v="prn.pro"/></let>
@@ -9471,13 +9596,21 @@
          <!-- en + hi: cal canviar l'ordre -->
          <when>
            <test>
-             <and>
-               <equal><clip pos="3" side="sl" part="lem"/><lit v="en"/></equal>
-               <equal><clip pos="4" side="sl" part="lem"/><lit v="hi"/></equal>
-             </and>
+             <or>
+               <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="es"/></equal>
+               <equal caseless="yes"><clip pos="4" side="sl" part="lem"/><lit v="hi"/></equal>
+             </or>
            </test>
+           <choose>
+             <when>
+               <test>
+                <equal caseless="yes"><clip pos="4" side="sl" part="lem"/><lit v="hi"/></equal>
+               </test>
+               <let><clip pos="4" side="tl" part="lem"/><lit v="ce"/></let>
+             </when>
+           </choose>
            <out>
-             <chunk name="prn_ifi" case="caseFirstWord">
+             <chunk name="prn_prn_ifi" case="caseFirstWord">
                <tags>
                  <tag><lit-tag v="SV"/></tag>
                  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -9564,8 +9697,8 @@
        <pattern-item n="final_sent"/>
      </pattern>
      <action>
-      <let> <var n="genero"/><lit v="m"/></let>
-      <let> <var n="numero"/><lit v="sg"/></let>
+      <let> <var n="genero"/><lit-tag v="m"/></let>
+      <let> <var n="numero"/><lit-tag v="sg"/></let>
       <let> <var n="EOS"/><lit v="false"/></let>
         <out>
           <chunk name="sent">
