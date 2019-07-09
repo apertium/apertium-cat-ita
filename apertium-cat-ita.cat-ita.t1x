@@ -1276,7 +1276,30 @@
     </def-macro>
     
 
-    <def-macro n="f_concord2" npar="2">
+    <def-macro n="f_concord2" npar="2"> <!-- p1: nom, p2: num (si n'hi ha un) -->
+
+      <!-- pedaç per a coses com "200.000 unità" i "tre unità" -->
+      <!--
+        ^200.000<num>/200.000<num>$ ^unità<n><f><sp>/unitat<n><f><ND>$
+        ^tre<num><mf><sp>/tres<num><mf><sp>$ ^unità<n><f><sp>/unitat<n><f><ND>$^
+      -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+              <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <or>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let><var n="numero"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
       <choose>
         <when>
           <test>
