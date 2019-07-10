@@ -3512,7 +3512,7 @@
                   <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
                 </or>
               </test>
-	      <!-- haguem el nombre del verb auxiliar -->
+	      <!-- prenem el nombre del verb auxiliar -->
               <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
             </when>
             <otherwise>
@@ -3523,6 +3523,27 @@
       </choose>
     </def-macro>
 
+    <def-macro n="vauxiliar3" npar="3"> <!-- com l'anterior, però per a dos verbs auxiliar: vaig haver ant -->
+      <call-macro n="vauxiliar">
+        <with-param pos="2"/>
+        <with-param pos="3"/>
+      </call-macro>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></equal>
+              <or>
+                <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+              </or>
+            </and>
+          </test>
+	  <!-- prenem el nombre del verb auxiliar -->
+          <let><clip pos="3" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+        </when>
+      </choose>
+    </def-macro>
 
 <def-macro n="f_vaux_anar_inf" npar="2">
    <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>
@@ -9710,6 +9731,193 @@
            </out>
           </otherwise>
         </choose>
+     </action>
+  </rule>
+
+  <rule comment="regla: anar_pri haver_inf pp: va haver dit > ebbe detto, va haver anat > fu andato">
+     <pattern>
+       <pattern-item n="anar_pri"/>
+       <pattern-item n="haver_inf"/>
+       <pattern-item n="pp"/>
+     </pattern>
+     <action>
+       <call-macro n="vauxiliar3">
+         <with-param pos="1"/>
+         <with-param pos="2"/>
+         <with-param pos="3"/>
+       </call-macro>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ifi"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/> 
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="ifi"/>
+              <clip pos="1" side="tl" part="pers"/>         
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu> 
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/> 
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  <rule comment="regla: anar_pri haver prnenc pp: va haver-li dit > gli ebbe detto, vaig haver-hi anat > ci fu andata, va haver-hi > ci fu stato">
+     <pattern>
+       <pattern-item n="anar_pri"/>
+       <pattern-item n="haver_inf"/>
+       <pattern-item n="prnenc"/>
+       <pattern-item n="pp"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <call-macro n="vauxiliar3">
+         <with-param pos="1"/>
+         <with-param pos="2"/>
+         <with-param pos="4"/>
+       </call-macro>
+       <!--
+       <call-macro n="f_set_sg1">
+         <with-param pos="1"/>
+       </call-macro>
+       -->
+       <choose>
+         <when>
+           <test>
+             <and>
+               <equal><clip pos="4" side="sl" part="a_verb"/><lit-tag v="vbhaver"/></equal>
+               <equal caseless="yes"><clip pos="1" side="sl" part="pers"/><lit v="p3"/></equal>
+               <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
+             </and>
+           </test>
+           <out>
+             <chunk name="hi_ha" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SV"/></tag>
+                 <tag><lit-tag v="vbser"/></tag>
+                 <tag><lit-tag v="ifi"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="ci"/>
+                 </get-case-from>
+                 <lit-tag v="prn.pro.adv"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="essere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser"/>
+                 <lit-tag v="ifi"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+               </lu>
+               <b pos="3"/>
+               <lu>
+                 <get-case-from pos="4">
+                   <lit v="essere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser"/>
+                 <clip pos="4" side="tl" part="temps"/>
+                 <clip pos="4" side="tl" part="gen"/>
+                 <clip pos="4" side="tl" part="nbr_sense_sp" link-to="4"/>
+               </lu>
+             </chunk>
+           </out>
+         </when>
+         <otherwise>
+       <choose>
+         <when>
+           <test>
+             <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+           </test>
+           <let><var n="aux1"/><lit-tag v="prn.pro.adv"/></let>
+         </when>
+         <when>
+           <test>
+             <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.ref"/></equal>
+           </test>
+           <let><var n="aux1"/><lit-tag v="prn.pro.ref"/></let>
+           <choose>
+             <when>
+               <test>
+                 <in caseless="yes"><clip pos="4" side="sl" part="lem"/><list n="verbs_reflexius"/></in>
+               </test>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="se"/></let>
+             </when>
+             <otherwise>
+               <let><clip pos="3" side="tl" part="lem"/><lit v="si"/></let>
+             </otherwise>
+           </choose>
+         </when>
+         <otherwise>
+           <let><var n="aux1"/><lit-tag v="prn.pro"/></let>
+         </otherwise>
+       </choose>
+       <out>
+         <chunk name="prn_ifi" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+             <tag><lit-tag v="ifi"/></tag>
+             <tag><clip pos="1" side="tl" part="pers"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="3" side="tl" part="lem"/>
+               </get-case-from>
+               <var n="aux1"/>
+               <clip pos="3" side="tl" part="pers"/>
+               <clip pos="3" side="tl" part="gen"/>
+               <clip pos="3" side="tl" part="nbr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="ifi"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="a_verb"/>
+               <clip pos="4" side="tl" part="temps"/>
+               <clip pos="4" side="tl" part="gen"/>
+               <clip pos="4" side="tl" part="nbr"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+       </out>
+         </otherwise>
+       </choose>
      </action>
   </rule>
 
