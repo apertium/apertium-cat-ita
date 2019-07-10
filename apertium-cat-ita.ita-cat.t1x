@@ -800,7 +800,7 @@
       <list-item v="Antigua e Barbuda"/>
       <list-item v="Arabia"/>
       <list-item v="Arabia Saudita"/>
-      <list-item v="Argentina"/>
+<!--      <list-item v="Argentina"/> -->
       <list-item v="Armenia"/>
       <list-item v="Australia"/>
       <list-item v="Austria"/>
@@ -817,7 +817,7 @@
       <list-item v="Bolivia"/>
       <list-item v="Borneo"/>
       <list-item v="Botswana"/>
-      <list-item v="Brasile"/>
+<!--      <list-item v="Brasile"/>  -->
       <list-item v="Gran Bretagna"/>
       <list-item v="Brunei"/>
       <list-item v="Bulgaria"/>
@@ -826,7 +826,7 @@
       <list-item v="Capo Verde"/>
       <list-item v="Nuova Caledonia"/>
       <list-item v="Camerun"/>
-      <list-item v="Canada"/>
+<!--      <list-item v="Canada"/>  -->
       <list-item v="Sulawesi"/>
 <!--      <list-item v="Ciad"/> -->
       <list-item v="Colombia"/>
@@ -933,7 +933,7 @@
       <list-item v="Panama"/>
       <list-item v="Papua"/>
       <list-item v="Paraguay"/>
-      <list-item v="Perù"/>
+<!--      <list-item v="Perù"/> -->
       <list-item v="Polonia"/>
       <list-item v="Portogallo"/>
       <list-item v="Puerto Rico"/>
@@ -946,7 +946,7 @@
       <list-item v="Santa Lucia"/>
       <list-item v="São Tomé e Príncipe"/>
       <list-item v="Saint Vincent e Grenadine"/>
-      <list-item v="Senegal"/>
+<!--      <list-item v="Senegal"/> -->
       <list-item v="Serbia"/>
       <list-item v="Nuova Siberia"/>
       <list-item v="Sierra Leone"/>
@@ -975,13 +975,13 @@
       <list-item v="Turkmenistan"/>
       <list-item v="Tuvalu"/>
       <list-item v="Cile"/>
-      <list-item v="Cina"/>
+<!--      <list-item v="Cina"/> -->
       <list-item v="Cipro"/>
       <list-item v="Ucraina"/>
       <list-item v="E.a.u."/>
       <list-item v="Uganda"/>
       <list-item v="Ungheria"/>
-      <list-item v="Uruguay"/>
+<!--      <list-item v="Uruguay"/> -->
       <list-item v="Uzbekistan"/>
       <list-item v="Vanuatu"/>
       <list-item v="Venezuela"/>
