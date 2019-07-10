@@ -9021,6 +9021,62 @@
         </action>
       </rule>
 
+   <rule comment="haver_inf + enc + pp">
+     <pattern>
+        <pattern-item n="haver_inf"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="pp"/>
+     </pattern>
+     <action>
+       <call-macro n="vauxiliar">
+         <with-param pos="1"/>
+         <with-param pos="3"/>
+       </call-macro>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="lem"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="pers"/>         
+                <clip pos="1" side="tl" part="nbr"/>
+              </lu> 
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="tipus_prn"/>
+                <clip pos="2" side="tl" part="pers"/>
+                <clip pos="2" side="tl" part="gen"/>
+                <clip pos="2" side="tl" part="nbr"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+            </mlu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/> 
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: tot ger prnenc: tot fent-ho, facendolo">
       <pattern>
         <pattern-item n="tot_adv"/>
