@@ -738,6 +738,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- passione > passió, deler -->
+  <rule weight="0.6">
+    <match lemma="passione" tags="n.*"><select lemma="passió"/></match>
+  </rule>
+
   <!-- terme > termes, balneari -->
   <rule weight="0.6">
     <match lemma="terme" tags="n.*"><select lemma="termes"/></match>

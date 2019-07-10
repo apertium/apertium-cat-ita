@@ -2328,6 +2328,9 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- retreure > rinfacciare, ritirare -->
+  <macro name="verb_nopron_pron" p1="retreure" p2="rinfacciare" p3="ritirare"/>
+
   <!-- apropar > avvicinare, approssimare -->
   <macro name="verb_nopron_pron" p1="apropar" p2="avvicinare" p3="approssimare"/>
 
