@@ -2328,6 +2328,45 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- apropar > avvicinare, approssimare -->
+  <macro name="verb_nopron_pron" p1="apropar" p2="avvicinare" p3="approssimare"/>
+
+  <!-- aproximar > avvicinare, approssimare -->
+  <macro name="verb_nopron_pron" p1="aproximar" p2="avvicinare" p3="approssimare"/>
+
+  <!-- aixecar > sollevare, alzare -->
+  <macro name="verb_nopron_pron" p1="aixecar" p2="sollevare" p3="alzare"/>
+
+  <!-- deixar > lasciare, smettere -->
+  <rule weight="0.6">
+    <match lemma="deixar" tags="vblex.*"><select lemma="lasciare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="deixar" tags="vblex.*"><select lemma="smettere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+  <!-- ordenar > ordinare (donar una ordre), riordinare (posar en ordre) -->
+  <rule weight="0.6">
+    <match lemma="ordenar" tags="vblex.*"><select lemma="ordinare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ordenar" tags="vblex.*"><select lemma="riordinare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <seq n="lloc_concret"/>
+      <seq n="lloc_abstracte"/>
+      <seq n="vestit"/>
+    </or>
+  </rule>
+
   <!-- prohibir > vietare, proibire, interdire -->
   <rule weight="0.6">
     <match lemma="prohibir" tags="vblex.*"><select lemma="vietare"/></match>
@@ -2453,7 +2492,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="vblex.inf"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
   <!-- intentar > tentare, cercare# di -->
@@ -2466,7 +2505,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="vblex.inf"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
   <!-- decidir > decidere, decidere# di -->
@@ -2479,7 +2518,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="vblex.inf"/>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
   <!-- trobar > trovare, incontrare, pensare, credere, giudicare -->
@@ -2728,11 +2767,14 @@
   <!-- guardar > conservare, guardare -->
   <macro name="verb_nopron_pron" p1="guardar" p2="conservare" p3="guardare"/>
 
-  <!-- absentar > llevare, allontanare, assentare -->
+  <!-- encarar > confrontare, scontrare -->
+  <macro name="verb_nopron_pron" p1="encarar" p2="confrontare" p3="scontrare"/>
+
+  <!-- absentar > allontanare, assentare -->
   <macro name="verb_nopron_pron" p1="absentar" p2="allontanare" p3="assentare"/>
 
-  <!-- llevar > llevare, alzare, togliere -->
-  <macro name="verb_nopron_pron" p1="llevar" p2="licenziare" p3="alzare"/>
+  <!-- llevar > levare, alzare, togliere -->
+  <macro name="verb_nopron_pron" p1="llevar" p2="levare" p3="alzare"/>
 
   <!-- llicenciar > licenziare, laureare -->
   <macro name="verb_nopron_pron" p1="llicenciar" p2="licenziare" p3="laureare"/>
@@ -3510,6 +3552,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- preparat > preparato, pronto -->
+  <rule weight="0.6">
+    <match lemma="preparat" tags="adj.*"><select lemma="preparato"/></match>
+  </rule>
+
   <!-- bo > buono, buon -->
   <rule weight="0.6">
     <match lemma="bo" tags="adj.*"><select lemma="buono"/></match>
@@ -3697,6 +3744,44 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- cria > allevamento, allevata -->
+  <rule weight="0.6">
+    <match lemma="cria" tags="n.*"><select lemma="allevamento"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.ind.*"/>
+    <match lemma="cria" tags="n.*"><select lemma="allevata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cria" tags="n.f.pl"><select lemma="allevata"/></match>
+  </rule>
+
+  <!-- oposició > opposizione, concorso -->
+  <rule weight="0.6">
+    <match lemma="oposició" tags="n.*"><select lemma="opposizione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="oposició" tags="n.f.pl"><select lemma="concorso"/></match>
+  </rule>
+
+  <!-- escó > seggio, scanno -->
+  <rule weight="0.6">
+    <match lemma="escó" tags="n.*"><select lemma="seggio"/></match>
+  </rule>
+
+  <!-- ofici > mestiere, ufficio -->
+  <rule weight="0.6">
+    <match lemma="ofici" tags="n.*"><select lemma="mestiere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="de" tags="pr"/>
+    <match lemma="ofici" tags="n.*"><select lemma="ufficio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="bo" tags="adj.*"/>
+    <match lemma="ofici" tags="n.m.pl"><select lemma="ufficio"/></match>
+  </rule>
 
   <!-- mitjà > mezzo, metà -->
   <rule weight="0.6">
@@ -4136,6 +4221,10 @@
   <!-- pinya > pigna, ananas -->
   <rule weight="0.6">
     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="pinya" tags="n.*"><select lemma="ananas"/></match>
+     <match lemma="tropical" tags="adj.*"/>
   </rule>
 
   <!-- munt > mucchio, montagna -->
@@ -4815,7 +4904,7 @@
      <match lemma="industrial" tags="adj.*"/>
   </rule>
 
-  <!-- golf > golfo, golf --> <!-- srd -->
+  <!-- golf > golfo, golf -->
   <rule weight="0.6">
      <match lemma="golf" tags="n.*"><select lemma="golfo"/></match>
   </rule>
@@ -4866,41 +4955,21 @@
      <match tags="num"/>
   </rule>
 
-  <!-- dona > fèmina, mugere --> <!-- srd -->
+  <!-- dona > donna, moglie --> <!-- srd -->
   <rule weight="0.6">
-     <match lemma="dona" tags="n.*"><select lemma="fèmina"/></match>
+     <match lemma="dona" tags="n.*"><select lemma="donna"/></match>
   </rule>
   <rule weight="1.0">
      <match tags="det.pos.*"/>
-     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
+     <match lemma="dona" tags="n.*"><select lemma="moglie"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
+     <match lemma="dona" tags="n.*"><select lemma="moglie"/></match>
      <match lemma="de" tags="pr"/>
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
   <rule weight="1.0">
-     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
-     <match lemma="de" tags="pr"/>
-     <match tags="det.def.*"/>
-     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
-  </rule>
-
-  <!-- home > òmine, maridu --> <!-- srd -->
-  <rule weight="0.6">
-     <match lemma="home" tags="n.*"><select lemma="òmine"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match tags="det.pos.*"/>
-     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
-     <match lemma="de" tags="pr"/>
-     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
+     <match lemma="dona" tags="n.*"><select lemma="moglie"/></match>
      <match lemma="de" tags="pr"/>
      <match tags="det.def.*"/>
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
@@ -5215,15 +5284,9 @@
      <match tags="np.*"/>
   </rule>
 
-  <!-- costat > costàgiu, ala --> <!-- srd -->
+  <!-- costat > lato, fianco, costato -->
   <rule weight="0.6">
-     <match lemma="costat" tags="n.*"><select lemma="costàgiu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match lemma="de" tags="pr"/><match lemma="per" tags="pr"/></or>
-     <match lemma="un" tags="det.*"/>
-     <match lemma="costat" tags="n.*"><select lemma="ala"/></match>
-     <match lemma="," tags="cm"/>
+     <match lemma="costat" tags="n.*"><select lemma="lato"/></match>
   </rule>
 
   <!-- poble > paese, popolo -->
@@ -5246,43 +5309,21 @@
      <match lemma="," tags="cm"/>
   </rule>
 
-  <!-- pinya > pigna, ananassu --> <!-- srd -->
-  <rule weight="0.6">
-     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="pinya" tags="n.*"><select lemma="ananassu"/></match>
-     <match lemma="tropical" tags="adj.*"/>
-  </rule>
-
-  <!-- lira > lira (música), francu (moneda) --> <!-- srd -->
-  <rule weight="0.6">
-     <match lemma="lira" tags="n.*"><select lemma="lira"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="num.*"/><match tags="num"/></or>
-     <match lemma="lira" tags="n.*"><select lemma="francu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="lira" tags="n.*"><select lemma="francu"/></match>
-     <match lemma="italià" tags="adj.*"/>
-  </rule>
-
-  <!-- còlera > colera, arrennegu --> <!-- srd -->
+  <!-- còlera > colera, collera -->
   <rule weight="0.6">
      <match lemma="còlera" tags="n.mf.*"><select lemma="colera"/></match>
   </rule>
   <rule weight="1.0">
      <or><match tags="det.*.f.*"/><match tags="adj.f.*"/></or>
-     <match lemma="còlera" tags="n.mf.*"><select lemma="arrennegu"/></match>
+     <match lemma="còlera" tags="n.mf.*"><select lemma="collera"/></match>
   </rule>
   <rule weight="1.0">
      <match tags="det.*.f.*"/>
      <match tags="adj.mf.*"/>
-     <match lemma="còlera" tags="n.mf.*"><select lemma="arrennegu"/></match>
+     <match lemma="còlera" tags="n.mf.*"><select lemma="collera"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="còlera" tags="n.mf.*"><select lemma="arrennegu"/></match>
+     <match lemma="còlera" tags="n.mf.*"><select lemma="collera"/></match>
      <match tags="adj.f.*"/>
   </rule>
 

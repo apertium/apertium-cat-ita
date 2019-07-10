@@ -509,9 +509,9 @@
 
 <!-- **************** ADJ **************** -->
 
-  <!-- terme > termes, balneari -->
+  <!-- pronto > preparat, prest -->
   <rule weight="0.6">
-    <match lemma="terme" tags="adj.*"><select lemma="termes"/></match>
+    <match lemma="pronto" tags="adj.*"><select lemma="preparat"/></match>
   </rule>
 
   <!-- carlista > carlí, carlista -->
@@ -737,6 +737,26 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- terme > termes, balneari -->
+  <rule weight="0.6">
+    <match lemma="terme" tags="n.*"><select lemma="termes"/></match>
+  </rule>
+
+  <!-- seggio > cadira, escó -->
+  <rule weight="0.6">
+    <match lemma="seggio" tags="n.*"><select lemma="cadira"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="seggio" tags="n.*"><select lemma="escó"/></match>
+    <match tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match tags="parlamento.*"/>
+      <match tags="senato.*"/>
+      <match tags="camera.*"/>
+    </or>
+  </rule>
 
   <!-- onore > honor, honra -->
   <rule weight="0.6">
@@ -1852,6 +1872,21 @@
 
 <!-- **************** V **************** -->
 
+  <!-- spalleggiare > donar# suport, donar# suport a -->
+  <rule weight="0.6">
+    <match lemma="spalleggiare" tags="vblex.*"><select lemma="donar# suport"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="spalleggiare" tags="vblex.*"><select lemma="donar# suport a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- rifiutare > rebutjar, refusar -->
   <rule weight="0.6">
     <match lemma="rifiutare" tags="vblex.*"><select lemma="rebutjar"/></match>
@@ -2303,6 +2338,11 @@
     <match lemma="fallir" tags="vblex.*"><select lemma="fracassar"/></match>
   </rule>
 
+  <!-- alzare > aixecar, alçar, llevar -->
+  <rule weight="0.6">
+    <match lemma="alzare" tags="vblex.*"><select lemma="aixecar"/></match>
+  </rule>
+
   <!-- nominare > nomenar, nominar -->
   <rule weight="0.6">
     <match lemma="nominare" tags="vblex.*"><select lemma="nomenar"/></match>
@@ -2317,7 +2357,10 @@
     <match lemma="da" tags="pr"/>
   </rule>
   
-  <!-- avvicinare > apropar, assemblar -->
+  <!-- approssimare > apropar, aproximar -->
+  <macro name="verb_nopron_pron" p1="approssimare" p2="aproximar" p3="apropar"/>
+  
+  <!-- avvicinare > apropar, aproximar, assemblar -->
   <!-- <macro name="verb_nopron_pron" p1="avvicinare" p2="apropar" p3="assemblar"/> -->
   <rule weight="0.6">
     <match lemma="avvicinare" tags="vblex.*"><select lemma="apropar"/></match>
@@ -2326,6 +2369,9 @@
   <!-- strappare > arrencar, trencar (+ intr: trencar) -->
   <macro name="verb_nopron_pron" p1="strappare" p2="arrencar" p3="trencar"/>
 
+  <!-- scontrare > xocar, encarar -->
+  <macro name="verb_nopron_pron" p1="scontrare" p2="xocar" p3="encarar"/>
+  
   <!-- accertare > constatar, assegurar -->
   <macro name="verb_nopron_pron" p1="accertare" p2="constatar" p3="assegurar"/>
   
@@ -2432,6 +2478,9 @@
       <match lemma="ispirare" tags="vblex.pp.*"/>
       <match lemma="abituare" tags="vblex.pp.*"/>
       <match lemma="abituato" tags="adj.*"/>
+      <match lemma="pronto" tags="adj.*"/>
+      <match lemma="preparare" tags="vblex.pp.*"/>
+      <match lemma="preparato" tags="adj.*"/>
     </or>
   </rule>
 
