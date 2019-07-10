@@ -514,7 +514,6 @@
     <match lemma="terme" tags="adj.*"><select lemma="termes"/></match>
   </rule>
 
-  <!-- buono > bo, bon -->
   <!-- carlista > carlí, carlista -->
   <rule weight="0.6">
     <match lemma="carlista" tags="adj.*"><select lemma="carlí"/></match>
@@ -623,15 +622,24 @@
 
   <!-- bello > bonic, bell -->
   <rule weight="0.6">
-    <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+    <or>
+      <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+      <match lemma="bel" tags="adj.*"><select lemma="bonic"/></match>
+    </or>
   </rule>
   <rule weight="1.0">
     <match tags="det.*"/>
-    <match lemma="bello" tags="adj.*"><select lemma="bell"/></match>
+    <or>
+      <match lemma="bello" tags="adj.*"><select lemma="bell"/></match>
+      <match lemma="bel" tags="adj.*"><select lemma="bell"/></match>
+    </or>
   </rule>
   <rule weight="1.2">
     <match tags="det.*"/>
-    <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+    <or>
+      <match lemma="bello" tags="adj.*"><select lemma="bonic"/></match>
+      <match lemma="bel" tags="adj.*"><select lemma="bonic"/></match>
+    </or>
     <match tags="n.*"/>
   </rule>
 
@@ -729,6 +737,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- onore > honor, honra -->
+  <rule weight="0.6">
+    <match lemma="onore" tags="n.*"><select lemma="honor"/></match>
+  </rule>
+
+  <!-- metà > meitat, mitjà -->
+  <rule weight="0.6">
+    <match lemma="metà" tags="n.*"><select lemma="meitat"/></match>
+  </rule>
 
   <!-- mossa > gest, moviment -->
   <rule weight="0.6">
