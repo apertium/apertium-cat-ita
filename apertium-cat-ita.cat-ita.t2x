@@ -223,6 +223,124 @@
 </action>
 </rule>
 
+    <!-- REGLES CONCORDANÇA PRÒXIMA -->
+
+    <rule comment="REGLA: SN SA">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="gen"/><lit-tag v="m"/></equal>
+              <equal><clip pos="1" part="sl_gen"/><lit-tag v="sl_f"/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" part="gen"/><lit-tag v="m"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="gen"/><lit-tag v="f"/></equal>
+              <equal><clip pos="1" part="sl_gen"/><lit-tag v="sl_m"/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" part="gen"/><lit-tag v="f"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="gen"/><lit-tag v="GD"/></equal>
+              <or>
+                <equal><clip pos="2" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="2" part="gen"/><lit-tag v="f"/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" part="gen"/><clip pos="2" part="gen"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="2" part="gen"/><lit-tag v="GD"/></equal>
+              <or>
+                <equal><clip pos="1" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="1" part="gen"/><lit-tag v="f"/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="2" part="gen"/><clip pos="1" part="gen"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+              <equal><clip pos="1" part="sl_nbr"/><lit-tag v="sl_pl"/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="nbr"/><lit-tag v="pl"/></equal>
+              <equal><clip pos="1" part="sl_nbr"/><lit-tag v="sl_sg"/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" part="nbr"/><lit-tag v="pl"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" part="nbr"/><lit-tag v="ND"/></equal>
+              <or>
+                <equal><clip pos="2" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="2" part="nbr"/><lit-tag v="pl"/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" part="nbr"/><clip pos="2" part="nbr"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="2" part="nbr"/><lit-tag v="ND"/></equal>
+              <or>
+                <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="1" part="nbr"/><lit-tag v="pl"/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="2" part="nbr"/><clip pos="1" part="nbr"/></let>
+        </when>
+      </choose>
+      <call-macro n="assigna_gen_nbr">
+        <with-param pos="1"/>
+      </call-macro>
+      <call-macro n="assigna_gen_nbr">
+        <with-param pos="2"/>
+      </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <!-- REGLAS PER L'ATRIBUT -->
 
     <rule comment="REGLA: PREP SN SV_vbser SA: aquesta regla inhibeix la concordança de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">

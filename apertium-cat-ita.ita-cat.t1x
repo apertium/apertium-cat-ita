@@ -3861,7 +3861,7 @@
       <call-macro n="f_chunk_tags_nbr"><with-param pos="1"/></call-macro>
     </def-macro>
 
-    <def-macro n="f_chunk_tags2" npar="2"> <!-- no sembla que calgui: al final no la crido, ni he provat la macro -->
+    <def-macro n="f_chunk_tags2" npar="2">
       <let><var n="genero_sl"/><lit-tag v=""/></let>
       <call-macro n="f_chunk_tags_gen"><with-param pos="1"/></call-macro>
       <let><var n="numero_sl"/><lit-tag v=""/></let>
@@ -4665,8 +4665,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
@@ -4904,8 +4905,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
