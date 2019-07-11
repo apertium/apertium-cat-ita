@@ -738,6 +738,19 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pompa > pompa, bomba -->
+  <rule weight="0.6">
+    <match lemma="pompa" tags="n.*"><select lemma="pompa"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pompa" tags="n.*"><select lemma="bomba"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <match lemma="acqua" tags="n.*"/>
+      <match lemma="benzina" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- passione > passió, deler -->
   <rule weight="0.6">
     <match lemma="passione" tags="n.*"><select lemma="passió"/></match>
@@ -3012,7 +3025,6 @@
   <macro name="noms_propis" p1="Gregorio" p2="Gregori" />
   <macro name="noms_propis" p1="Goffredo" p2="Guifré" />
   <macro name="noms_propis" p1="Guglielmo" p2="Guillem" />
-  <macro name="noms_propis" p1="Umberto" p2="Humbert" />
   <macro name="noms_propis" p1="Innocenzo" p2="Innocenci" />
   <macro name="noms_propis" p1="Isabella" p2="Isabel" />
   <macro name="noms_propis" p1="Giacomo" p2="Jaume" />
@@ -3032,6 +3044,7 @@
   <macro name="noms_propis" p1="Nicola" p2="Nicolau" />
   <macro name="noms_propis" p1="Paolo" p2="Pau" />
   <macro name="noms_propis" p1="Pietro" p2="Pere" />
+  <macro name="noms_propis" p1="Ponzio" p2="Ponç" />
   <macro name="noms_propis" p1="Rainieri" p2="Rainier" />
   <macro name="noms_propis" p1="Ramiro" p2="Ramir" />
   <macro name="noms_propis" p1="Raimondo" p2="Ramon" />
@@ -3039,6 +3052,8 @@
   <macro name="noms_propis" p1="Roberto" p2="Robert" />
   <macro name="noms_propis" p1="Ruggero" p2="Roger" />
   <macro name="noms_propis" p1="Sisto" p2="Sixt" />
+  <macro name="noms_propis" p1="Ugo" p2="Hug" />
+  <macro name="noms_propis" p1="Umberto" p2="Humbert" />
   <macro name="noms_propis" p1="Vittoria" p2="Víctòria" />
   <macro name="noms_propis" p1="Vittorio" p2="Víctor" />
   <macro name="noms_propis" p1="Vittorio Emanuele" p2="Víctor Manuel" />

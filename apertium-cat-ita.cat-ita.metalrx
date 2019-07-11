@@ -1501,16 +1501,22 @@
     </or>
   </rule>
 
-  <!-- basar-se en > basarsi si -->
+  <!-- basar-se en > basarsi su -->
   <rule weight="1.0">
-    <match lemma="basar" tags="vblex.*"/>
+    <or>
+      <match lemma="basar" tags="vblex.*"/>
+      <match lemma="fonamentar" tags="vblex.*"/>
+    </or>
     <repeat from="0" upto="1">
       <match tags="prn.enc.*"/>
     </repeat>
     <match lemma="en" tags="pr"><select lemma="su"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="basar" tags="vblex.*"/>
+    <or>
+      <match lemma="basar" tags="vblex.*"/>
+      <match lemma="fonamentar" tags="vblex.*"/>
+    </or>
     <repeat from="0" upto="1">
       <match tags="prn.enc.*"/>
     </repeat>
@@ -2328,6 +2334,12 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- desenganyar > disingannare, disilludere -->
+  <macro name="verb_nopron_pron" p1="desenganyar" p2="disingannare" p3="disilludere"/>
+
+  <!-- avergonyir > fare# vergognare, vergognare -->
+  <macro name="verb_nopron_pron" p1="avergonyir" p2="fare# vergognare" p3="vergognare"/>
+
   <!-- retreure > rinfacciare, ritirare -->
   <macro name="verb_nopron_pron" p1="retreure" p2="rinfacciare" p3="ritirare"/>
 
@@ -2339,6 +2351,30 @@
 
   <!-- aixecar > sollevare, alzare -->
   <macro name="verb_nopron_pron" p1="aixecar" p2="sollevare" p3="alzare"/>
+
+  <!-- pressionar > fare# pressione, fare# pressione su -->
+  <rule weight="0.6">
+    <match lemma="pressionar" tags="vblex.*"><select lemma="fare# pressione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pressionar" tags="vblex.*"><select lemma="fare# pressione su"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+
+  <!-- repercutir > risuonare, incidere -->
+  <rule weight="0.6">
+    <match lemma="repercutir" tags="vblex.*"><select lemma="risuonare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="repercutir" tags="vblex.*"><select lemma="incidere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="su"/></match>
+  </rule>
 
   <!-- deixar > lasciare, smettere -->
   <rule weight="0.6">
@@ -3747,6 +3783,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- bomba > bomba, pompa -->
+  <rule weight="0.6">
+    <match lemma="bomba" tags="n.*"><select lemma="bomba"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="bomba" tags="n.*"><select lemma="pompa"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="aigua" tags="n.*"/>
+  </rule>
 
   <!-- cria > allevamento, allevata -->
   <rule weight="0.6">
@@ -5702,6 +5748,7 @@
   <macro name="noms_propis" p1="Gregori" p2="Gregorio" />
   <macro name="noms_propis" p1="Guifré" p2="Goffredo" />
   <macro name="noms_propis" p1="Guillem" p2="Guglielmo" />
+  <macro name="noms_propis" p1="Hug" p2="Ugo" />
   <macro name="noms_propis" p1="Humbert" p2="Umberto" />
   <macro name="noms_propis" p1="Innocenci" p2="Innocenzo" />
   <macro name="noms_propis" p1="Isabel" p2="Isabella" />
@@ -5724,6 +5771,7 @@
   <macro name="noms_propis" p1="Nicolau" p2="Nicola" />
   <macro name="noms_propis" p1="Pau" p2="Paolo" />
   <macro name="noms_propis" p1="Pere" p2="Pietro" />
+  <macro name="noms_propis" p1="Ponç" p2="Ponzio" />
   <macro name="noms_propis" p1="Rainier" p2="Rainieri" />
   <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
   <macro name="noms_propis" p1="Ramon" p2="Raimondo" />
