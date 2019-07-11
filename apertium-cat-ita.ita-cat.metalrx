@@ -738,6 +738,19 @@
 
 <!-- **************** N **************** -->
 
+  <!-- decima > dècima, delme -->
+  <rule weight="0.6">
+    <match lemma="decima" tags="n.*"><select lemma="dècima"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pagare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="decima" tags="n.*"><select lemma="delme"/></match>
+  </rule>
+
   <!-- pompa > pompa, bomba -->
   <rule weight="0.6">
     <match lemma="pompa" tags="n.*"><select lemma="pompa"/></match>

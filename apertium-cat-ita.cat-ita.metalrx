@@ -1500,6 +1500,13 @@
       <match lemma="escenari" tags="n.*"/>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.inf"/>
+  </rule>
 
   <!-- basar-se en > basarsi su -->
   <rule weight="1.0">
@@ -3783,6 +3790,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- aplec > raduno, adunanza -->
+  <rule weight="0.6">
+    <match lemma="aplec" tags="n.*"><select lemma="raduno"/></match>
+  </rule>
+
+  <!-- guix > gesso, gessetto -->
+  <rule weight="0.6">
+    <match lemma="guix" tags="n.*"><select lemma="gesso"/></match>
+  </rule>
 
   <!-- bomba > bomba, pompa -->
   <rule weight="0.6">
