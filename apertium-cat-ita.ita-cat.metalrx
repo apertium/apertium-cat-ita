@@ -1903,6 +1903,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- stare > estar, etc. -->
+  <rule weight="0.6">
+    <match lemma="stare" tags="vblex.*"><select lemma="estar"/></match>
+  </rule>
+
   <!-- spalleggiare > donar# suport, donar# suport a -->
   <rule weight="0.6">
     <match lemma="spalleggiare" tags="vblex.*"><select lemma="donar# suport"/></match>

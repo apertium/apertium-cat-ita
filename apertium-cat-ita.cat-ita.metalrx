@@ -2780,11 +2780,11 @@
     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
   <rule weight="1.0">
-    <match lemma="estar" tags="vblex.*"><select lemma="andare"/></match>
+    <match lemma="estar" tags="vblex.*"><select lemma="stare"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="vblex.ger"/>
+    <or><match tags="vblex.ger"/><match tags="vbmod.ger"/><match tags="vbhaver.ger"/><match tags="vbser.ger"/></or>
   </rule>
 
   <!-- estimar > amare, stimare -->
