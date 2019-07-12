@@ -788,7 +788,7 @@
       <list-item v="variare"/>
     </def-list>
 
-    <def-list n="paisos_regions">
+    <def-list n="paisos_regions"> <!-- per a treure un article si el porten -->
       <list-item v="Europa"/>
       <list-item v="Asia"/>
       <list-item v="Africa"/>
@@ -797,6 +797,10 @@
       <list-item v="America Centrale"/>
       <list-item v="America del Nord"/>
       <list-item v="America del Sud"/>
+      <list-item v="Nord America"/>
+      <list-item v="Nord-America"/>
+      <list-item v="Sud America"/>
+      <list-item v="Sud-America"/>
       <list-item v="Oceania"/>
       <list-item v="Scandinavia"/>
       <list-item v="Afganistan"/>
@@ -906,6 +910,8 @@
       <list-item v="Lituania"/>
       <list-item v="Lussemburgo"/>
       <list-item v="Luzon"/>
+      <list-item v="Macedonia"/>
+      <list-item v="Macedonia del Nord"/>
       <list-item v="Madagascar"/>
       <list-item v="Malesia"/>
       <list-item v="Malawi"/>
@@ -1017,6 +1023,7 @@
       <list-item v="Sicilia"/>
       <list-item v="Sardegna"/>
       <list-item v="Catalogna"/>
+<!--      <list-item v="Catalogna del Nord"/> -->
       <list-item v="Aragona"/>
       <list-item v="Castiglia"/>
       <list-item v="Andalusia"/>
