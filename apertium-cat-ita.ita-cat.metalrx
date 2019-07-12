@@ -814,9 +814,50 @@
     <match lemma="maglia" tags="n.*"><select lemma="samarreta"/></match>
   </rule>
 
+  <!-- frate > frare -->
+  <rule weight="0.6">
+    <match lemma="frate" tags="n.*"><select lemma="frare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="frate" tags="n.*"><select lemma="fra"/></match>
+    <match tags="np.ant.*"/>
+  </rule>
+
   <!-- cannoniere > canoner, golejador -->
   <rule weight="0.6">
     <match lemma="cannoniere" tags="n.*"><select lemma="canoner"/></match>
+  </rule>
+
+  <!-- gallo > gall, gal -->
+  <rule weight="0.6">
+    <match lemma="gallo" tags="n.*"><select lemma="gall"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="gallo" tags="n.m.pl"><select lemma="gal"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="gallo" tags="n.m.pl"><select lemma="gall"/></match>
+  </rule>
+
+  <!-- matrimonio > casament, matrimoni -->
+  <rule weight="0.6">
+    <match lemma="matrimonio" tags="n.*"><select lemma="casament"/></match>
+  </rule>
+
+  <!-- nozze > casament, noces, boda -->
+  <rule weight="0.6">
+    <match lemma="nozze" tags="n.*"><select lemma="casament"/></match>
+  </rule>
+
+  <!-- pellegrino > pelegrí, peregrí, etc. -->
+  <rule weight="0.6">
+    <match lemma="pellegrino" tags="n.*"><select lemma="pelegrí"/></match>
+  </rule>
+
+  <!-- pellegrinaggio > pelegrinatge, peregrinatge, etc. -->
+  <rule weight="0.6">
+    <match lemma="pellegrinaggio" tags="n.*"><select lemma="pelegrinatge"/></match>
   </rule>
 
   <!-- foro > fòrum, forat, etc. -->
@@ -1902,6 +1943,14 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- rovinare > espatllar, arruïnar -->
+  <macro name="verb_nopron_pron" p1="rovinare" p2="espatllar" p3="arruïnar"/>
+  
+  <!-- pellegrinare > pelegrinar, peregrinar -->
+  <rule weight="0.6">
+    <match lemma="pellegrinare" tags="vblex.*"><select lemma="pelegrinar"/></match>
+  </rule>
 
   <!-- stare > estar, etc. -->
   <rule weight="0.6">

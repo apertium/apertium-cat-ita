@@ -2341,6 +2341,12 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- espatllar > rovinare, guastar -->
+  <macro name="verb_nopron_pron" p1="espatllar" p2="rovinare" p3="guastar"/>
+
+  <!-- fer# malbé > rovinare, guastar -->
+  <macro name="verb_nopron_pron" p1="fer# malbé" p2="rovinare" p3="guastar"/>
+
   <!-- desenganyar > disingannare, disilludere -->
   <macro name="verb_nopron_pron" p1="desenganyar" p2="disingannare" p3="disilludere"/>
 
@@ -3791,6 +3797,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- fiador > sicura, garante -->
+  <rule weight="0.6">
+    <match lemma="fiador" tags="n.*"><select lemma="sicura"/></match>
+  </rule>
+
   <!-- aplec > raduno, adunanza -->
   <rule weight="0.6">
     <match lemma="aplec" tags="n.*"><select lemma="raduno"/></match>
@@ -4110,6 +4121,18 @@
   <rule weight="0.6">
     <match lemma="front" tags="n.*"><select lemma="fronte" tags="n.m.*"/></match>
   </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tocar" tags="vblex.*"/>
+      <match lemma="acariciar" tags="vblex.*"/>
+      <match lemma="picar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="front" tags="n.*"><select lemma="fronte" tags="n.f.*"/></match>
+  </rule>
 
   <!-- avançament > avanzata, anticipo, sorpasso -->
   <rule weight="0.6">
@@ -4289,8 +4312,8 @@
     <match lemma="pinya" tags="n.*"><select lemma="pigna"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="pinya" tags="n.*"><select lemma="ananas"/></match>
-     <match lemma="tropical" tags="adj.*"/>
+    <match lemma="pinya" tags="n.*"><select lemma="ananas"/></match>
+    <match lemma="tropical" tags="adj.*"/>
   </rule>
 
   <!-- munt > mucchio, montagna -->
@@ -4298,13 +4321,16 @@
     <match lemma="munt" tags="n.*"><select lemma="mucchio"/></match>
   </rule>
   <rule weight="1.0">
-     <match tags="det.def.*"/>
+    <match tags="det.def.*"/>
     <match lemma="munt" tags="n.*"><select lemma="montagna"/></match>
   </rule>
 
   <!-- escuma > schiuma, spuma -->
   <rule weight="0.6">
-    <match lemma="escuma" tags="n.*"><select lemma="schiuma"/></match>
+    <or>
+      <match lemma="escuma" tags="n.*"><select lemma="schiuma"/></match>
+      <match lemma="espuma" tags="n.*"><select lemma="schiuma"/></match>
+    </or>
   </rule>
 
   <!-- espuma > spuma, schiuma -->
@@ -4340,6 +4366,21 @@
     </or>
   </rule>
 
+  <!-- estructura > struttura, compagine -->
+  <rule weight="0.6">
+    <match lemma="estructura" tags="n.*"><select lemma="struttura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estructura" tags="n.*"><select lemma="compagine"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="def.*"/>
+    <match lemma="stato" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estructura" tags="n.*"><select lemma="compagine"/></match>
+    <match lemma="ossi" tags="adj.*"/>
+  </rule>
+
   <!-- font > fonte, fontana -->
   <rule weight="0.6">
     <match lemma="font" tags="n.*"><select lemma="fonte"/></match>
@@ -4348,6 +4389,21 @@
     <match lemma="font" tags="n.*"><select lemma="fontana"/></match>
     <match lemma="de" tags="pr"/>
     <match tags="np.*"/>
+  </rule>
+
+  <!-- cap# de setmana > fine settimana, weekend -->
+  <rule weight="0.6">
+    <match lemma="cap# de setmana" tags="n.*"><select lemma="fine settimana"/></match>
+  </rule>
+
+  <!-- rap > navone, napo, ravizzone -->
+  <rule weight="0.6">
+    <match lemma="rap" tags="n.*"><select lemma="navone"/></match>
+  </rule>
+
+  <!-- piga > lentiggine, neo -->
+  <rule weight="0.6">
+    <match lemma="piga" tags="n.*"><select lemma="lentiggine"/></match>
   </rule>
 
   <!-- implantació > instaurazione, impianto -->
@@ -4364,15 +4420,58 @@
   <rule weight="0.6">
     <match lemma="morter" tags="n.*"><select lemma="mortaio"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="morter" tags="n.*"><select lemma="malta"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="calç" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="morter" tags="n.*"><select lemma="malta"/></match>
+    <or>
+      <match lemma="gras" tags="adj.*"/>
+      <match lemma="magre" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- barra > barra, sbarra, sbarretta -->
+  <rule weight="0.6">
+    <match lemma="barra" tags="n.*"><select lemma="barra"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="barra" tags="n.*"><select lemma="sbarra"/></match>
+    <match lemma="fix" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="barra" tags="n.*"><select lemma="sbarra"/></match>
+  </rule>
 
   <!-- falla > faglia, mancanza -->
   <rule weight="0.6">
     <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
   </rule>
 
+  <!-- casament > matrimonio, nozze, etc. -->
+  <rule weight="0.6">
+    <match lemma="casament" tags="n.*"><select lemma="matrimonio"/></match>
+  </rule>
+
+  <!-- matrimoni > matrimonio, sposo pl -->
+  <rule weight="0.6">
+    <match lemma="matrimoni" tags="n.*"><select lemma="matrimonio"/></match>
+  </rule>
+
   <!-- cultiu > coltura, coltivazione -->
   <rule weight="0.6">
     <match lemma="cultiu" tags="n.*"><select lemma="coltura"/></match>
+  </rule>
+
+  <!-- cabal > portata, soldi -->
+  <rule weight="0.6">
+    <match lemma="cabal" tags="n.*"><select lemma="portata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cabal" tags="n.m.pl"><select lemma="soldi"/></match>
   </rule>
 
   <!-- dictamen > opinione, dettame -->
