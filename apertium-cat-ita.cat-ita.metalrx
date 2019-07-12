@@ -128,6 +128,7 @@
            <match lemma="comte" tags="n.*"/>
            <match lemma="vescomte" tags="n.*"/>
            <match lemma="duc" tags="n.*"/>
+           <match lemma="gran duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
            <match lemma="marcgravi" tags="n.*"/>
@@ -157,6 +158,7 @@
            <match lemma="comte" tags="n.*"/>
            <match lemma="vescomte" tags="n.*"/>
            <match lemma="duc" tags="n.*"/>
+           <match lemma="gran duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
            <match lemma="marcgravi" tags="n.*"/>
@@ -189,6 +191,7 @@
            <match lemma="comte" tags="n.*"/>
            <match lemma="vescomte" tags="n.*"/>
            <match lemma="duc" tags="n.*"/>
+           <match lemma="gran duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
            <match lemma="marcgravi" tags="n.*"/>
@@ -220,6 +223,7 @@
            <match lemma="comte" tags="n.*"/>
            <match lemma="vescomte" tags="n.*"/>
            <match lemma="duc" tags="n.*"/>
+           <match lemma="gran duc" tags="n.*"/>
            <match lemma="arxiduc" tags="n.*"/>
            <match lemma="marquès" tags="n.*"/>
            <match lemma="marcgravi" tags="n.*"/>
@@ -1086,6 +1090,9 @@
       <match lemma="emperador" tags="n.*"/>
       <match lemma="rei" tags="n.*"/>
       <match lemma="tsar" tags="n.*"/>
+      <match lemma="califa" tags="n.*"/>
+      <match lemma="sultà" tags="n.*"/>
+      <match lemma="emir" tags="n.*"/>
       <match lemma="virrei" tags="n.*"/>
       <match lemma="regent" tags="n.*"/>
       <match lemma="príncep" tags="n.*"/>
@@ -1094,6 +1101,7 @@
       <match lemma="comte" tags="n.*"/>
       <match lemma="vescomte" tags="n.*"/>
       <match lemma="duc" tags="n.*"/>
+      <match lemma="gran duc" tags="n.*"/>
       <match lemma="arxiduc" tags="n.*"/>
       <match lemma="marquès" tags="n.*"/>
       <match lemma="marcgravi" tags="n.*"/>
@@ -2341,6 +2349,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- celebrar > tenere, celebrare -->
+  <rule weight="0.6">
+    <match lemma="celebrar" tags="vblex.*"><select lemma="tenere"/></match>
+  </rule>
+
   <!-- espatllar > rovinare, guastar -->
   <macro name="verb_nopron_pron" p1="espatllar" p2="rovinare" p3="guastar"/>
 
@@ -3546,6 +3559,11 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- com > così, tanto -->
+  <rule weight="0.6">
+     <match lemma="com" tags="adv"><select lemma="così"/></match>
+  </rule>
+
   <!-- bastant > abbastanza, piuttosto -->
   <rule weight="0.6">
      <match lemma="bastant" tags="adv"><select lemma="abbastanza"/></match>
@@ -3607,6 +3625,32 @@
   <!-- preparat > preparato, pronto -->
   <rule weight="0.6">
     <match lemma="preparat" tags="adj.*"><select lemma="preparato"/></match>
+  </rule>
+
+  <!-- proper > prossimo, vicino -->
+  <rule weight="0.6">
+    <match lemma="proper" tags="adj.*"><select lemma="vicino"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="proper" tags="adj.*"><select lemma="prossimo"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="proper" tags="adj.*"><select lemma="vicino"/></match>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+
+  <!-- pròxim > prossimo, vicino -->
+  <rule weight="0.6">
+    <match lemma="pròxim" tags="adj.*"><select lemma="prossimo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="n.*"/>
+    <match lemma="pròxim" tags="adj.*"><select lemma="vicino"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="pròxim" tags="adj.*"><select lemma="vicino"/></match>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <!-- bo > buono, buon -->
@@ -3796,6 +3840,28 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- llaç > laccio, nastro -->
+  <rule weight="0.6">
+    <match lemma="llaç" tags="n.*"><select lemma="laccio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="llaç" tags="n.*"><select lemma="nastro"/></match>
+    <or>
+      <match lemma="solidari" tags="adj.*"/>
+      <match lemma="groc" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- casal > casale, casato -->
+  <rule weight="0.6">
+    <match lemma="casal" tags="n.*"><select lemma="casale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="casal" tags="n.*"><select lemma="casato"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
 
   <!-- fiador > sicura, garante -->
   <rule weight="0.6">
@@ -5592,6 +5658,38 @@
   </rule>
   <rule weight="1.2">
      <match lemma="got" tags="n.*"><select lemma="goto"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
+  </rule>
+
+  <!-- compromís > impegno, compromesso -->
+  <rule weight="0.6">
+     <match lemma="compromís" tags="n.*"><select lemma="impegno"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="arribar" tags="vblex.*"/>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <or><match tags="adj.*"/><match tags="vblex.pp.*"/></or>
+    </repeat>
+     <match lemma="compromís" tags="n.*"><select lemma="compromesso"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="aconseguir" tags="vblex.*"/>
+       <match lemma="assolir" tags="vblex.*"/>
+       <match lemma="discutir" tags="vblex.*"/>
+       <match lemma="negociar" tags="vblex.*"/>
+     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+     <match tags="det.*"/>
+     <match lemma="compromís" tags="n.*"><select lemma="compromesso"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="compromís" tags="n.*"><select lemma="compromesso"/></match>
      <match lemma="de" tags="pr"/>
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>

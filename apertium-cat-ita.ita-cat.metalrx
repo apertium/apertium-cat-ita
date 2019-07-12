@@ -137,6 +137,7 @@
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
@@ -163,6 +164,7 @@
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
@@ -192,6 +194,7 @@
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
@@ -220,6 +223,7 @@
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
            <match lemma="marquese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
@@ -716,9 +720,30 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- quanto > quant, com -->
+  <rule weight="0.6">
+    <match lemma="quanto" tags="adv"><select lemma="quant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tanto" tags="adj.*"/>
+    <match tags="n.*"/>
+    <match lemma="quanto" tags="adv"><select lemma="com"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tanto" tags="preadv"/>
+      <match lemma="tanto" tags="adv"/>
+    </or>
+    <or>
+      <match tags="adj.*"/>
+    <match tags="adv"/>
+    </or>
+    <match lemma="quanto" tags="adv"><select lemma="com"/></match>
+  </rule>
+
   <!-- a vicenda > per torns, recíprocament -->
   <rule weight="0.6">
-    <match lemma="a vicenda" tags="adv.*"><select lemma="per torns"/></match>
+    <match lemma="a vicenda" tags="adv"><select lemma="per torns"/></match>
   </rule>
 
   <!-- dove > on, a on -->
@@ -728,15 +753,20 @@
 
   <!-- subito > de seguida, immediatament -->
   <rule weight="0.6">
-    <match lemma="subito" tags="adv.*"><select lemma="de seguida"/></match>
+    <match lemma="subito" tags="adv"><select lemma="de seguida"/></match>
   </rule>
 
   <!-- sregolatamente > desordenadament, etc. -->
   <rule weight="0.6">
-    <match lemma="sregolatamente" tags="adv.*"><select lemma="desordenadament"/></match>
+    <match lemma="sregolatamente" tags="adv"><select lemma="desordenadament"/></match>
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- nastro > cinta, llaç -->
+  <rule weight="0.6">
+    <match lemma="nastro" tags="n.*"><select lemma="cinta"/></match>
+  </rule>
 
   <!-- decima > dècima, delme -->
   <rule weight="0.6">
@@ -1944,12 +1974,17 @@
 
 <!-- **************** V **************** -->
 
+  <!-- tenere > tenir, celebrar, etc. -->
+  <rule weight="0.6">
+    <match lemma="tenere" tags="vblex.*"><select lemma="tenir"/></match>
+  </rule>
+
   <!-- rovinare > espatllar, arruïnar -->
   <macro name="verb_nopron_pron" p1="rovinare" p2="espatllar" p3="arruïnar"/>
   
-  <!-- pellegrinare > pelegrinar, peregrinar -->
+  <!-- pellegrinare > peregrinar, pelegrinar -->
   <rule weight="0.6">
-    <match lemma="pellegrinare" tags="vblex.*"><select lemma="pelegrinar"/></match>
+    <match lemma="pellegrinare" tags="vblex.*"><select lemma="peregrinar"/></match>
   </rule>
 
   <!-- stare > estar, etc. -->
