@@ -4718,9 +4718,9 @@
     </rule>
 
 
-    <rule comment="REGLA: DET TOP">
+    <rule comment="REGLA: DET TOP: un'Italia > una Itàlia">
       <pattern>
-        <pattern-item n="det_def"/>
+        <pattern-item n="det"/>
         <pattern-item n="top"/>
       </pattern>
       <action>
@@ -4737,10 +4737,13 @@
         <choose>
           <when>
             <test>
-              <in>
-                <clip pos="2" side="sl" part="lem"/>
-                <list n="paisos_regions"/>
-              </in>
+              <and>
+                <equal><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.def"/></equal>
+                <in>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <list n="paisos_regions"/>
+                </in>
+              </and>
             </test>
             <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
             <out>
