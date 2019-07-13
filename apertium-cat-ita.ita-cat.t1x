@@ -4635,10 +4635,8 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_det"/>
-              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
-              <clip pos="2" side="tl" part="gen_mf"/>         
-              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
-              <clip pos="2" side="tl" part="nbr_sp"/>         
+              <clip pos="2" side="tl" part="gen"/>         
+              <clip pos="2" side="tl" part="nbr"/>         
             </lu>
             <b pos="2"/>
             <lu>
