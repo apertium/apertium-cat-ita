@@ -345,6 +345,70 @@
       </rule>
     </def-macro>
 
+    <!-- Aquesta macro és com l'anterior però només tria el verb pronominal si segueix un np -->
+    <!-- p1 = verb cat, p2 = verb ita no pron, p3 = verb ita pron -->
+    <def-macro name="verb_nopron_pron_np">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.sg"/>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.sg"/>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match tags="prn.enc.ref.p3.*.sp"/>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.pl"/>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match tags="np.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.pl"/>
+        <match tags="np.*"/>
+      </rule>
+    </def-macro>
+
   </def-macros>
 
   <def-seqs>
@@ -2354,6 +2418,9 @@
     <match lemma="celebrar" tags="vblex.*"><select lemma="tenere"/></match>
   </rule>
 
+  <!-- dir > dire, chiamare -->
+  <macro name="verb_nopron_pron_np" p1="dir" p2="dire" p3="chiamare"/>
+
   <!-- espatllar > rovinare, guastar -->
   <macro name="verb_nopron_pron" p1="espatllar" p2="rovinare" p3="guastar"/>
 
@@ -3840,6 +3907,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- conca > conca, bacino -->
+  <rule weight="0.6">
+    <match lemma="conca" tags="n.*"><select lemma="conca"/></match>
+  </rule>
 
   <!-- llaç > laccio, nastro -->
   <rule weight="0.6">

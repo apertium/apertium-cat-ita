@@ -763,6 +763,16 @@
 
 <!-- **************** N **************** -->
 
+  <!-- bacino > embassament, conca -->
+  <rule weight="0.6">
+    <match lemma="bacino" tags="n.*"><select lemma="embassament"/></match>
+  </rule>
+
+  <!-- asta > subhasta, asta -->
+  <rule weight="0.6">
+    <match lemma="asta" tags="n.*"><select lemma="subhasta"/></match>
+  </rule>
+
   <!-- nastro > cinta, llaç -->
   <rule weight="0.6">
     <match lemma="nastro" tags="n.*"><select lemma="cinta"/></match>
@@ -1435,6 +1445,14 @@
       <match lemma="scacchi" tags="n.*"/>
       <match lemma="domino" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="partita" tags="n.*"><select lemma="partida"/></match>
+    <match tags="pr"/>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <or><match tags="num"/><match tags="num.*"/></or>
   </rule>
 
   <!-- scherzo > broma, scherzo -->
@@ -2772,6 +2790,15 @@
     <match lemma="da" tags="pr"><select lemma="a" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
+<!-- VERIFY: regla dubtosa
+  <rule weight="1.0">
+    <match lemma="da" tags="pr"><select lemma="per"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+-->
   <rule weight="1.0">
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
     <repeat from="0" upto="1">
