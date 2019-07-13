@@ -1073,6 +1073,8 @@
       <list-item v="Biscaglia"/>
       <list-item v="Bretagna"/>
       <list-item v="Occitania"/>
+      <list-item v="Linguadoca"/>
+      <list-item v="Provenza"/>
       <list-item v="Aquitania"/>
       <list-item v="Guascogna"/>
       <list-item v="Normandia"/>
@@ -4072,7 +4074,9 @@
                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
                 </tags>
                 <lu>
-                  <clip pos="2" side="tl" part="lemh"/>
+                  <get-case-from pos="1">
+                    <clip pos="2" side="tl" part="lemh"/>
+                  </get-case-from>
                   <clip pos="2" side="tl" part="tipus_prn"/>
                   <clip pos="2" side="tl" part="pers"/>
                   <clip pos="2" side="tl" part="gen"/>
@@ -4090,7 +4094,9 @@
                   <tag><clip pos="1" side="tl" part="nbr"/></tag>
                 </tags>
                 <lu>
-                  <clip pos="1" side="tl" part="lemh"/>
+                  <get-case-from pos="2">
+                    <clip pos="1" side="tl" part="lemh"/>
+                  </get-case-from>
                   <clip pos="1" side="tl" part="tipus_prn"/>
                   <clip pos="1" side="tl" part="pers"/>
                   <clip pos="1" side="tl" part="gen"/>
