@@ -2413,6 +2413,54 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- parar > fermare, parare, smettere, preparare, accostare, etc. -->
+  <rule weight="0.6">
+    <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parar" tags="vblex.*"><select lemma="parare"/></match>
+    <match tags="det.*"/>
+    <match lemma="pilota" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="anar" tags="vblex.*"/>
+    <match lemma="a" tags="pr"/>
+    <match lemma="parar" tags="vblex.*"><select lemma="parare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parar" tags="vblex.*"><select lemma="smettere"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parar" tags="vblex.*"><select lemma="preparare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="taula" tags="n.*"/>
+      <match lemma="llit" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parar" tags="vblex.*"><select lemma="accostare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="mà" tags="n.*"/>
+      <match lemma="cistell" tags="n.*"/>
+      <match lemma="bossa" tags="n.*"/>
+      <match lemma="davantal" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- aturar > fermare, arrestare -->
+  <rule weight="0.6">
+    <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
+  </rule>
+
   <!-- tranquil·litzar > tranquillizzare, tranquillare -->
   <rule weight="0.6">
     <match lemma="tranquil·litzar" tags="vblex.*"><select lemma="tranquillizzare"/></match>
@@ -3939,6 +3987,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- carrer > via, strada -->
+  <rule weight="0.6">
+    <match lemma="carrer" tags="n.*"><select lemma="via"/></match>
+  </rule>
+
+  <!-- direcció > direzione, indirizzo -->
+  <rule weight="0.6">
+    <match lemma="direcció" tags="n.*"><select lemma="direzione"/></match>
+  </rule>
 
   <!-- tràfic > traffico, spaccio -->
   <rule weight="0.6">

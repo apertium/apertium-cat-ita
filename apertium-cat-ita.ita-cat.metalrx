@@ -413,6 +413,26 @@
       <match lemma="banca" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="bevanda">
+      <match lemma="acqua" tags="n.*"/>
+      <match lemma="caffè" tags="n.*"/>
+      <match lemma="te" tags="n.*"/>
+      <match lemma="frullato" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="cibo">
+      <match lemma="carne" tags="n.*"/>
+      <match lemma="pesce" tags="n.*"/>
+      <match lemma="pasta" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="gelato" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="medicina">
+      <match lemma="medicina" tags="n.*"/>
+      <match lemma="compressa" tags="n.*"/>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
@@ -512,6 +532,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- fosc > scuro, buio -->
+  <rule weight="0.6">
+    <match lemma="fosc" tags="adj.*"><select lemma="scuro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="segle" tags="n.*"/>
+    <match lemma="fosc" tags="adj.*"><select lemma="buio"/></match>
+  </rule>
 
   <!-- diverso > divers, diferent -->
   <rule weight="0.6">
@@ -685,6 +714,10 @@
   <rule weight="0.6">
     <match lemma="intero" tags="adj.*"><select lemma="sencer"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="intero" tags="adj.*"><select lemma="enter"/></match>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- mercantile > mercantil, mercant -->
   <rule weight="0.6">
@@ -771,6 +804,25 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- numero > nombre, numero -->
+  <rule weight="0.6">
+    <match lemma="numero" tags="n.*"><select lemma="nombre"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="numero" tags="n.*"><select lemma="numero"/></match>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+      <match lemma="pi"/>
+      <match lemma="e"/>
+    </or>
+  </rule>
+
+  <!-- gola > gola, gorja, congost, canyó -->
+  <rule weight="0.8">
+    <match lemma="gola" tags="n.*"><select lemma="gola"/></match>
+  </rule>
 
   <!-- spaccio > tràfic, botiga -->
   <rule weight="0.8">
@@ -1449,6 +1501,27 @@
      <match lemma="pollice" tags="n.m.pl"><select lemma="polzada"/></match>
   </rule>
 
+  <!-- via > carrer, via, ruta -->
+  <rule weight="0.6">
+    <match lemma="via" tags="n.*"><select lemma="carrer"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="via" tags="n.*"><select lemma="via"/></match>
+    <or>
+      <match lemma="aereo" tags="adj.*"/>
+      <match lemma="regolamentare" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- strada > carretera, carrer, camí -->
+  <rule weight="0.6">
+    <match lemma="strada" tags="n.*"><select lemma="carretera"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="strada" tags="n.*"><select lemma="carrer"/></match>
+    <match tags="np.*"/>
+  </rule>
+
   <!-- tratto > tret, tram, traç, tracte -->
   <rule weight="0.6">
     <match lemma="tratto" tags="n.*"><select lemma="tret"/></match>
@@ -2112,6 +2185,45 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- arrestare > aturar, parar, arrestar -->
+  <rule weight="0.6">
+    <match lemma="arrestare" tags="vblex.*"><select lemma="aturar"/></match>
+  </rule>
+
+  <!-- prendere > agafar, prendre -->
+  <rule weight="0.6">
+    <match lemma="prendere" tags="vblex.*"><select lemma="agafar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"><select lemma="prendre"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="potere" tags="n.*"/>
+      <match lemma="controllo" tags="n.*"/>
+      <match lemma="decisione" tags="n.*"/>
+      <seq n="bevanda"/>
+      <seq n="cibo"/>
+      <seq n="medicina"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"><select lemma="prendre"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="potere" tags="n.*"/>
+      <match lemma="controllo" tags="n.*"/>
+      <match lemma="decisione" tags="n.*"/>
+      <seq n="bevanda"/>
+      <seq n="cibo"/>
+      <seq n="medicina"/>
+    </or>
+  </rule>
 
   <!-- reggere > aguantar, regir -->
   <rule weight="0.6">
