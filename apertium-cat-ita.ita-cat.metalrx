@@ -513,6 +513,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- diverso > divers, diferent -->
+  <rule weight="0.6">
+    <match lemma="diverso" tags="adj.*"><select lemma="divers"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="diverso" tags="adj.*"><select lemma="diferent"/></match>
+    <match lemma="da" tags="pr"/>
+  </rule>
+
   <!-- pronto > preparat, prest -->
   <rule weight="0.6">
     <match lemma="pronto" tags="adj.*"><select lemma="preparat"/></match>
@@ -762,6 +771,118 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- spaccio > tràfic, botiga -->
+  <rule weight="0.8">
+    <match lemma="spaccio" tags="n.*"><select lemma="tràfic"/></match>
+  </rule>
+
+  <!-- escursione > excursió, oscil·lació -->
+  <rule weight="0.8">
+    <match lemma="escursione" tags="n.*"><select lemma="excursió"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escursione" tags="n.*"><select lemma="oscil·lació"/></match>
+    <match lemma="termico" tags="adj.*"/>
+  </rule>
+
+  <!-- schermo > pantalla, monitor -->
+  <rule weight="0.8">
+    <match lemma="schermo" tags="n.*"><select lemma="pantalla"/></match>
+  </rule>
+
+  <!-- accompagnatore > acompanyant, guia -->
+  <rule weight="0.8">
+    <match lemma="accompagnatore" tags="n.f.*"><select lemma="acompanyant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="accompagnatore" tags="n.*"><select lemma="guia"/></match>
+    <match lemma="turistico" tags="adj.*"/>
+  </rule>
+
+  <!-- corso > cursa, passeig, curs, cors -->
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.f.*"><select lemma="cursa"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.sg"><select lemma="passeig"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.pl"><select lemma="cors"/></match>
+  </rule>
+  <rule weight="1.8">
+    <match lemma="corso" tags="n.m.*"><select lemma="passeig"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="cors"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="di" tags="pr"/>
+      <match lemma="in" tags="pr"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match tags="det.def.*"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+    <or>
+      <match lemma="superiore" tags="adj.*"/>
+      <match lemma="inferiore" tags="adj.*"/>
+      <match lemma="medio" tags="adj.*"/>
+      <match lemma="elementale" tags="adj.*"/>
+      <match lemma="spezializzato" tags="adj.*"/>
+      <match lemma="spezializzare" tags="vblex.pp.*"/>
+      <match lemma="universitario" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="lavoro" tags="n.*"/>
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.sg"><select lemma="curs"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="deviare" tags="vblex.*"/>
+      <match lemma="frequentare" tags="vblex.*"/>
+      <match lemma="seguire" tags="vblex.*"/>
+      <match lemma="fare" tags="vblex.*"/>
+      <match lemma="offrire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+  </rule>
+  <rule weight="1.2">
+      <match lemma="iscrivere" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
+  </rule>
 
   <!-- bacino > embassament, conca -->
   <rule weight="0.6">
@@ -1992,6 +2113,48 @@
 
 <!-- **************** V **************** -->
 
+  <!-- reggere > aguantar, regir -->
+  <rule weight="0.6">
+    <match lemma="reggere" tags="vblex.*"><select lemma="aguantar"/></match>
+  </rule>
+
+  <!-- ammonire > amonestar, advertir -->
+  <rule weight="0.6">
+    <match lemma="ammonire" tags="vblex.*"><select lemma="amonestar"/></match>
+  </rule>
+
+  <!-- frequentare > freqüentar, anar# a -->
+  <rule weight="0.6">
+    <match lemma="frequentare" tags="vblex.*"><select lemma="freqüentar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="frequentare" tags="vblex.*"><select lemma="anar# a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="corso" tags="n.*"/>
+      <seq n="costruzione"/>
+    </or>
+  </rule>
+
+  <!-- ritenere > retenir, considerar -->
+  <rule weight="0.6">
+    <match lemma="ritenere" tags="vblex.*"><select lemma="retenir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ritenere" tags="vblex.*"><select lemma="considerar"/></match>
+    <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ritenere" tags="vblex.*"><select lemma="considerar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="cnjsub"/>
+  </rule>
+
   <!-- tenere > tenir, celebrar, etc. -->
   <rule weight="0.6">
     <match lemma="tenere" tags="vblex.*"><select lemma="tenir"/></match>
@@ -2494,6 +2657,9 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
+  
+  <!-- stufare > estofar, cansar -->
+  <macro name="verb_nopron_pron" p1="stufare" p2="estofar" p3="cansar"/>
   
   <!-- approssimare > apropar, aproximar -->
   <macro name="verb_nopron_pron" p1="approssimare" p2="aproximar" p3="apropar"/>

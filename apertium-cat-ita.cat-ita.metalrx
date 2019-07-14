@@ -2413,6 +2413,26 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- tranquil·litzar > tranquillizzare, tranquillare -->
+  <rule weight="0.6">
+    <match lemma="tranquil·litzar" tags="vblex.*"><select lemma="tranquillizzare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tranquil·litzar" tags="vblex.*"><select lemma="tranquillare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="consciència" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tranquil·litzar" tags="vblex.*"><select lemma="tranquillare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="consciència" tags="n.*"/>
+  </rule>
+
   <!-- celebrar > tenere, celebrare -->
   <rule weight="0.6">
     <match lemma="celebrar" tags="vblex.*"><select lemma="tenere"/></match>
@@ -3283,6 +3303,18 @@
     </or>
   </rule>
 
+  <!-- advertir > avvertire, notare -->
+  <rule weight="0.6">
+    <match lemma="advertir" tags="vblex.*"><select lemma="avvertire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="advertir" tags="vblex.*"><select lemma="notare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+
   <!-- estimar > amare, stimare -->
   <rule weight="0.6">
     <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
@@ -3822,7 +3854,7 @@
      <match lemma="croat" tags="adj.*"><select lemma="crociato"/></match>
   </rule>
 
-  <!-- mancat > mancato, privo -->
+  <!-- mancat > mancato, privo, carente -->
   <rule weight="0.6">
      <match lemma="mancat" tags="adj.*"><select lemma="mancato"/></match>
   </rule>
@@ -3907,6 +3939,65 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- tràfic > traffico, spaccio -->
+  <rule weight="0.6">
+    <match lemma="tràfic" tags="n.*"><select lemma="traffico"/></match>
+  </rule>
+
+  <!-- botiga > bottega, spaccio -->
+  <rule weight="0.6">
+    <match lemma="botiga" tags="n.*"><select lemma="bottega"/></match>
+  </rule>
+
+  <!-- do > dono, do -->
+  <rule weight="0.6">
+    <match lemma="do" tags="n.*"><select lemma="dono"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="do" tags="n.*"><select lemma="do"/></match>
+    <or>
+      <match lemma="major" tags="adj.*"/>
+      <match lemma="menor" tags="adj.*"/>
+      <match lemma="sostingut" tags="adj.*"/>
+      <match lemma="sostenir" tags="vblex.pp.*"/>
+      <match lemma="re" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- oscil·lació > oscillazione, escursione -->
+  <rule weight="0.6">
+    <match lemma="oscil·lació" tags="n.*"><select lemma="oscillazione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="oscil·lació" tags="n.*"><select lemma="escursione"/></match>
+    <match lemma="tèrmic" tags="adj..*"/>
+  </rule>
+
+  <!-- guia > schermo, accompagnatore -->
+  <rule weight="0.6">
+    <match lemma="guia" tags="n.mf.*"><select lemma="guida"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guia" tags="n.mf.*"><select lemma="accompagnatore"/></match>
+    <match lemma="turístic" tags="adj.m.*"/>
+  </rule>
+
+  <!-- monitor > schermo, monitor, accompagnatore, sorvegliante -->
+  <rule weight="0.6">
+    <match lemma="monitor" tags="n.m.*"><select lemma="schermo"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="monitor" tags="n.f.*"><select lemma="accompagnatore"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="monitor" tags="n.*"><select lemma="accompagnatore"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="colònia" tags="n.*"/>
+      <match lemma="esplai" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- conca > conca, bacino -->
   <rule weight="0.6">
@@ -4784,7 +4875,7 @@
     <match lemma="hotel" tags="n.*"><select lemma="albergo"/></match>
   </rule>
 
-  <!-- èxit > successo, riuscita, essito -->
+  <!-- èxit > successo, riuscita, esito -->
   <rule weight="0.6">
     <match lemma="èxit" tags="n.*"><select lemma="successo"/></match>
   </rule>
@@ -4918,7 +5009,7 @@
     <match lemma="baptismal" tags="adj.*"/>
   </rule>
   <rule weight="1.0">
-    <match lemma="pica" tags="n.*"><select lemma="acquaio"/></match>
+    <match lemma="pica" tags="n.*"><select lemma="lavello"/></match>
     <match lemma="de" tags="pr"/>
     <repeat from="0" upto="1">
       <match tags="det.*"/>
@@ -4929,7 +5020,7 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <match lemma="pica" tags="n.*"><select lemma="acquaio"/></match>
+    <match lemma="pica" tags="n.*"><select lemma="lavello"/></match>
     <match tags="pr"/>
     <match lemma="rentar" tags="vblex.inf"/>
   </rule>
@@ -5044,7 +5135,7 @@
 
   <!-- molla > molla, mollica, briciola -->
   <rule weight="0.6">
-     <match lemma="molla" tags="n.*"><select lemma="scalata"/></match>
+     <match lemma="molla" tags="n.*"><select lemma="molla"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="molla" tags="n.*"><select lemma="mollica"/></match>
@@ -5177,9 +5268,9 @@
      <match lemma="banca" tags="n.*"><select lemma="banca"/></match>
   </rule>
 
-  <!-- billet > bigliete, banconota -->
+  <!-- billet > biglietto, banconota -->
   <rule weight="0.6">
-     <match lemma="billet" tags="n.*"><select lemma="bigliete"/></match>
+     <match lemma="billet" tags="n.*"><select lemma="biglietto"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="billet" tags="n.*"><select lemma="banconota"/></match>
@@ -5187,7 +5278,7 @@
      <or><match tags="num.*"/><match tags="num"/></or>
   </rule>
   <rule weight="1.2">
-     <match lemma="billet" tags="n.*"><select lemma="bigliete"/></match>
+     <match lemma="billet" tags="n.*"><select lemma="biglietto"/></match>
      <match lemma="de" tags="pr"/>
      <or><match tags="num.*"/><match tags="num"/></or>
      <match lemma="viatge" tags="n.*"/>
