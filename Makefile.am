@@ -2,7 +2,7 @@
 ## Makefile for Catalan--Italian
 ###############################################################################
 
-VERSION=0.1.1
+VERSION=0.2.1
 LANG1=cat
 LANG2=ita
 PREFIX1=$(LANG1)-$(LANG2)
@@ -214,11 +214,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . ita-cat | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Apertium è una piattaforma di traduzione automatica libera e aperta" | apertium -d . ita-cat | tee .test-mt
+	@echo "Apertium és una plataforma de traducció automàtica lliure i oberta" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . cat-ita | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Apertium és una plataforma de traducció automàtica lliure i oberta" | apertium -d . cat-ita | tee .test-mt
+	@echo "Apertium è una piattaforma di traduzione automatica libera e aperta" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
