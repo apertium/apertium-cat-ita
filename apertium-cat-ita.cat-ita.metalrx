@@ -5354,8 +5354,8 @@
      <match lemma="plana" tags="n.*"><select lemma="pianura"/></match>
   </rule>
   <rule weight="1.0">
+     <match tags="adj.ord.*"/>
      <match lemma="plana" tags="n.*"><select lemma="pagina"/></match>
-     <match lemma="industrial" tags="adj.*"/>
   </rule>
 
   <!-- golf > golfo, golf -->
