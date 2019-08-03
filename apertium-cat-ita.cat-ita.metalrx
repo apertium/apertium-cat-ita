@@ -511,6 +511,8 @@
       <match lemma="terrat"/>
 
       <match lemma="presó"/>
+
+      <match lemma="espai"/>
     </def-seq>
 
     <def-seq n="lloc_abstracte">
@@ -880,6 +882,9 @@
       <match lemma="regressar" tags="vblex.*"/>
       <match lemma="arribar" tags="vblex.*"/>
       <match lemma="marxar" tags="vblex.*"/>
+      <match lemma="enviar" tags="vblex.*"/>
+
+      <match lemma="unir" tags="vblex.*"/>
 
       <match lemma="aparèixer" tags="vblex.*"/>
       <match lemma="treure" tags="vblex.*"/>	<!-- ha tret de la novel·la -->
@@ -1301,11 +1306,9 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
@@ -1317,6 +1320,9 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
     <match tags="det.*"/>
     <or>
       <seq n="punt_cardinal"/>
@@ -1338,38 +1344,9 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="predet.*"/>
-    <match tags="det.*"/>
-    <or>
-      <seq n="punt_cardinal"/>
-      <seq n="lloc_concret"/>
-      <seq n="lloc_abstracte"/>
-      <seq n="territori"/>
-      <seq n="accident_geogr"/>
-      <seq n="baralla"/>
-      <seq n="part_ciutat"/>
-      <seq n="escrit"/>
-      <seq n="periode"/>
-      <seq n="mes"/>
-      <seq n="estacio"/>
-      <seq n="part_cos"/>
-      <seq n="vestit"/>
-      <seq n="num_trencat"/>
-      <seq n="mitja_comunicacio"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or>
-      <seq n="lloc_concret"/>
-      <seq n="territori"/>
-      <seq n="accident_geogr"/>
-      <seq n="part_ciutat"/>
-      <seq n="periode"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
     <match tags="det.*"/>
     <match tags="adj.*"/>
     <or>
@@ -1389,6 +1366,20 @@
       <seq n="num_trencat"/>
       <seq n="mitja_comunicacio"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <or>
+      <seq n="lloc_concret"/>
+      <seq n="territori"/>
+      <seq n="accident_geogr"/>
+      <seq n="part_ciutat"/>
+      <seq n="periode"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+    <match lemma="escala" tags="n.*"/>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1429,7 +1420,7 @@
   <rule weight="1.0">
     <or>
       <match lemma="ser" tags="vbser.*"/>
-      <match lemma="estar" tags="vblex.*"/>
+<!--      <match lemma="estar" tags="vblex.*"/> -->
       <match lemma="estudiar" tags="vblex.*"/>
       <match lemma="treballar" tags="vblex.*"/>
       <match lemma="viure" tags="vblex.*"/>
@@ -1455,7 +1446,7 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.2">
     <or>
       <match lemma="anar" tags="vblex.*"/>
       <match lemma="córrer" tags="vblex.*"/>
@@ -1489,11 +1480,23 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+  <rule weight="1.2">
+    <match lemma="donar" tags="vblex.*"/>
+    <repeat from="0" upto="5">
+      <match tags="adv"/>
+      <match tags="det.*"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
   <rule weight="1.0">
-    <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
+    <or><match lemma="ser"/><match lemma="quedar"/></or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
-
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in"/></match>
     <match tags="det.def.*"/>
@@ -1511,6 +1514,14 @@
       <match lemma="platja" tags="n.*"/>
       <match lemma="Mediterrani" tags="np.*"/>
       <match lemma="Mediterrània" tags="np.*"/>
+      <match lemma="Adriàtic" tags="np.*"/>
+      <match lemma="Adriàtica" tags="np.*"/>
+      <match lemma="Tirrè" tags="np.*"/>
+      <match lemma="Tirrena" tags="np.*"/>
+      <match lemma="Egeu" tags="np.*"/>
+      <match lemma="Egea" tags="np.*"/>
+      <match lemma="Atlàntic" tags="np.*"/>
+      <match lemma="Pacífic" tags="np.*"/>
     </or>
   </rule>
   <rule weight="1.2">
@@ -1518,6 +1529,9 @@
       <seq n="verbs_moviment"/>
       <match lemma="proximitat" tags="n.*"/>
     </or>
+    <repeat from="0" upto="2">
+      <match tags="prn.enc.*"/>
+    </repeat>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <match tags="det.def.*"/>
     <or>
@@ -1529,6 +1543,14 @@
       <match lemma="platja" tags="n.*"/>
       <match lemma="Mediterrani" tags="np.*"/>
       <match lemma="Mediterrània" tags="np.*"/>
+      <match lemma="Adriàtic" tags="np.*"/>
+      <match lemma="Adriàtica" tags="np.*"/>
+      <match lemma="Tirrè" tags="np.*"/>
+      <match lemma="Tirrena" tags="np.*"/>
+      <match lemma="Egeu" tags="np.*"/>
+      <match lemma="Egea" tags="np.*"/>
+      <match lemma="Atlàntic" tags="np.*"/>
+      <match lemma="Pacífic" tags="np.*"/>
     </or>
   </rule>
 
@@ -2309,6 +2331,11 @@
   </rule>
 
 <!-- **************** PRN **************** -->
+
+  <!-- el seu > il suo, il loro -->
+  <rule weight="0.6">
+    <match lemma="el seu" tags="prn.*"><select lemma="il suo"/></match>
+  </rule>
 
   <!-- hi > ci, vi, ce -->
   <rule weight="0.6">
