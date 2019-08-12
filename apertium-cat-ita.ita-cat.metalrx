@@ -3310,6 +3310,7 @@
       <match tags="det.def.*"/>
     </repeat>
     <or>
+      <match tags="np.top.*"/>
       <match lemma="Catalogna"/>
       <match lemma="Aragona"/>
       <match lemma="Castiglia"/>
@@ -3404,6 +3405,9 @@
       <match lemma="dipartimento" tags="n.*"/>
       <match lemma="provincia" tags="n.*"/>
       <match lemma="repubblica" tags="n.*"/>
+      <match lemma="isola" tags="n.*"/>
+      <match lemma="città" tags="n.*"/>
+      <match lemma="internet" tags="n.*"/>
     </or>
   </rule>
 
