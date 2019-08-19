@@ -509,6 +509,9 @@
       <match lemma="saló"/>
       <match lemma="teulada"/>
       <match lemma="terrat"/>
+      <match lemma="carrer"/>
+      <match lemma="plaça"/>
+      <match lemma="avinguda"/>
 
       <match lemma="presó"/>
 
