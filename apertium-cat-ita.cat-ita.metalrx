@@ -120,6 +120,7 @@
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
+	   <match lemma="tsarina" tags="n.*"/>
 	   <match lemma="virrei" tags="n.*"/>
 	   <match lemma="regent" tags="n.*"/>
 	   <match lemma="príncep" tags="n.*"/>
@@ -150,6 +151,7 @@
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
+	   <match lemma="tsarina" tags="n.*"/>
 	   <match lemma="virrei" tags="n.*"/>
 	   <match lemma="regent" tags="n.*"/>
 	   <match lemma="príncep" tags="n.*"/>
@@ -183,6 +185,7 @@
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
+	   <match lemma="tsarina" tags="n.*"/>
 	   <match lemma="virrei" tags="n.*"/>
 	   <match lemma="regent" tags="n.*"/>
 	   <match lemma="príncep" tags="n.*"/>
@@ -215,6 +218,7 @@
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
+	   <match lemma="tsarina" tags="n.*"/>
 	   <match lemma="virrei" tags="n.*"/>
 	   <match lemma="regent" tags="n.*"/>
 	   <match lemma="príncep" tags="n.*"/>
@@ -1166,6 +1170,7 @@
       <match lemma="emperador" tags="n.*"/>
       <match lemma="rei" tags="n.*"/>
       <match lemma="tsar" tags="n.*"/>
+      <match lemma="tsarina" tags="n.*"/>
       <match lemma="califa" tags="n.*"/>
       <match lemma="sultà" tags="n.*"/>
       <match lemma="emir" tags="n.*"/>
