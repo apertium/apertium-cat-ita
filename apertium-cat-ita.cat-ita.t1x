@@ -3802,43 +3802,6 @@
       <let><var n="numero"/><var n="numero_aux"/></let>
     </def-macro>
 
-
-<def-macro n="anaphora" npar="1">
-  <choose>
-    <when>
-      <test>
-        <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="el seu"/></equal>
-      </test>
-      <choose>
-          <when>
-            <test><equal><clip pos="1" side="ref" part="nbr"/><lit-tag v="pl"/></equal></test>
-            <let><clip pos="1" side="tl" part="lem"/><lit v="loro"/></let>
-            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
-            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
-          </when>
-          <!-- only for debuging: should be removed -->
-<!--
-          <otherwise>
-            <let><clip pos="1" side="tl" part="lem"/><lit v="loro2"/></let>
-            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
-            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
-            <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="ref" part="gen"/></let>
-            <let><clip pos="1" side="tl" part="nbr"/><clip pos="1" side="ref" part="nbr"/></let>
-          </otherwise>
--->
-      </choose>
-    </when>
-          <!-- only for debuging: should be removed -->
-<!--
-          <otherwise>
-            <let><clip pos="1" side="tl" part="lem"/><lit v="loro3"/></let>
-            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
-            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
-          </otherwise>
--->
-  </choose>
- </def-macro>
-
   </section-def-macros>
 
   <section-rules>
@@ -4753,9 +4716,6 @@
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="anaphora">
           <with-param pos="1"/>
         </call-macro>
         <out>
