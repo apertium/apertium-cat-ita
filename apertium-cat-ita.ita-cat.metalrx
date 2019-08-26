@@ -3442,6 +3442,7 @@
   <macro name="noms_propis" p1="Innocenzo" p2="Innocenci" />
   <macro name="noms_propis" p1="Isabella" p2="Isabel" />
   <macro name="noms_propis" p1="Giacomo" p2="Jaume" />
+  <macro name="noms_propis" p1="Giorgio" p2="Jordi" />
   <macro name="noms_propis" p1="Giovanna" p2="Joana" />
   <macro name="noms_propis" p1="Giovanni" p2="Joan" />
   <macro name="noms_propis" p1="Giuseppe" p2="Josep" />

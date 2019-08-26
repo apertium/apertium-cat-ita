@@ -599,6 +599,7 @@
       <match lemma="bosc"/>
       <match lemma="camp"/>
       <match lemma="aiguamoll"/>
+      <match lemma="costa"/>
     </def-seq>
 
     <def-seq n="part_ciutat">
@@ -2983,6 +2984,13 @@
   <!-- estimar > amare, stimare -->
   <rule weight="0.8">
     <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estimar" tags="vblex.*"><select lemma="stimare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que" tags="cnjsub"/>
   </rule>
 
   <!-- segar > mietere, falciare, segare -->
@@ -6255,6 +6263,7 @@
   <macro name="noms_propis" p1="Jaume" p2="Giacomo" />
   <macro name="noms_propis" p1="Joana" p2="Giovanna" />
   <macro name="noms_propis" p1="Joan" p2="Giovanni" />
+  <macro name="noms_propis" p1="Jordi" p2="Giorgio" />
   <macro name="noms_propis" p1="Josep" p2="Giuseppe" />
   <macro name="noms_propis" p1="Juli" p2="Giulio" />
   <macro name="noms_propis" p1="Leopold" p2="Leopoldo" />
