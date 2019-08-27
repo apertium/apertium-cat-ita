@@ -426,6 +426,7 @@
        <cat-item lemma="." tags="sent"/>
        <cat-item lemma="?" tags="sent"/>
        <cat-item lemma="!" tags="sent"/>
+       <cat-item lemma=":" tags="sent"/>
     </def-cat>
   </section-def-cats>
 
@@ -903,7 +904,7 @@
       <list-item v="Ecuador"/>
       <list-item v="Egitto"/>
       <list-item v="Ellesmere"/>
-      <list-item v="El Salvador"/>
+<!--      <list-item v="El Salvador"/> -->
       <list-item v="Eritrea"/>
       <list-item v="Estonia"/>
       <list-item v="Etiopia"/>
@@ -10722,8 +10723,9 @@
       <let> <var n="genero"/><lit-tag v="m"/></let>
       <let> <var n="numero"/><lit-tag v="sg"/></let>
       <let> <var n="EOS"/><lit v="false"/></let>
+      <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="sent">
+          <chunk namefrom="lemma">
             <tags>
               <tag><lit-tag v="sent"/></tag>
             </tags>

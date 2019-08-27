@@ -263,7 +263,7 @@
           <clip pos="1" part="tags"/>
           <clip pos="1" part="chcontent"/>
         </chunk>
-        <b/>
+	<b pos="1"/>
         <chunk>
           <lit v="il"/>
           <lit-tag v="SA"/>
@@ -274,7 +274,7 @@
           <lit-tag v="det.def.2.3"/>
           <lit v="$}"/>
         </chunk>
-	<b pos="1"/>
+        <b/>
         <chunk>
           <clip pos="2" part="lem"/>
           <clip pos="2" part="tags"/>
@@ -296,18 +296,43 @@
           <clip pos="1" part="tags"/>
           <clip pos="1" part="chcontent"/>
         </chunk>
-        <b/>
-        <chunk>
-          <lit v="Il"/>
-          <lit-tag v="SA"/>
-          <clip pos="2" part="gen"/>
-          <clip pos="2" part="nbr"/>
-          <lit v="{^"/>
-          <lit v="Il"/>
-          <lit-tag v="det.def.2.3"/>
-          <lit v="$}"/>
-        </chunk>
 	<b pos="1"/>
+      </out>
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" part="lem"/><lit v=":"/></equal>
+          </test>
+          <out>
+            <chunk>
+              <lit v="il"/>
+              <lit-tag v="SA"/>
+              <clip pos="2" part="gen"/>
+              <clip pos="2" part="nbr"/>
+              <lit v="{^"/>
+              <lit v="il"/>
+              <lit-tag v="det.def.2.3"/>
+              <lit v="$}"/>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk>
+              <lit v="Il"/>
+              <lit-tag v="SA"/>
+              <clip pos="2" part="gen"/>
+              <clip pos="2" part="nbr"/>
+              <lit v="{^"/>
+              <lit v="Il"/>
+              <lit-tag v="det.def.2.3"/>
+              <lit v="$}"/>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
+      <out>
+        <b/>
         <chunk>
           <clip pos="2" part="lem"/>
           <clip pos="2" part="tags"/>
@@ -336,7 +361,7 @@
           <clip pos="2" part="tags"/>
           <clip pos="2" part="chcontent"/>
         </chunk>
-        <b/>
+	<b pos="2"/>
         <chunk>
           <lit v="il"/>
           <lit-tag v="SA"/>
@@ -347,7 +372,7 @@
           <lit-tag v="det.def.2.3"/>
           <lit v="$}"/>
         </chunk>
-	<b pos="2"/>
+        <b/>
         <chunk>
           <clip pos="3" part="lem"/>
           <clip pos="3" part="tags"/>
