@@ -4035,6 +4035,24 @@
 
 <!-- **************** N **************** -->
 
+  <!-- parla > parlata, lingua -->
+  <rule weight="0.6">
+    <match lemma="parla" tags="n.*"><select lemma="parlata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="parla" tags="n.*"><select lemma="lingua"/></match>
+    <or>
+      <match lemma="català" tags="adj.*"/>
+      <match lemma="valencià" tags="adj.*"/>
+      <match lemma="castellà" tags="adj.*"/>
+      <match lemma="aragonès" tags="adj.*"/>
+      <match lemma="occità" tags="adj.*"/>
+      <match lemma="aranès" tags="adj.*"/>
+      <match lemma="basc" tags="adj.*"/>
+      <match lemma="gallec" tags="adj.*"/>
+    </or>
+  </rule>
+
   <!-- pis > piano, appartamento -->
   <rule weight="0.6">
     <match lemma="pis" tags="n.*"><select lemma="piano"/></match>
