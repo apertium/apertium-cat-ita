@@ -184,6 +184,10 @@
       <cat-item lemma="que" tags="cnjsub"/>
     </def-cat>
 
+    <def-cat n="rel">
+      <cat-item tags="rel.*"/>
+    </def-cat>
+
     <def-cat n="pr">
       <cat-item tags="pr"/>
     </def-cat>
@@ -4331,6 +4335,65 @@
     </rule>
 
 
+    <rule comment="REGLA: TOP">
+      <pattern>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <in>
+                <clip pos="1" side="tl" part="lem"/>
+                <list n="paisos_regions"/>
+              </in>
+            </test>
+            <out>
+              <chunk name="top_potser_det" case="caseFirstWord"> <!-- aviso que potser convindrà afegir l'article a t2x -->
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_nom"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="np" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_nom"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: NP">
       <pattern>
         <pattern-item n="np"/>
@@ -4473,6 +4536,27 @@
             </out>
           </otherwise>
         </choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: rel">
+      <pattern>
+        <pattern-item n="rel"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="rel" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="rel"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/> 
+            </lu>
+          </chunk>
+        </out>
       </action>
     </rule>
 

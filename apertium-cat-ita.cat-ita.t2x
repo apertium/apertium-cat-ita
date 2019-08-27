@@ -22,6 +22,10 @@
       <cat-item tags="NUM.*"/>
     </def-cat>
 
+    <def-cat n="top_potser_det">
+      <cat-item lemma="top_potser_det" tags="SN.*"/>
+    </def-cat>
+
     <def-cat n="SAdv">
       <cat-item tags="SAdv"/>
       <cat-item tags="SAdv.*"/>
@@ -51,11 +55,21 @@
       <cat-item lemma="tentare" tags="SV.*"/>
     </def-cat>
 
+    <def-cat n="SV_CS_Rel">
+      <cat-item tags="SV.*"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="rel"/>
+    </def-cat>
+
     <def-cat n="PREP">
       <cat-item tags="pr"/>
     </def-cat>
     <def-cat n="di">
       <cat-item lemma="di" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
 
@@ -204,15 +218,83 @@
           <clip pos="1" part="tags"/>
           <clip pos="1" part="chcontent"/>
         </chunk>
-          <b/>
-          <chunk>
-            <lit v="de"/>
-            <lit-tag v="pr"/>
-            <lit v="{^"/>
-            <lit v="di"/>
-            <lit-tag v="pr"/>
-            <lit v="$}"/>
-          </chunk>
+        <b/>
+        <chunk>
+          <lit v="de"/>
+          <lit-tag v="pr"/>
+          <lit v="{^"/>
+          <lit v="di"/>
+          <lit-tag v="pr"/>
+          <lit v="$}"/>
+        </chunk>
+	<b pos="1"/>
+        <chunk>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
+    <!-- REGLES INTRODUCCIÓ ARTICLE DAVANT DE TOP -->
+
+<rule comment="REGLA: SV TOP_potser_det > SV il TOP_potser_det">
+    <pattern>
+        <pattern-item n="SV_CS_Rel"/>
+        <pattern-item n="top_potser_det"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <lit v="il"/>
+          <lit-tag v="SA"/>
+          <clip pos="2" part="gen"/>
+          <clip pos="2" part="nbr"/>
+          <lit v="{^"/>
+          <lit v="il"/>
+          <lit-tag v="det.def.2.3"/>
+          <lit v="$}"/>
+        </chunk>
+	<b pos="1"/>
+        <chunk>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
+<rule comment="REGLA: sent TOP_potser_det > sent Il TOP_potser_det">
+    <pattern>
+        <pattern-item n="sent"/>
+        <pattern-item n="top_potser_det"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <lit v="Il"/>
+          <lit-tag v="SA"/>
+          <clip pos="2" part="gen"/>
+          <clip pos="2" part="nbr"/>
+          <lit v="{^"/>
+          <lit v="Il"/>
+          <lit-tag v="det.def.2.3"/>
+          <lit v="$}"/>
+        </chunk>
 	<b pos="1"/>
         <chunk>
           <clip pos="2" part="lem"/>
