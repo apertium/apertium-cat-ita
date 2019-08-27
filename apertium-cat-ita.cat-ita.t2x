@@ -55,10 +55,26 @@
       <cat-item lemma="tentare" tags="SV.*"/>
     </def-cat>
 
-    <def-cat n="SV_CS_Rel">
+    <def-cat n="SV_Cnj_Rel_Cm">
       <cat-item tags="SV.*"/>
       <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjadv"/>
       <cat-item tags="rel"/>
+      <cat-item tags="cm"/>
+    </def-cat>
+
+    <def-cat n="SV_Cnj_Rel_Sent">
+      <cat-item tags="SV.*"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjadv"/>
+      <cat-item tags="rel"/>
+      <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
     </def-cat>
 
     <def-cat n="PREP">
@@ -66,10 +82,6 @@
     </def-cat>
     <def-cat n="di">
       <cat-item lemma="di" tags="pr"/>
-    </def-cat>
-
-    <def-cat n="sent">
-      <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
 
@@ -241,7 +253,7 @@
 
 <rule comment="REGLA: SV TOP_potser_det > SV il TOP_potser_det">
     <pattern>
-        <pattern-item n="SV_CS_Rel"/>
+        <pattern-item n="SV_Cnj_Rel_Cm"/>
         <pattern-item n="top_potser_det"/>
     </pattern>
     <action>
@@ -300,6 +312,46 @@
           <clip pos="2" part="lem"/>
           <clip pos="2" part="tags"/>
           <clip pos="2" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
+<rule comment="REGLA: SV SAdv TOP_potser_det > SV SAdv il TOP_potser_det">
+    <pattern>
+        <pattern-item n="SV_Cnj_Rel_Sent"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="top_potser_det"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+        <b pos="1"/>
+        <chunk>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <lit v="il"/>
+          <lit-tag v="SA"/>
+          <clip pos="3" part="gen"/>
+          <clip pos="3" part="nbr"/>
+          <lit v="{^"/>
+          <lit v="il"/>
+          <lit-tag v="det.def.2.3"/>
+          <lit v="$}"/>
+        </chunk>
+	<b pos="2"/>
+        <chunk>
+          <clip pos="3" part="lem"/>
+          <clip pos="3" part="tags"/>
+          <clip pos="3" part="chcontent"/>
         </chunk>
       </out>
 </action>
@@ -423,7 +475,9 @@
       </action>
     </rule>
 
-    <!-- REGLAS PER L'ATRIBUT -->
+    <!-- FI REGLES CONCORDANÇA PRÒXIMA -->
+
+    <!-- REGLES PER A L'ATRIBUT -->
 
     <rule comment="REGLA: PREP SN SV_vbser SA: aquesta regla inhibeix la concordança de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
       <pattern>
@@ -1084,7 +1138,7 @@
       </action>
     </rule>
 
-    <!-- FIN REGLAS PER L'ATRIBUT -->
+    <!-- FI REGLES PER A L'ATRIBUT -->
 
     <rule comment="REGLA: un de SN: una delle squadre > un dels equips, due delle pianete > dos dels planetes, due delle stelle > dues de les estrelles">
       <pattern>
