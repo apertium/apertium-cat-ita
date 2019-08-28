@@ -8208,8 +8208,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_prnpro_verbcj1" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
@@ -8256,8 +8257,9 @@
           <with-param pos="3"/>
           <with-param pos="3"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_prnpro_verbcj2" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
@@ -8303,9 +8305,9 @@
           <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -8342,12 +8344,12 @@
           <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
               <tag><clip pos="1" side="sl" part="temps"/></tag>
             </tags>
             <lu>
@@ -8394,12 +8396,12 @@
           <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
               <tag><clip pos="1" side="sl" part="temps"/></tag>
             </tags>
             <lu>
@@ -8674,12 +8676,12 @@
           <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_verbcj1" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
               <tag><clip pos="2" side="sl" part="temps"/></tag>
             </tags>
              <lu>
@@ -8722,12 +8724,12 @@
           <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_verbcj2" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
               <tag><clip pos="2" side="sl" part="temps"/></tag>
             </tags>
              <lu>
@@ -8772,12 +8774,12 @@
           <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="4" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_verbcj2" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="4" side="tl" part="a_verb"/></tag>
               <tag><clip pos="2" side="sl" part="temps"/></tag>
             </tags>
              <lu>
@@ -8825,11 +8827,12 @@
           <with-param pos="3"/>
           <with-param pos="3"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="4" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_prnpro_verbcj3" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="4" side="tl" part="a_verb"/></tag>
               <tag><clip pos="3" side="sl" part="temps"/></tag>
             </tags>
             <lu>
@@ -8911,12 +8914,12 @@
           <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
-        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verbcj">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
               <tag><clip pos="1" side="sl" part="temps"/></tag>
             </tags>
             <lu>
@@ -8951,7 +8954,7 @@
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verbcj">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
@@ -8999,11 +9002,12 @@
           <with-param pos="3"/>
           <with-param pos="3"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="5" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prnpro_prnpro_verbcj4" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="5" side="tl" part="a_verb"/></tag>
               <tag><clip pos="3" side="sl" part="temps"/></tag>
             </tags>
             <lu>

@@ -36,6 +36,20 @@
       <cat-item tags="SV.vbser.*"/>
     </def-cat>
 
+    <def-cat n="SV_vbser_semblar">
+      <cat-item tags="SV.vbser"/>
+      <cat-item tags="SV.vbser.*"/>
+      <cat-item lemma="semblar" tags="SV.vblex.*"/>
+      <cat-item lemma="romandre" tags="SV.vblex.*"/>
+      <cat-item lemma="tornar" tags="SV.vblex.*"/>
+      <cat-item lemma="fer" tags="SV.vblex.*"/>
+      <cat-item lemma="convertir" tags="SV.vblex.*"/>
+      <cat-item lemma="esdevenir" tags="SV.vblex.*"/>
+      <cat-item lemma="quedar" tags="SV.vblex.*"/>
+      <cat-item lemma="trobar" tags="SV.vblex.*"/>
+      <cat-item lemma="considerar" tags="SV.vblex.*"/>
+    </def-cat>
+
     <def-cat n="verbs_de">
       <cat-item lemma="buscar" tags="SV.*"/>
       <cat-item lemma="intentar" tags="SV.*"/>
@@ -180,7 +194,7 @@
 </action>
 </rule>
 
-<rule comment="REGLA: NUM (per assignar gènere si hi ha GD)">
+<rule comment="REGLA: NUM (per assignar gÃ¨nere si hi ha GD)">
     <pattern>
        <pattern-item n="NUM"/>
     </pattern>
@@ -222,7 +236,7 @@
       </action>
     </rule>
 
-    <!-- REGLES CONCORDANÇA PRÒXIMA -->
+    <!-- REGLES CONCORDANÃ‡A PRÃ’XIMA -->
 
     <rule comment="REGLA: SN SA">
       <pattern>
@@ -342,11 +356,11 @@
 
     <!-- REGLAS PER L'ATRIBUT -->
 
-    <rule comment="REGLA: PREP SN SV_vbser SA: aquesta regla inhibeix la concordança de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
+    <rule comment="REGLA: PREP SN SV_vbser_semblar SA: aquesta regla inhibeix la concordanÃ§a de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
       <pattern>
         <pattern-item n="PREP"/>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SA"/>
       </pattern>
       <action>
@@ -384,11 +398,11 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: PREP SN SV_vbser SAdv SA: aquesta regla inhibeix la concordança de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
+    <rule comment="REGLA: PREP SN SV_vbser_semblar SAdv SA: aquesta regla inhibeix la concordanÃ§a de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
       <pattern>
         <pattern-item n="PREP"/>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SAdv"/>
         <pattern-item n="SA"/>
       </pattern>
@@ -433,10 +447,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SN SV_vbser SA: concordance en genre entre sujet et attribut: la maison est grande > l'ostal es grand">
+    <rule comment="REGLA: SN SV_vbser_semblar SA: concordance en genre entre sujet et attribut: la maison est grande > l'ostal es grand">
       <pattern>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SA"/>
       </pattern>
       <action>
@@ -538,12 +552,12 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: PREP SN SAdv SV_vbser SA: aquesta regla inhibeix la concordança de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
+    <rule comment="REGLA: PREP SN SAdv SV_vbser_semblar SA: aquesta regla inhibeix la concordanÃ§a de les regles que segueixen si hi ha una prep al davant del subjecte putatiu">
       <pattern>
         <pattern-item n="PREP"/>
         <pattern-item n="SN"/>
         <pattern-item n="SAdv"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SA"/>
       </pattern>
       <action>
@@ -587,10 +601,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SN SV_vbser SAdv SA: concordance en genre entre sujet et attribut: la maison est très grande > l'ostal es força grand">
+    <rule comment="REGLA: SN SV_vbser_semblar SAdv SA: concordance en genre entre sujet et attribut: la maison est trÃ¨s grande > l'ostal es forÃ§a grand">
       <pattern>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SAdv"/>
         <pattern-item n="SA"/>
       </pattern>
@@ -699,11 +713,11 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SN SAdv SV_vbser SA: concordance en genre entre sujet et attribut">
+    <rule comment="REGLA: SN SAdv SV_vbser_semblar SA: concordance en genre entre sujet et attribut">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SAdv"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="SA"/>
       </pattern>
       <action>
@@ -811,10 +825,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SN SV_vbser un de SA: la squadra fu una delle più antiche > l'equip va ser un dels més antics">
+    <rule comment="REGLA: SN SV_vbser_semblar un de SA: la squadra fu una delle piÃ¹ antiche > l'equip va ser un dels mÃ©s antics">
       <pattern>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_vbser"/>
+        <pattern-item n="SV_vbser_semblar"/>
         <pattern-item n="un_num"/>
         <pattern-item n="de"/>
         <pattern-item n="SA"/>
@@ -1108,7 +1122,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: un de SN SA: uno degli ultimi film muti prodotti dalla Metro-Goldwyn-Mayer > una de les últimes pel·lícules mudes produïdes per la Metro-Goldwyn-Mayer">
+    <rule comment="REGLA: un de SN SA: uno degli ultimi film muti prodotti dalla Metro-Goldwyn-Mayer > una de les Ãºltimes pelÂ·lÃ­cules mudes produÃ¯des per la Metro-Goldwyn-Mayer">
       <pattern>
         <pattern-item n="un_num"/>
         <pattern-item n="de"/>
