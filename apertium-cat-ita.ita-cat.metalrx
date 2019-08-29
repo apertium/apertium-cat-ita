@@ -1513,6 +1513,7 @@
     <or>
       <match lemma="aereo" tags="adj.*"/>
       <match lemma="regolamentare" tags="adj.*"/>
+      <match lemma="libero" tags="adj.*"/>
     </or>
   </rule>
 
