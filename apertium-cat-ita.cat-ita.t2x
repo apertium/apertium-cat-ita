@@ -62,9 +62,15 @@
       <cat-item lemma="n_hi_ha" tags="SV.*"/>
     </def-cat>
 
+    <def-cat n="avere_bisogno">
+      <cat-item lemma="avere# bisogno" tags="SV.vblex.*"/>
+    </def-cat>
+
     <def-cat n="verbs_de">
       <cat-item lemma="cercare" tags="SV.*"/>
       <cat-item lemma="tentare" tags="SV.*"/>
+      <cat-item lemma="avere# bisogno" tags="SV.*"/>
+      <cat-item lemma="ci essere bisogno" tags="SV.*"/>
     </def-cat>
 
     <def-cat n="SV_Cnj_Rel_Cm">
@@ -256,6 +262,75 @@
           <clip pos="2" part="lem"/>
           <clip pos="2" part="tags"/>
           <clip pos="2" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
+<rule comment="REGLA: em_calen diners > ho bisogno di soldi">
+    <pattern>
+        <pattern-item n="avere_bisogno"/>
+        <pattern-item n="SN"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <lit v="de"/>
+          <lit-tag v="pr"/>
+          <lit v="{^"/>
+          <lit v="di"/>
+          <lit-tag v="pr"/>
+          <lit v="$}"/>
+        </chunk>
+	<b pos="1"/>
+        <chunk>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+        </chunk>
+      </out>
+</action>
+</rule>
+
+<rule comment="REGLA: em_calen ADV diners > ho bisogno ADV di soldi">
+    <pattern>
+        <pattern-item n="avere_bisogno"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SN"/>
+    </pattern>
+    <action>
+      <out>
+        <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+	<b pos="1"/>
+        <chunk>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <lit v="de"/>
+          <lit-tag v="pr"/>
+          <lit v="{^"/>
+          <lit v="di"/>
+          <lit-tag v="pr"/>
+          <lit v="$}"/>
+        </chunk>
+	<b pos="2"/>
+        <chunk>
+          <clip pos="3" part="lem"/>
+          <clip pos="3" part="tags"/>
+          <clip pos="3" part="chcontent"/>
         </chunk>
       </out>
 </action>

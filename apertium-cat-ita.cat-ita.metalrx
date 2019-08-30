@@ -2453,6 +2453,16 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- aturar > fermare, arrestare -->
+  <rule weight="0.6">
+    <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
+  </rule>
+
+  <!-- caldre > bisognare, essere necessario -->
+  <rule weight="0.6">
+    <match lemma="caldre" tags="vbmod.*"><select lemma="essere necessario"/></match>
+  </rule>
+
   <!-- parar > fermare, parare, smettere, preparare, accostare, etc. -->
   <rule weight="0.6">
     <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
@@ -2494,11 +2504,6 @@
       <match lemma="bossa" tags="n.*"/>
       <match lemma="davantal" tags="n.*"/>
     </or>
-  </rule>
-
-  <!-- aturar > fermare, arrestare -->
-  <rule weight="0.6">
-    <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
   </rule>
 
   <!-- tranquil·litzar > tranquillizzare, tranquillare -->

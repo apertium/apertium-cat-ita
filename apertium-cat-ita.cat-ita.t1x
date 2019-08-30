@@ -116,6 +116,12 @@
       <cat-item lemma="ens" tags="prn.pro.p1.mf.pl"/>
       <cat-item lemma="us" tags="prn.pro.p2.mf.pl"/>
     </def-cat>
+    <def-cat n="prnpropers">
+      <cat-item tags="prn.pro.p1.*"/>
+      <cat-item tags="prn.pro.p2.*"/>
+      <cat-item tags="prn.pro.p3.*"/>
+      <cat-item tags="prn.pro.ref.p3.*"/>
+    </def-cat>
     <def-cat n="es">
       <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
     </def-cat>
@@ -291,6 +297,35 @@
       <cat-item tags="vbhaver.fti.p3.*"/>
       <cat-item tags="vbhaver.pis.p3.*"/>
       <cat-item tags="vbhaver.cni.p3.*"/>
+    </def-cat>
+
+    <def-cat n="caldre">
+       <cat-item lemma="caldre" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="caldrefin">
+      <cat-item lemma="caldre" tags="vbmod.pri.*"/>
+      <cat-item lemma="caldre" tags="vbmod.pii.*"/>
+      <cat-item lemma="caldre" tags="vbmod.ifi.*"/>
+      <cat-item lemma="caldre" tags="vbmod.prs.*"/>
+      <cat-item lemma="caldre" tags="vbmod.fti.*"/>
+      <cat-item lemma="caldre" tags="vbmod.pis.*"/>
+      <cat-item lemma="caldre" tags="vbmod.cni.*"/>
+    </def-cat>
+    <def-cat n="caldreinf">
+      <cat-item lemma="caldre" tags="vbmod.inf"/>
+    </def-cat>
+    <def-cat n="caldrepp">
+      <cat-item lemma="caldre" tags="vbmod.pp.*"/>
+    </def-cat>
+
+    <def-cat n="necessitarp3">
+      <cat-item lemma="necessitar" tags="vblex.pri.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.pii.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.ifi.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.prs.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.fti.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.pis.p3.*"/>
+      <cat-item lemma="necessitar" tags="vblex.cni.p3.*"/>
     </def-cat>
 
     <def-cat n="anar_pri">
@@ -8618,6 +8653,206 @@
         </out>
       </action>
     </rule>
+
+    <!-- REGLES CALDRE -->
+
+    <rule comment="REGLA: prnpropers calerfin: em cal > ho bisogno">
+      <pattern>
+        <pattern-item n="prnpropers"/>
+        <pattern-item n="caldrefin"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="avere# bisogno"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="avere"/>
+              </get-case-from>
+              <lit-tag v="vblex"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="5"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="2">
+                <lit v="bisogno"/>
+              </get-case-from>
+              <lit-tag v="n.m.sg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prnpropers HAVER caldrepp: m'han calgut > ho avuto bisogno">
+      <pattern>
+        <pattern-item n="prnpropers"/>
+        <pattern-item n="haverp3"/>
+        <pattern-item n="caldrepp"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="avere# bisogno"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/> 
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="pers"/>         
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu> 
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="2">
+                <lit v="avere"/>
+              </get-case-from>
+              <lit-tag v="vblex.pp.m.sg"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <get-case-from pos="3">
+                <lit v="bisogno"/>
+              </get-case-from>
+              <lit-tag v="n.m.sg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prnpropers ANAR caldreinf: em van caler > ebbi bisogno">
+      <pattern>
+        <pattern-item n="prnpropers"/>
+        <pattern-item n="anar_pri_p3"/>
+        <pattern-item n="caldreinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="avere# bisogno"/></let>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="avere"/>
+              </get-case-from>
+              <lit-tag v="vblex.ifi"/>
+              <clip pos="1" side="tl" part="pers"/>         
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <get-case-from pos="3">
+                <lit v="bisogno"/>
+              </get-case-from>
+              <lit-tag v="n.m.sg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prnpropers necessitarp3: es necessita > c'è bisogno">
+      <pattern>
+        <pattern-item n="es"/>
+        <pattern-item n="necessitarp3"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="ci essere bisogno"/></let>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <tag><clip pos="2" side="tl" part="pers"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="ci"/>
+              </get-case-from>
+              <lit-tag v="prn.pro.adv"/>
+            </lu>
+            <b/>
+            <lu>
+              <get-case-from pos="2">
+                <lit v="essere"/>
+              </get-case-from>
+              <lit-tag v="vbser"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="pers"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="5"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="2">
+                <lit v="bisogno"/>
+              </get-case-from>
+              <lit-tag v="n.m.sg"/>
+            </lu>
+          </chunk>
+          <b/>
+          <chunk name="di">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <lit v="di"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- FI REGLES CALDRE -->
 
     <rule comment="PRNREF HAVER PP > PRNREF SER PP: s'ha perdut > si è perso, m'ha dit > mi ha detto">
       <pattern>
