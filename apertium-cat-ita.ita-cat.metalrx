@@ -765,6 +765,11 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- magari > potser, fins i tot -->
+  <rule weight="0.6">
+    <match lemma="magari" tags="adv"><select lemma="potser"/></match>
+  </rule>
+
   <!-- quanto > quant, com -->
   <rule weight="0.6">
     <match lemma="quanto" tags="adv"><select lemma="quant"/></match>
@@ -2189,6 +2194,25 @@
 
 
 <!-- **************** V **************** -->
+
+  <!-- occorrere > ocórrer, caldre -->
+  <rule weight="0.6">
+    <match lemma="occorrere" tags="vblex.*"><select lemma="ocórrer"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="occorrere" tags="vblex.*"><select lemma="caldre"/></match>
+    <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mi" tags="prn.pro.*"/>
+      <match lemma="ti" tags="prn.pro.*"/>
+      <match lemma="gli" tags="prn.pro.*"/>
+      <match lemma="ci" tags="prn.pro.*"/>
+      <match lemma="vi" tags="prn.pro.*"/>
+    </or>
+    <match lemma="occorrere" tags="vblex.*"><select lemma="caldre"/></match>
+  </rule>
 
   <!-- arrestare > aturar, parar, arrestar -->
   <rule weight="0.6">

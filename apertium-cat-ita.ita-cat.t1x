@@ -184,6 +184,15 @@
       <cat-item tags="vbser.cni.p3.pl"/>
     </def-cat>
 
+    <def-cat n="volere_p3sg_no_ifi">
+      <cat-item lemma="volere" tags="vbmod.pri.p3.sg"/>
+      <cat-item lemma="volere" tags="vbmod.pii.p3.sg"/>
+      <cat-item lemma="volere" tags="vbmod.prs.p3.sg"/>
+      <cat-item lemma="volere" tags="vbmod.fti.p3.sg"/>
+      <cat-item lemma="volere" tags="vbmod.pis.p3.sg"/>
+      <cat-item lemma="volere" tags="vbmod.cni.p3.sg"/>
+    </def-cat>
+
     <def-cat n="fa">
       <cat-item lemma="fare" tags="vblex.pri.p3.sg"/>
     </def-cat>
@@ -9085,6 +9094,39 @@
       </action>
     </rule>
 -->
+
+    <rule comment="REGLA: ci volere_p3sg_no_ifi: ci vuole > cal">
+      <pattern>
+        <pattern-item n="ci"/>
+        <pattern-item n="volere_p3sg_no_ifi"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="caldre"/></let>
+        <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="2" side="sl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="caldre"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="pers"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: vfin (no ifi)">
       <pattern>
