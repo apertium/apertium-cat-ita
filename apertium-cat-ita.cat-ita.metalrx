@@ -2453,6 +2453,9 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- callar > tacere, restare# zitto -->
+  <macro name="verb_nopron_pron_np" p1="callar" p2="tacere" p3="restare# zitto"/>
+
   <!-- aturar > fermare, arrestare -->
   <rule weight="0.6">
     <match lemma="aturar" tags="vblex.*"><select lemma="fermare"/></match>
