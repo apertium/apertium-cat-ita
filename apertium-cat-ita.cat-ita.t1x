@@ -311,6 +311,10 @@
       <cat-item lemma="caldre" tags="vbmod.pis.*"/>
       <cat-item lemma="caldre" tags="vbmod.cni.*"/>
     </def-cat>
+    <def-cat n="caldreinf_ger">
+      <cat-item lemma="caldre" tags="vbmod.inf"/>
+      <cat-item lemma="caldre" tags="vbmod.ger"/>
+    </def-cat>
     <def-cat n="caldreinf">
       <cat-item lemma="caldre" tags="vbmod.inf"/>
     </def-cat>
@@ -8656,7 +8660,7 @@
 
     <!-- REGLES CALDRE -->
 
-    <rule comment="REGLA: prnpropers calerfin: em cal > ho bisogno">
+    <rule comment="REGLA: prnpropers caldrefin: em cal > ho bisogno">
       <pattern>
         <pattern-item n="prnpropers"/>
         <pattern-item n="caldrefin"/>
@@ -8696,6 +8700,275 @@
             </lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: caldreinf_ger enc: caldre'm > essermi necessario">
+      <pattern>
+        <pattern-item n="caldreinf_ger"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="essere# necessario"/></let>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+              </not>
+            </test>
+            <let><var n="genero"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <or>
+                  <equal><var n="numero"/><lit-tag v="sg"/></equal>
+                  <equal><var n="numero"/><lit-tag v="pl"/></equal>
+                </or>
+              </not>
+            </test>
+            <let><var n="numero"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="essere"/>
+                </get-case-from>
+                <lit-tag v="vbser"/>
+                <clip pos="1" side="tl" part="temps"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+            <b/>
+            <lu>
+              <get-case-from pos="2">
+                <lit v="necessario"/>
+              </get-case-from>
+              <lit-tag v="adj"/>
+              <var n="genero"/>
+              <var n="numero"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: caldreinf_ger enc enc: caldre-me'n > essermene necessario">
+      <pattern>
+        <pattern-item n="caldreinf_ger"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <let><var n="lemma"/><lit v="essere# necessario"/></let>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+              </not>
+            </test>
+            <let><var n="genero"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <or>
+                  <equal><var n="numero"/><lit-tag v="sg"/></equal>
+                  <equal><var n="numero"/><lit-tag v="pl"/></equal>
+                </or>
+              </not>
+            </test>
+            <let><var n="numero"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <!-- en + hi: cal canviar l'ordre -->
+            <test>
+              <and>
+                <equal><clip pos="2" side="sl" part="lem"/><lit v="en"/></equal>
+                <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
+              </and>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="essere"/>
+                    </get-case-from>
+                    <lit-tag v="vbser"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+                <b/>
+                <lu>
+                  <get-case-from pos="2">
+                    <lit v="necessario"/>
+                  </get-case-from>
+                  <lit-tag v="adj"/>
+                  <var n="genero"/>
+                  <var n="numero"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- el + enc: cal eliminar el segon clític -->
+            <test>
+              <equal><clip pos="2" side="sl" part="lem"/><lit v="el"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="essere"/>
+                    </get-case-from>
+                    <lit-tag v="vbser"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+                <b/>
+                <lu>
+                  <get-case-from pos="2">
+                    <lit v="necessario"/>
+                  </get-case-from>
+                  <lit-tag v="adj"/>
+                  <var n="genero"/>
+                  <var n="numero"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <!-- enc + li: cal eliminar el primer clític (posant-me-li, etc.) -->
+            <test>
+              <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="essere"/>
+                    </get-case-from>
+                    <lit-tag v="vbser"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                </mlu>
+                <b/>
+                <lu>
+                  <get-case-from pos="2">
+                    <lit v="necessario"/>
+                  </get-case-from>
+                  <lit-tag v="adj"/>
+                  <var n="genero"/>
+                  <var n="numero"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><lit-tag v="vblex"/></tag>
+                  <tag><clip pos="1" side="tl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="essere"/>
+                    </get-case-from>
+                    <lit-tag v="vbser"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                  </lu>
+                  <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                  </lu>
+                  <lu>
+                    <clip pos="3" side="tl" part="whole"/>
+                  </lu>
+                </mlu>
+                <b/>
+                <lu>
+                  <get-case-from pos="2">
+                    <lit v="necessario"/>
+                  </get-case-from>
+                  <lit-tag v="adj"/>
+                  <var n="genero"/>
+                  <var n="numero"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
