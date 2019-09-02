@@ -3824,6 +3824,20 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- brut > sporco, lordo -->
+  <rule weight="0.6">
+    <match lemma="brut" tags="adj.*"><select lemma="sporco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"/>
+    <match lemma="brut" tags="adj.*"><select lemma="lordo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="producte" tags="n.*"/>
+    <match tags="adj.*"/>
+    <match lemma="brut" tags="adj.*"><select lemma="lordo"/></match>
+  </rule>
+
   <!-- preparat > preparato, pronto -->
   <rule weight="0.6">
     <match lemma="preparat" tags="adj.*"><select lemma="preparato"/></match>
