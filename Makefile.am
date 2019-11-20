@@ -2,7 +2,6 @@
 ## Makefile for Catalan--Italian
 ###############################################################################
 
-VERSION=0.2.1
 LANG1=cat
 LANG2=ita
 PREFIX1=$(LANG1)-$(LANG2)
@@ -112,12 +111,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 .deps/%.metalrx: %.metalrx .deps/.d
-	python3 metalrx.py $< $@
+	apertium-metalrx $< $@
 
-.deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
-	xsltproc $^ > $@.tmp
-	@xmllint --format $@.tmp > $@
-	@rm $@.tmp
+.deps/%.lrx: .deps/%.metalrx
+	apertium-metalrx-to-lrx $< $@
 
 $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
@@ -221,4 +218,3 @@ test: all
 	@echo "Apertium è una piattaforma di traduzione automatica libera e aperta" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
