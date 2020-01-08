@@ -349,6 +349,64 @@
 	<match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
 	<match tags="prn.enc.p2.*.pl"/>
       </rule>
+
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="haver" tags="vbhaver.*.p1.sg"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="haver" tags="vbhaver.*.p2.sg"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="haver" tags="vbhaver.*.p1.pl"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="haver" tags="vbhaver.*.p2.pl"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="haver" tags="vbhaver.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="haver" tags="vbhaver.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="anar" tags="vblex.*.p1.sg"/>
+        <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="anar" tags="vblex.*.p2.sg"/>
+        <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="anar" tags="vblex.*.p1.pl"/>
+        <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="anar" tags="vblex.*.p2.pl"/>
+        <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="anar" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="anar" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+      </rule>
     </def-macro>
 
     <!-- Aquesta macro és com l'anterior però només tria el verb pronominal si segueix un np -->
