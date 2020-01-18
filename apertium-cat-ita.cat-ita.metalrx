@@ -6143,7 +6143,7 @@
      <match tags="np.*"/>
   </rule>
 
-  <!-- cap > capo, testa -->
+  <!-- cap > capo, testa, testata -->
   <rule weight="0.8">
     <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
   </rule>
@@ -6169,6 +6169,10 @@
       <match lemma="bou" tags="n.*"/>
       <match lemma="vaca" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.*"><select lemma="testata"/></match>
+    <match lemma="nuclear" tags="adj.*"/>
   </rule>
 
   <!-- població > popolazione, centro abitato -->
