@@ -465,6 +465,24 @@
       <match lemma="compressa" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="strumenti_musicali">
+      <or>
+      <match lemma="piano" tags="n.*"/>
+      <match lemma="pianoforte" tags="n.*"/>
+      <match lemma="violino" tags="n.*"/>
+      <match lemma="viola" tags="n.*"/>
+      <match lemma="violoncello" tags="n.*"/>
+      <match lemma="contrabbasso" tags="n.*"/>
+      <match lemma="flauto" tags="n.*"/>
+      <match lemma="oboe" tags="n.*"/>
+      <match lemma="clarinetto" tags="n.*"/>
+      <match lemma="tromba" tags="n.*"/>
+      <match lemma="sassofono" tags="n.*"/>
+      <match lemma="sax" tags="n.*"/>
+      <match lemma="organo" tags="n.*"/>
+      </or>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
@@ -2184,7 +2202,7 @@
     <match lemma="impianto" tags="n.*"><select lemma="instal·lació" tags="n.*"/></match>
   </rule>
 
-  <!-- piano > pla, plànol, pis, plata -->
+  <!-- piano > pla, plànol, pis, plata, piano -->
   <rule weight="0.6">
     <match lemma="piano" tags="n.*"><select lemma="pla" tags="n.*"/></match>
   </rule>
@@ -2203,6 +2221,72 @@
       <match tags="num"/>
       <match tags="num.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="suonare" tags="vblex.*"/>
+    <match tags="det.*"/>
+    <match lemma="piano" tags="n.*"><select lemma="piano"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="piano" tags="n.*"><select lemma="piano"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="piano" tags="n.*"><select lemma="piano"/></match>
+  </rule>
+
+  <!-- corno > banya, corn -->
+  <rule weight="0.6">
+    <match lemma="corno" tags="n.*"><select lemma="banya"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="corno" tags="n.*"><select lemma="corn"/></match>
+    <match lemma="inglese" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="corno" tags="n.*"><select lemma="corn"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="corno" tags="n.*"><select lemma="corn"/></match>
   </rule>
 
   <!-- corso > passeig, curs, cors -->
