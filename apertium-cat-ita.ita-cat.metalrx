@@ -860,7 +860,7 @@
 
 <!-- **************** N **************** -->
 
-  <!-- vita > vida, cintura -->
+  <!-- vita > vida, chintu -->
   <rule weight="0.6">
     <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
   </rule>
@@ -872,6 +872,15 @@
     <match tags="det.def.*"/>
     <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
   </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="da" tags="pr"/>
+      <match lemma="fino a" tags="pr"/>
+    </or>
+    <match tags="det.def.*"/>
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
   <rule weight="1.0">
     <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
     <repeat from="0" upto="1">
@@ -882,6 +891,36 @@
       <match lemma="alto" tags="adj.*"/>
       <match lemma="basso" tags="adj.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="anca" tags="n.*"/>
+      <match lemma="pancia" tags="n.*"/>
+      <match lemma="ventre" tags="n.*"/>
+      <match lemma="petto" tags="n.*"/>
+      <match lemma="seno" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="anca" tags="n.*"/>
+      <match lemma="pancia" tags="n.*"/>
+      <match lemma="ventre" tags="n.*"/>
+      <match lemma="petto" tags="n.*"/>
+      <match lemma="seno" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+    <match lemma="sociale" tags="adj.*"/>
   </rule>
 
   <!-- numero > nombre, numero -->
