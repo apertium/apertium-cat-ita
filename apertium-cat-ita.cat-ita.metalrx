@@ -3882,6 +3882,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- fosc > scuro, buio -->
+  <rule weight="0.6">
+    <match lemma="fosc" tags="adj.*"><select lemma="scuro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="segle" tags="n.*"/>
+    <match lemma="fosc" tags="adj.*"><select lemma="buio"/></match>
+  </rule>
+
   <!-- brut > sporco, lordo -->
   <rule weight="0.6">
     <match lemma="brut" tags="adj.*"><select lemma="sporco"/></match>

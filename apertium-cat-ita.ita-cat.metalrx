@@ -583,13 +583,29 @@
 
 <!-- **************** ADJ **************** -->
 
-  <!-- fosc > scuro, buio -->
-  <rule weight="0.6">
-    <match lemma="fosc" tags="adj.*"><select lemma="scuro"/></match>
+  <!-- reale > real, reial -->
+  <rule weight="0.5">
+    <match lemma="reale" tags="adj.*"><select lemma="real"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="segle" tags="n.*"/>
-    <match lemma="fosc" tags="adj.*"><select lemma="buio"/></match>
+    <or>
+      <match lemma="altezza" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="villa" tags="n.*"/>
+      <match lemma="corona" tags="n.*"/>
+      <match lemma="famiglia" tags="n.*"/>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="monastero" tags="n.*"/>
+      <match lemma="via" tags="n.*"/>
+    </or>
+    <match lemma="reale" tags="adj.*"><select lemma="reial"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="reale" tags="adj.*"><select lemma="reial"/></match>
+    <or>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="monastero" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- diverso > divers, diferent -->
@@ -860,7 +876,7 @@
 
 <!-- **************** N **************** -->
 
-  <!-- vita > vida, chintu -->
+  <!-- vita > vida, cintura -->
   <rule weight="0.6">
     <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
   </rule>
