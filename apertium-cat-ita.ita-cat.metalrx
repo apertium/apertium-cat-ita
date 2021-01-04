@@ -1625,6 +1625,66 @@
      <match lemma="un" tags="det.ind.*"/>
      <match lemma="pesca" tags="n.*"><select lemma="préssec"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="pesca" tags="n.*"><select lemma="préssec"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="dolce" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="pesco" tags="n.*"/>
+      <match lemma="frutta" tags="n.*"/>
+      <match lemma="mela" tags="n.*"/>
+      <match lemma="pera" tags="n.*"/>
+      <match lemma="arancia" tags="n.*"/>
+      <match lemma="mandarino" tags="n.*"/>
+      <match lemma="albicocca" tags="n.*"/>
+      <match lemma="prugna" tags="n.*"/>
+      <match lemma="ciliegia" tags="n.*"/>
+      <match lemma="melone" tags="n.*"/>
+      <match lemma="anguria" tags="n.*"/>
+      <match lemma="cocomero" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="dolce" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="pesco" tags="n.*"/>
+      <match lemma="frutta" tags="n.*"/>
+      <match lemma="mela" tags="n.*"/>
+      <match lemma="pera" tags="n.*"/>
+      <match lemma="arancia" tags="n.*"/>
+      <match lemma="mandarino" tags="n.*"/>
+      <match lemma="albicocca" tags="n.*"/>
+      <match lemma="prugna" tags="n.*"/>
+      <match lemma="ciliegia" tags="n.*"/>
+      <match lemma="melone" tags="n.*"/>
+      <match lemma="anguria" tags="n.*"/>
+      <match lemma="cocomero" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="pesca" tags="n.*"><select lemma="préssec"/></match>
+  </rule>
 
   <!-- pollice > polze, polzada -->
   <rule weight="0.6">
@@ -1873,8 +1933,29 @@
        <match lemma="cantare" tags="vblex.*"/>
        <match lemma="ascoltare" tags="vblex.*"/>
      </or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
      <match tags="det.*"/>
      <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+     <match lemma="di" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="opera" tags="n.*"/>
+       <match lemma="cantata" tags="n.*"/>
+       <match lemma="oratorio" tags="n.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+     <match lemma="di" tags="pr"/>
+     <or>
+       <match tags="np.*"/>
+       <match tags=""/>
+     </or>
   </rule>
 
   <!-- set > set, plató -->
@@ -1923,6 +2004,36 @@
   <!-- vite > caragol, cargol, cep -->
   <rule weight="0.6">
      <match lemma="vite" tags="n.*"><select lemma="caragol"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="vendemmiare" tags="vblex.*"/>
+      <match lemma="vendemmia" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="uva" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="vite" tags="n.*"><select lemma="cep"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vite" tags="n.*"><select lemma="cep"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="vendemmiare" tags="vblex.*"/>
+      <match lemma="vendemmia" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="uva" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- saggio > assaig, savi -->
@@ -3391,6 +3502,7 @@
     <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
     <or>
       <seq n="distanza"/>
+      <seq n="periodo"/>
     </or>
   </rule>
 
