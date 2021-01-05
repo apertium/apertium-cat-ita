@@ -3502,6 +3502,15 @@
     <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
     <or>
       <seq n="distanza"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="fa"/></match>
+      <match lemma="fra" tags="pr"><select lemma="fa"/></match>
+    </or>
+    <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
+    <or>
       <seq n="periodo"/>
     </or>
   </rule>
