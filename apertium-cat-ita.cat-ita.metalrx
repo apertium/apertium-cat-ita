@@ -4124,6 +4124,32 @@
 
 <!-- **************** N **************** -->
 
+  <!-- model mf > modello m, modello f -->
+  <rule weight="0.6">
+    <match lemma="model" tags="n.mf.*"><select lemma="modello" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="*.f.*"/>
+    <match lemma="model" tags="n.mf.*"><select lemma="modello" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="model" tags="n.mf.*"><select lemma="modello" tags="n.f.*"/></match>
+    <match tags="*.f.*"/>
+  </rule>
+  
+  <!-- maniquí > manichino, modello -->
+  <rule weight="0.6">
+    <match lemma="maniquí" tags="n.*"><select lemma="manichino"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="*.f.*"/>
+    <match lemma="maniquí" tags="n.*"><select lemma="modello" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="maniquí" tags="n.*"><select lemma="modello" tags="n.f.*"/></match>
+    <match tags="*.f.*"/>
+  </rule>
+  
   <!-- parla > parlata, lingua -->
   <rule weight="0.6">
     <match lemma="parla" tags="n.*"><select lemma="parlata"/></match>
