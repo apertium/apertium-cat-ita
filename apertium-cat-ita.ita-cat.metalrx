@@ -583,6 +583,19 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- vario > variat, divers -->
+  <rule weight="0.5">
+    <match lemma="vario" tags="adj.*"><select lemma="variat"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vario" tags="adj.*"><select lemma="divers"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*"/>
+    <match lemma="vario" tags="adj.*"><select lemma="divers"/></match>
+  </rule>
+
   <!-- reale > real, reial -->
   <rule weight="0.5">
     <match lemma="reale" tags="adj.*"><select lemma="real"/></match>

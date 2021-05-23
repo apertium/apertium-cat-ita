@@ -5163,6 +5163,11 @@
     <match lemma="de" tags="pr"/>
     <match tags="np.*"/>
   </rule>
+  <rule weight="1.2">
+    <match lemma="cor" tags="n.*"><select lemma="cuore"/></match>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
 
   <!-- ronda > ronda, girone -->
   <rule weight="0.6">
