@@ -1,0 +1,78 @@
+[1Tvfe6dPZBeL#0] ^David<np><ant><m><sg>$ ^poder<vbmod><cni><p3><sg>$ ^deixar<vblex><inf>+el<prn><enc><p3><f><sg>$ ^en<pr>$ ^oficina<n><f><sg>$^.<sent>$
+[/1Tvfe6dPZBeL]
+[1VfPnMUZpst3#0] ^Haver<vbhaver><pii><p1><sg>$ ^llegir<vblex><pp><m><sg>$ ^aquell<det><dem><m><sg>$ ^llibre<n><m><sg>$^.<sent>$
+[/1VfPnMUZpst3]
+[4ynZgl_G0jwq#0] ^Deixar<vblex><imp><p2><sg>+ens<prn><enc><p1><mf><pl>$ ^en pau<adv>$^!<sent>$
+[/4ynZgl_G0jwq]
+[6Xp0Q-clscJA#0] ^Ell<prn><tn><p3><m><pl>$ ^no<adv>$ ^haver<vbhaver><pri><p3><pl>$ ^veure<vblex><pp><m><sg>$ ^mai<adv>$ ^Gènova<np><top><f><sg>$^.<sent>$
+[/6Xp0Q-clscJA]
+[CgBhFid7Wx-w#0] ^Haver<vbhaver><pri><p1><sg>$ ^convidar<vblex><pp><m><sg>$ ^un<det><ind><m><sg>$ ^meu<adj><pos><m><sg>$ ^amic<n><m><sg>$^.<sent>$
+[/CgBhFid7Wx-w]
+[DxMijIgWVPh4#0] ^Es<prn><pro><ref><p3><mf><sp>$ ^haver<vaux><pri><p3><sg>$ ^frenar<vblex><pp><m><sg>$^.<sent>$
+[/DxMijIgWVPh4]
+[EwASLkaSRqBQ#0] ^El<det><def><m><pl>$ ^oncle<n><m><pl>$ ^haver<vaux><pii><p3><pl>$ ^arribar<vblex><pp><m><sg>$ ^a casa<adv>$^.<sent>$
+[/EwASLkaSRqBQ]
+[IFXscieJbauM#0] ^Deixar<vblex><imp><p2><sg>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$^!<sent>$
+[/IFXscieJbauM]
+[ItgICmv3KXea#0] ^Es<prn><pro><ref><p3><mf><sp>$ ^haver<vaux><pii><p3><sg>$ ^asseure<vblex><pp><m><sg>$ ^al costat de<pr>$ ^mi<prn><tn><p1><mf><sg>$^.<sent>$
+[/ItgICmv3KXea]
+[MQ5vm1mrBRyF#0] ^De<pr>$ ^el<det><def><m><sg>$ ^a<pr>$ ^mi<prn><tn><p1><mf><sg>$^!<sent>$
+[/MQ5vm1mrBRyF]
+[MX4HXDuzwDIa#0] ^Ser<vbser><pri><p3><sg>$ ^*nevicat$^.<sent>$
+[/MX4HXDuzwDIa]
+[N2cIcrMf95Li#0] ^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><sg>$ ^en pau<adv>$^!<sent>$
+[/N2cIcrMf95Li]
+[NpReXlYb4kCI#0] ^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><pl>$ ^en pau<adv>$^!<sent>$
+[/NpReXlYb4kCI]
+[OsYdH2MFByaF#0] ^Venir<vblex><pri><p1><sg>$ ^de<pr>$ ^Alacant<np><top><m><sg>$^.<sent>$
+[/OsYdH2MFByaF]
+[S4zz4f9meHM5#0] ^Deixar<vblex><imp><p2><sg>+em<prn><enc><p1><mf><sg>$ ^en pau<adv>$^!<sent>$
+[/S4zz4f9meHM5]
+[T35PzSXEyHqg#0] ^Venir<vblex><pri><p1><pl>$ ^de<pr>$ ^el<det><def><f><sg>$ ^casa<n><f><sg>$ ^de<pr>$ ^el<det><def><m><sg>$ ^metge<n><m><sg>$^.<sent>$
+[/T35PzSXEyHqg]
+[VFr9Enj8Hei0#0] ^El<det><def><m><sg>$ ^nen<n><m><sg>$ ^haver<vaux><pri><p3><sg>$ ^créixer<vblex><pp><m><sg>$ ^molt<adj><m><sg>$ ^en<pr>$ ^aquest<det><dem><m><sg>$ ^període<n><m><sg>$^.<sent>$
+[/VFr9Enj8Hei0]
+[X7L9lMYlyPys#0] ^Estar<vblex><pri><p1><sg>$ ^parlar<vblex><ger>$^.<sent>$
+[/X7L9lMYlyPys]
+[Xl3EFcot-M3B#0] ^Haver<vbhaver><pii><p1><sg>$ ^passejar<vblex><pp><m><sg>$ ^per<pr>$ ^un<det><ind><f><sg>$ ^hora<n><f><sg>$^.<sent>$
+[/Xl3EFcot-M3B]
+[Xt-oh_RLbb4o#0] ^Haver<vbhaver><pri><p3><pl>$ ^estudiar<vblex><pp><m><sg>$ ^ja<adv>$ ^el<det><def><f><sg>$ ^lliçó<n><f><sg>$^.<sent>$
+[/Xt-oh_RLbb4o]
+[Z3bKr6Gt3NQE#0] ^Estar<vblex><pii><p3><sg>$ ^cantar<vblex><ger>$^.<sent>$
+[/Z3bKr6Gt3NQE]
+[ZiG7CG-SnKAY#0] ^Estar<vblex><pii><p3><sg>$ ^llegir<vblex><ger>$^.<sent>$
+[/ZiG7CG-SnKAY]
+[cXtlf8SniowW#0] ^Haver<vbhaver><pii><p1><sg>$ ^visitar<vblex><pp><m><sg>$ ^ja<adv>$ ^Roma<np><top><f><sg>$^.<sent>$
+[/cXtlf8SniowW]
+[dg18aHiMjcLa#0] ^Haver<vaux><pri><p3><sg>$ ^partir<vblex><pp><m><sg>$ ^per<pr>$ ^Roma<np><top><f><sg>$^.<sent>$
+[/dg18aHiMjcLa]
+[gk3YXVHr3XD-#0] ^Haver<vaux><pri><p1><sg>$ ^anar<vblex><pp><m><sg>$ ^a<pr>$ ^teatre<n><m><sg>$^.<sent>$
+[/gk3YXVHr3XD-]
+[hzGTT4Dee_oK#0] ^Haver<vaux><pri><p3><sg>$ ^ser<vbser><pp><m><sg>$ ^complir<vblex><pp><f><sg>$ ^un<det><ind><f><sg>$ ^bon<adj><f><sg>$ ^acció<n><f><sg>$^.<sent>$
+[/hzGTT4Dee_oK]
+[iZO9r-IE0DKN#0] ^Ell<prn><tn><p3><f><sg>$ ^haver<vaux><pii><p3><sg>$ ^partir<vblex><pp><m><sg>$ ^per<pr>$ ^el<det><def><m><sg>$ ^exterior<n><m><sg>$^.<sent>$
+[/iZO9r-IE0DKN]
+[jf-d51WEx3sV#0] ^El<det><def><m><pl>$ ^pare<n><m><pl>$ ^haver<vbhaver><pri><p3><pl>$ ^créixer<vblex><pp><m><sg>$ ^bé<adv>$ ^el seu<det><pos><m><sg>$ ^fill<n><m><sg>$^.<sent>$
+[/jf-d51WEx3sV]
+[jmxc1AAOZ3KA#0] ^Haver<vbhaver><pri><p1><pl>$ ^vendre<vblex><pp><m><sg>$ ^el<det><def><f><sg>$ ^casa<n><f><sg>$^.<sent>$
+[/jmxc1AAOZ3KA]
+[lpEHKBbEHjyY#0] ^Deixar<vblex><imp><p2><sg>+ho<prn><enc><p3><nt>$ ^en pau<adv>$^!<sent>$
+[/lpEHKBbEHjyY]
+[mBm-nRJYfNsU#0] ^El<det><def><m><sg>$ ^palau<n><m><sg>$ ^anar<vaux><p3><sg>$ ^ser<vbser><inf>$ ^construir<vblex><pp><m><sg>$ ^el<det><def><m><sg>$ ^15<num>$° ^segle<n><m><sg>$^.<sent>$
+[/mBm-nRJYfNsU]
+[ovQu6qxL1hib#0] ^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><sg>$ ^en<pr>$ ^oficina<n><f><sg>$^!<sent>$
+[/ovQu6qxL1hib]
+[qJT7Vy-zS8PE#0] ^David<np><ant><m><sg>$ ^haver<vbmod><cni><p3><sg># de$ ^deixar<vblex><inf>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$^.<sent>$
+[/qJT7Vy-zS8PE]
+[xfT2SEe9HP30#0] ^Un<det><ind><m><sg>$ ^grup<n><m><sg>$ ^de<pr>$ ^home<n><m><pl>$^.<sent>$
+[/xfT2SEe9HP30]
+[xjCszPGz65F6#0] ^Vosaltres<prn><tn><p2><mf><pl>$ ^haver<vaux><pri><p2><pl>$ ^arribar<vblex><pp><m><sg>$ ^a<pr>$ ^temps<n><m><sp>$^.<sent>$
+[/xjCszPGz65F6]
+[xjk2k1-pH2zv#0] ^No<adv>$ ^deixar<vblex><inf>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$^!<sent>$
+[/xjk2k1-pH2zv]
+[z-MunLBsUDv6#0] ^Donar<vblex><imp><p2><sg>+em<prn><enc><p1><mf><sg>+ho<prn><enc><p3><nt>$^!<sent>$
+[/z-MunLBsUDv6]
+[zXRGHY165r8M#0] ^Anar<vblex><pri><p1><pl>$ ^a<pr>$ ^el<det><def><f><sg>$ ^casa<n><f><sg>$ ^de<pr>$ ^el<det><def><m><pl>$ ^avi<n><m><pl>$^.<sent>$
+[/zXRGHY165r8M]
+[zmz4tTveP80Y#0] ^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><m><pl>$ ^en pau<adv>$^!<sent>$
+[/zmz4tTveP80Y]

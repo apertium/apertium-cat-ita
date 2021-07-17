@@ -1,0 +1,2 @@
+[VXV12MdZdG_f#0] ^Apertium<np><org><m><sg>/Apertium<np><al><m><sg>$ ^essere<vbser><pri><p3><sg>/ser<vbser><pri><p3><sg>$ ^un<det><ind><f><sg>/un<det><ind><f><sg>$ ^piattaforma<n><f><sg>/plataforma<n><f><sg>$ ^di<pr>/de<pr>$ ^traduzione<n><f><sg>/traducció<n><f><sg>$ ^automatico<adj><f><sg>/automàtic<adj><f><sg>$ ^libero<adj><f><sg>/lliure<adj><mf><sg>$ ^e<cnjcoo>/i<cnjcoo>$ ^aprire<vblex><pp><f><sg>/obrir<vblex><pp><f><sg>$
+[/VXV12MdZdG_f]

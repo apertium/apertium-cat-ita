@@ -1,0 +1,78 @@
+[1Tvfe6dPZBeL#0] ^David<np><ant><m><sg>$ ^potere<vbmod><cni><p3><sg>$ ^lasciare<vblex><inf>+lo<prn><enc><p3><f><sg>$ ^in<pr>$ ^ufficio<n><m><sg>$^.<sent>$
+[/1Tvfe6dPZBeL]
+[1VfPnMUZpst3#0] ^Avere<vbhaver><pii><p1><sg>$ ^leggere<vblex><pp><m><sg>$ ^quello<det><dem><m><sg>$ ^libro<n><m><sg>$^.<sent>$
+[/1VfPnMUZpst3]
+[4ynZgl_G0jwq#0] ^Lasciare<vblex><imp><p2><sg>+ci<prn><enc><p1><mf><pl>$ ^in pace<adv>$^!<sent>$
+[/4ynZgl_G0jwq]
+[6Xp0Q-clscJA#0] ^Lui<prn><tn><p3><mf><pl>$ ^non<adv>$ ^avere<vbhaver><pri><p3><pl>$ ^mai<adv>$ ^vedere<vblex><pp><m><sg>$ ^Genova<np><top><m><sg>$^.<sent>$
+[/6Xp0Q-clscJA]
+[CgBhFid7Wx-w#0] ^Avere<vbhaver><pri><p1><sg>$ ^invitare<vblex><pp><m><sg>$ ^un<det><ind><m><sg>$ ^mio<adj><pos><m><sg>$ ^amico<n><m><sg>$^.<sent>$
+[/CgBhFid7Wx-w]
+[DxMijIgWVPh4#0] ^Si<prn><pro><ref><p3><mf><sp>$ ^essere<vbser><pri><p3><sg>$ ^frenare<vblex><pp><f><sg>$^.<sent>$
+[/DxMijIgWVPh4]
+[EwASLkaSRqBQ#0] ^Il<det><def><m><pl>$ ^zio<n><m><pl>$ ^essere<vbser><pii><p3><pl>$ ^arrivare<vblex><pp><m><pl>$ ^a casa<adv>$^.<sent>$
+[/EwASLkaSRqBQ]
+[IFXscieJbauM#0] ^Lasciare<vblex><imp><p2><sg>+ci<prn><enc><p1><mf><pl>+lo<prn><enc><p3><f><sg>$^!<sent>$
+[/IFXscieJbauM]
+[ItgICmv3KXea#0] ^Si<prn><pro><ref><p3><mf><sp>$ ^essere<vbser><pii><p3><sg>$ ^sedere<vblex><pp><f><sg>$ ^accanto a<pr>$ ^me<prn><tn><p1><mf><sg>$^.<sent>$
+[/ItgICmv3KXea]
+[MQ5vm1mrBRyF#0] ^Da<pr>+il<det><def><m><sg>$ ^a<pr>$ ^me<prn><tn><p1><mf><sg>$^!<sent>$
+[/MQ5vm1mrBRyF]
+[MX4HXDuzwDIa#0] ^Essere<vbser><pri><p3><sg>$ ^*nevicat$^.<sent>$
+[/MX4HXDuzwDIa]
+[N2cIcrMf95Li#0] ^Lasciare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><sg>$ ^in pace<adv>$^!<sent>$
+[/N2cIcrMf95Li]
+[NpReXlYb4kCI#0] ^Lasciare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>$ ^in pace<adv>$^!<sent>$
+[/NpReXlYb4kCI]
+[OsYdH2MFByaF#0] ^Venire<vblex><pri><p1><sg>$ ^da<pr>$ ^Alicante<np><top><m><sg>$^.<sent>$
+[/OsYdH2MFByaF]
+[S4zz4f9meHM5#0] ^Lasciare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>$ ^in pace<adv>$^!<sent>$
+[/S4zz4f9meHM5]
+[T35PzSXEyHqg#0] ^Venire<vblex><pri><p1><pl>$ ^da<pr>+il<det><def><f><sg>$ ^casa<n><f><sg>$ ^di<pr>+il<det><def><m><sg>$ ^medico<n><m><sg>$^.<sent>$
+[/T35PzSXEyHqg]
+[VFr9Enj8Hei0#0] ^Il<det><def><m><sg>$ ^bambino<n><m><sg>$ ^essere<vbser><pri><p3><sg>$ ^crescere<vblex><pp><m><sg>$ ^molto<det><ind><m><sg>$ ^in<pr>$ ^questo<det><dem><m><sg>$ ^periodo<n><m><sg>$^.<sent>$
+[/VFr9Enj8Hei0]
+[X7L9lMYlyPys#0] ^Stare<vblex><pri><p1><sg>$ ^parlare<vblex><ger>$^.<sent>$
+[/X7L9lMYlyPys]
+[Xl3EFcot-M3B#0] ^Avere<vbhaver><pii><p1><sg>$ ^passeggiare<vblex><pp><m><sg>$ ^per<pr>$ ^un<det><ind><mf><sg>$ ^ora<n><f><sg>$^.<sent>$
+[/Xl3EFcot-M3B]
+[Xt-oh_RLbb4o#0] ^Avere<vbhaver><pri><p3><pl>$ ^già<adv>$ ^studiare<vblex><pp><m><sg>$ ^il<det><def><f><sg>$ ^lezione<n><f><sg>$^.<sent>$
+[/Xt-oh_RLbb4o]
+[Z3bKr6Gt3NQE#0] ^Andare<vblex><pii><p3><sg>$ ^cantare<vblex><ger>$^.<sent>$
+[/Z3bKr6Gt3NQE]
+[ZiG7CG-SnKAY#0] ^Stare<vblex><pii><p3><sg>$ ^leggere<vblex><ger>$^.<sent>$
+[/ZiG7CG-SnKAY]
+[cXtlf8SniowW#0] ^Avere<vbhaver><pii><p1><sg>$ ^già<adv>$ ^visitare<vblex><pp><m><sg>$ ^Roma<np><top><f><sg>$^.<sent>$
+[/cXtlf8SniowW]
+[dg18aHiMjcLa#0] ^Essere<vbser><pri><p3><sg>$ ^partire<vblex><pp><f><sg>$ ^per<pr>$ ^Roma<np><top><f><sg>$^.<sent>$
+[/dg18aHiMjcLa]
+[gk3YXVHr3XD-#0] ^Essere<vbser><pri><p1><sg>$ ^andare<vblex><pp><m><sg>$ ^a<pr>$ ^teatro<n><m><sg>$^.<sent>$
+[/gk3YXVHr3XD-]
+[hzGTT4Dee_oK#0] ^Essere<vbser><pri><p3><sg>$ ^essere<vbser><pp><f><sg>$ ^compiere<vblex><pp><f><sg>$ ^un<det><ind><f><sg>$ ^buono<adj><f><sg>$ ^azione<n><f><sg>$^.<sent>$
+[/hzGTT4Dee_oK]
+[iZO9r-IE0DKN#0] ^Lui<prn><tn><p3><f><sg>$ ^essere<vbser><pii><p3><sg>$ ^partire<vblex><pp><f><sg>$ ^per<pr>$ ^il<det><def><mf><sg>$ ^estero<n><m><sg>$^.<sent>$
+[/iZO9r-IE0DKN]
+[jf-d51WEx3sV#0] ^Il<det><def><m><pl>$ ^genitore<n><m><pl>$ ^avere<vbhaver><pri><p3><pl>$ ^crescere<vblex><pp><m><sg>$ ^bene<adv>$ ^il loro<det><pos><m><sg>$ ^figlio<n><m><sg>$^.<sent>$
+[/jf-d51WEx3sV]
+[jmxc1AAOZ3KA#0] ^Avere<vbhaver><pri><p1><pl>$ ^vendere<vblex><pp><m><sg>$ ^il<det><def><f><sg>$ ^casa<n><f><sg>$^.<sent>$
+[/jmxc1AAOZ3KA]
+[lpEHKBbEHjyY#0] ^Lasciare<vblex><imp><p2><sg>+lo<prn><enc><p3><nt>$ ^in pace<adv>$^!<sent>$
+[/lpEHKBbEHjyY]
+[mBm-nRJYfNsU#0] ^Il<det><def><m><sg>$ ^palazzo<n><m><sg>$ ^essere<vbser><ifi><p3><sg>$ ^costruire<vblex><pp><m><sg>$ ^in<pr>+il<det><def><m><sg>$ ^15<num>$° ^secolo<n><m><sg>$^.<sent>$
+[/mBm-nRJYfNsU]
+[ovQu6qxL1hib#0] ^Lasciare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><sg>$ ^in<pr>$ ^ufficio<n><m><sg>$^!<sent>$
+[/ovQu6qxL1hib]
+[qJT7Vy-zS8PE#0] ^David<np><ant><m><sg>$ ^dovere<vbmod><cni><p3><sg>$ ^lasciare<vblex><inf>+ci<prn><enc><p1><mf><pl>+lo<prn><enc><p3><f><sg>$^.<sent>$
+[/qJT7Vy-zS8PE]
+[xfT2SEe9HP30#0] ^Un<det><ind><m><sg>$ ^gruppo<n><m><sg>$ ^di<pr>$ ^uomo<n><m><pl>$^.<sent>$
+[/xfT2SEe9HP30]
+[xjCszPGz65F6#0] ^Voi<prn><tn><p2><mf><pl>$ ^essere<vbser><pri><p2><pl>$ ^arrivare<vblex><pp><m><pl>$ ^a<pr>$ ^tempo<n><m><sg>$^.<sent>$
+[/xjCszPGz65F6]
+[xjk2k1-pH2zv#0] ^Non<adv>$ ^lasciare<vblex><inf>+ci<prn><enc><p1><mf><pl>+lo<prn><enc><p3><f><sg>$^!<sent>$
+[/xjk2k1-pH2zv]
+[z-MunLBsUDv6#0] ^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>+lo<prn><enc><p3><nt>$^!<sent>$
+[/z-MunLBsUDv6]
+[zXRGHY165r8M#0] ^Andare<vblex><pri><p1><pl>$ ^a<pr>+il<det><def><f><sg>$ ^casa<n><f><sg>$ ^di<pr>+il<det><def><m><pl>$ ^nonno<n><m><pl>$^.<sent>$
+[/zXRGHY165r8M]
+[zmz4tTveP80Y#0] ^Lasciare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><pl>$ ^in pace<adv>$^!<sent>$
+[/zmz4tTveP80Y]

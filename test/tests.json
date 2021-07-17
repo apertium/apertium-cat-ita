@@ -1,0 +1,18 @@
+{
+    "cat-ita-pending": {
+        "input": "cat-ita-pending-input.txt",
+        "mode": "cat-ita"
+    },
+    "ita-cat-pending": {
+        "input": "ita-cat-pending-input.txt",
+        "mode": "ita-cat"
+    },
+    "cat-ita": {
+        "input": "cat-ita-input.txt",
+        "mode": "cat-ita"
+    },
+    "ita-cat": {
+        "input": "ita-cat-input.txt",
+        "mode": "ita-cat"
+    }
+}

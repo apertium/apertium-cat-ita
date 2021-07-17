@@ -1,0 +1,2 @@
+[cbabPCj4qmeP#0] ^Apertium<np><al><m><sg>/Apertium<np><org><m><sg>$ ^ser<vbser><pri><p3><sg>/essere<vbser><pri><p3><sg>$ ^un<det><ind><f><sg>/un<det><ind><f><sg>$ ^plataforma<n><f><sg>/piattaforma<n><f><sg>$ ^de<pr>/di<pr>$ ^traducció<n><f><sg>/traduzione<n><f><sg>$ ^automàtic<adj><f><sg>/automatico<adj><f><sg>$ ^lliure<adj><mf><sg>/libero<adj><GD><sg>$ ^i<cnjcoo>/e<cnjcoo>$ ^obert<adj><f><sg>/aperto<adj><f><sg>$
+[/cbabPCj4qmeP]

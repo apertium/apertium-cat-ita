@@ -1,0 +1,2 @@
+[cbabPCj4qmeP#0] ^np<SN><m><sg>{^Apertium<np><org><m><sg>$}$ ^essere<SV><vbser><pri><p3><sg>{^essere<vbser><pri><p3><5>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^un<det><ind><2><3>$ ^piattaforma<n><2><3>$}$ ^di<pr>{^di<pr>$}$ ^nom_adj_adj<SN><f><sg><sl_f><sl_sg>{^traduzione<n><2><3>$ ^automatico<adj><2><3>$ ^libero<adj><2><3>$}$ ^cnjcoo<cnjcoo>{^e<cnjcoo>$}$ ^adj<SA><f><sg>{^aperto<adj><2><3>$}$
+[/cbabPCj4qmeP]

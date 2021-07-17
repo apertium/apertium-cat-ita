@@ -1,0 +1,78 @@
+[1Tvfe6dPZBeL#0] ^np<SN><m><sg><sl_m><sl_sg>{^David<np><ant><m><sg>$}$ ^poder<SV><vbmod><cni>{^poder<vbmod><cni><p3><sg>$}$ ^deixar<SV><vblex><inf>{^deixar<vblex><inf>+el<prn><enc><p3><f><sg>$}$ ^en<pr>{^en<pr>$}$ ^nom<SN><f><sg><sl_m><sl_sg>{^oficina<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/1Tvfe6dPZBeL]
+[1VfPnMUZpst3#0] ^default<default>{^Haver<vbhaver><pii><p1><sg>$}$ ^pp<SA><m><sg><sl_m><sl_sg>{^llegir<vblex><pp><2><3>$}$ ^det_nom<SN><m><sg><sl_m><sl_sg>{^aquell<det><dem><2><3>$ ^llibre<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/1VfPnMUZpst3]
+[4ynZgl_G0jwq#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+ens<prn><enc><p1><mf><pl>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/4ynZgl_G0jwq]
+[6Xp0Q-clscJA#0] ^pronom<SN><prn><tn><p3><m><pl>{^Ell<prn><tn><p3><m><pl>$}$ ^adv<SAdv>{^no<adv>$}$ ^haver<SV><vbhaver><pri>{^haver<vbhaver><pri><p3><pl>$ ^veure<vblex><pp><m><sg>$ ^mai<adv>$}$ ^np<SN><f><sg><sl_m><sl_sg>{^Gènova<np><top><f><sg>$}$^sent<sent>{^.<sent>$}$
+[/6Xp0Q-clscJA]
+[CgBhFid7Wx-w#0] ^default<default>{^Haver<vbhaver><pri><p1><sg>$}$ ^pp<SA><m><sg><sl_m><sl_sg>{^convidar<vblex><pp><2><3>$}$ ^det_adj_nom<SN><m><sg><sl_m><sl_sg>{^un<det><ind><2><3>$ ^meu<adj><pos><2><3>$ ^amic<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/CgBhFid7Wx-w]
+[DxMijIgWVPh4#0] ^frenar<SV><vblex><pri>{^Es<prn><pro><ref><p3><mf><sp>$ ^haver<vaux><pri><p3><sg>$ ^frenar<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
+[/DxMijIgWVPh4]
+[EwASLkaSRqBQ#0] ^det_nom<SN><m><pl><sl_m><sl_pl>{^El<det><def><2><3>$ ^oncle<n><2><3>$}$ ^arribar<SV><vblex><pii>{^haver<vaux><pii><p3><pl>$ ^arribar<vblex><pp><m><sg>$}$ ^adv<SAdv>{^a casa<adv>$}$^sent<sent>{^.<sent>$}$
+[/EwASLkaSRqBQ]
+[IFXscieJbauM#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$}$^sent<sent>{^!<sent>$}$
+[/IFXscieJbauM]
+[ItgICmv3KXea#0] ^asseure<SV><vblex><pii>{^Es<prn><pro><ref><p3><mf><sp>$ ^haver<vaux><pii><p3><sg>$ ^asseure<vblex><pp><m><sg>$}$ ^al costat de<pr>{^al costat de<pr>$}$ ^pronom<SN><prn><tn><p1><mf><sg>{^mi<prn><tn><p1><mf><sg>$}$^sent<sent>{^.<sent>$}$
+[/ItgICmv3KXea]
+[MQ5vm1mrBRyF#0] ^de<pr>{^De<pr>$}$ ^el<SA><m><sg><sl_m><sl_sg>{^el<det><def><2><3>$}$ ^a<pr>{^a<pr>$}$ ^pronom<SN><prn><tn><p1><mf><sg>{^mi<prn><tn><p1><mf><sg>$}$^sent<sent>{^!<sent>$}$
+[/MQ5vm1mrBRyF]
+[MX4HXDuzwDIa#0] ^ser<SV><vbser><pri>{^Ser<vbser><pri><p3><sg>$}$ ^unknown<unknown>{^*nevicat$}$^sent<sent>{^.<sent>$}$
+[/MX4HXDuzwDIa]
+[N2cIcrMf95Li#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><sg>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/N2cIcrMf95Li]
+[NpReXlYb4kCI#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><pl>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/NpReXlYb4kCI]
+[OsYdH2MFByaF#0] ^venir<SV><vblex><pri>{^Venir<vblex><pri><p1><sg>$}$ ^de<pr>{^de<pr>$}$ ^np<SN><m><sg><sl_m><sl_sg>{^Alacant<np><top><m><sg>$}$^sent<sent>{^.<sent>$}$
+[/OsYdH2MFByaF]
+[S4zz4f9meHM5#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+em<prn><enc><p1><mf><sg>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/S4zz4f9meHM5]
+[T35PzSXEyHqg#0] ^venir<SV><vblex><pri>{^Venir<vblex><pri><p1><pl>$}$ ^de<pr>{^de<pr>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^el<det><def><2><3>$ ^casa<n><2><3>$}$ ^de<pr>{^de<pr>$}$ ^det_nom<SN><m><sg><sl_m><sl_sg>{^el<det><def><2><3>$ ^metge<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/T35PzSXEyHqg]
+[VFr9Enj8Hei0#0] ^det_nom<SN><m><sg><sl_m><sl_sg>{^El<det><def><2><3>$ ^nen<n><2><3>$}$ ^créixer<SV><vblex><pri>{^haver<vaux><pri><p3><sg>$ ^créixer<vblex><pp><m><sg>$}$ ^molt<SA><m><sg><sl_m><sl_sg>{^molt<adj><2><3>$}$ ^en<pr>{^en<pr>$}$ ^det_nom<SN><m><sg><sl_m><sl_sg>{^aquest<det><dem><2><3>$ ^període<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/VFr9Enj8Hei0]
+[X7L9lMYlyPys#0] ^estar<SV><vblex><pri>{^Estar<vblex><pri><p1><sg>$}$ ^parlar<SV><vblex><ger>{^parlar<vblex><ger>$}$^sent<sent>{^.<sent>$}$
+[/X7L9lMYlyPys]
+[Xl3EFcot-M3B#0] ^default<default>{^Haver<vbhaver><pii><p1><sg>$}$ ^pp<SA><m><sg><sl_m><sl_sg>{^passejar<vblex><pp><2><3>$}$ ^per<pr>{^per<pr>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^un<det><ind><2><3>$ ^hora<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/Xl3EFcot-M3B]
+[Xt-oh_RLbb4o#0] ^haver<SV><vbhaver><pri>{^Haver<vbhaver><pri><p3><pl>$ ^estudiar<vblex><pp><m><sg>$ ^ja<adv>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^el<det><def><2><3>$ ^lliçó<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/Xt-oh_RLbb4o]
+[Z3bKr6Gt3NQE#0] ^estar<SV><vblex><pii>{^Estar<vblex><pii><p3><sg>$}$ ^cantar<SV><vblex><ger>{^cantar<vblex><ger>$}$^sent<sent>{^.<sent>$}$
+[/Z3bKr6Gt3NQE]
+[ZiG7CG-SnKAY#0] ^estar<SV><vblex><pii>{^Estar<vblex><pii><p3><sg>$}$ ^llegir<SV><vblex><ger>{^llegir<vblex><ger>$}$^sent<sent>{^.<sent>$}$
+[/ZiG7CG-SnKAY]
+[cXtlf8SniowW#0] ^haver<SV><vbhaver><pii>{^Haver<vbhaver><pii><p1><sg>$ ^visitar<vblex><pp><m><sg>$ ^ja<adv>$}$ ^np<SN><f><sg><sl_f><sl_sg>{^Roma<np><top><f><sg>$}$^sent<sent>{^.<sent>$}$
+[/cXtlf8SniowW]
+[dg18aHiMjcLa#0] ^partir<SV><vblex><pri>{^Haver<vaux><pri><p3><sg>$ ^partir<vblex><pp><m><sg>$}$ ^per<pr>{^per<pr>$}$ ^np<SN><f><sg><sl_f><sl_sg>{^Roma<np><top><f><sg>$}$^sent<sent>{^.<sent>$}$
+[/dg18aHiMjcLa]
+[gk3YXVHr3XD-#0] ^anar<SV><vblex><pri>{^Haver<vaux><pri><p1><sg>$ ^anar<vblex><pp><m><sg>$}$ ^a<pr>{^a<pr>$}$ ^nom<SN><m><sg><sl_m><sl_sg>{^teatre<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/gk3YXVHr3XD-]
+[hzGTT4Dee_oK#0] ^ser<SV><vbser><pri>{^Haver<vaux><pri><p3><sg>$ ^ser<vbser><pp><m><sg>$}$ ^pp<SA><f><sg><sl_f><sl_sg>{^complir<vblex><pp><2><3>$}$ ^det_adj_nom<SN><f><sg><sl_f><sl_sg>{^un<det><ind><2><3>$ ^bon<adj><2><3>$ ^acció<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/hzGTT4Dee_oK]
+[iZO9r-IE0DKN#0] ^pronom<SN><prn><tn><p3><f><sg>{^Ell<prn><tn><p3><f><sg>$}$ ^partir<SV><vblex><pii>{^haver<vaux><pii><p3><sg>$ ^partir<vblex><pp><m><sg>$}$ ^per<pr>{^per<pr>$}$ ^det_nom<SN><m><sg><sl_m><sl_sg>{^el<det><def><2><3>$ ^exterior<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/iZO9r-IE0DKN]
+[jf-d51WEx3sV#0] ^det_nom<SN><m><pl><sl_m><sl_pl>{^El<det><def><2><3>$ ^pare<n><2><3>$}$ ^default<default>{^haver<vbhaver><pri><p3><pl>$}$ ^pp<SA><m><sg><sl_m><sl_sg>{^créixer<vblex><pp><2><3>$}$ ^adv<SAdv>{^bé<adv>$}$ ^det_nom<SN><m><sg><sl_m><sl_sg>{^el seu<det><pos><2><3>$ ^fill<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/jf-d51WEx3sV]
+[jmxc1AAOZ3KA#0] ^default<default>{^Haver<vbhaver><pri><p1><pl>$}$ ^pp<SA><m><sg><sl_m><sl_sg>{^vendre<vblex><pp><2><3>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^el<det><def><2><3>$ ^casa<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/jmxc1AAOZ3KA]
+[lpEHKBbEHjyY#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+ho<prn><enc><p3><nt>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/lpEHKBbEHjyY]
+[mBm-nRJYfNsU#0] ^det_nom<SN><m><sg><sl_m><sl_sg>{^El<det><def><2><3>$ ^palau<n><2><3>$}$ ^construir<SV><vblex><ifi>{^anar<vaux><p3><sg>$ ^ser<vbser><inf>$ ^construir<vblex><pp><m><sg>$}$ ^det-any<adv>{^el<det><def><m><sg>$ ^15<num>$}$° ^nom<SN><m><sg><sl_m><sl_sg>{^segle<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/mBm-nRJYfNsU]
+[ovQu6qxL1hib#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><f><sg>$}$ ^en<pr>{^en<pr>$}$ ^nom<SN><f><sg><sl_m><sl_sg>{^oficina<n><2><3>$}$^sent<sent>{^!<sent>$}$
+[/ovQu6qxL1hib]
+[qJT7Vy-zS8PE#0] ^np<SN><m><sg><sl_m><sl_sg>{^David<np><ant><m><sg>$}$ ^haver# de<SV><vbmod><cni>{^haver<vbmod><cni><p3><sg># de$}$ ^deixar<SV><vblex><inf>{^deixar<vblex><inf>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
+[/qJT7Vy-zS8PE]
+[xfT2SEe9HP30#0] ^det_nom<SN><m><sg><sl_m><sl_sg>{^Un<det><ind><2><3>$ ^grup<n><2><3>$}$ ^de<pr>{^de<pr>$}$ ^nom<SN><m><pl><sl_m><sl_pl>{^home<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/xfT2SEe9HP30]
+[xjCszPGz65F6#0] ^pronom<SN><prn><tn><p2><mf><pl>{^Vosaltres<prn><tn><p2><mf><pl>$}$ ^arribar<SV><vblex><pri>{^haver<vaux><pri><p2><pl>$ ^arribar<vblex><pp><m><sg>$}$ ^a<pr>{^a<pr>$}$ ^nom<SN><m><sg><sl_m><sl_sg>{^temps<n><2><sp>$}$^sent<sent>{^.<sent>$}$
+[/xjCszPGz65F6]
+[xjk2k1-pH2zv#0] ^adv<SAdv>{^No<adv>$}$ ^deixar<SV><vblex><inf>{^deixar<vblex><inf>+ens<prn><enc><p1><mf><pl>+el<prn><enc><p3><f><sg>$}$^sent<sent>{^!<sent>$}$
+[/xjk2k1-pH2zv]
+[z-MunLBsUDv6#0] ^donar<SV><vblex><imp><p2><sg>{^Donar<vblex><imp><p2><sg>+em<prn><enc><p1><mf><sg>+ho<prn><enc><p3><nt>$}$^sent<sent>{^!<sent>$}$
+[/z-MunLBsUDv6]
+[zXRGHY165r8M#0] ^anar<SV><vblex><pri>{^Anar<vblex><pri><p1><pl>$}$ ^a<pr>{^a<pr>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^el<det><def><2><3>$ ^casa<n><2><3>$}$ ^de<pr>{^de<pr>$}$ ^det_nom<SN><m><pl><sl_m><sl_pl>{^el<det><def><2><3>$ ^avi<n><2><3>$}$^sent<sent>{^.<sent>$}$
+[/zXRGHY165r8M]
+[zmz4tTveP80Y#0] ^deixar<SV><vblex><imp><p2><sg>{^Deixar<vblex><imp><p2><sg>+el<prn><enc><p3><m><pl>$}$ ^adv<SAdv>{^en pau<adv>$}$^sent<sent>{^!<sent>$}$
+[/zmz4tTveP80Y]

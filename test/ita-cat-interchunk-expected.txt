@@ -1,0 +1,2 @@
+[VXV12MdZdG_f#0] ^np<SN><m><sg><sl_m><sl_sg>{^Apertium<np><al><m><sg>$}$ ^ser<SV><vbser><pri>{^ser<vbser><pri><p3><sg>$}$ ^det_nom<SN><f><sg><sl_f><sl_sg>{^un<det><ind><2><3>$ ^plataforma<n><2><3>$}$ ^de<pr>{^de<pr>$}$ ^nom_adj_adj<SN><f><sg><sl_f><sl_sg>{^traducció<n><2><3>$ ^automàtic<adj><2><3>$ ^lliure<adj><mf><3>$}$ ^cnjcoo<cnjcoo>{^i<cnjcoo>$}$ ^pp<SA><f><sg><sl_f><sl_sg>{^obrir<vblex><pp><2><3>$}$
+[/VXV12MdZdG_f]
