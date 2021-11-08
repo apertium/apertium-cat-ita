@@ -81,11 +81,11 @@
         <file name="apertium-cat-ita.ita-cat.t3x"/>
         <file name="ita-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ita-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x" debug-suff="intergen">
-        <file name="ita-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="ita-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ita-cat.autopgen.bin"/>
@@ -135,11 +135,14 @@
         <file name="apertium-cat-ita.ita-cat.t3x"/>
         <file name="ita-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ita-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x" debug-suff="intergen">
-        <file name="ita-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="ita-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="ita-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ita-cat.autopgen.bin"/>
