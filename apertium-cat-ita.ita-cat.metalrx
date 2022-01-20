@@ -389,14 +389,14 @@
   </def-macros>
 
   <def-seqs>
-    <def-seq n="distanza">
+    <def-seq n="distanza"><or>
       <match lemma="metro"/>
       <match lemma="chilometro"/>
       <match lemma="miglio"/>
       <match lemma="lega"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="periodo">
+    <def-seq n="periodo"><or>
       <match lemma="minuto" tags="n.*"/>
       <match lemma="ora" tags="n.*"/>
       <match lemma="giorno" tags="n.*"/>
@@ -406,9 +406,9 @@
       <match lemma="decennio" tags="n.*"/>
       <match lemma="secolo" tags="n.*"/>
       <match lemma="millennio" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="mese">
+    <def-seq n="mese"><or>
       <match lemma="gennaio" tags="n.*"/>
       <match lemma="febbraio" tags="n.*"/>
       <match lemma="marzo" tags="n.*"/>
@@ -421,9 +421,9 @@
       <match lemma="ottobre" tags="n.*"/>
       <match lemma="novembre" tags="n.*"/>
       <match lemma="dicembre" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="incarico">
+    <def-seq n="incarico"><or>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="segretario" tags="n.*"/>
       <match lemma="direttore" tags="n.*"/>
@@ -435,35 +435,35 @@
       <match lemma="vescovo" tags="n.*"/>
       <match lemma="arcivescovo" tags="n.*"/>
       <match lemma="papa" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="costruzione">
+    <def-seq n="costruzione"><or>
       <match lemma="casa" tags="n.*"/>
       <match lemma="chiesa" tags="n.*"/>
       <match lemma="duomo" tags="n.*"/>
       <match lemma="palazzo" tags="n.*"/>
       <match lemma="banca" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="bevanda">
+    <def-seq n="bevanda"><or>
       <match lemma="acqua" tags="n.*"/>
       <match lemma="caffè" tags="n.*"/>
       <match lemma="te" tags="n.*"/>
       <match lemma="frullato" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="cibo">
+    <def-seq n="cibo"><or>
       <match lemma="carne" tags="n.*"/>
       <match lemma="pesce" tags="n.*"/>
       <match lemma="pasta" tags="n.*"/>
       <match lemma="dessert" tags="n.*"/>
       <match lemma="gelato" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="medicina">
+    <def-seq n="medicina"><or>
       <match lemma="medicina" tags="n.*"/>
       <match lemma="compressa" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
     <def-seq n="strumenti_musicali">
       <or>
@@ -483,7 +483,7 @@
       </or>
     </def-seq>
 
-    <def-seq n="verbi_da">
+    <def-seq n="verbi_da"><or>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
@@ -512,7 +512,7 @@
       <match lemma="trarre" tags="vblex.*"/>
       <match lemma="dimettire" tags="vblex.*"/>
       <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
-    </def-seq>
+    </or></def-seq>
   </def-seqs>
 
   <rules>

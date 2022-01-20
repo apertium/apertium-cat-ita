@@ -32,7 +32,7 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
- 	prefs/$(PREFIX2).xml
+	prefs/$(PREFIX2).xml
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -113,11 +113,8 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.metalrx: %.metalrx .deps/.d
+.deps/%.lrx: %.metalrx .deps/.d
 	apertium-metalrx $< $@
-
-.deps/%.lrx: .deps/%.metalrx
-	apertium-metalrx-to-lrx $< $@
 
 $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
