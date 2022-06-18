@@ -133,6 +133,12 @@
       <attr-item tags="sl_mf"/>
    </def-attr>
 
+   <def-attr n="sl_nbr">
+      <attr-item tags="sl_sg"/>
+      <attr-item tags="sl_pl"/>
+      <attr-item tags="sl_sp"/>
+   </def-attr>
+
     <def-attr n="sintagma">
       <attr-item tags="SN"/>
       <attr-item tags="SA"/>
