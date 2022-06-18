@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <metalrx>
   <def-macros>
     <def-macro name="noms_propis">
@@ -1117,7 +1116,7 @@
        <match lemma="fusta" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="pr_de"><or>
+    <def-seq n="pr_de">
       <match lemma="de" tags="pr"/>
       <match lemma="a banda de" tags="pr"/>
       <match lemma="abans de" tags="pr"/>
