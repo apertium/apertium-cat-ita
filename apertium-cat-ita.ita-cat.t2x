@@ -99,6 +99,12 @@
       <attr-item tags="ND"/>
       <attr-item tags="NN"/>
    </def-attr>
+
+   <def-attr n="sl_nbr">
+      <attr-item tags="sl_sg"/>
+      <attr-item tags="sl_pl"/>
+      <attr-item tags="sl_sp"/>
+   </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
