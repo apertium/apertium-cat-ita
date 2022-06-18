@@ -5081,7 +5081,7 @@
               </and>
             </test>
             <let><var n="numero"/><lit-tag v="pl"/></let>
-            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
           </when>
         </choose>
         <out>  
@@ -6525,7 +6525,7 @@
               </and>
             </test>
             <let><var n="numero"/><lit-tag v="pl"/></let>
-            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
           </when>
         </choose>
         <out>
@@ -6717,7 +6717,7 @@
               </and>
             </test>
             <let><var n="numero"/><lit-tag v="pl"/></let>
-            <let><clip pos="2" side="tl" part="numero"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
           </when>
         </choose>
         <out>
