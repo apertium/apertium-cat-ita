@@ -1116,7 +1116,7 @@
        <match lemma="fusta" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="pr_de">
+    <def-seq n="pr_de"><or>
       <match lemma="de" tags="pr"/>
       <match lemma="a banda de" tags="pr"/>
       <match lemma="abans de" tags="pr"/>
