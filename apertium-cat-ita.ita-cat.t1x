@@ -826,6 +826,8 @@
       <list-item v="Azerbaigian"/>
       <list-item v="Bahamas"/>
       <list-item v="Bahrain"/>
+      <list-item v="Bengala"/>
+      <list-item v="Tamil Nadu"/>
       <list-item v="Bangladesh"/>
       <list-item v="Barbados"/>
       <list-item v="Belgio"/>
@@ -1044,7 +1046,10 @@
       <list-item v="Linguadoca"/>
       <list-item v="Provenza"/>
       <list-item v="Aquitania"/>
+      <list-item v="Nuova Aquitania"/>
       <list-item v="Guascogna"/>
+      <list-item v="Charente"/>
+      <list-item v="Borgogna"/>
       <list-item v="Normandia"/>
       <list-item v="Corsica"/>
 <!--      <list-item v="Rossiglione"/> -->
@@ -1085,6 +1090,7 @@
       <list-item v="Idaho"/>
       <list-item v="Illinois"/>
       <list-item v="Indiana"/>
+      <list-item v="Iowa"/>
       <list-item v="Kansas"/>
       <list-item v="Kentucky"/>
       <list-item v="Louisiana"/>
@@ -1093,14 +1099,18 @@
       <list-item v="Minnesota"/>
       <list-item v="Missouri"/>
       <list-item v="Montana"/>
+      <list-item v="Nebraska"/>
       <list-item v="Nevada"/>
       <list-item v="New England"/>
       <list-item v="New Hampshire"/>
       <list-item v="New Jersey"/>
       <list-item v="Oklahoma"/>
       <list-item v="Ohio"/>
+      <list-item v="Oregon"/>
+      <list-item v="Tennessee"/>
       <list-item v="Texas"/>
       <list-item v="Utah"/>
+      <list-item v="Vermont"/>
       <list-item v="Wyoming"/>
       <list-item v="Wisconsin"/>
       <list-item v="Alberta"/>
