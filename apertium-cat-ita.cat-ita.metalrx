@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metalrx>
   <def-macros>
     <def-macro name="noms_propis">
@@ -291,6 +292,20 @@
 	 </or>
 	 <match tags="np.ant.*"/>
 	 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+    </def-macro>
+
+    <!-- Aquesta macro tria p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
+    <def-macro name="ant_antcog">
+      <rule weight="0.6">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <or>
+           <match tags="np.*"/>
+           <match tags=""/>
+         </or>
       </rule>
     </def-macro>
 
@@ -6406,38 +6421,38 @@
 
 <!-- **************** NP **************** -->
 
-<!-- Virgili > Virgili, Virgilio -->
-  <rule weight="0.6">
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgilio"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
-     <match lemma="i" tags="pr"/>
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
+  <macro name="ant_antcog" p1="Adrià" p2="Adriano" />
+  <macro name="ant_antcog" p1="Alexandre" p2="Alessandro" />
+  <macro name="ant_antcog" p1="August" p2="Augusto" />
+  <macro name="ant_antcog" p1="Cèsar" p2="Cesare" />
+  <macro name="ant_antcog" p1="Ciceró" p2="Cicerone" />
+  <macro name="ant_antcog" p1="Claudi" p2="Claudio" />
+  <macro name="ant_antcog" p1="Hèctor" p2="Ettore" />
+  <macro name="ant_antcog" p1="Horaci" p2="Orazio" />
+  <macro name="ant_antcog" p1="Jesús" p2="Gesù" />
+  <macro name="ant_antcog" p1="Maria Antonieta" p2="Maria Antonietta" />
+  <macro name="ant_antcog" p1="Miquel Àngel" p2="Michelangelo" />
+  <macro name="ant_antcog" p1="Marc Aureli" p2="Marco Aurelio" />
+  <macro name="ant_antcog" p1="Octavi" p2="Ottaviano" />
+  <macro name="ant_antcog" p1="Ovidi" p2="Ovidio" />
+  <macro name="ant_antcog" p1="Pompeu" p2="Pompeo" />
+  <macro name="ant_antcog" p1="Salomó" p2="Salomone" />
+
+  <rule weight="1.2">
+     <match lemma="Claudi" tags="np.*"><select lemma="Claudio"/></match>
+     <or>
+       <match lemma="Ptolomeu" tags="np.*"/>
+       <match lemma="Ptolemeu" tags="np.*"/>
+     </or>
   </rule>
 
-<!-- Jesús > Gesù, Jesús -->
-  <rule weight="0.6">
-     <match lemma="Jesús" tags="np.*"><select lemma="Gesù"/></match>
+  <rule weight="1.2">
+     <match lemma="Cèsar" tags="np.*"><select lemma="Cesare"/></match>
+     <match lemma="August" tags="np.*"><select lemma="Augusto"/></match>
   </rule>
-  <rule weight="1.0">
-     <match lemma="Jesús" tags="np.*"><select lemma="Jesús"/></match>
-     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
-  </rule>
-<!--
-  <rule weight="1.0">
-     <match lemma="Jesús" tags="np.*"><select lemma="Jesús"/></match>
-     <match tags=""/>
-  </rule>
--->
 
-  <macro name="noms_propis" p1="Adrià" p2="Adriano" />
+
   <macro name="noms_propis" p1="Albert" p2="Alberto" />
-  <macro name="noms_propis" p1="Alexandre" p2="Alessandro" />
   <macro name="noms_propis" p1="Alfons" p2="Alfonso" />
   <macro name="noms_propis" p1="Andreu" p2="Andrea" />
   <macro name="noms_propis" p1="Benet" p2="Benedetto" />

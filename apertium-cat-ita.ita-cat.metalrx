@@ -301,6 +301,20 @@
       </rule>
     </def-macro>
 
+    <!-- Aquesta macro tria p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
+    <def-macro name="ant_antcog">
+      <rule weight="0.6">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <or>
+           <match tags="np.*"/>
+           <match tags=""/>
+         </or>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
     <def-macro name="verb_nopron_pron">
@@ -3764,9 +3778,39 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="noms_propis" p1="Adriano" p2="Adrià" />
+  <macro name="ant_antcog" p1="Adriano" p2="Adrià" />
+  <macro name="ant_antcog" p1="Alessandro" p2="Alexandre" />
+  <macro name="ant_antcog" p1="Augusto" p2="August" />
+  <macro name="ant_antcog" p1="Cesare" p2="Cèsar" />
+  <macro name="ant_antcog" p1="Cicerone" p2="Ciceró" />
+  <macro name="ant_antcog" p1="Claudio" p2="Claudi" />
+  <macro name="ant_antcog" p1="Dario" p2="Darios" />
+  <macro name="ant_antcog" p1="Ettore" p2="Hèctor" />
+  <macro name="ant_antcog" p1="Orazio" p2="Horaci" />
+  <macro name="ant_antcog" p1="Gesù" p2="Jesús" />
+  <macro name="ant_antcog" p1="Maria Antonietta" p2="Maria Antonieta" />
+  <macro name="ant_antcog" p1="Michelangelo" p2="Miquel Àngel" />
+  <macro name="ant_antcog" p1="Marco Aurelio" p2="Marc Aureli" />
+  <macro name="ant_antcog" p1="Ottaviano" p2="Octavi" />
+  <macro name="ant_antcog" p1="Ovidio" p2="Ovidi" />
+  <macro name="ant_antcog" p1="Pompeo" p2="Pompeu" />
+  <macro name="ant_antcog" p1="Salomone" p2="Salomó" />
+
+  <rule weight="1.2">
+     <match lemma="Claudio" tags="np.*"><select lemma="Claudi"/></match>
+     <or>
+       <match lemma="Tolomeo" tags="np.*"/>
+       <match lemma="Tolemeo" tags="np.*"/>
+     </or>
+  </rule>
+
+  <rule weight="1.2">
+     <match lemma="Ottavio" tags="np.*"><select lemma="Octavi"/></match>
+     <match lemma="Augusto" tags="np.*"><select lemma="August"/></match>
+  </rule>
+
+
   <macro name="noms_propis" p1="Alberto" p2="Albert" />
-  <macro name="noms_propis" p1="Alessandro" p2="Alexandre" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
   <macro name="noms_propis" p1="Andrea" p2="Andreu" />
   <macro name="noms_propis" p1="Benedetto" p2="Benet" />
