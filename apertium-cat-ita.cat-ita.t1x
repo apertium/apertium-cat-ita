@@ -1170,6 +1170,7 @@
       <list-item v="Connecticut"/>
       <list-item v="Dakota del Nord"/>
       <list-item v="Dakota del Sud"/>
+      <list-item v="Georgia"/>
       <list-item v="Idaho"/>
       <list-item v="Illinois"/>
       <list-item v="Indiana"/>
@@ -1177,6 +1178,7 @@
       <list-item v="Kansas"/>
       <list-item v="Kentucky"/>
       <list-item v="Louisiana"/>
+      <list-item v="Maine"/>
       <list-item v="Massachusetts"/>
       <list-item v="Michigan"/>
       <list-item v="Minnesota"/>
