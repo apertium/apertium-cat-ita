@@ -827,21 +827,6 @@
        <match lemma="bestia" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="mes"><or>
-      <match lemma="gener"/>
-      <match lemma="febrer"/>
-      <match lemma="març"/>
-      <match lemma="abril"/>
-      <match lemma="maig"/>
-      <match lemma="juny"/>
-      <match lemma="juliol"/>
-      <match lemma="agost"/>
-      <match lemma="setembre"/>
-      <match lemma="octubre"/>
-      <match lemma="novembre"/>
-      <match lemma="desembre"/>
-    </or></def-seq>
-
     <def-seq n="estacio"><or>
       <match lemma="primavera"/>
       <match lemma="estiu"/>
@@ -3134,46 +3119,46 @@
   
   <!-- donar > dare, donare -->
   <rule weight="0.6">
-     <match ploma="donar" tags="vblex.*"><select lemma="dare"/></match>
+     <match lemma="donar" tags="vblex.*"><select lemma="dare"/></match>
   </rule>
 
   <!-- preocupar > preoccupare, encarregar -->
   <rule weight="0.6">
-     <match ploma="preocupar" tags="vblex.*"><select lemma="preoccupare"/></match>
+     <match lemma="preocupar" tags="vblex.*"><select lemma="preoccupare"/></match>
   </rule>
 
   <!-- administrar > amministrare, gestire -->
   <rule weight="0.6">
-     <match ploma="administrar" tags="vblex.*"><select lemma="amministrare"/></match>
+     <match lemma="administrar" tags="vblex.*"><select lemma="amministrare"/></match>
   </rule>
 
   <!-- clarificar > chiarificare, chiarire -->
   <rule weight="0.6">
-     <match ploma="clarificar" tags="vblex.*"><select lemma="chiarificare"/></match>
+     <match lemma="clarificar" tags="vblex.*"><select lemma="chiarificare"/></match>
   </rule>
 
   <!-- aclarir > schiarire, chiarire, chiarificare -->
   <rule weight="0.6">
-     <match ploma="aclarir" tags="vblex.*"><select lemma="schiarire"/></match>
+     <match lemma="aclarir" tags="vblex.*"><select lemma="schiarire"/></match>
   </rule>
 
   <!-- proveir > fornire, provvedere, rifornire -->
   <rule weight="0.6">
-     <match ploma="proveir" tags="vblex.*"><select lemma="fornire"/></match>
+     <match lemma="proveir" tags="vblex.*"><select lemma="fornire"/></match>
   </rule>
 
   <!-- posar > mettere, porre, posare -->
   <rule weight="0.6">
-     <match ploma="posar" tags="vblex.*"><select lemma="mettere"/></match>
+     <match lemma="posar" tags="vblex.*"><select lemma="mettere"/></match>
   </rule>
 
   <!-- editar > editare, stampare -->
   <rule weight="0.6">
-     <match ploma="editar" tags="vblex.*"><select lemma="editare"/></match>
+     <match lemma="editar" tags="vblex.*"><select lemma="editare"/></match>
   </rule>
   <!-- reeditar > rieditare, ristampare -->
   <rule weight="0.6">
-     <match ploma="reeditar" tags="vblex.*"><select lemma="ristampare"/></match>
+     <match lemma="reeditar" tags="vblex.*"><select lemma="ristampare"/></match>
   </rule>
 
   <!-- anomenar > nominare, chiamare, denominare -->
@@ -3193,7 +3178,7 @@
 
   <!-- continuar > continuare, rimanere -->
   <rule weight="0.6">
-     <match ploma="continuar" tags="vblex.*"><select lemma="continuare"/></match>
+     <match lemma="continuar" tags="vblex.*"><select lemma="continuare"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="continuar" tags="vblex.*"><select lemma="rimanere"/></match>
@@ -3299,7 +3284,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemm="a" tags="pr"/>
+    <match lemma="a" tags="pr"/>
   </rule>
 
   <!-- girar > girare, voltare -->
@@ -5333,15 +5318,15 @@
 
   <!-- moviment > movimento, moto -->
   <rule weight="0.6">
-     <match ploma="moviment" tags="n.*"><select lemma="movimento"/></match>
+     <match lemma="moviment" tags="n.*"><select lemma="movimento"/></match>
   </rule>
 
   <!-- ram > mazzo, ramo -->
   <rule weight="0.6">
-     <match ploma="ram" tags="n.*"><select lemma="mazzo"/></match>
+     <match lemma="ram" tags="n.*"><select lemma="mazzo"/></match>
   </rule>
   <rule weight="1.0">
-    <match ploma="ram" tags="n.*"><select lemma="ramon"/></match>
+    <match lemma="ram" tags="n.*"><select lemma="ramon"/></match>
     <match lemma="de" tags="pr"/>
     <match lemma="el" tags="det.*"/>
     <or>
@@ -5353,56 +5338,56 @@
 
   <!-- posta > posta, tramonto -->
   <rule weight="0.6">
-     <match ploma="posta" tags="n.*"><select lemma="posta"/></match>
+     <match lemma="posta" tags="n.*"><select lemma="posta"/></match>
   </rule>
   <rule weight="1.0">
-     <match ploma="posta" tags="n.*"><select lemma="tramonto"/></match>
+     <match lemma="posta" tags="n.*"><select lemma="tramonto"/></match>
      <match lemma="de" tags="pr"/>
      <match lemma="sol" tags="n.*"/>
   </rule>
   <rule weight="1.0">
      <match lemma="a" tags="pr"/>
      <match tags="det.*"/>
-     <match ploma="posta" tags="n.*"><select lemma="tramonto"/></match>
+     <match lemma="posta" tags="n.*"><select lemma="tramonto"/></match>
   </rule>
 
   <!-- compliment > osservanza, compimento, complimento -->
   <rule weight="0.6">
-     <match ploma="compliment" tags="n.*"><select lemma="osservanza"/></match>
+     <match lemma="compliment" tags="n.*"><select lemma="osservanza"/></match>
   </rule>
 
   <!-- edició > edizione, stampa, editing -->
   <rule weight="0.6">
-     <match ploma="edició" tags="n.*"><select lemma="edizione"/></match>
+     <match lemma="edició" tags="n.*"><select lemma="edizione"/></match>
   </rule>
   <rule weight="1.0">
      <match tags="adj.ord.*"/>
-     <match ploma="edició" tags="n.*"><select lemma="stampa"/></match>
+     <match lemma="edició" tags="n.*"><select lemma="stampa"/></match>
   </rule>
 
   <!-- correu > posta, corriere -->
   <rule weight="0.6">
-     <match ploma="correu" tags="n.*"><select lemma="posta"/></match>
+     <match lemma="correu" tags="n.*"><select lemma="posta"/></match>
   </rule>
 
   <!-- test > test, vaso -->
   <rule weight="0.6">
-     <match ploma="test" tags="n.*"><select lemma="test"/></match>
+     <match lemma="test" tags="n.*"><select lemma="test"/></match>
   </rule>
 
   <!-- clau > chiave, codice -->
   <rule weight="0.6">
-     <match ploma="clau" tags="n.*"><select lemma="chiave"/></match>
+     <match lemma="clau" tags="n.*"><select lemma="chiave"/></match>
   </rule>
 
   <!-- navegador > navigatore, browser -->
   <rule weight="0.6">
-     <match ploma="navegador" tags="n.*"><select lemma="navigatore"/></match>
+     <match lemma="navegador" tags="n.*"><select lemma="navigatore"/></match>
   </rule>
 
   <!-- ploma > penna, pioma -->
   <rule weight="0.6">
-     <match ploma="ploma" tags="n.*"><select lemma="penna"/></match>
+     <match lemma="ploma" tags="n.*"><select lemma="penna"/></match>
   </rule>
 
   <!-- nau > nave, capannone, navicella -->
