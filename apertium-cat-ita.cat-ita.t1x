@@ -4124,7 +4124,7 @@
                 <test>
                  <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="hi"/></equal>
                 </test>
-                <let><clip pos="2" side="tl" part="lem"/><lit v="ce"/></let>
+                <let><clip pos="2" side="tl" part="lem"/><lit v="ci"/></let>
               </when>
             </choose>
             <out>
@@ -10501,7 +10501,7 @@
           </tags>
           <lu>
             <get-case-from pos="1">
-              <lit v="ce"/>
+              <lit v="ci"/>
             </get-case-from>
             <clip pos="2" side="tl" part="tags"/>
           </lu>
@@ -10965,7 +10965,7 @@
                <test>
                 <equal caseless="yes"><clip pos="4" side="sl" part="lem"/><lit v="hi"/></equal>
                </test>
-               <let><clip pos="4" side="tl" part="lem"/><lit v="ce"/></let>
+               <let><clip pos="4" side="tl" part="lem"/><lit v="ci"/></let>
              </when>
            </choose>
            <out>
