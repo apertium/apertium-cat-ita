@@ -3904,6 +3904,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- fantasmal > spettrale, fantasmatico -->
+  <rule weight="0.6">
+    <match lemma="fantasmal" tags="adj.*"><select lemma="spettrale"/></match>
+  </rule>
+
   <!-- fosc > scuro, buio -->
   <rule weight="0.6">
     <match lemma="fosc" tags="adj.*"><select lemma="scuro"/></match>

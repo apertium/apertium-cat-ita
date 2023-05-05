@@ -597,6 +597,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- fantomatico > fantasmagòric, misteriós -->
+  <rule weight="0.5">
+    <match lemma="fantomatico" tags="adj.*"><select lemma="fantasmagòric"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fantomatico" tags="adj.*"><select lemma="misteriós"/></match>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- vario > variat, divers -->
   <rule weight="0.5">
     <match lemma="vario" tags="adj.*"><select lemma="variat"/></match>
