@@ -2355,31 +2355,81 @@
 
   <!-- giro > volta, gir -->
   <rule weight="0.6">
-    <match lemma="giro" tags="n.*"><select lemma="volta" tags="n.*"/></match>
+    <match lemma="giro" tags="n.*"><select lemma="volta"/></match>
   </rule>
 
   <!-- briciola > engruna, molla -->
   <rule weight="0.6">
-    <match lemma="briciola" tags="n.*"><select lemma="engruna" tags="n.*"/></match>
+    <match lemma="briciola" tags="n.*"><select lemma="engruna"/></match>
   </rule>
 
   <!-- nipote > nét, nebot -->
   <rule weight="0.6">
-    <match lemma="nipote" tags="n.*"><select lemma="nét" tags="n.*"/></match>
+    <match lemma="nipote" tags="n.*"><select lemma="nét"/></match>
   </rule>
 
   <!-- macchina > màquina, cotxe -->
   <rule weight="0.6">
-    <match lemma="macchina" tags="n.*"><select lemma="màquina" tags="n.*"/></match>
+    <match lemma="macchina" tags="n.*"><select lemma="màquina"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="in" tags="pr"/>
-    <match lemma="macchina" tags="n.*"><select lemma="cotxe" tags="n.*"/></match>
+    <match lemma="macchina" tags="n.*"><select lemma="cotxe"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="guidare" tags="vblex.*"><select lemma="conduir" tags="vblex.*"/></match>
+    <match lemma="guidare" tags="vblex.*"><select lemma="conduir"/></match>
     <match tags="det.*"/>
-    <match lemma="macchina" tags="n.*"><select lemma="cotxe" tags="n.*"/></match>
+    <match lemma="macchina" tags="n.*"><select lemma="cotxe"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="macchina" tags="n.*"><select lemma="cotxe"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="Fiat" tags="np.*"/>
+      <match lemma="Renault" tags="np.*"/>
+      <match lemma="Citroën" tags="np.*"/>
+      <match lemma="Volkswagen" tags="np.*"/>
+      <match lemma="BMW" tags="np.*"/>
+      <match lemma="Audi" tags="np.*"/>
+      <match lemma="Skoda" tags="np.*"/>
+      <match lemma="Seat" tags="np.*"/>
+      <match lemma="Ford" tags="np.*"/>
+      <match lemma="Toyota" tags="np.*"/>
+      <match lemma="Chrysler" tags="np.*"/>
+      <match lemma="Alfa Romeo" tags="np.*"/>
+      <match lemma="Maserati" tags="np.*"/>
+      <match lemma="Ferrari" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="Fiat" tags="np.*"/>
+      <match lemma="Renault" tags="np.*"/>
+      <match lemma="Citroën" tags="np.*"/>
+      <match lemma="Volkswagen" tags="np.*"/>
+      <match lemma="BMW" tags="np.*"/>
+      <match lemma="Audi" tags="np.*"/>
+      <match lemma="Skoda" tags="np.*"/>
+      <match lemma="Seat" tags="np.*"/>
+      <match lemma="Ford" tags="np.*"/>
+      <match lemma="Toyota" tags="np.*"/>
+      <match lemma="Chrysler" tags="np.*"/>
+      <match lemma="Alfa Romeo" tags="np.*"/>
+      <match lemma="Maserati" tags="np.*"/>
+      <match lemma="Ferrari" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="macchina" tags="n.*"><select lemma="cotxe"/></match>
   </rule>
 
   <!-- ragazzo > noi, xicot -->
