@@ -3235,7 +3235,7 @@
   <!-- intendere > tenir# la intenció, tenir# la intenció de, entendre -->
   <macro n="verb_nopron_pron"><with-param v="intendere"/><with-param v="tenir# la intenció"/><with-param v="entendre"/></macro>
   <rule weight="1.2">
-    <match lemma="intendere" tags="vblex.*"><select lemma="tenir# la intenció de" tags="vblex.*"/></match>
+    <match lemma="intendere" tags="vblex.*"><select lemma="tenir# la intenció de"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -3244,6 +3244,29 @@
 
   <!-- rovesciare > tombar, derrocar, bolcar, capgirar -->
   <macro n="verb_nopron_pron"><with-param v="rovesciare"/><with-param v="tombar"/><with-param v="capgirar"/></macro>
+  <rule weight="1.2">
+    <match lemma="rovesciare" tags="vblex.*"><select lemma="enderrocar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="monarchia" tags="n.*"/>
+      <match lemma="regime" tags="n.*"/>
+      <match lemma="tirania" tags="n.*"/>
+      <match lemma="tiranno" tags="n.*"/>
+      <match lemma="dittatura" tags="n.*"/>
+      <match lemma="dittatore" tags="n.*"/>
+      <match lemma="re" tags="n.*"/>
+      <match lemma="imperatore" tags="n.*"/>
+      <match lemma="monarca" tags="n.*"/>
+      <match lemma="zar" tags="n.*"/>
+      <match lemma="usurpatore" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- diventare > esdevenir, tornar -->
   <macro n="verb_nopron_pron"><with-param v="diventare"/><with-param v="esdevenir"/><with-param v="tornar"/></macro>
