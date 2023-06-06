@@ -9589,7 +9589,6 @@
               <and>
                 <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
                 <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
-                <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
               </and>
             </test>
             <out>
@@ -9722,7 +9721,6 @@
               <and>
                 <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
                 <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
-                <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
               </and>
             </test>
             <out>
@@ -9862,7 +9860,6 @@
                 <and>
                   <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
                   <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
-                  <equal><clip pos="3" side="sl" part="lem"/><lit v="ne"/></equal>
                 </and>
               </test>
               <out>
@@ -9966,7 +9963,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: pp prnenc prnenc > pp (sposatosi > casat)">
+    <rule comment="REGLA: pp prnenc prnenc > pp (eliminem els prnenc)">
       <pattern>
         <pattern-item n="pp"/>
         <pattern-item n="prnenc"/>
