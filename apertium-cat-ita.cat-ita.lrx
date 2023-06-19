@@ -2441,6 +2441,14 @@
     <match lemma="hi" tags="prn.pro.adv"><select lemma="ci" tags="prn.*"/></match>
   </rule>
 
+  <!-- li > lui, gli -->
+  <rule weight="0.6">
+    <match lemma="li" tags="prn.pro.*"><select lemma="lui"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="li" tags="prn.pro.*.pl"><select lemma="gli"/></match>
+  </rule>
+
   <!-- ens > ci, ce -->
   <rule weight="0.6">
     <match lemma="ens" tags="prn.pro.p1.mf.pl"><select lemma="ci" tags="prn.*"/></match>
