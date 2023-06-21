@@ -912,6 +912,47 @@
 
 <!-- **************** N **************** -->
 
+  <!-- calcio > futbol, calci -->
+  <rule weight="0.6">
+    <match lemma="calcio" tags="n.*"><select lemma="futbol"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="calcio" tags="n.*"><select lemma="calci"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="chimica" tags="n.*"/>
+      <match lemma="chimico" tags="adj.*"/>
+      <match lemma="metallo" tags="n.*"/>
+      <match lemma="vitamina" tags="n.*"/>
+      <match lemma="minerale" tags="n.*"/>
+      <match lemma="fosforo" tags="n.*"/>
+      <match lemma="magnesio" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="chimica" tags="n.*"/>
+      <match lemma="chimico" tags="adj.*"/>
+      <match lemma="metallo" tags="n.*"/>
+      <match lemma="vitamina" tags="n.*"/>
+      <match lemma="minerale" tags="n.*"/>
+      <match lemma="fosforo" tags="n.*"/>
+      <match lemma="magnesio" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="calcio" tags="n.*"><select lemma="calci"/></match>
+  </rule>
+
   <!-- vita > vida, cintura -->
   <rule weight="0.6">
     <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
