@@ -6501,6 +6501,7 @@
   <macro n="ant_antcog"><with-param v="Maria Antonieta"/><with-param v="Maria Antonietta"/></macro>
   <macro n="ant_antcog"><with-param v="Miquel Àngel"/><with-param v="Michelangelo"/></macro>
   <macro n="ant_antcog"><with-param v="Marc Aureli"/><with-param v="Marco Aurelio"/></macro>
+  <macro n="ant_antcog"><with-param v="Moisès"/><with-param v="Mosè"/></macro>
   <macro n="ant_antcog"><with-param v="Octavi"/><with-param v="Ottaviano"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidi"/><with-param v="Ovidio"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeu"/><with-param v="Pompeo"/></macro>
