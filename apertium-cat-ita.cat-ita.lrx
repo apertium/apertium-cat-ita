@@ -6522,6 +6522,7 @@
 
   <macro n="noms_propis"><with-param v="Albert"/><with-param v="Alberto"/></macro>
   <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonso"/></macro>
+  <macro n="noms_propis"><with-param v="Amadeu"/><with-param v="Amedeo"/></macro>
   <macro n="noms_propis"><with-param v="Andreu"/><with-param v="Andrea"/></macro>
   <macro n="noms_propis"><with-param v="Benet"/><with-param v="Benedetto"/></macro>
   <macro n="noms_propis"><with-param v="Berenguer"/><with-param v="Berengario"/></macro>

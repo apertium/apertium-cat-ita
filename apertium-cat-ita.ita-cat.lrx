@@ -657,6 +657,7 @@
       <match lemma="scettro" tags="n.*"/>
       <match lemma="effigie" tags="n.*"/>
       <match lemma="emblema" tags="n.*"/>
+      <match lemma="sigillo" tags="n.*"/>
       <match lemma="ordine" tags="n.*"/>
       <match lemma="decreto" tags="n.*"/>
       <match lemma="licenza" tags="n.*"/>
@@ -946,6 +947,18 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- nazionale > nacional, selecció nacional -->
+  <rule weight="0.6">
+    <match lemma="nazionale" tags="n.*"><select lemma="nacional"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.def.f.*"/>
+    <repeat from="0" upto="8">
+      <match lemma="proprio" tags="adj.*"/>
+    </repeat>
+    <match lemma="nazionale" tags="n.*"><select lemma="selecció nacional"/></match>
+  </rule>
 
   <!-- calcio > futbol, calci -->
   <rule weight="0.6">
@@ -3936,9 +3949,18 @@
 
 <!-- **************** NP **************** -->
 
+  <rule weight="0.8">
+    <match lemma="Trastámara" tags="np.*"><select lemma="Trastàmara"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*.pl"/>
+    <match lemma="Trastámara" tags="np.*"><select lemma="Trastàmares"/></match>
+  </rule>
+
   <macro n="ant_antcog"><with-param v="Adriano"/><with-param v="Adrià"/></macro>
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Alexandre"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="August"/></macro>
+  <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelià"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Cèsar"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Ciceró"/></macro>
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Claudi"/></macro>
@@ -3970,6 +3992,7 @@
 
   <macro n="noms_propis"><with-param v="Alberto"/><with-param v="Albert"/></macro>
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfons"/></macro>
+  <macro n="noms_propis"><with-param v="Amedeo"/><with-param v="Amadeu"/></macro>
   <macro n="noms_propis"><with-param v="Andrea"/><with-param v="Andreu"/></macro>
   <macro n="noms_propis"><with-param v="Benedetto"/><with-param v="Benet"/></macro>
   <macro n="noms_propis"><with-param v="Berengario"/><with-param v="Berenguer"/></macro>
