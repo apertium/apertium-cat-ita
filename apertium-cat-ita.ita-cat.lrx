@@ -3950,6 +3950,14 @@
 <!-- **************** NP **************** -->
 
   <rule weight="0.8">
+    <match lemma="Borbone" tags="np.*"><select lemma="Borbó"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*.pl"/>
+    <match lemma="Borbone" tags="np.*"><select lemma="Borbons"/></match>
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="Trastámara" tags="np.*"><select lemma="Trastàmara"/></match>
   </rule>
   <rule weight="1.0">
