@@ -40,6 +40,9 @@
     <def-cat n="adjsup">
       <cat-item tags="adj.sup.*"/>
     </def-cat>
+    <def-cat n="adjpos">
+      <cat-item tags="adj.pos.*"/>
+    </def-cat>
     <def-cat n="adjec">
       <cat-item tags="adj.m.*"/>
       <cat-item tags="adj.f.*"/>
@@ -76,6 +79,33 @@
       <cat-item lemma="menys" tags="adv"/>
       <cat-item lemma="molt més" tags="adv"/>
       <cat-item lemma="molt menys" tags="adv"/>
+    </def-cat>
+    <def-cat n="adv_lloc">
+      <cat-item lemma="davant" tags="adv"/>
+      <cat-item lemma="davant" tags="pr"/>
+      <cat-item lemma="al davant" tags="adv"/>
+      <cat-item lemma="darrere" tags="adv"/>
+      <cat-item lemma="darrere" tags="pr"/>
+      <cat-item lemma="al darrere" tags="adv"/>
+      <cat-item lemma="al costat" tags="adv"/>
+      <cat-item lemma="a la vora" tags="adv"/>
+      <cat-item lemma="a prop" tags="adv"/>
+      <cat-item lemma="a dalt" tags="adv"/>
+      <cat-item lemma="damunt" tags="adv"/>
+      <cat-item lemma="al damunt" tags="adv"/>
+      <cat-item lemma="per damunt" tags="adv"/>
+      <cat-item lemma="al capdamunt" tags="adv"/>
+      <cat-item lemma="sobre" tags="adv"/>
+      <cat-item lemma="sobre" tags="pr"/>
+      <cat-item lemma="a sobre" tags="adv"/>
+      <cat-item lemma="sota" tags="adv"/>
+      <cat-item lemma="sota" tags="pr"/>
+      <cat-item lemma="a sota" tags="adv"/>
+      <cat-item lemma="per sota" tags="adv"/>
+      <cat-item lemma="davall" tags="adv"/>
+      <cat-item lemma="al davall" tags="adv"/>
+      <cat-item lemma="per davall" tags="adv"/>
+      <cat-item lemma="al capdavall" tags="adv"/>
     </def-cat>
 
     <def-cat n="prn">
@@ -4863,7 +4893,7 @@
 
     <!--  FI REGLES DE COMPARACIÓ -->
 
-    <!--  FI REGLES DE COORDINACIÓ -->
+    <!--  REGLES DE COORDINACIÓ -->
 
     <rule comment="REGLA: DET NOM">
       <pattern>
@@ -7600,6 +7630,136 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="regla: adv_lloc adjpos (davant meu > davanti a me)">
+       <pattern>
+         <pattern-item n="adv_lloc"/>
+         <pattern-item n="adjpos"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="davant"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al davant"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="davanti a"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="darrere"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al darrere"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="dietro di"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al costat"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a la vora"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a prop"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="vicino a"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a dalt"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a sobre"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="sobre"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="damunt"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al damunt"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="per damunt"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al capdamunt"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="sopra di"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="sota"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a sota"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="per sota"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="davall"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al davall"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="per davall"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="al capdavall"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="sotto di"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="meu"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="me"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p1.mf.sg"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="teu"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="te"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p2.mf.sg"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="nostre"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="noi"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p1.mf.pl"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="vostre"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="voi"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p2.mf.pl"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="seu"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="lui"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p3.m.sg"/></let>
+           </when>
+         </choose>
+         <out>
+           <chunk name="pr_tnprs">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lem"/>
+               <clip pos="2" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <!-- REGLES data -->
 
