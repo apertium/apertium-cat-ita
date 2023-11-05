@@ -3912,6 +3912,19 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- per damunt > in alto, superficialmente -->
+  <rule weight="0.6">
+     <match lemma="per damunt" tags="adv"><select lemma="in alto"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="llegir" tags="vblex.*"/>
+       <match lemma="mirar" tags="vblex.*"/>
+       <match lemma="repassar" tags="vblex.*"/>
+     </or>
+     <match lemma="per damunt" tags="adv"><select lemma="superficialmente"/></match>
+  </rule>
+
   <!-- com > così, tanto -->
   <rule weight="0.6">
      <match lemma="com" tags="adv"><select lemma="così"/></match>
