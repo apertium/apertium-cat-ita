@@ -3974,16 +3974,19 @@
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Claudi"/></macro>
   <macro n="ant_antcog"><with-param v="Dario"/><with-param v="Darios"/></macro>
   <macro n="ant_antcog"><with-param v="Ettore"/><with-param v="Hèctor"/></macro>
-  <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Horaci"/></macro>
+  <macro n="ant_antcog"><with-param v="Flavio"/><with-param v="Flavi"/></macro>
   <macro n="ant_antcog"><with-param v="Gesù"/><with-param v="Jesús"/></macro>
   <macro n="ant_antcog"><with-param v="Maria Antonietta"/><with-param v="Maria Antonieta"/></macro>
   <macro n="ant_antcog"><with-param v="Michelangelo"/><with-param v="Miquel Àngel"/></macro>
   <macro n="ant_antcog"><with-param v="Marco Aurelio"/><with-param v="Marc Aureli"/></macro>
   <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moisès"/></macro>
+  <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Horaci"/></macro>
   <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Octavi"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidio"/><with-param v="Ovidi"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeo"/><with-param v="Pompeu"/></macro>
   <macro n="ant_antcog"><with-param v="Salomone"/><with-param v="Salomó"/></macro>
+  <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terenci"/></macro>
+  <macro n="ant_antcog"><with-param v="Ulisse"/><with-param v="Ulisses"/></macro>
 
   <rule weight="1.2">
      <match lemma="Claudio" tags="np.*"><select lemma="Claudi"/></match>
@@ -4054,6 +4057,7 @@
   <macro n="noms_propis"><with-param v="Sisto"/><with-param v="Sixt"/></macro>
   <macro n="noms_propis"><with-param v="Ugo"/><with-param v="Hug"/></macro>
   <macro n="noms_propis"><with-param v="Umberto"/><with-param v="Humbert"/></macro>
+  <macro n="noms_propis"><with-param v="Venceslao"/><with-param v="Venceslau"/></macro>
   <macro n="noms_propis"><with-param v="Vittoria"/><with-param v="Víctòria"/></macro>
   <macro n="noms_propis"><with-param v="Vittorio"/><with-param v="Víctor"/></macro>
   <macro n="noms_propis"><with-param v="Vittorio Emanuele"/><with-param v="Víctor Manuel"/></macro>

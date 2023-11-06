@@ -6524,6 +6524,8 @@
   <macro n="ant_antcog"><with-param v="Ovidi"/><with-param v="Ovidio"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeu"/><with-param v="Pompeo"/></macro>
   <macro n="ant_antcog"><with-param v="Salomó"/><with-param v="Salomone"/></macro>
+  <macro n="ant_antcog"><with-param v="Terenci"/><with-param v="Terenzio"/></macro>
+  <macro n="ant_antcog"><with-param v="Ulisses"/><with-param v="Ulisse"/></macro>
 
   <rule weight="1.2">
      <match lemma="Claudi" tags="np.*"><select lemma="Claudio"/></match>
