@@ -965,6 +965,12 @@
       <list-item v="Canada"/>
       <list-item v="Sulawesi"/>
       <list-item v="Ciad"/>
+      <list-item v="Cecenia"/>
+      <list-item v="Cechia"/>
+      <list-item v="Cile"/>
+      <list-item v="Cilicia"/>
+      <list-item v="Cisgiordania"/>
+      <list-item v="Ciuvascia"/>
       <list-item v="Colombia"/>
       <list-item v="Comore"/>
       <list-item v="Congo"/>
@@ -973,7 +979,9 @@
       <list-item v="Corea del Sud"/>
       <list-item v="Costa d'Avorio"/>
       <list-item v="Costa Rica"/>
+      <list-item v="Croazia"/>
       <list-item v="Cuba"/>
+      <list-item v="Dalmazia"/>
       <list-item v="Danimarca"/>
       <list-item v="Dominica"/>
       <list-item v="Ecuador"/>
@@ -1066,6 +1074,7 @@
       <list-item v="Melville"/>
       <list-item v="Messico"/>
       <list-item v="Mindanao"/>
+      <list-item v="Moldavia"/>
       <list-item v="Mongolia"/>
       <list-item v="Mozambico"/>
       <list-item v="Myanmar"/>
@@ -1103,10 +1112,13 @@
       <list-item v="Saint Vincent e Grenadine"/>
       <list-item v="Senegal"/>
       <list-item v="Serbia"/>
+      <list-item v="Siam"/>
       <list-item v="Nuova Siberia"/>
       <list-item v="Sierra Leone"/>
       <list-item v="Singapore"/>
       <list-item v="Siria"/>
+      <list-item v="Slovacchia"/>
+      <list-item v="Slovenia"/>
       <list-item v="Somalia"/>
       <list-item v="Somerset"/>
       <list-item v="Southampton"/>
@@ -1143,6 +1155,7 @@
       <list-item v="Venezuela"/>
       <list-item v="Vietnam"/>
       <list-item v="Zambia"/>
+      <list-item v="Zanzibar"/>
       <list-item v="Nuova Zelanda"/>
       <list-item v="Zimbawe"/>
       <list-item v="Piemonte"/>
@@ -1214,12 +1227,14 @@
       <list-item v="Alabama"/>
       <list-item v="Alaska"/>
       <list-item v="Arizona"/>
+      <list-item v="Arkansas"/>
       <list-item v="California"/>
       <list-item v="Carolina del Nord"/>
       <list-item v="Carolina del Sud"/>
       <list-item v="Connecticut"/>
       <list-item v="Dakota del Nord"/>
       <list-item v="Dakota del Sud"/>
+      <list-item v="Florida"/>
       <list-item v="Georgia"/>
       <list-item v="Idaho"/>
       <list-item v="Illinois"/>
@@ -1243,6 +1258,7 @@
       <list-item v="Oklahoma"/>
       <list-item v="Ohio"/>
       <list-item v="Oregon"/>
+      <list-item v="Pennsylvania"/>
       <list-item v="Tennessee"/>
       <list-item v="Texas"/>
       <list-item v="Utah"/>
