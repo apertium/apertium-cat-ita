@@ -801,6 +801,7 @@
     <def-list n="paisos_regions"> <!-- per a treure un article si el porten -->
       <list-item v="Europa"/>
       <list-item v="Asia"/>
+      <list-item v="Eurasia"/>
       <list-item v="Africa"/>
       <list-item v="Africa del Sud"/>
       <list-item v="America"/>
@@ -886,6 +887,21 @@
       <list-item v="Giordania"/>
       <list-item v="Grenada"/>
       <list-item v="Grecia"/>
+      <list-item v="Beozia"/>
+      <list-item v="Tessaglia"/>
+      <list-item v="Laconia"/>
+      <list-item v="Arcadia"/>
+      <list-item v="Eolia"/>
+      <list-item v="Eolida"/>
+      <list-item v="Ionia"/>
+      <list-item v="Frigia"/>
+      <list-item v="Bitinia"/>
+      <list-item v="Licia"/>
+      <list-item v="Cilicia"/>
+      <list-item v="Cappadocia"/>
+      <list-item v="Troade"/>
+      <list-item v="Bactria"/>
+      <list-item v="Bactriana"/>
       <list-item v="Groenlandia"/>
       <list-item v="Guadalupa"/>
       <list-item v="Guyana francese"/>
@@ -996,6 +1012,7 @@
       <list-item v="Trinidad e Tobago"/>
       <list-item v="Tunisia"/>
       <list-item v="Turchia"/>
+      <list-item v="Anatolia"/>
       <list-item v="Turkmenistan"/>
       <list-item v="Tuvalu"/>
       <list-item v="Cile"/>
@@ -1133,6 +1150,13 @@
       <list-item v="Babilonia"/>
       <list-item v="Caldea"/>
       <list-item v="Giudea"/>
+      <list-item v="Pannonia"/>
+      <list-item v="Illiria"/>
+      <list-item v="Tracia"/>
+      <list-item v="Dacia"/>
+      <list-item v="Sogdiana"/>
+      <list-item v="Sogdia"/>
+      <list-item v="Transoxiana"/>
       <list-item v="Cecoslovacchia"/>
       <list-item v="Jugoslavia"/>
     </def-list>
@@ -4741,7 +4765,109 @@
     </rule>
 
 
-    <rule comment="REGLA: DET TOP: un'Italia > una Itàlia">
+    <rule comment="REGLA: PREDET DET TOP: tutta l'Italia > tota Itàlia">
+      <pattern>
+        <pattern-item n="predet"/>
+        <pattern-item n="det"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord3">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal><clip pos="2" side="tl" part="a_det"/><lit-tag v="det.def"/></equal>
+                <in><clip pos="3" side="sl" part="lem"/><list n="paisos_regions"/></in>
+              </and>
+            </test>
+            <out>
+              <chunk name="top" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_det"/>
+                  <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="gen_mf"/>
+                  <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="nbr_sp"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_nom"/>
+                  <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="gen_mf"/>
+                  <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+            <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="2"/></call-macro>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="det_top" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_det"/>
+                  <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="gen_mf"/>
+                  <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="nbr_sp"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="a_det"/>
+                  <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="gen_mf"/>
+                  <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="nbr_sp"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_nom"/>
+                  <clip pos="3" side="tl" part="gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="gen_mf"/>
+                  <clip pos="3" side="tl" part="nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: DET TOP: l'Italia > Itàlia">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="top"/>
