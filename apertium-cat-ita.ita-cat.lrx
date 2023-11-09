@@ -3971,6 +3971,7 @@
   <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelià"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Cèsar"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Ciceró"/></macro>
+  <macro n="ant_antcog"><with-param v="Ciro"/><with-param v="Cir"/></macro>
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Claudi"/></macro>
   <macro n="ant_antcog"><with-param v="Dario"/><with-param v="Darios"/></macro>
   <macro n="ant_antcog"><with-param v="Ettore"/><with-param v="Hèctor"/></macro>
@@ -4039,6 +4040,7 @@
   <macro n="noms_propis"><with-param v="Leopoldo"/><with-param v="Leopold"/></macro>
   <macro n="noms_propis"><with-param v="Lucia"/><with-param v="Llúcia"/></macro>
   <macro n="noms_propis"><with-param v="Luca"/><with-param v="Lluc"/></macro>
+  <macro n="noms_propis"><with-param v="Ludovico"/><with-param v="Lluís"/></macro>
   <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Lluís"/></macro>
   <macro n="noms_propis"><with-param v="Marco"/><with-param v="Marc"/></macro>
   <macro n="noms_propis"><with-param v="Martino"/><with-param v="Martí"/></macro>
