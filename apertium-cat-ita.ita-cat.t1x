@@ -867,7 +867,11 @@
       <list-item v="Costa d'Avorio"/>
       <list-item v="Costa Rica"/>
       <list-item v="Croazia"/>
-      <list-item v="Cuba"/>
+	  <list-item v="Bosnia"/>
+	  <list-item v="Bosnia e Erzegovina"/>
+	  <list-item v="Erzegovina"/>
+	  <list-item v="Montenegro"/>
+	  <list-item v="Albania"/>
       <list-item v="Dalmazia"/>
       <list-item v="Danimarca"/>
       <list-item v="Dominica"/>
@@ -878,6 +882,7 @@
       <list-item v="Eritrea"/>
       <list-item v="Estonia"/>
       <list-item v="Etiopia"/>
+      <list-item v="Abissinia"/>
       <list-item v="Fær Øer"/>
       <list-item v="Filippine"/>
       <list-item v="Finlandia"/>
@@ -930,6 +935,8 @@
       <list-item v="Islanda"/>
       <list-item v="Spagna"/>
       <list-item v="Israele"/>
+      <list-item v="Stiria"/>
+      <list-item v="Burgenland"/>
       <list-item v="Svezia"/>
       <list-item v="Svizzera"/>
       <list-item v="Italia"/>
