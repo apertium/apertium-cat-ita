@@ -322,6 +322,50 @@
       </rule>
     </def-macro>
 
+    <!-- p1 = verb ita, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
+    <!-- la manera de veure que el verb és transitiu és molt barroera -->
+    <def-macro n="verb_intrans_trans" npar="3">
+      <rule weight="0.8">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="det.*"/>
+          <match tags="np.*"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
     <def-macro n="verb_nopron_pron" npar="3">
@@ -2778,9 +2822,12 @@
     <match lemma="tenere" tags="vblex.*"><select lemma="tenir"/></match>
   </rule>
 
+  <!-- complottare > conspirar, complotar -->
+  <macro n="verb_intrans_trans"><with-param v="complottare"/><with-param v="conspirar"/><with-param v="complotar"/></macro>
+
   <!-- rovinare > espatllar, arruïnar -->
   <macro n="verb_nopron_pron"><with-param v="rovinare"/><with-param v="espatllar"/><with-param v="arruïnar"/></macro>
-  
+
   <!-- pellegrinare > peregrinar, pelegrinar -->
   <rule weight="0.6">
     <match lemma="pellegrinare" tags="vblex.*"><select lemma="peregrinar"/></match>
@@ -3199,7 +3246,6 @@
      </or>
   </rule>
 
-  
   <!-- guidare > guiar, conduir -->
   <rule weight="0.6">
      <match lemma="guidare" tags="vblex.*"><select lemma="guiar"/></match>
@@ -3275,52 +3321,52 @@
     <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
-  
+
   <!-- stufare > estofar, cansar -->
   <macro n="verb_nopron_pron"><with-param v="stufare"/><with-param v="estofar"/><with-param v="cansar"/></macro>
-  
+
   <!-- approssimare > apropar, aproximar -->
   <macro n="verb_nopron_pron"><with-param v="approssimare"/><with-param v="aproximar"/><with-param v="apropar"/></macro>
-  
+
   <!-- avvicinare > apropar, aproximar, assemblar -->
   <!-- <macro n="verb_nopron_pron"><with-param v="avvicinare"/><with-param v="apropar"/><with-param v="assemblar"/></macro> -->
   <rule weight="0.6">
     <match lemma="avvicinare" tags="vblex.*"><select lemma="apropar"/></match>
   </rule>
-  
+
   <!-- strappare > arrencar, trencar (+ intr: trencar) -->
   <macro n="verb_nopron_pron"><with-param v="strappare"/><with-param v="arrencar"/><with-param v="trencar"/></macro>
 
   <!-- scontrare > xocar, encarar -->
   <macro n="verb_nopron_pron"><with-param v="scontrare"/><with-param v="xocar"/><with-param v="encarar"/></macro>
-  
+
   <!-- accertare > constatar, assegurar -->
   <macro n="verb_nopron_pron"><with-param v="accertare"/><with-param v="constatar"/><with-param v="assegurar"/></macro>
-  
+
   <!-- sollevare > plantejar, aixecar -->
   <macro n="verb_nopron_pron"><with-param v="sollevare"/><with-param v="plantejar"/><with-param v="aixecar"/></macro>
-  
+
   <!-- accomodare > arranjar, acomodar -->
   <macro n="verb_nopron_pron"><with-param v="accomodare"/><with-param v="arranjar"/><with-param v="acomodar"/></macro>
-  
+
   <!-- guardare > mirar, guardar -->
   <macro n="verb_nopron_pron"><with-param v="guardare"/><with-param v="mirar"/><with-param v="guardar"/></macro>
-  
+
   <!-- trasferire > transferir, traslladar -->
   <macro n="verb_nopron_pron"><with-param v="trasferire"/><with-param v="transferir"/><with-param v="traslladar"/></macro>
-  
+
   <!-- fare# venire > fer# venir, fer# portar -->
   <macro n="verb_nopron_pron"><with-param v="fare# venire"/><with-param v="fer# venir"/><with-param v="fer# portar"/></macro>
-  
+
   <!-- levare > llevar, alçar -->
   <macro n="verb_nopron_pron"><with-param v="levare"/><with-param v="llevar"/><with-param v="alçar"/></macro>
-  
+
   <!-- affrontare > afrontar, enfrontar -->
   <macro n="verb_nopron_pron"><with-param v="affrontare"/><with-param v="afrontar"/><with-param v="enfrontar"/></macro>
-  
+
   <!-- diplomare > diplomar, graduar -->
   <macro n="verb_nopron_pron"><with-param v="diplomare"/><with-param v="diplomar"/><with-param v="graduar"/></macro>
-  
+
   <!-- intendere > tenir# la intenció, tenir# la intenció de, entendre -->
   <macro n="verb_nopron_pron"><with-param v="intendere"/><with-param v="tenir# la intenció"/><with-param v="entendre"/></macro>
   <rule weight="1.2">
@@ -3403,7 +3449,7 @@
     </repeat>
     <match lemma="di" tags="pr"/>
   </rule>
-  
+
   <!-- essere > ser, estar -->
   <rule weight="0.6">
     <match lemma="essere" tags="vbser.*"><select lemma="ser"/></match>
@@ -3475,6 +3521,31 @@
   <!-- di > de, che (comparacions) -->
   <rule weight="0.6">
     <match lemma="di" tags="pr"><select lemma="de"/></match>
+  </rule>
+
+  <!-- per mezzo di > mitjançant, per mitjà de -->
+  <rule weight="0.8">
+    <match lemma="per mezzo di" tags="pr"><select lemma="mitjançant"/></match>
+  </rule>
+
+  <!-- limitatamente a > limitat a, fins a un màxim de -->
+  <rule weight="0.8">
+    <match lemma="limitatamente a" tags="pr"><select lemma="limitat a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="limitatamente a" tags="pr"><select lemma="fins a un màxim de"/></match>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="limitatamente a" tags="pr"><select lemma="fins a un màxim de"/></match>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="milione" tags="n.*"/>
+      <match lemma="miliardo" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- fino > fins, fins a -->

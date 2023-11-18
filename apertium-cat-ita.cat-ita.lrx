@@ -316,6 +316,50 @@
       </rule>
     </def-macro>
 
+    <!-- p1 = verb cat, p2 = verb ita intransitiu, p3 = verb ita transitiu -->
+    <!-- la manera de veure que el verb és transitiu és molt barroera -->
+    <def-macro n="verb_intrans_trans" npar="3">
+      <rule weight="0.8">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="det.*"/>
+          <match tags="np.*"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb cat, p2 = verb ita no pron, p3 = verb ita pron -->
     <def-macro n="verb_nopron_pron" npar="3">
