@@ -4039,6 +4039,7 @@
   <macro n="ant_antcog"><with-param v="Adriano"/><with-param v="Adrià"/></macro>
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Alexandre"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="August"/></macro>
+  <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisari"/></macro>
   <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelià"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Cèsar"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Ciceró"/></macro>
@@ -4120,6 +4121,7 @@
   <macro n="noms_propis"><with-param v="Nicola"/><with-param v="Nicolau"/></macro>
   <macro n="noms_propis"><with-param v="Paolo"/><with-param v="Pau"/></macro>
   <macro n="noms_propis"><with-param v="Pietro"/><with-param v="Pere"/></macro>
+  <macro n="noms_propis"><with-param v="Pio"/><with-param v="Pius"/></macro>
   <macro n="noms_propis"><with-param v="Ponzio"/><with-param v="Ponç"/></macro>
   <macro n="noms_propis"><with-param v="Rainieri"/><with-param v="Rainier"/></macro>
   <macro n="noms_propis"><with-param v="Ramiro"/><with-param v="Ramir"/></macro>

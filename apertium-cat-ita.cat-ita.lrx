@@ -6679,6 +6679,7 @@
   <macro n="noms_propis"><with-param v="Nicolau"/><with-param v="Nicola"/></macro>
   <macro n="noms_propis"><with-param v="Pau"/><with-param v="Paolo"/></macro>
   <macro n="noms_propis"><with-param v="Pere"/><with-param v="Pietro"/></macro>
+  <macro n="noms_propis"><with-param v="Pius"/><with-param v="Pio"/></macro>
   <macro n="noms_propis"><with-param v="Ponç"/><with-param v="Ponzio"/></macro>
   <macro n="noms_propis"><with-param v="Rainier"/><with-param v="Rainieri"/></macro>
   <macro n="noms_propis"><with-param v="Ramir"/><with-param v="Ramiro"/></macro>
