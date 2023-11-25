@@ -1880,6 +1880,15 @@
     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
   </rule>
 
+  <rule weight="1.2">
+    <match lemma="màquina" tags="n.*"/>
+    <match lemma="de" tags="pr"><select lemma="da"/></match>
+    <or> 
+      <match tags="n.*"/>
+      <match tags="vblex.inf"/>
+    </or>
+  </rule>
+
   <rule weight="1.0">
      <or>
        <match lemma="venir" tags="vblex.*"/>
@@ -2593,7 +2602,16 @@
 <!-- **************** V VBLEX **************** -->
 
   <!-- callar > tacere, restare# zitto -->
-  <macro n="verb_nopron_pron_np"><with-param v="callar"/><with-param v="tacere"/><with-param v="restare# zitto"/></macro>
+  <macro n="verb_nopron_pron"><with-param v="callar"/><with-param v="tacere"/><with-param v="restare# zitto"/></macro>
+
+  <!-- enfadar > molestare, arrabbiare -->
+  <macro n="verb_nopron_pron"><with-param v="enfadar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
+
+  <!-- empirar > molestare, arrabbiare -->
+  <macro n="verb_nopron_pron"><with-param v="empirar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
+
+  <!-- enutjar > molestare, arrabbiare -->
+  <macro n="verb_nopron_pron"><with-param v="enutjar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
 
   <!-- doblar > raddoppiare, doppiare -->
   <rule weight="0.6">

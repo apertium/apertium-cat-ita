@@ -451,6 +451,85 @@
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
     </def-macro>
+
+    <!-- p1 = verb ita, p2 = verb cat amb adj en masc sg, p3 = verb cat amb adj en fem sg, p4 = verb cat amb adj en masc pl, p5 = verb cat amb adj en fem pl -->
+    <def-macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl" npar="5">
+      <rule weight="0.8">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+      </rule>
+      <rule weight="0.9">
+        <match plemma="1" tags="vblex.*.pl"><select plemma="4"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="il" tags="prn.tn.*.f.sg"/>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="il" tags="prn.tn.*.m.pl"/>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="4"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="il" tags="prn.tn.*.f.pl"/>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="5"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="np.ant.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="np.cog.*"/>
+            <match tags="" case="Aa"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
+      </rule>
+      <rule weight="1.4">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.f.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.4">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.m.pl"><select plemma="4"/></match>
+      </rule>
+      <rule weight="1.4">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.f.pl"><select plemma="5"/></match>
+      </rule>
+    </def-macro>
   </def-macros>
 
   <def-seqs>
@@ -1349,11 +1428,74 @@
     <match lemma="gallo" tags="n.*"><select lemma="gall"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="Gallo" tags="n.*"><select lemma="gal"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="gallo" tags="n.m.pl"><select lemma="gal"/></match>
   </rule>
   <rule weight="1.2">
     <or><match tags="num"/><match tags="num.*"/></or>
     <match lemma="gallo" tags="n.m.pl"><select lemma="gall"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="gallo" tags="n.*"><select lemma="gall"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="chioccia" tags="n.*"/>
+      <match lemma="pulcino" tags="n.*"/>
+      <match lemma="galletto" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="chioccia" tags="n.*"/>
+      <match lemma="pulcino" tags="n.*"/>
+      <match lemma="galletto" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="gallo" tags="n.*"><select lemma="gall"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="gallo" tags="n.*"><select lemma="gal"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="Asterix" tags="np.*"/>
+      <match lemma="Obelix" tags="np.*"/>
+      <match lemma="Uderzo" tags="np.*"/>
+      <match lemma="Goscinny" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="Asterix" tags="np.*"/>
+      <match lemma="Obelix" tags="np.*"/>
+      <match lemma="Uderzo" tags="np.*"/>
+      <match lemma="Goscinny" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="gallo" tags="n.*"><select lemma="gal"/></match>
   </rule>
 
   <!-- matrimonio > casament, matrimoni -->
@@ -1540,6 +1682,18 @@
   <rule weight="1.0">
     <match lemma="incarico" tags="n.*"><select lemma="càrrec"/></match>
     <match lemma="governativo" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="assumere" tags="vblex.*"/>
+      <match lemma="accettare" tags="vblex.*"/>
+      <match lemma="lasciare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="incarico" tags="n.*"><select lemma="càrrec"/></match>
   </rule>
 
   <!-- tangente > suborn, tangent -->
@@ -2715,7 +2869,7 @@
   </rule>
 
 
-<!-- **************** V **************** -->
+<!-- **************** V VBLEX **************** -->
 
   <!-- occorrere > ocórrer, caldre -->
   <rule weight="0.6">
@@ -2735,6 +2889,9 @@
     </or>
     <match lemma="occorrere" tags="vblex.*"><select lemma="caldre"/></match>
   </rule>
+
+  <!-- essere# in collera > estar# enfadat, estar# enfadada, estar# enfadats, estar# enfadades -->
+  <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="essere# in collera"/><with-param v="estar# enfadat"/><with-param v="estar# enfadada"/><with-param v="estar# enfadats"/><with-param v="estar# enfadades"/></macro>
 
   <!-- arrestare > aturar, parar, arrestar -->
   <rule weight="0.6">
@@ -3663,6 +3820,14 @@
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
+  <rule weight="1.2">
+    <match lemma="macchina" tags="n.*"/>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <or> 
+      <match tags="n.*"/>
+      <match tags="vblex.inf"/>
+    </or>
+  </rule>
   <rule weight="1.0">
     <match lemma="molto" tags="adv"/>
     <match lemma="da" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -4057,6 +4222,7 @@
   <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Octavi"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidio"/><with-param v="Ovidi"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeo"/><with-param v="Pompeu"/></macro>
+  <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Publi"/></macro>
   <macro n="ant_antcog"><with-param v="Salomone"/><with-param v="Salomó"/></macro>
   <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terenci"/></macro>
   <macro n="ant_antcog"><with-param v="Ulisse"/><with-param v="Ulisses"/></macro>
