@@ -117,6 +117,8 @@
 	   <match lemma="sant" tags="n.*"/>
 	   <match lemma="sant" tags="adj.*"/>
 	   <match lemma="apòstol" tags="n.*"/>
+	   <match lemma="àngel" tags="n.*"/>
+	   <match lemma="arcàngel" tags="n.*"/>
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
@@ -148,6 +150,8 @@
 	   <match lemma="sant" tags="n.*"/>
 	   <match lemma="sant" tags="adj.*"/>
 	   <match lemma="apòstol" tags="n.*"/>
+	   <match lemma="àngel" tags="n.*"/>
+	   <match lemma="arcàngel" tags="n.*"/>
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
@@ -182,6 +186,8 @@
 	   <match lemma="sant" tags="n.*"/>
 	   <match lemma="sant" tags="adj.*"/>
 	   <match lemma="apòstol" tags="n.*"/>
+	   <match lemma="àngel" tags="n.*"/>
+	   <match lemma="arcàngel" tags="n.*"/>
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
@@ -215,6 +221,8 @@
 	   <match lemma="sant" tags="n.*"/>
 	   <match lemma="sant" tags="adj.*"/>
 	   <match lemma="apòstol" tags="n.*"/>
+	   <match lemma="àngel" tags="n.*"/>
+	   <match lemma="arcàngel" tags="n.*"/>
 	   <match lemma="emperador" tags="n.*"/>
 	   <match lemma="rei" tags="n.*"/>
 	   <match lemma="tsar" tags="n.*"/>
@@ -6615,6 +6623,7 @@
 <!-- **************** NP **************** -->
 
   <macro n="ant_antcog"><with-param v="Adrià"/><with-param v="Adriano"/></macro>
+  <macro n="ant_antcog"><with-param v="Agustí"/><with-param v="Agostino"/></macro>
   <macro n="ant_antcog"><with-param v="Alexandre"/><with-param v="Alessandro"/></macro>
   <macro n="ant_antcog"><with-param v="August"/><with-param v="Augusto"/></macro>
   <macro n="ant_antcog"><with-param v="Cèsar"/><with-param v="Cesare"/></macro>
@@ -6694,6 +6703,7 @@
   <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Emanuele"/></macro>
   <macro n="noms_propis"><with-param v="Mateu"/><with-param v="Matteo"/></macro>
   <macro n="noms_propis"><with-param v="Maximilià"/><with-param v="Massimiliano"/></macro>
+  <macro n="noms_propis"><with-param v="Miquel"/><with-param v="Michele"/></macro>
   <macro n="noms_propis"><with-param v="Nicolau"/><with-param v="Nicola"/></macro>
   <macro n="noms_propis"><with-param v="Pau"/><with-param v="Paolo"/></macro>
   <macro n="noms_propis"><with-param v="Pere"/><with-param v="Pietro"/></macro>

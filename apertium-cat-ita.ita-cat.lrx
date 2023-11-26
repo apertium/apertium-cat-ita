@@ -127,6 +127,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="angelo" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -154,6 +156,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="angelo" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -184,6 +188,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="angelo" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -213,6 +219,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="angelo" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -4202,6 +4210,7 @@
   </rule>
 
   <macro n="ant_antcog"><with-param v="Adriano"/><with-param v="Adrià"/></macro>
+  <macro n="ant_antcog"><with-param v="Agostino"/><with-param v="Agustí"/></macro>
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Alexandre"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="August"/></macro>
   <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisari"/></macro>
@@ -4284,6 +4293,7 @@
   <macro n="noms_propis"><with-param v="Martino"/><with-param v="Martí"/></macro>
   <macro n="noms_propis"><with-param v="Matteo"/><with-param v="Mateu"/></macro>
   <macro n="noms_propis"><with-param v="Massimiliano"/><with-param v="Maximilià"/></macro>
+  <macro n="noms_propis"><with-param v="Michele"/><with-param v="Miquel"/></macro>
   <macro n="noms_propis"><with-param v="Nicola"/><with-param v="Nicolau"/></macro>
   <macro n="noms_propis"><with-param v="Paolo"/><with-param v="Pau"/></macro>
   <macro n="noms_propis"><with-param v="Pietro"/><with-param v="Pere"/></macro>
