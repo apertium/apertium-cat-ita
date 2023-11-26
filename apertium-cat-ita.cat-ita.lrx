@@ -4354,6 +4354,50 @@
   </rule>
 
 <!-- **************** N **************** -->
+  
+  <!-- flamenc > fenicottero, calore -->
+  <rule weight="0.6">
+    <match lemma="flamenc" tags="n.*"><select lemma="fenicottero"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"/>
+    <match lemma="flamenc" tags="n.*"><select lemma="fiammingo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="flamenc" tags="n.*"><select lemma="fiammingo"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="való" tags="n.*"/>
+      <match lemma="Bèlgica" tags="np.*"/>
+      <match lemma="belga" tags="n.*"/>
+      <match lemma="belga" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="való" tags="n.*"/>
+      <match lemma="Bèlgica" tags="np.*"/>
+      <match lemma="belga" tags="n.*"/>
+      <match lemma="belga" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="flamenc" tags="n.*"><select lemma="fiammingo"/></match>
+  </rule>
+
+  <!-- calor > caldo, calore -->
+  <rule weight="0.6">
+    <match lemma="calor" tags="n.*"><select lemma="caldo"/></match>
+  </rule>
 
   <!-- model mf > modello m, modello f -->
   <rule weight="0.6">
@@ -4406,8 +4450,10 @@
   <rule weight="1.0">
     <match lemma="pis" tags="n.*"><select lemma="appartamento"/></match>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
-      <match tags="preadv"/>
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
     </repeat>
     <match tags="adj.*"/>
   </rule>
@@ -5981,7 +6027,10 @@
     </or>
     <match lemma="que" tags="rel.*"/>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or> 
       <match lemma="donar" tags="vblex.*"/>

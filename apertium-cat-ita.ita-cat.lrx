@@ -1079,6 +1079,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- getto > doll, jet -->
+  <rule weight="0.6">
+    <match lemma="getto" tags="n.*"><select lemma="doll"/></match>
+  </rule>
+
   <!-- nazionale > nacional, selecció nacional -->
   <rule weight="0.6">
     <match lemma="nazionale" tags="n.*"><select lemma="nacional"/></match>
@@ -1167,7 +1172,10 @@
   <rule weight="1.0">
     <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="anca" tags="n.*"/>
@@ -1186,7 +1194,10 @@
       <match lemma="seno" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
   </rule>
@@ -2347,14 +2358,20 @@
       <match lemma="uva" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="vite" tags="n.*"><select lemma="cep"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="vite" tags="n.*"><select lemma="cep"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="piantare" tags="vblex.*"/>
@@ -3831,7 +3848,7 @@
   <rule weight="1.2">
     <match lemma="macchina" tags="n.*"/>
     <match lemma="da" tags="pr"><select lemma="de"/></match>
-    <or> 
+    <or>
       <match tags="n.*"/>
       <match tags="vblex.inf"/>
     </or>
