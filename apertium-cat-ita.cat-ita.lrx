@@ -1891,7 +1891,7 @@
   <rule weight="1.2">
     <match lemma="màquina" tags="n.*"/>
     <match lemma="de" tags="pr"><select lemma="da"/></match>
-    <or> 
+    <or>
       <match tags="n.*"/>
       <match tags="vblex.inf"/>
     </or>
@@ -3302,7 +3302,7 @@
 
   <!-- graduar > graduare, diplomare -->
   <macro n="verb_nopron_pron"><with-param v="graduar"/><with-param v="graduare"/><with-param v="diplomare"/></macro>
-  
+
   <!-- donar > dare, donare -->
   <rule weight="0.6">
      <match lemma="donar" tags="vblex.*"><select lemma="dare"/></match>
@@ -3494,7 +3494,7 @@
      </repeat>
     <match lemma="limitar" tags="vblex.pp.*"><select lemma="confinare"/></match>
   </rule>
-  
+
   <!-- ensenyar > insegnare, mustrare --> <!-- srd -->
   <rule weight="0.6">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="insingiare"/></match>
@@ -4354,8 +4354,20 @@
   </rule>
 
 <!-- **************** N **************** -->
-  
-  <!-- flamenc > fenicottero, calore -->
+
+  <!-- estupidesa > stupidità, stupidaggine -->
+  <rule weight="0.6">
+    <match lemma="estupidesa" tags="n.*"><select lemma="stupidità"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estupidesa" tags="n.f.pl"><select lemma="stupidaggine"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.ind.*"/>
+    <match lemma="estupidesa" tags="n.*"><select lemma="stupidaggine"/></match>
+  </rule>
+
+  <!-- flamenc > fenicottero, fiammingo -->
   <rule weight="0.6">
     <match lemma="flamenc" tags="n.*"><select lemma="fenicottero"/></match>
   </rule>
@@ -4411,7 +4423,7 @@
     <match lemma="model" tags="n.mf.*"><select lemma="modello" tags="n.f.*"/></match>
     <match tags="*.f.*"/>
   </rule>
-  
+
   <!-- maniquí > manichino, modello -->
   <rule weight="0.6">
     <match lemma="maniquí" tags="n.*"><select lemma="manichino"/></match>
@@ -4424,7 +4436,7 @@
     <match lemma="maniquí" tags="n.*"><select lemma="modello" tags="n.f.*"/></match>
     <match tags="*.f.*"/>
   </rule>
-  
+
   <!-- parla > parlata, lingua -->
   <rule weight="0.6">
     <match lemma="parla" tags="n.*"><select lemma="parlata"/></match>
@@ -5928,34 +5940,34 @@
   # cops forts, cop molt dur, cops al pit
   -->
   <rule weight="0.6">
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="volta"/></match>
       <match lemma="colp" tags="n.*"><select lemma="volta"/></match>
     </or>
   </rule>
   <rule weight="1.0">
     <match lemma="el" tags="det.*"/>
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
   </rule>
   <rule weight="1.0">
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
     <match lemma="de" tags="pr"/>
   </rule>
   <rule weight="1.0">
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
     <match lemma="a" tags="pr"/>
   </rule>
   <rule weight="1.0">
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
@@ -5968,7 +5980,7 @@
     <match tags="adj.*"/>
   </rule>
 <!--  <rule weight="1.2">
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="volta"/></match>
       <match lemma="colp" tags="n.*"><select lemma="volta"/></match>
     </or>
@@ -5979,7 +5991,7 @@
     </or>
   </rule>-->
   <rule weight="1.0">
-    <or> 
+    <or>
       <match lemma="donar" tags="vblex.*"/>
       <match lemma="clavar" tags="vblex.*"/>
       <match lemma="etzibar" tags="vblex.*"/>
@@ -5989,13 +6001,13 @@
       <match tags="adv"/>
     </repeat>
     <match tags="det.*"/>
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
   </rule>
   <rule weight="1.0">
-    <or> 
+    <or>
       <match lemma="donar" tags="vblex.*"/>
       <match lemma="clavar" tags="vblex.*"/>
       <match lemma="etzibar" tags="vblex.*"/>
@@ -6013,7 +6025,7 @@
   </rule>
   <rule weight="1.2">
     <match lemma="el" tags="det.*"/>
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
@@ -6021,7 +6033,7 @@
   </rule>
   <rule weight="1.4">
     <match lemma="el" tags="det.*"/>
-    <or> 
+    <or>
       <match lemma="cop" tags="n.*"><select lemma="colpo"/></match>
       <match lemma="colp" tags="n.*"><select lemma="colpo"/></match>
     </or>
@@ -6032,7 +6044,7 @@
         <match tags=""/>
       </or>
     </repeat>
-    <or> 
+    <or>
       <match lemma="donar" tags="vblex.*"/>
       <match lemma="clavar" tags="vblex.*"/>
       <match lemma="etzibar" tags="vblex.*"/>
@@ -6748,6 +6760,7 @@
   <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Ludovico"/></macro>
   <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Emanuele"/></macro>
   <macro n="noms_propis"><with-param v="Marc"/><with-param v="Marco"/></macro>
+  <macro n="noms_propis"><with-param v="Margarida"/><with-param v="Margherita"/></macro>
   <macro n="noms_propis"><with-param v="Martí"/><with-param v="Martino"/></macro>
   <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Emanuele"/></macro>
   <macro n="noms_propis"><with-param v="Mateu"/><with-param v="Matteo"/></macro>
