@@ -4358,6 +4358,37 @@
 
 <!-- **************** N **************** -->
 
+  <!-- clip >> clip, graffetta -->
+  <rule weight="0.8">
+    <match lemma="clip" tags="n.*"><select lemma="clip"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="clip" tags="n.*"><select lemma="graffetta"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="paper" tags="n.*"/>
+      <match lemma="full" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="paper" tags="n.*"/>
+      <match lemma="full" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="clip" tags="n.*"><select lemma="graffetta"/></match>
+  </rule>
+
   <!-- eruga > bruco (biol), cingolo (cadena) -->
   <rule weight="0.6">
     <match lemma="eruga" tags="n.*"><select lemma="bruco"/></match>
