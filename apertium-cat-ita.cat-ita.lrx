@@ -2621,6 +2621,9 @@
   <!-- enutjar > molestare, arrabbiare -->
   <macro n="verb_nopron_pron"><with-param v="enutjar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
 
+  <!-- conjunyir > congiungere, unire -->
+  <macro n="verb_nopron_pron"><with-param v="conjunyir"/><with-param v="congiungere"/><with-param v="unire"/></macro>
+
   <!-- doblar > raddoppiare, doppiare -->
   <rule weight="0.6">
     <match lemma="doblar" tags="vblex.*"><select lemma="raddoppiare"/></match>
@@ -4354,6 +4357,39 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- eruga > bruco (biol), cingolo (cadena) -->
+  <rule weight="0.6">
+    <match lemma="eruga" tags="n.*"><select lemma="bruco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="eruga" tags="n.*"><select lemma="cingolo"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="camió" tags="n.*"/>
+      <match lemma="tanc" tags="n.*"/>
+      <match lemma="carro" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="camió" tags="n.*"/>
+      <match lemma="tanc" tags="n.*"/>
+      <match lemma="carro" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="eruga" tags="n.*"><select lemma="cingolo"/></match>
+  </rule>
 
   <!-- estupidesa > stupidità, stupidaggine -->
   <rule weight="0.6">

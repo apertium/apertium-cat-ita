@@ -1079,6 +1079,47 @@
 
 <!-- **************** N **************** -->
 
+  <!-- termine > terme, termini -->
+  <rule weight="0.6">
+    <match lemma="termine" tags="n.*"><select lemma="terme"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="lungo" tags="adj.*"/>
+      <match lemma="breve" tags="adj.*"/>
+      <match lemma="medio" tags="adj.*"/>
+    </or>
+    <match lemma="termine" tags="n.*"><select lemma="termini"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="termine" tags="n.*"><select lemma="termini"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <or>
+      <match lemma="lungo" tags="adj.*"/>
+      <match lemma="breve" tags="adj.*"/>
+      <match lemma="medio" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- mole > mola, mol -->
+  <rule weight="0.6">
+    <match lemma="mole" tags="n.*"><select lemma="mola"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="mole" tags="n.*"><select lemma="mol"/></match>
+  </rule>
+
+  <!-- cingolo > eruga (cadena), cíngol (cordó) -->
+  <rule weight="0.6">
+    <match lemma="cingolo" tags="n.*"><select lemma="eruga"/></match>
+  </rule>
+
   <!-- getto > doll, jet -->
   <rule weight="0.6">
     <match lemma="getto" tags="n.*"><select lemma="doll"/></match>
