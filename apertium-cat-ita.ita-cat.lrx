@@ -1079,6 +1079,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- cocco > cocoter, coc -->
+  <rule weight="0.6">
+    <match lemma="cocco" tags="n.*"><select lemma="cocoter"/></match>
+  </rule>
+
   <!-- termine > terme, termini -->
   <rule weight="0.6">
     <match lemma="termine" tags="n.*"><select lemma="terme"/></match>

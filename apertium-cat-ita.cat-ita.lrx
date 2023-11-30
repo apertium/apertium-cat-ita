@@ -3154,7 +3154,7 @@
 
   <!-- llançar > lanciare, gettare, sferrare -->
   <rule weight="0.6">
-    <match lemma="llençar" tags="vblex.*"><select lemma="gettare"/></match>
+    <match lemma="llançar" tags="vblex.*"><select lemma="gettare"/></match>
   </rule>
 
   <!-- llençar > gettare, lanciare, buttare, buttare via -->
@@ -4357,6 +4357,28 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- assetjament >> assedio, bullismo -->
+  <rule weight="0.8">
+    <match lemma="assetjament" tags="n.*"><select lemma="assedio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="assetjament" tags="n.*"><select lemma="bullismo"/></match>
+    <match tags="adj.*"/>
+  </rule>
+
+  <!-- rector >> rettore, parroco -->
+  <rule weight="0.8">
+    <match lemma="rector" tags="n.*"><select lemma="rettore"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rector" tags="n.*"><select lemma="parroco"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="np.top.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
 
   <!-- clip >> clip, graffetta -->
   <rule weight="0.8">
