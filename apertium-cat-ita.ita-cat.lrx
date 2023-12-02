@@ -2942,6 +2942,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- augurare > desitjar, augurar -->
+  <rule weight="0.6">
+    <match lemma="augurare" tags="vblex.*"><select lemma="desitjar"/></match>
+  </rule>
+
   <!-- occorrere > ocórrer, caldre -->
   <rule weight="0.6">
     <match lemma="occorrere" tags="vblex.*"><select lemma="ocórrer"/></match>
@@ -3055,6 +3060,9 @@
 
   <!-- rovinare > espatllar, arruïnar -->
   <macro n="verb_nopron_pron"><with-param v="rovinare"/><with-param v="espatllar"/><with-param v="arruïnar"/></macro>
+
+  <!-- avvilire > abatre, afligir -->
+  <macro n="verb_nopron_pron"><with-param v="avvilire"/><with-param v="abatre"/><with-param v="afligir"/></macro>
 
   <!-- pellegrinare > peregrinar, pelegrinar -->
   <rule weight="0.6">

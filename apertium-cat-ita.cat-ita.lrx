@@ -3288,6 +3288,9 @@
   <!-- acomodar > arrangiare, accomodare -->
   <macro n="verb_nopron_pron"><with-param v="acomodar"/><with-param v="arrangiare"/><with-param v="accomodare"/></macro>
 
+  <!-- apoderar > assoggettare, impossessare -->
+  <macro n="verb_nopron_pron"><with-param v="apoderar"/><with-param v="assoggettare"/><with-param v="impossessare"/></macro>
+
   <!-- guardar > conservare, guardare -->
   <macro n="verb_nopron_pron"><with-param v="guardar"/><with-param v="conservare"/><with-param v="guardare"/></macro>
 
