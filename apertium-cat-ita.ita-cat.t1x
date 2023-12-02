@@ -3748,10 +3748,7 @@
     </def-macro>
 
     <def-macro n="f_set_pron" npar="2"> <!-- posa a la variable 'pronom' el pronom reflexiu que calgui si el verb és reflexiu. El segon paramàtre és la repetició del primer, si és una forma conjugada (personal) del verb, altrament és l'auxiliar-->
-      <let>
-	<var n="pronom"/>
-	<lit v=""/>
-      </let>
+      <let><var n="pronom"/><lit v=""/></let>
 <let><var n="debug1"/><lit v="0"/></let>
       <choose>
 	<when>
@@ -3759,10 +3756,10 @@
 	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
 	  </test>
 	  <let>
-            <var n="pronom"/>
-            <get-case-from pos="1">
-              <lit v="pronom"/>
-            </get-case-from>
+        <var n="pronom"/>
+        <get-case-from pos="1">
+          <lit v="pronom"/>
+        </get-case-from>
 	  </let>
 	  <append n="pronom">
 	    <lit-tag v="SN.prn.pro.ref.p3.mf.sp"/>
@@ -3775,10 +3772,10 @@
 	        <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
 	      </test>
 	      <append n="pronom">
-                <get-case-from pos="1">
-                  <lit v="es"/>
-                </get-case-from>
-              </append>
+            <get-case-from pos="1">
+              <lit v="es"/>
+            </get-case-from>
+          </append>
 	      <append n="pronom">
 	        <lit-tag v="prn.pro.ref.p3.mf.sp"/>
 	        <lit v="$^}"/>
@@ -3787,16 +3784,16 @@
 	    </when>
 	    <otherwise>
 	      <append n="pronom">
-                <get-case-from pos="1">
-                  <lit v="prpers"/>
-                </get-case-from>
-              </append>
+            <get-case-from pos="1">
+              <lit v="prpers"/>
+            </get-case-from>
+          </append>
 	      <append n="pronom">
 	        <lit-tag v="prn.pro"/>
                 <clip pos="2" side="tl" part="pers"/>
 	        <lit-tag v="mf"/>
 	        <clip pos="1" side="tl" part="nbr"/>
-	        <lit v="$^}^"/>
+	        <lit v="$^}"/>
 	      </append>
 <let><var n="debug1"/><lit v="2"/></let>
 	    </otherwise>
@@ -3805,15 +3802,10 @@
           <choose>
             <when>
               <test>
-                <equal>
-                   <case-of pos="1" side="sl" part="lem"/>
-                   <lit v="Aa"/>
-                 </equal>
+                <equal><case-of pos="1" side="sl" part="lem"/><lit v="Aa"/></equal>
               </test>
-              <modify-case>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit v="aa"/>
-              </modify-case>
+              <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+              <modify-case><clip pos="1" side="sl" part="lemh"/><lit v="aa"/></modify-case>
             </when>
           </choose>
 	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
@@ -3824,11 +3816,8 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_set_pron_enc" npar="1"> <!-- posa a la variable 'pronom' el pronom reflexiu enclític 'es´ si el verb és reflexiu -->
-      <let>
-	<var n="pronom"/>
-	<lit v=""/>
-      </let>
+    <def-macro n="f_set_pron_enc" npar="1"> <!-- posa a la variable 'pronom' el pronom reflexiu enclític 'es' si el verb és reflexiu -->
+      <let><var n="pronom"/><lit v=""/></let>
       <choose>
 	<when>
 	  <test>
@@ -3844,19 +3833,19 @@
     </def-macro>
 
     <def-macro n="print_pron" npar="0"> <!-- escriu la variable 'pronom' -->
-        <choose>
+    <choose>
 	  <when>
 	    <test>
 	      <not><equal><var n="pronom"/><lit v=""/></equal></not>
 	    </test>
-            <out>
-              <lu>
-	        <var n="pronom"/>
-              </lu>
-              <b/>
-            </out>
+        <out>
+          <lu>
+            <var n="pronom"/>
+          </lu>
+          <b/>
+        </out>
 	  </when>
-        </choose>
+    </choose>
 <!--
             <out>
               <lu>
@@ -8369,11 +8358,17 @@
         <pattern-item n="pretind"/>
       </pattern>
       <action>
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
         <call-macro n="f_pretind">
           <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_set_pron">
+          <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="print_pron">
+        </call-macro>
+        <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
@@ -9375,14 +9370,12 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-<!--
         <call-macro n="f_set_pron">
           <with-param pos="1"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="print_pron">
         </call-macro>
--->
         <out>
           <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
