@@ -4109,6 +4109,28 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- jònic >> ionico, ionio -->
+  <rule weight="0.8">
+    <match lemma="jònic" tags="adj.*"><select lemma="ionico"/></match>
+  </rule>
+
+  <!-- dòric >> dorico, dorio -->
+  <rule weight="0.8">
+    <match lemma="dòric" tags="adj.*"><select lemma="dorico"/></match>
+  </rule>
+
+  <!-- caixmiri > kashmiro, kashmiri -->
+  <rule weight="0.6">
+    <match lemma="caixmiri" tags="adj.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="llengua" tags="n.*"/>
+      <match lemma="literatura" tags="n.*"/>
+    </or>
+    <match lemma="caixmiri" tags="adj.*"><select lemma="kashmiri"/></match>
+  </rule>
+
   <!-- paixtu > pashtun, pashto -->
   <rule weight="0.6">
     <match lemma="paixtu" tags="adj.*"><select lemma="pashtun"/></match>
@@ -4457,6 +4479,30 @@
       </or>
     </repeat>
     <match lemma="eruga" tags="n.*"><select lemma="cingolo"/></match>
+  </rule>
+
+  <!-- jònic >> ionico, ionio -->
+  <rule weight="0.8">
+    <match lemma="jònic" tags="n.*"><select lemma="ionico"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="jònic" tags="n.*.pl"><select lemma="ionio"/></match>
+  </rule>
+
+  <!-- dòric >> dòrico, dòrio -->
+  <rule weight="0.8">
+    <match lemma="dòric" tags="n.*"><select lemma="dorico"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dòric" tags="n.*.pl"><select lemma="dorio"/></match>
+  </rule>
+
+  <!-- caixmiri > kashmiro, kashmiri -->
+  <rule weight="0.6">
+    <match lemma="caixmiri" tags="n.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caixmiri" tags="n.mf.sg"><select lemma="kashmiri"/></match>
   </rule>
 
   <!-- paixtu > pashtun, pashto -->
