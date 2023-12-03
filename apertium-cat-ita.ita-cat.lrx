@@ -1079,6 +1079,30 @@
 
 <!-- **************** N **************** -->
 
+  <!-- dorio > dòric, dori -->
+  <rule weight="0.6">
+    <match lemma="dorio" tags="n.*"><select lemma="dori"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dorio" tags="n.m.sg"><select lemma="dòric"/></match>
+  </rule>
+
+  <!-- capoluogo > capital, cap -->
+  <rule weight="0.6">
+    <match lemma="capoluogo" tags="n.*"><select lemma="capital"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="capoluogo" tags="n.*"><select lemma="cap"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="comarca" tags="n.*"/>
+      <match lemma="municipio" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- cocco > cocoter, coc -->
   <rule weight="0.6">
     <match lemma="cocco" tags="n.*"><select lemma="cocoter"/></match>

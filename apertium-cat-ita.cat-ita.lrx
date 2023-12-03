@@ -4109,6 +4109,18 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- paixtu > pashtun, pashto -->
+  <rule weight="0.6">
+    <match lemma="paixtu" tags="adj.*"><select lemma="pashtun"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="llengua" tags="n.*"/>
+      <match lemma="literatura" tags="n.*"/>
+    </or>
+    <match lemma="paixtu" tags="adj.*"><select lemma="pashto"/></match>
+  </rule>
+
   <!-- mitjà > medio, mezzo -->
   <rule weight="0.6">
     <match lemma="mitjà" tags="adj.*"><select lemma="medio"/></match>
@@ -4445,6 +4457,14 @@
       </or>
     </repeat>
     <match lemma="eruga" tags="n.*"><select lemma="cingolo"/></match>
+  </rule>
+
+  <!-- paixtu > pashtun, pashto -->
+  <rule weight="0.6">
+    <match lemma="paixtu" tags="n.*"><select lemma="pashtun"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="paixtu" tags="n.mf.sg"><select lemma="pashto"/></match>
   </rule>
 
   <!-- estupidesa > stupidità, stupidaggine -->
@@ -6615,7 +6635,7 @@
      <match tags="np.*"/>
   </rule>
 
-  <!-- cap > capo, testa, testata -->
+  <!-- cap > capo, testa, testata, capoluogo -->
   <rule weight="0.8">
     <match lemma="cap" tags="n.*"><select lemma="capo"/></match>
   </rule>
@@ -6629,17 +6649,24 @@
     <or><match tags="np.top.*"/><match tags="np.loc"/></or>
   </rule>
   <rule weight="1.0">
-    <match lemma="cap" tags="n.*"><select lemma="testa"/></match>
+    <match lemma="cap" tags="n.*"><select lemma="capoluogo"/></match>
     <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <or>
       <match lemma="comarca" tags="n.*"/>
-
-      <match lemma="animal" tags="n.*"/>
-      <match lemma="peix" tags="n.*"/>
-      <match lemma="gos" tags="n.*"/>
-      <match lemma="gat" tags="n.*"/>
-      <match lemma="bou" tags="n.*"/>
-      <match lemma="vaca" tags="n.*"/>
+      <match lemma="municipi" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.*"><select lemma="testa"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <seq n="animal"/>
     </or>
   </rule>
   <rule weight="1.0">
