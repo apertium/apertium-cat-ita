@@ -267,7 +267,7 @@
     <def-cat n="org">
       <cat-item tags="np.org.*"/>
       <cat-item tags="np.al.*"/>
-<!--      <cat-item tags="np.al"/>  no es pot posar perquè no pot coordinar en gènere i nombre -->
+      <cat-item tags="np.al"/>
     </def-cat>
 
     <def-cat n="top_ant">
@@ -4978,10 +4978,24 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
+        <choose>
+          <when>	<!-- A vegades det és GD i np no té ni gènere ni nombre -->
+            <test>
+              <and>
+                <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
+                <equal><clip pos="2" side="tl" part="gen"/><lit v=""/></equal>
+              </and>
+            </test>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+            <let><clip pos="1" side="tl" part="nbr"/><clip pos="1" side="sl" part="nbr"/></let>
+          </when>
+          <otherwise>
+            <call-macro n="f_concord2">
+              <with-param pos="2"/>
+              <with-param pos="1"/>
+            </call-macro>
+          </otherwise>
+        </choose>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
