@@ -2644,6 +2644,24 @@
     <or>
       <match lemma="convidat" tags="n.*"/>
       <match lemma="invitat" tags="n.*"/>
+      <seq n="familiar"/>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="acomiadar" tags="vblex.pp.*"><select lemma="congedare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="convidat" tags="n.*"/>
+      <match lemma="invitat" tags="n.*"/>
+      <seq n="familiar"/>
       <match tags="np.*"/>
       <match tags="" case="Aa"/>
     </or>
