@@ -1341,6 +1341,11 @@
 
 <!-- **************** DET **************** -->
 
+  <!-- el > il, remove  -->
+  <rule weight="0.6">
+     <match lemma="el" tags="det.def.*"><select lemma="il"/></match>
+  </rule>
+
   <!-- el meu > il mio, mio -->
   <rule weight="0.6">
      <match lemma="el meu" tags="det.*"><select lemma="il mio"/></match>
@@ -2623,6 +2628,26 @@
 
   <!-- conjunyir > congiungere, unire -->
   <macro n="verb_nopron_pron"><with-param v="conjunyir"/><with-param v="congiungere"/><with-param v="unire"/></macro>
+
+  <!-- acomiadar > licenziare, congedare -->
+  <rule weight="0.6">
+    <match lemma="acomiadar" tags="vblex.*"><select lemma="licenziare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="acomiadar" tags="vblex.*"><select lemma="congedare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="convidat" tags="n.*"/>
+      <match lemma="invitat" tags="n.*"/>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
 
   <!-- doblar > raddoppiare, doppiare -->
   <rule weight="0.6">
@@ -4117,6 +4142,18 @@
   <!-- dòric >> dorico, dorio -->
   <rule weight="0.8">
     <match lemma="dòric" tags="adj.*"><select lemma="dorico"/></match>
+  </rule>
+
+  <!-- romaní_gitano > rom, romani -->
+  <rule weight="0.6">
+    <match lemma="romaní_gitano" tags="adj.*"><select lemma="rom"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="llengua" tags="n.*"/>
+      <match lemma="literatura" tags="n.*"/>
+    </or>
+    <match lemma="romaní_gitano" tags="adj.*"><select lemma="romani"/></match>
   </rule>
 
   <!-- caixmiri > kashmiro, kashmiri -->
@@ -5997,7 +6034,18 @@
 
   <!-- aficionat > tifoso, amatore -->
   <rule weight="0.6">
+     <match lemma="aficionat" tags="n.*"><select lemma="amatore"/></match>
+  </rule>
+  <rule weight="1.0">
      <match lemma="aficionat" tags="n.*"><select lemma="tifoso"/></match>
+     <match lemma="a" tags="pr"><select lemma="di" tags="pr"/></match>
+     <match tags="det.def.*"><remove tags="det.*"/></match>
+     <or>
+       <match lemma="esport" tags="n.*"/>
+       <seq n="esports"/>
+       <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+     </or>
   </rule>
 
   <!-- plana > pianura, pagina -->

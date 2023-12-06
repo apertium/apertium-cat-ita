@@ -735,6 +735,14 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- indoor > en pista coberta, indoor -->
+  <rule weight="0.5">
+    <match lemma="indoor" tags="adj.*"><select lemma="en pista coberta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Indoor" tags="adj.*"><select lemma="indoor"/></match>
+  </rule>
+
   <!-- fantomatico > fantasmagòric, misteriós -->
   <rule weight="0.5">
     <match lemma="fantomatico" tags="adj.*"><select lemma="fantasmagòric"/></match>
