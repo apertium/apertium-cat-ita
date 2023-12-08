@@ -2614,6 +2614,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- engegar > avviare, ... -->
+  <rule weight="0.6">
+    <match lemma="engegar" tags="vblex.*"><select lemma="avviare"/></match>
+  </rule>
+
   <!-- callar > tacere, restare# zitto -->
   <macro n="verb_nopron_pron"><with-param v="callar"/><with-param v="tacere"/><with-param v="restare# zitto"/></macro>
 
@@ -6931,6 +6936,7 @@
   <macro n="ant_antcog"><with-param v="Octavi"/><with-param v="Ottaviano"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidi"/><with-param v="Ovidio"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeu"/><with-param v="Pompeo"/></macro>
+  <macro n="ant_antcog"><with-param v="Raquel"/><with-param v="Rachele"/></macro>
   <macro n="ant_antcog"><with-param v="Salomó"/><with-param v="Salomone"/></macro>
   <macro n="ant_antcog"><with-param v="Terenci"/><with-param v="Terenzio"/></macro>
   <macro n="ant_antcog"><with-param v="Ulisses"/><with-param v="Ulisse"/></macro>

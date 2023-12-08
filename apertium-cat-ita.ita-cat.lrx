@@ -3136,9 +3136,48 @@
     <match lemma="macerare" tags="vblex.*"><select lemma="macerar"/></match>
   </rule>
 
-  <!-- avviare > iniciar, endegar -->
+  <!-- avviare > iniciar, endegar, engegar -->
   <rule weight="0.6">
     <match lemma="avviare" tags="vblex.*"><select lemma="iniciar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="avviare" tags="vblex.*"><select lemma="engegar"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="macchina" tags="n.*"/>
+      <match lemma="moto" tags="n.*"/>
+      <match lemma="motocicletta" tags="n.*"/>
+      <match lemma="ciclomotore" tags="n.*"/>
+      <match lemma="scooter" tags="n.*"/>
+      <match lemma="motorino" tags="n.*"/>
+      <match lemma="camion" tags="n.*"/>
+      <match lemma="furgone" tags="n.*"/>
+      <match lemma="autocarro" tags="n.*"/>
+      <match lemma="autobus" tags="n.*"/>
+      <match lemma="bus" tags="n.*"/>
+      <match lemma="pullman" tags="n.*"/>
+      <match lemma="treno" tags="n.*"/>
+
+      <match lemma="Fiat" tags="np.*"/>
+      <match lemma="Renault" tags="np.*"/>
+      <match lemma="Citroën" tags="np.*"/>
+      <match lemma="Volkswagen" tags="np.*"/>
+      <match lemma="BMW" tags="np.*"/>
+      <match lemma="Audi" tags="np.*"/>
+      <match lemma="Skoda" tags="np.*"/>
+      <match lemma="Seat" tags="np.*"/>
+      <match lemma="Ford" tags="np.*"/>
+      <match lemma="Toyota" tags="np.*"/>
+      <match lemma="Chrysler" tags="np.*"/>
+      <match lemma="Alfa Romeo" tags="np.*"/>
+      <match lemma="Maserati" tags="np.*"/>
+      <match lemma="Ferrari" tags="np.*"/>
+    </or>
   </rule>
 
   <!-- mescolare > barrejar, mesclar -->
@@ -4333,8 +4372,10 @@
   <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Horaci"/></macro>
   <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Octavi"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidio"/><with-param v="Ovidi"/></macro>
+  <macro n="ant_antcog"><with-param v="Penelope"/><with-param v="Penèlope"/></macro>
   <macro n="ant_antcog"><with-param v="Pompeo"/><with-param v="Pompeu"/></macro>
   <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Publi"/></macro>
+  <macro n="ant_antcog"><with-param v="Rachele"/><with-param v="Raquel"/></macro>
   <macro n="ant_antcog"><with-param v="Salomone"/><with-param v="Salomó"/></macro>
   <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terenci"/></macro>
   <macro n="ant_antcog"><with-param v="Ulisse"/><with-param v="Ulisses"/></macro>
