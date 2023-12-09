@@ -8,26 +8,26 @@
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
@@ -541,6 +541,24 @@
   </def-macros>
 
   <def-seqs>
+    <def-seq n="cognomen"><or>
+      <match lemma="Medici" tags="np.cog.*"/>
+      <match lemma="Este" tags="np.cog.*"/>
+      <match lemma="Asburgo" tags="np.cog.*"/>
+      <match lemma="Borbone" tags="np.cog.*"/>
+      <match lemma="Valois" tags="np.cog.*"/>
+      <match lemma="Capeto" tags="np.cog.*"/>
+      <match lemma="Plantagenet" tags="np.cog.*"/>
+      <match lemma="Braganza" tags="np.cog.*"/>
+      <match lemma="Comneno" tags="np.cog.*"/>
+      <match lemma="Comnena" tags="np.cog.*"/>
+      <match lemma="Paleologo" tags="np.cog.*"/>
+      <match lemma="Jagellone" tags="np.cog.*"/>
+      <match lemma="Lacon" tags="np.cog.*"/>
+      <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+      <match lemma="Lacon-Massa" tags="np.cog.*"/>
+    </or></def-seq>
+
     <def-seq n="distanza"><or>
       <match lemma="metro"/>
       <match lemma="chilometro"/>
@@ -1086,6 +1104,17 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- compagnia >> companyia, germandat -->
+  <rule weight="0.8">
+    <match lemma="compagnia" tags="n.*"><select lemma="companyia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="compagnia" tags="n.*"><select lemma="germandat"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.def.*"/>
+    <match lemma="anello" tags="n.*"/>
+  </rule>
 
   <!-- dorio > dòric, dori -->
   <rule weight="0.6">
@@ -4335,6 +4364,7 @@
 
 <!-- **************** NP **************** -->
 
+  <!-- Borbone > Borbó, Borbons -->
   <rule weight="0.8">
     <match lemma="Borbone" tags="np.*"><select lemma="Borbó"/></match>
   </rule>
@@ -4343,12 +4373,22 @@
     <match lemma="Borbone" tags="np.*"><select lemma="Borbons"/></match>
   </rule>
 
+  <!-- Trastámara > Trastàmara, Trastàmares -->
   <rule weight="0.8">
     <match lemma="Trastámara" tags="np.*"><select lemma="Trastàmara"/></match>
   </rule>
   <rule weight="1.0">
     <match tags="det.*.pl"/>
     <match lemma="Trastámara" tags="np.*"><select lemma="Trastàmares"/></match>
+  </rule>
+
+  <!-- Medici > Medici, Mèdici -->
+  <rule weight="0.8">
+    <match lemma="Medici" tags="np.*"><select lemma="Medici"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="di" tags="pr"/>
+    <match lemma="Medici" tags="np.*"><select lemma="Mèdici"/></match>
   </rule>
 
   <macro n="ant_antcog"><with-param v="Adriano"/><with-param v="Adrià"/></macro>
@@ -4365,6 +4405,7 @@
   <macro n="ant_antcog"><with-param v="Ettore"/><with-param v="Hèctor"/></macro>
   <macro n="ant_antcog"><with-param v="Flavio"/><with-param v="Flavi"/></macro>
   <macro n="ant_antcog"><with-param v="Gesù"/><with-param v="Jesús"/></macro>
+  <macro n="ant_antcog"><with-param v="Lazzaro"/><with-param v="Llàtzer"/></macro>
   <macro n="ant_antcog"><with-param v="Maria Antonietta"/><with-param v="Maria Antonieta"/></macro>
   <macro n="ant_antcog"><with-param v="Michelangelo"/><with-param v="Miquel Àngel"/></macro>
   <macro n="ant_antcog"><with-param v="Marco Aurelio"/><with-param v="Marc Aureli"/></macro>
@@ -4429,10 +4470,12 @@
   <macro n="noms_propis"><with-param v="Giulio"/><with-param v="Juli"/></macro>
   <macro n="noms_propis"><with-param v="Leone"/><with-param v="Lleó"/></macro>
   <macro n="noms_propis"><with-param v="Leopoldo"/><with-param v="Leopold"/></macro>
+  <macro n="noms_propis"><with-param v="Lorenzo"/><with-param v="Llorenç"/></macro>
   <macro n="noms_propis"><with-param v="Lucia"/><with-param v="Llúcia"/></macro>
   <macro n="noms_propis"><with-param v="Luca"/><with-param v="Lluc"/></macro>
   <macro n="noms_propis"><with-param v="Ludovico"/><with-param v="Lluís"/></macro>
   <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Lluís"/></macro>
+  <macro n="noms_propis"><with-param v="Manuele"/><with-param v="Manuel"/></macro>
   <macro n="noms_propis"><with-param v="Marco"/><with-param v="Marc"/></macro>
   <macro n="noms_propis"><with-param v="Margherita"/><with-param v="Margarida"/></macro>
   <macro n="noms_propis"><with-param v="Martino"/><with-param v="Martí"/></macro>
@@ -4440,6 +4483,7 @@
   <macro n="noms_propis"><with-param v="Massimiliano"/><with-param v="Maximilià"/></macro>
   <macro n="noms_propis"><with-param v="Michele"/><with-param v="Miquel"/></macro>
   <macro n="noms_propis"><with-param v="Nicola"/><with-param v="Nicolau"/></macro>
+  <macro n="noms_propis"><with-param v="Niccolò"/><with-param v="Nicolau"/></macro>
   <macro n="noms_propis"><with-param v="Paolo"/><with-param v="Pau"/></macro>
   <macro n="noms_propis"><with-param v="Pietro"/><with-param v="Pere"/></macro>
   <macro n="noms_propis"><with-param v="Pio"/><with-param v="Pius"/></macro>
