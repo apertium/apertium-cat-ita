@@ -2633,6 +2633,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- follar > scopare, pigiare (el raïm) -->
+  <rule weight="0.6">
+    <match lemma="follar" tags="vblex.*"><select lemma="scopare"/></match>
+  </rule>
+
   <!-- engegar > avviare, ... -->
   <rule weight="0.6">
     <match lemma="engegar" tags="vblex.*"><select lemma="avviare"/></match>
@@ -2649,6 +2654,9 @@
 
   <!-- enutjar > molestare, arrabbiare -->
   <macro n="verb_nopron_pron"><with-param v="enutjar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
+
+  <!-- florir > fiorire, ammuffire -->
+  <macro n="verb_nopron_pron"><with-param v="florir"/><with-param v="fiorire"/><with-param v="ammuffire"/></macro>
 
   <!-- conjunyir > congiungere, unire -->
   <macro n="verb_nopron_pron"><with-param v="conjunyir"/><with-param v="congiungere"/><with-param v="unire"/></macro>
@@ -4474,6 +4482,17 @@
 
 <!-- **************** N **************** -->
 
+  <!-- fulla >> foglia, foglio, lama -->
+  <rule weight="0.8">
+    <match lemma="fulla" tags="n.*"><select lemma="foglia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fulla" tags="n.*"><select lemma="lama"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="ganivet" tags="n.*"/>
+  </rule>
+
   <!-- germandat >> fratellanza, compagnia -->
   <rule weight="0.8">
     <match lemma="germandat" tags="n.*"><select lemma="fratellanza"/></match>
@@ -4792,6 +4811,7 @@
     <or>
       <match lemma="colònia" tags="n.*"/>
       <match lemma="esplai" tags="n.*"/>
+      <match lemma="nen" tags="n.*"/>
     </or>
   </rule>
 

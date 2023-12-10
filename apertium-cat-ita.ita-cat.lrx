@@ -1105,6 +1105,62 @@
 
 <!-- **************** N **************** -->
 
+  <!-- lama n.m >> llama, lama -->
+  <rule weight="0.8">
+    <match lemma="lama" tags="n.m.*"><select lemma="llama"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="gran" tags="adj.*"/>
+    <match lemma="lama" tags="n.m.*"><select lemma="lama"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="lama" tags="n.m.*"><select lemma="lama"/></match>
+    <or>
+      <match lemma="budista" tags="adj.*"/>
+      <match lemma="tibetano" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="lama" tags="n.m.*"><select lemma="lama"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="budismo" tags="n.*"/>
+      <match lemma="budista" tags="n.*"/>
+      <match lemma="budista" tags="adj.*"/>
+      <match lemma="tibetano" tags="n.*"/>
+      <match lemma="tibetano" tags="adj.*"/>
+      <match lemma="Tibet" tags="np.*"/>
+      <match lemma="Cina" tags="np.*"/>
+      <match lemma="India" tags="np.*"/>
+      <match lemma="tempio" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="budismo" tags="n.*"/>
+      <match lemma="budista" tags="n.*"/>
+      <match lemma="budista" tags="adj.*"/>
+      <match lemma="tibetano" tags="n.*"/>
+      <match lemma="tibetano" tags="adj.*"/>
+      <match lemma="Tibet" tags="np.*"/>
+      <match lemma="Cina" tags="np.*"/>
+      <match lemma="India" tags="np.*"/>
+      <match lemma="tempio" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="lama" tags="n.m.*"><select lemma="lama"/></match>
+  </rule>
+
   <!-- compagnia >> companyia, germandat -->
   <rule weight="0.8">
     <match lemma="compagnia" tags="n.*"><select lemma="companyia"/></match>
@@ -1313,17 +1369,76 @@
     <match lemma="sociale" tags="adj.*"/>
   </rule>
 
-  <!-- numero > nombre, numero -->
+  <!-- numero > nombre, número -->
   <rule weight="0.6">
     <match lemma="numero" tags="n.*"><select lemma="nombre"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="numero" tags="n.*"><select lemma="numero"/></match>
+    <match lemma="numero" tags="n.*"><select lemma="número"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="telefono" tags="n.*.sg"/>
+      <match lemma="cellulare" tags="n.*.sg"/>
+      <match lemma="fax" tags="n.*"/>
+      <match lemma="targa" tags="n.*.sg"/>
+      <match lemma="riferimento" tags="n.*.sg"/>
+      <match lemma="immatricolazione" tags="n.*.sg"/>
+      <match lemma="identificazione" tags="n.*.sg"/>
+      <match lemma="identità" tags="n.*"/>
+      <match lemma="registrazione" tags="n.*.sg"/>
+      <match lemma="convoglio" tags="n.*.sg"/>
+      <match lemma="partita" tags="n.*.sg"/>
+      <match lemma="invio" tags="n.*.sg"/>
+      <match lemma="rilascio" tags="n.*.sg"/>
+      <match lemma="uscita" tags="n.*.sg"/>
+      <match lemma="entrata" tags="n.*.sg"/>
+      <match lemma="rivista" tags="n.*.sg"/>
+      <match lemma="passaporto" tags="n.*.sg"/>
+      <match lemma="documento" tags="n.*.sg"/>
+      <match lemma="domanda" tags="n.*.sg"/>
+      <match lemma="produzione" tags="n.*.sg"/>
+      <match lemma="serie" tags="n.*.sg"/>
+      <match lemma="telaio" tags="n.*.sg"/>
+      <match lemma="cliente" tags="n.*.sg"/>
+      <match lemma="coda" tags="n.*.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="det.pos.*"/>
+      <match tags="adj.pos.*"/>
+    </or>
+    <match lemma="numero" tags="n.*"><select lemma="número"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="numero" tags="n.*"><select lemma="número"/></match>
+    <or>
+      <match lemma="selezionare" tags="vblex.pp.*"/>
+      <match lemma="preferire" tags="vblex.pp.*"/>
+      <match lemma="identificativo" tags="adj.*"/>
+      <match lemma="personale" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="numero" tags="n.*"><select lemma="número"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="cifra" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="numero" tags="n.*"><select lemma="número"/></match>
     <or>
       <match tags="num"/>
       <match tags="num.*"/>
       <match lemma="pi"/>
       <match lemma="e"/>
+      <match case="Aa"/>
     </or>
   </rule>
 
@@ -3003,6 +3118,16 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- pigiare > prémer, follar (el raïm) -->
+  <rule weight="0.6">
+    <match lemma="pigiare" tags="vblex.*"><select lemma="prémer"/></match>
+  </rule>
+
+  <!-- spiccare > destacar, ... -->
+  <rule weight="0.6">
+    <match lemma="spiccare" tags="vblex.*"><select lemma="destacar"/></match>
+  </rule>
+
   <!-- augurare > desitjar, augurar -->
   <rule weight="0.6">
     <match lemma="augurare" tags="vblex.*"><select lemma="desitjar"/></match>
@@ -3808,6 +3933,7 @@
       <match lemma="pronto" tags="adj.*"/>
       <match lemma="preparare" tags="vblex.pp.*"/>
       <match lemma="preparato" tags="adj.*"/>
+      <match lemma="attrezzare" tags="vblex.pp.*"/>
     </or>
   </rule>
 
