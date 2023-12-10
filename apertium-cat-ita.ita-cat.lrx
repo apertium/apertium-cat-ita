@@ -753,6 +753,19 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- travagliato > afligit, difícil -->
+  <rule weight="0.5">
+    <match lemma="travagliato" tags="adj.*"><select lemma="afligit"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tempo" tags="n.*"/>
+      <match lemma="periodo" tags="n.*"/>
+      <match lemma="situazione" tags="n.*"/>
+    </or>
+    <match lemma="travagliato" tags="adj.*"><select lemma="difícil"/></match>
+  </rule>
+
   <!-- indoor > en pista coberta, indoor -->
   <rule weight="0.5">
     <match lemma="indoor" tags="adj.*"><select lemma="en pista coberta"/></match>
