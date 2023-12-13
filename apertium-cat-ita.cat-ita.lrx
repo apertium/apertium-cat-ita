@@ -2203,6 +2203,24 @@
     <match lemma="de" tags="pr"><select lemma="a"/></match>
     <match lemma="vapor" tags="n.*"/>
   </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="samarreta" tags="n.*"/>
+      <match lemma="camisa" tags="n.*"/>
+      <match lemma="brusa" tags="n.*"/>
+      <match lemma="jersei" tags="n.*"/>
+      <match lemma="pul·lòver" tags="n.*"/>
+      <match lemma="pantaló" tags="n.*"/>
+      <match lemma="faldilla" tags="n.*"/>
+      <match lemma="cravatta" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match lemma="flor" tags="n.*"/>
+      <match lemma="ratlla" tags="n.*"/>
+      <match lemma="quadre" tags="n.*"/>
+    </or>
+  </rule>
 
   <rule weight="1.0">
     <match lemma="de" tags="pr"><select lemma="in"/></match>

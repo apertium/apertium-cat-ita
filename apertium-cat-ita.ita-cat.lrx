@@ -3310,6 +3310,15 @@
       <seq n="medicina"/>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"><select lemma="prendre"/></match>
+    <match lemma="parte" tags="n.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="prendere" tags="vblex.*"><select lemma="prendre"/></match>
+    <match lemma="parte" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+  </rule>
 
   <!-- reggere > aguantar, regir -->
   <rule weight="0.6">
@@ -4382,6 +4391,30 @@
     <match lemma="a" tags="pr"><select lemma="de"/></match>
     <match lemma="vapore" tags="n.*"/>
   </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="maglia" tags="n.*"/>
+      <match lemma="maglietta" tags="n.*"/>
+      <match lemma="maglione" tags="n.*"/>
+      <match lemma="camigia" tags="n.*"/>
+      <match lemma="blusa" tags="n.*"/>
+      <match lemma="camicetta" tags="n.*"/>
+      <match lemma="camiciotto" tags="n.*"/>
+      <match lemma="pullover" tags="n.*"/>
+      <match lemma="pantalone" tags="n.*"/>
+      <match lemma="gonna" tags="n.*"/>
+      <match lemma="cravatta" tags="n.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <or>
+      <match lemma="fiore" tags="n.*"/>
+      <match lemma="riga" tags="n.*"/>
+      <match lemma="strica" tags="n.*"/>
+      <match lemma="quadro" tags="n.*"/>
+      <match lemma="quadretti" tags="n.*"/>
+      <match lemma="scacchi" tags="n.*"/>
+    </or>
+  </rule>
   <rule weight="1.2">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
     <match tags="det.def.m.sg"/>
@@ -4410,6 +4443,30 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="en"/></match>
   </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="pensare"/>
+      <match lemma="partecipare"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="en"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"/>
+    <match lemma="parte" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="en"/></match>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="addetto" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+  </rule>
+
 
   <!-- su > sobre, de, en -->
   <rule weight="0.6">
@@ -4449,34 +4506,6 @@
     </repeat>
     <match tags="adv"/>
     <match lemma="su" tags="pr"><select lemma="en"/></match>
-  </rule>
-
-  <!-- a > a, en, de -->
-  <rule weight="0.6">
-    <match lemma="a" tags="pr"><select lemma="a"/></match>
-  </rule>
-  <rule weight="1.4">
-    <or>
-      <match lemma="pensare"/>
-      <match lemma="partecipare"/>
-    </or>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="a" tags="pr"><select lemma="en"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="prendere" tags="vblex.*"/>
-    <match lemma="parte" tags="n.*"/>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-      <match tags="adj.*"/>
-    </repeat>
-    <match lemma="a" tags="pr"><select lemma="en"/></match>
-  </rule>
-  <rule weight="1.4">
-    <match lemma="addetto" tags="n.*"/>
-    <match lemma="a" tags="pr"><select lemma="de"/></match>
   </rule>
 
   <!-- in > en, a, de -->
