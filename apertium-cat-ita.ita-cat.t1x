@@ -6175,6 +6175,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: DET solito NOM (il solito partito > el partit habitual)">
       <pattern>
         <pattern-item n="det"/>
@@ -6234,7 +6235,7 @@
         </out>
       </action>
     </rule>
-
+-->
 
     <rule comment="REGLA: DET ADJ NOM">
       <pattern>
