@@ -3817,22 +3817,6 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_set_pron_enc" npar="1"> <!-- posa a la variable 'pronom' el pronom reflexiu enclític 'es' si el verb és reflexiu -->
-      <let><var n="pronom"/><lit v=""/></let>
-      <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
-	  </test>
-	  <let><var n="pronom"/><lit v="es"/></let>
-	  <append n="pronom">
-	    <lit-tag v="prn.enc.ref.p3.mf.sp"/>
-	  </append>
-	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
-	</when>
-      </choose>
-    </def-macro>
-
     <def-macro n="print_pron" npar="0"> <!-- escriu la variable 'pronom' -->
     <choose>
 	  <when>
@@ -9563,21 +9547,52 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="sl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+	      <when>
+	        <test>
+	          <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+	        </test>
+	        <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+	                <lit v="es"/>
+	                <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+	      </when>
+	      <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+	      </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -9655,21 +9670,52 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="sl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+	      <when>
+	        <test>
+	          <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+	        </test>
+	        <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+	                <lit v="es"/>
+	                <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+	      </when>
+	      <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="sl" part="temps"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+	      </otherwise>
+        </choose>
       </action>
     </rule>
 
