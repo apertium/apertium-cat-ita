@@ -361,7 +361,7 @@
         <match tags="n.*"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="el" tags="prn.pro.*"/>
+        <match lemma="lo" tags="prn.pro.*"/>
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
@@ -371,6 +371,50 @@
           <match tags="vblex.pp.*"/>
         </or>
         <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
+      </rule>
+    </def-macro>
+
+    <!-- Aquesta macro tria el verb p2 en forma pronominal si p1 no és transitiu i p2 no pronominal si p1 és transitiu -->
+    <!-- la manera de veure que el verb és transitiu és molt barroera -->
+    <def-macro n="verb_intrans_trans-pron_trans" npar="2">
+      <rule weight="0.8">
+        <match plemma="1" tags="vblex.*"><select plemma="2" tags="vblex.pron.*"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+        <or>
+          <match tags="det.*"/>
+          <match tags="np.*"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="lo" tags="prn.pro.*"/>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="2"/></match>
       </rule>
     </def-macro>
 
@@ -469,15 +513,24 @@
         <match plemma="1" tags="vblex.*.pl"><select plemma="4"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="il" tags="prn.tn.*.f.sg"/>
+        <match lemma="lui" tags="prn.tn.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
         <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="il" tags="prn.tn.*.m.pl"/>
+        <match lemma="lui" tags="prn.tn.*.m.pl"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
         <match plemma="1" tags="vblex.*.sg"><select plemma="4"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="il" tags="prn.tn.*.f.pl"/>
+        <match lemma="lui" tags="prn.tn.*.f.pl"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
         <match plemma="1" tags="vblex.*.sg"><select plemma="5"/></match>
       </rule>
       <rule weight="1.0">
@@ -488,15 +541,8 @@
             <match tags="" case="Aa"/>
           </or>
         </repeat>
-        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
-      </rule>
-      <rule weight="1.0">
-        <match tags="n.f.*"/>
         <repeat from="0" upto="2">
-          <or>
-            <match tags="preadv"/>
-            <match tags="adj.*"/>
-          </or>
+          <match tags="prn.pro.*"/>
         </repeat>
         <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
       </rule>
@@ -507,6 +553,22 @@
             <match tags="preadv"/>
             <match tags="adj.*"/>
           </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
         </repeat>
         <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
@@ -526,6 +588,9 @@
           <match tags="preadv"/>
           <match tags="adv"/>
         </or>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
         <match plemma="1" tags="vblex.pp.m.pl"><select plemma="4"/></match>
       </rule>
       <rule weight="1.4">
@@ -535,6 +600,9 @@
           <match tags="preadv"/>
           <match tags="adv"/>
         </or>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
         <match plemma="1" tags="vblex.pp.f.pl"><select plemma="5"/></match>
       </rule>
     </def-macro>
@@ -752,6 +820,16 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- solito > habitual, mateix -->
+  <rule weight="0.5">
+    <match lemma="solito" tags="adj.*"><select lemma="habitual"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*"/>
+    <match lemma="solito" tags="adj.*"><select lemma="mateix"/></match>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- travagliato > afligit, difícil -->
   <rule weight="0.5">
@@ -1117,6 +1195,24 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- stormo >> estol, formació, ala -->
+  <rule weight="0.8">
+    <match lemma="stormo" tags="n.*"><select lemma="estol"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Stormo" tags="n.*"><select lemma="ala"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="stormo" tags="n.*"><select lemma="formació"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <match lemma="aero" tags="n.*"/>
+      <match lemma="jet" tags="n.*"/>
+      <match lemma="caccia" tags="n.*"/>
+      <match lemma="bombardiere" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- lama n.m >> llama, lama -->
   <rule weight="0.8">
@@ -3131,6 +3227,14 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- uccidere > matar, assassinar -->
+  <rule weight="0.6">
+    <match lemma="uccidere" tags="vblex.*"><select lemma="matar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="uccidere" tags="vblex.pp.*"><select lemma="assassinar"/></match>
+  </rule>
+
   <!-- pigiare > prémer, follar (el raïm) -->
   <rule weight="0.6">
     <match lemma="pigiare" tags="vblex.*"><select lemma="prémer"/></match>
@@ -3253,6 +3357,9 @@
   <rule weight="0.6">
     <match lemma="tenere" tags="vblex.*"><select lemma="tenir"/></match>
   </rule>
+
+  <!-- avvizzire > pansir-se, pansir -->
+  <macro n="verb_intrans_trans-pron_trans"><with-param v="avvizzire"/><with-param v="pansir"/></macro>
 
   <!-- complottare > conspirar, complotar -->
   <macro n="verb_intrans_trans"><with-param v="complottare"/><with-param v="conspirar"/><with-param v="complotar"/></macro>
