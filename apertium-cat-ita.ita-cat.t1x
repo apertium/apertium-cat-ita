@@ -915,8 +915,15 @@
       <list-item v="Cilicia"/>
       <list-item v="Cappadocia"/>
       <list-item v="Troade"/>
+      <list-item v="Paflagonia"/>
+      <list-item v="Licaonia"/>
+      <list-item v="Galazia"/>
+      <list-item v="Pisidia"/>
       <list-item v="Bactria"/>
       <list-item v="Bactriana"/>
+      <list-item v="Sogdiana"/>
+      <list-item v="Sogdia"/>
+      <list-item v="Transoxiana"/>
       <list-item v="Groenlandia"/>
       <list-item v="Guadalupa"/>
       <list-item v="Guyana francese"/>
@@ -1176,15 +1183,15 @@
       <list-item v="Persia"/>
       <list-item v="Mesopotamia"/>
       <list-item v="Babilonia"/>
+      <list-item v="Partia"/>
+      <list-item v="Media"/>
       <list-item v="Caldea"/>
       <list-item v="Giudea"/>
+      <list-item v="Fenicia"/>
       <list-item v="Pannonia"/>
       <list-item v="Illiria"/>
       <list-item v="Tracia"/>
       <list-item v="Dacia"/>
-      <list-item v="Sogdiana"/>
-      <list-item v="Sogdia"/>
-      <list-item v="Transoxiana"/>
       <list-item v="Cecoslovacchia"/>
       <list-item v="Jugoslavia"/>
     </def-list>

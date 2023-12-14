@@ -4666,9 +4666,16 @@
     <match lemma="Medici" tags="np.*"><select lemma="Mèdici"/></match>
   </rule>
 
+  <rule weight="2.0">
+    <match lemma="Publio" tags="np.*"><select lemma="Publi"/></match>
+    <match lemma="Cornelio" tags="np.*"><select lemma="Corneli"/></match>
+  </rule>
+
   <macro n="ant_antcog"><with-param v="Adriano"/><with-param v="Adrià"/></macro>
   <macro n="ant_antcog"><with-param v="Agostino"/><with-param v="Agustí"/></macro>
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Alexandre"/></macro>
+  <macro n="ant_antcog"><with-param v="Amilcare"/><with-param v="Amílcar"/></macro>
+  <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Anníbal"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="August"/></macro>
   <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisari"/></macro>
   <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelià"/></macro>
@@ -4676,6 +4683,7 @@
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Ciceró"/></macro>
   <macro n="ant_antcog"><with-param v="Ciro"/><with-param v="Cir"/></macro>
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Claudi"/></macro>
+  <macro n="ant_antcog"><with-param v="Cornelio"/><with-param v="Corneli"/></macro>
   <macro n="ant_antcog"><with-param v="Dario"/><with-param v="Darios"/></macro>
   <macro n="ant_antcog"><with-param v="Ettore"/><with-param v="Hèctor"/></macro>
   <macro n="ant_antcog"><with-param v="Flavio"/><with-param v="Flavi"/></macro>
@@ -4683,6 +4691,7 @@
   <macro n="ant_antcog"><with-param v="Lazzaro"/><with-param v="Llàtzer"/></macro>
   <macro n="ant_antcog"><with-param v="Maria Antonietta"/><with-param v="Maria Antonieta"/></macro>
   <macro n="ant_antcog"><with-param v="Michelangelo"/><with-param v="Miquel Àngel"/></macro>
+  <macro n="ant_antcog"><with-param v="Marco Antonio"/><with-param v="Marc Antoni"/></macro>
   <macro n="ant_antcog"><with-param v="Marco Aurelio"/><with-param v="Marc Aureli"/></macro>
   <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moisès"/></macro>
   <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Horaci"/></macro>
