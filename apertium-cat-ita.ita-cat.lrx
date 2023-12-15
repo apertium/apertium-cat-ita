@@ -3227,6 +3227,18 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- incentrare > basar, centrar -->
+  <rule weight="0.6">
+    <match lemma="incentrare" tags="vblex.*"><select lemma="basar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"><select lemma="estar"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match lemma="incentrare" tags="vblex.pp.*"><select lemma="centrar"/></match>
+  </rule>
+
   <!-- uccidere > matar, assassinar -->
   <rule weight="0.6">
     <match lemma="uccidere" tags="vblex.*"><select lemma="matar"/></match>
