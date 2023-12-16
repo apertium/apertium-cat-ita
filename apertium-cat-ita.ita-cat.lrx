@@ -1196,6 +1196,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- manicure >> manicura, manicur -->
+  <rule weight="0.8">
+    <match lemma="manicure" tags="n.*"><select lemma="manicura"/></match>
+  </rule>
+
   <!-- stormo >> estol, formació, ala -->
   <rule weight="0.8">
     <match lemma="stormo" tags="n.*"><select lemma="estol"/></match>
