@@ -4159,9 +4159,17 @@
 
 <!-- **************** PR **************** -->
 
-  <!-- di > de, che (comparacions) -->
+  <!-- di > de, a, en, che (comparacions) -->
   <rule weight="0.6">
     <match lemma="di" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="impicciare" tags="vblex.*"/>
+    <match tags="prn.enc.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><select lemma="en"/></match>
   </rule>
 
   <!-- per mezzo di > mitjançant, per mitjà de -->
