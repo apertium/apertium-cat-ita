@@ -919,14 +919,17 @@
       <list-item v="Licaonia"/>
       <list-item v="Galazia"/>
       <list-item v="Pisidia"/>
+      <list-item v="Panfilia"/>
+      <list-item v="Colchide"/>
       <list-item v="Bactria"/>
       <list-item v="Bactriana"/>
       <list-item v="Sogdiana"/>
       <list-item v="Sogdia"/>
       <list-item v="Transoxiana"/>
+      <list-item v="Gandhara"/>
       <list-item v="Groenlandia"/>
       <list-item v="Guadalupa"/>
-      <list-item v="Guyana francese"/>
+      <list-item v="Martinica"/>
       <list-item v="Guam"/>
       <list-item v="Guatemala"/>
       <list-item v="Guinea"/>
@@ -944,7 +947,6 @@
       <list-item v="Islanda"/>
       <list-item v="Spagna"/>
       <list-item v="Spagna romana"/>
-      <list-item v="Israele"/>
       <list-item v="Stiria"/>
       <list-item v="Burgenland"/>
       <list-item v="Svezia"/>
