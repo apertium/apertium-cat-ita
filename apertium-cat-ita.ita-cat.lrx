@@ -1196,6 +1196,23 @@
 
 <!-- **************** N **************** -->
 
+  <!-- guardia >> guàrdia f, guàrdia m, guarda f, guarda m -->
+  <rule weight="0.8">
+    <match lemma="guardia" tags="n.*"><select lemma="guàrdia"  tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.9">
+    <match lemma="guardia" tags="n.*.pl"><select lemma="guàrdia"  tags="n.m.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guardia" tags="n.*"><select lemma="guarda"  tags="n.m.*"/></match>
+    <or>
+      <match lemma="forestale" tags="adj.*"/>
+      <match lemma="campestre" tags="adj.*"/>
+      <match lemma="giurato" tags="adj.*"/>
+      <match lemma="giurare" tags="vblex.pp.*"/>
+    </or>
+  </rule>
+
   <!-- manicure >> manicura, manicur -->
   <rule weight="0.8">
     <match lemma="manicure" tags="n.*"><select lemma="manicura"/></match>
@@ -1367,7 +1384,7 @@
   </rule>
   <rule weight="1.0">
     <match tags="det.def.f.*"/>
-    <repeat from="0" upto="8">
+    <repeat from="0" upto="1">
       <match lemma="proprio" tags="adj.*"/>
     </repeat>
     <match lemma="nazionale" tags="n.*"><select lemma="selecció nacional"/></match>
@@ -1776,6 +1793,22 @@
   <!-- cannoniere > canoner, golejador -->
   <rule weight="0.6">
     <match lemma="cannoniere" tags="n.*"><select lemma="canoner"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cannoniere" tags="n.*"><select lemma="golejador"/></match>
+    <or>
+      <match lemma="di" tags="pr"/>
+      <match lemma="in" tags="pr"/>
+    </or>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="partito" tags="n.*"/>
+      <match lemma="match" tags="n.*"/>
+      <match lemma="incontro" tags="n.*"/>
+      <match lemma="campionato" tags="n.*"/>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
   </rule>
 
   <!-- gallo > gall, gal -->
