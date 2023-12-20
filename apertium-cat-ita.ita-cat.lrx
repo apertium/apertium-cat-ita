@@ -1196,6 +1196,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- utile >> benefici, guany -->
+  <rule weight="0.8">
+    <match lemma="utile" tags="n.*"><select lemma="benefici"/></match>
+  </rule>
+
   <!-- guardia >> guàrdia f, guàrdia m, guarda f, guarda m -->
   <rule weight="0.8">
     <match lemma="guardia" tags="n.*"><select lemma="guàrdia"  tags="n.f.*"/></match>
@@ -2688,7 +2693,90 @@
 
   <!-- influenza > influència, grip -->
   <rule weight="0.6">
-     <match lemma="influenza" tags="n.*"><select lemma="influència"/></match>
+    <match lemma="influenza" tags="n.*"><select lemma="influència"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="avere" tags="vblex.*"/>
+      <match lemma="prendere" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="prevenire" tags="vblex.*"/>
+      <match lemma="curare" tags="vblex.*"/>
+      <match lemma="guarire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.def.*"/>
+    <match lemma="influenza" tags="n.*"><select lemma="grip"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="influenza" tags="n.*"><select lemma="grip"/></match>
+    <or>
+      <match lemma="stagionale" tags="adj.*"/>
+      <match lemma="estivo" tags="adj.*"/>
+      <match lemma="spagnolo" tags="adj.*"/>
+      <match lemma="aleutino" tags="adj.*"/>
+      <match lemma="suino" tags="adj.*"/>
+      <match lemma="comune" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="comune" tags="adj.*"/>
+      <match lemma="brutto" tags="adj.*"/>
+    </or>
+    <match lemma="influenza" tags="n.*"><select lemma="grip"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="influenza" tags="n.*"><select lemma="grip"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="raffreddore" tags="n.*"/>
+      <match lemma="sintomo" tags="n.*"/>
+      <match lemma="epidemia" tags="n.*"/>
+      <match lemma="epidemico" tags="adj.*"/>
+      <match lemma="pandemia" tags="n.*"/>
+      <match lemma="pandemico" tags="adj.*"/>
+      <match lemma="virus" tags="n.*"/>
+      <match lemma="virico" tags="n.*"/>
+      <match lemma="vaccino" tags="n.*"/>
+      <match lemma="vaccinazione" tags="n.*"/>
+      <match lemma="vaccinare" tags="vblex.*"/>
+      <match lemma="rivaccinazione" tags="n.*"/>
+      <match lemma="rivaccinare" tags="vblex.*"/>
+      <match lemma="profilassi" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="raffreddore" tags="n.*"/>
+      <match lemma="sintomo" tags="n.*"/>
+      <match lemma="epidemia" tags="n.*"/>
+      <match lemma="epidemico" tags="adj.*"/>
+      <match lemma="pandemia" tags="n.*"/>
+      <match lemma="pandemico" tags="adj.*"/>
+      <match lemma="virus" tags="n.*"/>
+      <match lemma="virico" tags="n.*"/>
+      <match lemma="vaccino" tags="n.*"/>
+      <match lemma="vaccinazione" tags="n.*"/>
+      <match lemma="vaccinare" tags="vblex.*"/>
+      <match lemma="rivaccinazione" tags="n.*"/>
+      <match lemma="rivaccinare" tags="vblex.*"/>
+      <match lemma="profilassi" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="influenza" tags="n.*"><select lemma="grip"/></match>
   </rule>
 
   <!-- prospetto > prospecte, vista, façana -->
