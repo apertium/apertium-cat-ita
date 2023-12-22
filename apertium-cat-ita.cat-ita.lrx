@@ -330,14 +330,14 @@
       <rule weight="0.8">
         <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
-      <rule weight="1.0">
+      <rule weight="2.0">
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <or>
           <match tags="det.*"/>
           <match tags="np.*"/>
         </or>
       </rule>
-      <rule weight="1.0">
+      <rule weight="2.0">
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <or>
           <match tags="num.*"/>
@@ -345,7 +345,7 @@
         </or>
         <match tags="n.*"/>
       </rule>
-      <rule weight="1.0">
+      <rule weight="2.0">
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <or>
           <match tags="num.*"/>
@@ -354,11 +354,11 @@
         <match tags="adj.*"/>
         <match tags="n.*"/>
       </rule>
-      <rule weight="1.0">
+      <rule weight="2.0">
         <match lemma="el" tags="prn.pro.*"/>
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
       </rule>
-      <rule weight="1.0">
+      <rule weight="2.0">
         <or>
           <match tags="n.*"/>
           <match tags="adj.*"/>
@@ -562,7 +562,7 @@
       </rule>
     </def-macro>
 
-    <!-- p1 = verb ita, p2 = verb cat amb adj en masc sg, p3 = verb cat amb adj en fem sg, p4 = verb cat amb adj en masc pl, p5 = verb cat amb adj en fem pl -->
+    <!-- p1 = verb cat, p2 = verb ita amb adj en masc sg, p3 = verb ita amb adj en fem sg, p4 = verb ita amb adj en masc pl, p5 = verb ita amb adj en fem pl -->
     <def-macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl" npar="5">
       <rule weight="0.8">
         <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
@@ -582,14 +582,14 @@
         <repeat from="0" upto="2">
           <match tags="prn.pro.*"/>
         </repeat>
-        <match plemma="1" tags="vblex.*.sg"><select plemma="4"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="4"/></match>
       </rule>
       <rule weight="1.0">
         <match lemma="ell" tags="prn.tn.*.f.pl"/>
         <repeat from="0" upto="2">
           <match tags="prn.pro.*"/>
         </repeat>
-        <match plemma="1" tags="vblex.*.sg"><select plemma="5"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="np.ant.*.f.sg"/>
@@ -665,6 +665,488 @@
           <match tags="prn.pro.*"/>
         </repeat>
         <match plemma="1" tags="vblex.pp.f.pl"><select plemma="5"/></match>
+      </rule>
+    </def-macro>
+
+    <!-- p1 = verb cat, p2-p5 = verbs ta intrans, p6-p9: verbs ita trans; p2 = verb ita amb adj en masc sg, p3 = verb ita amb adj en fem sg, p4 = verb ita amb adj en masc pl, p5 = verb ita amb adj en fem pl; idem p6-p9 -->
+    <def-macro n="verb_intrans_trans_adjmsg_adjfsg_adjmpl_adjfpl" npar="9">
+
+      <!-- intrans m.sg -->
+      <rule weight="0.6">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+      </rule>
+
+
+      <!-- trans m.sg -->
+      <rule weight="1.6">
+        <match plemma="1" tags="vblex.*"><select plemma="6"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+      <rule weight="1.6">
+        <match tags="vbhaver.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="6"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+      <rule weight="1.6">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match tags="vbhaver.*"/>
+        <match plemma="1" tags="vblex.*"><select plemma="6"/></match>
+      </rule>
+      <rule weight="1.6">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match tags="vbhaver.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="6"/></match>
+      </rule>
+      <rule weight="1.6">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="6"/></match>
+      </rule>
+
+
+      <!-- intrans m.pl -->
+      <rule weight="0.8">
+        <match plemma="1" tags="vblex.*.pl"><select plemma="4"/></match>
+      </rule>
+
+
+      <!-- trans m.pl -->
+      <rule weight="1.8">
+        <match plemma="1" tags="vblex.*.pl"><select plemma="8"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+      <rule weight="1.8">
+        <match tags="vbhaver.*.pl"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="8"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+      <rule weight="1.8">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="8"/></match>
+      </rule>
+      <rule weight="1.8">
+        <match lemma="el" tags="prn.pro.*"/>
+        <match tags="vbhaver.*.pl"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.*.pl"><select plemma="8"/></match>
+      </rule>
+      <rule weight="1.8">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="8"/></match>
+      </rule>
+
+
+      <!-- intrans f.sg -->
+      <rule weight="1.0">
+        <match lemma="ell" tags="prn.tn.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="ell" tags="prn.tn.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match tags="vbhaver.*.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="np.ant.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="np.cog.*"/>
+            <match tags="" case="Aa"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="np.ant.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="np.cog.*"/>
+            <match tags="" case="Aa"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match tags="vbhaver.*.sg"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match tags="vbhaver.*.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+
+
+      <!-- trans f.sg -->
+      <rule weight="2.0">
+        <match lemma="ell" tags="prn.tn.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="7"/></match>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+      <rule weight="2.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match plemma="1" tags="vblex.pp.f.sg"><select plemma="7"/></match>
+      </rule>
+
+      <rule weight="2.0">
+        <match tags="np.ant.*.f.sg"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="np.cog.*"/>
+            <match tags="" case="Aa"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="7"/></match>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+
+      <rule weight="2.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="7"/></match>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+
+
+      <!-- intrans f.pl -->
+      <rule weight="1.0">
+        <match lemma="ell" tags="prn.tn.*.f.pl"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
+      </rule>
+      <rule weight="1.4">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.f.pl"><select plemma="5"/></match>
+      </rule>
+
+
+      <!-- trans f.pl -->
+      <rule weight="1.0">
+        <match lemma="ell" tags="prn.tn.*.f.pl"/>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="9"/></match>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="det.*"/>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <or>
+          <match tags="np.*"/>
+          <match tags="n.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </rule>
+
+      <rule weight="1.0">
+        <match tags="n.f.*"/>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="preadv"/>
+            <match tags="adj.*"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="9"/></match>
+      </rule>
+
+      <rule weight="1.4">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.pp.f.pl"><select plemma="9"/></match>
       </rule>
     </def-macro>
   </def-macros>
@@ -2775,7 +3257,19 @@
     <match lemma="engegar" tags="vblex.*"><select lemma="avviare"/></match>
   </rule>
 
-  <!-- acostumar# a > essere# abituato a, essere# abituata a, essere# abituati a, essere# abituate -->
+  <!-- anar# en contra de > essere# contrario a, essere# contraria a, essere# contrari a, essere# contrarie a -->
+  <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="anar# en contra de"/><with-param v="essere# contrario a"/><with-param v="essere# contraria a"/><with-param v="essere# contrari a"/><with-param v="essere# contrarie a"/></macro>
+
+  <!-- anar# contra > essere# contrario/ia/i/ie, essere# contrario/ia/i/ie a -->
+  <macro n="verb_intrans_trans_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="anar# contra"/><with-param v="essere# contrario"/><with-param v="essere# contraria"/><with-param v="essere# contrari"/><with-param v="essere# contrarie"/><with-param v="essere# contrario a"/><with-param v="essere# contraria a"/><with-param v="essere# contrari a"/><with-param v="essere# contrarie a"/></macro>
+
+  <!-- anar# en contra > essere# contrario/ia/i/ie, essere# contrario/ia/i/ie a -->
+  <macro n="verb_intrans_trans_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="anar# en contra"/><with-param v="essere# contrario"/><with-param v="essere# contraria"/><with-param v="essere# contrari"/><with-param v="essere# contrarie"/><with-param v="essere# contrario a"/><with-param v="essere# contraria a"/><with-param v="essere# contrari a"/><with-param v="essere# contrarie a"/></macro>
+
+  <!-- rastrejar > seguire# le trace, seguire# le trace di -->
+  <macro n="verb_intrans_trans"><with-param v="rastrejar"/><with-param v="seguire# le trace"/><with-param v="seguire# le trace di"/></macro>
+
+  <!-- acostumar# a > essere# abituato a, essere# abituata a, essere# abituati a, essere# abituate a -->
   <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="acostumar# a"/><with-param v="essere# abituato a"/><with-param v="essere# abituata a"/><with-param v="essere# abituati a"/><with-param v="essere# abituate a"/></macro>
 
   <!-- afluixar > rallentare, attenuare -->

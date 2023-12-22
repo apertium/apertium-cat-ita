@@ -524,14 +524,14 @@
         <repeat from="0" upto="2">
           <match tags="prn.pro.*"/>
         </repeat>
-        <match plemma="1" tags="vblex.*.sg"><select plemma="4"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="4"/></match>
       </rule>
       <rule weight="1.0">
         <match lemma="lui" tags="prn.tn.*.f.pl"/>
         <repeat from="0" upto="2">
           <match tags="prn.pro.*"/>
         </repeat>
-        <match plemma="1" tags="vblex.*.sg"><select plemma="5"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="np.ant.*.f.sg"/>
@@ -820,6 +820,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- sanguinoso > sanguinós, sagnant -->
+  <rule weight="0.5">
+    <match lemma="sanguinoso" tags="adj.*"><select lemma="sanguinós"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sanguinoso" tags="adj.*"><select lemma="sagnant"/></match>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- solito > habitual, mateix -->
   <rule weight="0.5">
@@ -4780,6 +4789,17 @@
       <match lemma="isola" tags="n.*"/>
       <match lemma="città" tags="n.*"/>
       <match lemma="internet" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="primavera" tags="n.*"/>
+      <match lemma="estate" tags="n.*"/>
+      <match lemma="autunno" tags="n.*"/>
+      <match lemma="inverno" tags="n.*"/>
     </or>
   </rule>
 
