@@ -2049,6 +2049,11 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- amb > con, a -->
+  <rule weight="0.6">
+    <match lemma="amb" tags="pr"><select lemma="con"/></match>
+  </rule>
+
   <!-- sub > sub, under -->
   <rule weight="0.6">
     <match lemma="sub" tags="pr"><select lemma="sub"/></match>
@@ -3255,6 +3260,35 @@
   <!-- engegar > avviare, ... -->
   <rule weight="0.6">
     <match lemma="engegar" tags="vblex.*"><select lemma="avviare"/></match>
+  </rule>
+
+  <!-- encaixar > inserirsi, adattare, adattarsi, incassare -->
+  <macro n="verb_intrans_trans"><with-param v="encaixar"/><with-param v="inserire"/><with-param v="adattare"/></macro>
+  <rule weight="2.0">
+    <match lemma="encaixar" tags="vblex.*"><select lemma="incassare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="cop" tags="n.*"/>
+      <match lemma="cop# de puny" tags="n.*"/>
+      <match lemma="cop# de peu" tags="n.*"/>
+      <match lemma="notícia" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="encaixar" tags="vblex.*"><select lemma="adattare" tags="vblex.pron.*"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="amb" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <!-- anar# en contra de > essere# contrario a, essere# contraria a, essere# contrari a, essere# contrarie a -->

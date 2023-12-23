@@ -1764,9 +1764,9 @@
     <match tags="pr"/>
     <match tags="det.*"/>
     <or>
-      <match tags="parlamento.*"/>
-      <match tags="senato.*"/>
-      <match tags="camera.*"/>
+      <match lemma="parlamento" tags="n.*"/>
+      <match lemma="senato" tags="n.*"/>
+      <match lemma="camera" tags="n.*"/>
     </or>
   </rule>
 
@@ -1794,8 +1794,16 @@
   <rule weight="0.6">
     <match lemma="maglia" tags="n.*"><select lemma="samarreta"/></match>
   </rule>
+  <rule weight="1.0">
+    <match tags="det.def.*"/>
+    <match lemma="maglia" tags="n.*"><select lemma="mallot"/></match>
+    <or>
+      <match lemma="rosso" tags="adj.*"/>
+      <match lemma="giallo" tags="adj.*"/>
+    </or>
+  </rule>
 
-  <!-- frate > frare -->
+  <!-- frate > frare, fra -->
   <rule weight="0.6">
     <match lemma="frate" tags="n.*"><select lemma="frare"/></match>
   </rule>
@@ -1940,8 +1948,13 @@
     <match lemma="rete" tags="n.*"><select lemma="xarxa"/></match>
   </rule>
   <rule weight="1.0">
-     <or><match tags="num"/><match tags="num.*"/></or>
+    <or><match tags="num"/><match tags="num.*"/></or>
     <match lemma="rete" tags="n.*"><select lemma="cistella"/></match>
+  </rule>
+
+  <!-- anticipo > avançament, bestreta -->
+  <rule weight="0.6">
+    <match lemma="anticipo" tags="n.*"><select lemma="avançament"/></match>
   </rule>
 
   <!-- borsa > bossa, borsa -->
@@ -1952,6 +1965,15 @@
     <match lemma="borsa" tags="n.*"><select lemma="bossa"/></match>
     <match lemma="di" tags="pr"/>
     <match tags="np.top.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="operatore" tags="n.*"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="quotazione" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match lemma="borsa" tags="n.*"><select lemma="bossa"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="giocare" tags="pr"/>
@@ -3362,6 +3384,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- incassare > recaptar, encaixar -->
+  <rule weight="0.6">
+    <match lemma="incassare" tags="vblex.*"><select lemma="recaptar"/></match>
+  </rule>
+
   <!-- incentrare > basar, centrar -->
   <rule weight="0.6">
     <match lemma="incentrare" tags="vblex.*"><select lemma="basar"/></match>
@@ -4602,6 +4629,11 @@
     <or>
       <match lemma="pensare"/>
       <match lemma="partecipare"/>
+      <match lemma="assurgere"/>
+      <match lemma="essere# assurto"/>
+      <match lemma="essere# assurta"/>
+      <match lemma="essere# assurti"/>
+      <match lemma="essere# assurte"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
