@@ -1205,6 +1205,145 @@
 
 <!-- **************** N **************** -->
 
+  <!-- attinenza >> rellevància, relació -->
+  <rule weight="0.8">
+    <match lemma="attinenza" tags="n.*"><select lemma="rellevància"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="attinenza" tags="n.*"><select lemma="relació"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="con" tags="pr"/>
+  </rule>
+
+  <!-- pugno >> puny, cop# de puny -->
+  <rule weight="0.8">
+    <match lemma="pugno" tags="n.*"><select lemma="puny"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="dare" tags="vblex.*"/>
+      <match lemma="tirare" tags="vblex.*"/>
+      <match lemma="sferrare" tags="vblex.*"/>
+      <match lemma="schivare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="pugno" tags="n.*"><select lemma="cop# de puny"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pugno" tags="n.*"><select lemma="cop# de puny"/></match>
+    <or>
+      <match lemma="in" tags="pr"/>
+      <match lemma="su" tags="pr"/>
+      <match lemma="a" tags="pr"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="testa" tags="n.*"/>
+      <match lemma="faccia" tags="n.*"/>
+      <match lemma="occhio" tags="n.*"/>
+      <match lemma="naso" tags="n.*"/>
+      <match lemma="bocca" tags="n.*"/>
+      <match lemma="dente" tags="n.*"/>
+      <match lemma="mascella" tags="n.*"/>
+      <match lemma="pancia" tags="n.*"/>
+      <match lemma="stomaco" tags="n.*"/>
+      <match lemma="muro" tags="n.*"/>
+      <match lemma="braccio" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- ammasso >> emmagatzemament, cúmul -->
+  <rule weight="0.8">
+    <match lemma="ammasso" tags="n.*"><select lemma="emmagatzemament"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ammasso" tags="n.*"><select lemma="cúmul"/></match>
+    <match lemma="globulare" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ammasso" tags="n.*"><select lemma="cúmul"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="galassia" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Ammasso" tags="n.*"><select lemma="cúmul"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match case="Aa"/>
+  </rule>
+
+  <!-- campo >> campo, pista -->
+  <rule weight="0.8">
+    <match lemma="campo" tags="n.*"><select lemma="campo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="campo" tags="n.*"><select lemma="pista"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <or>
+      <match lemma="pallacanestro" tags="n.*"/>
+      <match lemma="basket" tags="n.*"/>
+      <match lemma="pallamano" tags="n.*"/>
+      <match lemma="pallavolo" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="campo" tags="n.*"><select lemma="pista"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="pallacanestro" tags="n.*"/>
+      <match lemma="basket" tags="n.*"/>
+      <match lemma="cestista" tags="n.*"/>
+      <match lemma="pallamano" tags="n.*"/>
+      <match lemma="pallavolo" tags="n.*"/>
+      <match lemma="pallavolista" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+      <match lemma="tennista" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="pallacanestro" tags="n.*"/>
+      <match lemma="basket" tags="n.*"/>
+      <match lemma="cestista" tags="n.*"/>
+      <match lemma="pallamano" tags="n.*"/>
+      <match lemma="pallavolo" tags="n.*"/>
+      <match lemma="pallavolista" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+      <match lemma="tennista" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="campo" tags="n.*"><select lemma="pista"/></match>
+  </rule>
+
   <!-- utile >> benefici, guany -->
   <rule weight="0.8">
     <match lemma="utile" tags="n.*"><select lemma="benefici"/></match>
@@ -1331,7 +1470,7 @@
   </rule>
   <rule weight="1.0">
     <match lemma="capoluogo" tags="n.*"><select lemma="cap"/></match>
-    <match lemma="de" tags="pr"/>
+    <match lemma="di" tags="pr"/>
     <repeat from="0" upto="1">
       <match tags="det.*"/>
     </repeat>
@@ -1692,7 +1831,7 @@
     <match lemma="corso" tags="n.m.*"><select lemma="curs"/></match>
   </rule>
   <rule weight="1.2">
-      <match lemma="iscrivere" tags="vblex.*"/>
+    <match lemma="iscrivere" tags="vblex.*"/>
     <repeat from="0" upto="1">
       <or>
         <match tags="prn.enc.*"/>
@@ -3489,9 +3628,9 @@
     <match lemma="parte" tags="n.*"/>
   </rule>
   <rule weight="1.2">
-    <match lemma="prendere" tags="vblex.*"><select lemma="prendre"/></match>
+    <match lemma="prendere" tags="vblex.*"><select lemma="agafar"/></match>
     <match lemma="parte" tags="n.*"/>
-    <match lemma="de" tags="pr"/>
+    <match lemma="di" tags="pr"/>
   </rule>
 
   <!-- reggere > aguantar, regir -->
@@ -4170,6 +4309,9 @@
   <!-- diventare > esdevenir, tornar -->
   <macro n="verb_nopron_pron"><with-param v="diventare"/><with-param v="esdevenir"/><with-param v="tornar"/></macro>
 
+  <!-- scivolare > relliscar, esmunyir -->
+  <macro n="verb_nopron_pron"><with-param v="diventare"/><with-param v="relliscar"/><with-param v="esmunyir"/></macro>
+
   <!-- chiamare > cridar, dir -->
   <macro n="verb_nopron_pron"><with-param v="chiamare"/><with-param v="cridar"/><with-param v="dir"/></macro>
   <rule weight="1.0">
@@ -4565,7 +4707,7 @@
     </or>
   </rule>
 
-  <!-- a > a, fins, de, en -->
+  <!-- a > a, fins, de, en, per a -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
@@ -4653,7 +4795,15 @@
     <match lemma="addetto" tags="n.*"/>
     <match lemma="a" tags="pr"><select lemma="de"/></match>
   </rule>
-
+  <rule weight="1.0">
+    <match lemma="atto" tags="adj.*"/>
+    <match lemma="a" tags="pr"><select lemma="per a"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="atto" tags="adj.*"/>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
 
   <!-- su > sobre, de, en -->
   <rule weight="0.6">

@@ -2049,6 +2049,15 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- per a > per, a -->
+  <rule weight="0.6">
+    <match lemma="per a" tags="pr"><select lemma="per"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="apte" tags="adj.*"/>
+    <match lemma="per a" tags="pr"><select lemma="a"/></match>
+  </rule>
+
   <!-- amb > con, a -->
   <rule weight="0.6">
     <match lemma="amb" tags="pr"><select lemma="con"/></match>
@@ -3323,6 +3332,9 @@
 
   <!-- emmirallar > rispecchiare, specchiare -->
   <macro n="verb_nopron_pron"><with-param v="emmirallar"/><with-param v="rispecchiare"/><with-param v="specchiare"/></macro>
+
+  <!-- esmunyir > fare# passare, scivolare -->
+  <macro n="verb_nopron_pron"><with-param v="esmunyir"/><with-param v="fare# passare"/><with-param v="scivolare"/></macro>
 
   <!-- florir > fiorire, ammuffire -->
   <macro n="verb_nopron_pron"><with-param v="florir"/><with-param v="fiorire"/><with-param v="ammuffire"/></macro>
@@ -5161,6 +5173,91 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- cúmul >> cumulo, ammasso -->
+  <rule weight="0.8">
+    <match lemma="cúmul" tags="n.*"><select lemma="cumulo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cúmul" tags="n.*"><select lemma="ammasso"/></match>
+    <match lemma="globular" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cúmul" tags="n.*"><select lemma="ammasso"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="galàxia" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Cúmul" tags="n.*"><select lemma="ammasso"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match case="Aa"/>
+  </rule>
+
+  <!-- pista >> pista, campo -->
+  <rule weight="0.8">
+    <match lemma="pista" tags="n.*"><select lemma="pista"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pista" tags="n.*"><select lemma="campo"/></match>
+    <match lemma="de" tags="pr"><select lemma="da"/></match>
+    <or>
+      <match lemma="bàsquet" tags="n.*"/>
+      <match lemma="basquetbol" tags="n.*"/>
+      <match lemma="handbol" tags="n.*"/>
+      <match lemma="voleibol" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+      <match lemma="tenis" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pista" tags="n.*"><select lemma="campo"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="bàsquet" tags="n.*"/>
+      <match lemma="basquetbol" tags="n.*"/>
+      <match lemma="jugador# de bàsquet" tags="n.*"/>
+      <match lemma="jugador# de basquetbol" tags="n.*"/>
+      <match lemma="handbol" tags="n.*"/>
+      <match lemma="jugador# de handbol" tags="n.*"/>
+      <match lemma="voleibol" tags="n.*"/>
+      <match lemma="jugador# de voleibol" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+      <match lemma="tenis" tags="n.*"/>
+      <match lemma="tennista" tags="n.*"/>
+      <match lemma="tenista" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="bàsquet" tags="n.*"/>
+      <match lemma="basquetbol" tags="n.*"/>
+      <match lemma="jugador# de bàsquet" tags="n.*"/>
+      <match lemma="jugador# de basquetbol" tags="n.*"/>
+      <match lemma="handbol" tags="n.*"/>
+      <match lemma="jugador# de handbol" tags="n.*"/>
+      <match lemma="voleibol" tags="n.*"/>
+      <match lemma="jugador# de voleibol" tags="n.*"/>
+      <match lemma="tennis" tags="n.*"/>
+      <match lemma="tenis" tags="n.*"/>
+      <match lemma="tennista" tags="n.*"/>
+      <match lemma="tenista" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="pista" tags="n.*"><select lemma="campo"/></match>
+  </rule>
 
   <!-- canoner >> canoniere n.m, canoniere n.f -->
   <rule weight="0.8">
