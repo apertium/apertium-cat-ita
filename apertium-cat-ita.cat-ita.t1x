@@ -621,6 +621,15 @@
       <attr-item tags="vaux"/>
     </def-attr>
 
+    <def-attr n="a_verb_pron">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
    <def-attr n="a_pp">
       <attr-item tags="vblex.pp"/>
       <attr-item tags="vbser.pp"/>
@@ -669,8 +678,12 @@
     <def-var n="numero_aux" v="&lt;sg&gt;"/>
     <def-var n="genero_aux" v="&lt;m&gt;"/>
     <def-var n="lemma"/>
+    <def-var n="pronom"/>
     <def-var n="aux1"/>
     <def-var n="aux2"/>
+    <def-var n="debug1"/>
+    <def-var n="debug2"/>
+    <def-var n="debug3"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -1388,6 +1401,98 @@
     </def-macro>
 
 
+    <def-macro n="f_set_pron" npar="2"> <!-- posa a la variable 'pronom' el pronom reflexiu que calgui si el verb és reflexiu. El segon paramàtre és la repetició del primer, si és una forma conjugada (personal) del verb, altrament és l'auxiliar-->
+      <let><var n="pronom"/><lit v=""/></let>
+<let><var n="debug1"/><lit v="0"/></let>
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+          </test>
+          <let>
+        <var n="pronom"/>
+        <get-case-from pos="1">
+          <lit v="pronom"/>
+        </get-case-from>
+          </let>
+          <append n="pronom">
+            <lit-tag v="SN.prn.pro.ref.p3.mf.sp"/>
+            <lit v="{^"/>
+          </append>
+          <choose>
+<!-- ^pronom<SN><prn><tn><p3><m><sg>{^ell<prn><tn><p3><m><sg>$}$ ^es<prn><pro><ref><p3><mf><sp>$ -->
+            <when>
+              <test>
+                <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+              </test>
+              <append n="pronom">
+                <get-case-from pos="2">
+                  <lit v="si"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+                <lit v="$^}"/>
+              </append>
+<let><var n="debug1"/><lit v="1"/></let>
+            </when>
+            <otherwise>
+              <append n="pronom">
+                <get-case-from pos="2">
+                  <lit v="prpers"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro"/>
+                <clip pos="2" side="tl" part="pers"/>
+                <lit-tag v="mf"/>
+                <clip pos="2" side="tl" part="nbr"/>
+                <lit v="$^}"/>
+              </append>
+<let><var n="debug1"/><lit v="2"/></let>
+            </otherwise>
+          </choose>
+          <!-- ara arreglem la majúscula del verb, si cal -->
+          <choose>
+            <when>
+              <test>
+                <equal><case-of pos="2" side="sl" part="lem"/><lit v="Aa"/></equal>
+              </test>
+              <modify-case><clip pos="2" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+              <modify-case><clip pos="2" side="sl" part="lemh"/><lit v="aa"/></modify-case>
+            </when>
+          </choose>
+          <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+        </when>
+        <otherwise>
+<let><var n="debug1"/><lit v="3"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="print_pron" npar="0"> <!-- escriu la variable 'pronom' -->
+        <choose>
+          <when>
+            <test>
+              <not><equal><var n="pronom"/><lit v=""/></equal></not>
+            </test>
+            <out>
+              <lu>
+                <var n="pronom"/>
+              </lu>
+              <b/>
+            </out>
+          </when>
+        </choose>
+<!--
+            <out>
+              <lu>
+                <var n="debug1"/>
+              </lu>
+            </out>
+-->
+    </def-macro>
+
     <def-macro n="f_concord1" npar="1">
       <choose>
         <!--To determine value of variables of gender and
@@ -1544,7 +1649,7 @@
             <and>
               <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
               <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
-	      <or>
+              <or>
                 <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
                 <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
               </or>
@@ -2058,7 +2163,7 @@
             <and>
               <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
               <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
-	      <or>
+              <or>
                 <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
                 <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
               </or>
@@ -3767,7 +3872,7 @@
                   <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
                 </or>
               </test>
-	      <!-- prenem el nombre del verb auxiliar -->
+              <!-- prenem el nombre del verb auxiliar -->
               <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
             </when>
             <otherwise>
@@ -3794,7 +3899,7 @@
               </or>
             </and>
           </test>
-	  <!-- prenem el nombre del verb auxiliar -->
+          <!-- prenem el nombre del verb auxiliar -->
           <let><clip pos="3" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
         </when>
       </choose>
@@ -4388,6 +4493,14 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+            </test>
+            <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+          </when>
+        </choose>
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
@@ -8993,6 +9106,12 @@
         <pattern-item n="vfin"/>
       </pattern>
       <action>
+        <call-macro n="f_set_pron">
+          <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="print_pron">
+        </call-macro>
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
@@ -9031,21 +9150,51 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="tl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+                    <lit v="si"/>
+                    <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="tl" part="temps"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -9217,21 +9366,51 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="tl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+                    <lit v="si"/>
+                    <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="1" side="tl" part="temps"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -9246,21 +9425,51 @@
         </call-macro>
         <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <out>
-          <chunk namefrom="lemma" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="2" side="tl" part="temps"/></tag>
-            </tags>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_verb"/>
-              <clip pos="2" side="tl" part="temps"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+            </test>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="2" side="tl" part="temps"/></tag>
+                </tags>
+                <mlu>
+                  <lu>
+                    <clip pos="2" side="tl" part="lemh"/>
+                    <clip pos="2" side="tl" part="a_verb"/>
+                    <clip pos="2" side="tl" part="temps"/>
+                    <clip pos="2" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+                    <lit v="si"/>
+                    <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                  </lu>
+                </mlu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk namefrom="lemma" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="2" side="tl" part="temps"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_verb"/>
+                  <clip pos="2" side="tl" part="temps"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -10048,6 +10257,12 @@
         <pattern-item n="pp"/>
      </pattern>
      <action>
+        <call-macro n="f_set_pron">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="print_pron">
+        </call-macro>
        <call-macro n="vauxiliar">
          <with-param pos="1"/>
          <with-param pos="2"/>
@@ -11282,6 +11497,12 @@
        <pattern-item n="inf"/>
      </pattern>
      <action>
+        <call-macro n="f_set_pron">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="print_pron">
+        </call-macro>
        <call-macro n="firstWord">
          <with-param pos="1"/>
        </call-macro>
