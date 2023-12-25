@@ -1421,6 +1421,18 @@
             <lit-tag v="pl"/>
           </let>
         </when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sp"/>
+            </equal>
+          </test>
+          <let>
+            <var n="numero"/>
+            <lit-tag v="sp"/>
+          </let>
+        </when>
       </choose>
       <choose>
         <when>

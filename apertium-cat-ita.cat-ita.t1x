@@ -1560,6 +1560,18 @@
             <lit-tag v="pl"/>
           </let>
         </when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sp"/>
+            </equal>
+          </test>
+          <let>
+            <var n="numero"/>
+            <lit-tag v="sp"/>
+          </let>
+        </when>
       </choose>
       <choose>
         <when>
@@ -4490,6 +4502,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
@@ -4507,6 +4522,8 @@
               <tag><lit-tag v="SA"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -4703,6 +4720,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -4712,6 +4732,8 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="genero"/></tag>
               <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -5031,20 +5053,13 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_concord1">
           <with-param pos="2"/>
         </call-macro>
         <out>
           <chunk name="piu_adv" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SA"/></tag>
-              <tag><var n="genero"/></tag>
-              <tag><var n="numero"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
+              <tag><lit-tag v="SAdv"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -5456,6 +5471,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_concord1">
           <with-param pos="3"/>
         </call-macro>
@@ -5507,6 +5525,10 @@
       </pattern>
       <action>
         <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags2">
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord1">
@@ -5569,6 +5591,10 @@
       <action>
         <call-macro n="firstWord">
           <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_concord1">
           <with-param pos="4"/>
@@ -5633,6 +5659,10 @@
       </pattern>
       <action>
         <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags2">
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord1">
@@ -5803,8 +5833,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
@@ -5947,8 +5978,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
@@ -5996,8 +6028,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
@@ -6045,8 +6078,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
@@ -6096,8 +6130,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -6159,8 +6194,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="4"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="4"/>
@@ -6223,8 +6259,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
@@ -6782,8 +6819,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -6914,8 +6952,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -6974,8 +7013,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
@@ -7035,8 +7075,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="2"/>
@@ -7207,8 +7248,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="3"/>
+        <call-macro n="f_chunk_tags2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -7268,8 +7310,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
@@ -7330,8 +7373,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="4"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="4"/>
@@ -7403,8 +7447,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="3"/>
@@ -7477,8 +7522,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="5"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="5"/>
@@ -7553,8 +7599,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="4"/>
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="4"/>
@@ -7617,8 +7664,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
@@ -7756,8 +7804,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -7817,8 +7866,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -7881,8 +7931,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="1"/>
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
@@ -7936,8 +7987,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="4"/>
         </call-macro>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
@@ -8068,8 +8120,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_chunk_tags">
+        <call-macro n="f_chunk_tags2">
           <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_concord4">
           <with-param pos="2"/>
