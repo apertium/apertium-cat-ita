@@ -1205,6 +1205,22 @@
 
 <!-- **************** N **************** -->
 
+  <!-- modo >> mode, manera -->
+  <rule weight="0.8">
+    <match lemma="modo" tags="n.*"><select lemma="mode"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="modo" tags="n.*"><select lemma="manera"/></match>
+    <or>
+      <match tags="adj.*"/>
+      <match tags="vblex.pp.*"/>
+    </or>
+  </rule>
+
   <!-- attinenza >> rellevància, relació -->
   <rule weight="0.8">
     <match lemma="attinenza" tags="n.*"><select lemma="rellevància"/></match>
