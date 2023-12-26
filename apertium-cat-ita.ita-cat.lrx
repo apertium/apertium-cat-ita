@@ -125,6 +125,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
            <match lemma="angelo" tags="n.*"/>
@@ -154,6 +155,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
            <match lemma="angelo" tags="n.*"/>
@@ -186,6 +188,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
            <match lemma="angelo" tags="n.*"/>
@@ -217,6 +220,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
            <match lemma="angelo" tags="n.*"/>
@@ -672,6 +676,8 @@
       <match lemma="osservatore" tags="n.*"/>
       <match lemma="vescovo" tags="n.*"/>
       <match lemma="arcivescovo" tags="n.*"/>
+      <match lemma="esarca" tags="n.*"/>
+      <match lemma="patriarca" tags="n.*"/>
       <match lemma="papa" tags="n.*"/>
     </or></def-seq>
 
@@ -820,6 +826,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- confinante > veí, fronterer -->
+  <rule weight="0.5">
+    <match lemma="confinante" tags="adj.*"><select lemma="veí"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="confinante" tags="adj.*"><select lemma="fronterer"/></match>
+    <match lemma="con" tags="pr"/>
+  </rule>
 
   <!-- sanguinoso > sanguinós, sagnant -->
   <rule weight="0.5">
@@ -1204,6 +1219,46 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- biglietto >> bitllet, entrada -->
+  <rule weight="0.8">
+    <match lemma="biglietto" tags="n.*"><select lemma="bitllet"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="biglietto" tags="n.*"><select lemma="entrada"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <match lemma="spettacolo" tags="n.*"/>
+      <match lemma="cinema" tags="n.*"/>
+      <match lemma="teatro" tags="n.*"/>
+      <match lemma="concerto" tags="n.*"/>
+      <match lemma="opera" tags="n.*"/>
+      <match lemma="ballet" tags="n.*"/>
+      <match lemma="musical" tags="n.*"/>
+      <match lemma="circo" tags="n.*"/>
+      <match lemma="museo" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="biglietto" tags="n.*"><select lemma="entrada"/></match>
+    <match lemma="per" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="spettacolo" tags="n.*"/>
+      <match lemma="cinema" tags="n.*"/>
+      <match lemma="teatro" tags="n.*"/>
+      <match lemma="commedia" tags="n.*"/>
+      <match lemma="tragedia" tags="n.*"/>
+      <match lemma="concerto" tags="n.*"/>
+      <match lemma="opera" tags="n.*"/>
+      <match lemma="ballet" tags="n.*"/>
+      <match lemma="musical" tags="n.*"/>
+      <match lemma="circo" tags="n.*"/>
+      <match lemma="museo" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- modo >> mode, manera -->
   <rule weight="0.8">

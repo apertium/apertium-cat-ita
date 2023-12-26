@@ -114,6 +114,7 @@
           <match lemma="patriarca" tags="n.*"/>
           <match lemma="bisbe" tags="n.*"/>
           <match lemma="arquebisbe" tags="n.*"/>
+          <match lemma="exarca" tags="n.*"/>
           <match lemma="sant" tags="n.*"/>
           <match lemma="sant" tags="adj.*"/>
           <match lemma="apòstol" tags="n.*"/>
@@ -147,6 +148,7 @@
           <match lemma="patriarca" tags="n.*"/>
           <match lemma="bisbe" tags="n.*"/>
           <match lemma="arquebisbe" tags="n.*"/>
+          <match lemma="exarca" tags="n.*"/>
           <match lemma="sant" tags="n.*"/>
           <match lemma="sant" tags="adj.*"/>
           <match lemma="apòstol" tags="n.*"/>
@@ -183,6 +185,7 @@
           <match lemma="patriarca" tags="n.*"/>
           <match lemma="bisbe" tags="n.*"/>
           <match lemma="arquebisbe" tags="n.*"/>
+          <match lemma="exarca" tags="n.*"/>
           <match lemma="sant" tags="n.*"/>
           <match lemma="sant" tags="adj.*"/>
           <match lemma="apòstol" tags="n.*"/>
@@ -218,6 +221,7 @@
           <match lemma="patriarca" tags="n.*"/>
           <match lemma="bisbe" tags="n.*"/>
           <match lemma="arquebisbe" tags="n.*"/>
+          <match lemma="exarca" tags="n.*"/>
           <match lemma="sant" tags="n.*"/>
           <match lemma="sant" tags="adj.*"/>
           <match lemma="apòstol" tags="n.*"/>
@@ -1906,6 +1910,7 @@
       <match lemma="patriarca" tags="n.*"/>
       <match lemma="bisbe" tags="n.*"/>
       <match lemma="arquebisbe" tags="n.*"/>
+      <match lemma="exarca" tags="n.*"/>
       <match lemma="emperador" tags="n.*"/>
       <match lemma="rei" tags="n.*"/>
       <match lemma="tsar" tags="n.*"/>
@@ -4876,6 +4881,27 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- actual >> attuale, odierno -->
+  <rule weight="0.8">
+    <match lemma="actual" tags="adj.*"><select lemma="attuale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="actual" tags="adj.*"><select lemma="odierno"/></match>
+    <or>
+      <match tags="np.top.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
+<!--
+  <rule weight="1.0">
+    <or>
+      <match tags="np.top.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+    <match lemma="actual" tags="adj.*"><select lemma="odierno"/></match>
+  </rule>
+-->
+
   <!-- jònic >> ionico, ionio -->
   <rule weight="0.8">
     <match lemma="jònic" tags="adj.*"><select lemma="ionico"/></match>
@@ -5173,6 +5199,55 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- desembocadura >> foce, sbocco -->
+  <rule weight="0.8">
+    <match lemma="desembocadura" tags="n.*"><select lemma="foce"/></match>
+  </rule>
+
+  <!-- entrada >> cumulo, biglietto -->
+  <rule weight="0.8">
+    <match lemma="entrada" tags="n.*"><select lemma="entrata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="entrada" tags="n.*"><select lemma="biglietto"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="espectacle" tags="n.*"/>
+      <match lemma="cine" tags="n.*"/>
+      <match lemma="cinema" tags="n.*"/>
+      <match lemma="teatre" tags="n.*"/>
+      <match lemma="concert" tags="n.*"/>
+      <match lemma="òpera" tags="n.*"/>
+      <match lemma="ballet" tags="n.*"/>
+      <match lemma="musical" tags="n.*"/>
+      <match lemma="circ" tags="n.*"/>
+      <match lemma="museu" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="entrada" tags="n.*"><select lemma="biglietto"/></match>
+    <match lemma="per a" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="espectacle" tags="n.*"/>
+      <match lemma="funció" tags="n.*"/>
+      <match lemma="representació" tags="n.*"/>
+      <match lemma="cine" tags="n.*"/>
+      <match lemma="cinema" tags="n.*"/>
+      <match lemma="teatre" tags="n.*"/>
+      <match lemma="comèdia" tags="n.*"/>
+      <match lemma="tragèdia" tags="n.*"/>
+      <match lemma="concert" tags="n.*"/>
+      <match lemma="òpera" tags="n.*"/>
+      <match lemma="ballet" tags="n.*"/>
+      <match lemma="musical" tags="n.*"/>
+      <match lemma="circ" tags="n.*"/>
+      <match lemma="museu" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- cúmul >> cumulo, ammasso -->
   <rule weight="0.8">
