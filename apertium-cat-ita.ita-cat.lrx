@@ -34,7 +34,9 @@
          <match tags="det.*"/>
          <or>
            <match tags="adj.*"/>
-           <match lemma="conquistador" tags="n.*"/>
+           <match lemma="conquistatore" tags="n.*"/>
+           <match lemma="apostata" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -43,7 +45,9 @@
          <match tags="det.*"/>
          <or>
            <match tags="adj.*"/>
-           <match lemma="conquistador" tags="n.*"/>
+           <match lemma="conquistatore" tags="n.*"/>
+           <match lemma="apostata" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -622,6 +626,8 @@
       <match lemma="Capeto" tags="np.cog.*"/>
       <match lemma="Plantagenet" tags="np.cog.*"/>
       <match lemma="Braganza" tags="np.cog.*"/>
+      <match lemma="Orange" tags="np.cog.*"/>
+      <match lemma="Orange-Nassau" tags="np.cog.*"/>
       <match lemma="Comneno" tags="np.cog.*"/>
       <match lemma="Comnena" tags="np.cog.*"/>
       <match lemma="Paleologo" tags="np.cog.*"/>
@@ -726,6 +732,64 @@
       <match lemma="organo" tags="n.*"/>
       </or>
     </def-seq>
+
+    <def-seq n="materiale"><or>
+      <match lemma="cotone" tags="n.*.sg"/>
+      <match lemma="lana" tags="n.*.sg"/>
+      <match lemma="seda" tags="n.*.sg"/>
+      <match lemma="cuoio" tags="n.*.sg"/>
+      <match lemma="velluto" tags="n.*.sg"/>
+      <match lemma="velluto# a coste" tags="n.*.sg"/>
+      <match lemma="fustagno" tags="n.*.sg"/>
+      <match lemma="alfa" tags="n.*.sg"/>
+      <match lemma="stipa" tags="n.*.sg"/>
+      <match lemma="vimine" tags="n.*.sg"/>
+      <match lemma="vinco" tags="n.*.sg"/>
+      <match lemma="vermena" tags="n.*.sg"/>
+      <match lemma="filo" tags="n.*.sg"/>
+      <match lemma="poliestere" tags="n.*.sg"/>
+      <match lemma="carta" tags="n.*.sg"/>
+      <match lemma="panno" tags="n.*.sg"/>
+      <match lemma="roba" tags="n.*.sg"/>
+      <match lemma="plastica" tags="n.*.sg"/>
+      <match lemma="PVC" tags="n.*.sg"/>
+      <match lemma="poliestere" tags="n.*.sg"/>
+      <match lemma="nylon" tags="n.*.sg"/>
+      <match lemma="ceramica" tags="n.*.sg"/>
+      <match lemma="porcellana" tags="n.*.sg"/>
+      <match lemma="bambù" tags="n.*.sg"/>
+      <match lemma="fango" tags="n.*.sg"/>
+      <match lemma="paglia" tags="n.*.sg"/>
+      <match lemma="mattone" tags="n.*"/>
+      <match lemma="cemento" tags="n.*.sg"/>
+
+      <match lemma="metallo" tags="n.*.sg"/>
+      <match lemma="ferro" tags="n.*.sg"/>
+      <match lemma="acciaio" tags="n.*.sg"/>
+      <match lemma="nichel" tags="n.*.sg"/>
+      <match lemma="alluminio" tags="n.*.sg"/>
+      <match lemma="bauxite" tags="n.*.sg"/>
+      <match lemma="titanio" tags="n.*.sg"/>
+      <match lemma="zinco" tags="n.*.sg"/>
+      <match lemma="stagno" tags="n.*.sg"/>
+      <match lemma="tungsteno" tags="n.*.sg"/>
+      <match lemma="manganeso" tags="n.*.sg"/>
+      <match lemma="oro" tags="n.*.sg"/>
+      <match lemma="argento" tags="n.*.sg"/>
+      <match lemma="bronzo" tags="n.*.sg"/>
+      <match lemma="rame" tags="n.*.sg"/>
+      <match lemma="ottone" tags="n.*.sg"/>
+      <match lemma="platino" tags="n.*.sg"/>
+      <match lemma="diamante" tags="n.*.sg"/>
+      <match lemma="rubino" tags="n.*.sg"/>
+      <match lemma="smeraldo" tags="n.*.sg"/>
+      <match lemma="turcico" tags="n.*.sg"/>
+
+      <match lemma="legno" tags="n.*.sg"/>
+      <match lemma="carbone" tags="n.*.sg"/>
+      <match lemma="antracite" tags="n.*.sg"/>
+      <match lemma="torba" tags="n.*.sg"/>
+    </or></def-seq>
 
     <def-seq n="verbi_da"><or>
       <match lemma="andare" tags="vblex.*"/>
@@ -1219,6 +1283,60 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- panna >> nata, pana -->
+  <rule weight="0.8">
+    <match lemma="panna" tags="n.*"><select lemma="nata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mettere" tags="vblex.*"/>
+      <match tags="vbser.*"/>
+    </or>
+    <match lemma="in" tags="pr"/>
+    <match lemma="panna" tags="n.*"><select lemma="pana"/></match>
+  </rule>
+
+  <!-- polso >> pols, canyell -->
+  <rule weight="0.8">
+    <match lemma="polso" tags="n.*"><select lemma="pols"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="polso" tags="n.*.pl"><select lemma="canyell"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="polso" tags="n.*"><select lemma="canyell"/></match>
+    <or>
+      <match lemma="destro" tags="adj.*"/>
+      <match lemma="sinistro" tags="adj.*"/>
+      <match lemma="rotto" tags="adj.*"/>
+      <match lemma="rompere" tags="vblex.pp.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rompere" tags="vblex.*"/>
+    <match tags="det.*"/>
+    <match lemma="polso" tags="n.*"><select lemma="canyell"/></match>
+  </rule>
+
+  <!-- pezza >> peça, drap -->
+  <rule weight="0.8">
+    <match lemma="pezza" tags="n.*"><select lemma="peça"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="bambola" tags="n.*"/>
+    <match lemma="di" tags="pr"/>
+    <match lemma="pezza" tags="n.*"><select lemma="drap"/></match>
+  </rule>
+
+  <!-- rete >> xarxa, cistella -->
+  <rule weight="0.8">
+    <match lemma="rete" tags="n.*"><select lemma="xarxa"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="num"/>
+    <match lemma="rete" tags="n.*"><select lemma="cistella"/></match>
+  </rule>
 
   <!-- biglietto >> bitllet, entrada -->
   <rule weight="0.8">
@@ -4924,6 +5042,12 @@
     <match lemma="in" tags="pr"><select lemma="de"/></match>
     <match lemma="maniera" tags="n.*"/>
     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"><select lemma="de"/></match>
+     <or>
+       <seq n="materiale"/>
+     </or>
   </rule>
 
   <rule weight="1.0">
