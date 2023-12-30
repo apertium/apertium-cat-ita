@@ -4568,6 +4568,10 @@
       <match lemma="preparare" tags="vblex.pp.*"/>
       <match lemma="preparato" tags="adj.*"/>
       <match lemma="attrezzare" tags="vblex.pp.*"/>
+      <match lemma="ubriaco" tags="adj.*"/>
+      <match lemma="sbronzo" tags="adj.*"/>
+      <match lemma="inzuppato" tags="adj.*"/>
+      <match lemma="mollo" tags="adj.*"/>
     </or>
   </rule>
 

@@ -3315,6 +3315,26 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- anar# pet > essere# sbronzo....  -->
+  <rule weight="0.6">
+    <match lemma="anar# pet" tags="vblex.*"><select lemma="essere# sbronzo"/></match>
+  </rule>
+
+  <!-- anar# pets > essere# sbronzi....  -->
+  <rule weight="0.6">
+    <match lemma="anar# pets" tags="vblex.*"><select lemma="essere# sbronzi"/></match>
+  </rule>
+
+  <!-- estar# pet > essere# sbronzo....  -->
+  <rule weight="0.6">
+    <match lemma="estar# pet" tags="vblex.*"><select lemma="essere# sbronzo"/></match>
+  </rule>
+
+  <!-- estar# pets > essere# sbronzi....  -->
+  <rule weight="0.6">
+    <match lemma="estar# pets" tags="vblex.*"><select lemma="essere# sbronzi"/></match>
+  </rule>
+
   <!-- follar > scopare, pigiare (el raïm) -->
   <rule weight="0.6">
     <match lemma="follar" tags="vblex.*"><select lemma="scopare"/></match>
@@ -5261,6 +5281,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pet >> peto, scoreggia -->
+  <rule weight="0.8">
+    <match lemma="pet" tags="n.*"><select lemma="peto"/></match>
+  </rule>
+
   <!-- cèntim >> centesimo, soldi -->
   <rule weight="0.8">
     <match lemma="cèntim" tags="n.*"><select lemma="centesimo"/></match>
@@ -6528,9 +6553,108 @@
     <match lemma="barra" tags="n.*"><select lemma="sbarra"/></match>
   </rule>
 
-  <!-- falla > faglia, mancanza -->
-  <rule weight="0.6">
+  <!-- falla >> mancanza, faglia, falla -->
+  <rule weight="0.8">
+    <match lemma="falla" tags="n.*"><select lemma="mancanza"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+    <or>
+      <match lemma="geològic" tags="adj.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="Falla" tags="n.*"><select lemma="falla"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="València" tags="np.*"/>
+      <match lemma="Alacant" tags="np.*"/>
+      <match lemma="Sant"/>
+      <match lemma="sant"/>
+    </or>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="sant"/>
+    <match lemma="Andreu" tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="terratrèmol" tags="n.*"/>
+      <match lemma="vall" tags="n.*"/>
+      <match lemma="fossa" tags="n.*"/>
+      <match lemma="volcà" tags="n.*"/>
+      <match lemma="volcànic" tags="adj.*"/>
+      <match lemma="tectònica" tags="n.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="terratrèmol" tags="n.*"/>
+      <match lemma="vall" tags="n.*"/>
+      <match lemma="fossa" tags="n.*"/>
+      <match lemma="volcà" tags="n.*"/>
+      <match lemma="volcànic" tags="adj.*"/>
+      <match lemma="tectònica" tags="n.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="falla" tags="n.*"><select lemma="faglia"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="cremar" tags="vblex.*"/>
+      <match lemma="festa" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="cremar" tags="vblex.*"/>
+      <match lemma="festa" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
   </rule>
 
   <!-- casament > matrimonio, nozze, etc. -->
@@ -7154,7 +7278,7 @@
        <match lemma="esport" tags="n.*"/>
        <seq n="esports"/>
        <match tags="np.*"/>
-      <match tags="" case="Aa"/>
+       <match tags="" case="Aa"/>
      </or>
   </rule>
 
