@@ -336,6 +336,9 @@
     <def-cat n="rel">
       <cat-item tags="rel.*"/>
     </def-cat>
+    <def-cat n="il-cui">
+      <cat-item lemma="il cui" tags="rel.*"/>
+    </def-cat>
 
     <def-cat n="mese">
        <cat-item lemma="gennaio" tags="n.*"/>
@@ -4307,6 +4310,42 @@
               <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
               <clip pos="1" side="tl" part="nbr_sp"/>
               <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: il-cui">
+      <pattern>
+        <pattern-item n="il-cui"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="il-cui" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="rel"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="rel.aa"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>
             </lu>
           </chunk>
         </out>
