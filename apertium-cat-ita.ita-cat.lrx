@@ -891,6 +891,21 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- capitale > cabdal, capitale -->
+  <rule weight="0.5">
+    <match lemma="capitale" tags="adj.*"><select lemma="cabdal"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="pena" tags="n.*"/>
+      <match lemma="condanna" tags="n.*"/>
+      <match lemma="sentenza" tags="n.*"/>
+      <match lemma="esecuzione" tags="n.*"/>
+      <match lemma="reato" tags="n.*"/>
+    </or>
+    <match lemma="capitale" tags="adj.*"><select lemma="capital"/></match>
+  </rule>
+
   <!-- confinante > veí, fronterer -->
   <rule weight="0.5">
     <match lemma="confinante" tags="adj.*"><select lemma="veí"/></match>
@@ -4932,6 +4947,13 @@
       <match lemma="scacchi" tags="n.*"/>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="precizione" tags="n.*"/>
+  </rule>
   <rule weight="1.2">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
     <match tags="det.def.m.sg"/>
@@ -5173,6 +5195,30 @@
     </or>
   </rule>
 
+  <rule weight="1.2">
+    <or>
+      <match lemma="dividere" tags="vblex.*"/>
+      <match lemma="suddividere" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"><select lemma="en"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.top.*"/>
+      <match lemma="regione" tags="n.*"/>
+      <match lemma="dipartimento" tags="n.*"/>
+      <match lemma="provincia" tags="n.*"/>
+      <match lemma="repubblica" tags="n.*"/>
+      <match lemma="isola" tags="n.*"/>
+      <match lemma="città" tags="n.*"/>
+      <match lemma="internet" tags="n.*"/>
+    </or>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="in" tags="pr"><select lemma="a"/></match>
     <match tags="det.*"/>
@@ -5193,6 +5239,15 @@
   <rule weight="1.0">
     <match tags="det.*.pl"/>
     <match lemma="Borbone" tags="np.*"><select lemma="Borbons"/></match>
+  </rule>
+
+  <!-- Severi > Severi, Severs -->
+  <rule weight="0.8">
+    <match lemma="Severi" tags="np.*"><select lemma="Severi"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*.pl"/>
+    <match lemma="Severi" tags="np.*"><select lemma="Severs"/></match>
   </rule>
 
   <!-- Trastámara > Trastàmara, Trastàmares -->

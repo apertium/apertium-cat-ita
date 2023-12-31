@@ -2736,6 +2736,11 @@
     <match lemma="vapor" tags="n.*"/>
   </rule>
   <rule weight="1.0">
+    <match lemma="de" tags="pr"><select lemma="a"/></match>
+    <match tags="adj.*"/>
+    <match lemma="precisió" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
     <or>
       <match lemma="samarreta" tags="n.*"/>
       <match lemma="camisa" tags="n.*"/>
@@ -6156,9 +6161,23 @@
     <match lemma="diari" tags="n.*"><select lemma="giornale"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="diari" tags="n.*"><select lemma="giornale"/></match>
+    <match lemma="diari" tags="n.*"><select lemma="diario"/></match>
     <match lemma="de" tags="pr"/>
     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escriure" tags="vblex.*"/>
+    <or>
+      <match lemma="un" tags="det.*"/>
+      <match tags="det.pos.*"/>
+    </or>
+    <match lemma="diari" tags="n.*"><select lemma="diario"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escriure" tags="vblex.*"/>
+    <match lemma="en" tags="pr"/>
+    <match tags="det.pos.*"/>
+    <match lemma="diari" tags="n.*"><select lemma="diario"/></match>
   </rule>
 
   <!-- frontera > fontiera, confine -->
@@ -6603,6 +6622,7 @@
       </or>
     </repeat>
     <or>
+      <match lemma="placa" tags="n.*"/>
       <match lemma="terratrèmol" tags="n.*"/>
       <match lemma="vall" tags="n.*"/>
       <match lemma="fossa" tags="n.*"/>
@@ -7509,6 +7529,10 @@
        <match lemma="blanc" tags="adj.*"/>
        <match lemma="groc" tags="adj.*"/>
        <match lemma="blau" tags="adj.*"/>
+       <match lemma="vermell" tags="adj.*"/>
+       <match lemma="verd" tags="adj.*"/>
+       <match lemma="taronja" tags="adj.*"/>
+       <match lemma="rosa" tags="adj.*"/>
 
        <match lemma="gran" tags="adj.*"/>
        <match lemma="petit" tags="adj.*"/>
