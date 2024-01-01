@@ -1968,6 +1968,11 @@
       <match lemma="rentar" tags="vblex.*"/>
       <match lemma="saludar" tags="vblex.*"/>
     </or></def-seq>
+
+    <def-seq n="verbs_no_pron"><or> <!-- verbs pronominals en català amb una traducció que no ho és -->
+       <match lemma="desplomar" tags="vblex.*"/>
+       <match lemma="tirar# un pet" tags="vblex.*"/>
+    </or></def-seq>
   </def-seqs>
 
 <rules>
@@ -3232,12 +3237,37 @@
   <rule weight="0.6">
     <match lemma="ens" tags="prn.pro.p1.mf.pl"><select lemma="ci" tags="prn.*"/></match>
   </rule>
+  <rule weight="0.6">
+    <match lemma="ens" tags="prn.enc.p1.mf.pl"><select lemma="ci" tags="prn.*"/></match>
+  </rule>
   <rule weight="1.0">
     <match lemma="ens" tags="prn.pro.p1.mf.pl"><select lemma="ce" tags="prn.*"/></match>
     <match tags="prn.pro.*"/>
   </rule>
+  <rule weight="1.0">
+    <match lemma="ens" tags="prn.pro.p1.*"><remove tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+    <match lemma="ens" tags="prn.enc.p1.*"><remove tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ens" tags="prn.pro.p1.*"><remove tags="prn.*"/></match>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match lemma="anar" tags="vblex.pri.*"/>
+    </or>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
 
-  <!-- es > si, se -->
+  <!-- es > si, se, [remove] -->
   <rule weight="0.6">
     <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><select lemma="si" tags="prn.*"/></match>
   </rule>
@@ -3300,6 +3330,119 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="que" tags="cnjsub"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><remove tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+    <match lemma="es" tags="prn.enc.ref.p3.mf.sp"><remove tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="es" tags="prn.pro.ref.p3.mf.sp"><remove tags="prn.*"/></match>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match lemma="anar" tags="vblex.pri.*"/>
+    </or>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+
+  <!-- em > mi, [remove] -->
+  <rule weight="0.6">
+    <match lemma="em" tags="prn.pro.*"><select lemma="mi" tags="prn.*"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="em" tags="prn.enc.*"><select lemma="mi" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="em" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+    <match lemma="em" tags="prn.enc.*"><remove tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="em" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match lemma="anar" tags="vblex.pri.*"/>
+    </or>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+
+  <!-- et > ti, [remove] -->
+  <rule weight="0.6">
+    <match lemma="et" tags="prn.pro.*"><select lemma="ti" tags="prn.*"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="et" tags="prn.enc.*"><select lemma="ti" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="et" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+    <match lemma="et" tags="prn.enc.*"><remove tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="et" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match lemma="anar" tags="vblex.pri.*"/>
+    </or>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+
+  <!-- us > vi, [remove] -->
+  <rule weight="0.6">
+    <match lemma="us" tags="prn.pro.*"><select lemma="vi" tags="prn.*"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="us" tags="prn.enc.*"><select lemma="vi" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="us" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
+    <match lemma="us" tags="prn.enc.*"><remove tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="us" tags="prn.pro.*"><remove tags="prn.*"/></match>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match lemma="anar" tags="vblex.pri.*"/>
+    </or>
+    <or>
+      <seq n="verbs_no_pron"/>
+    </or>
   </rule>
 
   <!-- altre > altro, un altro -->
