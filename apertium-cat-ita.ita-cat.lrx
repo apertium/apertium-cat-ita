@@ -484,29 +484,29 @@
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="haver" tags="vbhaver.*.p1.sg"/>
+        <match tags="vbhaver.*.p1.sg"/>
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="haver" tags="vbhaver.*.p2.sg"/>
+        <match tags="vbhaver.*.p2.sg"/>
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="haver" tags="vbhaver.*.p1.pl"/>
+        <match tags="vbhaver.*.p1.pl"/>
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="haver" tags="vbhaver.*.p2.pl"/>
+        <match tags="vbhaver.*.p2.pl"/>
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="haver" tags="vbhaver.*.p3.sg"><select plemma="3"/></match>
-          <match lemma="haver" tags="vbhaver.*.p3.pl"><select plemma="3"/></match>
+          <match tags="vbhaver.*.p3.sg"><select plemma="3"/></match>
+          <match tags="vbhaver.*.p3.pl"><select plemma="3"/></match>
         </or>
         <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
@@ -796,7 +796,7 @@
       <match lemma="spostare" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
       <match lemma="emigrare" tags="vblex.*"/>
-      <match lemma="inmigrar" tags="vblex.*"/>
+      <match lemma="immigrare" tags="vblex.*"/>
       <match lemma="muovere" tags="vblex.*"/>
       <match lemma="venire" tags="vblex.*"/>
       <match lemma="entrare" tags="vblex.*"/>
@@ -805,7 +805,6 @@
       <match lemma="scendere" tags="vblex.*"/>
       <match lemma="camminare" tags="vblex.*"/>
       <!-- <match lemma="dirigere" tags="vblex.*"/> -->
-      <match lemma="apropar" tags="vblex.*"/>
       <match lemma="correre" tags="vblex.*"/>
       <match lemma="passare" tags="vblex.*"/>
       <match lemma="tornare" tags="vblex.*"/>
@@ -3990,12 +3989,12 @@
     <match lemma="discendere" tags="vblex.*"><select lemma="descendir"/></match>
   </rule>
 
-  <!-- retroceder > retrocedir, baixar (de divisió) -->
+  <!-- retrocedere > retrocedir, baixar (de divisió) -->
   <rule weight="0.6">
-    <match lemma="retroceder" tags="vblex.*"><select lemma="retrocedir"/></match>
+    <match lemma="retrocedere" tags="vblex.*"><select lemma="retrocedir"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="retroceder" tags="vblex.*"><select lemma="baixar"/></match>
+    <match lemma="retrocedere" tags="vblex.*"><select lemma="baixar"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -4015,9 +4014,16 @@
     <match lemma="film" tags="n.*"/>
   </rule>
 
-  <!-- intitolar > titular, intitular -->
+  <!-- intitolare > titular, intitular, dedicar -->
   <rule weight="0.6">
-    <match lemma="intitolar" tags="vblex.*"><select lemma="titular"/></match>
+    <match lemma="intitolare" tags="vblex.*"><select lemma="titular"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="intitolare" tags="vblex.*"><select lemma="dedicar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"/>
   </rule>
 
   <!-- andare > anar, estar -->
@@ -4358,7 +4364,7 @@
      <match lemma="guidare" tags="vblex.*"><select lemma="guiar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="guidare" tags="vblex.*"><select lemma="conduir" tags="vblex.*"/></match>
+    <match lemma="guidare" tags="vblex.*"><select lemma="conduir"/></match>
     <match tags="det.*"/>
     <match lemma="auto" tags="n.*"/>
   </rule>
@@ -4407,7 +4413,7 @@
 
   <!-- fallire > fracassar (intr), fallar (tr), fallir -->
   <rule weight="0.6">
-    <match lemma="fallir" tags="vblex.*"><select lemma="fracassar"/></match>
+    <match lemma="fallire" tags="vblex.*"><select lemma="fracassar"/></match>
   </rule>
 
   <!-- alzare > aixecar, alçar, llevar -->
@@ -4422,10 +4428,10 @@
 
   <!-- disciplinare > disciplinar, reglamentar -->
   <rule weight="0.6">
-    <match lemma="disciplinare" tags="vblex.*"><select lemma="disciplinar" tags="vblex.*"/></match>
+    <match lemma="disciplinare" tags="vblex.*"><select lemma="disciplinar"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar" tags="vblex.*"/></match>
+    <match lemma="disciplinare" tags="vblex.pp.*"><select lemma="reglamentar"/></match>
     <match lemma="da" tags="pr"/>
   </rule>
 

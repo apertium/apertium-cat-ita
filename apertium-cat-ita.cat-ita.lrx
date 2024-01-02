@@ -1392,6 +1392,40 @@
       <match lemma="títol"/>
     </or></def-seq>
 
+    <def-seq n="malaltia_contagiosa"><or>
+      <match lemma="grip" tags="n.*"/>
+      <match lemma="refredat" tags="n.*"/>
+      <match lemma="encostipat" tags="n.*"/>
+      <match lemma="coronavirus"/>
+      <match lemma="Coronavirus"/>
+      <match lemma="Covid"/>
+      <match lemma="Covid-19"/>
+      <match lemma="VIH"/>
+      <match lemma="sida"/>
+      <match lemma="pesta" tags="n.*"/>
+      <match lemma="còlera" tags="n.m.*"/>
+      <match lemma="diftèria" tags="n.*"/>
+      <match lemma="escarlatina" tags="n.*"/>
+      <match lemma="varicel·la" tags="n.*"/>
+      <match lemma="pneumonia" tags="n.*"/>
+      <match lemma="pulmonia" tags="n.*"/>
+      <match lemma="tuberculosi" tags="n.*"/>
+      <match lemma="hepatitis" tags="n.*"/>
+      <match lemma="herpes" tags="n.*"/>
+      <match lemma="polio" tags="n.*"/>
+      <match lemma="poliomielitis" tags="n.*"/>
+      <match lemma="dengue" tags="n.*"/>
+      <match lemma="ràbia" tags="n.*"/>
+      <match lemma="rubeola" tags="n.*"/>
+      <match lemma="verola" tags="n.*"/>
+      <match lemma="gastroenteritis" tags="n.*"/>
+      <match lemma="sífilis" tags="n.*"/>
+      <match lemma="tètanus" tags="n.*"/>
+      <match lemma="tos ferina" tags="n.*"/>
+      <match lemma="malària" tags="n.*"/>
+      <match lemma="gonorrea" tags="n.*"/>
+    </or></def-seq>
+
     <def-seq n="periode"><or>
       <match lemma="minut" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
@@ -3463,22 +3497,27 @@
 
 <!-- **************** V VBLEX **************** -->
 
-  <!-- anar# pet > essere# sbronzo....  -->
+  <!-- trepitjar > pestare, calpestare  -->
+  <rule weight="0.6">
+    <match lemma="trepitjar" tags="vblex.*"><select lemma="pestare"/></match>
+  </rule>
+
+  <!-- anar# pet > essere# sbronzo...  -->
   <rule weight="0.6">
     <match lemma="anar# pet" tags="vblex.*"><select lemma="essere# sbronzo"/></match>
   </rule>
 
-  <!-- anar# pets > essere# sbronzi....  -->
+  <!-- anar# pets > essere# sbronzi...  -->
   <rule weight="0.6">
     <match lemma="anar# pets" tags="vblex.*"><select lemma="essere# sbronzi"/></match>
   </rule>
 
-  <!-- estar# pet > essere# sbronzo....  -->
+  <!-- estar# pet > essere# sbronzo...  -->
   <rule weight="0.6">
     <match lemma="estar# pet" tags="vblex.*"><select lemma="essere# sbronzo"/></match>
   </rule>
 
-  <!-- estar# pets > essere# sbronzi....  -->
+  <!-- estar# pets > essere# sbronzi...  -->
   <rule weight="0.6">
     <match lemma="estar# pets" tags="vblex.*"><select lemma="essere# sbronzi"/></match>
   </rule>
@@ -3491,6 +3530,118 @@
   <!-- engegar > avviare, ... -->
   <rule weight="0.6">
     <match lemma="engegar" tags="vblex.*"><select lemma="avviare"/></match>
+  </rule>
+
+  <!-- cordar > allacciare, abbottonare -->
+  <rule weight="0.6">
+    <match lemma="cordar" tags="vblex.*"><select lemma="allacciare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cordar" tags="vblex.*"><select lemma="abbottonare"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="botó" tags="n.*"/>
+      <match lemma="botonet" tags="n.*"/>
+      <match lemma="camisa" tags="n.*"/>
+      <match lemma="brusa" tags="n.*"/>
+      <match lemma="pijama" tags="n.*"/>
+      <match lemma="sotana" tags="n.*"/>
+      <match lemma="americana" tags="n.*"/>
+      <match lemma="rebeca" tags="n.*"/>
+      <match lemma="rebequeta" tags="n.*"/>
+      <match lemma="màniga" tags="n.*"/>
+      <match lemma="mànega" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="botó" tags="n.*"/>
+      <match lemma="botonet" tags="n.*"/>
+      <match lemma="camisa" tags="n.*"/>
+      <match lemma="brusa" tags="n.*"/>
+      <match lemma="pijama" tags="n.*"/>
+      <match lemma="sotana" tags="n.*"/>
+      <match lemma="americana" tags="n.*"/>
+      <match lemma="rebeca" tags="n.*"/>
+      <match lemma="rebequeta" tags="n.*"/>
+      <match lemma="màniga" tags="n.*"/>
+      <match lemma="mànega" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="cordar" tags="vblex.*"><select lemma="abbottonare"/></match>
+  </rule>
+
+  <!-- descordar > slacciare, sbottonare -->
+  <rule weight="0.6">
+    <match lemma="descordar" tags="vblex.*"><select lemma="slacciare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="descordar" tags="vblex.*"><select lemma="sbottonare"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="botó" tags="n.*"/>
+      <match lemma="botonet" tags="n.*"/>
+      <match lemma="camisa" tags="n.*"/>
+      <match lemma="brusa" tags="n.*"/>
+      <match lemma="pijama" tags="n.*"/>
+      <match lemma="sotana" tags="n.*"/>
+      <match lemma="americana" tags="n.*"/>
+      <match lemma="rebeca" tags="n.*"/>
+      <match lemma="rebequeta" tags="n.*"/>
+      <match lemma="màniga" tags="n.*"/>
+      <match lemma="mànega" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="botó" tags="n.*"/>
+      <match lemma="botonet" tags="n.*"/>
+      <match lemma="camisa" tags="n.*"/>
+      <match lemma="brusa" tags="n.*"/>
+      <match lemma="pijama" tags="n.*"/>
+      <match lemma="sotana" tags="n.*"/>
+      <match lemma="americana" tags="n.*"/>
+      <match lemma="rebeca" tags="n.*"/>
+      <match lemma="rebequeta" tags="n.*"/>
+      <match lemma="màniga" tags="n.*"/>
+      <match lemma="mànega" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="descordar" tags="vblex.*"><select lemma="sbottonare"/></match>
+  </rule>
+
+  <!-- atendre > attendere, servire -->
+  <macro n="verb_intrans_trans"><with-param v="atendre"/><with-param v="attendere"/><with-param v="servire"/></macro>
+  <rule weight="2.0">
+    <or>
+      <match tags="sent"/>
+      <match tags="cm"/>
+    </or>
+    <match lemma="atendre" tags="vblex.pp.*"><select lemma="attendere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
   </rule>
 
   <!-- encaixar > inserirsi, adattare, adattarsi, incassare -->
@@ -3566,6 +3717,33 @@
 
   <!-- conjunyir > congiungere, unire -->
   <macro n="verb_nopron_pron"><with-param v="conjunyir"/><with-param v="congiungere"/><with-param v="unire"/></macro>
+
+  <!-- encomanar > demandare, raccomandare, contagiare -->
+  <macro n="verb_nopron_pron"><with-param v="encomanar"/><with-param v="demandare"/><with-param v="raccomandare"/></macro>
+  <rule weight="2.0">
+    <match lemma="encomanar" tags="n.*"><select lemma="contagiar"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <seq n="malaltia_contagiosa"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <seq n="malaltia_contagiosa"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="encomanar" tags="n.*"><select lemma="contagiar"/></match>
+  </rule>
 
   <!-- acomiadar > licenziare, congedare -->
   <rule weight="0.6">
@@ -3925,12 +4103,12 @@
     <match lemma="implantar" tags="vblex.*"><select lemma="introdurre"/></match>
   </rule>
 
-  <!-- baixar > scendere, discendere, ritrocedere -->
+  <!-- baixar > scendere, discendere, retrocedere -->
   <rule weight="0.6">
     <match lemma="baixar" tags="vblex.*"><select lemma="scendere"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="baixar" tags="vblex.*"><select lemma="ritrocedere"/></match>
+    <match lemma="baixar" tags="vblex.*"><select lemma="retrocedere"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -4431,6 +4609,9 @@
 
   <!-- abrigar > proteggere, coprire -->
   <macro n="verb_nopron_pron"><with-param v="abrigar"/><with-param v="proteggere"/><with-param v="coprire"/></macro>
+
+  <!-- arrambar > carpire, avvicinare -->
+  <macro n="verb_nopron_pron"><with-param v="arrambar"/><with-param v="carpire"/><with-param v="avvicinare"/></macro>
 
   <!-- forçar > forzare, violentare -->
   <rule weight="0.6">
