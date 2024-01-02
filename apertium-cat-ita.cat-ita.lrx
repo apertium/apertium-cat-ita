@@ -1837,6 +1837,7 @@
        <match lemma="fusta" tags="n.*.sg"/>
 
        <match lemma="carbó" tags="n.*.sg"/>
+       <match lemma="grafit" tags="n.*.sg"/>
        <match lemma="antracita" tags="n.*.sg"/>
        <match lemma="torba" tags="n.*.sg"/>
     </or></def-seq>
@@ -3671,6 +3672,35 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="amb" tags="pr"><select lemma="a"/></match>
+  </rule>
+
+  <!-- tombar > girare, rovesciare, voltare -->
+  <macro n="verb_intrans_trans"><with-param v="tombar"/><with-param v="girare"/><with-param v="rovesciare"/></macro>
+  <rule weight="2.0">
+    <match lemma="tombar" tags="vblex.*"><select lemma="girare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="clau" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="tombar" tags="vblex.*"><select lemma="voltare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="vista" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- anar# en contra de > essere# contrario a, essere# contraria a, essere# contrari a, essere# contrarie a -->
@@ -5609,6 +5639,127 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- dispeser >> pensionante, locandiere -->
+  <rule weight="0.8">
+    <match lemma="dispeser" tags="n.*"><select lemma="pensionante"/></match>
+  </rule>
+
+  <!-- garrot >> randello, garrotta -->
+  <rule weight="0.8">
+    <match lemma="garrot" tags="n.*"><select lemma="randello"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="garrot" tags="n.*"><select lemma="garrotar"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="condemnar" tags="vblex.*"/>
+      <match lemma="sentenciar" tags="vblex.*"/>
+      <match lemma="morir" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <match lemma="executar" tags="vblex.*"/>
+      <match lemma="ajusticiar" tags="vblex.*"/>
+      <match lemma="execució" tags="n.*"/>
+      <match lemma="mort" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="condemnar" tags="vblex.*"/>
+      <match lemma="sentenciar" tags="vblex.*"/>
+      <match lemma="morir" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <match lemma="executar" tags="vblex.*"/>
+      <match lemma="ajusticiar" tags="vblex.*"/>
+      <match lemma="execució" tags="n.*"/>
+      <match lemma="mort" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="garrot" tags="n.*"><select lemma="garrotar"/></match>
+  </rule>
+
+  <!-- grafit >> graffito, grafite -->
+  <rule weight="0.8">
+    <match lemma="grafit" tags="n.*"><select lemma="graffito"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="de" tags="pr"/>
+    <match lemma="grafit" tags="n.*"><select lemma="grafite"/></match>
+  </rule>
+
+  <!-- consigna >> parola# d'ordine, deposito# bagagli -->
+  <rule weight="0.8">
+    <match lemma="consigna" tags="n.*"><select lemma="parola# d'ordine"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="consigna" tags="n.*"><select lemma="deposito# bagagli"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="estació" tags="n.*"/>
+      <match lemma="maleta" tags="n.*"/>
+      <match lemma="equipatge" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="estació" tags="n.*"/>
+      <match lemma="maleta" tags="n.*"/>
+      <match lemma="equipatge" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="consigna" tags="n.*"><select lemma="deposito# bagagli"/></match>
+  </rule>
+
+  <!-- vista >> vista, sguardo -->
+  <rule weight="0.8">
+    <match lemma="vista" tags="n.*"><select lemma="vista"/></match>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="tombar" tags="vblex.*"/>
+      <match lemma="aixecar" tags="vblex.*"/>
+      <match lemma="posar" tags="vblex.*"/>
+      <match lemma="arribar" tags="vblex.*"/>
+      <match lemma="mantenir" tags="vblex.*"/>
+      <match lemma="clavar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="vista" tags="n.*"><select lemma="sguardo"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="vista" tags="n.*"><select lemma="sguardo"/></match>
+    <or>
+      <match lemma="tombar" tags="vblex.pp.*"/>
+      <match lemma="aixecar" tags="vblex.pp.*"/>
+      <match lemma="posar" tags="vblex.pp.*"/>
+    </or>
+  </rule>
 
   <!-- pet >> peto, scoreggia -->
   <rule weight="0.8">

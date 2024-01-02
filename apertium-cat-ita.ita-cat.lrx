@@ -787,6 +787,7 @@
 
       <match lemma="legno" tags="n.*.sg"/>
       <match lemma="carbone" tags="n.*.sg"/>
+      <match lemma="grafite" tags="n.*.sg"/>
       <match lemma="antracite" tags="n.*.sg"/>
       <match lemma="torba" tags="n.*.sg"/>
     </or></def-seq>
@@ -1297,6 +1298,42 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- consegna >> lliurament, consigna -->
+  <rule weight="0.8">
+    <match lemma="consegna" tags="n.*"><select lemma="lliurament"/></match>
+  </rule>
+
+  <!-- corrispondente >> corresponsal, corresponent -->
+  <rule weight="0.8">
+    <match lemma="corrispondente" tags="n.*"><select lemma="corresponsal"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="corrispondente" tags="n.*"><select lemma="corresponent"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="società" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="società" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="corrispondente" tags="n.*"><select lemma="corresponent"/></match>
+  </rule>
 
   <!-- panna >> nata, pana -->
   <rule weight="0.8">
