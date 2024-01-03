@@ -1059,6 +1059,8 @@
       <list-item v="Sogdiana"/>
       <list-item v="Sogdia"/>
       <list-item v="Transoxiana"/>
+      <list-item v="Corasmia"/>
+      <list-item v="Khorasan"/>
       <list-item v="Gandhara"/>
       <list-item v="Groenlandia"/>
       <list-item v="Guadalupa"/>
@@ -1096,6 +1098,7 @@
       <list-item v="Libano"/>
       <list-item v="Liberia"/>
       <list-item v="Libia"/>
+      <list-item v="Fezzan"/>
       <list-item v="Lituania"/>
       <list-item v="Lussemburgo"/>
       <list-item v="Luzon"/>
@@ -1130,6 +1133,8 @@
       <list-item v="Olanda"/>
       <list-item v="Oman"/>
       <list-item v="Pakistan"/>
+      <list-item v="Belucistan"/>
+      <list-item v="Sistan"/>
       <list-item v="Sindh"/>
       <list-item v="Palestina"/>
       <list-item v="Sindh"/>
