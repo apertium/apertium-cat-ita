@@ -542,7 +542,7 @@
         <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
       <rule weight="1.0">
-        <match tags="np.ant.*.f.sg"/>
+        <match tags="np.ant.f.sg"/>
         <repeat from="0" upto="2">
           <or>
             <match tags="np.cog.*"/>
@@ -890,6 +890,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- aterioso >> arteriós, arterial -->
+  <rule weight="0.8">
+    <match lemma="aterioso" tags="adj.*"><select lemma="arteriós"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pressione" tags="n.*"/>
+    <match lemma="aterioso" tags="adj.*"><select lemma="arterial"/></match>
+  </rule>
 
   <!-- capitale > cabdal, capitale -->
   <rule weight="0.5">
@@ -1298,6 +1307,30 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- avvento >> arribada, advent -->
+  <rule weight="0.8">
+    <match lemma="avvento" tags="n.*"><select lemma="arribada"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="calendario" tags="n.*"/>
+      <match lemma="giorno" tags="n.*"/>
+      <match lemma="domenica" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match lemma="avvento" tags="n.*"><select lemma="advent"/></match>
+  </rule>
+
+  <!-- idraulica >> fontaneria, hidràulica -->
+  <rule weight="0.8">
+    <match lemma="idraulica" tags="n.*"><select lemma="fontaneria"/></match>
+  </rule>
+
+  <!-- assediante >> assetjant, assetjador -->
+  <rule weight="0.8">
+    <match lemma="assediante" tags="n.*"><select lemma="assetjant"/></match>
+  </rule>
 
   <!-- consegna >> lliurament, consigna -->
   <rule weight="0.8">
@@ -3822,6 +3855,9 @@
     <match lemma="occorrere" tags="vblex.*"><select lemma="caldre"/></match>
   </rule>
 
+  <!-- ammalare > posar# malalt, posar# malalta, posar# malalts, posar# malaltes -->
+  <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="ammalare"/><with-param v="posar# malalt"/><with-param v="posar# malalta"/><with-param v="posar# malalts"/><with-param v="posar# malaltes"/></macro>
+
   <!-- essere# in collera > estar# enfadat, estar# enfadada, estar# enfadats, estar# enfadades -->
   <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="essere# in collera"/><with-param v="estar# enfadat"/><with-param v="estar# enfadada"/><with-param v="estar# enfadats"/><with-param v="estar# enfadades"/></macro>
 
@@ -4622,6 +4658,8 @@
       <match lemma="ispirare" tags="vblex.pp.*"/>
       <match lemma="abituare" tags="vblex.pp.*"/>
       <match lemma="abituato" tags="adj.*"/>
+      <match lemma="disporre" tags="vblex.pp.*"/>
+      <match lemma="affaticare" tags="vblex.pp.*"/>
       <match lemma="pronto" tags="adj.*"/>
       <match lemma="preparare" tags="vblex.pp.*"/>
       <match lemma="preparato" tags="adj.*"/>
@@ -4630,6 +4668,9 @@
       <match lemma="sbronzo" tags="adj.*"/>
       <match lemma="inzuppato" tags="adj.*"/>
       <match lemma="mollo" tags="adj.*"/>
+      <match lemma="malato" tags="adj.*"/>
+      <match lemma="ammalato" tags="adj.*"/>
+      <match lemma="maledetto" tags="adj.*"/>
     </or>
   </rule>
 
@@ -4825,7 +4866,7 @@
     </or>
   </rule>
 
-  <!-- da > de, per, des de -->
+  <!-- da > de, per, des de, a -->
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
@@ -4928,6 +4969,10 @@
       </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dipendenza" tags="n.*"/>
+    <match lemma="da" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <!-- tra, fra > entre, a -->

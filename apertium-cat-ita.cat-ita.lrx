@@ -600,13 +600,21 @@
         <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
       <rule weight="1.0">
-        <match tags="np.ant.*.f.sg"/>
+        <match tags="np.ant.f.sg"/>
         <repeat from="0" upto="2">
           <or>
             <match tags="np.cog.*"/>
             <match tags="" case="Aa"/>
           </or>
         </repeat>
+        <repeat from="0" upto="2">
+          <match tags="prn.pro.*"/>
+        </repeat>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="det.def.f.sg"/>
+        <match tags="np.cog.*"/>
         <repeat from="0" upto="2">
           <match tags="prn.pro.*"/>
         </repeat>
@@ -889,7 +897,7 @@
         <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match tags="np.ant.*.f.sg"/>
+        <match tags="np.ant.f.sg"/>
         <repeat from="0" upto="2">
           <or>
             <match tags="np.cog.*"/>
@@ -908,7 +916,7 @@
         <match plemma="1" tags="vblex.*.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match tags="np.ant.*.f.sg"/>
+        <match tags="np.ant.f.sg"/>
         <repeat from="0" upto="2">
           <or>
             <match tags="np.cog.*"/>
@@ -1013,7 +1021,7 @@
       </rule>
 
       <rule weight="2.0">
-        <match tags="np.ant.*.f.sg"/>
+        <match tags="np.ant.f.sg"/>
         <repeat from="0" upto="2">
           <or>
             <match tags="np.cog.*"/>
@@ -2147,6 +2155,10 @@
     <match lemma="molt" tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="da" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="addicció" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="da"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
@@ -3498,6 +3510,18 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- indisposar > ammalare, inimicare  -->
+  <rule weight="0.6">
+    <match lemma="indisposar" tags="vblex.*"><select lemma="ammalare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="indisposar" tags="vblex.*"><select lemma="inimicare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="amb" tags="pr"/>
+  </rule>
+
   <!-- trepitjar > pestare, calpestare  -->
   <rule weight="0.6">
     <match lemma="trepitjar" tags="vblex.*"><select lemma="pestare"/></match>
@@ -3726,6 +3750,9 @@
 
   <!-- decantar > decantare, inclinare -->
   <macro n="verb_nopron_pron"><with-param v="decantar"/><with-param v="decantare"/><with-param v="inclinare"/></macro>
+
+  <!-- desertificar > rendere# desertico, diventare# desertico -->
+  <macro n="verb_nopron_pron"><with-param v="desertificar"/><with-param v="rendere# desertico"/><with-param v="diventare# desertico"/></macro>
 
   <!-- enfadar > molestare, arrabbiare -->
   <macro n="verb_nopron_pron"><with-param v="enfadar"/><with-param v="molestare"/><with-param v="arrabbiare"/></macro>
@@ -4643,6 +4670,12 @@
   <!-- arrambar > carpire, avvicinare -->
   <macro n="verb_nopron_pron"><with-param v="arrambar"/><with-param v="carpire"/><with-param v="avvicinare"/></macro>
 
+  <!-- desengreixar > sgrassare, dimagrire -->
+  <macro n="verb_nopron_pron"><with-param v="desengreixar"/><with-param v="sgrassare"/><with-param v="dimagrire"/></macro>
+
+  <!-- enfosquir > infoscare, infoschire -->
+  <macro n="verb_nopron_pron"><with-param v="enfosquir"/><with-param v="infoscare"/><with-param v="infoschire"/></macro>
+
   <!-- forçar > forzare, violentare -->
   <rule weight="0.6">
      <match lemma="forçar" tags="vblex.*"><select lemma="forzare"/></match>
@@ -5321,6 +5354,34 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- arterial >> arteriale, arterioso -->
+  <rule weight="0.8">
+    <match lemma="arterial" tags="adj.*"><select lemma="arteriale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pressió" tags="n.*"/>
+    <match lemma="arterial" tags="adj.*"><select lemma="arterioso"/></match>
+  </rule>
+
+  <!-- llest >> sveglio, pronto -->
+  <rule weight="0.8">
+    <match lemma="llest" tags="adj.*"><select lemma="sveglio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="estar" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="llest" tags="adj.*"><select lemma="pronto"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="llest" tags="adj.*"><select lemma="pronto"/></match>
+    <or>
+      <match lemma="per" tags="pr"/>
+      <match lemma="per a" tags="pr"/>
+    </or>
+  </rule>
+
   <!-- actual >> attuale, odierno -->
   <rule weight="0.8">
     <match lemma="actual" tags="adj.*"><select lemma="attuale"/></match>
@@ -5640,9 +5701,239 @@
 
 <!-- **************** N **************** -->
 
+  <!-- aniversari >> anniversario, compleanno -->
+  <rule weight="0.8">
+    <match lemma="aniversari" tags="n.*"><select lemma="anniversario"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+    <match lemma="aniversari" tags="n.*"><select lemma="compleanno"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="aniversari" tags="n.*"><select lemma="compleanno"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="8">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="aniversari" tags="n.*"><select lemma="compleanno"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <seq n="familiar"/>
+      <seq n="noble"/>
+      <match lemma="president" tags="n.*"/>
+      <match lemma="ministre" tags="n.*"/>
+      <match lemma="professor" tags="n.*"/>
+      <match lemma="mestre" tags="n.*"/>
+      <match lemma="alumne" tags="n.*"/>
+      <match lemma="cap" tags="n.*"/>
+      <match lemma="director" tags="n.*"/>
+    </or>
+  </rule>
+
+
+  <!-- guanició >> guarnigione, guarnizione -->
+  <rule weight="0.8">
+    <match lemma="guanició" tags="n.*"><select lemma="guarnigione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guanició" tags="n.*"><select lemma="guarnizione"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="patata" tags="n.*"/>
+      <match lemma="mongeta" tags="n.*"/>
+      <match lemma="pastanaga" tags="n.*"/>
+      <match lemma="pèsol" tags="n.*"/>
+      <match lemma="verdura" tags="adj.*"/>
+      <match lemma="llegum" tags="n.*"/>
+      <match lemma="arròs" tags="n.*"/>
+      <match lemma="carn" tags="n.*"/>
+      <match lemma="peix" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="patata" tags="n.*"/>
+      <match lemma="mongeta" tags="n.*"/>
+      <match lemma="pastanaga" tags="n.*"/>
+      <match lemma="pèsol" tags="n.*"/>
+      <match lemma="verdura" tags="adj.*"/>
+      <match lemma="llegum" tags="n.*"/>
+      <match lemma="arròs" tags="n.*"/>
+      <match lemma="carn" tags="n.*"/>
+      <match lemma="peix" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="guanició" tags="n.*"><select lemma="guarnizione"/></match>
+  </rule>
+
+  <!-- menor >> minorenne, minore -->
+  <rule weight="0.8">
+    <match lemma="menor" tags="n.*"><select lemma="minorenne"/></match>
+  </rule>
+
+  <!-- assetjador >> assediante, molestatore -->
+  <rule weight="0.8">
+    <match lemma="assetjador" tags="n.*"><select lemma="assediante"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="assetjador" tags="n.*"><select lemma="molestatore"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="sexe" tags="n.*"/>
+      <match lemma="sexual" tags="adj.*"/>
+      <match lemma="treball" tags="n.*"/>
+      <match lemma="escola" tags="n.*"/>
+      <match lemma="escolar" tags="adj.*"/>
+      <match lemma="assetjament escolar" tags="n.*"/>
+      <match lemma="bullying" tags="n.*"/>
+      <match lemma="assetjament laboral" tags="n.*"/>
+      <match lemma="mobbing" tags="n.*"/>
+      <match lemma="assetjament sexual" tags="n.*"/>
+      <match lemma="tocament" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="sexe" tags="n.*"/>
+      <match lemma="sexual" tags="adj.*"/>
+      <match lemma="treball" tags="n.*"/>
+      <match lemma="escola" tags="n.*"/>
+      <match lemma="escolar" tags="adj.*"/>
+      <match lemma="assetjament escolar" tags="n.*"/>
+      <match lemma="bullying" tags="n.*"/>
+      <match lemma="assetjament laboral" tags="n.*"/>
+      <match lemma="mobbing" tags="n.*"/>
+      <match lemma="assetjament sexual" tags="n.*"/>
+      <match lemma="tocament" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="assetjador" tags="n.*"><select lemma="molestatore"/></match>
+  </rule>
+
   <!-- dispeser >> pensionante, locandiere -->
   <rule weight="0.8">
     <match lemma="dispeser" tags="n.*"><select lemma="pensionante"/></match>
+  </rule>
+
+  <!-- canonada >> tubazione, cannonata -->
+  <rule weight="0.8">
+    <match lemma="canonada" tags="n.*"><select lemma="tubazione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"/>
+    <match lemma="canonada" tags="n.f.pl"><select lemma="cannonata"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="canonada" tags="n.f.pl"><select lemma="tubazione"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="ferro" tags="n.*"/>
+      <match lemma="plom" tags="n.*"/>
+      <match lemma="coure" tags="n.*"/>
+      <match lemma="PVC" tags="n.*"/>
+      <match lemma="polietilè" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="sentir" tags="vblex.*"/>
+      <match lemma="sonar" tags="vblex.*"/>
+      <match lemma="tirar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="canonada" tags="n.f.pl"><select lemma="cannonata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="canonada" tags="n.*"><select lemma="cannonata"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="canó" tags="n.*"/>
+      <match lemma="batalla" tags="n.*"/>
+      <match lemma="mort" tags="n.*"/>
+      <match lemma="general" tags="n.*"/>
+      <match lemma="coronel" tags="n.*"/>
+      <match lemma="comandant" tags="n.*"/>
+      <match lemma="capità" tags="n.*"/>
+      <match lemma="tinent" tags="n.*"/>
+      <match lemma="soldat" tags="n.*"/>
+      <match lemma="artilleria" tags="n.*"/>
+      <match lemma="artiller" tags="n.*"/>
+      <match lemma="tret" tags="n.*"/>
+      <match lemma="bomba" tags="n.*"/>
+      <match lemma="obús" tags="n.*"/>
+      <match lemma="atacar" tags="vblex.*"/>
+      <match lemma="disparar" tags="vblex.*"/>
+      <match lemma="morir" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <match lemma="retrunyir" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="canó" tags="n.*"/>
+      <match lemma="batalla" tags="n.*"/>
+      <match lemma="mort" tags="n.*"/>
+      <match lemma="general" tags="n.*"/>
+      <match lemma="coronel" tags="n.*"/>
+      <match lemma="comandant" tags="n.*"/>
+      <match lemma="capità" tags="n.*"/>
+      <match lemma="tinent" tags="n.*"/>
+      <match lemma="soldat" tags="n.*"/>
+      <match lemma="artilleria" tags="n.*"/>
+      <match lemma="artiller" tags="n.*"/>
+      <match lemma="tret" tags="n.*"/>
+      <match lemma="bomba" tags="n.*"/>
+      <match lemma="obús" tags="n.*"/>
+      <match lemma="atacar" tags="vblex.*"/>
+      <match lemma="disparar" tags="vblex.*"/>
+      <match lemma="morir" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <match lemma="retrunyir" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="canonada" tags="n.*"><select lemma="cannonata"/></match>
   </rule>
 
   <!-- garrot >> randello, garrotta -->
@@ -5650,7 +5941,7 @@
     <match lemma="garrot" tags="n.*"><select lemma="randello"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="garrot" tags="n.*"><select lemma="garrotar"/></match>
+    <match lemma="garrot" tags="n.*"><select lemma="garrotta"/></match>
     <repeat from="0" upto="8">
       <or>
         <match tags="*"/>
@@ -5685,7 +5976,7 @@
         <match tags=""/>
       </or>
     </repeat>
-    <match lemma="garrot" tags="n.*"><select lemma="garrotar"/></match>
+    <match lemma="garrot" tags="n.*"><select lemma="garrottta"/></match>
   </rule>
 
   <!-- grafit >> graffito, grafite -->
@@ -6044,6 +6335,15 @@
     <match lemma="de" tags="pr"/>
     <match tags="det.def.*"/>
     <match lemma="anell" tags="n.*"/>
+  </rule>
+
+  <!-- mogol >> moghul, mogol -->
+  <rule weight="0.8">
+    <match lemma="mogol" tags="n.*"><select lemma="moghul"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="gran" tags="adj.*"/>
+    <match lemma="mogol" tags="n.*"><select lemma="mogol"/></match>
   </rule>
 
   <!-- assetjament >> assedio, bullismo -->
