@@ -1044,6 +1044,7 @@
       <list-item v="Ionia"/>
       <list-item v="Frigia"/>
       <list-item v="Bitinia"/>
+      <list-item v="Caria"/>
       <list-item v="Licia"/>
       <list-item v="Cilicia"/>
       <list-item v="Cappadocia"/>
@@ -1137,7 +1138,6 @@
       <list-item v="Sistan"/>
       <list-item v="Sindh"/>
       <list-item v="Palestina"/>
-      <list-item v="Sindh"/>
       <list-item v="Panama"/>
       <list-item v="Papua"/>
       <list-item v="Paraguay"/>
