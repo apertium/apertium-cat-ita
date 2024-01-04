@@ -9662,11 +9662,11 @@
                     <clip pos="1" side="tl" part="lemh"/>
                     <clip pos="1" side="tl" part="a_verb"/>
                     <clip pos="1" side="tl" part="temps"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                   <lu>
 	                <lit v="es"/>
 	                <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                    <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                 </mlu>
               </chunk>
@@ -9785,11 +9785,11 @@
                     <clip pos="1" side="tl" part="lemh"/>
                     <clip pos="1" side="tl" part="a_verb"/>
                     <clip pos="1" side="tl" part="temps"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                   <lu>
 	                <lit v="es"/>
 	                <lit-tag v="prn.enc.ref.p3.mf.sp"/>
+                    <clip pos="1" side="tl" part="lemq"/>
                   </lu>
                 </mlu>
               </chunk>
