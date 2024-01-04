@@ -5701,6 +5701,91 @@
 
 <!-- **************** N **************** -->
 
+  <!-- poll >> pioppo nero, pulcino, pidocchio -->
+  <rule weight="0.8">
+    <match lemma="poll" tags="n.*"><select lemma="pioppo nero"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="poll" tags="n.*"><select lemma="pulcino"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ou" tags="n.*"/>
+      <match lemma="gall" tags="n.*"/>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="galliner" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ou" tags="n.*"/>
+      <match lemma="gall" tags="n.*"/>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="galliner" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="poll" tags="n.*"><select lemma="pulcino"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tenir" tags="vblex.*"/>
+    <match lemma="poll" tags="n.m.pl"><select lemma="pidocchio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="treure" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="poll" tags="n.m.pl"><select lemma="pidocchio"/></match>
+  </rule>
+
+  <!-- tapa >> coperchio, copertina -->
+  <rule weight="0.8">
+    <match lemma="tapa" tags="n.*"><select lemma="coperchio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tapa" tags="n.*"><select lemma="copertina"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="llibre" tags="n.*"/>
+      <match lemma="novel·la" tags="n.*"/>
+      <match lemma="diccionari" tags="n.*"/>
+      <match lemma="enciclopèdia" tags="n.*"/>
+      <match lemma="volum" tags="n.*"/>
+      <match lemma="tom" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="llibre" tags="n.*"/>
+      <match lemma="novel·la" tags="n.*"/>
+      <match lemma="diccionari" tags="n.*"/>
+      <match lemma="enciclopèdia" tags="n.*"/>
+      <match lemma="volum" tags="n.*"/>
+      <match lemma="tom" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="tapa" tags="n.*"><select lemma="copertina"/></match>
+  </rule>
+
   <!-- aniversari >> anniversario, compleanno -->
   <rule weight="0.8">
     <match lemma="aniversari" tags="n.*"><select lemma="anniversario"/></match>
@@ -5712,7 +5797,7 @@
   <rule weight="1.0">
     <match lemma="aniversari" tags="n.*"><select lemma="compleanno"/></match>
     <match lemma="de" tags="pr"/>
-    <repeat from="0" upto="8">
+    <repeat from="0" upto="1">
       <match tags="det.def.*"/>
     </repeat>
     <or>
@@ -8633,21 +8718,21 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
-  <!-- vestit > robe, costume --> <!-- cat > fra -->
+  <!-- vestit > vestito, completo -->
   <rule weight="0.8">
-    <match lemma="vestit" tags="n.*"><select lemma="robe"/></match>
+    <match lemma="vestit" tags="n.*"><select lemma="vestito"/></match>
   </rule>
 
-  <!-- volt > tour, volt --> <!-- cat > fra -->
+  <!-- volt > giro, volt -->
   <rule weight="0.8">
-    <match lemma="volt" tags="n.*"><select lemma="tour"/></match>
+    <match lemma="volt" tags="n.*"><select lemma="giro"/></match>
   </rule>
   <rule weight="1.0">
     <or><match tags="num.*"/><match tags="num"/></or>
     <match lemma="volt" tags="n.*"><select lemma="volt"/></match>
   </rule>
   <rule weight="1.2">
-    <match lemma="volt" tags="n.*"><select lemma="tour"/></match>
+    <match lemma="volt" tags="n.*"><select lemma="giro"/></match>
     <or>
       <match lemma="a" tags="pr"/>
       <match lemma="per" tags="pr"/>
