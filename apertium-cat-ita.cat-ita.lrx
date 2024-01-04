@@ -5701,6 +5701,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- sol·licitud >> richiesta, sollecitudine -->
+  <rule weight="0.8">
+    <match lemma="sol·licitud" tags="n.*"><select lemma="richiesta"/></match>
+  </rule>
+
   <!-- poll >> pioppo nero, pulcino, pidocchio -->
   <rule weight="0.8">
     <match lemma="poll" tags="n.*"><select lemma="pioppo nero"/></match>
@@ -7208,22 +7213,24 @@
     <match lemma="clausura" tags="n.*"><select lemma="clausura"/></match>
   </rule>
 
-  <!-- coca > coca, torta -->
+  <!-- coca > coca, focaccia -->
   <rule weight="0.6">
     <match lemma="coca" tags="n.*"><select lemma="coca"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="menjar" tags="vblex.*"/>
-    <match lemma="coca" tags="n.*"><select lemma="torta"/></match>
+    <match lemma="coca" tags="n.*"><select lemma="focaccia"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="coca" tags="n.*"><select lemma="torta"/></match>
+    <match lemma="coca" tags="n.*"><select lemma="focaccia"/></match>
     <match lemma="de" tags="pr"/>
     <or>
       <match lemma="llardó" tags="n.*"/>
       <match lemma="fruita" tags="n.*"/>
       <match lemma="pastisser" tags="n.*"/>
       <match lemma="pastisseria" tags="n.*"/>
+      <match lemma="sant"/>
+      <match lemma="Sant"/>
     </or>
   </rule>
 
