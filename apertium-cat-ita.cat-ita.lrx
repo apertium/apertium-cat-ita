@@ -5354,6 +5354,31 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- policial >> di polizia, dalla polizia -->
+  <rule weight="0.8">
+    <match lemma="policial" tags="adj.*"><select lemma="dalla polizia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="estat" tags="n.*"/>
+       <match lemma="investigació" tags="n.*"/>
+       <match lemma="cos" tags="n.*"/>
+     </or>
+    <match lemma="policial" tags="adj.*"><select lemma="di polizia"/></match>
+  </rule>
+
+  <!-- mongòlic >> mongoloide, mongolico -->
+  <rule weight="0.8">
+    <match lemma="mongòlic" tags="adj.*"><select lemma="mongoloide"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="llengua" tags="n.*"/>
+       <match lemma="poble" tags="n.*"/>
+     </or>
+    <match lemma="mongòlic" tags="adj.*"><select lemma="mongolico"/></match>
+  </rule>
+
   <!-- arterial >> arteriale, arterioso -->
   <rule weight="0.8">
     <match lemma="arterial" tags="adj.*"><select lemma="arteriale"/></match>
