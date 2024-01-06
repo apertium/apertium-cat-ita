@@ -4685,6 +4685,38 @@
     </rule>
 
 
+    <rule comment="REGLA: DET ANT > ANT (en Carles > Carles)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="ant"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="np" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: NP">
       <pattern>
         <pattern-item n="np"/>
